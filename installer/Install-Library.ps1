@@ -10,6 +10,19 @@ param(
 )
 $ErrorActionPreference = 'Stop'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+function ConvertTo-LongPath([string]$PathValue) {
+    $slash = [string][char]92
+    $prefix = $slash + $slash + '?' + $slash
+    if ($PathValue.StartsWith($prefix)) { return $PathValue }
+    if ($PathValue.StartsWith($slash + $slash)) { return $prefix + 'UNC' + $slash + $PathValue.Substring(2) }
+    return $prefix + $PathValue
+}
+function Get-FileSha256([string]$PathValue) {
+    $stream = [IO.File]::OpenRead((ConvertTo-LongPath $PathValue))
+    $hasher = [Security.Cryptography.SHA256]::Create()
+    try { return ([BitConverter]::ToString($hasher.ComputeHash($stream))).Replace('-', '').ToLowerInvariant() }
+    finally { $hasher.Dispose(); $stream.Dispose() }
+}
 if (-not $Destination) {
     $Destination = Join-Path ([Environment]::GetFolderPath('LocalApplicationData')) "TM2020 Material Assets Library\$Edition\$Version"
 }
@@ -50,8 +63,8 @@ foreach ($asset in $manifest.archives) {
             $target = [IO.Path]::GetFullPath((Join-Path $stage $entry.FullName))
             if (-not $target.StartsWith($stagePrefix, [StringComparison]::OrdinalIgnoreCase)) { throw 'Archive path escapes the installation folder.' }
             if (-not $extracted.Add($entry.FullName.Replace('\', '/'))) { throw 'Duplicate archive entry.' }
-            New-Item -ItemType Directory -Force -Path ([IO.Path]::GetDirectoryName($target)) | Out-Null
-            [IO.Compression.ZipFileExtensions]::ExtractToFile($entry, $target, $false)
+            [IO.Directory]::CreateDirectory((ConvertTo-LongPath ([IO.Path]::GetDirectoryName($target)))) | Out-Null
+            [IO.Compression.ZipFileExtensions]::ExtractToFile($entry, (ConvertTo-LongPath $target), $false)
         }
     } finally { $zip.Dispose() }
 }
@@ -62,7 +75,7 @@ foreach ($file in $expectedFiles) {
     $target = [IO.Path]::GetFullPath((Join-Path $stage $file.Name))
     if (-not $target.StartsWith($stagePrefix, [StringComparison]::OrdinalIgnoreCase)) { throw 'Invalid manifest path.' }
     if (-not $extracted.Contains($file.Name)) { throw "Missing file: $($file.Name)" }
-    if ((Get-FileHash -LiteralPath $target -Algorithm SHA256).Hash -ne $file.Value) { throw "Installed checksum mismatch: $($file.Name)" }
+    if ((Get-FileSha256 $target) -ne $file.Value) { throw "Installed checksum mismatch: $($file.Name)" }
 }
 Move-Item -LiteralPath $stage -Destination $Destination
 Write-Host "Installed to: $Destination"
