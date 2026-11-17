@@ -7,7 +7,7 @@ import shutil
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-MAX_UNCOMPRESSED = 1_500_000_000
+MAX_UNCOMPRESSED = 96_000_000
 
 
 def sha(path):

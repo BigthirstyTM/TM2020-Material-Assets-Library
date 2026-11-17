@@ -25,7 +25,7 @@ python tools/package_releases.py --staging build/staging --output dist
 
 Use an empty staging/output directory for a new build. `prepare_payloads.py` may hard-link input texture files to save disk space. Do not edit staged texture files; ZIP archives contain independent bytes.
 
-The Blender build preserves asset UUIDs, saved previews, material properties, shader graphs, animation, 20 Worlds and 42 asset node groups. It writes relative texture paths and places Preview only under the library's `08` category. Materials Only excludes the unbound assets.
+The Blender build preserves asset UUIDs, saved previews, material properties, shader graphs, animation, 20 Worlds and 42 asset node groups. It writes relative texture paths and places Preview only under the library's `08` category. Materials Only excludes the unbound assets. New texture packages target at most 96 MB before compression to keep upload retries short. Earlier successfully uploaded components may be larger; `release.json` is the authoritative package list.
 
 Fresh Blender processes reopen each staged library and check image availability, asset counts, catalog references and saved icons. Packaging reads every ZIP member back and compares its SHA-256. Each ZIP stays below 2 GB. These are packaging checks, not additional claims about game runtime behaviour.
 
