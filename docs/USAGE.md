@@ -30,3 +30,5 @@ Open `Catalogue/index.html` for searchable material thumbnails and usage details
 Open `Examples/Material-Usage.blend` for three editable sample cubes using RoadTech, RoadDirt and CustomIce. Each has `BaseMaterial` and `LightMap` UV layers and its own collection. This is a Blender usage example; configure your normal item placement, lightmap unwrap and V2 export options before exporting. Keep the example inside the installed folder so its relative texture paths continue to resolve.
 
 Open `Examples/Water-Animation-Preview.blend` to inspect animated water over a small basin using a native HDR World. Play the timeline in Material Preview or Rendered shading. Keep it inside `Examples` so the texture paths resolve.
+
+Open `Examples/Water-Clarity-Example.blend` to see a patterned floor through animated water without enabling Eevee ray tracing. [Surface previews](SURFACE-PREVIEWS.md) explains the water/CustomGlass clarity and physical-refraction modes, layered ice, terrain transitions and refracted screen layers.

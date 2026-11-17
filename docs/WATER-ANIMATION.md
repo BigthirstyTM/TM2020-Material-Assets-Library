@@ -1,5 +1,7 @@
 # Water animation preview
 
+For the current water transparency and optional physical refraction controls, see [Surface previews](SURFACE-PREVIEWS.md). The animation controls below remain available.
+
 The five ordinary water assets now have animated ripples in Blender:
 
 - `TM_Water_asset` (Stadium)

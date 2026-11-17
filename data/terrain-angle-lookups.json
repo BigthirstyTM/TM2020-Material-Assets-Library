@@ -1,0 +1,106 @@
+[
+  {
+    "file": "ACosSmooth_CliffPxzToLandPy.Texture.Gbx",
+    "GenKind": 33,
+    "IntParams": [
+      1024,
+      1,
+      0
+    ],
+    "RealParams": [
+      0.45,
+      0.7
+    ]
+  },
+  {
+    "file": "ACosSmoothDefault.Texture.Gbx",
+    "GenKind": 33,
+    "IntParams": [
+      1024,
+      1,
+      0
+    ],
+    "RealParams": [
+      0.3,
+      0.6
+    ]
+  },
+  {
+    "file": "ACosSmoothDefaultPy.Texture.Gbx",
+    "GenKind": 33,
+    "IntParams": [
+      1024,
+      1,
+      0
+    ],
+    "RealParams": [
+      0.25,
+      0.3
+    ]
+  },
+  {
+    "file": "ACosSmoothDefaultPyPxz.Texture.Gbx",
+    "GenKind": 33,
+    "IntParams": [
+      1024,
+      1,
+      0
+    ],
+    "RealParams": [
+      0.45,
+      0.7
+    ]
+  },
+  {
+    "file": "ACosSmoothtPyPxzShort.Texture.Gbx",
+    "GenKind": 33,
+    "IntParams": [
+      1024,
+      1,
+      0
+    ],
+    "RealParams": [
+      0.45,
+      0.5
+    ]
+  },
+  {
+    "file": "DirtHill_ACosSmoothPyPxz.Texture.Gbx",
+    "GenKind": 33,
+    "IntParams": [
+      1024,
+      1,
+      1
+    ],
+    "RealParams": [
+      38.247,
+      50.302
+    ]
+  },
+  {
+    "file": "LakeBottomACosSmoothPyPxz.Texture.Gbx",
+    "GenKind": 33,
+    "IntParams": [
+      1024,
+      1,
+      0
+    ],
+    "RealParams": [
+      0.05,
+      0.1
+    ]
+  },
+  {
+    "file": "ThemeRallyCastleWall_ACosSmoothPyPxz.Texture.Gbx",
+    "GenKind": 33,
+    "IntParams": [
+      1024,
+      1,
+      0
+    ],
+    "RealParams": [
+      0.4,
+      0.45
+    ]
+  }
+]

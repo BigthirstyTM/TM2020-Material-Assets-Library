@@ -23,6 +23,8 @@ Both editions include **animated water previews** for Stadium, BlueBay, GreenCoa
 
 <img src="docs/images/water-animation.gif" alt="Animated Stadium water preview rendered in Blender" width="640">
 
+The current refresh also adds water transparency in Eevee, internal ice depth and colouring, terrain angle transitions, and improved CustomGlass and parallax-screen refraction previews. See [Surface preview controls](docs/SURFACE-PREVIEWS.md) for settings and approximation limits.
+
 Native-linked means an export link is available. It is not a blanket guarantee of in-game visibility, identical appearance, physics or crash-free behaviour. Preview only assets have no confirmed export route and are kept under **Trackmania2020 → 08 Preview only**. This includes vegetation previews that are not currently exportable through this library.
 
 ## Install on Windows
