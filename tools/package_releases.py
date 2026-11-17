@@ -5,9 +5,11 @@ import json
 from pathlib import Path
 import shutil
 import zipfile
+import math
+import zlib
 
 ROOT = Path(__file__).resolve().parents[1]
-MAX_UNCOMPRESSED = 96_000_000
+MAX_ARCHIVE_BYTES = 1_900_000_000
 
 
 def sha(path):
@@ -15,36 +17,43 @@ def sha(path):
         return hashlib.file_digest(stream, 'sha256').hexdigest()
 
 
+def compressed_size(path):
+    compressor = zlib.compressobj(level=4, wbits=-15)
+    total = 0
+    with path.open('rb') as stream:
+        while chunk := stream.read(1024 * 1024):
+            total += len(compressor.compress(chunk))
+    return total + len(compressor.flush()) + 1024
+
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument('--staging', type=Path, required=True)
     p.add_argument('--output', type=Path, required=True)
-    p.add_argument('--reuse-textures', action='store_true')
     a = p.parse_args()
     for edition in ('materials-only', 'complete'):
         source = a.staging / edition
         output = a.output / edition
         output.mkdir(parents=True, exist_ok=True)
         files = sorted(p for p in source.rglob('*') if p.is_file())
-        groups = [[p for p in files if p.relative_to(source).parts[0] != 'Textures']]
-        for path in files:
-            if path.relative_to(source).parts[0] != 'Textures':
-                continue
-            if len(groups) == 1 or sum(p.stat().st_size for p in groups[-1]) + path.stat().st_size > MAX_UNCOMPRESSED:
-                groups.append([])
-            assert path.stat().st_size < MAX_UNCOMPRESSED, path
-            groups[-1].append(path)
+        estimates = {path: compressed_size(path) for path in files}
+        part_count = max(1, math.ceil(sum(estimates.values()) / MAX_ARCHIVE_BYTES))
+        groups = [[] for _ in range(part_count)]
+        sizes = [0 for _ in groups]
+        for path in sorted(files, key=lambda path: (-estimates[path], path.as_posix())):
+            index = min(range(part_count), key=lambda i: sizes[i])
+            groups[index].append(path)
+            sizes[index] += estimates[path]
         manifest = dict(version='1.0.0', edition=edition, archives=[], files={})
         for index, members in enumerate(groups):
-            label = 'library' if index == 0 else f'textures-{index:02d}'
+            label = f'part{index + 1:02d}'
             dest = output / f'TM2020-1.0.0-{edition}-{label}.zip'
             for path in members:
                 manifest['files'][path.relative_to(source).as_posix()] = sha(path)
-            if not (a.reuse_textures and index > 0 and dest.is_file()):
-                with zipfile.ZipFile(dest, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=4, allowZip64=True) as archive:
-                    for path in members:
-                        archive.write(path, path.relative_to(source).as_posix())
-            assert dest.stat().st_size < 2_000_000_000, dest
+            with zipfile.ZipFile(dest, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=4, allowZip64=True) as archive:
+                for path in sorted(members):
+                    archive.write(path, path.relative_to(source).as_posix())
+            assert dest.stat().st_size < MAX_ARCHIVE_BYTES, dest
             with zipfile.ZipFile(dest) as archive:
                 assert set(archive.namelist()) == {path.relative_to(source).as_posix() for path in members}
                 for name in archive.namelist():
