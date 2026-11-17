@@ -17,6 +17,8 @@ The badges above show the material count in each edition and the Blender version
 
 Both editions include 20 HDRI World assets, 42 shader node-group assets, their required textures, `MaterialLib.txt`, and an offline material catalogue. **Choose one edition**; Complete already includes everything in Materials Only.
 
+Each edition has **two ZIP downloads**. Extract both into the same folder for manual installation, or use the installer to download and combine them automatically.
+
 Native-linked means an export link is available. It is not a blanket guarantee of in-game visibility, identical appearance, physics or crash-free behaviour. Preview only assets have no confirmed export route and are kept under **Trackmania2020 → 08 Preview only**. This includes vegetation previews that are not currently exportable through this library.
 
 ## Install on Windows
