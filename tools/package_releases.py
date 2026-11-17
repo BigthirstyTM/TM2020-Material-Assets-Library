@@ -31,8 +31,9 @@ def main():
     p.add_argument('--staging', type=Path, required=True)
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--previous', type=Path, help='Reuse compressed-size estimates for hash-identical files in previous packages')
+    p.add_argument('--edition', choices=('materials-only', 'complete'), help='Build only one edition')
     a = p.parse_args()
-    for edition in ('materials-only', 'complete'):
+    for edition in ((a.edition,) if a.edition else ('materials-only', 'complete')):
         source = a.staging / edition
         output = a.output / edition
         output.mkdir(parents=True, exist_ok=True)
