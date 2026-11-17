@@ -19,6 +19,10 @@ Both editions include 20 HDRI World assets, 42 shader node-group assets, their r
 
 Each edition has **two ZIP downloads**. Extract both into the same folder for manual installation, or use the installer to download and combine them automatically.
 
+Both editions include **animated water previews** for Stadium, BlueBay, GreenCoast, RedIsland and WhiteShore. The two-layer motion follows recovered game shader instructions, with adjustable preview speed, direction and ripple strength. Cubic height-texture filtering keeps close-up ripples smooth. See [Water animation](docs/WATER-ANIMATION.md).
+
+<img src="docs/images/water-animation.gif" alt="Animated Stadium water preview rendered in Blender" width="640">
+
 Native-linked means an export link is available. It is not a blanket guarantee of in-game visibility, identical appearance, physics or crash-free behaviour. Preview only assets have no confirmed export route and are kept under **Trackmania2020 → 08 Preview only**. This includes vegetation previews that are not currently exportable through this library.
 
 ## Install on Windows

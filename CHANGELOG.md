@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.0 asset refresh — 2026-11-17
+
+- Added adjustable animated previews to the five ordinary water materials, following the two-layer UV motion recovered from compiled game shaders.
+- Smoothed height-texture sampling with cubic interpolation and wider bump filtering, removing the visible texel facets in close-up reflections.
+- Added an editable water example and English controls/provenance notes to both editions.
+- Preserved native export bindings, material counts, asset icons and catalogue identities.
+
+The existing release tags and two-ZIP layout are retained for this owner-requested refresh. Updated assets have new checksums. Previously installed libraries and already appended material copies must be replaced to receive the update.
+
 ## 1.0.0 — 2026-11-16
 
 First standalone GitHub release, based on the V9 material library.

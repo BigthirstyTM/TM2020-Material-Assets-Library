@@ -43,8 +43,10 @@ def main():
                 (out / rel).unlink()
         docs = out / 'docs'
         docs.mkdir(exist_ok=True)
-        for name in ('INSTALLATION.md', 'USAGE.md', 'BADGES.md', 'CREDITS.md', 'MAINTAINING.md'):
+        for name in ('INSTALLATION.md', 'USAGE.md', 'BADGES.md', 'CREDITS.md', 'MAINTAINING.md', 'WATER-ANIMATION.md'):
             shutil.copy2(ROOT / 'docs' / name, docs / name)
+        if (ROOT / 'docs/images').is_dir():
+            shutil.copytree(ROOT / 'docs/images', docs / 'images', dirs_exist_ok=True)
         shutil.copy2(ROOT / 'README.md', out / 'README.md')
         shutil.copy2(ROOT / 'LICENSE-CODE', out / 'LICENSE-CODE')
         shutil.copy2(ROOT / 'installer/configure_blender.py', out / 'configure_blender.py')
@@ -61,6 +63,11 @@ def main():
             metadata_path = out / 'library.json'
         metadata = json.loads(metadata_path.read_text(encoding='utf-8'))
         metadata.update(version='1.0.0', edition=edition)
+        water_doc = a.source / 'Documentation' / 'Water-Animation-Preview.blend'
+        if water_doc.is_file():
+            (out / 'Examples').mkdir(exist_ok=True)
+            shutil.copy2(water_doc, out / 'Examples' / water_doc.name)
+            metadata['content_revision'] = '2026.11.17-water-motion-2'
         (out / 'library.json').write_text(json.dumps(metadata, indent=2), encoding='utf-8')
         # Keep build/verification details outside the public installation UI.
         report.replace(staging / (edition + '-verification.json'))

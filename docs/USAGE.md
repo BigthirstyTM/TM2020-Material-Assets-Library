@@ -21,9 +21,12 @@ Vegetation, country flags, UI images and individual layers of composed materials
 - **Screens and signs:** use the correct panel aspect ratio. For applicable screen images, UV 0–1 spans one image; LED detail can use a different scale.
 - **Invisible/collision materials:** helper patterns identify them in Blender. Their game appearance and collision role are separate from the preview.
 - **HDRI Worlds:** use these for Blender preview lighting. They do not export as an item's material or recreate the complete game's lighting system.
+- **Water:** the five ordinary environment water materials animate in Material Preview or Rendered shading when the timeline plays. Speed, direction, scale and strength are adjustable. See [Water animation](WATER-ANIMATION.md). After updating, append fresh material data without reusing the old copy in your project.
 
 Open `Catalogue/index.html` for searchable material thumbnails and usage details. See [BADGES.md](BADGES.md) for the small symbols on previews.
 
 ## Example scene
 
 Open `Examples/Material-Usage.blend` for three editable sample cubes using RoadTech, RoadDirt and CustomIce. Each has `BaseMaterial` and `LightMap` UV layers and its own collection. This is a Blender usage example; configure your normal item placement, lightmap unwrap and V2 export options before exporting. Keep the example inside the installed folder so its relative texture paths continue to resolve.
+
+Open `Examples/Water-Animation-Preview.blend` to inspect animated water over a small basin using a native HDR World. Play the timeline in Material Preview or Rendered shading. Keep it inside `Examples` so the texture paths resolve.

@@ -1365,10 +1365,12 @@
       "name": "TM_BlueBay_Water_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Use a UV map named BaseMaterial."
+        "Use a UV map named BaseMaterial.",
+        "Animated water preview: play the timeline in Material Preview or Rendered. Smooth cubic sampling; adjustable Speed, Direction, World scale and Strength. Native export binding unchanged."
       ],
       "usage_tags": [
-        "BaseMaterial UV"
+        "BaseMaterial UV",
+        "Animated water preview"
       ],
       "native_link": "BlueBay\\Media\\Material\\Water",
       "catalog": "Trackmania2020/02 BlueBay/Materials/Terrain",
@@ -14010,10 +14012,12 @@
       "name": "TM_GreenCoast_Water_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Use a UV map named BaseMaterial."
+        "Use a UV map named BaseMaterial.",
+        "Animated water preview: play the timeline in Material Preview or Rendered. Smooth cubic sampling; adjustable Speed, Direction, World scale and Strength. Native export binding unchanged."
       ],
       "usage_tags": [
-        "BaseMaterial UV"
+        "BaseMaterial UV",
+        "Animated water preview"
       ],
       "native_link": "GreenCoast\\Media\\Material\\Water",
       "catalog": "Trackmania2020/03 GreenCoast/Materials/Terrain",
@@ -18498,10 +18502,12 @@
       "name": "TM_RedIsland_Water_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Use a UV map named BaseMaterial."
+        "Use a UV map named BaseMaterial.",
+        "Animated water preview: play the timeline in Material Preview or Rendered. Smooth cubic sampling; adjustable Speed, Direction, World scale and Strength. Native export binding unchanged."
       ],
       "usage_tags": [
-        "BaseMaterial UV"
+        "BaseMaterial UV",
+        "Animated water preview"
       ],
       "native_link": "RedIsland\\Media\\Material\\Water",
       "catalog": "Trackmania2020/04 RedIsland/Materials/Terrain",
@@ -22107,10 +22113,12 @@
       "preview_type": "Source texture",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Animated water preview: play the timeline in Material Preview or Rendered. Smooth cubic sampling; adjustable Speed, Direction, World scale and Strength. Native export binding unchanged."
       ],
       "usage_tags": [
-        "BaseMaterial UV"
+        "BaseMaterial UV",
+        "Animated water preview"
       ],
       "native_link": "Stadium\\Media\\Material\\Water",
       "catalog": "Trackmania2020/01 Stadium/Materials/DECO",
@@ -22734,10 +22742,12 @@
       "name": "TM_WhiteShore_Water_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Use a UV map named BaseMaterial."
+        "Use a UV map named BaseMaterial.",
+        "Animated water preview: play the timeline in Material Preview or Rendered. Smooth cubic sampling; adjustable Speed, Direction, World scale and Strength. Native export binding unchanged."
       ],
       "usage_tags": [
-        "BaseMaterial UV"
+        "BaseMaterial UV",
+        "Animated water preview"
       ],
       "native_link": "WhiteShore\\Media\\Material\\Water",
       "catalog": "Trackmania2020/05 WhiteShore/Materials/Terrain",

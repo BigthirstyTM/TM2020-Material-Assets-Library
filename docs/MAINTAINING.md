@@ -33,7 +33,7 @@ Fresh Blender processes reopen each staged library and check image availability,
 
 The initial release tags are `v1.0.0-materials-only` and `v1.0.0-complete`. Upload all files in the matching `dist/<edition>` directory to its release. Set Materials Only as the latest/recommended release. Both tags point to the same source commit.
 
-When bumping a version, update the build metadata, package names, installer default, README links/badges and release notes together. Do not change the content of an already published version; publish a new tag and installation folder.
+When bumping a version, update the build metadata, package names, installer default, README links/badges and release notes together. Prefer a new tag and installation folder for subsequent changes. The owner explicitly requested an in-place refresh of the initial 1.0.0 releases on 2026-11-17 for animated, smoothly filtered water. Those refreshed assets retain their filenames and have new checksums; `library.json` and `release.json` identify the content revision.
 
 The generated release installer has its default edition filled in. When running the repository's generic installer directly, explicitly pass `-Edition materials-only` or `-Edition complete`.
 

@@ -44,7 +44,10 @@ def main():
             index = min(range(part_count), key=lambda i: sizes[i])
             groups[index].append(path)
             sizes[index] += estimates[path]
+        metadata = json.loads((source / 'library.json').read_text(encoding='utf-8'))
         manifest = dict(version='1.0.0', edition=edition, archives=[], files={})
+        if metadata.get('content_revision'):
+            manifest['content_revision'] = metadata['content_revision']
         for index, members in enumerate(groups):
             label = f'part{index + 1:02d}'
             dest = output / f'TM2020-1.0.0-{edition}-{label}.zip'

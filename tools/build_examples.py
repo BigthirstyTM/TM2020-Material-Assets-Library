@@ -36,5 +36,5 @@ for edition in ('materials-only', 'complete'):
             image.filepath = '//../' + relative.as_posix()
     output = root / 'Examples'
     output.mkdir(exist_ok=True)
-    bpy.ops.wm.save_as_mainfile(filepath=str(output / 'Material-Usage.blend'), compress=True)
+    bpy.ops.wm.save_as_mainfile(filepath=str(output / 'Material-Usage.blend'), compress=True, relative_remap=False)
     print('EXAMPLE_WRITTEN', edition, flush=True)
