@@ -30,13 +30,29 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument('--staging', type=Path, required=True)
     p.add_argument('--output', type=Path, required=True)
+    p.add_argument('--previous', type=Path, help='Reuse compressed-size estimates for hash-identical files in previous packages')
     a = p.parse_args()
     for edition in ('materials-only', 'complete'):
         source = a.staging / edition
         output = a.output / edition
         output.mkdir(parents=True, exist_ok=True)
         files = sorted(p for p in source.rglob('*') if p.is_file())
-        estimates = {path: compressed_size(path) for path in files}
+        hashes = {path: sha(path) for path in files}
+        previous_hashes, previous_sizes = {}, {}
+        previous = a.previous / edition if a.previous else None
+        if previous and (previous / 'release.json').is_file():
+            prior = json.loads((previous / 'release.json').read_text(encoding='utf-8'))
+            previous_hashes = prior['files']
+            for item in prior['archives']:
+                with zipfile.ZipFile(previous / item['name']) as archive:
+                    previous_sizes.update({entry.filename: entry.compress_size + 1024 for entry in archive.infolist()})
+        estimates = {}
+        for path in files:
+            relative = path.relative_to(source).as_posix()
+            if previous_hashes.get(relative) == hashes[path] and relative in previous_sizes:
+                estimates[path] = previous_sizes[relative]
+            else:
+                estimates[path] = compressed_size(path)
         part_count = max(1, math.ceil(sum(estimates.values()) / MAX_ARCHIVE_BYTES))
         groups = [[] for _ in range(part_count)]
         sizes = [0 for _ in groups]
@@ -52,7 +68,7 @@ def main():
             label = f'part{index + 1:02d}'
             dest = output / f'TM2020-1.0.0-{edition}-{label}.zip'
             for path in members:
-                manifest['files'][path.relative_to(source).as_posix()] = sha(path)
+                manifest['files'][path.relative_to(source).as_posix()] = hashes[path]
             with zipfile.ZipFile(dest, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=4, allowZip64=True) as archive:
                 for path in sorted(members):
                     archive.write(path, path.relative_to(source).as_posix())

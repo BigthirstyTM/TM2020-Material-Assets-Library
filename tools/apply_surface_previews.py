@@ -32,7 +32,7 @@ def identity(m):
     return (a.catalog_id,a.description,sorted(t.name for t in a.tags),hashlib.sha256(repr(p.image_pixels[:]).encode()).hexdigest(),{k:str(m[k]) for k in m.keys() if not k.startswith('tm_')})
 initial={m.name:(identity(m),fingerprint(m)) for m in bpy.data.materials if m.asset_data}
 report={k:[] for k in ['water','ice','terrain','glass','screens']};changed=set()
-def record(f,m,**kw):report[f].append(dict(name=m.name,**kw));changed.add(m.name);m['tm_surface_preview_revision']='2026.11.17-surfaces-1'
+def record(f,m,**kw):report[f].append(dict(name=m.name,**kw));changed.add(m.name);m['tm_surface_preview_revision']='2026.11.17-surfaces-2'
 def params(m):return json.loads(m.get('tm_native_parameters','{}'))
 def pval(p,key,default):return p.get(key,{}).get('values',[default])[0]
 def control(t,name,value):return scalar(t,name,value,(-800,1000))
@@ -123,7 +123,7 @@ for image in bpy.data.images:
 missing=[i.filepath for i in bpy.data.images if i.source=='FILE' and i.filepath and not i.packed_file and not Path(i.filepath).is_file()];assert not missing,missing
 assert sum(bool(m.asset_data) for m in bpy.data.materials)==1119
 assert sum(bool(g.asset_data) for g in bpy.data.node_groups)==42
-report.update(revision='2026.11.17-surfaces-1',unchanged_graphs=len(initial)-len(changed),asset_identities_and_icons_preserved=True,missing_images=missing)
+report.update(revision='2026.11.17-surfaces-2',unchanged_graphs=len(initial)-len(changed),asset_identities_and_icons_preserved=True,missing_images=missing)
 bpy.context.preferences.filepaths.save_version=0
 bpy.ops.wm.save_as_mainfile(filepath=str(OUT/'Surface-Improvements.blend'),compress=True,relative_remap=False)
 (OUT/'build-report.json').write_text(json.dumps(report,indent=2))

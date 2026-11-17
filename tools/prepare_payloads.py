@@ -71,7 +71,7 @@ def main():
         if clarity_doc.is_file():
             (out / 'Examples').mkdir(exist_ok=True)
             shutil.copy2(clarity_doc, out / 'Examples' / clarity_doc.name)
-        metadata['content_revision'] = '2026.11.17-surfaces-1'
+        metadata['content_revision'] = '2026.11.17-surfaces-2'
         (out / 'library.json').write_text(json.dumps(metadata, indent=2), encoding='utf-8')
         # Keep build/verification details outside the public installation UI.
         report.replace(staging / (edition + '-verification.json'))

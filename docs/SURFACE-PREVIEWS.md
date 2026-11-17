@@ -1,6 +1,6 @@
 # Water, ice, terrain and glass previews
 
-Content revision: `2026.11.17-surfaces-1`.
+Content revision: `2026.11.17-surfaces-2`.
 
 Use Material Preview or Rendered shading. Re-append updated materials into existing projects with **Reuse Data disabled**; copies already saved in a project retain their previous nodes. These controls affect Blender previews. Native Blendermania export links and game material settings are unchanged.
 
@@ -12,8 +12,9 @@ In the Shader Editor, select **Water Clarity and Refraction Preview**:
 
 - **Clarity** controls how much of the background passes through. Default: 0.92.
 - **Water Roughness (preview)** and **Water IOR (preview)** value nodes control both preview modes. Defaults: 0.08 and 1.333.
-- **Physical refraction = 0** gives a dependable transparent preview with Fresnel reflections. Background rays pass through without bending.
-- **Physical refraction = 1** uses the transmission BSDF. Use Cycles, or enable Eevee ray tracing and refraction in your scene. Closed geometry with thickness gives more useful physical refraction than a single plane.
+- **Physical refraction = 0** gives a smooth alpha-blended preview with Fresnel reflections. Background rays pass through without bending; the default avoids dither speckles.
+- **Tinted shadows = 0** passes light through without a sampled translucent shadow. This keeps the interactive preview clean. Set it to 1 if you want tinted shadows; these may need more samples.
+- **Physical refraction = 1** uses the transmission BSDF. Use Cycles. For Eevee physical refraction, enable scene ray tracing/refraction and switch the material render method to Dithered; this optional mode may show sampling noise during movement. Closed geometry with thickness gives more useful physical refraction than a single plane.
 
 The clarity, roughness and IOR values are adjustable preview choices. The native normal-layer motion and original height images remain source based. Automatic game depth fog, shoreline masking and underwater rendering are not reproduced.
 

@@ -12,7 +12,7 @@ def math(t,op,a,b=None,name=None):
     return n.outputs[0]
 def preview_surface_group(bpy):
     g=bpy.data.node_groups.new('TM Clear Surface Preview v1','ShaderNodeTree')
-    specs=[('Normal','NodeSocketVector',None),('Physical surface','NodeSocketShader',None),('Clarity','NodeSocketFloat',.92),('Roughness','NodeSocketFloat',.08),('IOR','NodeSocketFloat',1.333),('Physical refraction','NodeSocketFloat',0),('Transmission tint','NodeSocketColor',(1,1,1,1))]
+    specs=[('Normal','NodeSocketVector',None),('Physical surface','NodeSocketShader',None),('Clarity','NodeSocketFloat',.92),('Roughness','NodeSocketFloat',.08),('IOR','NodeSocketFloat',1.333),('Physical refraction','NodeSocketFloat',0),('Transmission tint','NodeSocketColor',(1,1,1,1)),('Tinted shadows','NodeSocketFloat',0)]
     for name,typ,default in specs:
         s=g.interface.new_socket(name=name,in_out='INPUT',socket_type=typ)
         if default is not None:s.default_value=default
@@ -25,11 +25,13 @@ def preview_surface_group(bpy):
     fresnel=node(g,'ShaderNodeFresnel','View-angle reflection',(-350,300));wire(g,i.outputs['Normal'],fresnel.inputs['Normal']);wire(g,i.outputs['IOR'],fresnel.inputs['IOR'])
     opacity=math(g,'SUBTRACT',1,math(g,'MULTIPLY',i.outputs['Clarity'],math(g,'SUBTRACT',1,fresnel.outputs[0])),'Reflection and clarity')
     realtime=node(g,'ShaderNodeMixShader','Realtime transparent preview',(150,100));wire(g,opacity,realtime.inputs[0]);wire(g,transparent.outputs[0],realtime.inputs[1]);wire(g,reflection.outputs[0],realtime.inputs[2])
-    mode=node(g,'ShaderNodeMixShader','Optional physical refraction',(380,0));wire(g,i.outputs['Physical refraction'],mode.inputs[0]);wire(g,realtime.outputs[0],mode.inputs[1]);wire(g,i.outputs['Physical surface'],mode.inputs[2]);wire(g,mode.outputs[0],o.inputs[0])
+    mode=node(g,'ShaderNodeMixShader','Optional physical refraction',(380,0));wire(g,i.outputs['Physical refraction'],mode.inputs[0]);wire(g,realtime.outputs[0],mode.inputs[1]);wire(g,i.outputs['Physical surface'],mode.inputs[2])
+    shadow=node(g,'ShaderNodeLightPath','Preview shadow ray',(150,-350));passthrough=node(g,'ShaderNodeBsdfTransparent','Clear preview shadow',(380,-250))
+    mix=node(g,'ShaderNodeMixShader','Optional tinted shadow',(600,0));wire(g,math(g,'MULTIPLY',shadow.outputs['Is Shadow Ray'],math(g,'SUBTRACT',1,i.outputs['Tinted shadows'])),mix.inputs[0]);wire(g,mode.outputs[0],mix.inputs[1]);wire(g,passthrough.outputs[0],mix.inputs[2]);wire(g,mix.outputs[0],o.inputs[0]);o.location=(850,0)
     g['tm_preview_limit']='Realtime mode transmits background rays without bending. Physical mode uses the original transmission BSDF and needs Eevee ray tracing, or Cycles. IOR/clarity defaults are preview assumptions, not recovered runtime constants.'
     return g
 def setup_transparency(m):
-    m.surface_render_method='DITHERED'
+    m.surface_render_method='BLENDED'
     m.use_raytrace_refraction=True
     m.use_transparent_shadow=True
     m.thickness_mode='SLAB'

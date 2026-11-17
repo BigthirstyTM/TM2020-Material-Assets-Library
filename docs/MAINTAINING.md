@@ -39,6 +39,6 @@ The generated release installer has its default edition filled in. When running 
 
 ## Provenance
 
-The `2026.11.17-surfaces-1` in-place refresh adds water transparency, internal ice depth/colour, terrain angular transitions, CustomGlass clarity and refracted screen layers. See [Surface source notes](SURFACE-SOURCES.md) for recovered data, remaining approximations and the adapter rebuild command.
+The `2026.11.17-surfaces-2` in-place refresh adds water transparency, internal ice depth/colour, terrain angular transitions, CustomGlass clarity and refracted screen layers. See [Surface source notes](SURFACE-SOURCES.md) for recovered data, remaining approximations and the adapter rebuild command.
 
 The initial release derives from the V9 library dated 2026-11-12, source SHA-256 `15fcbca58dfb1b7d63385c85843162ef52c9d5e2e244d45aee9a4eeb534d4f1d`. It packages 847 native-linked materials and 272 additional preview assets. Fifteen recovered ColorBlindness links use the game's conditional accessibility palette. No new vegetation export route is included.

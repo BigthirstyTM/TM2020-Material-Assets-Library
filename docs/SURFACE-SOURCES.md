@@ -1,6 +1,6 @@
 # Surface preview source notes
 
-The `2026.11.17-surfaces-1` preview update builds on the smooth animated water revision. Original game textures and native export bindings are retained.
+The `2026.11.17-surfaces-2` preview update builds on the smooth animated water revision. Original game textures and native export bindings are retained.
 
 - **Water:** the compiled Sea shader supplied the existing two-layer normal motion. The transparency adapter addresses Blender Eevee preview behaviour; clarity, roughness and IOR defaults are artist controls rather than recovered runtime constants.
 - **Ice:** compiled `Block_PyPxzTLayered` samples depth, multiplies it by `SubsurfaceMaxDepth`, projects the view into tangent space and offsets internal UVs by depth divided by `TextureSizeInMeters`. Its surface colour mix uses roughness multiplied by `SurfaceMaxOpacity`. RoadIce stores depth 0.1 m, opacity 0.1 and texture size 32 × 32 m. The Blender adapter reconstructs this internal depth/colour behaviour while retaining the existing surface/mark graph. It also decodes the two BC5 normal samples before mixing. The full native decal/mip pipeline is not recreated.
