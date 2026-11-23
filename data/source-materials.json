@@ -397,7 +397,9 @@
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "native top array selector"
     },
     {
       "id": "mat-53a194620dcf68cb63e48fee",
@@ -481,7 +483,49 @@
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "existing diffuse node",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "model": "BlueBay/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "model": "BlueBay/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-148e25accfdd17bd415547ec",
@@ -505,7 +549,49 @@
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "existing diffuse node",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "model": "BlueBay/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "model": "BlueBay/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-de31948b3602a6c9f5009e0e",
@@ -529,7 +615,49 @@
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "existing diffuse node",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "model": "BlueBay/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "model": "BlueBay/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-4d322fd6a62685bbd5ab1663",
@@ -554,7 +682,9 @@
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "native top array selector"
     },
     {
       "id": "mat-f37e70b3032d5ae95152de33",
@@ -618,7 +748,49 @@
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "native top array selector",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "model": "BlueBay/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "model": "BlueBay/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-5006dbfc9de23134dfa88216",
@@ -683,7 +855,9 @@
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "native top array selector"
     },
     {
       "id": "mat-f70b3d8cc4e94a624c33d255",
@@ -708,7 +882,9 @@
         "physics": "DirtRoad",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "native top array selector"
     },
     {
       "id": "mat-009e6e5c34c2df13c04f160c",
@@ -733,7 +909,9 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "native top array selector"
     },
     {
       "id": "mat-179b942d5dd387ea5d54c8ef",
@@ -797,7 +975,49 @@
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "TBaseColorOp",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "model": "BlueBay/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "model": "BlueBay/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-8da978c212c94562d7083b30",
@@ -822,7 +1042,49 @@
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "TBaseColorOp",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "model": "BlueBay/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "model": "BlueBay/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-b5a77a69b2b0fc19ab3d5562",
@@ -1512,7 +1774,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-fd595a5daa026dd3965005d8",
@@ -1536,7 +1800,9 @@
         "physics": null,
         "gameplay": null
       },
-      "preview_only": true
+      "preview_only": true,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-035de32dffb4f14af926ae40",
@@ -1758,7 +2024,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-a0c6f9d36a67d6a7d02c98ee",
@@ -1782,7 +2050,9 @@
         "physics": null,
         "gameplay": null
       },
-      "preview_only": true
+      "preview_only": true,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-208e85160bfd14301e022037",
@@ -2008,7 +2278,9 @@
         "physics": "Rubber",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-13ec559f653961c9c9d83204",
@@ -2618,7 +2890,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-3c0b55c51d98078606eac4e1",
@@ -2719,7 +2993,9 @@
         "physics": "Pavement",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-4a7f0ffe1f27d3403a3dd454",
@@ -2747,7 +3023,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-490ddfa9a101c1ff839f5802",
@@ -2775,7 +3053,9 @@
         "physics": "Dirt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-82b643b12017714cfbc15803",
@@ -2797,7 +3077,9 @@
         "physics": "Green",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": null
     },
     {
       "id": "mat-c8e3d620b1d3896456131d0b",
@@ -2825,7 +3107,9 @@
         "physics": "Green",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-439a485eb324816f180c7b33",
@@ -2853,7 +3137,9 @@
         "physics": "Ice",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-3480cddeac73e639d04c470d",
@@ -2881,7 +3167,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-402c7192e64d4d6f853dec4e",
@@ -2909,7 +3197,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-db2bed9fad0ae2b39e4fee22",
@@ -2936,7 +3226,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "existing source preview"
     },
     {
       "id": "mat-49494caf592975316dcaf283",
@@ -2963,7 +3255,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "existing source preview"
     },
     {
       "id": "mat-1f834d577749dcb3fd70c5f9",
@@ -2984,7 +3278,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-355c7b7f93201f1fb9ede58b",
@@ -3005,7 +3301,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-4bf7435d478be48ff7a1603f",
@@ -3029,7 +3327,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-a75f3c16a1eee0cfd100ae89",
@@ -3053,7 +3353,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-07c7d9f22cbfda8bb2b53f4a",
@@ -3074,7 +3376,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-684c555fd31c726d100b90ef",
@@ -3095,7 +3399,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-eceee48cce9bf8630c503be0",
@@ -3118,7 +3424,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-aa141ff294e6fe4aff23e270",
@@ -3141,7 +3449,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-41cf4f2ec03c5d9075603139",
@@ -3162,7 +3472,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-b6acb110a9c1b0c8cafaa3cd",
@@ -3183,7 +3495,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-169533b1b2926e5cc7c6d28b",
@@ -3204,7 +3518,9 @@
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-41b90b179250123572f87dfb",
@@ -3225,7 +3541,9 @@
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-5c1eea0f23bba6151051b3af",
@@ -3253,7 +3571,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-440c9a719a27ca6e4ceeef63",
@@ -3281,7 +3601,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-7fb8267eed75b6410e743e36",
@@ -3309,7 +3631,9 @@
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-631c53fe14a2bf09bf6552fc",
@@ -3337,7 +3661,9 @@
         "physics": "Wood",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-f859f1fe5c97285e14ad7e08",
@@ -3365,7 +3691,9 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-8af0551cdba850595a2d1630",
@@ -3393,7 +3721,9 @@
         "physics": "Snow",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sphere",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-5ed4f3bda82bdb619ba9516c",
@@ -3415,7 +3745,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-d5b7195c12753633b6db189a",
@@ -3437,7 +3769,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-e178108d05231d4bf65a207a",
@@ -3459,7 +3793,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-39ec243219134e35c6cad7e1",
@@ -3481,7 +3817,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-1485c4a51bb3d85540b54188",
@@ -3503,7 +3841,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-ed67eb7804d3091f4ad0ffd8",
@@ -3525,7 +3865,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-85a501e17a2e0e68b478aefe",
@@ -3547,7 +3889,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-8e0a13aa5202b6174897cfdd",
@@ -3569,7 +3913,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-d8d29b2244de186f4f5a673e",
@@ -3591,7 +3937,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-1ad13df7238a618af26c632c",
@@ -3613,7 +3961,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-7cd0a9fcf8e04c9e903185d9",
@@ -3635,7 +3985,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-283edf67c546874860321754",
@@ -3657,7 +4009,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-5c90746ab119706aeff65982",
@@ -3679,7 +4033,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-7b99c226c083e29a9144b289",
@@ -3701,7 +4057,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-eb8679002450450bbe2cf4c8",
@@ -3723,7 +4081,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-b467bd90101c38b3058fcfc8",
@@ -3745,7 +4105,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-ee18b4731a2af7cb86609bf6",
@@ -3767,7 +4129,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-f3cd78b0fb548f768735f545",
@@ -3789,7 +4153,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-73d42328335d062feec83288",
@@ -3811,7 +4177,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-2143622c4984999c6f4347d6",
@@ -3833,7 +4201,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-3a597d32467655974d97677c",
@@ -3855,7 +4225,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-80eb823d3a194c8dd61209e6",
@@ -3877,7 +4249,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-bc91e8c3e2da3abfb6c78f4f",
@@ -3899,7 +4273,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-3b709308ac89b67a1bdff6f4",
@@ -3921,7 +4297,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-ec1330b7ea8305dcf8f33cc5",
@@ -3943,7 +4321,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-5fa28f1194557811283ec523",
@@ -3965,7 +4345,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-303ae6441c3b17bcbf6e057c",
@@ -3987,7 +4369,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-6e8a816729291d12e9b94517",
@@ -4009,7 +4393,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-345b431ede0f0bad23507edf",
@@ -4031,7 +4417,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-82289ce65ab377e5acea7c0b",
@@ -4053,7 +4441,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-33916cadd359a51f623dbb1f",
@@ -4075,7 +4465,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-fbf787cddcfedd59eba3114d",
@@ -4097,7 +4489,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-7b55283174a42163e4cb0737",
@@ -4119,7 +4513,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-7d9c2802e2cc967dbd4fb6cb",
@@ -4141,7 +4537,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-8e2092a8d4a024da8ce5b0ea",
@@ -4167,7 +4565,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-31eec87ac017955c8f4f2517",
@@ -4186,7 +4586,9 @@
         "physics": "Asphalt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-6875d6ee79d1c9a1c14f257e",
@@ -4215,7 +4617,9 @@
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "TBaseColor"
     },
     {
       "id": "mat-109c7a5f6ada3d5c7626f340",
@@ -4244,7 +4648,9 @@
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "TBaseColor"
     },
     {
       "id": "mat-0be4f54dbdfcbec8a4f1a8f6",
@@ -4263,7 +4669,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-051e810f8cf166c589c2d0ff",
@@ -12801,7 +13209,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-b7909136d0df536c158186dd",
@@ -12896,7 +13306,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-14a9f3b5521489d3817b1bfc",
@@ -12940,7 +13352,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-5a3e46ed69c4cf14781c4701",
@@ -13028,7 +13442,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-1b0808143f1e1b98c45293b8",
@@ -13115,7 +13531,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-e2a95d5a896de0ff8913efe2",
@@ -13399,7 +13817,9 @@
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "native top array selector"
     },
     {
       "id": "mat-7bd37bd28c0291124392fe43",
@@ -13424,7 +13844,9 @@
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "native top array selector"
     },
     {
       "id": "mat-0f293ff668ca33f4706f76ea",
@@ -13449,7 +13871,9 @@
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "native top array selector"
     },
     {
       "id": "mat-c9e082beda504416d8fb91f2",
@@ -13474,7 +13898,9 @@
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "native top array selector"
     },
     {
       "id": "mat-252c6b21f2860e04ba7171b7",
@@ -13519,7 +13945,49 @@
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "TBaseColorOp",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-d53b6539d2ed128ffcb32a20",
@@ -13564,7 +14032,49 @@
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "TBaseColorOp",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-d653289cf6c94e6400e8031c",
@@ -13608,7 +14118,49 @@
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "native top array selector",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-759680b85ec62fc093eccd10",
@@ -13632,7 +14184,49 @@
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "existing diffuse node",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-14b29775b1e024e6a7a2210b",
@@ -13656,7 +14250,49 @@
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "existing diffuse node",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-0e61f5bfb8d502482665a691",
@@ -13680,7 +14316,49 @@
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "native top array selector",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-4496aa4a75fa5daf606aff31",
@@ -13785,7 +14463,9 @@
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "native top array selector"
     },
     {
       "id": "mat-31218162ea89c51646e10694",
@@ -13849,7 +14529,49 @@
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "TBaseColorOp",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-19468547bfdd1f38d556da8a",
@@ -13893,7 +14615,49 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "existing diffuse node",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-803c16b546668eeba4517259",
@@ -13938,7 +14702,49 @@
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "TBaseColorOp",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-d24c894b6118b11f1798f90d",
@@ -13976,7 +14782,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "sprite-cutout",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-3359934aea7c3dffe67feec2",
@@ -14020,7 +14828,49 @@
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "TBaseColor",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-467e022f200c6dc5e3894960",
@@ -15305,7 +16155,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-d251548219893b26556bdfaf",
@@ -15324,7 +16176,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-7d9dab49726642743bcedb27",
@@ -15343,7 +16197,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-c674d97d18919854a964dd0a",
@@ -15466,19 +16322,27 @@
       "name": "TM_ItemFlag_animated_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Preview only: user-reported crash while selecting or placing a multi-material item. Not isolated or reproduced. Use the static flag alternative."
       ],
       "usage_tags": [],
-      "native_link": "Stadium\\Media\\Material\\ItemFlag",
-      "catalog": "Trackmania2020/01 Stadium/Materials/Flags",
+      "native_link": "",
+      "catalog": "Trackmania2020/08 Preview only/Reported runtime issues",
       "effective": {
-        "link": "Stadium_ItemFlag"
+        "link": ""
       },
       "collision": {
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": true,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node",
+      "source_provenance_native_link": "Stadium\\Media\\Material\\ItemFlag",
+      "source_provenance_effective": {
+        "link": "Stadium_ItemFlag"
+      },
+      "preview_only_reason": "User-reported game crash when selecting or placing a six-face multi-material item after assigning AnimatedFlag. Not isolated or reproduced; special native vertex-tween context remains unverified."
     },
     {
       "id": "mat-55fedc82717a9538e4954c66",
@@ -15498,7 +16362,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-6e4991abefd40b229d6f368a",
@@ -15517,7 +16383,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-3628e92aace330fd4cce5a44",
@@ -15536,7 +16404,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-2268b51765328df438c380ce",
@@ -15555,7 +16425,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-1ca4fbe3d9710b94b0864329",
@@ -15574,7 +16446,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-e6c67e8a279e2815a0398fab",
@@ -15656,7 +16530,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-7cb1d14d8bbb511a9b75b403",
@@ -15675,7 +16551,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-3c3770b40769b94f501f7908",
@@ -15694,7 +16572,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-f031a09be61d4375110b8ae1",
@@ -15713,7 +16593,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-0bda486f8b8182528a64012e",
@@ -15795,7 +16677,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-dc4cdbfd4b1c92f2680aa0d1",
@@ -15814,7 +16698,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-444fa8437acca124fbf7dc8c",
@@ -15833,7 +16719,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-3c95d44512e05ca542c13422",
@@ -15921,7 +16809,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-da7b42263e27b06b6b05aa70",
@@ -15940,7 +16830,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-d3cd0f67fd88762016405e5e",
@@ -15959,7 +16851,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-1cbea0874652114225f6edda",
@@ -16041,7 +16935,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-7a527ca8c6fbfd21734231e0",
@@ -16060,7 +16956,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-13511269f31c103ca0b2729c",
@@ -16079,7 +16977,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-d8501245623f300315645951",
@@ -16188,7 +17088,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-7f9a4e98376951e102f5f62b",
@@ -16207,7 +17109,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-a155e9d89492b7e0bed0a778",
@@ -16226,7 +17130,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-e6d0e9c7aa6057743d0909a6",
@@ -16245,7 +17151,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-22ea2c53fab69ce41f329a14",
@@ -16264,7 +17172,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-d398fb994b2d54dbb9699be3",
@@ -16283,7 +17193,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-f74bc97d568d35d477c82ee9",
@@ -16302,7 +17214,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-9f94abcd54d465b827f38e1e",
@@ -16321,7 +17235,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-b458a2d79c7cdfc883ce3942",
@@ -16340,7 +17256,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-68895a49ccc61f6152fdd86a",
@@ -16383,7 +17301,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-a318e5102322347410d2b7ee",
@@ -16402,7 +17322,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-bbf538c62726518daaac7e39",
@@ -16421,7 +17343,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-7f9bc8454f99c85e78ca9148",
@@ -16440,7 +17364,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-acfdd9a77370e30f36ae2250",
@@ -16570,7 +17496,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-744f730273579c89603c2660",
@@ -16590,7 +17518,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-fe5573f8729fcb57d7a040cb",
@@ -16612,7 +17542,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-76270885607998a9dc1d4e51",
@@ -16707,7 +17639,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-bd6525dd8592c006f7121586",
@@ -16731,7 +17665,9 @@
         "physics": null,
         "gameplay": null
       },
-      "preview_only": true
+      "preview_only": true,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-09c56e043312c8ccad44dd4f",
@@ -16851,7 +17787,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-b5d0eda46e1a629201ff4b99",
@@ -16943,7 +17881,9 @@
         "physics": "Asphalt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-6feafb92373a2179480304bb",
@@ -16965,7 +17905,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-4487ade51817299a0b355e76",
@@ -16991,7 +17933,9 @@
         "physics": "Asphalt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-a86ba89c1ac0d0920a20dc1e",
@@ -17010,7 +17954,9 @@
         "physics": "Asphalt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-8895c261ae1f861fa734a568",
@@ -17036,7 +17982,9 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-76f65b322ecb848c22ed59bd",
@@ -17064,7 +18012,9 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "TBaseColor"
     },
     {
       "id": "mat-704923591fc657297bb49939",
@@ -17092,7 +18042,9 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "TBaseColor"
     },
     {
       "id": "mat-a753600ca7d4602230f10c74",
@@ -17111,7 +18063,9 @@
         "physics": "Dirt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-b40b003c52ad27bff2f9c8ef",
@@ -17136,7 +18090,9 @@
         "physics": "Dirt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-5c2a57aa804ded8556127ef2",
@@ -17183,7 +18139,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-342bcc787dfaf9fbb2757403",
@@ -17209,7 +18167,9 @@
         "physics": "Asphalt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-99ecef63aa2a99b8cee29e82",
@@ -17228,7 +18188,9 @@
         "physics": "Green",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-152baa217e5476aa6f695ca2",
@@ -17294,7 +18256,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-c33b0e7f803c642286a7caab",
@@ -17320,7 +18284,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-18131a236d5cc9959e893b08",
@@ -17339,7 +18305,9 @@
         "physics": "Asphalt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-c80957c62f1f6179f2ac3f87",
@@ -17365,7 +18333,9 @@
         "physics": "Ice",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-756299b14dfa38207288f009",
@@ -17393,7 +18363,9 @@
         "physics": "Snow",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "TBaseColor"
     },
     {
       "id": "mat-683e05a828c8554b64f34c1b",
@@ -17421,7 +18393,9 @@
         "physics": "Snow",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "TBaseColor"
     },
     {
       "id": "mat-8c4307da51ce2590903f6607",
@@ -17444,7 +18418,9 @@
         "physics": "RoadIce",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "SubsurfaceBaseColor"
     },
     {
       "id": "mat-09530893cb13d569e0eeccea",
@@ -17467,7 +18443,9 @@
         "physics": "RoadIce",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "SubsurfaceBaseColor"
     },
     {
       "id": "mat-c983bc87546ba874484defe7",
@@ -17492,7 +18470,9 @@
         "physics": "Asphalt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-9b0c075ce4b92e22e4deaba3",
@@ -17514,7 +18494,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-5a6dd2c2ae3a076a47899fb5",
@@ -17558,7 +18540,9 @@
         "physics": "Asphalt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-17a7c66465655da13dd13229",
@@ -17598,7 +18582,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-230b9c37d23d6fe33163e0f7",
@@ -17664,7 +18650,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-d9ef2a03f3aa7f1524b25421",
@@ -17729,7 +18717,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-7877ca8f0a1288f6c0813c30",
@@ -18416,7 +19406,49 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "native top array selector",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-718ef8d273ef44ebb79d0c19",
@@ -18440,7 +19472,49 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "existing diffuse node",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-78cf2c81d6e25d05088d725d",
@@ -18464,7 +19538,49 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "existing diffuse node",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-1e3dcefce41cb580266fe24d",
@@ -18529,7 +19645,49 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "TBaseColorOp",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-05d82f9ecdf55cfd176a712e",
@@ -18612,7 +19770,49 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "TBaseColorOp",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-15127e5bc13c99a89e472483",
@@ -18637,7 +19837,49 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "TBaseColorOp",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-af90f57a66a00eda602b62c9",
@@ -18682,7 +19924,49 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "TBaseColorOp",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-1aa8713dc71b8bfe33af375d",
@@ -18706,7 +19990,49 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "native top array selector",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-97d3e2dd8a18c0e70ae27368",
@@ -18770,7 +20096,49 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "native top array selector",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-6ee3e707cb5bdcf79cd2de76",
@@ -18810,7 +20178,9 @@
         "physics": null,
         "gameplay": null
       },
-      "preview_only": true
+      "preview_only": true,
+      "thumbnail_style": "sprite-cutout",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-53958803345819c14f534502",
@@ -18875,7 +20245,9 @@
         "physics": "WetDirtRoad",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-3ff75f608212079aacbff46b",
@@ -18960,7 +20332,49 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "TBaseColorOp",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-1483d1338352428180d943fe",
@@ -18984,7 +20398,49 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "native top array selector",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-fabe499569bd4059baae990b",
@@ -19049,7 +20505,49 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "TBaseColorOp",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-0008b09172adb4ef32d3a8ea",
@@ -19616,7 +21114,49 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "existing diffuse node",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-e9e203665ee6727b3cc80b83",
@@ -19638,7 +21178,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-2a89391c1ea5a36da4375401",
@@ -19730,7 +21272,9 @@
         "physics": "RoadSynthetic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-e3c336f1c1d17e24d34831d4",
@@ -19759,7 +21303,9 @@
         "physics": "Dirt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "TBaseColor"
     },
     {
       "id": "mat-e982e263af99d9cc212b18bb",
@@ -19788,7 +21334,9 @@
         "physics": "Dirt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "TBaseColor"
     },
     {
       "id": "mat-65414f0ae32fe5d13300666d",
@@ -19811,7 +21359,9 @@
         "physics": "RoadIce",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "SubsurfaceBaseColor"
     },
     {
       "id": "mat-cf098b92d7579ce248d23739",
@@ -19830,7 +21380,9 @@
         "physics": "Asphalt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-c60cb30e6a66c64c28d8896c",
@@ -19849,7 +21401,9 @@
         "physics": "RoadSynthetic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-d76471d123bd50ebcc78bec7",
@@ -19916,7 +21470,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-8083b99c0dee951cf252c151",
@@ -20008,7 +21564,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-2d2ef3babfcf2b408ce20183",
@@ -20027,7 +21585,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-c8625b910a613e1ca739bb44",
@@ -20138,7 +21698,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-68b87c46b9da81fb402d80b5",
@@ -20157,7 +21719,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-c49eb18b06664b19ed3578d3",
@@ -20176,7 +21740,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-eae6f718fa66c1076fcd8064",
@@ -21265,7 +22831,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-40a4f1f3346b323de396a0f9",
@@ -21765,7 +23333,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-731b7cef5edf784147af1047",
@@ -21785,7 +23355,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-f286b5e723cab306768e836d",
@@ -21805,7 +23377,9 @@
         "physics": null,
         "gameplay": null
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-cce048f3d8733e2b137820e4",
@@ -21825,7 +23399,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-3138ca7ffe45af8435f89f59",
@@ -21846,7 +23422,9 @@
         "physics": "Rubber",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-5eb6cd82c26f300c77ba23a1",
@@ -21866,7 +23444,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-bcfcbfd4c66d0d0f52db9ae1",
@@ -21907,7 +23487,9 @@
         "physics": "ResonantMetal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-a12aaf4fc80e5ec5bff80665",
@@ -21926,7 +23508,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-9f0ad09a354fe449c299310d",
@@ -21945,7 +23529,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-9f58d0945a284f266d990cfd",
@@ -21964,7 +23550,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-f637d0c62ca0169624b39f1c",
@@ -21983,7 +23571,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-fa39462bb4c97b817edcd5d3",
@@ -22002,7 +23592,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-cf89869e4b1e22373b34fad4",
@@ -22021,7 +23613,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-0e6830e0c851093e33d06754",
@@ -22040,7 +23634,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-9b19492d86552f6d15ace5c0",
@@ -22078,7 +23674,9 @@
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-49d971c08f92b39124ae2ffb",
@@ -22104,7 +23702,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-2da1d024b246f32afa7117c7",
@@ -22123,7 +23723,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-4aef27f10c0a1033f4b33fb1",
@@ -22142,7 +23744,9 @@
         "physics": "Wood",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-85a9577c0c2efe5e978c495b",
@@ -22161,7 +23765,9 @@
         "physics": "Wood",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-d133ac414357036a768f9d59",
@@ -22180,7 +23786,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-1d75ef32d497afda2509040c",
@@ -22199,7 +23807,9 @@
         "physics": "Wood",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-3dd993e985d8a0afdbfb023a",
@@ -22310,7 +23920,9 @@
         "physics": "Wood",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "TBaseColor"
     },
     {
       "id": "mat-d9c96536b6cff8535c720bad",
@@ -22329,7 +23941,9 @@
         "physics": "ResonantMetal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-f64b68793a96493bb7c3d6f6",
@@ -22405,7 +24019,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-1a18fe0b8d9524de6993221c",
@@ -22524,7 +24140,9 @@
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColorA"
     },
     {
       "id": "mat-9866fb06d8d52830f9bf03e0",
@@ -22640,7 +24258,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-465a554abf74d619f56d9505",
@@ -22660,7 +24280,9 @@
         "physics": "Wood",
         "gameplay": "None"
       },
-      "preview_only": true
+      "preview_only": true,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-b9350027d68c8060e5bd1247",
@@ -22679,7 +24301,9 @@
         "physics": "Wood",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-abda40327f2b0b464a9af07f",
@@ -22699,7 +24323,9 @@
         "physics": "Asphalt",
         "gameplay": "None"
       },
-      "preview_only": true
+      "preview_only": true,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-6d16c965792126a8c0377ade",
@@ -22718,7 +24344,9 @@
         "physics": "Asphalt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-5796976f7c395ede3bf23836",
@@ -22737,7 +24365,9 @@
         "physics": "Asphalt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-5b838135b9ac50dafe7c5fec",
@@ -22854,7 +24484,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-c87696bec8400e1abab101bd",
@@ -22921,7 +24553,9 @@
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-9d2c19ca8ac3b7c1f86154b8",
@@ -22946,7 +24580,9 @@
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-7243b281d8a7cf3fe9336de9",
@@ -22971,7 +24607,9 @@
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-38b25cc861b5019584f6eab0",
@@ -22996,7 +24634,9 @@
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-e61577f995f3b3e2611f58e2",
@@ -23062,7 +24702,9 @@
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-29559ac00922abb1e673d410",
@@ -23084,7 +24726,9 @@
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-f0f5ea3b0a5fa8fabb4e4f5e",
@@ -23106,7 +24750,9 @@
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-5cf14dd5cd646cc6df7e555b",
@@ -23128,7 +24774,9 @@
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-99fc0baae00deeb1c01aae04",
@@ -23150,7 +24798,9 @@
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-ce3f77eeb6616e79cb10b80e",
@@ -23172,7 +24822,9 @@
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-1359c02a473bb1fa99c4b6d1",
@@ -23194,7 +24846,9 @@
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-c39a9685be6b797641e4cb73",
@@ -23216,7 +24870,9 @@
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-dc6cd698ae26e5d4c7807c7b",
@@ -23257,7 +24913,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": true
+      "preview_only": true,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-0b3894d1d813efb64b53d557",
@@ -23276,7 +24934,9 @@
         "physics": "Metal",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-50c448493532e2db4b671e7e",
@@ -23296,7 +24956,9 @@
         "physics": "Asphalt",
         "gameplay": "None"
       },
-      "preview_only": true
+      "preview_only": true,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-b63543ae322612172e45a167",
@@ -23315,7 +24977,9 @@
         "physics": "Asphalt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-51396a384d89b5d27a66a2b0",
@@ -23334,7 +24998,9 @@
         "physics": "Asphalt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-6a2f750e9ce025058e3bdcc8",
@@ -23354,7 +25020,9 @@
         "physics": "Asphalt",
         "gameplay": "None"
       },
-      "preview_only": true
+      "preview_only": true,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-5b082056bc8c465df7de2f48",
@@ -23373,7 +25041,9 @@
         "physics": "Asphalt",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "existing diffuse node"
     },
     {
       "id": "mat-b6d5b0f78de4e28816554e42",
@@ -23417,7 +25087,9 @@
         "physics": "Plastic",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "BaseColor"
     },
     {
       "id": "mat-908f97d9d70602e25efaeb18",
@@ -23443,7 +25115,9 @@
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse",
+      "thumbnail_diffuse_role": "PyBaseColor"
     },
     {
       "id": "mat-e51183b0ed8afb0bd1df61a6",
@@ -23567,7 +25241,49 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "native top array selector",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "model": "WhiteShore/Media/Decal/GrassSolo.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSolo-A",
+            "U02": "GrassSolo",
+            "U03": "32",
+            "U04": "4",
+            "U05": "22",
+            "U06": "0",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "model": "WhiteShore/Media/Decal/GrassLight.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassLight-A",
+            "U02": "GrassLight",
+            "U03": "8",
+            "U04": "4",
+            "U05": "0",
+            "U06": "1",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-5e5d37c78f19071482edaea0",
@@ -23751,7 +25467,49 @@
         "physics": "Snow",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "existing diffuse node",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "model": "WhiteShore/Media/Decal/GrassSolo.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSolo-A",
+            "U02": "GrassSolo",
+            "U03": "32",
+            "U04": "4",
+            "U05": "22",
+            "U06": "0",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "model": "WhiteShore/Media/Decal/GrassLight.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassLight-A",
+            "U02": "GrassLight",
+            "U03": "8",
+            "U04": "4",
+            "U05": "0",
+            "U06": "1",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-361412743e146ce4a0d3d42e",
@@ -23775,7 +25533,49 @@
         "physics": "Snow",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "existing diffuse node",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "model": "WhiteShore/Media/Decal/GrassSolo.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSolo-A",
+            "U02": "GrassSolo",
+            "U03": "32",
+            "U04": "4",
+            "U05": "22",
+            "U06": "0",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "model": "WhiteShore/Media/Decal/GrassLight.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassLight-A",
+            "U02": "GrassLight",
+            "U03": "8",
+            "U04": "4",
+            "U05": "0",
+            "U06": "1",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-195364fcc5a910d706fb5501",
@@ -23799,7 +25599,49 @@
         "physics": "Snow",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "existing diffuse node",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "model": "WhiteShore/Media/Decal/GrassSolo.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSolo-A",
+            "U02": "GrassSolo",
+            "U03": "32",
+            "U04": "4",
+            "U05": "22",
+            "U06": "0",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "model": "WhiteShore/Media/Decal/GrassLight.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassLight-A",
+            "U02": "GrassLight",
+            "U03": "8",
+            "U04": "4",
+            "U05": "0",
+            "U06": "1",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-566c81b5fde295261070219d",
@@ -23863,7 +25705,49 @@
         "physics": "Snow",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "native top array selector",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "model": "WhiteShore/Media/Decal/GrassSolo.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSolo-A",
+            "U02": "GrassSolo",
+            "U03": "32",
+            "U04": "4",
+            "U05": "22",
+            "U06": "0",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "model": "WhiteShore/Media/Decal/GrassLight.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassLight-A",
+            "U02": "GrassLight",
+            "U03": "8",
+            "U04": "4",
+            "U05": "0",
+            "U06": "1",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-113783214330a1158b6bdd3b",
@@ -24176,7 +26060,49 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "TBaseColorOp",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "model": "WhiteShore/Media/Decal/GrassSolo.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSolo-A",
+            "U02": "GrassSolo",
+            "U03": "32",
+            "U04": "4",
+            "U05": "22",
+            "U06": "0",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "model": "WhiteShore/Media/Decal/GrassLight.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassLight-A",
+            "U02": "GrassLight",
+            "U03": "8",
+            "U04": "4",
+            "U05": "0",
+            "U06": "1",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-51cd59c8b7398b0eb5ed4215",
@@ -24201,7 +26127,49 @@
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "TBaseColorOp",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "model": "WhiteShore/Media/Decal/GrassSolo.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSolo-A",
+            "U02": "GrassSolo",
+            "U03": "32",
+            "U04": "4",
+            "U05": "22",
+            "U06": "0",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "model": "WhiteShore/Media/Decal/GrassLight.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassLight-A",
+            "U02": "GrassLight",
+            "U03": "8",
+            "U04": "4",
+            "U05": "0",
+            "U06": "1",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-ef0b1f6182c1432b8d23208d",
@@ -24226,7 +26194,49 @@
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": false
+      "preview_only": false,
+      "thumbnail_style": "diffuse-with-native-sprites",
+      "thumbnail_diffuse_role": "TBaseColorOp",
+      "thumbnail_sprite_sources": [
+        {
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "model": "WhiteShore/Media/Decal/GrassSolo.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSolo-A",
+            "U02": "GrassSolo",
+            "U03": "32",
+            "U04": "4",
+            "U05": "22",
+            "U06": "0",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          }
+        },
+        {
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "model": "WhiteShore/Media/Decal/GrassLight.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassLight-A",
+            "U02": "GrassLight",
+            "U03": "8",
+            "U04": "4",
+            "U05": "0",
+            "U06": "1",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          }
+        }
+      ]
     },
     {
       "id": "mat-81e416a1c4ae94d401fdd4f1",

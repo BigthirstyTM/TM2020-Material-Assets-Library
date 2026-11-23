@@ -10,6 +10,8 @@ The badges above show the material count in each edition and the Blender version
 
 ## Local projection and source follow-up
 
+The newer local [catalog clarity update](docs/CATALOG-CLARITY.md) removes duplicate example assets, restores diffuse thumbnails and Custom spheres, and adds native vegetation cutouts. AnimatedFlag is retained under Preview only after a reported item-loading crash; its animated MaterialLib alias is disabled. This quarantine is not yet present in the published ZIPs. Their edition counts below describe those published packages; the local source now has 825 materials outside Preview only and 294 Preview only materials, with 1,119 materials in total.
+
 The current local follow-up improves 31 projected previews, two light tubes and four optional structure colour masks, refreshes 37 thumbnails, and recovers 88 exact shader references. See [projected surfaces](docs/PROJECTED-SURFACES.md) and [source resolution](docs/SOURCE-RESOLUTION.md). This work is newer than the published native-surfaces-1 full ZIPs. A subsequent [shader reconciliation](docs/SHADER-RECONCILIATION.md) clarifies 94 root/pass references, improves ten array-based terrain previews plus LakeBottom, and refreshes eleven more thumbnails. These local follow-ups are not yet in the full download packages.
 
 ## Choose your edition

@@ -18,3 +18,5 @@ A feature badge is an identification aid, not a guarantee that Blender and the g
 **Preview only** means export behaviour is unconfirmed, conditional or unsupported. **No static texture** means the material has no single standalone texture image. **Collision only** identifies a collision-focused surface. These labels describe the asset's role; they are not additional visual effects.
 
 The repository's README badges show edition material counts and the Blender authoring version.
+
+The local [catalog clarity follow-up](CATALOG-CLARITY.md) retains all existing badge symbols. Ordinary thumbnails use the base diffuse image, Custom materials use spheres, and foliage thumbnails can include representative sprites from their native source atlas. These sprites identify the vegetation family; they do not show generated geometry or prove runtime compatibility.

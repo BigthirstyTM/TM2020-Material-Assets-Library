@@ -29,6 +29,12 @@ for edition in ['materials-only','complete']:
             new.name=names[new['tm_asset_id']]
             control=new.node_tree.nodes.get('Deco native layer controls')
             if control and any(ob.type=='MESH' and any(slot.material==new for slot in ob.material_slots) and ob.data.color_attributes.get('Color') for ob in bpy.data.objects):control.inputs['Use painted vertex alpha'].default_value=1
+        # Examples are scanned recursively by Blender's Asset Browser too.
+        # Retain their scene materials without publishing duplicate assets.
+        for prop in bpy.data.bl_rna.properties:
+            if prop.type!='COLLECTION':continue
+            for datablock in getattr(bpy.data,prop.identifier):
+                if getattr(datablock,'asset_data',None):datablock.asset_clear()
         bpy.data.orphans_purge(do_local_ids=True,do_linked_ids=True,do_recursive=True)
         image_paths=[]
         for im in bpy.data.images:
