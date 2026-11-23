@@ -43,6 +43,8 @@ Build shader contracts with `tools/build_shader_contracts.py` using the extracte
 
 ## Provenance
 
+For the separate local Deco/PlatformIce update, run `tools/apply_deco_ice.py` in factory-startup background Blender with `--source` pointing to the installed shader-fidelity-1 library, `--inputs tools/data/deco-ice-inputs.json`, and a separate `--output` directory. Run `tools/verify_deco_ice.py --source STAGED_DIRECTORY --output VERIFICATION_DIRECTORY --original INSTALLED_LIBRARY.blend` before `tools/install_deco_ice.py`. The installer uses the same arguments as `install_shader_fidelity.py` and requires the matching verification JSON. It preserves a backup and refuses an installed source that changed after staging. Keep active upload packages immutable; use the newest installed library for the next combined build.
+
 The portable builder omits Preview-only source node groups from Materials Only and removes empty catalog subtrees per edition. An incremental updater is deferred for later integration into Blendermania V2.
 
 The `2026.11.17-surfaces-2` in-place refresh adds water transparency, internal ice depth/colour, terrain angular transitions, CustomGlass clarity and refracted screen layers. See [Surface source notes](SURFACE-SOURCES.md) for recovered data, remaining approximations and the adapter rebuild command.

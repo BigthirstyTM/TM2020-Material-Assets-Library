@@ -1,0 +1,5888 @@
+[
+  {
+    "name": "TM_BlueBay_Deco_asset",
+    "source": "BlueBay/Media/Modifier/StadiumOnTerrain/Deco.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxzdiff_spec_norm.shader.gbx",
+    "slots": {
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "BlueBay\\Media\\Texture\\Land_D.Texture.gbx",
+        "image": "Texture\\Image\\Land_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.01923077,
+          0.01923077
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 74,
+        "array_selector": "Grass",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PyRoughMetal": {
+        "resource": "BlueBay\\Media\\Texture\\Land_R.Texture.gbx",
+        "image": "Texture\\Image\\Land_R.dds",
+        "usage": "37",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "Grass",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PyNormal": {
+        "resource": "BlueBay\\Media\\Texture\\Land_N.Texture.gbx",
+        "image": "Texture\\Image\\Land_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "Grass",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "PyX2": {
+        "resource": "BlueBay\\Media\\Texture\\Land_X2.Texture.gbx",
+        "image": "Texture\\Image\\Land_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.00390625,
+          0.00390625
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 42,
+        "array_selector": "Grass",
+        "array_reference": "Texture Array\\Terrain_X2.TextureArray.Gbx"
+      },
+      "PxzBaseColor": {
+        "resource": "BlueBay\\Media\\Texture\\Land_D.Texture.gbx",
+        "image": "Texture\\Image\\Land_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.01923077,
+          0.01923077
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 74,
+        "array_selector": "GrassHill",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PxzRoughMetal": {
+        "resource": "BlueBay\\Media\\Texture\\Land_R.Texture.gbx",
+        "image": "Texture\\Image\\Land_R.dds",
+        "usage": "37",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "GrassHill",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PxzNormal": {
+        "resource": "BlueBay\\Media\\Texture\\Land_N.Texture.gbx",
+        "image": "Texture\\Image\\Land_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "GrassHill",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      }
+    }
+  },
+  {
+    "name": "TM_BlueBay_DecoHill2_asset",
+    "source": "BlueBay/Media/Modifier/StadiumOnTerrain/DecoHill2.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxztdiffspecnorm_pyx2hx2.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "BlueBay\\Media\\Texture\\Land_D.Texture.gbx",
+        "image": "Texture\\Image\\Land_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.01923077,
+          0.01923077
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 74,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PyBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "BlueBay\\Media\\Texture\\Land_R.Texture.gbx",
+        "image": "Texture\\Image\\Land_R.dds",
+        "usage": "37",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PyNormal": {
+        "resource": "BlueBay\\Media\\Texture\\Land_N.Texture.gbx",
+        "image": "Texture\\Image\\Land_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "PyX2": {
+        "resource": "BlueBay\\Media\\Texture\\Land_X2.Texture.gbx",
+        "image": "Texture\\Image\\Land_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.00390625,
+          0.00390625
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 42,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_X2.TextureArray.Gbx"
+      },
+      "PyHx2": {
+        "resource": "Techno3\\Media\\Texture\\DefaultMod2X.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "BlueBay\\Media\\Texture\\Land_D.Texture.gbx",
+        "image": "Texture\\Image\\Land_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.01923077,
+          0.01923077
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 74,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PxzBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "BlueBay\\Media\\Texture\\Land_R.Texture.gbx",
+        "image": "Texture\\Image\\Land_R.dds",
+        "usage": "37",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PxzNormal": {
+        "resource": "BlueBay\\Media\\Texture\\Land_N.Texture.gbx",
+        "image": "Texture\\Image\\Land_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "TBaseColor": {
+        "resource": "BlueBay\\Media\\Texture\\DecoHill2_D.Texture.Gbx",
+        "image": "Stadium\\Media\\Texture\\Image\\DecoHill2_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_R.Texture.gbx",
+        "image": "Image\\DecoHill_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_N.Texture.gbx",
+        "image": "Image\\DecoHill_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_BlueBay_DecoHill_asset",
+    "source": "BlueBay/Media/Modifier/StadiumOnTerrain/DecoHill.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxztdiffspecnorm_pyx2hx2.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "BlueBay\\Media\\Texture\\Land_D.Texture.gbx",
+        "image": "Texture\\Image\\Land_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.01923077,
+          0.01923077
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 74,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PyBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "BlueBay\\Media\\Texture\\Land_R.Texture.gbx",
+        "image": "Texture\\Image\\Land_R.dds",
+        "usage": "37",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PyNormal": {
+        "resource": "BlueBay\\Media\\Texture\\Land_N.Texture.gbx",
+        "image": "Texture\\Image\\Land_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "PyX2": {
+        "resource": "BlueBay\\Media\\Texture\\Land_X2.Texture.gbx",
+        "image": "Texture\\Image\\Land_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.00390625,
+          0.00390625
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 42,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_X2.TextureArray.Gbx"
+      },
+      "PyHx2": {
+        "resource": "Techno3\\Media\\Texture\\DefaultMod2X.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "BlueBay\\Media\\Texture\\Land_D.Texture.gbx",
+        "image": "Texture\\Image\\Land_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.01923077,
+          0.01923077
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 74,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PxzBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "BlueBay\\Media\\Texture\\Land_R.Texture.gbx",
+        "image": "Texture\\Image\\Land_R.dds",
+        "usage": "37",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PxzNormal": {
+        "resource": "BlueBay\\Media\\Texture\\Land_N.Texture.gbx",
+        "image": "Texture\\Image\\Land_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "TBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_D.Texture.gbx",
+        "image": "Image\\DecoHill_D.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_R.Texture.gbx",
+        "image": "Image\\DecoHill_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_N.Texture.gbx",
+        "image": "Image\\DecoHill_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_DecoCliff_asset",
+    "source": "Stadium/Media/Material/DecoCliff.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxzdiff_spec_norm.shader.gbx",
+    "slots": {
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffPxz_D.Texture.gbx",
+        "image": "Image\\DecoCliffPxz_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0.25
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffPxz_R.Texture.gbx",
+        "image": "Image\\DecoCliffPxz_R.dds",
+        "usage": "36",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffPxz_N.Texture.gbx",
+        "image": "Image\\DecoCliffPxz_N.dds",
+        "usage": "31",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyX2": {
+        "resource": "Techno3\\Media\\Texture\\DisabledModX2.Texture.gbx",
+        "image": "Image\\DisabledModX2.tga",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffPxz_D.Texture.gbx",
+        "image": "Image\\DecoCliffPxz_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0.25
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffPxz_R.Texture.gbx",
+        "image": "Image\\DecoCliffPxz_R.dds",
+        "usage": "36",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffPxz_N.Texture.gbx",
+        "image": "Image\\DecoCliffPxz_N.dds",
+        "usage": "31",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_DecoCliffBase_asset",
+    "source": "Stadium/Media/Material/DecoCliffBase.Material.Gbx",
+    "shader": "techno3/media/shader/tech3_block_tdsn_cubeout.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "BaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffBase_D.Texture.gbx",
+        "image": "Image\\DecoCliffBase_D.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "RoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffBase_R.Texture.gbx",
+        "image": "Image\\DecoCliffBase_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "Normal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffBase_N.Texture.gbx",
+        "image": "Image\\DecoCliffBase_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "BaseColorHueMask": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffBase_D_HueMask.Texture.gbx",
+        "image": "Image\\DecoCliffBase_D_HueMask.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_DecoHill2_asset",
+    "source": "Stadium/Media/Material/DecoHill2.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxztdiffspecnorm_pyx2hx2.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillPy_D.Texture.gbx",
+        "image": "Image\\DecoHillPy_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillPy_R.Texture.gbx",
+        "image": "Image\\DecoHillPy_R.dds",
+        "usage": "36",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillPy_N.Texture.gbx",
+        "image": "Image\\DecoHillPy_N.dds",
+        "usage": "31",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyX2": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillPy_X2.Texture.gbx",
+        "image": "Image\\DecoHillPy_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.001953125,
+          0.001953125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyHx2": {
+        "resource": "Techno3\\Media\\Texture\\DefaultMod2X.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillPy_D.Texture.gbx",
+        "image": "Image\\DecoHillPy_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillPy_R.Texture.gbx",
+        "image": "Image\\DecoHillPy_R.dds",
+        "usage": "36",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillPy_N.Texture.gbx",
+        "image": "Image\\DecoHillPy_N.dds",
+        "usage": "31",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill2_D.Texture.gbx",
+        "image": "Image\\DecoHill2_D.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_R.Texture.gbx",
+        "image": "Image\\DecoHill_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_N.Texture.gbx",
+        "image": "Image\\DecoHill_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_DecoHill_asset",
+    "source": "Stadium/Media/Material/DecoHill.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxztdiffspecnorm_pyx2hx2.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillPy_D.Texture.gbx",
+        "image": "Image\\DecoHillPy_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillPy_R.Texture.gbx",
+        "image": "Image\\DecoHillPy_R.dds",
+        "usage": "36",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillPy_N.Texture.gbx",
+        "image": "Image\\DecoHillPy_N.dds",
+        "usage": "31",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyX2": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillPy_X2.Texture.gbx",
+        "image": "Image\\DecoHillPy_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.001953125,
+          0.001953125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyHx2": {
+        "resource": "Techno3\\Media\\Texture\\DefaultMod2X.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillPy_D.Texture.gbx",
+        "image": "Image\\DecoHillPy_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillPy_R.Texture.gbx",
+        "image": "Image\\DecoHillPy_R.dds",
+        "usage": "36",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillPy_N.Texture.gbx",
+        "image": "Image\\DecoHillPy_N.dds",
+        "usage": "31",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_D.Texture.gbx",
+        "image": "Image\\DecoHill_D.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_R.Texture.gbx",
+        "image": "Image\\DecoHill_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_N.Texture.gbx",
+        "image": "Image\\DecoHill_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_DecoTechnics_asset",
+    "source": "Stadium/Media/Material/DecoTechnics.Material.Gbx",
+    "shader": "techno3/media/shader/tech3_block_tdsn_cubeout.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "BaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoTechnics_D.Texture.gbx",
+        "image": "Image\\DecoTechnics_D.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "RoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoTechnics_R.Texture.gbx",
+        "image": "Image\\DecoTechnics_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "Normal": {
+        "resource": "Stadium\\Media\\Texture\\DecoTechnics_N.Texture.gbx",
+        "image": "Image\\DecoTechnics_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "BaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_GreenCoast_Deco_asset",
+    "source": "GreenCoast/Media/Modifier/StadiumOnTerrain/Deco.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxzdiff_spec_norm.shader.gbx",
+    "slots": {
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_D.Texture.gbx",
+        "image": "Texture\\Image\\Grass_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 40.32,
+        "array_selector": "Grass",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PyRoughMetal": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_R.Texture.gbx",
+        "image": "Texture\\Image\\Grass_R.dds",
+        "usage": "37",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 40.32,
+        "array_selector": "Grass",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PyNormal": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_N.Texture.Gbx",
+        "image": "Texture\\Image\\Grass_N.dds",
+        "usage": "31",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 40.32,
+        "array_selector": "Grass",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "PyX2": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_X2.Texture.gbx",
+        "image": "Texture\\Image\\Grass_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.0014285714,
+          0.0014285714
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "Grass",
+        "array_reference": "Texture Array\\Terrain_X2.TextureArray.Gbx"
+      },
+      "PxzBaseColor": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_D.Texture.gbx",
+        "image": "Texture\\Image\\GrassHill_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 40.32,
+        "array_selector": "GrassHill",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PxzRoughMetal": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_R.Texture.gbx",
+        "image": "Texture\\Image\\GrassHill_R.dds",
+        "usage": "37",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 40.32,
+        "array_selector": "GrassHill",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PxzNormal": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_N.Texture.Gbx",
+        "image": "Texture\\Image\\GrassHill_N.dds",
+        "usage": "31",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 40.32,
+        "array_selector": "GrassHill",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      }
+    }
+  },
+  {
+    "name": "TM_GreenCoast_DecoHill2_asset",
+    "source": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecoHill2.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxztdiffspecnorm_pyx2hx2.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_D.Texture.gbx",
+        "image": "Texture\\Image\\Lake_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 40.32,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PyBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_R.Texture.gbx",
+        "image": "Texture\\Image\\Lake_R.dds",
+        "usage": "37",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 40.32,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PyNormal": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_N.Texture.Gbx",
+        "image": "Texture\\Image\\Lake_N.dds",
+        "usage": "31",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 40.32,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "PyX2": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_X2.Texture.gbx",
+        "image": "Texture\\Image\\Grass_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.0014285714,
+          0.0014285714
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_X2.TextureArray.Gbx"
+      },
+      "PyHx2": {
+        "resource": "Techno3\\Media\\Texture\\DefaultMod2X.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_D.Texture.gbx",
+        "image": "Texture\\Image\\Lake_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 40.32,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PxzBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_R.Texture.gbx",
+        "image": "Texture\\Image\\Lake_R.dds",
+        "usage": "37",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 40.32,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PxzNormal": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_N.Texture.Gbx",
+        "image": "Texture\\Image\\Lake_N.dds",
+        "usage": "31",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 40.32,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "TBaseColor": {
+        "resource": "GreenCoast\\Media\\Texture\\DecoHill2_D.Texture.gbx",
+        "image": "Stadium\\Media\\Texture\\Image\\DecoHill2_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_R.Texture.gbx",
+        "image": "Image\\DecoHill_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_N.Texture.gbx",
+        "image": "Image\\DecoHill_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_GreenCoast_DecoHill_asset",
+    "source": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecoHill.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxztdiffspecnorm_pyx2hx2.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_D.Texture.gbx",
+        "image": "Texture\\Image\\Lake_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 40.32,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PyBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_R.Texture.gbx",
+        "image": "Texture\\Image\\Lake_R.dds",
+        "usage": "37",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 40.32,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PyNormal": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_N.Texture.Gbx",
+        "image": "Texture\\Image\\Lake_N.dds",
+        "usage": "31",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 40.32,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "PyX2": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_X2.Texture.gbx",
+        "image": "Texture\\Image\\Grass_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.0014285714,
+          0.0014285714
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_X2.TextureArray.Gbx"
+      },
+      "PyHx2": {
+        "resource": "Techno3\\Media\\Texture\\DefaultMod2X.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_D.Texture.gbx",
+        "image": "Texture\\Image\\Lake_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 40.32,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PxzBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_R.Texture.gbx",
+        "image": "Texture\\Image\\Lake_R.dds",
+        "usage": "37",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 40.32,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PxzNormal": {
+        "resource": "GreenCoast\\Media\\Texture\\Grass_N.Texture.Gbx",
+        "image": "Texture\\Image\\Lake_N.dds",
+        "usage": "31",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 40.32,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "TBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_D.Texture.gbx",
+        "image": "Image\\DecoHill_D.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_R.Texture.gbx",
+        "image": "Image\\DecoHill_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_N.Texture.gbx",
+        "image": "Image\\DecoHill_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_PlatformDirt_DecoCliff_asset",
+    "source": "Stadium/Media/Modifier/PlatformDirt/DecoCliff.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxzdiff_spec_norm.shader.gbx",
+    "slots": {
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffDirtPxz_D.Texture.gbx",
+        "image": "Image\\DecoCliffDirtPxz_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffDirtPxz_R.Texture.gbx",
+        "image": "Image\\DecoCliffDirtPxz_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffDirtPxz_N.Texture.gbx",
+        "image": "Image\\DecoCliffDirtPxz_N.dds",
+        "usage": "31",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyX2": {
+        "resource": "Techno3\\Media\\Texture\\DisabledModX2.Texture.gbx",
+        "image": "Image\\DisabledModX2.tga",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffDirtPxz_D.Texture.gbx",
+        "image": "Image\\DecoCliffDirtPxz_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffDirtPxz_R.Texture.gbx",
+        "image": "Image\\DecoCliffDirtPxz_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffDirtPxz_N.Texture.gbx",
+        "image": "Image\\DecoCliffDirtPxz_N.dds",
+        "usage": "31",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_PlatformDirt_DecoCliffBase_asset",
+    "source": "Stadium/Media/Modifier/PlatformDirt/DecoCliffBase.Material.Gbx",
+    "shader": "techno3/media/shader/tech3_block_tdsn_cubeout.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "BaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffBaseDirt_D.Texture.gbx",
+        "image": "Image\\DecoCliffBaseDirt_D.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "RoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffBase_R.Texture.gbx",
+        "image": "Image\\DecoCliffBase_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "Normal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffBase_N.Texture.gbx",
+        "image": "Image\\DecoCliffBase_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "BaseColorHueMask": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffBase_D_HueMask.Texture.gbx",
+        "image": "Image\\DecoCliffBase_D_HueMask.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_PlatformDirt_DecoGrass_asset",
+    "source": "Stadium/Media/Modifier/PlatformDirt/DecoGrass.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxz_hue.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_D.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_R.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_N.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyX2": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_X2.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.001953125,
+          0.001953125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyHx2": {
+        "resource": "Techno3\\Media\\Texture\\DisabledModX2.Texture.gbx",
+        "image": "Image\\DisabledModX2.tga",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_D.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_R.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_N.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_PlatformDirt_DecoHill2_asset",
+    "source": "Stadium/Media/Modifier/PlatformDirt/DecoHill2.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxztdiffspecnorm_pyx2hx2.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_D.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_R.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_N.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyX2": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_X2.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.001953125,
+          0.001953125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyHx2": {
+        "resource": "Techno3\\Media\\Texture\\DefaultMod2X.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_D.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_R.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_N.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirt2_D.Texture.gbx",
+        "image": "Image\\DecoHillDirt2_D.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirt_R.Texture.gbx",
+        "image": "Image\\DecoHillDirt_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirt_N.Texture.gbx",
+        "image": "Image\\DecoHillDirt_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_PlatformDirt_DecoHill_asset",
+    "source": "Stadium/Media/Modifier/PlatformDirt/DecoHill.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxztdiffspecnorm_pyx2hx2.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_D.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_R.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_N.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyX2": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_X2.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.001953125,
+          0.001953125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyHx2": {
+        "resource": "Techno3\\Media\\Texture\\DefaultMod2X.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_D.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_R.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirtPy_N.Texture.gbx",
+        "image": "Image\\DecoHillDirtPy_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirt_D.Texture.gbx",
+        "image": "Image\\DecoHillDirt_D.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirt_R.Texture.gbx",
+        "image": "Image\\DecoHillDirt_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirt_N.Texture.gbx",
+        "image": "Image\\DecoHillDirt_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_PlatformGrass_DecoCliff_asset",
+    "source": "Stadium/Media/Modifier/PlatformGrass/DecoCliff.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxzdiff_spec_norm.shader.gbx",
+    "slots": {
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffPxz_D.Texture.gbx",
+        "image": "Image\\DecoCliffPxz_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0.25
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffPxz_R.Texture.gbx",
+        "image": "Image\\DecoCliffPxz_R.dds",
+        "usage": "36",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffPxz_N.Texture.gbx",
+        "image": "Image\\DecoCliffPxz_N.dds",
+        "usage": "31",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyX2": {
+        "resource": "Techno3\\Media\\Texture\\DisabledModX2.Texture.gbx",
+        "image": "Image\\DisabledModX2.tga",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffPxz_D.Texture.gbx",
+        "image": "Image\\DecoCliffPxz_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0.25
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffPxz_R.Texture.gbx",
+        "image": "Image\\DecoCliffPxz_R.dds",
+        "usage": "36",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffPxz_N.Texture.gbx",
+        "image": "Image\\DecoCliffPxz_N.dds",
+        "usage": "31",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_PlatformIce_DecalPlatform_asset",
+    "source": "Stadium/Media/Modifier/PlatformIce/DecalPlatform.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block decalgeom.shader.gbx",
+    "slots": {
+      "BaseColorA": {
+        "resource": "Stadium\\Media\\Texture\\DecalPlatformIce_D.Texture.gbx",
+        "image": "Image\\DecalPlatformIce_D.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "BaseColorHueMask": {
+        "resource": "Stadium\\Media\\Texture\\DecalPlatform_D_HueMask.Texture.gbx",
+        "image": "Image\\DecalPlatform_D_HueMask.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "RoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecalPlatform_R.Texture.gbx",
+        "image": "Image\\DecalPlatform_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "Normal": {
+        "resource": "Stadium\\Media\\Texture\\DecalPlatform_N.Texture.gbx",
+        "image": "Image\\DecalPlatform_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_PlatformIce_DecoCliff_asset",
+    "source": "Stadium/Media/Modifier/PlatformIce/DecoCliff.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxzdiff_spec_norm.shader.gbx",
+    "slots": {
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffIcePxz_D.Texture.gbx",
+        "image": "Image\\DecoCliffIcePxz_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0.25
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffIcePxz_R.Texture.gbx",
+        "image": "Image\\DecoCliffIcePxz_R.dds",
+        "usage": "36",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffIcePxz_N.Texture.gbx",
+        "image": "Image\\DecoCliffIcePxz_N.dds",
+        "usage": "31",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyX2": {
+        "resource": "Techno3\\Media\\Texture\\DisabledModX2.Texture.gbx",
+        "image": "Image\\DisabledModX2.tga",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffIcePxz_D.Texture.gbx",
+        "image": "Image\\DecoCliffIcePxz_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0.25
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffIcePxz_R.Texture.gbx",
+        "image": "Image\\DecoCliffIcePxz_R.dds",
+        "usage": "36",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffIcePxz_N.Texture.gbx",
+        "image": "Image\\DecoCliffIcePxz_N.dds",
+        "usage": "31",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_PlatformIce_DecoCliffBase_asset",
+    "source": "Stadium/Media/Modifier/PlatformIce/DecoCliffBase.Material.Gbx",
+    "shader": "techno3/media/shader/tech3_block_tdsn_cubeout.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "BaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffBaseIce_D.Texture.gbx",
+        "image": "Image\\DecoCliffBaseIce_D.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "RoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffBase_R.Texture.gbx",
+        "image": "Image\\DecoCliffBase_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "Normal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffBase_N.Texture.gbx",
+        "image": "Image\\DecoCliffBase_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "BaseColorHueMask": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffBase_D_HueMask.Texture.gbx",
+        "image": "Image\\DecoCliffBase_D_HueMask.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_PlatformIce_DecoGrass_asset",
+    "source": "Stadium/Media/Modifier/PlatformIce/DecoGrass.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxz_hue.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_D.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_R.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_R.dds",
+        "usage": "36",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_N.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyX2": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_X2.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.001953125,
+          0.001953125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyHx2": {
+        "resource": "Techno3\\Media\\Texture\\DisabledModX2.Texture.gbx",
+        "image": "Image\\DisabledModX2.tga",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_D.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_R.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_R.dds",
+        "usage": "36",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_N.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_PlatformIce_DecoHill2_asset",
+    "source": "Stadium/Media/Modifier/PlatformIce/DecoHill2.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxztdiffspecnorm_pyx2hx2.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_D.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_R.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_R.dds",
+        "usage": "36",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_N.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyX2": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_X2.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.001953125,
+          0.001953125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyHx2": {
+        "resource": "Techno3\\Media\\Texture\\DefaultMod2X.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_D.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_R.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_R.dds",
+        "usage": "36",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_N.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIce2_D.Texture.gbx",
+        "image": "Image\\DecoHillIce2_D.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIce_R.Texture.gbx",
+        "image": "Image\\DecoHillIce_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIce_N.Texture.gbx",
+        "image": "Image\\DecoHillIce_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_PlatformIce_DecoHill_asset",
+    "source": "Stadium/Media/Modifier/PlatformIce/DecoHill.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxztdiffspecnorm_pyx2hx2.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_D.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_R.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_R.dds",
+        "usage": "36",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_N.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyX2": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_X2.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.001953125,
+          0.001953125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyHx2": {
+        "resource": "Techno3\\Media\\Texture\\DefaultMod2X.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_D.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_R.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_R.dds",
+        "usage": "36",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIcePy_N.Texture.gbx",
+        "image": "Image\\DecoHillIcePy_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIce_D.Texture.gbx",
+        "image": "Image\\DecoHillIce_D.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIce_R.Texture.gbx",
+        "image": "Image\\DecoHillIce_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIce_N.Texture.gbx",
+        "image": "Image\\DecoHillIce_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_PlatformIce_OpenTechBorders_asset",
+    "source": "Stadium/Media/Modifier/PlatformIce/OpenTechBorders.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxztlayered.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPy.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\IcePy_R.Texture.gbx",
+        "image": "Image\\IcePy_R.dds",
+        "usage": "36",
+        "scale": [
+          0.0625,
+          0.0625
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyNormal": {
+        "resource": "Stadium\\Media\\Texture\\IcePy_N.Texture.gbx",
+        "image": "Image\\IcePy_N.dds",
+        "usage": "31",
+        "scale": [
+          0.0625,
+          0.0625
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\IcePy_R.Texture.gbx",
+        "image": "Image\\IcePy_R.dds",
+        "usage": "36",
+        "scale": [
+          0.0625,
+          0.0625
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzNormal": {
+        "resource": "Stadium\\Media\\Texture\\IcePy_N.Texture.gbx",
+        "image": "Image\\IcePy_N.dds",
+        "usage": "31",
+        "scale": [
+          0.0625,
+          0.0625
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TAlpha": {
+        "resource": "Stadium\\Media\\Texture\\IceMarks_M.Texture.gbx",
+        "image": "Image\\IceMarks_M.dds",
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\OpenTechBorders_R.Texture.gbx",
+        "image": "Image\\OpenTechBorders_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TNormal": {
+        "resource": "Stadium\\Media\\Texture\\OpenTechBorders_N.Texture.gbx",
+        "image": "Image\\OpenTechBorders_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "SubsurfaceBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\OpenIceBorders_D.Texture.gbx",
+        "image": "Image\\OpenIceBorders_D.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "SubsurfaceBaseColorHueMask": {
+        "resource": "Stadium\\Media\\Texture\\OpenTechBorders_D_HueMask.Texture.gbx",
+        "image": "Image\\OpenTechBorders_D_HueMask.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "SubsurfaceDepth": {
+        "resource": "Stadium\\Media\\Texture\\RoadIce_H.Texture.gbx",
+        "image": "Image\\RoadIce_H.dds",
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "SubsurfaceDecalBaseColor": {
+        "resource": "Techno3\\Media\\Texture\\Rgba0000.Texture.gbx",
+        "image": "Image\\Rgba0000.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "SubsurfaceDecalBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_PlatformIce_PlatformTech_asset",
+    "source": "Stadium/Media/Modifier/PlatformIce/PlatformTech.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxztlayered.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPy.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\IcePy_R.Texture.gbx",
+        "image": "Image\\IcePy_R.dds",
+        "usage": "36",
+        "scale": [
+          0.0625,
+          0.0625
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyNormal": {
+        "resource": "Stadium\\Media\\Texture\\IcePy_N.Texture.gbx",
+        "image": "Image\\IcePy_N.dds",
+        "usage": "31",
+        "scale": [
+          0.0625,
+          0.0625
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\IcePy_R.Texture.gbx",
+        "image": "Image\\IcePy_R.dds",
+        "usage": "36",
+        "scale": [
+          0.0625,
+          0.0625
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzNormal": {
+        "resource": "Stadium\\Media\\Texture\\IcePy_N.Texture.gbx",
+        "image": "Image\\IcePy_N.dds",
+        "usage": "31",
+        "scale": [
+          0.0625,
+          0.0625
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TAlpha": {
+        "resource": "Stadium\\Media\\Texture\\IceMarks_M.Texture.gbx",
+        "image": "Image\\IceMarks_M.dds",
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\IceMarks_R.Texture.gbx",
+        "image": "Image\\IceMarks_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TNormal": {
+        "resource": "Stadium\\Media\\Texture\\IceMarks_N.Texture.gbx",
+        "image": "Image\\IceMarks_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "SubsurfaceBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\PlatformIce_D.Texture.gbx",
+        "image": "Image\\PlatformIce_D.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "SubsurfaceBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "SubsurfaceDepth": {
+        "resource": "Stadium\\Media\\Texture\\PlatformIce_H.Texture.gbx",
+        "image": "Image\\PlatformIce_H.dds",
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "SubsurfaceDecalBaseColor": {
+        "resource": "Techno3\\Media\\Texture\\Rgba0000.Texture.gbx",
+        "image": "Image\\Rgba0000.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "SubsurfaceDecalBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_PlatformIce_TrackWall_asset",
+    "source": "Stadium/Media/Modifier/PlatformIce/TrackWall.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxzdiff_spec_norm_lm1.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffIcePxz_D.Texture.gbx",
+        "image": "Image\\DecoCliffIcePxz_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0.25
+        ],
+        "rotation": 0
+      },
+      "PyBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffIcePxz_R.Texture.gbx",
+        "image": "Image\\DecoCliffIcePxz_R.dds",
+        "usage": "36",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffIcePxz_N.Texture.gbx",
+        "image": "Image\\DecoCliffIcePxz_N.dds",
+        "usage": "31",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyX2": {
+        "resource": "Techno3\\Media\\Texture\\DisabledModX2.Texture.gbx",
+        "image": "Image\\DisabledModX2.tga",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyHx2": {
+        "resource": "Techno3\\Media\\Texture\\DefaultMod2X.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffIcePxz_D.Texture.gbx",
+        "image": "Image\\DecoCliffIcePxz_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0.25
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffIcePxz_R.Texture.gbx",
+        "image": "Image\\DecoCliffIcePxz_R.dds",
+        "usage": "36",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoCliffIcePxz_N.Texture.gbx",
+        "image": "Image\\DecoCliffIcePxz_N.dds",
+        "usage": "31",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_RedIsland_Deco_asset",
+    "source": "RedIsland/Media/Modifier/StadiumOnTerrain/Deco.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxzdiff_spec_norm.shader.gbx",
+    "slots": {
+      "ACosSmoothPy": {
+        "resource": "RedIsland\\Media\\Texture\\DirtHill_ACosSmoothPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "RedIsland\\Media\\Texture\\Dirt_D.Texture.gbx",
+        "image": "Texture\\Image\\Dirt_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 7,
+        "array_selector": "Dirt",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PyRoughMetal": {
+        "resource": "RedIsland\\Media\\Texture\\Dirt_R.Texture.gbx",
+        "image": "Texture\\Image\\Dirt_R.dds",
+        "usage": "37",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "Dirt",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PyNormal": {
+        "resource": "RedIsland\\Media\\Texture\\Dirt_N.Texture.Gbx",
+        "image": "Texture\\Image\\Dirt_N.dds",
+        "usage": "31",
+        "scale": [
+          0.06125,
+          -0.06125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 7,
+        "array_selector": "Dirt",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "PyX2": {
+        "resource": "RedIsland\\Media\\Texture\\Dirt_X2.Texture.gbx",
+        "image": "Texture\\Image\\Dirt_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.0015015015,
+          0.0015015015
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 33,
+        "array_selector": "Dirt",
+        "array_reference": "Texture Array\\Terrain_X2.TextureArray.Gbx"
+      },
+      "PyHx2": {
+        "resource": "RedIsland\\Media\\Texture\\Dirt_HX2.Texture.gbx",
+        "image": "Texture\\Image\\Dirt_HX2.dds",
+        "usage": "Color",
+        "scale": [
+          0.0125,
+          0.0125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "Dirt",
+        "array_reference": "Texture Array\\Terrain_H2.TextureArray.Gbx"
+      },
+      "PxzBaseColor": {
+        "resource": "RedIsland\\Media\\Texture\\DirtHill_D.Texture.gbx",
+        "image": "Texture\\Image\\DirtHill_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.015625,
+          0.025
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "DirtHill",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PxzRoughMetal": {
+        "resource": "RedIsland\\Media\\Texture\\DirtHill_R.Texture.gbx",
+        "image": "Texture\\Image\\DirtHill_R.dds",
+        "usage": "37",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "DirtHill",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PxzNormal": {
+        "resource": "RedIsland\\Media\\Texture\\DirtHill_N.Texture.gbx",
+        "image": "Texture\\Image\\DirtHill_N.dds",
+        "usage": "31",
+        "scale": [
+          0.015625,
+          0.025
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "DirtHill",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      }
+    }
+  },
+  {
+    "name": "TM_RedIsland_DecoHill2_asset",
+    "source": "RedIsland/Media/Modifier/StadiumOnTerrain/DecoHill2.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxztdiffspecnorm_pyx2hx2.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "RedIsland\\Media\\Texture\\DirtHill_ACosSmoothPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "RedIsland\\Media\\Texture\\Dirt_D.Texture.gbx",
+        "image": "Texture\\Image\\DirtSoft_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 7,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PyBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "RedIsland\\Media\\Texture\\Dirt_R.Texture.gbx",
+        "image": "Texture\\Image\\DirtSoft_R.dds",
+        "usage": "37",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PyNormal": {
+        "resource": "RedIsland\\Media\\Texture\\Dirt_N.Texture.Gbx",
+        "image": "Texture\\Image\\DirtSoft_N.dds",
+        "usage": "31",
+        "scale": [
+          0.06125,
+          -0.06125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 7,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "PyX2": {
+        "resource": "RedIsland\\Media\\Texture\\Dirt_X2.Texture.gbx",
+        "image": "Texture\\Image\\Dirt_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.0015015015,
+          0.0015015015
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 33,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_X2.TextureArray.Gbx"
+      },
+      "PyHx2": {
+        "resource": "RedIsland\\Media\\Texture\\Dirt_HX2.Texture.gbx",
+        "image": "Texture\\Image\\Dirt_HX2.dds",
+        "usage": "Color",
+        "scale": [
+          0.0125,
+          0.0125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_H2.TextureArray.Gbx"
+      },
+      "PxzBaseColor": {
+        "resource": "RedIsland\\Media\\Texture\\DirtHill_D.Texture.gbx",
+        "image": "Texture\\Image\\DirtSoft_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.015625,
+          0.025
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PxzBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "RedIsland\\Media\\Texture\\DirtHill_R.Texture.gbx",
+        "image": "Texture\\Image\\DirtSoft_R.dds",
+        "usage": "37",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PxzNormal": {
+        "resource": "RedIsland\\Media\\Texture\\DirtHill_N.Texture.gbx",
+        "image": "Texture\\Image\\DirtSoft_N.dds",
+        "usage": "31",
+        "scale": [
+          0.015625,
+          0.025
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "TBaseColor": {
+        "resource": "RedIsland\\Media\\Texture\\DecoHill2_D.Texture.gbx",
+        "image": "Stadium\\Media\\Texture\\Image\\DecoHillDirt2_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirt_R.Texture.gbx",
+        "image": "Image\\DecoHillDirt_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirt_N.Texture.gbx",
+        "image": "Image\\DecoHillDirt_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_RedIsland_DecoHill_asset",
+    "source": "RedIsland/Media/Modifier/StadiumOnTerrain/DecoHill.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxztdiffspecnorm_pyx2hx2.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "RedIsland\\Media\\Texture\\DirtHill_ACosSmoothPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "RedIsland\\Media\\Texture\\Dirt_D.Texture.gbx",
+        "image": "Texture\\Image\\DirtSoft_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.020833334,
+          0.020833334
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 7,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PyBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "RedIsland\\Media\\Texture\\Dirt_R.Texture.gbx",
+        "image": "Texture\\Image\\DirtSoft_R.dds",
+        "usage": "37",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PyNormal": {
+        "resource": "RedIsland\\Media\\Texture\\Dirt_N.Texture.Gbx",
+        "image": "Texture\\Image\\DirtSoft_N.dds",
+        "usage": "31",
+        "scale": [
+          0.06125,
+          -0.06125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 7,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "PyX2": {
+        "resource": "RedIsland\\Media\\Texture\\Dirt_X2.Texture.gbx",
+        "image": "Texture\\Image\\Dirt_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.0015015015,
+          0.0015015015
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 33,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_X2.TextureArray.Gbx"
+      },
+      "PyHx2": {
+        "resource": "RedIsland\\Media\\Texture\\Dirt_HX2.Texture.gbx",
+        "image": "Texture\\Image\\Dirt_HX2.dds",
+        "usage": "Color",
+        "scale": [
+          0.0125,
+          0.0125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_H2.TextureArray.Gbx"
+      },
+      "PxzBaseColor": {
+        "resource": "RedIsland\\Media\\Texture\\DirtHill_D.Texture.gbx",
+        "image": "Texture\\Image\\DirtSoft_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.015625,
+          0.025
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PxzBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "RedIsland\\Media\\Texture\\DirtHill_R.Texture.gbx",
+        "image": "Texture\\Image\\DirtSoft_R.dds",
+        "usage": "37",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PxzNormal": {
+        "resource": "RedIsland\\Media\\Texture\\DirtHill_N.Texture.gbx",
+        "image": "Texture\\Image\\DirtSoft_N.dds",
+        "usage": "31",
+        "scale": [
+          0.015625,
+          0.025
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "TBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirt_D.Texture.gbx",
+        "image": "Image\\DecoHillDirt_D.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirt_R.Texture.gbx",
+        "image": "Image\\DecoHillDirt_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillDirt_N.Texture.gbx",
+        "image": "Image\\DecoHillDirt_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_WhiteShore_Deco_asset",
+    "source": "WhiteShore/Media/Modifier/StadiumOnTerrain/Deco.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxzdiff_spec_norm.shader.gbx",
+    "slots": {
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_D.Texture.gbx",
+        "image": "Texture\\Image\\Land_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 7,
+        "array_selector": "Grass",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PyRoughMetal": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_R.Texture.gbx",
+        "image": "Texture\\Image\\Land_R.dds",
+        "usage": "37",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "Grass",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PyNormal": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_N.Texture.gbx",
+        "image": "Texture\\Image\\Land_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "Grass",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "PyX2": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_X2.Texture.gbx",
+        "image": "Texture\\Image\\Land_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.0015015015,
+          0.0015015015
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 33,
+        "array_selector": "Grass",
+        "array_reference": "Texture Array\\Terrain_X2.TextureArray.Gbx"
+      },
+      "PxzBaseColor": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_D.Texture.gbx",
+        "image": "Texture\\Image\\Land_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 7,
+        "array_selector": "GrassHill",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PxzRoughMetal": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_R.Texture.gbx",
+        "image": "Texture\\Image\\Land_R.dds",
+        "usage": "37",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "GrassHill",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PxzNormal": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_N.Texture.gbx",
+        "image": "Texture\\Image\\Land_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "GrassHill",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      }
+    }
+  },
+  {
+    "name": "TM_WhiteShore_DecoHill2_asset",
+    "source": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecoHill2.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxztdiffspecnorm_pyx2hx2.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_D.Texture.gbx",
+        "image": "Texture\\Image\\Land_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 7,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PyBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_R.Texture.gbx",
+        "image": "Texture\\Image\\Land_R.dds",
+        "usage": "37",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PyNormal": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_N.Texture.gbx",
+        "image": "Texture\\Image\\Land_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "PyX2": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_X2.Texture.gbx",
+        "image": "Texture\\Image\\Land_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.0015015015,
+          0.0015015015
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 33,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_X2.TextureArray.Gbx"
+      },
+      "PyHx2": {
+        "resource": "Techno3\\Media\\Texture\\DefaultMod2X.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_D.Texture.gbx",
+        "image": "Texture\\Image\\Land_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 7,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PxzBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_R.Texture.gbx",
+        "image": "Texture\\Image\\Land_R.dds",
+        "usage": "37",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PxzNormal": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_N.Texture.gbx",
+        "image": "Texture\\Image\\Land_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "TBaseColor": {
+        "resource": "WhiteShore\\Media\\Texture\\DecoHill2_D.Texture.gbx",
+        "image": "Stadium\\Media\\Texture\\Image\\DecoHillIce2_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_R.Texture.gbx",
+        "image": "Image\\DecoHill_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_N.Texture.gbx",
+        "image": "Image\\DecoHill_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  },
+  {
+    "name": "TM_WhiteShore_DecoHill_asset",
+    "source": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecoHill.Material.Gbx",
+    "shader": "techno3/media/shader/tech3 block pypxztdiffspecnorm_pyx2hx2.shader.gbx",
+    "slots": {
+      "PreLightGenTx": {
+        "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmooth": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefault.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "ACosSmoothPy": {
+        "resource": "Techno3\\Media\\Texture\\ACosSmoothDefaultPyPxz.Texture.Gbx",
+        "image": null,
+        "usage": "Light",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyBaseColor": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_D.Texture.gbx",
+        "image": "Texture\\Image\\Land_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 7,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PyBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PyRoughMetal": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_R.Texture.gbx",
+        "image": "Texture\\Image\\Land_R.dds",
+        "usage": "37",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PyNormal": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_N.Texture.gbx",
+        "image": "Texture\\Image\\Land_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "PyX2": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_X2.Texture.gbx",
+        "image": "Texture\\Image\\Land_X2.dds",
+        "usage": "Color",
+        "scale": [
+          0.0015015015,
+          0.0015015015
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 33,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_X2.TextureArray.Gbx"
+      },
+      "PyHx2": {
+        "resource": "Techno3\\Media\\Texture\\DefaultMod2X.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzBaseColor": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_D.Texture.gbx",
+        "image": "Texture\\Image\\Land_D.dds",
+        "usage": "Color",
+        "scale": [
+          0.03125,
+          0.03125
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 7,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_D.TextureArray.Gbx"
+      },
+      "PxzBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "PxzRoughMetal": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_R.Texture.gbx",
+        "image": "Texture\\Image\\Land_R.dds",
+        "usage": "37",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_R.TextureArray.Gbx"
+      },
+      "PxzNormal": {
+        "resource": "WhiteShore\\Media\\Texture\\Land_N.Texture.gbx",
+        "image": "Texture\\Image\\Land_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0,
+        "array_selector": "first-layer-preview",
+        "array_reference": "Texture Array\\Terrain_N.TextureArray.Gbx"
+      },
+      "TBaseColor": {
+        "resource": "Stadium\\Media\\Texture\\DecoHillIce_D.Texture.gbx",
+        "image": "Image\\DecoHillIce_D.dds",
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TBaseColorHueMask": {
+        "resource": "Techno3\\Media\\Texture\\DefaultRGBA.Texture.Gbx",
+        "image": null,
+        "usage": "Color",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TRoughMetal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_R.Texture.gbx",
+        "image": "Image\\DecoHill_R.dds",
+        "usage": "36",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      },
+      "TNormal": {
+        "resource": "Stadium\\Media\\Texture\\DecoHill_N.Texture.gbx",
+        "image": "Image\\DecoHill_N.dds",
+        "usage": "31",
+        "scale": [
+          1,
+          1
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "rotation": 0
+      }
+    }
+  }
+]

@@ -29,6 +29,8 @@ The current refresh corrects native UV/vertex-colour declarations and adds sourc
 
 A separate local preview update, `2026.11.23-shader-fidelity-1`, corrects DecoHill UV overlays, adds depth-dependent water colour, and reconstructs WaterWall transmission, foam and animation. It is **not yet included in the release ZIPs**. See [Terrain and water preview controls](docs/SHADER-FIDELITY-PREVIEWS.md) for the new controls and approximation limits.
 
+The subsequent local `2026.11.23-deco-ice-1` update reviews all 32 Deco and PlatformIce assets, extends the UV decoration correction across the Hill families, reconstructs the DecoGrass Hue formula, repairs layered ice inputs and regenerates matching thumbnails while retaining existing badges. See [Deco and ice previews](docs/DECO-ICE-PREVIEWS.md). This update is also pending inclusion in the next combined release packages.
+
 Native-linked means an export link is available. It is not a blanket guarantee of in-game visibility, identical appearance, physics or crash-free behaviour. Preview only assets are reference assets with unconfirmed, conditional or unsupported export behaviour and are kept under **Trackmania2020 → 08 Preview only**. This includes vegetation previews that are not currently exportable through this library.
 
 ## Install on Windows
