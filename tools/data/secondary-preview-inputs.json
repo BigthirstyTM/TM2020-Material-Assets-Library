@@ -1,0 +1,1055 @@
+{
+  "targets": [
+    {
+      "name": "TM_LightTubeBig_asset",
+      "source": "Stadium/Media/Material/LightTubeBig.Material.Gbx",
+      "shader": "Techno3/Media/Shader/Tech3_Block_TDSNI_CubeOut.Shader.Gbx",
+      "slots": {
+        "PreLightGenTx": {
+          "role": "PreLightGenTx",
+          "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+          "image": null,
+          "usage": "Light",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": null,
+          "explicit_override": false,
+          "reflected_in_compiled_program": true
+        },
+        "BaseColor": {
+          "role": "BaseColor",
+          "resource": "Stadium\\Media\\Texture\\LightTube_D.Texture.gbx",
+          "image": "Image\\LightTube_D.dds",
+          "usage": "Color",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "RoughMetal": {
+          "role": "RoughMetal",
+          "resource": "Stadium\\Media\\Texture\\LightTube_R.Texture.gbx",
+          "image": "Image\\LightTube_R.dds",
+          "usage": "36",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "Normal": {
+          "role": "Normal",
+          "resource": "Stadium\\Media\\Texture\\LightTube_N.Texture.gbx",
+          "image": "Image\\LightTube_N.dds",
+          "usage": "31",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "SelfIllum": {
+          "role": "SelfIllum",
+          "resource": "Stadium\\Media\\Texture\\LightTube_I.Texture.gbx",
+          "image": "Image\\LightTube_I.dds",
+          "usage": "Color",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "SelfIllumRefract": {
+          "role": "SelfIllumRefract",
+          "resource": "Stadium\\Media\\Texture\\LightTubeRefract_I.Texture.gbx",
+          "image": "Image\\LightTubeRefract_I.dds",
+          "usage": "Color",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": false,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "RefractGradient": {
+          "role": "RefractGradient",
+          "resource": "Stadium\\Media\\Texture\\LightTubeBig_G.Texture.gbx",
+          "image": "Image\\LightTubeBig_G.tga",
+          "usage": "Color",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": false,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        }
+      },
+      "parameters": {
+        "NightOnly_SelfIllum": {
+          "values": [
+            [
+              0
+            ]
+          ],
+          "source": "Stadium/Media/Material/LightTubeBig.Material.Gbx",
+          "stage": "pixel"
+        },
+        "SelfIllumScale": {
+          "values": [
+            [
+              1.5
+            ]
+          ],
+          "source": "Stadium/Media/Material/LightTubeBig.Material.Gbx",
+          "stage": "pixel"
+        },
+        "SelfIllumScaleRefract": {
+          "values": [
+            [
+              0.2
+            ]
+          ],
+          "source": "Stadium/Media/Material/LightTubeBig.Material.Gbx",
+          "stage": "pixel"
+        }
+      },
+      "colour_table": {}
+    },
+    {
+      "name": "TM_LightTubeSmall_asset",
+      "source": "Stadium/Media/Material/LightTubeSmall.Material.Gbx",
+      "shader": "Techno3/Media/Shader/Tech3_Block_TDSNI_CubeOut.Shader.Gbx",
+      "slots": {
+        "PreLightGenTx": {
+          "role": "PreLightGenTx",
+          "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+          "image": null,
+          "usage": "Light",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": null,
+          "explicit_override": false,
+          "reflected_in_compiled_program": true
+        },
+        "BaseColor": {
+          "role": "BaseColor",
+          "resource": "Stadium\\Media\\Texture\\LightTube_D.Texture.gbx",
+          "image": "Image\\LightTube_D.dds",
+          "usage": "Color",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "RoughMetal": {
+          "role": "RoughMetal",
+          "resource": "Stadium\\Media\\Texture\\LightTube_R.Texture.gbx",
+          "image": "Image\\LightTube_R.dds",
+          "usage": "36",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "Normal": {
+          "role": "Normal",
+          "resource": "Stadium\\Media\\Texture\\LightTube_N.Texture.gbx",
+          "image": "Image\\LightTube_N.dds",
+          "usage": "31",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "SelfIllum": {
+          "role": "SelfIllum",
+          "resource": "Stadium\\Media\\Texture\\LightTube_I.Texture.gbx",
+          "image": "Image\\LightTube_I.dds",
+          "usage": "Color",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "SelfIllumRefract": {
+          "role": "SelfIllumRefract",
+          "resource": "Stadium\\Media\\Texture\\LightTubeRefract_I.Texture.gbx",
+          "image": "Image\\LightTubeRefract_I.dds",
+          "usage": "Color",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": false,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "RefractGradient": {
+          "role": "RefractGradient",
+          "resource": "Stadium\\Media\\Texture\\LightTubeSmall_G.Texture.gbx",
+          "image": "Image\\LightTubeSmall_G.tga",
+          "usage": "Color",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": false,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        }
+      },
+      "parameters": {
+        "NightOnly_SelfIllum": {
+          "values": [
+            [
+              0
+            ]
+          ],
+          "source": "Stadium/Media/Material/LightTubeSmall.Material.Gbx",
+          "stage": "pixel"
+        },
+        "SelfIllumScale": {
+          "values": [
+            [
+              1.5
+            ]
+          ],
+          "source": "Stadium/Media/Material/LightTubeSmall.Material.Gbx",
+          "stage": "pixel"
+        },
+        "SelfIllumScaleRefract": {
+          "values": [
+            [
+              0
+            ]
+          ],
+          "source": "Stadium/Media/Material/LightTubeSmall.Material.Gbx",
+          "stage": "pixel"
+        }
+      },
+      "colour_table": {}
+    },
+    {
+      "name": "TM_Stadium_StructureInWorld_asset",
+      "source": "BlueBay/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx",
+      "shader": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut.Shader.Gbx",
+      "slots": {
+        "PreLightGenTx": {
+          "role": "PreLightGenTx",
+          "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+          "image": null,
+          "usage": "Light",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": null,
+          "explicit_override": false,
+          "reflected_in_compiled_program": true
+        },
+        "BaseColor": {
+          "role": "BaseColor",
+          "resource": "Stadium\\Media\\Texture\\StructureInWorld_D.Texture.gbx",
+          "image": "Image\\StructureInWorld_D.dds",
+          "usage": "Color",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "RoughMetal": {
+          "role": "RoughMetal",
+          "resource": "Stadium\\Media\\Texture\\StructureInWorld_R.Texture.gbx",
+          "image": "Image\\StructureInWorld_R.dds",
+          "usage": "36",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "Normal": {
+          "role": "Normal",
+          "resource": "Stadium\\Media\\Texture\\StructureInWorld_N.Texture.gbx",
+          "image": "Image\\StructureInWorld_N.dds",
+          "usage": "31",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "BaseColorHueMask": {
+          "role": "BaseColorHueMask",
+          "resource": "Stadium\\Media\\Texture\\StructureInWorld_D_HueMask.Texture.gbx",
+          "image": "Image\\StructureInWorld_D_HueMask.dds",
+          "usage": "Color",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": false,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        }
+      },
+      "parameters": {
+        "NoFrontBounce": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "source": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut.Shader.Gbx",
+          "stage": "pixel"
+        },
+        "BaseColorTarget": {
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "source": "BlueBay/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx",
+          "stage": "vertex"
+        }
+      },
+      "colour_table": {
+        "ClassId": "CPlugMaterialColorTargetTable",
+        "Colors": [
+          "#e1e1e100",
+          "#43725600",
+          "#37608800",
+          "#8f291b00",
+          "#25252500"
+        ],
+        "Colors_Blind": [
+          "#ffffff",
+          "#9cd91900",
+          "#446ec900",
+          "#cf6f0000",
+          "#25252500"
+        ],
+        "TM_Stunt": [
+          "#6df1dd00",
+          "#cef16d00",
+          "#f1a66d00",
+          "#f48dea00",
+          "#6da2f100"
+        ],
+        "TM_Stunt_Blind": [
+          "#6df1dd00",
+          "#cef16d00",
+          "#f1a66d00",
+          "#f48db800",
+          "#6da2f100"
+        ],
+        "Classic": [
+          "#e1e1e100",
+          "#43725600",
+          "#37608800",
+          "#8f291b00",
+          "#25252500"
+        ],
+        "Classic_ColorBlind": [
+          "#ffffff",
+          "#9cd91900",
+          "#446ec900",
+          "#cf6f0000",
+          "#25252500"
+        ],
+        "Stunt": [
+          "#6df1dd00",
+          "#cef16d00",
+          "#f1a66d00",
+          "#f48dea00",
+          "#6da2f100"
+        ],
+        "Stunt_ColorBlind": [
+          "#6df1dd00",
+          "#cef16d00",
+          "#f1a66d00",
+          "#f48db800",
+          "#6da2f100"
+        ]
+      }
+    },
+    {
+      "name": "TM_Stadium_StructureTruss_asset",
+      "source": "Stadium/Media/Material/StructureTruss.Material.Gbx",
+      "shader": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut.Shader.Gbx",
+      "slots": {
+        "PreLightGenTx": {
+          "role": "PreLightGenTx",
+          "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+          "image": null,
+          "usage": "Light",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": null,
+          "explicit_override": false,
+          "reflected_in_compiled_program": true
+        },
+        "BaseColor": {
+          "role": "BaseColor",
+          "resource": "Stadium\\Media\\Texture\\StructureTruss_D.Texture.gbx",
+          "image": "Image\\StructureTruss_D.dds",
+          "usage": "Color",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "RoughMetal": {
+          "role": "RoughMetal",
+          "resource": "Stadium\\Media\\Texture\\StructureTruss_R.Texture.gbx",
+          "image": "Image\\StructureTruss_R.dds",
+          "usage": "36",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "Normal": {
+          "role": "Normal",
+          "resource": "Stadium\\Media\\Texture\\StructureTruss_N.Texture.gbx",
+          "image": "Image\\StructureTruss_N.dds",
+          "usage": "31",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "BaseColorHueMask": {
+          "role": "BaseColorHueMask",
+          "resource": "Stadium\\Media\\Texture\\StructureTruss_D_HueMask.Texture.gbx",
+          "image": "Image\\StructureTruss_D_HueMask.dds",
+          "usage": "Color",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": false,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        }
+      },
+      "parameters": {
+        "NoFrontBounce": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "source": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut.Shader.Gbx",
+          "stage": "pixel"
+        },
+        "BaseColorTarget": {
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "source": "Stadium/Media/Material/StructureTruss.Material.Gbx",
+          "stage": "vertex"
+        }
+      },
+      "colour_table": {
+        "ClassId": "CPlugMaterialColorTargetTable",
+        "Colors": [
+          "#e1e1e100",
+          "#43725600",
+          "#37608800",
+          "#8f291b00",
+          "#25252500"
+        ],
+        "Colors_Blind": [
+          "#ffffff",
+          "#9cd91900",
+          "#446ec900",
+          "#cf6f0000",
+          "#25252500"
+        ],
+        "TM_Stunt": [
+          "#6df1dd00",
+          "#cef16d00",
+          "#f1a66d00",
+          "#f48dea00",
+          "#6da2f100"
+        ],
+        "TM_Stunt_Blind": [
+          "#6df1dd00",
+          "#cef16d00",
+          "#f1a66d00",
+          "#f48db800",
+          "#6da2f100"
+        ],
+        "Classic": [
+          "#e1e1e100",
+          "#43725600",
+          "#37608800",
+          "#8f291b00",
+          "#25252500"
+        ],
+        "Classic_ColorBlind": [
+          "#ffffff",
+          "#9cd91900",
+          "#446ec900",
+          "#cf6f0000",
+          "#25252500"
+        ],
+        "Stunt": [
+          "#6df1dd00",
+          "#cef16d00",
+          "#f1a66d00",
+          "#f48dea00",
+          "#6da2f100"
+        ],
+        "Stunt_ColorBlind": [
+          "#6df1dd00",
+          "#cef16d00",
+          "#f1a66d00",
+          "#f48db800",
+          "#6da2f100"
+        ]
+      }
+    },
+    {
+      "name": "TM_Stadium_ThemeDesertBarrier_asset",
+      "source": "Stadium/Media/Material/ThemeDesertBarrier.Material.Gbx",
+      "shader": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut.Shader.Gbx",
+      "slots": {
+        "PreLightGenTx": {
+          "role": "PreLightGenTx",
+          "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+          "image": null,
+          "usage": "Light",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": null,
+          "explicit_override": false,
+          "reflected_in_compiled_program": true
+        },
+        "BaseColor": {
+          "role": "BaseColor",
+          "resource": "Stadium\\Media\\Texture\\ThemeDesertBarrier_D.Texture.gbx",
+          "image": "Image\\ThemeDesertBarrier_D.dds",
+          "usage": "Color",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "RoughMetal": {
+          "role": "RoughMetal",
+          "resource": "Stadium\\Media\\Texture\\ThemeDesertBarrier_R.Texture.gbx",
+          "image": "Image\\ThemeDesertBarrier_R.dds",
+          "usage": "36",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "Normal": {
+          "role": "Normal",
+          "resource": "Stadium\\Media\\Texture\\ThemeDesertBarrier_N.Texture.gbx",
+          "image": "Image\\ThemeDesertBarrier_N.dds",
+          "usage": "31",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "BaseColorHueMask": {
+          "role": "BaseColorHueMask",
+          "resource": "Stadium\\Media\\Texture\\ThemeDesertBarrier_D_HueMask.Texture.gbx",
+          "image": "Image\\ThemeDesertBarrier_D_HueMask.dds",
+          "usage": "Color",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": false,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        }
+      },
+      "parameters": {
+        "NoFrontBounce": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "source": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut.Shader.Gbx",
+          "stage": "pixel"
+        },
+        "BaseColorTarget": {
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "source": "Stadium/Media/Material/ThemeDesertBarrier.Material.Gbx",
+          "stage": "vertex"
+        }
+      },
+      "colour_table": {
+        "ClassId": "CPlugMaterialColorTargetTable",
+        "Colors": [
+          "#e1e1e100",
+          "#43725600",
+          "#37608800",
+          "#8f291b00",
+          "#25252500"
+        ],
+        "Colors_Blind": [
+          "#ffffff",
+          "#9cd91900",
+          "#446ec900",
+          "#cf6f0000",
+          "#25252500"
+        ],
+        "TM_Stunt": [
+          "#6df1dd00",
+          "#cef16d00",
+          "#f1a66d00",
+          "#f48dea00",
+          "#6da2f100"
+        ],
+        "TM_Stunt_Blind": [
+          "#6df1dd00",
+          "#cef16d00",
+          "#f1a66d00",
+          "#f48db800",
+          "#6da2f100"
+        ],
+        "Classic": [
+          "#e1e1e100",
+          "#43725600",
+          "#37608800",
+          "#8f291b00",
+          "#25252500"
+        ],
+        "Classic_ColorBlind": [
+          "#ffffff",
+          "#9cd91900",
+          "#446ec900",
+          "#cf6f0000",
+          "#25252500"
+        ],
+        "Stunt": [
+          "#6df1dd00",
+          "#cef16d00",
+          "#f1a66d00",
+          "#f48dea00",
+          "#6da2f100"
+        ],
+        "Stunt_ColorBlind": [
+          "#6df1dd00",
+          "#cef16d00",
+          "#f1a66d00",
+          "#f48db800",
+          "#6da2f100"
+        ]
+      }
+    },
+    {
+      "name": "TM_Stadium_TrackWallClipsInWorld_asset",
+      "source": "BlueBay/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx",
+      "shader": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut.Shader.Gbx",
+      "slots": {
+        "PreLightGenTx": {
+          "role": "PreLightGenTx",
+          "resource": "Techno3\\Media\\Texture\\DefaultPreLightGenTx.Texture.Gbx",
+          "image": null,
+          "usage": "Light",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": null,
+          "explicit_override": false,
+          "reflected_in_compiled_program": true
+        },
+        "BaseColor": {
+          "role": "BaseColor",
+          "resource": "Stadium\\Media\\Texture\\TrackWallClipsInWorld_D.Texture.gbx",
+          "image": "Image\\TrackWallClipsInWorld_D.dds",
+          "usage": "Color",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "RoughMetal": {
+          "role": "RoughMetal",
+          "resource": "Stadium\\Media\\Texture\\TrackWallClipsInWorld_R.Texture.gbx",
+          "image": "Image\\TrackWallClipsInWorld_R.dds",
+          "usage": "36",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "Normal": {
+          "role": "Normal",
+          "resource": "Stadium\\Media\\Texture\\TrackWallClipsInWorld_N.Texture.gbx",
+          "image": "Image\\TrackWallClipsInWorld_N.dds",
+          "usage": "31",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": true,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        },
+        "BaseColorHueMask": {
+          "role": "BaseColorHueMask",
+          "resource": "Stadium\\Media\\Texture\\TrackWallClipsInWorld_D_HueMask.Texture.gbx",
+          "image": "Image\\TrackWallClipsInWorld_D_HueMask.dds",
+          "usage": "Color",
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "present_in_reachable_graph": false,
+          "explicit_override": true,
+          "reflected_in_compiled_program": true
+        }
+      },
+      "parameters": {
+        "NoFrontBounce": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "source": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut.Shader.Gbx",
+          "stage": "pixel"
+        },
+        "BaseColorTarget": {
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "source": "BlueBay/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx",
+          "stage": "vertex"
+        }
+      },
+      "colour_table": {
+        "ClassId": "CPlugMaterialColorTargetTable",
+        "Colors": [
+          "#e1e1e100",
+          "#43725600",
+          "#37608800",
+          "#8f291b00",
+          "#25252500"
+        ],
+        "Colors_Blind": [
+          "#ffffff",
+          "#9cd91900",
+          "#446ec900",
+          "#cf6f0000",
+          "#25252500"
+        ],
+        "TM_Stunt": [
+          "#6df1dd00",
+          "#cef16d00",
+          "#f1a66d00",
+          "#f48dea00",
+          "#6da2f100"
+        ],
+        "TM_Stunt_Blind": [
+          "#6df1dd00",
+          "#cef16d00",
+          "#f1a66d00",
+          "#f48db800",
+          "#6da2f100"
+        ],
+        "Classic": [
+          "#e1e1e100",
+          "#43725600",
+          "#37608800",
+          "#8f291b00",
+          "#25252500"
+        ],
+        "Classic_ColorBlind": [
+          "#ffffff",
+          "#9cd91900",
+          "#446ec900",
+          "#cf6f0000",
+          "#25252500"
+        ],
+        "Stunt": [
+          "#6df1dd00",
+          "#cef16d00",
+          "#f1a66d00",
+          "#f48dea00",
+          "#6da2f100"
+        ],
+        "Stunt_ColorBlind": [
+          "#6df1dd00",
+          "#cef16d00",
+          "#f1a66d00",
+          "#f48db800",
+          "#6da2f100"
+        ]
+      }
+    }
+  ],
+  "note": "Source-local inputs; runtime palette and renderer behavior remain unresolved."
+}

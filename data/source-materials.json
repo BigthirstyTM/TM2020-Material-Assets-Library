@@ -1987,7 +1987,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -2696,7 +2697,8 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
-        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -2723,7 +2725,8 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
-        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -2750,7 +2753,8 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
-        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -2799,7 +2803,8 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
-        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -2826,7 +2831,8 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
-        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -2853,7 +2859,8 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
-        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -2880,7 +2887,8 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
-        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -3223,7 +3231,8 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
-        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -3250,7 +3259,8 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
-        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -3277,7 +3287,8 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
-        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -3304,7 +3315,8 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
-        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -3331,7 +3343,8 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
-        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -3358,7 +3371,8 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
-        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -4132,7 +4146,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -4178,7 +4193,8 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Original requested icon retained; inspect Color vertex alpha and projected layers on the mesh.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -4206,7 +4222,8 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Original requested icon retained; inspect Color vertex alpha and projected layers on the mesh.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -16530,7 +16547,8 @@
       "name": "TM_LightTubeBig_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Source-local light emission or optional masked Hue preview updated; runtime scene/palette selection remains explicit. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [],
       "native_link": "Stadium\\Media\\Material\\LightTubeBig",
@@ -16549,7 +16567,8 @@
       "name": "TM_LightTubeSmall_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Source-local light emission or optional masked Hue preview updated; runtime scene/palette selection remains explicit. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [],
       "native_link": "Stadium\\Media\\Material\\LightTubeSmall",
@@ -16946,7 +16965,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -16990,7 +17010,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -17016,7 +17037,8 @@
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -17043,7 +17065,8 @@
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -17160,7 +17183,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -17270,7 +17294,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -17314,7 +17339,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -17340,7 +17366,8 @@
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -17367,7 +17394,8 @@
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -19703,7 +19731,8 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
-        "Native decoration uses BaseMaterial UV. For Color alpha painting, enable Use painted vertex alpha in Deco native layer controls; fallback alpha 1 is the default preview. Export uses the actual vertex data."
+        "Native decoration uses BaseMaterial UV. For Color alpha painting, enable Use painted vertex alpha in Deco native layer controls; fallback alpha 1 is the default preview. Export uses the actual vertex data.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -19731,7 +19760,8 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
-        "Native decoration uses BaseMaterial UV. For Color alpha painting, enable Use painted vertex alpha in Deco native layer controls; fallback alpha 1 is the default preview. Export uses the actual vertex data."
+        "Native decoration uses BaseMaterial UV. For Color alpha painting, enable Use painted vertex alpha in Deco native layer controls; fallback alpha 1 is the default preview. Export uses the actual vertex data.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -21711,7 +21741,8 @@
       "name": "TM_Stadium_StructureInWorld_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Source-local light emission or optional masked Hue preview updated; runtime scene/palette selection remains explicit. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [],
       "native_link": "BlueBay\\Media\\Modifier\\StadiumOnTerrain\\StructureInWorld",
@@ -21730,7 +21761,8 @@
       "name": "TM_Stadium_StructureTruss_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Source-local light emission or optional masked Hue preview updated; runtime scene/palette selection remains explicit. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [],
       "native_link": "Stadium\\Media\\Material\\StructureTruss",
@@ -21769,7 +21801,8 @@
       "name": "TM_Stadium_ThemeDesertBarrier_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Source-local light emission or optional masked Hue preview updated; runtime scene/palette selection remains explicit. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [],
       "native_link": "Stadium\\Media\\Material\\ThemeDesertBarrier",
@@ -21809,7 +21842,8 @@
       "name": "TM_Stadium_TrackWallClipsInWorld_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Source-local light emission or optional masked Hue preview updated; runtime scene/palette selection remains explicit. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [],
       "native_link": "BlueBay\\Media\\Modifier\\StadiumOnTerrain\\TrackWallClipsInWorld",
@@ -22043,7 +22077,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -22247,7 +22282,8 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
-        "Native decoration uses BaseMaterial UV. For Color alpha painting, enable Use painted vertex alpha in Deco native layer controls; fallback alpha 1 is the default preview. Export uses the actual vertex data."
+        "Native decoration uses BaseMaterial UV. For Color alpha painting, enable Use painted vertex alpha in Deco native layer controls; fallback alpha 1 is the default preview. Export uses the actual vertex data.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",
@@ -23380,7 +23416,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
       ],
       "usage_tags": [
         "Projection",

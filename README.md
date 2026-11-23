@@ -8,6 +8,10 @@ A material asset library for **Trackmania 2020**, designed for the **Blendermani
 
 The badges above show the material count in each edition and the Blender version used to prepare the library. The small symbols on material thumbnails describe material features; see the [short badge legend](docs/BADGES.md).
 
+## Local projection and source follow-up
+
+The current local follow-up improves 31 projected previews, two light tubes and four optional structure colour masks, refreshes 37 thumbnails, and recovers 88 exact shader references. See [projected surfaces](docs/PROJECTED-SURFACES.md) and [source resolution](docs/SOURCE-RESOLUTION.md). This work is newer than the published native-surfaces-1 full ZIPs.
+
 ## Choose your edition
 
 | Edition | Included | Recommended for |
