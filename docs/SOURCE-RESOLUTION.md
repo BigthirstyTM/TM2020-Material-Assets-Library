@@ -8,7 +8,9 @@ The library records 698 unambiguous ancestor chains in `tm_exact_shader_resource
 
 ## Remaining gaps
 
-- 94 ancestor chains differ from previously captured shader descriptors. Their existing captured evidence and graphs are retained; the new chains are kept in the research data for reconciliation. They are not silently promoted as a new exact identity.
+The later [shader reconciliation](SHADER-RECONCILIATION.md) resolves the 94 descriptor-root questions below: 91 are dependent-pass relationships and three select the explicit NoDecal root. The library now records 792 root chains. This section otherwise records the original research state.
+
+- The 94 earlier descriptor differences are now classified in SHADER-RECONCILIATION.md: 91 explicitly referenced dependent shaders and three NoDecal root selections. Historical captured descriptors are retained separately; the root chains are now recorded in the library.
 - Five legacy screen aliases remain unresolved: 16x9ScreenOff, Ad16x9Screen, PodiumScreen16x9, WarpScreen16x9B and WarpScreen16x9C. The three decoded resource inventories and unpacked material names provided no exact hit. Their game links are unchanged.
 - Texture-only reference assets do not acquire a fictitious unique material shader.
 - Array layer selectors, physical scale/angle field semantics and rotated normal frames need further work. Array-wide unit scale is not accepted as an exact per-layer transform.

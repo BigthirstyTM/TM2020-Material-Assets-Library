@@ -1,5 +1,7 @@
 # Projected terrain and source previews
 
+For the subsequent terrain-array and LakeBottom changes, see [shader reconciliation](SHADER-RECONCILIATION.md).
+
 Local content revision: **2026.11.23-projection-sources-1**.
 
 This follow-up improves 31 projected terrain, rock, Deco and Custom previews, integrates two light-tube emission adapters and four optional structure colour-mask previews, and refreshes the 37 affected thumbnails.

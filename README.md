@@ -10,7 +10,7 @@ The badges above show the material count in each edition and the Blender version
 
 ## Local projection and source follow-up
 
-The current local follow-up improves 31 projected previews, two light tubes and four optional structure colour masks, refreshes 37 thumbnails, and recovers 88 exact shader references. See [projected surfaces](docs/PROJECTED-SURFACES.md) and [source resolution](docs/SOURCE-RESOLUTION.md). This work is newer than the published native-surfaces-1 full ZIPs.
+The current local follow-up improves 31 projected previews, two light tubes and four optional structure colour masks, refreshes 37 thumbnails, and recovers 88 exact shader references. See [projected surfaces](docs/PROJECTED-SURFACES.md) and [source resolution](docs/SOURCE-RESOLUTION.md). This work is newer than the published native-surfaces-1 full ZIPs. A subsequent [shader reconciliation](docs/SHADER-RECONCILIATION.md) clarifies 94 root/pass references, improves ten array-based terrain previews plus LakeBottom, and refreshes eleven more thumbnails. These local follow-ups are not yet in the full download packages.
 
 ## Choose your edition
 

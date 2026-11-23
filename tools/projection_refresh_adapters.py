@@ -2,6 +2,7 @@
 from material_preview_adapters import node,wire,math,vec,combine
 from shader_fidelity_adapters import sample,split,bc5,rough_channels,mix
 from deco_ice_adapters import transform,tex,hue
+import math as M
 
 REVISION='2026.11.23-projection-sources-1'
 
@@ -11,7 +12,16 @@ def projected(bpy,g,m,record,images,hue_target=None,colour=True):
     signs=[math(g,'SUBTRACT',math(g,'MULTIPLY',math(g,'GREATER_THAN',v,0),2),1) for v in n]
     coords=[combine(g,math(g,'MULTIPLY',pos[1],signs[0]),pos[2]),combine(g,math(g,'MULTIPLY',pos[0],math(g,'MULTIPLY',signs[1],-1)),pos[2]),combine(g,pos[0],pos[1])]
     old=m.node_tree.nodes.get('Terrain Angular Transition Controls')
-    if old:
+    if record.get('array_angles'):
+        def weight(value,angles):
+            low,high=sorted(M.cos(M.radians(a)) for a in angles)
+            f=math(g,'MINIMUM',math(g,'MAXIMUM',math(g,'DIVIDE',math(g,'SUBTRACT',value,low),high-low),0),1)
+            return math(g,'MULTIPLY',math(g,'MULTIPLY',f,f),math(g,'SUBTRACT',3,math(g,'MULTIPLY',2,f)))
+        wz=weight(math(g,'ABSOLUTE',n[2]),record['array_angles']['top'])
+        horizontal=math(g,'SQRT',math(g,'ADD',math(g,'MULTIPLY',n[0],n[0]),math(g,'MULTIPLY',n[1],n[1])))
+        side=math(g,'SUBTRACT',1,weight(math(g,'DIVIDE',math(g,'ABSOLUTE',n[0]),math(g,'MAXIMUM',horizontal,1e-8)),record['array_angles']['side']))
+        wx=math(g,'MULTIPLY',math(g,'SUBTRACT',1,wz),math(g,'SUBTRACT',1,side));wy=math(g,'MULTIPLY',math(g,'SUBTRACT',1,wz),side)
+    elif old:
         weights=node(g,'ShaderNodeGroup','Retained native angle-range interpolation');weights.node_tree=old.node_tree
         for a,b in zip(old.inputs,weights.inputs):
             if hasattr(b,'default_value'):b.default_value=a.default_value
