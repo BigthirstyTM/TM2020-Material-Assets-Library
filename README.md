@@ -27,6 +27,8 @@ The current refresh also adds water transparency in Eevee, internal ice depth an
 
 The current refresh corrects native UV/vertex-colour declarations and adds source-based vertex-alpha transition layers to 14 terrain materials. Fifteen conditional ColorBlindness variants and six unsupported Warp originals now live in Complete / Preview only. See [Native material inputs](docs/NATIVE-INPUTS.md) for painting instructions and an editable example.
 
+A separate local preview update, `2026.11.23-shader-fidelity-1`, corrects DecoHill UV overlays, adds depth-dependent water colour, and reconstructs WaterWall transmission, foam and animation. It is **not yet included in the release ZIPs**. See [Terrain and water preview controls](docs/SHADER-FIDELITY-PREVIEWS.md) for the new controls and approximation limits.
+
 Native-linked means an export link is available. It is not a blanket guarantee of in-game visibility, identical appearance, physics or crash-free behaviour. Preview only assets are reference assets with unconfirmed, conditional or unsupported export behaviour and are kept under **Trackmania2020 → 08 Preview only**. This includes vegetation previews that are not currently exportable through this library.
 
 ## Install on Windows
