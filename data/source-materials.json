@@ -2695,7 +2695,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
       ],
       "usage_tags": [
         "Projection",
@@ -2721,7 +2722,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
       ],
       "usage_tags": [
         "Projection",
@@ -2747,7 +2749,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
       ],
       "usage_tags": [
         "Projection",
@@ -2795,7 +2798,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
       ],
       "usage_tags": [
         "Projection",
@@ -2821,7 +2825,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
       ],
       "usage_tags": [
         "Projection",
@@ -2847,7 +2852,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
       ],
       "usage_tags": [
         "Projection",
@@ -2873,7 +2879,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
       ],
       "usage_tags": [
         "Projection",
@@ -3215,7 +3222,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
       ],
       "usage_tags": [
         "Projection",
@@ -3241,7 +3249,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
       ],
       "usage_tags": [
         "Projection",
@@ -3267,7 +3276,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
       ],
       "usage_tags": [
         "Projection",
@@ -3293,7 +3303,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
       ],
       "usage_tags": [
         "Projection",
@@ -3319,7 +3330,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
       ],
       "usage_tags": [
         "Projection",
@@ -3345,7 +3357,8 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Hue target (native default) is a Blender preview control; changing nodes alone does not modify the game material."
       ],
       "usage_tags": [
         "Projection",
@@ -13964,7 +13977,8 @@
       "usage": [
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Native decoration uses BaseMaterial UV. For Color alpha painting, enable Use painted vertex alpha in Deco native layer controls; fallback alpha 1 is the default preview. Export uses the actual vertex data."
       ],
       "usage_tags": [
         "Projection",
@@ -18569,7 +18583,8 @@
       "usage": [
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Native decoration uses BaseMaterial UV. For Color alpha painting, enable Use painted vertex alpha in Deco native layer controls; fallback alpha 1 is the default preview. Export uses the actual vertex data."
       ],
       "usage_tags": [
         "Projection",
@@ -19687,7 +19702,8 @@
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Native decoration uses BaseMaterial UV. For Color alpha painting, enable Use painted vertex alpha in Deco native layer controls; fallback alpha 1 is the default preview. Export uses the actual vertex data."
       ],
       "usage_tags": [
         "Projection",
@@ -19714,7 +19730,8 @@
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Native decoration uses BaseMaterial UV. For Color alpha painting, enable Use painted vertex alpha in Deco native layer controls; fallback alpha 1 is the default preview. Export uses the actual vertex data."
       ],
       "usage_tags": [
         "Projection",
@@ -21194,7 +21211,8 @@
       "name": "TM_Stadium_GrassFence_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Source fence colour/opacity preview. Game-specific VDepLight and geometry deformation are not reproduced. Preview cutout threshold is adjustable; native export identity is unchanged."
       ],
       "usage_tags": [],
       "native_link": "Stadium\\Media\\Material\\GrassFence",
@@ -22228,7 +22246,8 @@
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Native decoration uses BaseMaterial UV. For Color alpha painting, enable Use painted vertex alpha in Deco native layer controls; fallback alpha 1 is the default preview. Export uses the actual vertex data."
       ],
       "usage_tags": [
         "Projection",

@@ -63,7 +63,7 @@ def projected(bpy,g,m,record,images,hue_target=None,colour=True):
                 x2=tex(g,images,'PyX2',transform(g,coords[2],slots['PyX2']),(.5,.5,.5))
                 hdesc=slots.get('PyHx2',{})
                 height=transform(g,combine(g,pos[2],pos[2]),hdesc)
-                hx=tex(g,images,'PyHx2',height,(.5,.5,.5)) if 'PyHx2' in slots else constant(g,(.5,.5,.5))
+                hx=tex(g,images,'PyHx2',height,(.5,.5,.5)) if 'PyHx2' in slots else tex(g,images,'PyH2',transform(g,coords[2],slots['PyH2']),(.5,.5,.5)) if 'PyH2' in slots else constant(g,(.5,.5,.5))
                 c=vec(g,'MULTIPLY',c,vec(g,'SCALE',vec(g,'MULTIPLY',x2,hx),4))
             result['colour'].append(vec(g,'SCALE',c,weights[axis]))
         rm=tex(g,images,prefix+'RoughMetal',uv,(.6,0,0))

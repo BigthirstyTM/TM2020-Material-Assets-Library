@@ -43,6 +43,12 @@ Build shader contracts with `tools/build_shader_contracts.py` using the extracte
 
 ## Provenance
 
+### Combined native surface refresh
+
+Revision `2026.11.23-native-surfaces-1` combines the installed Deco/Ice and shader-fidelity updates with the reviewed concrete findings. Run `tools/apply_concrete_shaders.py --source COMPLETE_SOURCE_ROOT --inputs tools/data/concrete-shader-inputs.json --output STAGED_ROOT` in background Blender. It checks the expected source hash, stages 183 material corrections and renders thumbnails with existing badge pixels preserved. Run `tools/verify_concrete_shaders.py --source STAGED_ROOT --original COMPLETE_SOURCE_ROOT/Trackmania2020_assets.blend --inputs tools/data/concrete-shader-inputs.json --output VERIFICATION_ROOT`, then `tools/install_concrete_shaders.py` with the same installer arguments as the Deco/Ice installer. Keep source native identities and MaterialLib unchanged. The game does not need to run.
+
+Build both editions from the resulting installed Complete source. Pass `--content-revision 2026.11.23-native-surfaces-1` to payload preparation. Refresh the embedded native materials in portable examples as well; old saved examples do not acquire a new library shader automatically. Include the new English source/usage notes and regenerate catalogue PNGs from saved previews. Publish both existing authorized 1.0.0 releases only after the two-ZIP editions, installer and public manifests agree.
+
 For the separate local Deco/PlatformIce update, run `tools/apply_deco_ice.py` in factory-startup background Blender with `--source` pointing to the installed shader-fidelity-1 library, `--inputs tools/data/deco-ice-inputs.json`, and a separate `--output` directory. Run `tools/verify_deco_ice.py --source STAGED_DIRECTORY --output VERIFICATION_DIRECTORY --original INSTALLED_LIBRARY.blend` before `tools/install_deco_ice.py`. The installer uses the same arguments as `install_shader_fidelity.py` and requires the matching verification JSON. It preserves a backup and refuses an installed source that changed after staging. Keep active upload packages immutable; use the newest installed library for the next combined build.
 
 The portable builder omits Preview-only source node groups from Materials Only and removes empty catalog subtrees per edition. An incremental updater is deferred for later integration into Blendermania V2.
