@@ -15,6 +15,6 @@ The small symbols on saved material thumbnails identify features:
 
 A feature badge is an identification aid, not a guarantee that Blender and the game render the effect identically or that every gameplay behaviour has been confirmed.
 
-**Preview only** means no confirmed export route is available. **No static texture** means the material has no single standalone texture image. **Collision only** identifies a collision-focused surface. These labels describe the asset's role; they are not additional visual effects.
+**Preview only** means export behaviour is unconfirmed, conditional or unsupported. **No static texture** means the material has no single standalone texture image. **Collision only** identifies a collision-focused surface. These labels describe the asset's role; they are not additional visual effects.
 
 The repository's README badges show edition material counts and the Blender authoring version.

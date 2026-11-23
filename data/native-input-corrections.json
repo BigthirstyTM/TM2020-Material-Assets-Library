@@ -1,0 +1,761 @@
+{
+  "revision": "2026.11.23-native-inputs-1",
+  "materials_only": 826,
+  "complete": 1119,
+  "preview_only": 293,
+  "moved": [
+    "TM_Boost2_Decal_ColorBlindness_asset",
+    "TM_Boost2_Sign_ColorBlindness_asset",
+    "TM_Boost2_SignOff_ColorBlindness_asset",
+    "TM_Boost2_SpecialFX_ColorBlindness_asset",
+    "TM_Boost2_TriggerFX_ColorBlindness_asset",
+    "TM_Boost_Decal_ColorBlindness_asset",
+    "TM_Boost_Sign_ColorBlindness_asset",
+    "TM_Boost_SignOff_ColorBlindness_asset",
+    "TM_Boost_SpecialFX_ColorBlindness_asset",
+    "TM_Boost_TriggerFX_ColorBlindness_asset",
+    "TM_ItemCurveSignB_ColorBlindness_asset",
+    "TM_ItemCurveSignC_ColorBlindness_asset",
+    "TM_ItemWrongWaySign_ColorBlindness_asset",
+    "TM_NoEngine_Decal_ColorBlindness_asset",
+    "TM_NoEngine_Sign_ColorBlindness_asset",
+    "TM_WarpCeiling_asset",
+    "TM_WarpDetails_asset",
+    "TM_WarpGlass_asset",
+    "TM_WarpTechnic_asset",
+    "TM_WarpWall2_asset",
+    "TM_WarpWall_asset"
+  ],
+  "materiallib_edits": [
+    {
+      "alias": "PlatformIce_DecoGrass",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "PlatformDirt_DecoGrass",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "PlatformDirt_DecoCliff",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "BlueBay_CliffPxz",
+      "uv_changed": true,
+      "color0_added": true
+    },
+    {
+      "alias": "BlueBay_HillPxz",
+      "uv_changed": true,
+      "color0_added": true
+    },
+    {
+      "alias": "BlueBay_Land",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "BlueBay_RocksTop",
+      "uv_changed": true,
+      "color0_added": true
+    },
+    {
+      "alias": "BlueBay_Sand",
+      "uv_changed": true,
+      "color0_added": true
+    },
+    {
+      "alias": "BlueBay_SeaFloor",
+      "uv_changed": true,
+      "color0_added": true
+    },
+    {
+      "alias": "BlueBay_TransitionRocksToCliffPxz",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "BlueBay_TransitionRocksToLand",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "BlueBay_TransitionRocksToRocksTop",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "BlueBay_TransitionRocksToSand",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "BlueBay_TransitionRocksToSeaFloor",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "BlueBay_TransitionToCliffPxz",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "BlueBay_TransitionToLand",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "BlueBay_TransitionToSand",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "BlueBay_TransitionToSeaFloor",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "BlueBay_DecoHill",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "BlueBay_DecoHill2",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "GreenCoast_Cliff",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "GreenCoast_Cliff2",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "GreenCoast_Cliff3",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "GreenCoast_Cliff4",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "GreenCoast_CliffTransition2ToCliff3",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "GreenCoast_CliffTransition2ToGrass",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "GreenCoast_CliffTransitionToCliff2",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "GreenCoast_CliffTransitionToGrass",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "GreenCoast_Grass",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "GreenCoast_Lake",
+      "uv_changed": true,
+      "color0_added": true
+    },
+    {
+      "alias": "GreenCoast_LakeShoreToGrass",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "GreenCoast_LakeShoreToLake",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "GreenCoast_TransitionForestToGrass",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "GreenCoast_TrunkToGrass",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "GreenCoast_DecoHill",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "GreenCoast_DecoHill2",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "RedIsland_Cliff",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "RedIsland_Cliff2",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "RedIsland_Cliff3",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "RedIsland_Cliff4",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "RedIsland_CliffEnds",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "RedIsland_DetailsCliffToDirt",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "RedIsland_DetailsRocksToCliff2",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "RedIsland_DetailsRocksToDirt",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "RedIsland_DetailsVegetationToDirt",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "RedIsland_Dirt",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "RedIsland_DirtRocky",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "RedIsland_RiverShoreToRiverSide",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "RedIsland_RiverSide",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "RedIsland_RiverSideToLakeBottom",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "RedIsland_RockToDirt",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "RedIsland_DecoHill",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "RedIsland_DecoHill2",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "Stadium_DecoHill",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "Stadium_DecoHill2",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "Stadium_Penalty",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "Stadium_RoadDirt",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "Stadium_RoadDirtFullColorize",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "Stadium_TrackWall",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "Stadium_CustomBricks",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "Stadium_CustomConcrete",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "Stadium_CustomDirt",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "Stadium_CustomGrass",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "Stadium_CustomIce",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "Stadium_CustomMetal",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "Stadium_CustomMetalPainted",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "Stadium_CustomPlastic",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "Stadium_CustomPlasticShiny",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "Stadium_CustomRock",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "Stadium_CustomRoughWood",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "Stadium_CustomSand",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "Stadium_CustomSnow",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "Stadium_PlatformDirt_DecoGrass",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "Stadium_PlatformDirt_DecoHill",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "Stadium_PlatformDirt_DecoHill2",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "Stadium_PlatformDirt_Penalty",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "Stadium_PlatformIce_DecoGrass",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "Stadium_PlatformIce_DecoHill",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "Stadium_PlatformIce_DecoHill2",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "Stadium_PlatformIce_Penalty",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "WhiteShore_Beach",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "WhiteShore_Land",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "WhiteShore_WaterBottom",
+      "uv_changed": true,
+      "color0_added": false
+    },
+    {
+      "alias": "WhiteShore_WaterShore",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "WhiteShore_WaterShoreRocky",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "WhiteShore_WaterShoreRockyToWaterBottom",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "WhiteShore_WaterShoreToBeach",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "WhiteShore_WaterShoreToWaterBottom",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "WhiteShore_DecoHill",
+      "uv_changed": false,
+      "color0_added": true
+    },
+    {
+      "alias": "WhiteShore_DecoHill2",
+      "uv_changed": false,
+      "color0_added": true
+    }
+  ],
+  "transitions": [
+    {
+      "name": "TM_BlueBay_TransitionRocksToLand_asset",
+      "source": "BlueBay/Media/Material/TransitionRocksToLand.Material.Gbx",
+      "usage": "36",
+      "formula": "mix(projected base, UV overlay, overlay texture alpha * Color vertex alpha)",
+      "base_layer_replacements": []
+    },
+    {
+      "name": "TM_BlueBay_TransitionToLand_asset",
+      "source": "BlueBay/Media/Material/TransitionToLand.Material.Gbx",
+      "usage": "36",
+      "formula": "mix(projected base, UV overlay, overlay texture alpha * Color vertex alpha)",
+      "base_layer_replacements": []
+    },
+    {
+      "name": "TM_GreenCoast_CliffTransition2ToGrass_asset",
+      "source": "GreenCoast/Media/Material/CliffTransition2ToGrass.Material.Gbx",
+      "usage": "36",
+      "formula": "mix(projected base, UV overlay, overlay texture alpha * Color vertex alpha)",
+      "base_layer_replacements": [
+        {
+          "node": "tex_D",
+          "old": "//Textures\\GreenCoast\\Grass_D.dds",
+          "new": "//Textures/GreenCoast/GrassHill_D.dds"
+        },
+        {
+          "node": "tex_D World 1",
+          "old": "//Textures\\GreenCoast\\Grass_D.dds",
+          "new": "//Textures/GreenCoast/GrassHill_D.dds"
+        },
+        {
+          "node": "tex_R",
+          "old": "//Textures\\GreenCoast\\Grass_R.dds",
+          "new": "//Textures/GreenCoast/GrassHill_R.dds"
+        },
+        {
+          "node": "tex_R World 1",
+          "old": "//Textures\\GreenCoast\\Grass_R.dds",
+          "new": "//Textures/GreenCoast/GrassHill_R.dds"
+        },
+        {
+          "node": "tex_N",
+          "old": "//Textures\\GreenCoast\\Grass_N.dds",
+          "new": "//Textures/GreenCoast/GrassHill_N.dds"
+        },
+        {
+          "node": "tex_N World 1",
+          "old": "//Textures\\GreenCoast\\Grass_N.dds",
+          "new": "//Textures/GreenCoast/GrassHill_N.dds"
+        }
+      ]
+    },
+    {
+      "name": "TM_GreenCoast_CliffTransitionToGrass_asset",
+      "source": "GreenCoast/Media/Material/CliffTransitionToGrass.Material.Gbx",
+      "usage": "36",
+      "formula": "mix(projected base, UV overlay, overlay texture alpha * Color vertex alpha)",
+      "base_layer_replacements": [
+        {
+          "node": "tex_D",
+          "old": "//Textures\\GreenCoast\\Grass_D.dds",
+          "new": "//Textures/GreenCoast/GrassHill_D.dds"
+        },
+        {
+          "node": "tex_D World 1",
+          "old": "//Textures\\GreenCoast\\Grass_D.dds",
+          "new": "//Textures/GreenCoast/GrassHill_D.dds"
+        },
+        {
+          "node": "tex_R",
+          "old": "//Textures\\GreenCoast\\Grass_R.dds",
+          "new": "//Textures/GreenCoast/GrassHill_R.dds"
+        },
+        {
+          "node": "tex_R World 1",
+          "old": "//Textures\\GreenCoast\\Grass_R.dds",
+          "new": "//Textures/GreenCoast/GrassHill_R.dds"
+        },
+        {
+          "node": "tex_N",
+          "old": "//Textures\\GreenCoast\\Grass_N.dds",
+          "new": "//Textures/GreenCoast/GrassHill_N.dds"
+        },
+        {
+          "node": "tex_N World 1",
+          "old": "//Textures\\GreenCoast\\Grass_N.dds",
+          "new": "//Textures/GreenCoast/GrassHill_N.dds"
+        }
+      ]
+    },
+    {
+      "name": "TM_GreenCoast_LakeShoreToGrass_asset",
+      "source": "GreenCoast/Media/Material/LakeShoreToGrass.Material.Gbx",
+      "usage": "36",
+      "formula": "mix(projected base, UV overlay, overlay texture alpha * Color vertex alpha)",
+      "base_layer_replacements": [
+        {
+          "node": "tex_D",
+          "old": "//Textures\\GreenCoast\\Grass_D.dds",
+          "new": "//Textures/GreenCoast/GrassHill_D.dds"
+        },
+        {
+          "node": "tex_D World 1",
+          "old": "//Textures\\GreenCoast\\Grass_D.dds",
+          "new": "//Textures/GreenCoast/GrassHill_D.dds"
+        },
+        {
+          "node": "tex_R",
+          "old": "//Textures\\GreenCoast\\Grass_R.dds",
+          "new": "//Textures/GreenCoast/GrassHill_R.dds"
+        },
+        {
+          "node": "tex_R World 1",
+          "old": "//Textures\\GreenCoast\\Grass_R.dds",
+          "new": "//Textures/GreenCoast/GrassHill_R.dds"
+        },
+        {
+          "node": "tex_N",
+          "old": "//Textures\\GreenCoast\\Grass_N.dds",
+          "new": "//Textures/GreenCoast/GrassHill_N.dds"
+        },
+        {
+          "node": "tex_N World 1",
+          "old": "//Textures\\GreenCoast\\Grass_N.dds",
+          "new": "//Textures/GreenCoast/GrassHill_N.dds"
+        }
+      ]
+    },
+    {
+      "name": "TM_GreenCoast_TransitionForestToGrass_asset",
+      "source": "GreenCoast/Media/Material/TransitionForestToGrass.Material.Gbx",
+      "usage": "36",
+      "formula": "mix(projected base, UV overlay, overlay texture alpha * Color vertex alpha)",
+      "base_layer_replacements": [
+        {
+          "node": "tex_D",
+          "old": "//Textures\\GreenCoast\\Grass_D.dds",
+          "new": "//Textures/GreenCoast/GrassHill_D.dds"
+        },
+        {
+          "node": "tex_D World 1",
+          "old": "//Textures\\GreenCoast\\Grass_D.dds",
+          "new": "//Textures/GreenCoast/GrassHill_D.dds"
+        },
+        {
+          "node": "tex_R",
+          "old": "//Textures\\GreenCoast\\Grass_R.dds",
+          "new": "//Textures/GreenCoast/GrassHill_R.dds"
+        },
+        {
+          "node": "tex_R World 1",
+          "old": "//Textures\\GreenCoast\\Grass_R.dds",
+          "new": "//Textures/GreenCoast/GrassHill_R.dds"
+        },
+        {
+          "node": "tex_N",
+          "old": "//Textures\\GreenCoast\\Grass_N.dds",
+          "new": "//Textures/GreenCoast/GrassHill_N.dds"
+        },
+        {
+          "node": "tex_N World 1",
+          "old": "//Textures\\GreenCoast\\Grass_N.dds",
+          "new": "//Textures/GreenCoast/GrassHill_N.dds"
+        }
+      ]
+    },
+    {
+      "name": "TM_RedIsland_DetailsCliffToDirt_asset",
+      "source": "RedIsland/Media/Material/DetailsCliffToDirt.Material.Gbx",
+      "usage": "36",
+      "formula": "mix(projected base, UV overlay, overlay texture alpha * Color vertex alpha)",
+      "base_layer_replacements": []
+    },
+    {
+      "name": "TM_RedIsland_DetailsRocksToDirt_asset",
+      "source": "RedIsland/Media/Material/DetailsRocksToDirt.Material.Gbx",
+      "usage": "36",
+      "formula": "mix(projected base, UV overlay, overlay texture alpha * Color vertex alpha)",
+      "base_layer_replacements": []
+    },
+    {
+      "name": "TM_RedIsland_DetailsVegetationToDirt_asset",
+      "source": "RedIsland/Media/Material/DetailsVegetationToDirt.Material.Gbx",
+      "usage": "36",
+      "formula": "mix(projected base, UV overlay, overlay texture alpha * Color vertex alpha)",
+      "base_layer_replacements": []
+    },
+    {
+      "name": "TM_RedIsland_RiverShoreToRiverSide_asset",
+      "source": "RedIsland/Media/Material/RiverShoreToRiverSide.Material.Gbx",
+      "usage": "36",
+      "formula": "mix(projected base, UV overlay, overlay texture alpha * Color vertex alpha)",
+      "base_layer_replacements": []
+    },
+    {
+      "name": "TM_RedIsland_RockToDirt_asset",
+      "source": "RedIsland/Media/Material/RockToDirt.Material.Gbx",
+      "usage": "36",
+      "formula": "mix(projected base, UV overlay, overlay texture alpha * Color vertex alpha)",
+      "base_layer_replacements": []
+    },
+    {
+      "name": "TM_WhiteShore_WaterShore_asset",
+      "source": "WhiteShore/Media/Material/WaterShore.Material.Gbx",
+      "usage": "36",
+      "formula": "mix(projected base, UV overlay, overlay texture alpha * Color vertex alpha)",
+      "base_layer_replacements": []
+    },
+    {
+      "name": "TM_WhiteShore_WaterShoreRocky_asset",
+      "source": "WhiteShore/Media/Material/WaterShoreRocky.Material.Gbx",
+      "usage": "36",
+      "formula": "mix(projected base, UV overlay, overlay texture alpha * Color vertex alpha)",
+      "base_layer_replacements": [
+        {
+          "node": "tex_D",
+          "old": "//Textures\\WhiteShore\\WaterShoreRocky_D.dds",
+          "new": "//Textures/WhiteShore/WaterSide_D.dds"
+        },
+        {
+          "node": "tex_D World 1",
+          "old": "//Textures\\WhiteShore\\WaterShoreRocky_D.dds",
+          "new": "//Textures/WhiteShore/WaterSide_D.dds"
+        },
+        {
+          "node": "tex_R",
+          "old": "//Textures\\WhiteShore\\WaterShoreRocky_R.dds",
+          "new": "//Textures/WhiteShore/WaterSide_R.dds"
+        },
+        {
+          "node": "tex_R World 1",
+          "old": "//Textures\\WhiteShore\\WaterShoreRocky_R.dds",
+          "new": "//Textures/WhiteShore/WaterSide_R.dds"
+        },
+        {
+          "node": "tex_N",
+          "old": "//Textures\\WhiteShore\\WaterShoreRocky_N.dds",
+          "new": "//Textures/WhiteShore/WaterSide_N.dds"
+        },
+        {
+          "node": "tex_N World 1",
+          "old": "//Textures\\WhiteShore\\WaterShoreRocky_N.dds",
+          "new": "//Textures/WhiteShore/WaterSide_N.dds"
+        }
+      ]
+    },
+    {
+      "name": "TM_WhiteShore_WaterShoreToBeach_asset",
+      "source": "WhiteShore/Media/Material/WaterShoreToBeach.Material.Gbx",
+      "usage": "36",
+      "formula": "mix(projected base, UV overlay, overlay texture alpha * Color vertex alpha)",
+      "base_layer_replacements": []
+    }
+  ],
+  "compiled_family_evidence": [
+    {
+      "cache": "Block_PyPxz_ids_v.hlsl.GpuCache.Gbx.20.asm.txt",
+      "sha256": "eb3ac6cb5138f3fd7234dc9c3621dcbe0bb4c27d16fc3625faaf8a217bc24a1e",
+      "instructions": [
+        "mov o5.xy, v4.xyxx",
+        "mov o5.z, v2.w"
+      ]
+    },
+    {
+      "cache": "Block_PyPxz_ids_p.hlsl.GpuCache.Gbx.15.asm.txt",
+      "sha256": "62869254ed5dec1a7163ca903057a5cc6089a7a1f8ba89148aabf609f9d6ae1e",
+      "instructions": [
+        "mul r3.w, r5.w, v5.z",
+        "mad r5.xyz, r3.wwww, r5.xyzx, r6.xyzx"
+      ]
+    }
+  ],
+  "validation": {
+    "blender_alpha_fixture": "Passed at alpha 0, 0.5 and 1 with RGB independence",
+    "v2_conversions": 16,
+    "projected_deco_cliff_readback": "One UV slot 0; Color0 alpha bytes 0, 127, 255 retained",
+    "mixed_shader_readback": "GBX.NET shared-declaration parser boundary on 14 files; not a completed vertex-byte verification",
+    "game_rendering": "Not independently revalidated in this refresh"
+  }
+}

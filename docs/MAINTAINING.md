@@ -25,7 +25,7 @@ python tools/package_releases.py --staging build/staging --output dist
 
 Use an empty staging/output directory for a new build. `prepare_payloads.py` may hard-link input texture files to save disk space. Do not edit staged texture files; ZIP archives contain independent bytes.
 
-The Blender build preserves asset UUIDs, saved previews, material properties, shader graphs, animation, 20 Worlds and 42 asset node groups. It writes relative texture paths and places Preview only under the library's `08` category. Materials Only excludes the unbound assets. Packaging estimates compressed sizes and balances the content across the minimum number of ZIPs, with a 1.9 GB safety ceiling per download. Each initial edition has two ZIPs. `release.json` is the authoritative package list.
+The Blender build preserves asset UUIDs, saved previews, material properties, shader graphs, animation, 20 Worlds and, in Complete, 42 asset node groups. It writes relative texture paths and places Preview only under the library's `08` category. Materials Only excludes assets explicitly classified as Preview only, even when a historical native link remains. Packaging estimates compressed sizes and balances the content across the minimum number of ZIPs, with a 1.9 GB safety ceiling per download. Each initial edition has two ZIPs. `release.json` is the authoritative package list.
 
 Fresh Blender processes reopen each staged library and check image availability, asset counts, catalog references and saved icons. Packaging reads every ZIP member back and compares its SHA-256. Each ZIP stays below 2 GB. These are packaging checks, not additional claims about game runtime behaviour.
 
@@ -37,7 +37,13 @@ When bumping a version, update the build metadata, package names, installer defa
 
 The generated release installer has its default edition filled in. When running the repository's generic installer directly, explicitly pass `-Edition materials-only` or `-Edition complete`.
 
+## Native input refresh
+
+Build shader contracts with `tools/build_shader_contracts.py` using the extracted native resources, source inventory and MaterialLib. Run `tools/apply_chraz_corrections.py` in background Blender into a separate source directory before the portable build. Its reviewed projected-family allowlist excludes mixed shaders and unavailable exact shader definitions; do not automatically apply every audit proposal. Keep the source Textures tree alongside the staged blend. `tools/verify_native_inputs.py` reopens it, renders an alpha/RGB fixture and optionally exercises the installed V2 exporter with `--export`. `tools/build_native_input_example.py` writes the portable editing example. Use content revision `2026.11.23-native-inputs-1` for this combined refresh.
+
 ## Provenance
+
+The portable builder omits Preview-only source node groups from Materials Only and removes empty catalog subtrees per edition. An incremental updater is deferred for later integration into Blendermania V2.
 
 The `2026.11.17-surfaces-2` in-place refresh adds water transparency, internal ice depth/colour, terrain angular transitions, CustomGlass clarity and refracted screen layers. See [Surface source notes](SURFACE-SOURCES.md) for recovered data, remaining approximations and the adapter rebuild command.
 

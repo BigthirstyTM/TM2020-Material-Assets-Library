@@ -10,7 +10,7 @@ Blender shader graphs provide an editing preview. Changing their image nodes doe
 
 ## Preview only
 
-The Complete edition adds **Trackmania2020 → 08 Preview only**, retaining subcategories for the source environments. These assets are useful for identifying and inspecting textures. A matching native export route has not been confirmed. They are omitted from Materials Only.
+The Complete edition adds **Trackmania2020 → 08 Preview only**, retaining subcategories for the source environments. These assets are useful for identifying and inspecting textures. Their export route is unconfirmed, conditional or unsupported. The ColorBlindness variants and six ordinary Warp originals are kept here as references; use the matching Warp `_WithLightmap` assets for item work. They are omitted from Materials Only.
 
 Vegetation, country flags, UI images and individual layers of composed materials may belong to specialised game systems. Applying their preview to a mesh does not turn it into a supported game material.
 
@@ -22,6 +22,8 @@ Vegetation, country flags, UI images and individual layers of composed materials
 - **Invisible/collision materials:** helper patterns identify them in Blender. Their game appearance and collision role are separate from the preview.
 - **HDRI Worlds:** use these for Blender preview lighting. They do not export as an item's material or recreate the complete game's lighting system.
 - **Water:** the five ordinary environment water materials animate in Material Preview or Rendered shading when the timeline plays. Speed, direction, scale and strength are adjustable. See [Water animation](WATER-ANIMATION.md). After updating, append fresh material data without reusing the old copy in your project.
+
+For the reconstructed transition materials, paint the alpha channel of the active `Color` attribute. See [Native material inputs](NATIVE-INPUTS.md) and `Examples/Native-Transition-Example.blend`.
 
 Open `Catalogue/index.html` for searchable material thumbnails and usage details. See [BADGES.md](BADGES.md) for the small symbols on previews.
 

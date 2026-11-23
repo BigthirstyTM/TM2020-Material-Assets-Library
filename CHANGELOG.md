@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026.11.23-native-inputs-1
+
+- Move 15 conditional ColorBlindness variants and six unsupported Warp originals to Complete / Preview only. Materials Only now contains 826 materials; Complete retains 1,119, including 293 Preview only.
+- Correct native UV and vertex-colour declarations while retaining UV inputs for mixed shaders.
+- Add source-textured vertex-alpha transition layers to 14 materials, with an editable English example.
+- Include source-resource catalogue cleanup and omit empty categories per edition. Existing effect badges remain; no customization letter badges are included.
+
 ## 1.0.0 asset refresh — 2026-11-17
 
 - Added adjustable animated previews to the five ordinary water materials, following the two-layer UV motion recovered from compiled game shaders.

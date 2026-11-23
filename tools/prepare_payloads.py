@@ -17,6 +17,7 @@ def main():
     p.add_argument('--source', type=Path, required=True)
     p.add_argument('--previews', type=Path, required=True)
     p.add_argument('--blender', type=Path, required=True)
+    p.add_argument('--content-revision', help='Override the content revision when combining new improvements.')
     a = p.parse_args()
     staging = a.staging.resolve()
     images = json.loads((staging / 'source-images.json').read_text(encoding='utf-8'))
@@ -43,7 +44,7 @@ def main():
                 (out / rel).unlink()
         docs = out / 'docs'
         docs.mkdir(exist_ok=True)
-        for name in ('INSTALLATION.md', 'USAGE.md', 'BADGES.md', 'CREDITS.md', 'MAINTAINING.md', 'WATER-ANIMATION.md', 'SURFACE-PREVIEWS.md'):
+        for name in ('INSTALLATION.md', 'USAGE.md', 'BADGES.md', 'ASSET-TYPES.md', 'NATIVE-INPUTS.md', 'CREDITS.md', 'MAINTAINING.md', 'WATER-ANIMATION.md', 'SURFACE-PREVIEWS.md', 'SURFACE-SOURCES.md'):
             shutil.copy2(ROOT / 'docs' / name, docs / name)
         if (ROOT / 'docs/images').is_dir():
             shutil.copytree(ROOT / 'docs/images', docs / 'images', dirs_exist_ok=True)
@@ -71,7 +72,11 @@ def main():
         if clarity_doc.is_file():
             (out / 'Examples').mkdir(exist_ok=True)
             shutil.copy2(clarity_doc, out / 'Examples' / clarity_doc.name)
-        metadata['content_revision'] = '2026.11.17-surfaces-2'
+        native_example = a.source / 'Documentation' / 'Native-Transition-Example.blend'
+        if native_example.is_file():
+            (out / 'Examples').mkdir(exist_ok=True)
+            shutil.copy2(native_example, out / 'Examples' / native_example.name)
+        metadata['content_revision'] = a.content_revision or '2026.11.23-native-inputs-1'
         (out / 'library.json').write_text(json.dumps(metadata, indent=2), encoding='utf-8')
         # Keep build/verification details outside the public installation UI.
         report.replace(staging / (edition + '-verification.json'))
