@@ -12,6 +12,8 @@ If an already open Asset Browser still displays cached entries, refresh its libr
 
 ## Clearer thumbnails
 
+**Superseded thumbnail layout:** the subsequent [A/B/C thumbnail styles](THUMBNAIL-STYLES.md) replace the diffuse-only layout described below. The duplicate-example cleanup and AnimatedFlag quarantine on this page still apply.
+
 262 thumbnails have been refreshed: 195 flat base-diffuse images, 37 diffuse images with representative native vegetation cutouts, 28 Custom materials rendered on smooth spheres, and two tree-sprite alpha previews. Existing feature badges are preserved. Other thumbnails and material shader graphs are unchanged.
 
 Vegetation cutouts are selected from atlas entries referenced by each material's existing native foliage dataset and model. They identify associated source vegetation; they do not simulate native distribution, scale, density, wind or generated geometry. A thumbnail is not evidence of game compatibility.
