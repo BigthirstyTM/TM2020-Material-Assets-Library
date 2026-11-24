@@ -19,9 +19,15 @@ for edition,count,groupcount in [('materials-only',sum(not r['preview_only'] for
     root=stage/edition;bpy.ops.wm.open_mainfile(filepath=str(root/'Trackmania2020_assets.blend'),load_ui=False)
     mats=[m for m in bpy.data.materials if m.asset_data];assert len(mats)==count
     assert sum(bool(g.asset_data) for g in bpy.data.node_groups)==groupcount
+    materiallib=(root/'MaterialLib.txt').read_bytes()
+    assert b'DMaterial(Stadium_ItemFlag)' not in materiallib
+    assert b'DMaterial(ItemFlagNoAnim)' in materiallib and b'DMaterial(Stadium_ItemFlagNoAnim)' in materiallib
     changed=0
     for m in mats:
         assert m.link==expected[m.name]['effective']['link'],m.name
+        if m.name=='TM_ItemFlag_animated_asset':
+            assert m.link==m.get('link')==json.loads(m['MAT_PROPS_AS_JSON'])['link']==m.get('tm_game_material_path')==''
+            assert m.get('tm_game_material_exportable') is False and expected[m.name]['preview_only']
         assert 'tm_customization' not in m
         if edition=='materials-only':assert not expected[m.name]['preview_only']
         # Path relocation changes image strings, not saved preview pixels.

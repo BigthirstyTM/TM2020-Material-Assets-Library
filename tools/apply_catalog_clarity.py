@@ -11,7 +11,7 @@ p=argparse.ArgumentParser()
 for key in ['library','inputs','output']:p.add_argument('--'+key,type=Path,required=True)
 a=p.parse_args(sys.argv[sys.argv.index('--')+1:]);root=a.library.resolve();out=a.output.resolve();out.mkdir(parents=True,exist_ok=True)
 data=json.loads(a.inputs.read_text());source=root/'Trackmania2020_assets.blend';assert sha(source)==data['source_sha256']
-revision=data['revision'];bpy.ops.wm.open_mainfile(filepath=str(source),load_ui=False)
+revision=data['revision'];bpy.types.Material.link=bpy.props.StringProperty(name='Link',default='');bpy.ops.wm.open_mainfile(filepath=str(source),load_ui=False)
 assets={x.bl_rna.identifier+':'+x.name:x for c in [bpy.data.materials,bpy.data.worlds,bpy.data.node_groups] for x in c if x.asset_data}
 baseline={k:dict(identity=identity(x),graph=graph(x),badges=x.get('tm_asset_effect_badges','')) for k,x in assets.items()}
 (out/'baseline.json').write_text(json.dumps(baseline,indent=2))
@@ -79,7 +79,7 @@ bpy.context.window.scene=next(s for s in bpy.data.scenes if s!=scene);bpy.data.s
 
 flag=bpy.data.materials[data['quarantine']];reason=data['quarantine_reason']
 flag['tm_flag_previous_export_state']=json.dumps({k:str(flag[k]) for k in ['link','MAT_PROPS_AS_JSON','tm_game_material_path','tm_export_binding_status','tm_current_export_status','tm_current_runtime_status'] if k in flag})
-flag['link']='';flag['tm_game_material_path']='';props=json.loads(flag.get('MAT_PROPS_AS_JSON','{}'));props['name']=flag.name;props['link']='';flag['MAT_PROPS_AS_JSON']=json.dumps(props)
+flag['link']='';flag.link='';flag['tm_game_material_path']='';props=json.loads(flag.get('MAT_PROPS_AS_JSON','{}'));props['name']=flag.name;props['link']='';flag['MAT_PROPS_AS_JSON']=json.dumps(props)
 flag['tm_game_material_exportable']=False;flag['tm_preview_only_reason']=reason;flag['tm_export_binding_status']='preview_only_reported_runtime_issue';flag['tm_current_export_status']='Preview only - user-reported load/placement crash';flag['tm_current_runtime_status']='user_reported_crash_not_isolated';flag['tm_current_export_evidence']=reason
 catalog_path='Trackmania2020/08 Preview only/Reported runtime issues';catalog_id=str(uuid.uuid5(uuid.NAMESPACE_URL,'tm2020-assets/'+catalog_path));flag.asset_data.catalog_id=catalog_id
 flag.asset_data.description='Preview only. '+reason+' Use ItemFlagNoAnim for a static alternative.'
