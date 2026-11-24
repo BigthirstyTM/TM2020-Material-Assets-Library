@@ -1,10 +1,10 @@
 # Material thumbnail styles
 
-The user-selected thumbnail layout is `2026.11.24-thumbnail-styles-1`. It replaces the previous diffuse-only local thumbnail follow-up. The published full ZIPs remain `native-surfaces-1` and do not yet contain these local updates.
+The user-selected thumbnail layout is included in the combined full packages, content revision `2026.11.24-thumbnail-styles-2`. It replaces the previous diffuse-only thumbnails.
 
 | Style | Materials | Preview |
 | --- | --- | --- |
-| A | 836 ordinary materials | Complete Blender shader on a nearly top-down surface, with slightly brighter neutral lighting and medium-high contrast. |
+| A | 836 ordinary materials | Complete Blender shader on a nearly top-down surface, with softer neutral lighting, medium-high contrast and direct studio-lamp reflections removed. |
 | B | 98 vegetation materials | Angled tile with representative source vegetation standing on its upper surface. |
 | C | 28 Custom materials | Smooth sphere under soft neutral lighting. |
 
@@ -20,7 +20,7 @@ Card placement, scale and density are chosen to make the thumbnail readable at s
 
 ## Lighting and limits
 
-A keeps the complete shader instead of displaying only its diffuse image, so texture-layer blending, normal detail and transparent contributions can appear. It uses broad lights, a neutral environment, a small exposure increase and AgX medium-high contrast. B and C retain the soft studio treatment chosen in the comparison.
+A keeps the complete shader instead of displaying only its diffuse image, so texture-layer blending, normal detail and transparent contributions can appear. Its lighting and exposure are reduced from the first A/B/C build. The thumbnail compositor removes the direct glossy studio-light contribution before denoising, preventing a bright reflected lamp in the corner. The environment is uniform; no reflected studio image is used. Native material reflection settings and shader graphs are unchanged. B and C retain their previously selected thumbnails exactly.
 
 A single view cannot show every projection angle or every painted vertex-alpha combination. These icons use the current default material inputs. A static image does not show water animation or other time-varying behavior. Rendered previews remain Blender approximations of native shaders; no new game test is implied.
 

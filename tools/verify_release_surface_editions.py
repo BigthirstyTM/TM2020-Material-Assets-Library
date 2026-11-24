@@ -15,7 +15,7 @@ for handler in list(bpy.app.handlers.load_post):
 bpy.ops.wm.open_mainfile(filepath=str(source/'Trackmania2020_assets.blend'),load_ui=False)
 original={m.name:dict(identity=identity(m),graph=graph(m)) for m in bpy.data.materials if m.asset_data}
 proof={}
-for edition,count,groupcount in [('materials-only',826,0),('complete',1119,42)]:
+for edition,count,groupcount in [('materials-only',sum(not r['preview_only'] for r in inventory),0),('complete',len(inventory),42)]:
     root=stage/edition;bpy.ops.wm.open_mainfile(filepath=str(root/'Trackmania2020_assets.blend'),load_ui=False)
     mats=[m for m in bpy.data.materials if m.asset_data];assert len(mats)==count
     assert sum(bool(g.asset_data) for g in bpy.data.node_groups)==groupcount
@@ -35,6 +35,8 @@ for edition,count,groupcount in [('materials-only',826,0),('complete',1119,42)]:
     scenes=[]
     for path in sorted((root/'Examples').glob('*.blend')):
         bpy.ops.wm.open_mainfile(filepath=str(path),load_ui=False)
+        for prop in bpy.data.bl_rna.properties:
+            if prop.type=='COLLECTION':assert not any(getattr(x,'asset_data',None) for x in getattr(bpy.data,prop.identifier)),('Duplicate example asset',path)
         for im in bpy.data.images:
             if im.source=='FILE' and im.filepath and not im.packed_file:
                 resolved=Path(bpy.path.abspath(im.filepath)).resolve();assert resolved.is_relative_to(root) and resolved.is_file(),resolved

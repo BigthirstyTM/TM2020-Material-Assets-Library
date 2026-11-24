@@ -7,14 +7,15 @@ sys.path.insert(0,str(Path(__file__).resolve().parent))
 from apply_shader_fidelity import identity,graph,sha
 from apply_concrete_shaders import pixels,png,badge_mask
 from thumbnail_preview_pixels import read_saved_preview
+from thumbnail_lighting import without_studio_reflections
 
-REVISION='2026.11.24-thumbnail-styles-1'
+REVISION='2026.11.24-thumbnail-styles-2'
 p=argparse.ArgumentParser()
 for k in ['library','sprites','output']:p.add_argument('--'+k,type=Path,required=True)
-p.add_argument('--sample',action='store_true');a=p.parse_args(sys.argv[sys.argv.index('--')+1:])
+p.add_argument('--sample',action='store_true');p.add_argument('--only-style',choices=['A','B','C']);a=p.parse_args(sys.argv[sys.argv.index('--')+1:])
 root=a.library.resolve();out=a.output.resolve();out.mkdir(exist_ok=True,parents=True);renders=out/'previews';renders.mkdir(exist_ok=True)
 source=root/'Trackmania2020_assets.blend';source_hash=sha(source)
-assert source_hash=='cbaf95ffd4ccc3ee58412c41f73aabce9583b7bed1efe06137e4eaa0154156ad','Reconcile current installed source before rendering.'
+assert source_hash=='3d22c92a767c3439a494a5694477451090799e606d0fa1ed0d29d561b82da8d1','Reconcile current installed source before rendering.'
 sprite_inputs=json.loads(a.sprites.read_text());routes={r['name']:r for r in sprite_inputs['targets'] if r['sprites']}
 bpy.ops.wm.open_mainfile(filepath=str(source),load_ui=False)
 assets={x.bl_rna.identifier+':'+x.name:x for c in [bpy.data.materials,bpy.data.worlds,bpy.data.node_groups] for x in c if x.asset_data}
@@ -30,6 +31,7 @@ scene.render.engine='CYCLES';scene.cycles.use_denoising=True;scene.cycles.seed=3
 scene.render.threads_mode='FIXED';scene.render.threads=2
 scene.render.resolution_x=scene.render.resolution_y=256;scene.render.resolution_percentage=100;scene.render.image_settings.file_format='PNG'
 scene.view_settings.view_transform='AgX';scene.render.film_transparent=False
+matte_compositor=without_studio_reflections(scene)
 world=bpy.data.worlds.new('Neutral thumbnail studio');world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.3,.3,.3,1);scene.world=world
 bpy.ops.object.camera_add();cam=bpy.context.object;cam.data.type='ORTHO';scene.camera=cam
 lights=[]
@@ -99,7 +101,10 @@ for m in bpy.data.materials:
  elif m.get('tm_current_preview_type') in preserve or m.get('tm_asset_preview_type') in ['Collision only','Invisible / NotCollidable']:skipped.append(m.name);continue
  else:style='A'
  targets.append(dict(name=m.name,id=m['tm_asset_id'],style=style,direct_image=direct.name if direct else None))
-sample_names=['TM_RedIsland_RockToDirt_asset','TM_BlueBay_Deco_asset','TM_GreenCoast_Grass_asset','TM_WhiteShore_Land_asset','TM_CustomGlass_asset','TM_PlatformDirt_DecoHill2_asset','TM_RedIsland_VegetGrassDry_asset']
+overall_counts={s:sum(r['style']==s for r in targets) for s in 'ABC'}
+if a.only_style:
+ skipped.extend(r['name'] for r in targets if r['style']!=a.only_style);targets=[r for r in targets if r['style']==a.only_style]
+sample_names=['TM_BlueBay_CliffPxz_asset','TM_PlatformIce_DecoHill2_asset','TM_Water_asset','TM_GlassWaterWall_asset','TM_RedIsland_RockToDirt_asset','TM_BlueBay_Deco_asset','TM_GreenCoast_Grass_asset','TM_WhiteShore_Land_asset','TM_CustomGlass_asset','TM_PlatformDirt_DecoHill2_asset','TM_RedIsland_VegetGrassDry_asset']
 if a.sample:targets=[r for r in targets if r['name'] in sample_names]
 targets.sort(key=lambda r:(0 if r['name'] in sample_names else 1,r['name']))
 (out/('sample-targets.json' if a.sample else 'targets.json')).write_text(json.dumps(dict(revision=REVISION,source_sha256=source_hash,targets=targets,preserved=skipped),indent=2))
@@ -112,10 +117,12 @@ for idx,row in enumerate(targets):
  else:
   for ob in [panel,tile,sphere]:ob.hide_render=True;ob.data.materials.clear()
   active=panel if style=='A' else tile if style=='B' else sphere;active.hide_render=False;active.data.materials.append(matte if row['direct_image'] else m)
-  scene.cycles.samples=12 if style=='A' else 24;scene.view_settings.exposure=.2 if style=='A' else 0
+  scene.compositing_node_group=matte_compositor if style=='A' else None
+  scene.cycles.use_denoising=style!='A'
+  scene.cycles.samples=16 if style=='A' else 24;scene.view_settings.exposure=-.1 if style=='A' else 0
   scene.view_settings.look='AgX - Medium High Contrast' if style=='A' else 'None'
-  world.node_tree.nodes['Background'].inputs[1].default_value=.7 if style=='A' else .65
-  lights[0].data.energy=28000 if style=='A' else 22000;lights[1].data.energy=9500 if style=='A' else 8000
+  world.node_tree.nodes['Background'].inputs[1].default_value=.65
+  lights[0].data.energy=22000;lights[1].data.energy=8000
   cam.location=(0,-7,43) if style=='A' else (35,-45,36) if style=='B' else (29,-39,26)
   aim(cam,(0,0,3) if style=='B' else (0,0,0));cam.data.ortho_scale=30 if style=='A' else 44 if style=='B' else 32
   created=None
@@ -127,7 +134,7 @@ for idx,row in enumerate(targets):
    for mat in materials:bpy.data.materials.remove(mat)
  fresh=pixels(m);fresh[mask]=old[mask];m.preview.image_pixels=np.ascontiguousarray(fresh[::-1]).view(np.uint32).reshape(-1).view(np.int32).tolist();png(path,fresh)
  assert np.array_equal(pixels(m)[mask],old[mask]);proof_path.write_text(json.dumps(dict(cache_key=key,sha256=sha(path),style=style)))
- m['tm_asset_preview_style']={'A':'A: complete shader, top view, brighter neutral lighting and medium high contrast.','B':'B: shaded tile with source vegetation standing on its top surface.','C':'C: Custom material rendered on a smooth sphere.'}[style]
+ m['tm_asset_preview_style']={'A':'A: softer top view, medium high contrast, direct studio-lamp reflections removed from the thumbnail.','B':'B: shaded tile with source vegetation standing on its top surface.','C':'C: Custom material rendered on a smooth sphere.'}[style]
  m['tm_thumbnail_style_revision']=REVISION
  if style=='B':m['tm_thumbnail_geometry_note']='Representative source-sprite cards on a preview tile; not native placement or density.'
  changes.append(row);(out/'progress.json').write_text(json.dumps(dict(revision=REVISION,sample=a.sample,done=idx+1,total=len(targets),material=m.name,style=style,elapsed_seconds=round(time.monotonic()-start))))
@@ -136,7 +143,7 @@ for idx,row in enumerate(targets):
 bpy.context.window.scene=next(s for s in bpy.data.scenes if s!=scene)
 for ob in list(scene.objects):bpy.data.objects.remove(ob,do_unlink=True)
 bpy.data.scenes.remove(scene)
-for prop in ['materials','worlds','meshes','cameras','lights','images']:
+for prop in ['materials','worlds','meshes','cameras','lights','images','node_groups']:
  collection=getattr(bpy.data,prop)
  for x in list(collection):
   if x not in original[prop]:collection.remove(x,do_unlink=True)
@@ -147,7 +154,7 @@ for key,x in assets.items():
  if x.name in {r['name'] for r in changes}:before.pop('icon');after.pop('icon')
  assert before==after,key
 assert sha(source)==source_hash
-report=dict(revision=REVISION,source_sha256=source_hash,targets=[r['name'] for r in changes],changes=changes,preserved=skipped,counts={s:sum(r['style']==s for r in changes) for s in 'ABC'},support_files=[])
+report=dict(revision=REVISION,source_sha256=source_hash,targets=[r['name'] for r in changes],changes=changes,preserved=skipped,counts={s:sum(r['style']==s for r in changes) for s in 'ABC'},overall_counts=overall_counts,support_files=[])
 if not a.sample:
  bpy.context.preferences.filepaths.save_version=0;bpy.ops.wm.save_as_mainfile(filepath=str(out/source.name),compress=True,relative_remap=False);report['staged_sha256']=sha(out/source.name)
 (out/('sample-report.json' if a.sample else 'build-report.json')).write_text(json.dumps(report,indent=2));print('THUMBNAIL_STYLES_READY',json.dumps(report['counts']),flush=True)

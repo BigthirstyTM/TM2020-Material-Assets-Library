@@ -34,7 +34,7 @@ The 37 corrected material thumbnails use a three-dimensional sample so the top a
 
 See [source resolution](SOURCE-RESOLUTION.md) for the additional 88 exact shader references and remaining research gaps. The game was not started. Blender checks do not constitute new in-game export clearance.
 
-This local follow-up is newer than the published `2026.11.23-native-surfaces-1` full release ZIPs. The existing releases have not been replaced as part of this follow-up.
+This follow-up is included in both combined full packages with content revision `2026.11.24-thumbnail-styles-2`.
 
 ## Maintenance inputs
 

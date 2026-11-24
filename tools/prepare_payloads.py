@@ -34,7 +34,7 @@ def main():
                     shutil.copy2(source, dest)
         shutil.copy2(a.source / 'MaterialLib.txt', out / 'MaterialLib.txt')
         report = out / 'verification.json'
-        subprocess.run([str(a.blender), '--background', '--factory-startup', '--python-exit-code', '1',
+        subprocess.run([str(a.blender), '--background', '--factory-startup', '--threads', '2', '--python-exit-code', '1',
                         '--python', str(ROOT / 'tools/verify_library.py'), '--',
                         '--library', str(out / 'Trackmania2020_assets.blend'), '--report', str(report)], check=True)
         checked = json.loads(report.read_text(encoding='utf-8'))
@@ -44,7 +44,7 @@ def main():
                 (out / rel).unlink()
         docs = out / 'docs'
         docs.mkdir(exist_ok=True)
-        for name in ('INSTALLATION.md', 'USAGE.md', 'BADGES.md', 'ASSET-TYPES.md', 'NATIVE-INPUTS.md', 'CREDITS.md', 'MAINTAINING.md', 'WATER-ANIMATION.md', 'SURFACE-PREVIEWS.md', 'SURFACE-SOURCES.md', 'SHADER-FIDELITY-PREVIEWS.md', 'SHADER-FIDELITY-REVIEW.md', 'DECO-ICE-PREVIEWS.md', 'CONCRETE-SHADER-CORRECTIONS.md', 'UPDATED-MATERIALS.md', 'PROJECTED-SURFACES.md', 'SOURCE-RESOLUTION.md', 'SHADER-RECONCILIATION.md'):
+        for name in ('INSTALLATION.md', 'USAGE.md', 'BADGES.md', 'ASSET-TYPES.md', 'NATIVE-INPUTS.md', 'CREDITS.md', 'MAINTAINING.md', 'WATER-ANIMATION.md', 'SURFACE-PREVIEWS.md', 'SURFACE-SOURCES.md', 'SHADER-FIDELITY-PREVIEWS.md', 'SHADER-FIDELITY-REVIEW.md', 'DECO-ICE-PREVIEWS.md', 'CONCRETE-SHADER-CORRECTIONS.md', 'UPDATED-MATERIALS.md', 'PROJECTED-SURFACES.md', 'SOURCE-RESOLUTION.md', 'SHADER-RECONCILIATION.md', 'CATALOG-CLARITY.md', 'THUMBNAIL-STYLES.md'):
             shutil.copy2(ROOT / 'docs' / name, docs / name)
         if (ROOT / 'docs/images').is_dir():
             shutil.copytree(ROOT / 'docs/images', docs / 'images', dirs_exist_ok=True)
@@ -82,7 +82,7 @@ def main():
         report.replace(staging / (edition + '-verification.json'))
         (out / 'build-source.json').unlink(missing_ok=True)
         print('PAYLOAD_READY', edition, len(rows), len(needed), flush=True)
-    subprocess.run([str(a.blender), '--background', '--factory-startup', '--python-exit-code', '1',
+    subprocess.run([str(a.blender), '--background', '--factory-startup', '--threads', '2', '--python-exit-code', '1',
                     '--python', str(ROOT / 'tools/build_examples.py'), '--', '--staging', str(staging)], check=True)
 
 

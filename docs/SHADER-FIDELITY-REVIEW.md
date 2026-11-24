@@ -1,6 +1,6 @@
 # Shader fidelity review
 
-Research date: 2026-11-23. These findings underpin the separate local preview revision `2026.11.23-shader-fidelity-1`. They are **not included** in the `2026.11.23-native-inputs-1` packages currently being published. No game runtime comparison has been completed for these changes.
+Research date: 2026-11-23. These findings underpin preview revision `2026.11.23-shader-fidelity-1`, included in the current combined full packages (`2026.11.24-thumbnail-styles-2`). No new game runtime comparison has been completed for these changes.
 
 The local preview implementation is documented in [Terrain and water preview controls](SHADER-FIDELITY-PREVIEWS.md). It applies recovered layer roles and formulas, with the remaining renderer/runtime differences explicitly identified as approximations.
 

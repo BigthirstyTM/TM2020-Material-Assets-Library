@@ -1,6 +1,6 @@
 # Asset Browser clarity and reported flag crash
 
-This local follow-up, `2026.11.23-catalog-clarity-1`, is newer than the published `native-surfaces-1` full ZIP packages. Download packages have not been rebuilt for this follow-up.
+This follow-up, `2026.11.23-catalog-clarity-1`, is included in the combined full packages with content revision `2026.11.24-thumbnail-styles-2`.
 
 ## One main copy of each asset
 

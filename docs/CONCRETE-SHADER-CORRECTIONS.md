@@ -2,7 +2,7 @@
 
 Content revision: **2026.11.23-native-surfaces-1**.
 
-This combined refresh includes the preceding Deco/Ice and water/WaterWall updates and corrects another 183 material previews. Material counts remain **826 Materials Only** and **1,119 Complete**, including **293 Preview only** assets.
+This refresh includes the preceding Deco/Ice and water/WaterWall updates and corrects another 183 material previews. The current combined full packages (`2026.11.24-thumbnail-styles-2`) contain **825 Materials Only** and **1,119 Complete**, including **294 Preview only** assets after quarantining AnimatedFlag.
 
 ## What changed
 

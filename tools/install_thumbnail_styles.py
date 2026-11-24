@@ -18,7 +18,7 @@ for im in bpy.data.images:
   path=Path(bpy.path.abspath(im.filepath)).resolve();assert path.is_file() and path.is_relative_to(root),path;im.filepath='//'+path.relative_to(root).as_posix()
 portable=out/'portable';portable.mkdir(exist_ok=True,parents=True);bpy.context.preferences.filepaths.save_version=0;bpy.ops.wm.save_as_mainfile(filepath=str(portable/source.name),compress=True,relative_remap=False)
 backup=out/'backup'/datetime.datetime.now().strftime('%Y%m%d-%H%M%S');backup.mkdir(parents=True)
-docs=['THUMBNAIL-STYLES.md','CATALOG-CLARITY.md','BADGES.md']
+docs=['THUMBNAIL-STYLES.md','CATALOG-CLARITY.md','BADGES.md','PROJECTED-SURFACES.md','SHADER-RECONCILIATION.md','SHADER-FIDELITY-REVIEW.md','CONCRETE-SHADER-CORRECTIONS.md','UPDATED-MATERIALS.md','MAINTAINING.md']
 files=[(source,portable/source.name)]+[(root/'Documentation'/name,a.documentation/name) for name in docs]
 existed={str(dst):dst.exists() for dst,src in files}
 for dst,src in files:

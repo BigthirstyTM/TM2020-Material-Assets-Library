@@ -72,7 +72,7 @@ The following 24 materials retain their existing graphs. Their signed/rotated/of
 
 Append a fresh copy of an updated material from the library. Existing copies inside a scene retain their previous nodes. Keep the existing BaseMaterial UV and vertex-alpha requirements where applicable. The updated library contains eleven refreshed 3D thumbnails; established badge pixels and meanings are unchanged.
 
-Offline preservation checks and numeric Blender render fixtures passed. The game was not started and no new in-game tests are claimed. Source/docs are newer than the published native-surfaces-1 full ZIPs; those release packages have not been replaced by this follow-up.
+Offline preservation checks and numeric Blender render fixtures passed. The game was not started and no new in-game tests are claimed. This follow-up is included in both combined full packages with content revision `2026.11.24-thumbnail-styles-2`.
 
 The complete per-material root/dependency evidence and deferred array rows are retained in the [reviewed input data](../tools/data/source-reconciliation-inputs.json).
 

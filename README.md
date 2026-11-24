@@ -2,24 +2,24 @@
 
 A material asset library for **Trackmania 2020**, designed for the **Blendermania V2 export workflow**. Browse materials in Blender's Asset Browser, apply them to your mesh, and export using their native game material links.
 
-[![Materials Only](https://img.shields.io/badge/Materials_Only-826_materials-287a48)](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-materials-only)
+[![Materials Only](https://img.shields.io/badge/Materials_Only-825_materials-287a48)](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-materials-only)
 [![Complete Library](https://img.shields.io/badge/Complete_Library-1119_materials-3779b6)](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-complete)
 [![Blender](https://img.shields.io/badge/Blender-5.2.3_LTS-e87d0d)](docs/INSTALLATION.md)
 
 The badges above show the material count in each edition and the Blender version used to prepare the library. The small symbols on material thumbnails describe material features; see the [short badge legend](docs/BADGES.md).
 
-## Local projection and source follow-up
+## Current combined refresh
 
-The newer local [catalog clarity update](docs/CATALOG-CLARITY.md) removes duplicate example assets. Its initial diffuse-only thumbnail layout is superseded by the selected [A/B/C styles](docs/THUMBNAIL-STYLES.md): brighter top-down shader renders, vegetation standing on tiles, and Custom spheres. AnimatedFlag is retained under Preview only after a reported item-loading crash; its animated MaterialLib alias is disabled. These updates are not yet present in the published ZIPs. Their edition counts below describe those published packages; the local source now has 825 materials outside Preview only and 294 Preview only materials, with 1,119 materials in total.
+Content revision **2026.11.24-thumbnail-styles-2** combines the latest material improvements with the selected [A/B/C thumbnail styles](docs/THUMBNAIL-STYLES.md): softer top-down shader renders without visible studio-lamp reflections, vegetation standing on tiles, and Custom spheres. The [catalog clarity update](docs/CATALOG-CLARITY.md) removes duplicate example assets. AnimatedFlag is retained under Preview only after a reported item-loading crash; its animated MaterialLib alias is disabled.
 
-The current local follow-up improves 31 projected previews, two light tubes and four optional structure colour masks, refreshes 37 thumbnails, and recovers 88 exact shader references. See [projected surfaces](docs/PROJECTED-SURFACES.md) and [source resolution](docs/SOURCE-RESOLUTION.md). This work is newer than the published native-surfaces-1 full ZIPs. A subsequent [shader reconciliation](docs/SHADER-RECONCILIATION.md) clarifies 94 root/pass references, improves ten array-based terrain previews plus LakeBottom, and refreshes eleven more thumbnails. These local follow-ups are not yet in the full download packages.
+Both full packages include the improvements to 31 projected previews, two light tubes and four optional structure colour masks, plus 88 recovered exact shader references. See [projected surfaces](docs/PROJECTED-SURFACES.md) and [source resolution](docs/SOURCE-RESOLUTION.md). The [shader reconciliation](docs/SHADER-RECONCILIATION.md) clarifies 94 root/pass references and improves ten array-based terrain previews plus LakeBottom. These source references do not promote Preview only entries to confirmed game compatibility.
 
 ## Choose your edition
 
 | Edition | Included | Recommended for |
 | --- | --- | --- |
-| [Materials Only](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-materials-only) | 826 native-linked materials | Building and exporting items |
-| [Complete Library](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-complete) | All 1,119 materials, including 293 Preview only assets | Browsing the full material and texture collection |
+| [Materials Only](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-materials-only) | 825 native-linked materials | Building and exporting items |
+| [Complete Library](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-complete) | All 1,119 materials, including 294 Preview only assets | Browsing the full material and texture collection |
 
 Both editions include 20 HDRI World assets, required textures, `MaterialLib.txt`, and an offline material catalogue. Complete retains 42 source texture node groups under **Preview only / Source resources**; Materials Only omits these node-group assets. They are shader inputs, not materials to drag onto a mesh. **Choose one edition**; Complete already includes everything in Materials Only.
 
