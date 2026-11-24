@@ -39,7 +39,10 @@ try:
   metadata=json.loads((root/'library.json').read_text());assert metadata['content_revision']==REV
  step('package-zips',[sys.executable,REPO/'tools/package_releases.py','--staging',STAGE,'--output',DIST,'--previous',a.previous])
  for edition in ['materials-only','complete']:
-  dest=OUT/'installer-tests'/edition
+  # Keep relocated test paths below Windows MAX_PATH. The normal user install
+  # is shorter than this workspace; a deeply nested test root can fail even
+  # when all extracted bytes and the production destination are valid.
+  dest=OUT/'installed'/edition
   step(edition+'-installer',['powershell.exe','-NoProfile','-ExecutionPolicy','Bypass','-File',DIST/edition/'Install-Library.ps1','-Edition',edition,'-PackageDirectory',DIST/edition,'-Destination',dest,'-SkipConfiguration'])
   step(edition+'-installer-verification',blend('verify_library.py','--library',dest/'Trackmania2020_assets.blend','--report',OUT/(edition+'-installer-verification.json')))
   metadata=json.loads((dest/'library.json').read_text());assert metadata['content_revision']==REV
