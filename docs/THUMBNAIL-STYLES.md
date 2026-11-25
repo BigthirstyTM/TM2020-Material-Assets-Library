@@ -1,6 +1,6 @@
 # Material thumbnail styles
 
-The current source uses `2026.11.25-thumbnail-aspect-3`, incorporating `2026.11.25-thumbnail-families-2` and `2026.11.25-readable-thumbnails-1`. Published full ZIPs currently contain `2026.11.24-thumbnail-styles-2`; a later full-package build must use the current installed source.
+The current source uses `2026.11.25-thumbnail-aspect-3`, incorporating `2026.11.25-thumbnail-families-2` and `2026.11.25-readable-thumbnails-1`. Published full ZIPs currently contain `2026.11.24-thumbnail-styles-2`; the next full packages are being prepared from the current installed source, with publication pending.
 
 | Style | Materials | Preview |
 | --- | --- | --- |

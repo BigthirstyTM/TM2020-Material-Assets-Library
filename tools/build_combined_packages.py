@@ -3,8 +3,9 @@ import argparse,datetime,hashlib,json,msvcrt,os,subprocess,sys
 from pathlib import Path
 REPO=Path(__file__).resolve().parents[1];REV='2026.11.24-thumbnail-styles-2'
 p=argparse.ArgumentParser()
+p.add_argument('--revision',default=REV,help='Expected installed content revision; recorded in both full editions.')
 for key in ['workspace','installation','staging','output','state','previous','blender']:p.add_argument('--'+key,type=Path,required=True)
-a=p.parse_args();BASE=a.workspace.resolve();OUT=a.state.resolve();STAGE=a.staging.resolve();DIST=a.output.resolve();OUT.mkdir(exist_ok=True,parents=True)
+a=p.parse_args();REV=a.revision;BASE=a.workspace.resolve();OUT=a.state.resolve();STAGE=a.staging.resolve();DIST=a.output.resolve();OUT.mkdir(exist_ok=True,parents=True)
 receipt=json.loads(a.installation.read_text());assert receipt['revision']==REV
 SOURCE=Path(receipt['installed']).parent
 def sha(path):

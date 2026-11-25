@@ -5,10 +5,13 @@ from pathlib import Path
 
 import argparse
 parser=argparse.ArgumentParser()
+parser.add_argument('--revision',default='2026.11.24-thumbnail-styles-2',help='Only publish files with this verified content revision.')
+parser.add_argument('--temporary-suffix',default='.thumbnail-styles-refresh',help='Revision-owned suffix for temporary uploads.')
 for key in ['workspace','dist','state']:parser.add_argument('--'+key,type=Path,required=True)
 args=parser.parse_args()
 BASE=args.workspace.resolve();DIST=args.dist.resolve();OUT=args.state.resolve();OUT.mkdir(parents=True,exist_ok=True)
-GH=BASE/'.tools/gh/bin/gh.exe';REPO='BigthirstyTM/TM2020-Material-Assets-Library';REV='2026.11.24-thumbnail-styles-2';SUFFIX='.thumbnail-styles-refresh'
+GH=BASE/'.tools/gh/bin/gh.exe';REPO='BigthirstyTM/TM2020-Material-Assets-Library';REV=args.revision;SUFFIX=args.temporary_suffix
+assert SUFFIX.startswith('.') and SUFFIX.endswith('-refresh') and all(c.isalnum() or c in '.-' for c in SUFFIX)
 guard=(OUT/'worker.lock').open('a+b');guard.seek(0);guard.write(b'0');guard.flush();guard.seek(0);msvcrt.locking(guard.fileno(),msvcrt.LK_NBLCK,1)
 lock=threading.Lock();state=dict(revision=REV,pid=os.getpid(),phase='validating',uploaded=[],editions={})
 def status(**changes):
