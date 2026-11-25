@@ -1,20 +1,41 @@
 # Material thumbnail styles
 
-The current installed source uses `2026.11.25-readable-thumbnails-1`. Published full ZIPs currently contain `2026.11.24-thumbnail-styles-2`; a later full-package build must use the current installed source.
+The current source uses `2026.11.25-thumbnail-aspect-3`, incorporating `2026.11.25-thumbnail-families-2` and `2026.11.25-readable-thumbnails-1`. Published full ZIPs currently contain `2026.11.24-thumbnail-styles-2`; a later full-package build must use the current installed source.
 
 | Style | Materials | Preview |
 | --- | --- | --- |
-| A | 843 ordinary and CustomMod materials | Flat, layered color and emission evaluated from a disposable shader copy, without cast shadows or studio reflections. |
+| A | 843 ordinary and CustomMod materials | Layered-color tiles; emissive sign/light families use their restored composed previews where the flat adapter obscured their design. |
 | B | 98 vegetation materials | Existing angled tile with representative source vegetation standing on its upper surface, unchanged. |
 | C | 13 Custom materials | Smooth sphere with enlarged texture detail for easier identification. |
 
 157 functional, runtime-input and technical symbols, seven water/waterfall previews and the CustomGlass sphere are retained. HDRI World and source node-group previews are unchanged. Material names, catalogs, production shader graphs, native export links and existing feature badges are preserved.
 
+## Source proportions and edge-to-edge tiles
+
+All 843 flat/composed material tiles now retain the proportions of their displayed source image or active atlas frame. 341 are rectangular; 502 are square. Square tiles fill the icon canvas without the earlier studio margin. Rectangular tiles fit their complete image inside the square canvas with a neutral background in the unused area. The image is neither cropped to a square nor stretched. A clock or animation footer keeps its own bottom strip; its image fits above that strip without losing its aspect ratio. Badges retain their exact pixels and positions.
+
+For composed screens, the displayed image layer determines the proportions rather than the square LED/detail map: examples include 1024x576 (16:9), 1024x512 (2:1) and 2048x512 (4:1). For manually selected atlas animation frames, encoded image dimensions are combined with the source group's UV-cell scale; the dimensions of the complete sheet are not used as the frame shape. Other materials use their recorded source texture or primary color image. Procedural previews without an image use a square fixture. No game mesh aspect or gameplay compatibility is inferred from a filename.
+
+The 13 Custom spheres, 98 vegetation tiles, functional symbols and existing glass/water previews keep their chosen presentation. Their shapes are deliberate fixtures, not flat image sheets. No material UV coordinates, texture scale on objects, production shader or export binding is changed.
+
+The restored emissive families are rendered with their composed shader treatment under the new proportional fixture. Thus their saved pixels are no longer identical to the earlier square fixture, while preserving the recovered sign/light appearance.
+
+## Family-specific corrections
+
+140 thumbnails are updated in this revision. The complete related families are reviewed, rather than only the examples shown in screenshots:
+
+- 80 previously verified composed previews are restored for non-animated emissive sign and light materials. This includes related Boost/Turbo/gameplay signs, RaceArch, ItemObstacle light levels and other emissive families. The flat unlit adapter had reduced their emission gain, letting the gray base texture obscure the sign or light color. Restored previews are checked against the saved source-preview manifest from the previously published source.
+- 45 active screen previews, including advertisements and parallax variants, receive a small +0.25-stop exposure lift. ScreenOff and ScreenBack are excluded; black/off screens are not made artificially luminous.
+- Two emissive CustomMod defaults retain flat tiles and restore their emission contribution rather than reverting to the previous spheres.
+- All 13 non-Mod, non-glass Custom spheres use 0.055x temporary coordinate scale: four times larger texture features than the preceding icon revision. CustomBricks now shows distinct brick courses.
+
+The 21 clock time-step footers, six final-frame ItemObstacle previews, vegetation tiles, glass/water previews and existing badges are retained. No production material shader or game export binding changes.
+
 ## Flat layered previews
 
-A evaluates the material's existing color-layer and UV networks instead of displaying only its diffuse image. In a temporary material copy, surface BSDFs are replaced by unlit color/emission contributions, retaining alpha and shader mixing. This removes camera-dependent illumination, cast shadows, bump shading and reflected studio lamps from the identification tile. The earlier subtraction of direct glossy light is no longer used: that approach removed too much visible energy from metals such as ItemRamp and Pylon.
+A evaluates the material's existing color-layer and UV networks instead of displaying only its diffuse image. In a temporary material copy, surface BSDFs are replaced by unlit color/emission contributions, retaining alpha and shader mixing. This removes camera-dependent illumination, cast shadows, bump shading and reflected studio lamps from the identification tile. Ordinary flat tiles do not use direct glossy-light subtraction: that approach removed too much visible energy from metals such as ItemRamp and Pylon.
 
-These are identification previews, not final PBR renders. They do not depict metallic reflectivity, roughness, normal relief, refracted depth or actual emitted luminance. Source texture shading and dark authored regions remain visible. ScreenOff stays dark because it is an unlit display; a dark region is not automatically a missing texture. Transparent FX use a dark neutral backdrop; decals use a lighter neutral backdrop so black logos remain legible. No artificial soft shadow is added.
+These are identification previews, not final PBR renders. They do not depict metallic reflectivity, roughness, normal relief, refracted depth or actual emitted luminance. Source texture shading and dark authored regions remain visible. ScreenOff stays dark because it is an unlit display; a dark region is not automatically a missing texture. Transparent FX use a dark neutral backdrop; decals use a lighter neutral backdrop so black logos remain legible. No artificial soft shadow is added to flat tiles. Restored emissive icons retain their previous composed lighting and framing.
 
 CustomMod materials use the same flat tile. They show their supplied default inputs, not a user's future custom texture. Existing water, waterfall and CustomGlass previews retain their carefully composed appearances rather than using an unlit replacement.
 
@@ -26,7 +47,7 @@ Actual animation inputs, timeline drivers, periods and export bindings remain un
 
 ## Custom texture detail
 
-Thirteen non-Mod, non-glass Custom materials remain spheres. Their temporary UV, Generated and Object/Position coordinates are reduced to 0.22x, making texture features approximately 4.55 times larger. This is a readability choice at thumbnail size; it does not change native texture scale or the material applied to an object. CustomGlass retains its earlier sphere and scale exactly.
+Thirteen non-Mod, non-glass Custom materials remain spheres. Their temporary UV, Generated and Object/Position coordinates are reduced to 0.055x, making texture features approximately 18.18 times larger. This is a readability choice at thumbnail size; it does not change native texture scale or the material applied to an object. CustomGlass retains its earlier sphere and scale exactly.
 
 ## Vegetation on the tile
 

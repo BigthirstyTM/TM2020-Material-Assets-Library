@@ -8,7 +8,7 @@ A material asset library for **Trackmania 2020**, designed for the **Blendermani
 
 The badges above show the material count in each edition and the Blender version used to prepare the library. The small symbols on material thumbnails describe material features; see the [short badge legend](docs/BADGES.md).
 
-The newer local source revision `2026.11.25-readable-thumbnails-1` uses flat layered-color thumbnails, restores animation-state/time-step labels and enlarges Custom sphere detail. The full ZIP downloads below still contain the published `2026.11.24-thumbnail-styles-2` revision. See [thumbnail styles](docs/THUMBNAIL-STYLES.md).
+The newer local source revision `2026.11.25-thumbnail-aspect-3` preserves image/frame proportions and fills square tiles edge to edge. It includes restored emissive sign/light previews, slightly brighter active screens, enlarged Custom sphere detail and the animation/time-step labels. The full ZIP downloads below still contain the published `2026.11.24-thumbnail-styles-2` revision. See [thumbnail styles](docs/THUMBNAIL-STYLES.md).
 
 ## Current combined refresh
 

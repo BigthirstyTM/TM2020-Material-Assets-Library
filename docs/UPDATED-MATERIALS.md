@@ -1,5 +1,9 @@
 # Updated material previews
 
+The current local source `2026.11.25-thumbnail-aspect-3` also corrects proportions across 843 flat/composed tiles: 341 rectangular images or atlas frames fit without stretching, and 502 square tiles fill the canvas. Clock/animation footers retain their own strip. The 140 preceding family-specific improvements below are included. Public ZIPs still contain the earlier published revision.
+
+The current local source `2026.11.25-thumbnail-families-2` refines 140 related previews: 80 restored composed emissive signs/light layers, 45 slightly brighter active screens, two flat emissive CustomMod defaults, and 13 spheres with texture features four times larger than the preceding icon revision. See [thumbnail styles](THUMBNAIL-STYLES.md). These updates are not yet in the public ZIP downloads.
+
 The newer local source revision `2026.11.25-readable-thumbnails-1` changes 856 saved icons: 843 flat layered-color tiles (including 14 CustomMod defaults) and 13 Custom spheres with enlarged detail. ItemObstacle final-frame previews and 21 clock time-step footers are restored. Production shaders, badges and game export links are unchanged. These newer icons are not yet in the published ZIPs. See [thumbnail styles](THUMBNAIL-STYLES.md).
 
 The current combined package revision is `2026.11.24-thumbnail-styles-2`. It includes the 183 corrections listed below, the later [projected surface updates](PROJECTED-SURFACES.md), [shader reconciliation](SHADER-RECONCILIATION.md), [catalog cleanup and AnimatedFlag quarantine](CATALOG-CLARITY.md), and the selected [A/B/C thumbnails](THUMBNAIL-STYLES.md). A now uses softer light with direct studio-lamp reflections removed; vegetation tiles and Custom spheres are retained. These changes do not imply new in-game tests or an identical native renderer.
