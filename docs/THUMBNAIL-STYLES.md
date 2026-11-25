@@ -1,27 +1,39 @@
 # Material thumbnail styles
 
-The user-selected thumbnail layout is included in the combined full packages, content revision `2026.11.24-thumbnail-styles-2`. It replaces the previous diffuse-only thumbnails.
+The current installed source uses `2026.11.25-readable-thumbnails-1`. Published full ZIPs currently contain `2026.11.24-thumbnail-styles-2`; a later full-package build must use the current installed source.
 
 | Style | Materials | Preview |
 | --- | --- | --- |
-| A | 836 ordinary materials | Complete Blender shader on a nearly top-down surface, with softer neutral lighting, medium-high contrast and direct studio-lamp reflections removed. |
-| B | 98 vegetation materials | Angled tile with representative source vegetation standing on its upper surface. |
-| C | 28 Custom materials | Smooth sphere under soft neutral lighting. |
+| A | 843 ordinary and CustomMod materials | Flat, layered color and emission evaluated from a disposable shader copy, without cast shadows or studio reflections. |
+| B | 98 vegetation materials | Existing angled tile with representative source vegetation standing on its upper surface, unchanged. |
+| C | 13 Custom materials | Smooth sphere with enlarged texture detail for easier identification. |
 
-157 existing functional, runtime-input and technical symbols are retained. Rendering an invisible collision surface or missing runtime input as a plain square would remove useful identification information. HDRI World and source node-group thumbnails are unchanged. Material names, catalogs, shader graphs, native export links and existing feature badges are preserved.
+157 functional, runtime-input and technical symbols, seven water/waterfall previews and the CustomGlass sphere are retained. HDRI World and source node-group previews are unchanged. Material names, catalogs, production shader graphs, native export links and existing feature badges are preserved.
+
+## Flat layered previews
+
+A evaluates the material's existing color-layer and UV networks instead of displaying only its diffuse image. In a temporary material copy, surface BSDFs are replaced by unlit color/emission contributions, retaining alpha and shader mixing. This removes camera-dependent illumination, cast shadows, bump shading and reflected studio lamps from the identification tile. The earlier subtraction of direct glossy light is no longer used: that approach removed too much visible energy from metals such as ItemRamp and Pylon.
+
+These are identification previews, not final PBR renders. They do not depict metallic reflectivity, roughness, normal relief, refracted depth or actual emitted luminance. Source texture shading and dark authored regions remain visible. ScreenOff stays dark because it is an unlit display; a dark region is not automatically a missing texture. Transparent FX use a dark neutral backdrop; decals use a lighter neutral backdrop so black logos remain legible. No artificial soft shadow is added.
+
+CustomMod materials use the same flat tile. They show their supplied default inputs, not a user's future custom texture. Existing water, waterfall and CustomGlass previews retain their carefully composed appearances rather than using an unlit replacement.
+
+## Animation and time labels
+
+Animation states already recorded in the asset's preview metadata are reapplied only to the disposable thumbnail copy. ItemObstacle screen previews use the recorded final active atlas frame and a LAST FRAME footer. Chrono and ChronoFinish previews use the recorded representative clock digit and a STEP footer showing that digit's time interval in seconds, minutes or hours. The label identifies the interval, not the current race time or the total animation duration. Native emissive gain is retained for these selected animated frames so their display is not buried under the diffuse LED grid.
+
+Actual animation inputs, timeline drivers, periods and export bindings remain unchanged. The orange play badge still identifies animated or time-dependent behavior; the static icon itself does not animate.
+
+## Custom texture detail
+
+Thirteen non-Mod, non-glass Custom materials remain spheres. Their temporary UV, Generated and Object/Position coordinates are reduced to 0.22x, making texture features approximately 4.55 times larger. This is a readability choice at thumbnail size; it does not change native texture scale or the material applied to an object. CustomGlass retains its earlier sphere and scale exactly.
 
 ## Vegetation on the tile
 
-37 terrain materials use the sprite entries already identified in their native foliage datasets and source atlases. The preview places representative crossed, alpha-cut cards on the tile's top surface. Its base and side faces use the material's complete Blender shader.
+37 terrain previews use the sprite entries identified in their native foliage datasets and source atlases. Another 61 individual vegetation cutout previews use their own diffuse-alpha image on standing cards. These 98 previews are unchanged by this update. Placement, scale and density are representative thumbnail geometry; dragging a material does not generate plants or reconstruct a complete tree.
 
-61 individual vegetation cutout materials use their own diffuse alpha image on standing preview cards above a neutral tile. This includes leaf, branch and tree-sprite texture references. A leaf atlas represents a source texture; these preview cards do not reconstruct a complete tree mesh. Bark and trunk materials without a vegetation cutout use A.
+## Preservation and limits
 
-Card placement, scale and density are chosen to make the thumbnail readable at small sizes. They are not a reconstruction of the game's vegetation distribution or a promise that dragging the material will generate plants. No preview geometry or helper atlas image is added to the actual material or item export.
+Existing badge pixels are copied exactly. The turquoise grid badge retains its existing meaning; this update adds no customization badges. See BADGES.md for the short badge legend. All render-only shader copies, coordinate changes and preview fixtures are removed before saving. No additional production texture dependencies are introduced.
 
-## Lighting and limits
-
-A keeps the complete shader instead of displaying only its diffuse image, so texture-layer blending, normal detail and transparent contributions can appear. Its lighting and exposure are reduced from the first A/B/C build. The thumbnail compositor removes the direct glossy studio-light contribution before denoising, preventing a bright reflected lamp in the corner. The environment is uniform; no reflected studio image is used. Native material reflection settings and shader graphs are unchanged. B and C retain their previously selected thumbnails exactly.
-
-A single view cannot show every projection angle or every painted vertex-alpha combination. These icons use the current default material inputs. A static image does not show water animation or other time-varying behavior. Rendered previews remain Blender approximations of native shaders; no new game test is implied.
-
-The update is installed through a checked, recoverable backup. It changes saved thumbnails and their descriptive metadata; the earlier AnimatedFlag quarantine and duplicate-example cleanup remain in place.
+The update is installed with a backup and a fresh-file check of all shader graphs, identities, export metadata, node groups and badge pixels. Blender previews remain approximations; no new in-game test is implied.

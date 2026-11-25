@@ -8,6 +8,8 @@ A material asset library for **Trackmania 2020**, designed for the **Blendermani
 
 The badges above show the material count in each edition and the Blender version used to prepare the library. The small symbols on material thumbnails describe material features; see the [short badge legend](docs/BADGES.md).
 
+The newer local source revision `2026.11.25-readable-thumbnails-1` uses flat layered-color thumbnails, restores animation-state/time-step labels and enlarges Custom sphere detail. The full ZIP downloads below still contain the published `2026.11.24-thumbnail-styles-2` revision. See [thumbnail styles](docs/THUMBNAIL-STYLES.md).
+
 ## Current combined refresh
 
 Content revision **2026.11.24-thumbnail-styles-2** combines the latest material improvements with the selected [A/B/C thumbnail styles](docs/THUMBNAIL-STYLES.md): softer top-down shader renders without visible studio-lamp reflections, vegetation standing on tiles, and Custom spheres. The [catalog clarity update](docs/CATALOG-CLARITY.md) removes duplicate example assets. AnimatedFlag is retained under Preview only after a reported item-loading crash; its animated MaterialLib alias is disabled.

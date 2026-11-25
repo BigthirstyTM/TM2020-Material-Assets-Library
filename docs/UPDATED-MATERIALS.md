@@ -1,5 +1,7 @@
 # Updated material previews
 
+The newer local source revision `2026.11.25-readable-thumbnails-1` changes 856 saved icons: 843 flat layered-color tiles (including 14 CustomMod defaults) and 13 Custom spheres with enlarged detail. ItemObstacle final-frame previews and 21 clock time-step footers are restored. Production shaders, badges and game export links are unchanged. These newer icons are not yet in the published ZIPs. See [thumbnail styles](THUMBNAIL-STYLES.md).
+
 The current combined package revision is `2026.11.24-thumbnail-styles-2`. It includes the 183 corrections listed below, the later [projected surface updates](PROJECTED-SURFACES.md), [shader reconciliation](SHADER-RECONCILIATION.md), [catalog cleanup and AnimatedFlag quarantine](CATALOG-CLARITY.md), and the selected [A/B/C thumbnails](THUMBNAIL-STYLES.md). A now uses softer light with direct studio-lamp reflections removed; vegetation tiles and Custom spheres are retained. These changes do not imply new in-game tests or an identical native renderer.
 
 Content revision: `2026.11.23-native-surfaces-1`. These 183 material previews received the following corrections. Counts overlap. Native links and edition membership remain unchanged. See [usage and limits](CONCRETE-SHADER-CORRECTIONS.md).
