@@ -63,8 +63,13 @@ try:
     inspect = work / 'inspect_extension.py'
     inspect.write_text('''import bpy,json
 from pathlib import Path
-libs=[dict(name=x.name,path=x.path,remote_url=x.remote_url) for x in bpy.context.preferences.filepaths.asset_libraries if x.name=='TM2020 Remote Pilot']
-assert len(libs)==1 and libs[0]['remote_url']=='http://127.0.0.1:52153/',libs
+# CLI installation can leave an asset-library registered but disabled.
+# Enable explicitly, then persist only this isolated test profile.
+for x in bpy.context.preferences.filepaths.asset_libraries:
+ if x.name=='TM2020 Remote Pilot': x.enabled=True
+libs=[dict(name=x.name,path=x.path,remote_url=x.remote_url,enabled=x.enabled) for x in bpy.context.preferences.filepaths.asset_libraries if x.name=='TM2020 Remote Pilot']
+assert len(libs)==1 and libs[0]['remote_url']=='http://127.0.0.1:52153/' and libs[0]['enabled'],libs
+bpy.ops.wm.save_userpref()
 Path('extension-registration.json').write_text(json.dumps(libs,indent=2))
 ''')
     run('extension-inspect', ['--python-exit-code', '1', '--python', str(inspect)])
