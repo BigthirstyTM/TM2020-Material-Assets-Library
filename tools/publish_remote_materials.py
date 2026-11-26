@@ -34,7 +34,13 @@ def remote_assets(release_id):
 def git(*args,cwd):return subprocess.check_output([str(a.git.resolve()),*map(str,args)],cwd=cwd,text=True,stderr=subprocess.STDOUT)
 def get(url):
  req=urllib.request.Request(url,headers={'User-Agent':'TM2020-Materials-Extension-Verification'})
- with urllib.request.urlopen(req,timeout=60) as response:return response.read()
+ for attempt in range(5):
+  try:
+   with urllib.request.urlopen(req,timeout=60) as response:return response.read()
+  except (urllib.error.URLError,TimeoutError,ConnectionError) as error:
+   if isinstance(error,urllib.error.HTTPError) and error.code not in {429,500,502,503,504}:raise
+   if attempt==4:raise
+   time.sleep(2**attempt)
 def blender(name,args,factory=False):
  profile=out/'public-verification-profile';profile.mkdir(exist_ok=True);env=os.environ.copy()
  for key,folder in [('BLENDER_USER_CONFIG','config'),('BLENDER_USER_EXTENSIONS','extensions'),('BLENDER_USER_DATAFILES','datafiles'),('BLENDER_USER_SCRIPTS','scripts')]:
