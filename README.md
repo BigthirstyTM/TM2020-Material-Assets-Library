@@ -12,6 +12,8 @@ The published full-package revision `2026.11.25-thumbnail-aspect-3` preserves im
 
 The newer **local development library** includes source-backed [Dyna preview corrections](docs/DYNA-MATERIALS.md): Warp interior/SI composition, native SI depth tracing and explicit emissive/tangent UVs. These changes are not yet included in the published ZIPs or remote pilot.
 
+Local revision **2026.11.26-shader-followup-1** also updates 555 material graphs across explicit UV/normal inputs, GrassX2 modulation, display SI depth, 24 terrain arrays and 14 optional source colour-mask adapters. See [controls and limits](docs/SHADER-FOLLOWUP.md) and the [material list](docs/SHADER-FOLLOWUP-MATERIALS.md). Published downloads remain unchanged.
+
 ## Current combined refresh
 
 Content revision **2026.11.25-thumbnail-aspect-3** combines the latest material improvements with the selected [A/B/C thumbnail styles](docs/THUMBNAIL-STYLES.md): softer top-down shader renders without visible studio-lamp reflections, vegetation standing on tiles, and Custom spheres. The [catalog clarity update](docs/CATALOG-CLARITY.md) removes duplicate example assets. AnimatedFlag is retained under Preview only after a reported item-loading crash; its animated MaterialLib alias is disabled.

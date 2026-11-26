@@ -63,8 +63,16 @@ def projected(bpy,g,m,record,images,hue_target=None,colour=True):
     side_tangent=vec(g,'CROSS_PRODUCT',(0,0,1),normal)
     side_tangent=mix(g,'Side tangent pole fallback',math(g,'LESS_THAN',vec(g,'LENGTH',side_tangent),1e-6),side_tangent,(0,1,0,1));side_tangent=vec(g,'NORMALIZE',side_tangent)
     side_bitangent=vec(g,'CROSS_PRODUCT',side_tangent,normal)
-    def orient(encoded,tangent,bitangent):
-        x,y,z=split(g,bc5(g,encoded));return vec(g,'ADD',vec(g,'ADD',vec(g,'SCALE',tangent,x),vec(g,'SCALE',bitangent,y)),vec(g,'SCALE',normal,z))
+    def orient(encoded,tangent,bitangent,desc):
+        x,y,z=split(g,bc5(g,encoded))
+        if record.get('normal_frames'):
+            # UV=S*R*position: orient perturbations by the inverse rotation
+            # and signed axes. Magnitudes retain the authored normal strength.
+            angle=M.radians(desc.get('rotation',0));c=M.cos(angle);s=M.sin(angle)
+            sx,sy=[1 if v>=0 else -1 for v in desc.get('scale',[1,1])]
+            xx=math(g,'ADD',math(g,'MULTIPLY',x,c*sx),math(g,'MULTIPLY',y,s*sy))
+            y=math(g,'ADD',math(g,'MULTIPLY',x,-s*sx),math(g,'MULTIPLY',y,c*sy));x=xx
+        return vec(g,'ADD',vec(g,'ADD',vec(g,'SCALE',tangent,x),vec(g,'SCALE',bitangent,y)),vec(g,'SCALE',normal,z))
     side_encoded=mix(g,'Native side packed-normal mix',side_factor,*values['encoded_normal'][:2])
-    world_normal=vec(g,'NORMALIZE',mix(g,'Native tangent-frame top-side normal mix',wz,orient(side_encoded,side_tangent,side_bitangent),orient(values['encoded_normal'][2],top_tangent,top_bitangent)))
+    world_normal=vec(g,'NORMALIZE',mix(g,'Native tangent-frame top-side normal mix',wz,orient(side_encoded,side_tangent,side_bitangent,slots['PxzNormal']),orient(values['encoded_normal'][2],top_tangent,top_bitangent,slots['PyNormal'])))
     return dict(colour=blended('colour') if colour else None,rough=blended('rough'),metal=blended('metal'),normal=world_normal)

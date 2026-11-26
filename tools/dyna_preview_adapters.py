@@ -42,19 +42,14 @@ def height_uv(t,uv,image,shift):
     # At zero height no trace occurs; avoid extrapolating behind the surface.
     return mix(t,'Dyna SI first crossing',math(t,'GREATER_THAN',level,0),uv,result)
 
-def dispin(m,values):
-    t=m.node_tree;p=t.nodes['Principled BSDF'];base_material_uv(t);uv=t.nodes['UV Map'].outputs['UV']
-    d=t.nodes['tex_D'];r=t.nodes['tex_R'];normal=t.nodes['tex_N']
-    # Historical node names are swapped: tex_I is MulInside, tex_L is SI.
-    inside=t.nodes['tex_I'];si=t.nodes['tex_L'];height=t.nodes['tex_H']
-    assert 'WarpLight' in si.image.name and 'WarpLight' in inside.image.name
+def source_si_uv(t,uv,rough_colour,normal_colour,height_image,values):
     geo=node(t,'ShaderNodeNewGeometry','Dyna view direction')
     tangent=node(t,'ShaderNodeTangent','Dyna BaseMaterial tangent');tangent.direction_type='UV_MAP';tangent.uv_map='BaseMaterial'
     bitangent=vec(t,'CROSS_PRODUCT',geo.outputs['Normal'],tangent.outputs['Tangent'])
     incident=vec(t,'SCALE',geo.outputs['Incoming'],-1)
     v=combine(t,vec(t,'DOT_PRODUCT',incident,tangent.outputs['Tangent']),
       vec(t,'DOT_PRODUCT',incident,bitangent),vec(t,'DOT_PRODUCT',incident,geo.outputs['Normal']))
-    n=bc5(t,normal.outputs['Color']);dot=vec(t,'DOT_PRODUCT',n,v)
+    n=bc5(t,normal_colour);dot=vec(t,'DOT_PRODUCT',n,v)
     eta=parameter(t,'RefractIndex',values['RefractIndex'][0])
     double=parameter(t,'DoubleRefract',values['DoubleRefract'][0])
     k=math(t,'SUBTRACT',1,math(t,'MULTIPLY',math(t,'MULTIPLY',eta,eta),
@@ -68,13 +63,21 @@ def dispin(m,values):
     use_double=math(t,'GREATER_THAN',double,.5)
     exit_direction=mix(t,'Dyna parallel-interface exit',use_double,refracted,vec(t,'SCALE',refracted,exit_scale))
     ex,ey,_=split(t,exit_direction)
-    rough=split(t,r.outputs['Color'])[0]
+    rough=split(t,rough_colour)[0]
     attenuation=math(t,'SUBTRACT',1,math(t,'POWER',rough,4))
     depth=parameter(t,'Meters_Depth',values['Meters_Depth'][0])
     mx=parameter(t,'Meters_UV X',values['Meters_UV'][0]);my=parameter(t,'Meters_UV Y',values['Meters_UV'][1])
     shift=combine(t,math(t,'MULTIPLY',ex,math(t,'DIVIDE',depth,mx)),math(t,'MULTIPLY',ey,math(t,'DIVIDE',depth,my)),0)
     shift=vec(t,'SCALE',shift,attenuation)
-    shifted=height_uv(t,d.inputs['Vector'].links[0].from_socket,height.image,shift)
+    return height_uv(t,uv,height_image,shift)
+
+def dispin(m,values):
+    t=m.node_tree;p=t.nodes['Principled BSDF'];base_material_uv(t);uv=t.nodes['UV Map'].outputs['UV']
+    d=t.nodes['tex_D'];r=t.nodes['tex_R'];normal=t.nodes['tex_N']
+    # Historical node names are swapped: tex_I is MulInside, tex_L is SI.
+    inside=t.nodes['tex_I'];si=t.nodes['tex_L'];height=t.nodes['tex_H']
+    assert 'WarpLight' in si.image.name and 'WarpLight' in inside.image.name
+    shifted=source_si_uv(t,d.inputs['Vector'].links[0].from_socket,r.outputs['Color'],normal.outputs['Color'],height.image,values)
     wire(t,shifted,si.inputs['Vector']);wire(t,uv,inside.inputs['Vector'])
     interior=vec(t,'SCALE',inside.outputs['Color'],inside.outputs['Alpha'])
     emission=vec(t,'MULTIPLY',interior,si.outputs['Color'])

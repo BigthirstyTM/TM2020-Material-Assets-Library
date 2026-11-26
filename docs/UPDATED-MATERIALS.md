@@ -1,5 +1,7 @@
 # Updated material previews
 
+Local development revision `2026.11.26-shader-followup-1` updates 555 unique graphs across five shader-informed groups. See [UV/grass/display depth/terrain/colour controls and limits](SHADER-FOLLOWUP.md) and the [complete per-group material list](SHADER-FOLLOWUP-MATERIALS.md). Native export identities, badges and thumbnail artwork are preserved. This local revision has not replaced the public ZIPs or remote pilot.
+
 Local development revision `2026.11.26-dyna-preview-1` adds [Dyna source analysis and preview corrections](DYNA-MATERIALS.md). Six material graphs were corrected; three related WarpDetails entries received source-provenance metadata. The ZIP releases and remote pilot below have not been republished for this local revision.
 
 Both published full-package editions now contain `2026.11.25-thumbnail-aspect-3`. Each edition has two ZIPs; release checksums and public downloads have been verified. Check `release.json` or the installed `library.json` for the revision of your package.
