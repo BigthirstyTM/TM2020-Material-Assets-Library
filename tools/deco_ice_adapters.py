@@ -84,7 +84,8 @@ def connect_surface(t,p,n):
     clear_input(t,p.inputs['Alpha'],1);clear_input(t,p.inputs['Specular IOR Level'],.5)
 
 def terrain(bpy,m,record,images):
-    mixed='TBaseColor' in record['slots'];is_hue='pypxz_hue' in record['shader']
+    colour_slot='TBaseColorOp' if 'TBaseColorOp' in record['slots'] else 'TBaseColor'
+    mixed=colour_slot in record['slots'];is_hue='pypxz_hue' in record['shader']
     params=json.loads(m.get('tm_native_parameters','{}'));target=params.get('TargetColor',{}).get('values',[[1,1,1]])[0][:3]
     specs=[('BaseMaterial UV','NodeSocketVector',None),('Painted alpha','NodeSocketFloat',1),('Use painted vertex alpha','NodeSocketFloat',0),('Fallback alpha','NodeSocketFloat',1)]
     if is_hue:specs.append(('Hue target (native default)','NodeSocketColor',(*target,1)))
@@ -92,7 +93,7 @@ def terrain(bpy,m,record,images):
     base=projected(bpy,g,m,record,images,i.outputs['Hue target (native default)'] if is_hue else None)
     values={'Base Color':base['colour'],'Roughness':base['rough'],'Metallic':base['metal'],'Normal':base['normal']}
     if mixed:
-        d=sample(g,'Native TBaseColor - mesh UV only',images('TBaseColor'),i.outputs['BaseMaterial UV'])
+        d=sample(g,'Native '+colour_slot+' - mesh UV only',images(colour_slot),i.outputs['BaseMaterial UV'])
         r=tex(g,images,'TRoughMetal',i.outputs['BaseMaterial UV'],(.6,0,0));rough,metal=rough_channels(g,r,record['slots']['TRoughMetal']['usage'])
         normal=tangent_normal(g,bc5(g,tex(g,images,'TNormal',i.outputs['BaseMaterial UV'],(.5,.5,1))))
         alpha=scalar_mix(g,i.outputs['Use painted vertex alpha'],i.outputs['Fallback alpha'],i.outputs['Painted alpha'])

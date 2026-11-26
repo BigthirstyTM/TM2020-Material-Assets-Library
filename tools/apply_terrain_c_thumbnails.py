@@ -5,7 +5,10 @@ from mathutils import Vector
 parser=argparse.ArgumentParser()
 for key in ['library','inputs','output']:parser.add_argument('--'+key,type=Path,required=True)
 parser.add_argument('--sprite-directory',type=Path,help='Directory containing the hash-checked source atlas files in the input recipe.')
-a=parser.parse_args(sys.argv[sys.argv.index('--')+1:]);repo=Path(__file__).resolve().parents[1];root=a.library.resolve();out=a.output.resolve();out.mkdir(exist_ok=True,parents=True);source=root/'Trackmania2020_assets.blend';REVISION='2026.11.26-terrain-insets-2'
+parser.add_argument('--source',type=Path,help='Optional repaired master; texture root remains --library.')
+parser.add_argument('--targets',type=Path,help='Optional JSON list of material names to refresh.')
+parser.add_argument('--revision',default='2026.11.26-terrain-insets-2')
+a=parser.parse_args(sys.argv[sys.argv.index('--')+1:]);repo=Path(__file__).resolve().parents[1];root=a.library.resolve();out=a.output.resolve();out.mkdir(exist_ok=True,parents=True);source=a.source.resolve() if a.source else root/'Trackmania2020_assets.blend';REVISION=a.revision
 sys.path.insert(0,str(repo/'tools'))
 from apply_concrete_shaders import pixels,png,badge_mask
 from thumbnail_preview_pixels import read_saved_preview
@@ -39,6 +42,8 @@ def resize(a,w,h):
  ys=np.linspace(0,a.shape[0]-1,h).astype(int);xs=np.linspace(0,a.shape[1]-1,w).astype(int);return a[ys[:,None],xs[None,:]]
 
 inputs=json.loads(a.inputs.read_text());targets=[r for r in inputs['targets'] if r.get('sprites')];assert len(targets)==37
+if a.targets:
+ names=set(json.loads(a.targets.read_text()));targets=[r for r in targets if r['name'] in names];assert len(targets)==len(names)
 for row in targets:
  if not Path(row['diffuse']['path']).is_absolute():row['diffuse']['path']=str(root/row['diffuse']['path'])
  for spr in row['sprites']:

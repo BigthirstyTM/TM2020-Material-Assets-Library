@@ -18,11 +18,11 @@ def active_diffuse(material):
   reachable=set()
   for link in output.inputs['Base Color'].links:ancestors(link.from_socket,reachable)
   choices=[n for n in reachable if n.type=='TEX_IMAGE' and n.image]
-  t=[n for n in choices if n.name.startswith('Native TBaseColor - mesh UV only')]
+  t=[n for n in choices if n.name.startswith('Native TBaseColor') and 'mesh UV only' in n.name]
   use=surface.inputs.get('Use painted vertex alpha');fallback=surface.inputs.get('Fallback alpha')
   enabled=not (use and fallback and use.default_value==0 and fallback.default_value==0)
   if t and enabled:
-   assert len(t)==1;return t[0].image,dict(role='TBaseColor: active UV decoration',node=t[0].name,group=surface.name)
+   assert len(t)==1;return t[0].image,dict(role=t[0].name.split(' - ')[0].replace('Native ','')+': active UV decoration',node=t[0].name,group=surface.name)
   py=[n for n in choices if n.name=='Native PyBaseColor']
   assert len(py)==1,(material.name,[n.name for n in choices])
   return py[0].image,dict(role='PyBaseColor: active projected top',node=py[0].name,group=surface.name)
