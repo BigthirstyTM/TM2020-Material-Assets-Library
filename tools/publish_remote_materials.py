@@ -8,7 +8,13 @@ guard=(out/'publication.lock').open('a+b');guard.write(b'0');guard.flush();guard
 mutex=threading.Lock();state=dict(pid=os.getpid(),phase='validating',uploaded=[])
 def save(**kw):
  with mutex:
-  state.update(kw);state['updated_utc']=datetime.datetime.now(datetime.timezone.utc).isoformat();temp=out/'publication-status.tmp';temp.write_text(json.dumps(state,indent=2));temp.replace(out/'publication-status.json')
+  state.update(kw);state['updated_utc']=datetime.datetime.now(datetime.timezone.utc).isoformat();temp=out/'publication-status.tmp';temp.write_text(json.dumps(state,indent=2))
+  # Windows readers/virus scanners can briefly hold the destination open.
+  for attempt in range(30):
+   try:temp.replace(out/'publication-status.json');break
+   except PermissionError:
+    if attempt==29:raise
+    time.sleep(.1)
 def allowed():assert not (out/'PAUSED-BY-USER.json').exists(),'Publication paused by user'
 def gh(*args):
  allowed();r=subprocess.run([str(gh_exe),*map(str,args)],stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
