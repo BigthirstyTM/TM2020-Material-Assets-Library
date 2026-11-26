@@ -17,7 +17,7 @@ def gh(*args):
 def sha(p):
  with p.open('rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()
 def release():
- records=json.loads(gh('api',f'repos/{repo}/releases?per_page=100'));return next((x for x in records if x['tag_name']==tag),None)
+ records=json.loads(gh('api',f'repos/{repo}/releases?per_page=100&verify={time.time_ns()}'));return next((x for x in records if x['tag_name']==tag),None)
 def remote_assets(release_id):
  result={};page=1
  while True:
@@ -42,7 +42,11 @@ try:
  digests={name:sha(path) for name,path in files.items()}
  remote=release()
  if remote is None:
-  gh('release','create',tag,'--repo',repo,'--target','main','--draft','--latest=false','--title',plan['title'],'--notes-file',out/'release-notes.md');remote=release()
+  gh('release','create',tag,'--repo',repo,'--target','main','--draft','--latest=false','--title',plan['title'],'--notes-file',out/'release-notes.md')
+  for attempt in range(10):
+   remote=release()
+   if remote is not None:break
+   time.sleep(2)
  assert remote is not None;release_id=remote['id'];existing=remote_assets(release_id);(out/'release-before.json').write_text(json.dumps(remote))
  # Retain older content-addressed binaries for clients with a cached listing.
  # Later material updates append just new binaries and reuse matching files.
