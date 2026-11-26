@@ -194,7 +194,7 @@ try:
     save(phase='verifying-public-pilot')
     public_files = {}
     for path in (out/'site').rglob('*'):
-        if not path.is_file() or path.name=='.nojekyll':
+        if not path.is_file() or path.name in {'.nojekyll', '.gitattributes'}:
             continue
         relative = path.relative_to(out/'site').as_posix()
         downloaded = get(plan['pages_url']+relative)

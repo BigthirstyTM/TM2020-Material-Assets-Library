@@ -105,6 +105,7 @@ scripts = "Preview animations use timeline driver expressions"
     'This pilot does not grant a broader redistribution license and is not CC0. '
     'LicenseRef-TM2020-Game-Assets records these restrictions, not a grant of rights.\n')
 (site / '.nojekyll').write_text('')
+(site / '.gitattributes').write_text('* -text\n')
 (site / 'index.html').write_text(f'''<!doctype html>
 <html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width">
 <title>TM2020 Materials Only — Remote Pilot</title>
