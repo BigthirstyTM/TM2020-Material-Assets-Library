@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
-  "asset_size_bytes": 2972557344,
-  "asset_count": 825,
-  "file_count": 98,
+  "asset_size_bytes": 3351098791,
+  "asset_count": 845,
+  "file_count": 118,
   "pages": [
     {
       "url": "_v1/assets-00000.json",
@@ -30,7 +30,7 @@
     },
     {
       "url": "_v1/assets-00006.json",
-      "hash": "SHA256:672a9b6dca8824b4bd1dbaf04b1b7b2eaa5d3e279dd28e92f59a6004fec43091"
+      "hash": "SHA256:1c7b60fddbbba49c25a3d7d2ea49966180a54d365f102e5bf4f8342c1fa7bfb6"
     }
   ],
   "catalogs": [
@@ -432,6 +432,48 @@
         "88140e75-473a-545f-9237-7f51744ca682"
       ],
       "simple_name": "Trackmania2020-05 WhiteShore-Materials-Terrain"
+    },
+    {
+      "path": "Trackmania2020/06 HDRI World Moods",
+      "uuids": [
+        "d0690cb0-651d-5b33-a1d6-824ad388122c"
+      ],
+      "simple_name": "Trackmania2020-06 HDRI World Moods"
+    },
+    {
+      "path": "Trackmania2020/06 HDRI World Moods/BlueBay",
+      "uuids": [
+        "61f7672d-ab21-5ff7-b990-a184f1b1f041"
+      ],
+      "simple_name": "Trackmania2020-06 HDRI World Moods-BlueBay"
+    },
+    {
+      "path": "Trackmania2020/06 HDRI World Moods/GreenCoast",
+      "uuids": [
+        "699c720a-864f-5a09-8962-2260f877a770"
+      ],
+      "simple_name": "Trackmania2020-06 HDRI World Moods-GreenCoast"
+    },
+    {
+      "path": "Trackmania2020/06 HDRI World Moods/RedIsland",
+      "uuids": [
+        "7555c4c5-2588-59c9-9b88-9d2a12fd6485"
+      ],
+      "simple_name": "Trackmania2020-06 HDRI World Moods-RedIsland"
+    },
+    {
+      "path": "Trackmania2020/06 HDRI World Moods/Stadium",
+      "uuids": [
+        "c0ba8000-1e67-5aaf-87f3-bf998d3d67cc"
+      ],
+      "simple_name": "Trackmania2020-06 HDRI World Moods-Stadium"
+    },
+    {
+      "path": "Trackmania2020/06 HDRI World Moods/WhiteShore",
+      "uuids": [
+        "cdc8319b-cc1b-52bd-8aaa-d2ebb8163132"
+      ],
+      "simple_name": "Trackmania2020-06 HDRI World Moods-WhiteShore"
     },
     {
       "path": "Trackmania2020/07 Experimental",

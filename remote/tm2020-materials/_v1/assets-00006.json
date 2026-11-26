@@ -1,6 +1,6 @@
 {
-  "asset_count": 57,
-  "file_count": 8,
+  "asset_count": 77,
+  "file_count": 28,
   "assets": [
     {
       "name": "TM_RedIsland_Cliff3_asset",
@@ -1852,6 +1852,486 @@
         "author": "Ubisoft Nadeo (native source)",
         "description": "Native binding established | Preview: Technical source view | Use a UV map named BaseMaterial."
       }
+    },
+    {
+      "name": "TM_BlueBay_Day_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0099.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-97ac6a1bd9c4741ab0c5d25c.1eba8453ae80a7fd.webp",
+        "hash": "SHA256:1eba8453ae80a7fd5b84fc78507a58b5cec64202478b5579a7d01281548d7f16"
+      },
+      "meta": {
+        "catalog_id": "61f7672d-ab21-5ff7-b990-a184f1b1f041",
+        "tags": [
+          "Native HDR environment",
+          "BlueBay",
+          "Day",
+          "HDRI World Mood"
+        ],
+        "description": "Native BlueBay Day HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_BlueBay_Night_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0100.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-b1632b60a9bf86c7250e8aab.a9b91e88c49bc482.webp",
+        "hash": "SHA256:a9b91e88c49bc482c02578cbab8e06736645e46f5f1348c509cf55251630deb3"
+      },
+      "meta": {
+        "catalog_id": "61f7672d-ab21-5ff7-b990-a184f1b1f041",
+        "tags": [
+          "Native HDR environment",
+          "BlueBay",
+          "Night",
+          "HDRI World Mood"
+        ],
+        "description": "Native BlueBay Night HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_BlueBay_Sunrise_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0101.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-7e02a050e22f6cf8d6c33bd3.b73eed4d279afb20.webp",
+        "hash": "SHA256:b73eed4d279afb20f54c629d1ae13db6834417e24fe9a0984474057a4eae634c"
+      },
+      "meta": {
+        "catalog_id": "61f7672d-ab21-5ff7-b990-a184f1b1f041",
+        "tags": [
+          "Native HDR environment",
+          "BlueBay",
+          "Sunrise",
+          "HDRI World Mood"
+        ],
+        "description": "Native BlueBay Sunrise HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_BlueBay_Sunset_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0102.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-d2227d5c799516b3b9cee761.4ca1b3eccba545cc.webp",
+        "hash": "SHA256:4ca1b3eccba545ccf4408eeda49c6779dfe452e6c6a0fd43fdd48d2d5fa29bd3"
+      },
+      "meta": {
+        "catalog_id": "61f7672d-ab21-5ff7-b990-a184f1b1f041",
+        "tags": [
+          "Native HDR environment",
+          "BlueBay",
+          "Sunset",
+          "HDRI World Mood"
+        ],
+        "description": "Native BlueBay Sunset HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_Day_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0103.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-51ed9916091c95fd403ee77d.b2ce5b4570cece40.webp",
+        "hash": "SHA256:b2ce5b4570cece4016c2a28aa98c23a056b0ac6f45ea8ae9341ecde85fbc1659"
+      },
+      "meta": {
+        "catalog_id": "699c720a-864f-5a09-8962-2260f877a770",
+        "tags": [
+          "Native HDR environment",
+          "GreenCoast",
+          "Day",
+          "HDRI World Mood"
+        ],
+        "description": "Native GreenCoast Day HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_Night_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0104.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-8553fb0261dfbbd1f7b183de.ca0782b8ad061173.webp",
+        "hash": "SHA256:ca0782b8ad061173aae112a4bcf9e7696975301bb377af95412501c75081db17"
+      },
+      "meta": {
+        "catalog_id": "699c720a-864f-5a09-8962-2260f877a770",
+        "tags": [
+          "Native HDR environment",
+          "GreenCoast",
+          "Night",
+          "HDRI World Mood"
+        ],
+        "description": "Native GreenCoast Night HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_Sunrise_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0105.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-bfd13ff2f6173f417f2007b8.173a58d2550cb016.webp",
+        "hash": "SHA256:173a58d2550cb0162f2fe393b0213c79ecb8c5b6fa1466eb98ca5246db9a6bfd"
+      },
+      "meta": {
+        "catalog_id": "699c720a-864f-5a09-8962-2260f877a770",
+        "tags": [
+          "Native HDR environment",
+          "GreenCoast",
+          "Sunrise",
+          "HDRI World Mood"
+        ],
+        "description": "Native GreenCoast Sunrise HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_Sunset_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0106.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-fc7b3f0730f305aec532c308.477bc05e5e7190f3.webp",
+        "hash": "SHA256:477bc05e5e7190f38fc719174c5b55e7ac27200ed80f1c84a0eed373a4d90916"
+      },
+      "meta": {
+        "catalog_id": "699c720a-864f-5a09-8962-2260f877a770",
+        "tags": [
+          "Native HDR environment",
+          "GreenCoast",
+          "Sunset",
+          "HDRI World Mood"
+        ],
+        "description": "Native GreenCoast Sunset HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_RedIsland_Day_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0107.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-46e9e0eff11685bfcd8482a6.66a6d85325ebd6fb.webp",
+        "hash": "SHA256:66a6d85325ebd6fb28df10d9244548228e2f026cab7f54cb37c1473fa263b033"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "Native HDR environment",
+          "RedIsland",
+          "Day",
+          "HDRI World Mood"
+        ],
+        "description": "Native RedIsland Day HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_RedIsland_Night_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0108.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-47742fa8e0ce1c23329ccfb1.08e7c91a55fbac18.webp",
+        "hash": "SHA256:08e7c91a55fbac180f094d338f94a19a05f6cb39de6ee84aae659a698697ef72"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "Native HDR environment",
+          "RedIsland",
+          "Night",
+          "HDRI World Mood"
+        ],
+        "description": "Native RedIsland Night HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_RedIsland_Sunrise_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0109.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-d864e27a5f1a857bcfb9ec65.e30d3356938ef6a3.webp",
+        "hash": "SHA256:e30d3356938ef6a3c9fb38ce25717cd4070610a13b71aa3e88670c9914caff19"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "Native HDR environment",
+          "RedIsland",
+          "Sunrise",
+          "HDRI World Mood"
+        ],
+        "description": "Native RedIsland Sunrise HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_RedIsland_Sunset_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0110.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-a593190564277d2e39721100.24499f52c2c9c7e8.webp",
+        "hash": "SHA256:24499f52c2c9c7e8f4b68f3fb72250f744da391c34dc30859aeef5525ab92f84"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "Native HDR environment",
+          "RedIsland",
+          "Sunset",
+          "HDRI World Mood"
+        ],
+        "description": "Native RedIsland Sunset HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_Stadium_Day_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0111.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-cf390489d6697a8af8d63b85.febfd0bb60999b16.webp",
+        "hash": "SHA256:febfd0bb60999b16d1f22ff0d89c29c206179bc3a5ab634f8985acdb0ebecfff"
+      },
+      "meta": {
+        "catalog_id": "c0ba8000-1e67-5aaf-87f3-bf998d3d67cc",
+        "tags": [
+          "Native HDR environment",
+          "Stadium",
+          "Day",
+          "HDRI World Mood"
+        ],
+        "description": "Native Stadium Day HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_Stadium_Night_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0112.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-2d2635f451d551ebf3e77e80.6118870f2deeed70.webp",
+        "hash": "SHA256:6118870f2deeed70046cdfb06341e54f2142b598931ee4c4d510d2cd28f19970"
+      },
+      "meta": {
+        "catalog_id": "c0ba8000-1e67-5aaf-87f3-bf998d3d67cc",
+        "tags": [
+          "Native HDR environment",
+          "Stadium",
+          "Night",
+          "HDRI World Mood"
+        ],
+        "description": "Native Stadium Night HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_Stadium_Sunrise_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0113.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-6fe8a2bf64e70c4ea345879b.6f0d7ddbec680478.webp",
+        "hash": "SHA256:6f0d7ddbec6804789b002f34d53c2f34cb31d4468c51bf68c72fceb59ac407f5"
+      },
+      "meta": {
+        "catalog_id": "c0ba8000-1e67-5aaf-87f3-bf998d3d67cc",
+        "tags": [
+          "Native HDR environment",
+          "Stadium",
+          "Sunrise",
+          "HDRI World Mood"
+        ],
+        "description": "Native Stadium Sunrise HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_Stadium_Sunset_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0114.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-5902cb00d6217f80fe0891ef.ddb9ed0665260110.webp",
+        "hash": "SHA256:ddb9ed06652601109244e5ef555be16a563acc950eb8f3bab7bd11c2e96e257e"
+      },
+      "meta": {
+        "catalog_id": "c0ba8000-1e67-5aaf-87f3-bf998d3d67cc",
+        "tags": [
+          "Native HDR environment",
+          "Stadium",
+          "Sunset",
+          "HDRI World Mood"
+        ],
+        "description": "Native Stadium Sunset HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_WhiteShore_Day_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0115.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-9862c072be70f9adb1aa03a2.b9b43af1a4139b76.webp",
+        "hash": "SHA256:b9b43af1a4139b769de3b329be409b01394174454f07355baf00a486ba957ad8"
+      },
+      "meta": {
+        "catalog_id": "cdc8319b-cc1b-52bd-8aaa-d2ebb8163132",
+        "tags": [
+          "Native HDR environment",
+          "WhiteShore",
+          "Day",
+          "HDRI World Mood"
+        ],
+        "description": "Native WhiteShore Day HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_WhiteShore_Night_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0116.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-58374f3512bec5814390fa58.061dc40de77be861.webp",
+        "hash": "SHA256:061dc40de77be8612f04735e1567b71d2251f109bb617ac35b859581c06dee83"
+      },
+      "meta": {
+        "catalog_id": "cdc8319b-cc1b-52bd-8aaa-d2ebb8163132",
+        "tags": [
+          "Native HDR environment",
+          "WhiteShore",
+          "Night",
+          "HDRI World Mood"
+        ],
+        "description": "Native WhiteShore Night HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_WhiteShore_Sunrise_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0117.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-2194f4c7524d6372092581ac.9ff5efd81f84f1fa.webp",
+        "hash": "SHA256:9ff5efd81f84f1fa635da07dfa3e4a8f72331e545075216eee3fed2fd6bf5ecb"
+      },
+      "meta": {
+        "catalog_id": "cdc8319b-cc1b-52bd-8aaa-d2ebb8163132",
+        "tags": [
+          "Native HDR environment",
+          "WhiteShore",
+          "Sunrise",
+          "HDRI World Mood"
+        ],
+        "description": "Native WhiteShore Sunrise HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
+    },
+    {
+      "name": "TM_WhiteShore_Sunset_world",
+      "id_type": "WORLD",
+      "files": [
+        "materials/bundle-0118.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/world-0f89f76d012f85e507f69daf.bb6c05af71151408.webp",
+        "hash": "SHA256:bb6c05af71151408422997b8e9d52d931d51db0281d0cf0e17992c3b4fc91ff2"
+      },
+      "meta": {
+        "catalog_id": "cdc8319b-cc1b-52bd-8aaa-d2ebb8163132",
+        "tags": [
+          "Native HDR environment",
+          "WhiteShore",
+          "Sunset",
+          "HDRI World Mood"
+        ],
+        "description": "Native WhiteShore Sunset HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
+      }
     }
   ],
   "files": [
@@ -1910,6 +2390,146 @@
       "hash": "SHA256:3321a399730f9c86d50a80cf00c42a45eed07187cc94d24dcb95c12311b2356d",
       "blender_version": "5.3.31",
       "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0098.3321a399730f9c86.blend"
+    },
+    {
+      "path": "materials/bundle-0099.blend",
+      "size_in_bytes": 17280298,
+      "hash": "SHA256:1b2bf5579b9b69f2d1c00af41286ce418ee591889bafb10cda28b1bdf90ee2b7",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0099.1b2bf5579b9b69f2.blend"
+    },
+    {
+      "path": "materials/bundle-0100.blend",
+      "size_in_bytes": 20741927,
+      "hash": "SHA256:861ba586385f255443c8cc517fd0ad6b749e8c8b728612f286e0181fc628e6e2",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0100.861ba586385f2554.blend"
+    },
+    {
+      "path": "materials/bundle-0101.blend",
+      "size_in_bytes": 17461517,
+      "hash": "SHA256:3b748b1f8fcfdfe61990a6f7e7ab941d4da5bef93fabd44d11859ea1ee5fe30a",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0101.3b748b1f8fcfdfe6.blend"
+    },
+    {
+      "path": "materials/bundle-0102.blend",
+      "size_in_bytes": 17637669,
+      "hash": "SHA256:b08b3e4f646d79eccabf10879b76a47cb6528c5abfd2e094f085828d54acd324",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0102.b08b3e4f646d79ec.blend"
+    },
+    {
+      "path": "materials/bundle-0103.blend",
+      "size_in_bytes": 18860843,
+      "hash": "SHA256:e51320c4944ac8b9e1d7765c2fa8e14c7c2432d7f0d6a16a2c74284f30cc8d32",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0103.e51320c4944ac8b9.blend"
+    },
+    {
+      "path": "materials/bundle-0104.blend",
+      "size_in_bytes": 21040356,
+      "hash": "SHA256:cf5dee6ce8f58eef255b9a5012cfed989ced4a3725b1856f35e612598934d714",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0104.cf5dee6ce8f58eef.blend"
+    },
+    {
+      "path": "materials/bundle-0105.blend",
+      "size_in_bytes": 18554140,
+      "hash": "SHA256:98daaf98303119eb245e61126099c075231e0fa227107bc5a5e5e121ee26bd2f",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0105.98daaf98303119eb.blend"
+    },
+    {
+      "path": "materials/bundle-0106.blend",
+      "size_in_bytes": 17401038,
+      "hash": "SHA256:ecfdd4e55e1e6da1afd8388e9732385e631ea576cdabcf296a6d302799842af4",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0106.ecfdd4e55e1e6da1.blend"
+    },
+    {
+      "path": "materials/bundle-0107.blend",
+      "size_in_bytes": 17664410,
+      "hash": "SHA256:6a462d181e136110987a612bc2c110b5c04bec3eeb21f40bd17be3399083fff9",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0107.6a462d181e136110.blend"
+    },
+    {
+      "path": "materials/bundle-0108.blend",
+      "size_in_bytes": 20049334,
+      "hash": "SHA256:9886dadd8c54a6a31bf41d3f814eb9e34c751d23abde032b15660ddb4f1fe973",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0108.9886dadd8c54a6a3.blend"
+    },
+    {
+      "path": "materials/bundle-0109.blend",
+      "size_in_bytes": 20632976,
+      "hash": "SHA256:cb0d49252f2f9b66c0a3bb1f0ec030fc2f28fd9f138d11de9c944221f71f25d0",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0109.cb0d49252f2f9b66.blend"
+    },
+    {
+      "path": "materials/bundle-0110.blend",
+      "size_in_bytes": 17807334,
+      "hash": "SHA256:6d3ecf86fae307bd18f0e3fb7f9e16c734bfc0166d188b2fa07b93b4ac3de453",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0110.6d3ecf86fae307bd.blend"
+    },
+    {
+      "path": "materials/bundle-0111.blend",
+      "size_in_bytes": 19269313,
+      "hash": "SHA256:fe2ad0e52dff4d3911e98fc6bf87bcdf60775af4df4604537da138b4455336fd",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0111.fe2ad0e52dff4d39.blend"
+    },
+    {
+      "path": "materials/bundle-0112.blend",
+      "size_in_bytes": 18630224,
+      "hash": "SHA256:cedfaa4ef78c41300608d3d6e5da4d03f3b569a44130902f16a800ccae7ee849",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0112.cedfaa4ef78c4130.blend"
+    },
+    {
+      "path": "materials/bundle-0113.blend",
+      "size_in_bytes": 19528667,
+      "hash": "SHA256:843dabbc7614f70b55854075bc37147646eebece49f6667a092991b98058a910",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0113.843dabbc7614f70b.blend"
+    },
+    {
+      "path": "materials/bundle-0114.blend",
+      "size_in_bytes": 19289534,
+      "hash": "SHA256:92cfd41022b4821b652c37dfed495c99c3c4eba604bc45b2a33a94dea838a48e",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0114.92cfd41022b4821b.blend"
+    },
+    {
+      "path": "materials/bundle-0115.blend",
+      "size_in_bytes": 16693272,
+      "hash": "SHA256:e755441ad409c48018d4540fb36cfa98560d258dd52613a109218c7e6626b759",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0115.e755441ad409c480.blend"
+    },
+    {
+      "path": "materials/bundle-0116.blend",
+      "size_in_bytes": 20221792,
+      "hash": "SHA256:bf75c5b3d884599fdf1ac2da7ac242a250b670854daad4e4ef089b426d16f262",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0116.bf75c5b3d884599f.blend"
+    },
+    {
+      "path": "materials/bundle-0117.blend",
+      "size_in_bytes": 20004468,
+      "hash": "SHA256:b924f169e8241b22a4570c4c049dc59e98d3a41d3835c82acd32e9c9d27c61de",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0117.b924f169e8241b22.blend"
+    },
+    {
+      "path": "materials/bundle-0118.blend",
+      "size_in_bytes": 19772335,
+      "hash": "SHA256:46f9166c0d8f66bb34a3829610dcf4f2f058ec4c43a9a5aa183a1fb03acf69e7",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0118.46f9166c0d8f66bb.blend"
     }
   ]
 }
