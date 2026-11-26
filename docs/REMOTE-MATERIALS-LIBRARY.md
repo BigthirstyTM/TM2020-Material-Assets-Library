@@ -2,7 +2,9 @@
 
 Asset library extension for **Blender 5.3 and newer**.
 
-The full 825-material remote collection is being prepared for publication.
+The full **825-material remote collection is published and verified**.
+The extension installs from our GitHub-hosted repository; the complete material
+download is **2.97 GB**, shared across **98 bundles**.
 The existing offline ZIPs and the earlier pilot remain available.
 
 - Installation page: https://bigthirstytm.github.io/TM2020-Material-Assets-Library/
@@ -105,3 +107,17 @@ reuses verified uploads, appends changed bundle binaries, preserves older
 content-addressed files and publishes metadata only after the files verify.
 Keep old binary URLs available for clients with cached listings. Split later
 hosting releases before reaching GitHub's per-release asset limit.
+
+## Verification
+
+All 825 materials were reopened and compared with the verified Materials Only
+source, including shader graphs, drivers, native metadata, packed texture hashes
+and thumbnail artwork. All 100 release files were independently checked against
+GitHub SHA-256 digests. Public listing and extension bytes were checked, and the
+extension was installed and enabled from its public repository in an isolated
+Blender 5.3 profile. Four representative public material downloads were appended
+and assigned to test meshes. The existing installed library was unchanged.
+
+Blender's native drag URL parser and installation path were verified; an
+interactive browser-to-Blender drag was not automated. No new game export or
+runtime tests were performed for this hosting conversion.

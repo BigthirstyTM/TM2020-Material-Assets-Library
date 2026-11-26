@@ -1,11 +1,10 @@
 # Materials Only remote library pilot
 
-This Blender 5.3+ pilot contains 12 Materials Only entries. The public extension
-will offer Materials Only; experimental and Preview only entries remain for DEV
-evaluation. The existing offline packages remain available as a fallback.
+This Blender 5.3+ pilot contains 12 Materials Only entries. The full [825-material extension](REMOTE-MATERIALS-LIBRARY.md) is now available
+separately. This earlier pilot remains available for comparison. The existing offline packages remain available as a fallback.
 
 The GitHub-hosted pilot is published and verified.
-[Open the installation page](https://bigthirstytm.github.io/TM2020-Material-Assets-Library/).
+[Open the pilot installation page](https://bigthirstytm.github.io/TM2020-Material-Assets-Library/pilot/).
 Extension installation, native listing discovery and downloading/applying a material
 were verified in an isolated Blender 5.3 profile. Game export was not tested.
 

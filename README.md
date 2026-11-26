@@ -20,11 +20,11 @@ Both full packages include the improvements to 31 projected previews, two light 
 
 ## Blender 5.3 asset-library extension
 
-The full **Trackmania 2020 - Materials Library** extension is being prepared with all 825 Materials Only entries. It uses a separate Blender 5.3+ extension release and a GitHub-hosted repository with native drag-and-drop installation. See [installation and update details](docs/REMOTE-MATERIALS-LIBRARY.md). The full remote download is 2.97 GB in 98 shared-texture bundles; only changed bundles need downloading again. All 825 materials and original texture resolutions are retained. Offline ZIPs and the earlier pilot remain available.
+The full **Trackmania 2020 - Materials Library** extension is published with all 825 Materials Only entries. Install it from the [drag-and-drop installation page](https://bigthirstytm.github.io/TM2020-Material-Assets-Library/) or the [separate Blender 5.3+ asset-library extension release](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/materials-library-extension-v1.0.0). It uses our GitHub-hosted extension repository. See [installation and update details](docs/REMOTE-MATERIALS-LIBRARY.md). The full remote download is 2.97 GB in 98 shared-texture bundles; only changed bundles need downloading again. All 825 materials and original texture resolutions are retained. Offline ZIPs and the earlier pilot remain available.
 
 ### Earlier remote pilot
 
-A [12-material Materials Only pilot](https://bigthirstytm.github.io/TM2020-Material-Assets-Library/) is now available as an asset-library extension. Materials download when needed; changed files can update independently. Experimental/Preview only entries are excluded, and MaterialLib is supplied separately through Blendermania. The full remote collection is not yet available. See [installation and update details](docs/REMOTE-LIBRARY-PILOT.md).
+A [12-material Materials Only pilot](https://bigthirstytm.github.io/TM2020-Material-Assets-Library/pilot/) is now available as an asset-library extension. Materials download when needed; changed files can update independently. Experimental/Preview only entries are excluded, and MaterialLib is supplied separately through Blendermania. The full 825-material extension is available above; this earlier pilot is retained separately. See [installation and update details](docs/REMOTE-LIBRARY-PILOT.md).
 
 ## Choose your edition
 
