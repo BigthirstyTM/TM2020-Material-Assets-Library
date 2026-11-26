@@ -4,9 +4,10 @@ This Blender 5.3+ pilot contains 12 Materials Only entries. The public extension
 will offer Materials Only; experimental and Preview only entries remain for DEV
 evaluation. The existing offline packages remain available as a fallback.
 
-The first GitHub deployment is being published. Once verified, its installation
-page will be https://bigthirstytm.github.io/TM2020-Material-Assets-Library/ .
-Do not use that URL as evidence that deployment has finished.
+The GitHub-hosted pilot is published and verified.
+[Open the installation page](https://bigthirstytm.github.io/TM2020-Material-Assets-Library/).
+Extension installation, native listing discovery and downloading/applying a material
+were verified in an isolated Blender 5.3 profile. Game export was not tested.
 
 ## Installation
 

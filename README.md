@@ -16,6 +16,10 @@ Content revision **2026.11.24-thumbnail-styles-2** combines the latest material 
 
 Both full packages include the improvements to 31 projected previews, two light tubes and four optional structure colour masks, plus 88 recovered exact shader references. See [projected surfaces](docs/PROJECTED-SURFACES.md) and [source resolution](docs/SOURCE-RESOLUTION.md). The [shader reconciliation](docs/SHADER-RECONCILIATION.md) clarifies 94 root/pass references and improves ten array-based terrain previews plus LakeBottom. These source references do not promote Preview only entries to confirmed game compatibility.
 
+## Blender 5.3 remote pilot
+
+A [12-material Materials Only pilot](https://bigthirstytm.github.io/TM2020-Material-Assets-Library/) is now available as an asset-library extension. Materials download when needed; changed files can update independently. Experimental/Preview only entries are excluded, and MaterialLib is supplied separately through Blendermania. The full remote collection is not yet available. See [installation and update details](docs/REMOTE-LIBRARY-PILOT.md).
+
 ## Choose your edition
 
 | Edition | Included | Recommended for |
