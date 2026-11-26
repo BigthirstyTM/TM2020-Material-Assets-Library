@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0",
+  "asset_size_bytes": 657575617,
+  "asset_count": 12,
+  "file_count": 12,
+  "pages": [
+    {
+      "url": "_v1/assets-00000.json",
+      "hash": "SHA256:e9ade28b564db2e9469ad967c32015d85dd44170940913e9a563cc52d1747f70"
+    }
+  ],
+  "catalogs": [
+    {
+      "path": "Trackmania2020",
+      "uuids": [
+        "eb493c20-0aba-405d-81fe-124aeb7d36d3"
+      ],
+      "simple_name": "Trackmania2020"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium",
+      "uuids": [
+        "079fcd16-f200-4c55-b4b8-15cf37389497"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials",
+      "uuids": [
+        "0ca95c42-42bf-4b35-b03e-9dff7eae4391"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/AD SCREENS",
+      "uuids": [
+        "c20b9637-5eb4-4300-be59-ff8c113d9c53"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-AD SCREENS"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/BOOST",
+      "uuids": [
+        "8e4925e7-117b-41e6-b4de-35cbb23097ff"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-BOOST"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/CUSTOMIZABLE MATERIALS",
+      "uuids": [
+        "2a0112fe-4670-4884-b463-b156ef68121d"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-CUSTOMIZABLE MATERIALS"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/DECO",
+      "uuids": [
+        "48183039-150a-43d0-81be-3f3a4f0213b3"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-DECO"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/ITEMS OBSTACLES",
+      "uuids": [
+        "cd9ea286-3bab-4278-8bdf-d59859f30020"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-ITEMS OBSTACLES"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/PLATFORM DIRT",
+      "uuids": [
+        "e6a3d904-d2ba-4c54-bdbf-f106dae819fb"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-PLATFORM DIRT"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/PLATFORM ICE",
+      "uuids": [
+        "db205d75-6140-445d-9450-f26dc19d8c04"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-PLATFORM ICE"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/RACING",
+      "uuids": [
+        "8d234412-69ec-4f4f-be3f-63986b0d241b"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-RACING"
+    }
+  ]
+}
