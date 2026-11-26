@@ -119,9 +119,10 @@ source, including shader graphs, drivers, native metadata, packed texture hashes
 and thumbnail artwork. All current release files were independently checked against
 GitHub SHA-256 digests. Public listing and extension bytes were checked, and the
 extension was installed and enabled from its public repository in an isolated
-Blender 5.3 profile. Representative public material downloads are appended and assigned to test
-meshes. All 20 HDRI Worlds are reopened with packed environment textures and
-assigned to a scene; public World downloads are checked separately. The existing installed library was unchanged.
+Blender 5.3 profile. Four representative public material downloads were appended and assigned to test
+meshes. All 20 HDRI Worlds were reopened with packed environment textures and
+assigned to a scene; two public World downloads were independently appended
+and assigned as the scene World. The existing installed library was unchanged.
 
 Blender's native drag URL parser and installation path were verified; an
 interactive browser-to-Blender drag was not automated. No new game export or
@@ -131,6 +132,6 @@ runtime tests were performed for this hosting conversion.
 
 Existing extension users can use **Refresh Remote Listing** to discover the
 **06 HDRI World Moods** catalog. Download or apply a World to use its lighting
-and background in the scene. In the viewport, enable **Scene World** in rendered
-shading to see the assigned environment. Refreshing the listing does not replace
+and background in the scene. In Material Preview viewport shading, enable **Scene World**
+to see the assigned environment. Refreshing the listing does not replace
 a World already assigned to an open scene.

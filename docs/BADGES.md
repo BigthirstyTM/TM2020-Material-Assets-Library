@@ -1,6 +1,7 @@
 # Badge legend
 
-The small symbols on saved material thumbnails identify features:
+The small symbols on saved material thumbnails identify features.
+[View material and HDRI examples on the installation page](https://bigthirstytm.github.io/TM2020-Material-Assets-Library/#badges-heading).
 
 | Badge | Meaning |
 | --- | --- |
