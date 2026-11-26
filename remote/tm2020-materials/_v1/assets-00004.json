@@ -1,0 +1,4186 @@
+{
+  "asset_count": 128,
+  "file_count": 19,
+  "assets": [
+    {
+      "name": "TM_Experimental_Menu_MenuBox3dTransp_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5dd558f82910cb69c02b5eb3.03d12d2e80445b05.webp",
+        "hash": "SHA256:03d12d2e80445b05357b55b1dbd12d0d98069819d8858824497f5fe1e7826404"
+      },
+      "meta": {
+        "catalog_id": "64d8ee76-d81a-57ef-8d13-ec2ab35ad5ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Menu",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_BodyAnimSkel_Aniso_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-582c7e2f157138d6438ce1a3.6e676273857fd160.webp",
+        "hash": "SHA256:6e676273857fd16010099e249d158e0cbddd85a3aac6da355bcaefab37f74c87"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_BodyAnimSkel_Teleport_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5c06e93a91cd426dca9dab95.6c4a8db853c85aa3.webp",
+        "hash": "SHA256:6c4a8db853c85aa3cf2f6dbe46fe5dc90befc47c12d7c3fee644285075c5fd45"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load failure unresolved",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check",
+          "Evidence: Group load unresolved"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial. | Associated historical load failure needs individual isolation; group evidence does not identify a culprit or prove this material unsafe."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Static_TIAdd_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-555a2c6f6f8ffaba12ef8917.0631cf87d2304f6e.webp",
+        "hash": "SHA256:0631cf87d2304f6e9200c29a490e0a12eb84e2f29b208cc81fc2451af1f9be7b"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load failure unresolved",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check",
+          "Evidence: Group load unresolved"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial. | Associated historical load failure needs individual isolation; group evidence does not identify a culprit or prove this material unsafe."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_AddSelfIllumAtHue_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5507a53def5b11e79d76f0b6.fa819acc77b9a28d.webp",
+        "hash": "SHA256:fa819acc77b9a28d5883d8ac02e4d3e75a03642f8b7523a63ae8ac88a8ed87df"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "No surface observed",
+          "Effect: Invisible in game / collision in file",
+          "Group load cycle captured",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_PyPxzTLayered_Decal_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5cab43fd63495d52471c7bb2.a26e6d264b3f13d3.webp",
+        "hash": "SHA256:a26e6d264b3f13d395bc2c64c8f838c195d5b21b6162b5fb6221923ef7b6b498"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "No surface observed",
+          "Effect: Invisible in game / collision in file",
+          "Group load cycle captured",
+          "Preview: Decal contrast preview",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Decal contrast preview | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_TDiff_Spec_Norm_Probe_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6166212e811f55f8355cd7c3.a7b527c21b4b130d.webp",
+        "hash": "SHA256:a7b527c21b4b130d0dfb21e5828d8c7211134972b6d00997ce1734963dba6dd5"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_TSelfIllum_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5e2a39da5e7b7837673c69e1.00797819796388b7.webp",
+        "hash": "SHA256:00797819796388b7f3e8d46f80ac84c8d3e2e6d1f3795627628dfa9f5a4c07d3"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Decal_2d_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5cbfc5b59a4678e3472e2fe0.ad47c6dd585f18dc.webp",
+        "hash": "SHA256:ad47c6dd585f18dc52157473ca4170e67c0ebd6f7fa629abbcb487df5314530c"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load failure unresolved",
+          "Preview: Technical source view",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check",
+          "Evidence: Group load unresolved"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Technical source view | Use a UV map named BaseMaterial. | Associated historical load failure needs individual isolation; group evidence does not identify a culprit or prove this material unsafe."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_SpriteBlendSoftLightedVtxAmbient_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5984cd7b004f630fdc66bae9.2daa313bd62f5050.webp",
+        "hash": "SHA256:2daa313bd62f505006e27c324702dd88e9bf7782cd1877c1ac619b640081fc6c"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_VehicleGlass_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5476c642abd83eb79319977b.00797819796388b7.webp",
+        "hash": "SHA256:00797819796388b7f3e8d46f80ac84c8d3e2e6d1f3795627628dfa9f5a4c07d3"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: NotCollidable",
+          "Collision: NotCollidable",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_VehicleGlassRefractNoSkelDmg_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-546603ab6e0c08aaabcac6a3.00797819796388b7.webp",
+        "hash": "SHA256:00797819796388b7f3e8d46f80ac84c8d3e2e6d1f3795627628dfa9f5a4c07d3"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: NotCollidable",
+          "Collision: NotCollidable",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Vehicles_GrassMarkGround_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-610fc0008081166ca5bbfcfc.16811348cb622428.webp",
+        "hash": "SHA256:16811348cb622428f845c193ac8136567274eb058d38b96fcc9ef1d922ef5afe"
+      },
+      "meta": {
+        "catalog_id": "85b2bc68-dfa6-5c2a-b042-957667445f50",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Vehicles",
+          "Effects",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load failure unresolved",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check",
+          "Evidence: Group load unresolved"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping. | Associated historical load failure needs individual isolation; group evidence does not identify a culprit or prove this material unsafe."
+      }
+    },
+    {
+      "name": "TM_Experimental_Vehicles_ParticleChunksSand_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-54f93cbb0356e12cb82f31ff.3516a8f21c78dc1d.webp",
+        "hash": "SHA256:3516a8f21c78dc1ddff4f477b125b3f51b51493f7ae6619a269665f95a595954"
+      },
+      "meta": {
+        "catalog_id": "85b2bc68-dfa6-5c2a-b042-957667445f50",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Vehicles",
+          "Effects",
+          "Runtime unverified",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Vehicles_ParticleSmokeSand_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5ad425b5d0a43898a58082d0.937958c5d23bc8c3.webp",
+        "hash": "SHA256:937958c5d23bc8c3eb52fdafb40d65a1fa390c99df055243103880bf0b25d597"
+      },
+      "meta": {
+        "catalog_id": "85b2bc68-dfa6-5c2a-b042-957667445f50",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Vehicles",
+          "Effects",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "No surface observed",
+          "Effect: Invisible in game / collision in file",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Invisible_Grass_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-57e7cdf6f7a1c10938923419.c3eede21b9e0ceb7.webp",
+        "hash": "SHA256:c3eede21b9e0ceb743fc27ef9eb565a24c7da4476f8752b6e47d10f612fa0680"
+      },
+      "meta": {
+        "catalog_id": "62304975-1188-4046-9b79-97d2804e1e8a",
+        "tags": [
+          "Physics: Grass",
+          "Preview: Rendered Blender procedural shader",
+          "Export: Native binding",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Rendered Blender procedural shader | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_Invisible_NotCollidable_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-54bc18a98b59414c10ca1f74.5c755c88d952d506.webp",
+        "hash": "SHA256:5c755c88d952d506b75f2b495444cd1b56a9595ee433db86e70ff8893edadc77"
+      },
+      "meta": {
+        "catalog_id": "62304975-1188-4046-9b79-97d2804e1e8a",
+        "tags": [
+          "Physics: NotCollidable",
+          "Preview: Rendered Blender procedural shader",
+          "Export: Native binding",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Rendered Blender procedural shader | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_Invisible_Rock_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5f839ad20ecd953af4788590.8ab805f9d9f34729.webp",
+        "hash": "SHA256:8ab805f9d9f3472983e1542eb598bf2d20e8c0b5d4df3af337187279f0103106"
+      },
+      "meta": {
+        "catalog_id": "62304975-1188-4046-9b79-97d2804e1e8a",
+        "tags": [
+          "Physics: Rock",
+          "Preview: Rendered Blender procedural shader",
+          "Export: Native binding",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Rendered Blender procedural shader | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_ItemFlagNoAnim_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-55fedc82717a9538e4954c66.082c736b83386eda.webp",
+        "hash": "SHA256:082c736b83386eda1c6130964bf107771c3bfe918be66dace971fb349d34ecad"
+      },
+      "meta": {
+        "catalog_id": "b3363c3c-bbe9-4ca1-8c69-4f5a5c8d77ed",
+        "tags": [
+          "Physics: NotCollidable",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_LightSpot_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-56062cc3c730b8aac0491340.a2bd03e14df052b8.webp",
+        "hash": "SHA256:a2bd03e14df052b81c5534fad96c614b50123740fbc6fbcc2134fba1ec48e896"
+      },
+      "meta": {
+        "catalog_id": "35253e7c-8d09-4a3f-9c95-1a2cc4561be5",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_LightTubeBig_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-533ddc7ab18dc718a9e79cb9.ad40ed24ac9527fd.webp",
+        "hash": "SHA256:ad40ed24ac9527fdd0283b2323d389de54b8e99b160d13824f122536febcbb0f"
+      },
+      "meta": {
+        "catalog_id": "b3363c3c-bbe9-4ca1-8c69-4f5a5c8d77ed",
+        "tags": [
+          "Physics: Metal",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_LightTubeSmall_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-744f730273579c89603c2660.9cb9cf8c8e32cd91.webp",
+        "hash": "SHA256:9cb9cf8c8e32cd91e997fe99d5cada80c58f8197139762057a56501d6b5751e3"
+      },
+      "meta": {
+        "catalog_id": "b3363c3c-bbe9-4ca1-8c69-4f5a5c8d77ed",
+        "tags": [
+          "Physics: Metal",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_Turbo2_SpecialFX_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0053.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-62177020f7f773295699cdef.f2392ce6cd479894.webp",
+        "hash": "SHA256:f2392ce6cd479894edba6d76a4d8225d394756ca7b8d2ed45da43d05b8c000e9"
+      },
+      "meta": {
+        "catalog_id": "9bd83e6d-203d-413a-a012-47bc975b7882",
+        "tags": [
+          "Effect: Timeline animation",
+          "Physics: NotCollidable",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Animation",
+          "Usage: Additive",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Source texture | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Transparent plus emission; black adds no light. Native soft-depth and exact game tonemapping remain approximate. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_WarpDetails_Dyna_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0054.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6d16c965792126a8c0377ade.363f4bbd430019ea.webp",
+        "hash": "SHA256:363f4bbd430019ea4f9769d8c73c90e13ac90180fcd2d1551606400745042a42"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Physics: Asphalt",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_WarpDetails_WithLightmap_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0054.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5796976f7c395ede3bf23836.363f4bbd430019ea.webp",
+        "hash": "SHA256:363f4bbd430019ea4f9769d8c73c90e13ac90180fcd2d1551606400745042a42"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Physics: Asphalt",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_RoadBump_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0055.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-59f6e210dfccbe4742f107b1.e7342f3395073209.webp",
+        "hash": "SHA256:e7342f339507320999b75071f964bd4dfb7b7da1ec2003d0ff397aad11dc7a67"
+      },
+      "meta": {
+        "catalog_id": "a3c30da4-78aa-4832-9a83-67cb8d175520",
+        "tags": [
+          "Physics: RoadSynthetic",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_ItemInflatableFloor_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0056.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6e4991abefd40b229d6f368a.006e3472826f88ad.webp",
+        "hash": "SHA256:006e3472826f88ad2604aad0f47ebdcc91e72de69fa19a670e8eb4611aeec925"
+      },
+      "meta": {
+        "catalog_id": "b3363c3c-bbe9-4ca1-8c69-4f5a5c8d77ed",
+        "tags": [
+          "Physics: Plastic",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_PlatformPlastic_PlatformTech_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0056.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5a6dd2c2ae3a076a47899fb5.b9d2dca4bf726774.webp",
+        "hash": "SHA256:b9d2dca4bf726774958fc2c428d8e028170060269fa00a521380b09ffcca9598"
+      },
+      "meta": {
+        "catalog_id": "e97b38be-30fb-42d4-b5ed-9d7d1a7ace52",
+        "tags": [
+          "Effect: World projection",
+          "Physics: Plastic",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_Cliff2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0057.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5aaedbbd61ca2c62e6b37f11.6ef202f171322c47.webp",
+        "hash": "SHA256:6ef202f171322c472d17daeecc70e2645daaebd74f1de4c05e9d266e7444d00a"
+      },
+      "meta": {
+        "catalog_id": "d0364853-59a9-5b42-a346-07d6e11fd3a3",
+        "tags": [
+          "Trackmania2020",
+          "GreenCoast",
+          "Terrain",
+          "Effect: World projection",
+          "Physics: Rock",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (source textures)",
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender."
+      }
+    },
+    {
+      "name": "TM_WarpWall_WithLightmap_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0058.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5b082056bc8c465df7de2f48.6fab2f251fb482e4.webp",
+        "hash": "SHA256:6fab2f251fb482e44443c8bcdbdb22443cf7e98c04f8fe8d7e91ce5c5ed10f7c"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Physics: Asphalt",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_Stadium_TrackWallClipsInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0059.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5eb6cd82c26f300c77ba23a1.82adbbe7db929d9a.webp",
+        "hash": "SHA256:82adbbe7db929d9aa614a9d338b8991df6a9dacefe94dcec5adb8029843d9feb"
+      },
+      "meta": {
+        "catalog_id": "4e5fb21a-52f7-5a19-95cc-3e89edd3cf06",
+        "tags": [
+          "Trackmania2020",
+          "Stadium",
+          "Additional surfaces",
+          "Physics: Concrete",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (source textures)",
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_Boost_TriggerFX_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-70dba873ac80cb47b4ba5dde.482fea08ac5c0d44.webp",
+        "hash": "SHA256:482fea08ac5c0d44a0ea0ae029fa278b9a2baf042eee0734dbc2df150ce1696d"
+      },
+      "meta": {
+        "catalog_id": "8e4925e7-117b-41e6-b4de-35cbb23097ff",
+        "tags": [
+          "Effect: Timeline animation",
+          "Physics: NotCollidable",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Vertex Color",
+          "Usage: Animation",
+          "Usage: Additive",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Source texture | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Transparent plus emission; black adds no light. Native soft-depth and exact game tonemapping remain approximate. | Vertex Tint Amount: 0 uses the original image, 1 multiplies by the Color attribute RGB; not the exact native vertex/depth formula. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_CustomBricks_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6e0293a1428e6f9bec7596aa.9c6eb646d27658dc.webp",
+        "hash": "SHA256:9c6eb646d27658dc2fd8ecd1c5418e1ad3e54d5c2cda775c0c73a9b0fb20a787"
+      },
+      "meta": {
+        "catalog_id": "2a0112fe-4670-4884-b463-b156ef68121d",
+        "tags": [
+          "Effect: World projection",
+          "Physics: Pavement",
+          "Preview: Native editor icon",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Usage: Customizable",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Native editor icon | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters."
+      }
+    },
+    {
+      "name": "TM_CustomModOpaque_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-684c555fd31c726d100b90ef.f3c6c52728f56164.webp",
+        "hash": "SHA256:f3c6c52728f56164604fc84f81ccff89b2c689b50f3f21721223692b2bbbe034"
+      },
+      "meta": {
+        "catalog_id": "c898c0c9-c108-480d-9c15-582f8d769eb9",
+        "tags": [
+          "Physics: Concrete",
+          "Preview: Default input texture",
+          "Export: Native binding",
+          "Usage: Customizable",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Default input texture | Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters."
+      }
+    },
+    {
+      "name": "TM_CustomRoughWood_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-631c53fe14a2bf09bf6552fc.d636490df1190348.webp",
+        "hash": "SHA256:d636490df119034884707e188eb35d44491cf03e157d4dfa235a679d369f9d56"
+      },
+      "meta": {
+        "catalog_id": "2a0112fe-4670-4884-b463-b156ef68121d",
+        "tags": [
+          "Effect: World projection",
+          "Physics: Wood",
+          "Preview: Native editor icon",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Usage: Customizable",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Native editor icon | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters."
+      }
+    },
+    {
+      "name": "TM_Experimental_Effects_CollisionBumper_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-69365bbe55cf83aa5d86ec0e.045d39fbdaf6f34b.webp",
+        "hash": "SHA256:045d39fbdaf6f34bb7dc666f38c72e89aa677d82dded5c600e75bee49b2bc4c4"
+      },
+      "meta": {
+        "catalog_id": "4bb60e62-bf7b-5b67-adb7-d8960481f982",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Effects",
+          "Effects.001",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision-only source",
+          "Collision: present in file",
+          "Collision-only export under review",
+          "Preview: Collision function symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Collision function symbol | Use a UV map named BaseMaterial. | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_Experimental_Effects_CollisionEnergy_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-675188af21e72433eb3ec03f.c406932b0ccfde8f.webp",
+        "hash": "SHA256:c406932b0ccfde8f2af7d274e5ca75acc7905e7c1ad8b94898a7084744c93dd6"
+      },
+      "meta": {
+        "catalog_id": "4bb60e62-bf7b-5b67-adb7-d8960481f982",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Effects",
+          "Effects.001",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Energy",
+          "Collision-only source",
+          "Collision: present in file",
+          "Collision-only export under review",
+          "Preview: Collision function symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Collision function symbol | Use a UV map named BaseMaterial. | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_Experimental_Effects_CollisionTechLaser_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6c58c5db8c18c5a3ce2ce9dc.40379c197158de67.webp",
+        "hash": "SHA256:40379c197158de67d20de0647bc4711ec85aef59b54fe833a1c6166ed7fa26fc"
+      },
+      "meta": {
+        "catalog_id": "4bb60e62-bf7b-5b67-adb7-d8960481f982",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Effects",
+          "Effects.001",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: TechLaser",
+          "Collision-only source",
+          "Collision: present in file",
+          "Collision-only export under review",
+          "Preview: Collision function symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Collision function symbol | Use a UV map named BaseMaterial. | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_Experimental_Effects_CollisionTurbo2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-684fb13db6d5b5cecbd50f7b.045d39fbdaf6f34b.webp",
+        "hash": "SHA256:045d39fbdaf6f34bb7dc666f38c72e89aa677d82dded5c600e75bee49b2bc4c4"
+      },
+      "meta": {
+        "catalog_id": "4bb60e62-bf7b-5b67-adb7-d8960481f982",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Effects",
+          "Effects.001",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision-only source",
+          "Collision: present in file",
+          "Collision-only export under review",
+          "Preview: Collision function symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Collision function symbol | Use a UV map named BaseMaterial. | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_Experimental_Garage_Garage_TDiff_GroundReflect_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-62f250cc7f918d8396058b0c.a2aa6d4b299e4b3d.webp",
+        "hash": "SHA256:a2aa6d4b299e4b3d83cf062f077f895c640160bbcf494fc053f22b7d31af9fd4"
+      },
+      "meta": {
+        "catalog_id": "348d8324-ad24-5ed7-abbb-01b24bcd0459",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Garage",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Menu_TranslucentSelection_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-68c02bf7f66386501fc93e18.422d2e9dd057247b.webp",
+        "hash": "SHA256:422d2e9dd057247b891127f18fc020dd0a5d449378bffdc0e846f7fffd3f3f83"
+      },
+      "meta": {
+        "catalog_id": "64d8ee76-d81a-57ef-8d13-ec2ab35ad5ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Menu",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Menu_UICommon128_1_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6972c2c9be399a8b7875e1fa.107f5b3d8891389e.webp",
+        "hash": "SHA256:107f5b3d8891389e7e1ee2e72de3f4e2c7b27204201d646e7790a25824594d41"
+      },
+      "meta": {
+        "catalog_id": "64d8ee76-d81a-57ef-8d13-ec2ab35ad5ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Menu",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Menu_UICommon64_1_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6ce8e1bb9ae0fc7f4e1a507f.c98d6821f8e777bc.webp",
+        "hash": "SHA256:c98d6821f8e777bc51bc12b5ef402332a1f8506e3111380ec816a607d9245e18"
+      },
+      "meta": {
+        "catalog_id": "64d8ee76-d81a-57ef-8d13-ec2ab35ad5ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Menu",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_CharAnimSkel_Body_63805ad9_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-634df7a88edf45749c6cf0c0.6e676273857fd160.webp",
+        "hash": "SHA256:6e676273857fd16010099e249d158e0cbddd85a3aac6da355bcaefab37f74c87"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load failure unresolved",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check",
+          "Evidence: Group load unresolved"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial. | Associated historical load failure needs individual isolation; group evidence does not identify a culprit or prove this material unsafe."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_CharAnimSkel_Part_03ce4c14_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-63a5da2ddba6ce1c07175c25.73f3abe8360c2587.webp",
+        "hash": "SHA256:73f3abe8360c25874bbf7b4f1eb5d5788a9a1de2566e557dc3f160972af580d8"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load failure unresolved",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check",
+          "Evidence: Group load unresolved"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping. | Associated historical load failure needs individual isolation; group evidence does not identify a culprit or prove this material unsafe."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_TAdd_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6e0e292c9dbe12611ae388fe.5bc503ade3be5d55.webp",
+        "hash": "SHA256:5bc503ade3be5d55f8da2989acd00f771253764598de7430f2898a75bd1d99a3"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: NotCollidable",
+          "Collision: NotCollidable",
+          "Visible in Stadium",
+          "Group load cycle captured",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_TDSN_CubeOut_DispIn_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6b37ccddb0fb498c0e1ffd7b.751d2d325493fc24.webp",
+        "hash": "SHA256:751d2d325493fc241a0dc2496be4f5ec72778e56677b097b5cdfbea51b2249fd"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Visible in Stadium",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_BodyAnimSkel_Teleport_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6539e703280503d801b7baf0.22cd93fadbb4a56d.webp",
+        "hash": "SHA256:22cd93fadbb4a56d925ba92f4cbbf51a689b82b22efaf30ae6178924d8b9432c"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "No surface observed",
+          "Effect: Invisible in game / collision in file",
+          "Group load cycle captured",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_CarGlass_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-70a2ddbe5ffbc2ff4c575667.7803f2e27b6319f8.webp",
+        "hash": "SHA256:7803f2e27b6319f8a01b78f08d17bf063e44b968084207f02fe76e34101b155b"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "No surface observed",
+          "Effect: Invisible in game / collision in file",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_CarGlassSkelDmg_Decal_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-628cb5b9495057708bec307b.cbfc4395418021dd.webp",
+        "hash": "SHA256:cbfc4395418021dd719ecc39e253b60b8ed0f25444932056a5b9226bb13e1b7a"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "No surface observed",
+          "Effect: Invisible in game / collision in file",
+          "Group load cycle captured",
+          "Preview: Decal contrast preview",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Decal contrast preview | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_MenuBox_Light_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-7019ba31054605c274b48cc0.8109f4f7184d45f1.webp",
+        "hash": "SHA256:8109f4f7184d45f1bb1f2906986608367b525da5bd59b14f66dce1304074cdb2"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Warp_PyaDiff_To_PDiffPGrassX2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-687a3d896b7d70c1b9316c43.a8530535ea089832.webp",
+        "hash": "SHA256:a8530535ea0898323232987efe4c0c03a140160c307a6989c5120b991fb1963b"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Editor return limitation",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Vehicles_WheelMarksSand_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6b69003ff5a1632bd65142e4.2d0ba968c0ad52df.webp",
+        "hash": "SHA256:2d0ba968c0ad52dff931c4066bf617e30e1d7d46eeb229b62369a9c28c930026"
+      },
+      "meta": {
+        "catalog_id": "85b2bc68-dfa6-5c2a-b042-957667445f50",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Vehicles",
+          "Effects",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "No surface observed",
+          "Effect: Invisible in game / collision in file",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Invisible_Asphalt_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-70fcea58a12b03c804cc549e.80c4ed7181cce8af.webp",
+        "hash": "SHA256:80c4ed7181cce8af8c0d0302117e9007086ccff9ec4ac93417b29ada3a8069b2"
+      },
+      "meta": {
+        "catalog_id": "62304975-1188-4046-9b79-97d2804e1e8a",
+        "tags": [
+          "Physics: Asphalt",
+          "Preview: Rendered Blender procedural shader",
+          "Export: Native binding",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Rendered Blender procedural shader | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_Invisible_Concrete_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-67546917b529f53a292d0219.d0e9787877a609b1.webp",
+        "hash": "SHA256:d0e9787877a609b122cd264cca01b3fef7add3d3cd4f131ba2f9b0cbc11a8db6"
+      },
+      "meta": {
+        "catalog_id": "62304975-1188-4046-9b79-97d2804e1e8a",
+        "tags": [
+          "Physics: Concrete",
+          "Preview: Rendered Blender procedural shader",
+          "Export: Native binding",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Rendered Blender procedural shader | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_Invisible_Pavement_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6ad0147ad4e821cdbeb22b0a.628b2c17a7b86c31.webp",
+        "hash": "SHA256:628b2c17a7b86c3125a2ff243da01b45b1f570360224ce12489b3a4272e82bc5"
+      },
+      "meta": {
+        "catalog_id": "62304975-1188-4046-9b79-97d2804e1e8a",
+        "tags": [
+          "Physics: Pavement",
+          "Preview: Rendered Blender procedural shader",
+          "Export: Native binding",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Rendered Blender procedural shader | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_ItemTorchFlame_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-68895a49ccc61f6152fdd86a.e411a27fabcf7d0b.webp",
+        "hash": "SHA256:e411a27fabcf7d0bc9bfc8d16ebf2ed54e217d4c084582fd2067dd41de1ce685"
+      },
+      "meta": {
+        "catalog_id": "102a5d56-8bfe-4677-9e2e-397814704e5a",
+        "tags": [
+          "Effect: Timeline animation",
+          "Physics: MetalTrans",
+          "Preview: Animation source frame",
+          "Export: Native binding",
+          "Usage: Animation",
+          "Usage: Additive",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Animation source frame | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Transparent plus emission; black adds no light. Native soft-depth and exact game tonemapping remain approximate. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_NoBrake_TriggerFX_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6d9daa8d549f9fac4bd9462e.3d93c6ba658e59c5.webp",
+        "hash": "SHA256:3d93c6ba658e59c5f44bf5a916aa49f7ea3d3f5797cae56f881209457f0d2e39"
+      },
+      "meta": {
+        "catalog_id": "b7057da1-1e69-47a7-89cd-653dc7b624ef",
+        "tags": [
+          "Effect: Timeline animation",
+          "Physics: NotCollidable",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Vertex Color",
+          "Usage: Animation",
+          "Usage: Additive",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Source texture | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Transparent plus emission; black adds no light. Native soft-depth and exact game tonemapping remain approximate. | Vertex Tint Amount: 0 uses the original image, 1 multiplies by the Color attribute RGB; not the exact native vertex/depth formula. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_NoEngine_TriggerFX_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-64d2bb7596280a81af40971d.d4f93d5ba41ab644.webp",
+        "hash": "SHA256:d4f93d5ba41ab6443e77c97fce94d91e077f4d7d3ec3309a3db7ea0e42481764"
+      },
+      "meta": {
+        "catalog_id": "9984b186-0ceb-4096-bc5f-e64cbb67af38",
+        "tags": [
+          "Effect: Timeline animation",
+          "Physics: NotCollidable",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Vertex Color",
+          "Usage: Animation",
+          "Usage: Additive",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Source texture | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Transparent plus emission; black adds no light. Native soft-depth and exact game tonemapping remain approximate. | Vertex Tint Amount: 0 uses the original image, 1 multiplies by the Color attribute RGB; not the exact native vertex/depth formula. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_RaceTriggerFXMultilap_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6a75ebb1d9ad15ce72550a24.0b510407ac0e6604.webp",
+        "hash": "SHA256:0b510407ac0e6604e8f894cfc1767f17836d2412d3207ba09fe67a38d1dba7cb"
+      },
+      "meta": {
+        "catalog_id": "8d234412-69ec-4f4f-be3f-63986b0d241b",
+        "tags": [
+          "Effect: Timeline animation",
+          "Physics: NotCollidable",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Vertex Color",
+          "Usage: Animation",
+          "Usage: Additive",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Source texture | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Transparent plus emission; black adds no light. Native soft-depth and exact game tonemapping remain approximate. | Vertex Tint Amount: 0 uses the original image, 1 multiplies by the Color attribute RGB; not the exact native vertex/depth formula. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_Speedometer_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-91e59d3c5556f12bdc1353cf.c0d79710e12d11fb.webp",
+        "hash": "SHA256:c0d79710e12d11fbe8e55e711fad6ad93eb5cf6c9227af8e2d53859b59732b9e"
+      },
+      "meta": {
+        "catalog_id": "8d234412-69ec-4f4f-be3f-63986b0d241b",
+        "tags": [
+          "Physics: Metal",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_SpeedometerLight_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-68b87c46b9da81fb402d80b5.693f38eb91213be7.webp",
+        "hash": "SHA256:693f38eb91213be74b6975e26f031e294642d7d6029d2cfa4f4ba66171f3303f"
+      },
+      "meta": {
+        "catalog_id": "8d234412-69ec-4f4f-be3f-63986b0d241b",
+        "tags": [
+          "Physics: Metal",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_SpeedometerLight_Dyna_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0060.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-c49eb18b06664b19ed3578d3.693f38eb91213be7.webp",
+        "hash": "SHA256:693f38eb91213be74b6975e26f031e294642d7d6029d2cfa4f4ba66171f3303f"
+      },
+      "meta": {
+        "catalog_id": "8d234412-69ec-4f4f-be3f-63986b0d241b",
+        "tags": [
+          "Physics: Metal",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_RedIsland_DetailsRocks3_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0061.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-633a2b884c3686c9fb03cde9.aaa37e37f9fb7972.webp",
+        "hash": "SHA256:aaa37e37f9fb7972dd510807b07354cf72e38f0040f0dd59eb6acaf11d2c3f82"
+      },
+      "meta": {
+        "catalog_id": "f564fd12-ae40-52c4-a3eb-af99e4b3268a",
+        "tags": [
+          "Trackmania2020",
+          "RedIsland",
+          "Terrain",
+          "Physics: Rock",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (source textures)",
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_DecalPlatform_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0062.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-fbf787cddcfedd59eba3114d.a2b806acbf21e5ab.webp",
+        "hash": "SHA256:a2b806acbf21e5ab4b345a9c2e6b8e92f2d182ab7be5a88c36fa73d9f3108803"
+      },
+      "meta": {
+        "catalog_id": "2734ee5a-296e-460a-beb0-e32dacbe520c",
+        "tags": [
+          "Physics: NotCollidable",
+          "Preview: Decal contrast preview",
+          "Export: Native binding",
+          "Usage: Vertex Color",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Decal contrast preview | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_PlatformDirt_DecalPlatform_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0062.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6feafb92373a2179480304bb.5abecc260ce579b6.webp",
+        "hash": "SHA256:5abecc260ce579b68d4ebcf9723df6351b31d7b78854db71b95f2c01a9b4d98d"
+      },
+      "meta": {
+        "catalog_id": "e6a3d904-d2ba-4c54-bdbf-f106dae819fb",
+        "tags": [
+          "Physics: NotCollidable",
+          "Preview: Decal contrast preview",
+          "Export: Native binding",
+          "Usage: Vertex Color",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Decal contrast preview | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_PlatformGrass_DecalPlatform_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0062.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-c728388b92410da63d7de962.51af253db82cff89.webp",
+        "hash": "SHA256:51af253db82cff897caf49dbe6cf25084c1fb2a3aa9b687b215e0a695bf0250f"
+      },
+      "meta": {
+        "catalog_id": "ad3c9cee-58b2-4c43-b8b5-f9afa5bd46d0",
+        "tags": [
+          "Physics: NotCollidable",
+          "Preview: Decal contrast preview",
+          "Export: Native binding",
+          "Usage: Vertex Color",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Decal contrast preview | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_PlatformIce_DecalPlatform_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0062.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-c2e5d6a296a715ccce7a4e16.bd0aec1a1084d06e.webp",
+        "hash": "SHA256:bd0aec1a1084d06ef10b09555c22e0619cafb1f4f730054a18b0aa4ce6352c13"
+      },
+      "meta": {
+        "catalog_id": "db205d75-6140-445d-9450-f26dc19d8c04",
+        "tags": [
+          "Physics: NotCollidable",
+          "Preview: Decal contrast preview",
+          "Export: Native binding",
+          "Usage: Vertex Color",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Decal contrast preview | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_PlatformPlastic_DecalPlatform_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0062.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-9b0c075ce4b92e22e4deaba3.2d395a16afedd7a0.webp",
+        "hash": "SHA256:2d395a16afedd7a09d9f9e766c586dd3f9c0d6579cc571e9a3b24d2f658b4760"
+      },
+      "meta": {
+        "catalog_id": "e97b38be-30fb-42d4-b5ed-9d7d1a7ace52",
+        "tags": [
+          "Physics: NotCollidable",
+          "Preview: Decal contrast preview",
+          "Export: Native binding",
+          "Usage: Vertex Color",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Decal contrast preview | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_CustomGlass_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-82b643b12017714cfbc15803.e4c5e3e3276d85aa.webp",
+        "hash": "SHA256:e4c5e3e3276d85aa926f3fc2ee85bfd771bbdbfe41e0d926f8bad30257af89f9"
+      },
+      "meta": {
+        "catalog_id": "2a0112fe-4670-4884-b463-b156ef68121d",
+        "tags": [
+          "Physics: Green",
+          "Preview: Native editor icon",
+          "Export: Native binding",
+          "Usage: Customizable",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Native editor icon | Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters."
+      }
+    },
+    {
+      "name": "TM_DecalObstaclePusher_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-85a501e17a2e0e68b478aefe.1c7d0d35e72c7a26.webp",
+        "hash": "SHA256:1c7d0d35e72c7a260690be5f6bd3ab71398b20386115af85159b872fbe59f6f4"
+      },
+      "meta": {
+        "catalog_id": "5e4ece86-df41-4317-bba3-60976325c806",
+        "tags": [
+          "Physics: NotCollidable",
+          "Preview: Decal contrast preview",
+          "Export: Native binding",
+          "Usage: Vertex Color",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Decal contrast preview | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_Experimental_Effects_CollisionTurbo2TechMagnetic_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-85f9fcf76a486ad3e51aac38.cc40175d5b63597c.webp",
+        "hash": "SHA256:cc40175d5b63597c9a82b7415d097a1bde9b4929d54c798131638dabddca477e"
+      },
+      "meta": {
+        "catalog_id": "4bb60e62-bf7b-5b67-adb7-d8960481f982",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Effects",
+          "Effects.001",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: TechMagnetic",
+          "Collision-only source",
+          "Collision: present in file",
+          "Collision-only export under review",
+          "Preview: Collision function symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Collision function symbol | Use a UV map named BaseMaterial. | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_Experimental_Menu_EditorButtons2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-780bc41ebbe1156fe277868b.ac314c42909c8297.webp",
+        "hash": "SHA256:ac314c42909c8297d8d69b36d42672e5a8b123e5880c202117483daf84ae550f"
+      },
+      "meta": {
+        "catalog_id": "64d8ee76-d81a-57ef-8d13-ec2ab35ad5ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Menu",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Menu_Icons64x64_1_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-87749b915d00066071b774e0.67bd2ef5225a6f21.webp",
+        "hash": "SHA256:67bd2ef5225a6f21781c1c1288f5444238a084cf9b96b161a0a85452357150cc"
+      },
+      "meta": {
+        "catalog_id": "64d8ee76-d81a-57ef-8d13-ec2ab35ad5ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Menu",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Menu_UIBgCenterRace_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-7fcc4eba566c70aad2392aee.74bd8ee451aa399c.webp",
+        "hash": "SHA256:74bd8ee451aa399c267faafd4445fea9c6bc2d4789ba65ba0fafe4d6686add22"
+      },
+      "meta": {
+        "catalog_id": "64d8ee76-d81a-57ef-8d13-ec2ab35ad5ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Menu",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_ShootMania_GoalDeathZone_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-80090be6c904d8031cfdd083.7c96e5494a4b73c9.webp",
+        "hash": "SHA256:7c96e5494a4b73c9b33e2dc7e3c88921b2d4803fe480802ac09012e63721ff34"
+      },
+      "meta": {
+        "catalog_id": "ecc154f6-fc08-5474-b5c8-104c5e5c5d7e",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "ShootMania",
+          "Effects",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_CharAnimSkel_Body_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-7281c2b2c2638bbd9841c84e.c5e519db7e3009eb.webp",
+        "hash": "SHA256:c5e519db7e3009eb414f55cf961cb7d26f2f0fb58564b5818508aea454623fef"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "No surface observed",
+          "Effect: Invisible in game / collision in file",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Dyna0_TDSNI_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-784b4f64656a88d51d3307f7.6e676273857fd160.webp",
+        "hash": "SHA256:6e676273857fd16010099e249d158e0cbddd85a3aac6da355bcaefab37f74c87"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Dyna0_TIce_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-7b5d6bb1973c5b1b77ac5542.9df02cd76eeef3ac.webp",
+        "hash": "SHA256:9df02cd76eeef3aca467e84eb9a524679052609fbb94b1805cf41a563d4dc083"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Technical source view",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Technical source view | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Static_TDSNI_Night_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-77ecb6ad44ef9677040b5092.405e0dffdfa52f9c.webp",
+        "hash": "SHA256:405e0dffdfa52f9cb32e5b65626bfc52229aad7643fcb9b9810ad18f59bfce11"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_PoleEnergyInt_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-85ce92869fcf94a9e44c7228.ef1b0a340d221cdb.webp",
+        "hash": "SHA256:ef1b0a340d221cdb38ec345c794e873d917776f7402cde30726d72e1cf1612cc"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "No surface observed",
+          "Effect: Invisible in game / collision in file",
+          "Group load cycle captured",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_PyDSN_PyGrassX2_TDecalMod_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-7322bee4f8ebe533da709f45.b5a9b6857bb6568d.webp",
+        "hash": "SHA256:b5a9b6857bb6568d3df752e7e10f12dd2cf451d8b67a06bef627bf0dcb33e59b"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Visible in Stadium",
+          "Group load cycle captured",
+          "Preview: Decal contrast preview",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Decal contrast preview | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_PyPxz_Ids_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-7d40de9f7e3493f5b5683c94.751d2d325493fc24.webp",
+        "hash": "SHA256:751d2d325493fc241a0dc2496be4f5ec72778e56677b097b5cdfbea51b2249fd"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Visible in Stadium",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_TAddLighted_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-8451fd91bd7f8723ac6a0933.41ae16ac88e5c566.webp",
+        "hash": "SHA256:41ae16ac88e5c566716cbcb53023fb5e69d77b1290dc9268a7cd8a3c66ea37b6"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Visible in Stadium",
+          "Group load cycle captured",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_TDSN_DecalMod_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-79e0e14f89ac4b0dd0211d77.cbfc4395418021dd.webp",
+        "hash": "SHA256:cbfc4395418021dd719ecc39e253b60b8ed0f25444932056a5b9226bb13e1b7a"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "No surface observed",
+          "Effect: Invisible in game / collision in file",
+          "Group load cycle captured",
+          "Preview: Decal contrast preview",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Decal contrast preview | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_BodyAnim_ClipAlpha_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-72337b5c0a19d8b6e31071c9.9ec467a517b9a414.webp",
+        "hash": "SHA256:9ec467a517b9a414474f8e60872131eba7cbbaab9338f45ff8184a2a2ef863b0"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load failure unresolved",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check",
+          "Evidence: Group load unresolved"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping. | Associated historical load failure needs individual isolation; group evidence does not identify a culprit or prove this material unsafe."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_BodyAnimSkel_Energy_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-81ca146b68db9d649a08d7e0.f37be6c5a19ba7d7.webp",
+        "hash": "SHA256:f37be6c5a19ba7d76acb0bc5e5dd627e8627a60f9dbd63711244fc17339efdd6"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Decal_Sprite_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-749d574d6bec8bd55753ffdc.1d562fd45650d893.webp",
+        "hash": "SHA256:1d562fd45650d89347641a749eaf7eb40dd7983bd6443cb512d2c189e33e918b"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load failure unresolved",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check",
+          "Evidence: Group load unresolved"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial. | Associated historical load failure needs individual isolation; group evidence does not identify a culprit or prove this material unsafe."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Decal_Sprite_VSampler_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-824ba739412fb96a2ac8ba15.c063006a1d0ed6d1.webp",
+        "hash": "SHA256:c063006a1d0ed6d171ab401a01e89072d88707eea202e0f1f144059cfa4c161a"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load failure unresolved",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check",
+          "Evidence: Group load unresolved"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial. | Associated historical load failure needs individual isolation; group evidence does not identify a culprit or prove this material unsafe."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Dyna0_Ice_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-81d4b91a72af909f48da0704.ad47c6dd585f18dc.webp",
+        "hash": "SHA256:ad47c6dd585f18dc52157473ca4170e67c0ebd6f7fa629abbcb487df5314530c"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Technical source view",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Technical source view | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_ZOnly_Water_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-8566767a3c76df7f01c312b5.f05f8b22e56126eb.webp",
+        "hash": "SHA256:f05f8b22e56126ebc18ca10d0ded4c08532689ba22710b9b1b09cc21c3ec3b9d"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Vehicles_ExhaustNitro_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-786bde3bbdb69f32a5bbda7d.dbb729dee03c50d7.webp",
+        "hash": "SHA256:dbb729dee03c50d781e68593feafacc371a9b3794a814c33eb45b5d5ced3b039"
+      },
+      "meta": {
+        "catalog_id": "85b2bc68-dfa6-5c2a-b042-957667445f50",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Vehicles",
+          "Effects",
+          "Runtime unverified",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: NotCollidable",
+          "Collision: NotCollidable",
+          "Group load failure unresolved",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check",
+          "Evidence: Group load unresolved"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | Associated historical load failure needs individual isolation; group evidence does not identify a culprit or prove this material unsafe."
+      }
+    },
+    {
+      "name": "TM_Experimental_Vehicles_ParticleSmokeAsphalt_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-837c97df0b321235a7d7898b.1fa59eef8761089e.webp",
+        "hash": "SHA256:1fa59eef8761089e25266ea2b33e26271d6f578a9df80c1300267871cc7cf237"
+      },
+      "meta": {
+        "catalog_id": "85b2bc68-dfa6-5c2a-b042-957667445f50",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Vehicles",
+          "Effects",
+          "Runtime unverified",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Vehicles_WheelMarksSnow_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-7ee1bbb85a7b31003d401720.af08375f89628c42.webp",
+        "hash": "SHA256:af08375f89628c42318838f0ee0d17bad0d0be212e2c15fe613ec9e0eb845763"
+      },
+      "meta": {
+        "catalog_id": "85b2bc68-dfa6-5c2a-b042-957667445f50",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Vehicles",
+          "Effects",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "No surface observed",
+          "Effect: Invisible in game / collision in file",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Invisible_Dirt_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-7503db6f99454a50a1642ac5.c428db4026064f6a.webp",
+        "hash": "SHA256:c428db4026064f6a7d7c793a092ab6a399073063cbe4b6be2bf8a6fce0089e36"
+      },
+      "meta": {
+        "catalog_id": "62304975-1188-4046-9b79-97d2804e1e8a",
+        "tags": [
+          "Physics: Dirt",
+          "Preview: Rendered Blender procedural shader",
+          "Export: Native binding",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Rendered Blender procedural shader | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_ItemCactus_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-7d9dab49726642743bcedb27.5b1019967728bcee.webp",
+        "hash": "SHA256:5b1019967728bceecbb6c2991f51cfe74335e83b8276fbe0b5d29e070bcf5756"
+      },
+      "meta": {
+        "catalog_id": "b3363c3c-bbe9-4ca1-8c69-4f5a5c8d77ed",
+        "tags": [
+          "Physics: Metal",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_ItemPillar2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-7f9a4e98376951e102f5f62b.40d7cc5778596fa5.webp",
+        "hash": "SHA256:40d7cc5778596fa503b2aba755801de77c68f2cae1d5e458beaae208d7694ba8"
+      },
+      "meta": {
+        "catalog_id": "b3363c3c-bbe9-4ca1-8c69-4f5a5c8d77ed",
+        "tags": [
+          "Physics: Metal",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_ItemPillar_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-a155e9d89492b7e0bed0a778.ec812bec35fa027f.webp",
+        "hash": "SHA256:ec812bec35fa027f98c2f07627e83c982e998611708e4db5e90323839a52749c"
+      },
+      "meta": {
+        "catalog_id": "b3363c3c-bbe9-4ca1-8c69-4f5a5c8d77ed",
+        "tags": [
+          "Physics: Metal",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_NoSteering_SpecialFX_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-80c225391d8450a533c1ce21.4f6c81f031ee56c1.webp",
+        "hash": "SHA256:4f6c81f031ee56c1f3e3a865acdce26a2483d45aac470c8bb8ba47865f17ec4a"
+      },
+      "meta": {
+        "catalog_id": "d75f5499-8e89-48f1-80b1-11b8815b9fc0",
+        "tags": [
+          "Effect: Timeline animation",
+          "Physics: NotCollidable",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Animation",
+          "Usage: Additive",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Source texture | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Transparent plus emission; black adds no light. Native soft-depth and exact game tonemapping remain approximate. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_ThemeSnowRoadBorder_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-85a9577c0c2efe5e978c495b.434d3377afa0596e.webp",
+        "hash": "SHA256:434d3377afa0596edcfb80d20571ad08834ac4b359acfc366193cc1dbefbd1a4"
+      },
+      "meta": {
+        "catalog_id": "f8e02114-07fa-42a2-a58c-350bb6b25694",
+        "tags": [
+          "Physics: Wood",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_TriggerFXTurbo_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0063.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-83f33c8ee9f541492232b12e.bde9920e13c8c8c8.webp",
+        "hash": "SHA256:bde9920e13c8c8c867013ba8ba60aa3567bed1225b2c5ceac1c20a707b45f95c"
+      },
+      "meta": {
+        "catalog_id": "08ddeeb2-21b1-4a0b-bc64-b39995f39aa5",
+        "tags": [
+          "Effect: Timeline animation",
+          "Physics: NotCollidable",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Vertex Color",
+          "Usage: Animation",
+          "Usage: Additive",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Source texture | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Transparent plus emission; black adds no light. Native soft-depth and exact game tonemapping remain approximate. | Vertex Tint Amount: 0 uses the original image, 1 multiplies by the Color attribute RGB; not the exact native vertex/depth formula. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_Stadium_StructureTruss_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0064.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-731b7cef5edf784147af1047.99171bf2b8b5c056.webp",
+        "hash": "SHA256:99171bf2b8b5c056069a4b571caaad367d89fe5856d26e07cc5d5992e5c52c16"
+      },
+      "meta": {
+        "catalog_id": "4e5fb21a-52f7-5a19-95cc-3e89edd3cf06",
+        "tags": [
+          "Trackmania2020",
+          "Stadium",
+          "Additional surfaces",
+          "Physics: Metal",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (source textures)",
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_RedIsland_LakeBottom_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0065.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-75ad58880d78c73746352af9.3d1a5a3d73d2f29e.webp",
+        "hash": "SHA256:3d1a5a3d73d2f29e59af07cdec358de644dc510ac887ffc8733259967875657a"
+      },
+      "meta": {
+        "catalog_id": "6151d7c0-228d-5c26-8c7f-eec72e8b8554",
+        "tags": [
+          "Trackmania2020",
+          "RedIsland",
+          "Other materials",
+          "Effect: World projection",
+          "Physics: WetDirtRoad",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (source textures)",
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_Cliff3_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0066.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-7bd37bd28c0291124392fe43.5aabfd8339e26056.webp",
+        "hash": "SHA256:5aabfd8339e260565eabfc75c728d043128a82b6da94c82b786b29323d5db3b5"
+      },
+      "meta": {
+        "catalog_id": "d0364853-59a9-5b42-a346-07d6e11fd3a3",
+        "tags": [
+          "Trackmania2020",
+          "GreenCoast",
+          "Terrain",
+          "Effect: World projection",
+          "Physics: Rock",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (source textures)",
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender."
+      }
+    },
+    {
+      "name": "TM_DecalSponsor1x1BigA_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0067.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-7d9c2802e2cc967dbd4fb6cb.94bc77b17b612d0d.webp",
+        "hash": "SHA256:94bc77b17b612d0d099cf28c941bfd4531a0812d5f842560dc0abbe75371ceb2"
+      },
+      "meta": {
+        "catalog_id": "c2747340-c0e8-4238-897b-f166201bb492",
+        "tags": [
+          "Physics: NotCollidable",
+          "Preview: Decal contrast preview",
+          "Export: Native binding",
+          "Usage: Vertex Color",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Decal contrast preview | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_CustomRock_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0068.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-7fb8267eed75b6410e743e36.dd58e2ce4375582e.webp",
+        "hash": "SHA256:dd58e2ce4375582eb27ed338442aa36e291562918b0fd672bf5e232602364303"
+      },
+      "meta": {
+        "catalog_id": "2a0112fe-4670-4884-b463-b156ef68121d",
+        "tags": [
+          "Effect: World projection",
+          "Physics: Rock",
+          "Preview: Native editor icon",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Usage: Customizable",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Native editor icon | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters."
+      }
+    },
+    {
+      "name": "TM_Grass_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0069.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-e2a95d5a896de0ff8913efe2.3e41980e831658b1.webp",
+        "hash": "SHA256:3e41980e831658b1fe920f0fccb2312d88eb3de17b6959d7a695f473ae362edd"
+      },
+      "meta": {
+        "catalog_id": "48183039-150a-43d0-81be-3f3a4f0213b3",
+        "tags": [
+          "Physics: Grass",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_Stadium_GrassFence_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0069.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-80e0b305d949879fbdd4ab6d.f810cc3e57fd0b69.webp",
+        "hash": "SHA256:f810cc3e57fd0b69325ef84edef2686cceff9e1c4f44fb5f5cad3f2a9395b133"
+      },
+      "meta": {
+        "catalog_id": "e44d7358-c205-5044-902f-ff6f2044975e",
+        "tags": [
+          "Trackmania2020",
+          "Stadium",
+          "Decals and signs",
+          "Physics: NotCollidable",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (source textures)",
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_WarpGrass2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0069.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-cb54dcd9244d81b119cb0067.3e41980e831658b1.webp",
+        "hash": "SHA256:3e41980e831658b1fe920f0fccb2312d88eb3de17b6959d7a695f473ae362edd"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Physics: Green",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_WarpGrass_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0069.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-8a79b4eec7e11361d163efca.3e41980e831658b1.webp",
+        "hash": "SHA256:3e41980e831658b1fe920f0fccb2312d88eb3de17b6959d7a695f473ae362edd"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Physics: Green",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_TrackWall_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0070.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-86c63b2928b5bc26fc46f99d.fcb026c743578aa3.webp",
+        "hash": "SHA256:fcb026c743578aa3a44821b1996c7e34c9a64a8dff50fcb3af302182a8d8743a"
+      },
+      "meta": {
+        "catalog_id": "35253e7c-8d09-4a3f-9c95-1a2cc4561be5",
+        "tags": [
+          "Effect: World projection",
+          "Physics: Wood",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Vertex Color",
+          "Usage: Animation",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_DecalObstacleTube_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0071.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-8e0a13aa5202b6174897cfdd.8f1cb98752b11871.webp",
+        "hash": "SHA256:8f1cb98752b11871ace45ce4987da2f023ee83669b6e7da158407465c89e30cf"
+      },
+      "meta": {
+        "catalog_id": "5e4ece86-df41-4317-bba3-60976325c806",
+        "tags": [
+          "Physics: NotCollidable",
+          "Preview: Decal contrast preview",
+          "Export: Native binding",
+          "Usage: Vertex Color",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Decal contrast preview | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_Experimental_Effects_CollisionConcrete_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0071.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-a2251fb6fd2f534f27e08a20.045d39fbdaf6f34b.webp",
+        "hash": "SHA256:045d39fbdaf6f34bb7dc666f38c72e89aa677d82dded5c600e75bee49b2bc4c4"
+      },
+      "meta": {
+        "catalog_id": "4bb60e62-bf7b-5b67-adb7-d8960481f982",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Effects",
+          "Effects.001",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision-only source",
+          "Collision: present in file",
+          "Collision-only export under review",
+          "Preview: Collision function symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Collision function symbol | Use a UV map named BaseMaterial. | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_Experimental_Effects_CollisionPavementStair_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0071.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-87f3fe10a370584eb4646c14.54dca1356a46a058.webp",
+        "hash": "SHA256:54dca1356a46a0587506671565e84601f4b4b866b3add51264fae72952701d58"
+      },
+      "meta": {
+        "catalog_id": "4bb60e62-bf7b-5b67-adb7-d8960481f982",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Effects",
+          "Effects.001",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: PavementStair",
+          "Collision-only source",
+          "Collision: present in file",
+          "Collision-only export under review",
+          "Preview: Collision function symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Collision function symbol | Use a UV map named BaseMaterial. | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_Experimental_Effects_CollisionTechArrow_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0071.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-8fe3ad70d379ba0d03c6310e.47e46865ead0dc6e.webp",
+        "hash": "SHA256:47e46865ead0dc6e7e7de6bb44a31f09e40193aa4c60459720008237432e2291"
+      },
+      "meta": {
+        "catalog_id": "4bb60e62-bf7b-5b67-adb7-d8960481f982",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Effects",
+          "Effects.001",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: TechArrow",
+          "Collision-only source",
+          "Collision: present in file",
+          "Collision-only export under review",
+          "Preview: Collision function symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Collision function symbol | Use a UV map named BaseMaterial. | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_Experimental_Effects_CollisionTechHook_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0071.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-9ecb0ce9b24798c63108048f.8d1a731bf79c6a06.webp",
+        "hash": "SHA256:8d1a731bf79c6a06705c1b8788c483c336155854cd264ee7381913fab773fecd"
+      },
+      "meta": {
+        "catalog_id": "4bb60e62-bf7b-5b67-adb7-d8960481f982",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Effects",
+          "Effects.001",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: TechHook",
+          "Collision-only source",
+          "Collision: present in file",
+          "Collision-only export under review",
+          "Preview: Collision function symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Collision function symbol | Use a UV map named BaseMaterial. | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_Experimental_Effects_CollisionTurboPlayer_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0071.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-9a4d1065b345a7ca0c4fbd72.37edaa6d34251d62.webp",
+        "hash": "SHA256:37edaa6d34251d62c9a0cc730c97cd6bf73d8f711bb71651b63cb13b1d67082d"
+      },
+      "meta": {
+        "catalog_id": "4bb60e62-bf7b-5b67-adb7-d8960481f982",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Effects",
+          "Effects.001",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Player",
+          "Collision-only source",
+          "Collision: present in file",
+          "Collision-only export under review",
+          "Preview: Collision function symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Collision function symbol | Use a UV map named BaseMaterial. | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_Experimental_Effects_CollisionWallJump_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0071.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-a1e6f0cb39e71188f0722207.f391ff1470a6c8bf.webp",
+        "hash": "SHA256:f391ff1470a6c8bf662b8259154b2fd89f91df974b67626188da70fc9e2c66a9"
+      },
+      "meta": {
+        "catalog_id": "4bb60e62-bf7b-5b67-adb7-d8960481f982",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Effects",
+          "Effects.001",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: WallJump",
+          "Collision-only source",
+          "Collision: present in file",
+          "Collision-only export under review",
+          "Preview: Collision function symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Collision function symbol | Use a UV map named BaseMaterial. | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_Experimental_Effects_LightTrail_Particle_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0071.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-8e93afa6ac672c1ed8e2d249.0fcf3dce6151a95e.webp",
+        "hash": "SHA256:0fcf3dce6151a95eaed55abdfc2a1f2c5de36cb5e1acce483a4df755f7c692e8"
+      },
+      "meta": {
+        "catalog_id": "4bb60e62-bf7b-5b67-adb7-d8960481f982",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Effects",
+          "Effects.001",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Garage_Garage_TDiff_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0071.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-a073f63c9062e479cab38fda.78aec1b884a6f83a.webp",
+        "hash": "SHA256:78aec1b884a6f83a08dd8ee4ff6c60c8e09a8d9a3913f7966e6e8abbd0c9fae4"
+      },
+      "meta": {
+        "catalog_id": "348d8324-ad24-5ed7-abbb-01b24bcd0459",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Garage",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Menu_UIBgBottomMultiRace_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0071.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-884fee5ddfe0650901372d22.2a6c7026800aaf33.webp",
+        "hash": "SHA256:2a6c7026800aaf33dbe7a86cbe3a437539eca154ff27f6004c83ce7590cba0dc"
+      },
+      "meta": {
+        "catalog_id": "64d8ee76-d81a-57ef-8d13-ec2ab35ad5ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Menu",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Dyna0_TI_AddModCV_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0071.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-8ec1eeab08d4dbb8c1e8c42d.00797819796388b7.webp",
+        "hash": "SHA256:00797819796388b7f3e8d46f80ac84c8d3e2e6d1f3795627628dfa9f5a4c07d3"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_Ice_TcTrans_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0071.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-955cf039d967d5c4bb060c29.9ec467a517b9a414.webp",
+        "hash": "SHA256:9ec467a517b9a414474f8e60872131eba7cbbaab9338f45ff8184a2a2ef863b0"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Visible in Stadium",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_PxzDiff_Spec_Norm_X2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0071.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-9af7610f2e507ec0c94747c1.a7b527c21b4b130d.webp",
+        "hash": "SHA256:a7b527c21b4b130d0dfb21e5828d8c7211134972b6d00997ce1734963dba6dd5"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Visible in Stadium",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_PyPxz_Hue_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0071.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-8cebed1afb08952606258acb.751d2d325493fc24.webp",
+        "hash": "SHA256:751d2d325493fc241a0dc2496be4f5ec72778e56677b097b5cdfbea51b2249fd"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Visible in Stadium",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_TDiffABlend_SpecNorm_CubeOut_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0071.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-9faed6a0dc52248cdc31708e.ad47c6dd585f18dc.webp",
+        "hash": "SHA256:ad47c6dd585f18dc52157473ca4170e67c0ebd6f7fa629abbcb487df5314530c"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Technical source view",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Technical source view | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_TDSN_DecalMod_TestOp_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0071.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-906d71fe6716d0d502307a9d.cbfc4395418021dd.webp",
+        "hash": "SHA256:cbfc4395418021dd719ecc39e253b60b8ed0f25444932056a5b9226bb13e1b7a"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "No surface observed",
+          "Effect: Invisible in game / collision in file",
+          "Group load cycle captured",
+          "Preview: Decal contrast preview",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Decal contrast preview | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_CarSkelDmg_Shield_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0071.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-8c2ca46a73b667736256a28e.6b81b28448b6d5a8.webp",
+        "hash": "SHA256:6b81b28448b6d5a829abe16f1ec6da7390e22b14e36c650b17d085d5a6b66636"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "No surface observed",
+          "Effect: Invisible in game / collision in file",
+          "Group load cycle captured",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial."
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "materials/bundle-0053.blend",
+      "size_in_bytes": 3963523,
+      "hash": "SHA256:324a08c6d56137bf4f5838123ed1d78c93c15dba11206eb6864e3ab6855de61d",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0053.324a08c6d56137bf.blend"
+    },
+    {
+      "path": "materials/bundle-0054.blend",
+      "size_in_bytes": 4942008,
+      "hash": "SHA256:a17e52b546d4e0d223292930747a3fa89060dbf1b4d41721cdd0459b6bf88af1",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0054.a17e52b546d4e0d2.blend"
+    },
+    {
+      "path": "materials/bundle-0055.blend",
+      "size_in_bytes": 5880165,
+      "hash": "SHA256:9521ac810aebfdde3c3fdb44dcb952626d6c06f08e5c567f5e7a37aa0b9af622",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0055.9521ac810aebfdde.blend"
+    },
+    {
+      "path": "materials/bundle-0056.blend",
+      "size_in_bytes": 1118356,
+      "hash": "SHA256:602d3b00a94a6b5d68cf8ac8dcef7aa1869342dfb7170a5ca75eab784a31a391",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0056.602d3b00a94a6b5d.blend"
+    },
+    {
+      "path": "materials/bundle-0057.blend",
+      "size_in_bytes": 39385388,
+      "hash": "SHA256:f26b2ccbfc290f0bbe0589140a091e9cde2ce2a92b5b1bd294c2380bbd727fd3",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0057.f26b2ccbfc290f0b.blend"
+    },
+    {
+      "path": "materials/bundle-0058.blend",
+      "size_in_bytes": 7294899,
+      "hash": "SHA256:7cfe5da6bf0b968a202df5a8a768eeceeb7617dd1893953c218a3d2aefcbc13a",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0058.7cfe5da6bf0b968a.blend"
+    },
+    {
+      "path": "materials/bundle-0059.blend",
+      "size_in_bytes": 32719565,
+      "hash": "SHA256:a0d9ca56f00d4d7ea26cc2da853c0e5bfb03a4a9361f5ee394a65a63c86eddc2",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0059.a0d9ca56f00d4d7e.blend"
+    },
+    {
+      "path": "materials/bundle-0060.blend",
+      "size_in_bytes": 6106615,
+      "hash": "SHA256:5e5197b9cb62a7fb45779dbec8d448f8087f332980befd6e832c41bb5438318b",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0060.5e5197b9cb62a7fb.blend"
+    },
+    {
+      "path": "materials/bundle-0061.blend",
+      "size_in_bytes": 9558182,
+      "hash": "SHA256:2e32d19f3b359ed46b1911a0fae1c0c9153daecd2f6da093c56d3f824760cd8a",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0061.2e32d19f3b359ed4.blend"
+    },
+    {
+      "path": "materials/bundle-0062.blend",
+      "size_in_bytes": 1003680,
+      "hash": "SHA256:c34f17b343f1c3051be11f7a66ceec3b5542a27294212e64b8c734bb558bdd17",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0062.c34f17b343f1c305.blend"
+    },
+    {
+      "path": "materials/bundle-0063.blend",
+      "size_in_bytes": 6420266,
+      "hash": "SHA256:731bd6c5b0a5a285b37a77908ef9500fff5d5d87b58d4e0ab6992e866a85081b",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0063.731bd6c5b0a5a285.blend"
+    },
+    {
+      "path": "materials/bundle-0064.blend",
+      "size_in_bytes": 1744362,
+      "hash": "SHA256:03aa5e9cf697d9756bc406b7cb1a08dc4f16511480f549313baed7060f6ab4be",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0064.03aa5e9cf697d975.blend"
+    },
+    {
+      "path": "materials/bundle-0065.blend",
+      "size_in_bytes": 4907677,
+      "hash": "SHA256:f74ad0e00a0fb1cf8d1dc8509fefe628f0c9d20cd7b412c2a15502cad7d50ba3",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0065.f74ad0e00a0fb1cf.blend"
+    },
+    {
+      "path": "materials/bundle-0066.blend",
+      "size_in_bytes": 40398663,
+      "hash": "SHA256:7bcfb1154ada445172fd8a61b113d5ca6962f772e9e3ad7a0cdce77d064a3264",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0066.7bcfb1154ada4451.blend"
+    },
+    {
+      "path": "materials/bundle-0067.blend",
+      "size_in_bytes": 238563,
+      "hash": "SHA256:0fd53c7d72a48a8383d06db6911d48ddde23223d6615e1ef0172f0ec5328c86b",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0067.0fd53c7d72a48a83.blend"
+    },
+    {
+      "path": "materials/bundle-0068.blend",
+      "size_in_bytes": 6299932,
+      "hash": "SHA256:03d0e8753e84da0bdd947139a50ecbedf76ac3f74c82394c1939f90b95ae3856",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0068.03d0e8753e84da0b.blend"
+    },
+    {
+      "path": "materials/bundle-0069.blend",
+      "size_in_bytes": 36499039,
+      "hash": "SHA256:a9d1ecee26990a2ce6735e09443d86f1e3563fbdd3a85d1e4add824227aa9c48",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0069.a9d1ecee26990a2c.blend"
+    },
+    {
+      "path": "materials/bundle-0070.blend",
+      "size_in_bytes": 66366893,
+      "hash": "SHA256:2c3338d14f262493c14a81c99c14fa0c8892a982d7cce0139252447abdf2579f",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0070.2c3338d14f262493.blend"
+    },
+    {
+      "path": "materials/bundle-0071.blend",
+      "size_in_bytes": 1761418,
+      "hash": "SHA256:b8b93285f380ad538e605101767dd0642b3da2ac9b209ec1c0c37228ff569655",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0071.b8b93285f380ad53.blend"
+    }
+  ]
+}

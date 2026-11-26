@@ -1,0 +1,27 @@
+{
+  "version": "v1",
+  "blocklist": [],
+  "assetlib_auth_method": "PER_LIBRARY",
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "trackmania_2020_materials_library",
+      "name": "Trackmania 2020 - Materials Library",
+      "tagline": "Trackmania materials with efficient remote downloads",
+      "version": "1.0.0",
+      "type": "asset-library",
+      "maintainer": "BigthirstyTM",
+      "license": [
+        "SPDX:LicenseRef-TM2020-Game-Assets"
+      ],
+      "blender_version_min": "5.3.0",
+      "website": "https://bigthirstytm.github.io/TM2020-Material-Assets-Library/",
+      "permissions": {
+        "scripts": "Material previews use timeline driver expressions"
+      },
+      "archive_url": "./trackmania_2020_materials_library-1.0.0.zip",
+      "archive_size": 1353,
+      "archive_hash": "sha256:9007827b7f08a8544d6c2bb6ae57ea7024f5edf867db7276fa555a9b867902fd"
+    }
+  ]
+}

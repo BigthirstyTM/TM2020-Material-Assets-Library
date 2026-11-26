@@ -1,0 +1,689 @@
+{
+  "schema_version": "1.0.0",
+  "asset_size_bytes": 2972557344,
+  "asset_count": 825,
+  "file_count": 98,
+  "pages": [
+    {
+      "url": "_v1/assets-00000.json",
+      "hash": "SHA256:75f7d0fbeb3dcff04a80a7b95a82c421da0cec526154a58e4f5653e6febe6ca6"
+    },
+    {
+      "url": "_v1/assets-00001.json",
+      "hash": "SHA256:f487fe45044f447b4b8e9209b560c76c12f73364225a0afe9e6a591a3658f030"
+    },
+    {
+      "url": "_v1/assets-00002.json",
+      "hash": "SHA256:522b70c05183c38139548d9039a285dff95741ca3cc4893bcc9f97f2e0751201"
+    },
+    {
+      "url": "_v1/assets-00003.json",
+      "hash": "SHA256:69a867d6f7ed2665e4fdd863b2a7f50a16ace8781382a4391ddf722654dbdcce"
+    },
+    {
+      "url": "_v1/assets-00004.json",
+      "hash": "SHA256:aecba9071d9c29eed9a35bbebec852db6e2d749b31df3ef3e48aed6e927cd49e"
+    },
+    {
+      "url": "_v1/assets-00005.json",
+      "hash": "SHA256:3c17fe2183899f1ed2d83a266b6ebdc242485855e7ca5700e00ba0ffc76306ed"
+    },
+    {
+      "url": "_v1/assets-00006.json",
+      "hash": "SHA256:672a9b6dca8824b4bd1dbaf04b1b7b2eaa5d3e279dd28e92f59a6004fec43091"
+    }
+  ],
+  "catalogs": [
+    {
+      "path": "Trackmania2020",
+      "uuids": [
+        "eb493c20-0aba-405d-81fe-124aeb7d36d3"
+      ],
+      "simple_name": "Trackmania2020"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium",
+      "uuids": [
+        "079fcd16-f200-4c55-b4b8-15cf37389497"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials",
+      "uuids": [
+        "0ca95c42-42bf-4b35-b03e-9dff7eae4391"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/AD SCREENS",
+      "uuids": [
+        "c20b9637-5eb4-4300-be59-ff8c113d9c53"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-AD SCREENS"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/Additional structures",
+      "uuids": [
+        "f34ee757-179c-5a8d-8146-5cdd6cf0873e"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-Additional structures"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/Additional surfaces",
+      "uuids": [
+        "4e5fb21a-52f7-5a19-95cc-3e89edd3cf06"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-Additional surfaces"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/BOOST",
+      "uuids": [
+        "8e4925e7-117b-41e6-b4de-35cbb23097ff"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-BOOST"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/BOOST2",
+      "uuids": [
+        "71f0d2bc-80d1-4a13-bdf8-139489ae9cbe"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-BOOST2"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/CANOPY",
+      "uuids": [
+        "7a45ddc6-5b7c-4240-950f-25733c2c0e73"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-CANOPY"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/CRUISE",
+      "uuids": [
+        "230e8191-891e-40a7-90e1-f7f5362ac3a9"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-CRUISE"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/CUSTOMIZABLE MATERIALS",
+      "uuids": [
+        "2a0112fe-4670-4884-b463-b156ef68121d"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-CUSTOMIZABLE MATERIALS"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/DECALS FOR ANIMATED OBSTACLES",
+      "uuids": [
+        "5e4ece86-df41-4317-bba3-60976325c806"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-DECALS FOR ANIMATED OBSTACLES"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/DECALS FOR MARKINGS",
+      "uuids": [
+        "2734ee5a-296e-460a-beb0-e32dacbe520c"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-DECALS FOR MARKINGS"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
+      "uuids": [
+        "c2747340-c0e8-4238-897b-f166201bb492"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-DECALS FOR SPONSORS AND BRANDING"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/DECO",
+      "uuids": [
+        "48183039-150a-43d0-81be-3f3a4f0213b3"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-DECO"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/Decals and signs",
+      "uuids": [
+        "e44d7358-c205-5044-902f-ff6f2044975e"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-Decals and signs"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/FRAGILE",
+      "uuids": [
+        "587c9897-7576-4a57-9a9b-ca30b6567ea2"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-FRAGILE"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/INVISIBLE",
+      "uuids": [
+        "62304975-1188-4046-9b79-97d2804e1e8a"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-INVISIBLE"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/ITEMS",
+      "uuids": [
+        "b3363c3c-bbe9-4ca1-8c69-4f5a5c8d77ed"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-ITEMS"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/ITEMS DECO",
+      "uuids": [
+        "254de6ab-2949-4182-ba46-e0953417c425"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-ITEMS DECO"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/ITEMS OBSTACLES",
+      "uuids": [
+        "cd9ea286-3bab-4278-8bdf-d59859f30020"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-ITEMS OBSTACLES"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/MODABLE MATERIALS",
+      "uuids": [
+        "c898c0c9-c108-480d-9c15-582f8d769eb9"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-MODABLE MATERIALS"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/NOBRAKE",
+      "uuids": [
+        "b7057da1-1e69-47a7-89cd-653dc7b624ef"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-NOBRAKE"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/NOENGINE",
+      "uuids": [
+        "9984b186-0ceb-4096-bc5f-e64cbb67af38"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-NOENGINE"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/NOSTEERING",
+      "uuids": [
+        "d75f5499-8e89-48f1-80b1-11b8815b9fc0"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-NOSTEERING"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/PLATFORM DIRT",
+      "uuids": [
+        "e6a3d904-d2ba-4c54-bdbf-f106dae819fb"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-PLATFORM DIRT"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/PLATFORM GRASS",
+      "uuids": [
+        "ad3c9cee-58b2-4c43-b8b5-f9afa5bd46d0"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-PLATFORM GRASS"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/PLATFORM ICE",
+      "uuids": [
+        "db205d75-6140-445d-9450-f26dc19d8c04"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-PLATFORM ICE"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/PLATFORM PLASTIC",
+      "uuids": [
+        "e97b38be-30fb-42d4-b5ed-9d7d1a7ace52"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-PLATFORM PLASTIC"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/PODIUM",
+      "uuids": [
+        "4d7b1b72-66a9-436a-a1f7-66d95e9e4405"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-PODIUM"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/RACING",
+      "uuids": [
+        "8d234412-69ec-4f4f-be3f-63986b0d241b"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-RACING"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/RESET",
+      "uuids": [
+        "efa07461-5d12-4af2-80d4-4ed7f7d88011"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-RESET"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/ROADS",
+      "uuids": [
+        "a3c30da4-78aa-4832-9a83-67cb8d175520"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-ROADS"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/SLOWMOTION",
+      "uuids": [
+        "354585b8-04d0-4c39-9999-ad4d50b77ec8"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-SLOWMOTION"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/SPECIAL TURBO",
+      "uuids": [
+        "08ddeeb2-21b1-4a0b-bc64-b39995f39aa5"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-SPECIAL TURBO"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/TECHNICS",
+      "uuids": [
+        "35253e7c-8d09-4a3f-9c95-1a2cc4561be5"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-TECHNICS"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/THEME DESERT",
+      "uuids": [
+        "2abd51ba-0011-4338-be47-3a23e13a5254"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-THEME DESERT"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/THEME RALLY",
+      "uuids": [
+        "102a5d56-8bfe-4677-9e2e-397814704e5a"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-THEME RALLY"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/THEME SNOW",
+      "uuids": [
+        "f8e02114-07fa-42a2-a58c-350bb6b25694"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-THEME SNOW"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/TURBO ROULETTE",
+      "uuids": [
+        "ff553561-7969-4278-819b-889ed54cdc44"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-TURBO ROULETTE"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/TURBO2",
+      "uuids": [
+        "9bd83e6d-203d-413a-a012-47bc975b7882"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-TURBO2"
+    },
+    {
+      "path": "Trackmania2020/01 Stadium/Materials/WARP",
+      "uuids": [
+        "9b5c4bbf-1819-4a6c-9720-7259a115772f"
+      ],
+      "simple_name": "Trackmania2020-01 Stadium-Materials-WARP"
+    },
+    {
+      "path": "Trackmania2020/02 BlueBay",
+      "uuids": [
+        "18d5af6a-ff5c-5430-b9cf-c0be1fbbb2de"
+      ],
+      "simple_name": "Trackmania2020-02 BlueBay"
+    },
+    {
+      "path": "Trackmania2020/02 BlueBay/Materials",
+      "uuids": [
+        "4d305b49-0f26-5611-8ab5-5cec6caf01d4"
+      ],
+      "simple_name": "Trackmania2020-02 BlueBay-Materials"
+    },
+    {
+      "path": "Trackmania2020/02 BlueBay/Materials/Terrain",
+      "uuids": [
+        "7abc5f5b-d2e3-51fd-9019-de6265a5e206"
+      ],
+      "simple_name": "Trackmania2020-02 BlueBay-Materials-Terrain"
+    },
+    {
+      "path": "Trackmania2020/03 GreenCoast",
+      "uuids": [
+        "205fda3f-39e8-54b3-977d-df4df5ffe86d"
+      ],
+      "simple_name": "Trackmania2020-03 GreenCoast"
+    },
+    {
+      "path": "Trackmania2020/03 GreenCoast/Materials",
+      "uuids": [
+        "1af6a4c8-188d-5505-adc8-b1f88016f550"
+      ],
+      "simple_name": "Trackmania2020-03 GreenCoast-Materials"
+    },
+    {
+      "path": "Trackmania2020/03 GreenCoast/Materials/Other materials",
+      "uuids": [
+        "1b35be5a-e4fc-5f8d-92b8-755b7ca2f3e6"
+      ],
+      "simple_name": "Trackmania2020-03 GreenCoast-Materials-Other materials"
+    },
+    {
+      "path": "Trackmania2020/03 GreenCoast/Materials/Terrain",
+      "uuids": [
+        "d0364853-59a9-5b42-a346-07d6e11fd3a3"
+      ],
+      "simple_name": "Trackmania2020-03 GreenCoast-Materials-Terrain"
+    },
+    {
+      "path": "Trackmania2020/04 RedIsland",
+      "uuids": [
+        "2b3f9f9e-0648-5ab2-88b6-c7358bc36e8a"
+      ],
+      "simple_name": "Trackmania2020-04 RedIsland"
+    },
+    {
+      "path": "Trackmania2020/04 RedIsland/Materials",
+      "uuids": [
+        "b0c599ad-a2ac-5deb-ab0e-c3aa42b69b4b"
+      ],
+      "simple_name": "Trackmania2020-04 RedIsland-Materials"
+    },
+    {
+      "path": "Trackmania2020/04 RedIsland/Materials/Other materials",
+      "uuids": [
+        "6151d7c0-228d-5c26-8c7f-eec72e8b8554"
+      ],
+      "simple_name": "Trackmania2020-04 RedIsland-Materials-Other materials"
+    },
+    {
+      "path": "Trackmania2020/04 RedIsland/Materials/Terrain",
+      "uuids": [
+        "f564fd12-ae40-52c4-a3eb-af99e4b3268a"
+      ],
+      "simple_name": "Trackmania2020-04 RedIsland-Materials-Terrain"
+    },
+    {
+      "path": "Trackmania2020/05 WhiteShore",
+      "uuids": [
+        "29c4f9a1-5c33-55ba-ab70-3e7da92da09e"
+      ],
+      "simple_name": "Trackmania2020-05 WhiteShore"
+    },
+    {
+      "path": "Trackmania2020/05 WhiteShore/Materials",
+      "uuids": [
+        "e81f17dc-c28d-534b-b3ea-11530185f788"
+      ],
+      "simple_name": "Trackmania2020-05 WhiteShore-Materials"
+    },
+    {
+      "path": "Trackmania2020/05 WhiteShore/Materials/Other materials",
+      "uuids": [
+        "886267fc-3c5a-5a9e-a769-cf28a12c71af"
+      ],
+      "simple_name": "Trackmania2020-05 WhiteShore-Materials-Other materials"
+    },
+    {
+      "path": "Trackmania2020/05 WhiteShore/Materials/Terrain",
+      "uuids": [
+        "88140e75-473a-545f-9237-7f51744ca682"
+      ],
+      "simple_name": "Trackmania2020-05 WhiteShore-Materials-Terrain"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental",
+      "uuids": [
+        "7f1fad63-284b-5aed-ae0e-9261836d3fa0"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Clouds",
+      "uuids": [
+        "9e984d03-3241-5b2e-ad08-992ce3be83c8"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Clouds"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Clouds/No surface observed",
+      "uuids": [
+        "0781fbe2-5d0a-52e4-995a-8717ac445e8d"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Clouds-No surface observed"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Clouds/No surface observed/Sky and atmosphere",
+      "uuids": [
+        "175d3500-221f-5153-8c83-3028335cb559"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Clouds-No surface observed-Sky and atmosphere"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Editors",
+      "uuids": [
+        "63d36955-3834-5998-9ff7-f84c5165b9c5"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Editors"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Editors/Editor return limitation",
+      "uuids": [
+        "c2796adf-1797-540d-bc42-c5e64f1bac6c"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Editors-Editor return limitation"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Editors/Editor return limitation/Surfaces",
+      "uuids": [
+        "fa653f04-cc81-57ed-838c-73e8274dfadf"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Editors-Editor return limitation-Surfaces"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Editors/Visible in Stadium",
+      "uuids": [
+        "91ff82d7-028c-5655-942b-3a28b3fad851"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Editors-Visible in Stadium"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Editors/Visible in Stadium/Surfaces",
+      "uuids": [
+        "57341dc2-37dd-5ec7-a0dc-bafd76a414b0"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Editors-Visible in Stadium-Surfaces"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Effects",
+      "uuids": [
+        "332adb58-b4bb-5d2a-929e-e9fc63ce82cc"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Effects"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Effects/Not yet tested",
+      "uuids": [
+        "eb50242c-60ce-58e0-bde4-936f7994e1f7"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Effects-Not yet tested"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Effects/Not yet tested/Effects",
+      "uuids": [
+        "4bb60e62-bf7b-5b67-adb7-d8960481f982"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Effects-Not yet tested-Effects"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Engines",
+      "uuids": [
+        "884cf65c-e141-5d33-a89a-30d8dee4f7ac"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Engines"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Engines/Visible in Stadium",
+      "uuids": [
+        "c63f3e7e-cc0f-54dc-aa99-0626b07435e7"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Engines-Visible in Stadium"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Engines/Visible in Stadium/UI and compositing",
+      "uuids": [
+        "87c4073e-9c75-5720-b858-885e99fff2b5"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Engines-Visible in Stadium-UI and compositing"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Garage",
+      "uuids": [
+        "52e35e4b-2c83-5267-8321-c522732b5178"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Garage"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Garage/No surface observed",
+      "uuids": [
+        "dad0db11-ceae-593f-91c7-5a70d765c8be"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Garage-No surface observed"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Garage/No surface observed/UI and compositing",
+      "uuids": [
+        "348d8324-ad24-5ed7-abbb-01b24bcd0459"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Garage-No surface observed-UI and compositing"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Menu",
+      "uuids": [
+        "7efca204-c858-51a8-94dd-63a8d6cf5d67"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Menu"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Menu/No surface observed",
+      "uuids": [
+        "8f77c6f6-9630-5bd9-8ee8-19fb7ac5663c"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Menu-No surface observed"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Menu/No surface observed/UI and compositing",
+      "uuids": [
+        "64d8ee76-d81a-57ef-8d13-ec2ab35ad5ac"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Menu-No surface observed-UI and compositing"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/PainterTech",
+      "uuids": [
+        "c9453e43-a642-5177-b91d-d0dfd04b992c"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-PainterTech"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/PainterTech/Not yet tested",
+      "uuids": [
+        "1e8906f3-1d70-5fc0-b42b-688784f70332"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-PainterTech-Not yet tested"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/PainterTech/Not yet tested/UI and compositing",
+      "uuids": [
+        "530e02d5-9982-56e7-a2af-27a9d382b2d8"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-PainterTech-Not yet tested-UI and compositing"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/ShootMania",
+      "uuids": [
+        "529ca335-73af-5854-b392-ede15d1ad3c7"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-ShootMania"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/ShootMania/No surface observed",
+      "uuids": [
+        "56d27db9-ba40-5111-8d33-bb39d1cd1fca"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-ShootMania-No surface observed"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/ShootMania/No surface observed/Effects",
+      "uuids": [
+        "ecc154f6-fc08-5474-b5c8-104c5e5c5d7e"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-ShootMania-No surface observed-Effects"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Sky",
+      "uuids": [
+        "811edcde-892e-59c9-ab51-a1bb592506ad"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Sky"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Sky/No surface observed",
+      "uuids": [
+        "d0fbbd64-9109-58ee-85cc-a2105f99b848"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Sky-No surface observed"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Sky/No surface observed/Sky and atmosphere",
+      "uuids": [
+        "b3e7f747-aeac-5395-a5dd-ad16154a5b70"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Sky-No surface observed-Sky and atmosphere"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Techno3",
+      "uuids": [
+        "f2f435dc-a196-52ac-8c0d-18a0bdd4fbd9"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Techno3"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Techno3/Not yet tested",
+      "uuids": [
+        "a4588b8a-48d5-5e98-afe6-5844e7d87cc8"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Techno3-Not yet tested"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Techno3/Not yet tested/Shader templates",
+      "uuids": [
+        "db30dc3c-3db1-546c-9321-ccf0298568ac"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Techno3-Not yet tested-Shader templates"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Vehicles",
+      "uuids": [
+        "32d77405-6574-5576-bac1-ab4bfe80d7cd"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Vehicles"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Vehicles/Not yet tested",
+      "uuids": [
+        "33c604a1-4e4d-54cd-8560-579a686acc77"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Vehicles-Not yet tested"
+    },
+    {
+      "path": "Trackmania2020/07 Experimental/Vehicles/Not yet tested/Effects",
+      "uuids": [
+        "85b2bc68-dfa6-5c2a-b042-957667445f50"
+      ],
+      "simple_name": "Trackmania2020-07 Experimental-Vehicles-Not yet tested-Effects"
+    }
+  ]
+}

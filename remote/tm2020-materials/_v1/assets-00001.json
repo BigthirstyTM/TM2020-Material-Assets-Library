@@ -1,0 +1,3696 @@
+{
+  "asset_count": 128,
+  "file_count": 11,
+  "assets": [
+    {
+      "name": "TM_Boost_SignOff_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-874aaadd954b21dbf825b5fb.7ca4ffc589f150ac.webp",
+        "hash": "SHA256:7ca4ffc589f150ac8ed9a98bb6cb506e4d7e8c4e62f25b88832f846a927046cf"
+      },
+      "meta": {
+        "catalog_id": "8e4925e7-117b-41e6-b4de-35cbb23097ff",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_Cruise_Sign_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-3c0b55c51d98078606eac4e1.a411a8897de22195.webp",
+        "hash": "SHA256:a411a8897de22195b1a56bc1f2a0198270981f8fcdcfcbd837687dc67ac488bc"
+      },
+      "meta": {
+        "catalog_id": "230e8191-891e-40a7-90e1-f7f5362ac3a9",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_CustomModOpaque2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-07c7d9f22cbfda8bb2b53f4a.f3c6c52728f56164.webp",
+        "hash": "SHA256:f3c6c52728f56164604fc84f81ccff89b2c689b50f3f21721223692b2bbbe034"
+      },
+      "meta": {
+        "catalog_id": "c898c0c9-c108-480d-9c15-582f8d769eb9",
+        "tags": [
+          "Physics: Concrete",
+          "Preview: Default input texture",
+          "Export: Native binding",
+          "Usage: Customizable",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Default input texture | Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters."
+      }
+    },
+    {
+      "name": "TM_DecoTechnics_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-0be4f54dbdfcbec8a4f1a8f6.c588430639ea5b8d.webp",
+        "hash": "SHA256:c588430639ea5b8d82ac7c06b260ae2210651973bfc4d8826b06684f78500e89"
+      },
+      "meta": {
+        "catalog_id": "35253e7c-8d09-4a3f-9c95-1a2cc4561be5",
+        "tags": [
+          "Physics: Metal",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_Experimental_Garage_GarageBackGround_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-0923c58f68c557859f4cd530.29ee942e9c64bd1a.webp",
+        "hash": "SHA256:29ee942e9c64bd1aa309441bec0e1062ce66d46fb2a9ad4ee4c12ae1c9e04a51"
+      },
+      "meta": {
+        "catalog_id": "348d8324-ad24-5ed7-abbb-01b24bcd0459",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Garage",
+          "UI and compositing",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Menu_BgsPlayerCard2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-0b12cca90e33f7de44be6082.82b1a4d68f9abd67.webp",
+        "hash": "SHA256:82b1a4d68f9abd678957868a907521b95a831b703f276b7f0a50abc5495966ae"
+      },
+      "meta": {
+        "catalog_id": "64d8ee76-d81a-57ef-8d13-ec2ab35ad5ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Menu",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Menu_EditorButtons_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-0bcbfad7311b13434cc359d4.d995f149571c50c1.webp",
+        "hash": "SHA256:d995f149571c50c180e2feaf4ab5fcee41bd2104928c5fc3c9d7aaa4b858d36b"
+      },
+      "meta": {
+        "catalog_id": "64d8ee76-d81a-57ef-8d13-ec2ab35ad5ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Menu",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Menu_MenuBox3dMetal_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-080f1e220f758b9082c626b8.8b16c164459b4d39.webp",
+        "hash": "SHA256:8b16c164459b4d39deae9d4132bc2e2120792e522dd3ccc4fbd1a0ce6fb8d5d6"
+      },
+      "meta": {
+        "catalog_id": "64d8ee76-d81a-57ef-8d13-ec2ab35ad5ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Menu",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_SpriteAddSoft_ColorRotate_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-0bea2bdb0444c61f4cbac615.d0df2cfffc3dab9b.webp",
+        "hash": "SHA256:d0df2cfffc3dab9bf5ec99b12bdc44fc14e91397e096bc0dc3a287ed1d8d23b4"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Warp_PyPxzDiff_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-0c03e35e3ace6177268dd952.ad47c6dd585f18dc.webp",
+        "hash": "SHA256:ad47c6dd585f18dc52157473ca4170e67c0ebd6f7fa629abbcb487df5314530c"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Editor return limitation",
+          "Group load cycle captured",
+          "Preview: Technical source view",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Technical source view | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Fragile_Sign_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-b7909136d0df536c158186dd.128f4db2bbe327ee.webp",
+        "hash": "SHA256:128f4db2bbe327ee3b6f353d65d52eb20f40cb88266145092a8e994e4547be75"
+      },
+      "meta": {
+        "catalog_id": "587c9897-7576-4a57-9a9b-ca30b6567ea2",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_ItemCurveSign_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-c674d97d18919854a964dd0a.19d33c848bd4e3a7.webp",
+        "hash": "SHA256:19d33c848bd4e3a799a2451d02b6af62d583dbbca4daa210e650c2c0cbed43f9"
+      },
+      "meta": {
+        "catalog_id": "b3363c3c-bbe9-4ca1-8c69-4f5a5c8d77ed",
+        "tags": [
+          "Physics: Concrete",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_ItemCurveSignB_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-f4b672807398d29fba09ec67.46461c8d4a8cbd22.webp",
+        "hash": "SHA256:46461c8d4a8cbd22c7ff7994db888198a65a743792c2d4f5fd9b5d71f0f67193"
+      },
+      "meta": {
+        "catalog_id": "b3363c3c-bbe9-4ca1-8c69-4f5a5c8d77ed",
+        "tags": [
+          "Physics: Concrete",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_ItemCurveSignC_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-12e8e95d8c58db89eb577822.30f6773bca9ef23e.webp",
+        "hash": "SHA256:30f6773bca9ef23e60195ce46c8c46aae85e890112173a91939701ec5a955582"
+      },
+      "meta": {
+        "catalog_id": "b3363c3c-bbe9-4ca1-8c69-4f5a5c8d77ed",
+        "tags": [
+          "Physics: Concrete",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_ItemObstacle_ItemObstacleLightLevel0_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-0bda486f8b8182528a64012e.f20e2ece3ca428bc.webp",
+        "hash": "SHA256:f20e2ece3ca428bc55f85bd30d347b1993909e41802ac6edaedbc4c8bb71282f"
+      },
+      "meta": {
+        "catalog_id": "cd9ea286-3bab-4278-8bdf-d59859f30020",
+        "tags": [
+          "Physics: Plastic",
+          "Preview: Composed material",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed material | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_ItemObstacle_ItemObstacleLightLevel1_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-235002a1a5bcd9ab0772e99d.740abad6bf62d8a8.webp",
+        "hash": "SHA256:740abad6bf62d8a82f9ebf91d75af7e0b916b26b8e3a5b58d2eadf6da27f7e3e"
+      },
+      "meta": {
+        "catalog_id": "cd9ea286-3bab-4278-8bdf-d59859f30020",
+        "tags": [
+          "Physics: Plastic",
+          "Preview: Composed material",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed material | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_ItemObstacle_ItemObstacleLightLevel2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-340ec9e0c0ed1872d9ed2b5b.9c5e798cd6224e35.webp",
+        "hash": "SHA256:9c5e798cd6224e35dad5e0729909c163a05c0954a49a8362f3af82ee6f08700c"
+      },
+      "meta": {
+        "catalog_id": "cd9ea286-3bab-4278-8bdf-d59859f30020",
+        "tags": [
+          "Physics: Plastic",
+          "Preview: Composed material",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed material | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_ItemObstacleDiscontinuous_ItemObstacleLightLevel0_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-1cbea0874652114225f6edda.ed6a3c2954d6a067.webp",
+        "hash": "SHA256:ed6a3c2954d6a067fe85becb888c9048a4ef66f797921655191c4b50515de725"
+      },
+      "meta": {
+        "catalog_id": "cd9ea286-3bab-4278-8bdf-d59859f30020",
+        "tags": [
+          "Physics: Plastic",
+          "Preview: Composed material",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed material | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_ItemObstacleDiscontinuous_ItemObstacleLightLevel1_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-d6ac4efadf06be57085a4a3a.f56536ed9567b623.webp",
+        "hash": "SHA256:f56536ed9567b623c6c513cf4f7dd10a4d49ccf65a5e45355e405e74a9a4272b"
+      },
+      "meta": {
+        "catalog_id": "cd9ea286-3bab-4278-8bdf-d59859f30020",
+        "tags": [
+          "Physics: Plastic",
+          "Preview: Composed material",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed material | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_ItemObstacleDiscontinuous_ItemObstacleLightLevel2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-c67f25af6b083847d41ce4d4.3a8995fd1dd88bc2.webp",
+        "hash": "SHA256:3a8995fd1dd88bc204a853feb01a86dcb01d36bed0a1e4eca22b9541673c39d1"
+      },
+      "meta": {
+        "catalog_id": "cd9ea286-3bab-4278-8bdf-d59859f30020",
+        "tags": [
+          "Physics: Plastic",
+          "Preview: Composed material",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed material | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_ItemObstacleLight_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-abaeb9f8519cc5a69d6835f4.f122290ceae16d85.webp",
+        "hash": "SHA256:f122290ceae16d850568d1a27e2fb74062f8ace92f856a272b3f3afb40fe918b"
+      },
+      "meta": {
+        "catalog_id": "cd9ea286-3bab-4278-8bdf-d59859f30020",
+        "tags": [
+          "Physics: Plastic",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_ItemWrongWaySign_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-acfdd9a77370e30f36ae2250.ce27051835df5827.webp",
+        "hash": "SHA256:ce27051835df58279f694c8e4ea418834b35f2774deb1105a831bc10fb2bd4c2"
+      },
+      "meta": {
+        "catalog_id": "b3363c3c-bbe9-4ca1-8c69-4f5a5c8d77ed",
+        "tags": [
+          "Physics: Concrete",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_NoBrake_Sign_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-76270885607998a9dc1d4e51.11a1c16d97dcd9fe.webp",
+        "hash": "SHA256:11a1c16d97dcd9fe1a307aecc60371365037ed35a33c10225872c94d6eccfbe2"
+      },
+      "meta": {
+        "catalog_id": "b7057da1-1e69-47a7-89cd-653dc7b624ef",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_NoEngine_Sign_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-09c56e043312c8ccad44dd4f.dcb4a18d82ba5117.webp",
+        "hash": "SHA256:dcb4a18d82ba51179a2bb831b71ed1274cf01e52cb75d136a630c9e9cba9c09b"
+      },
+      "meta": {
+        "catalog_id": "9984b186-0ceb-4096-bc5f-e64cbb67af38",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_NoSteering_Sign_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-b5d0eda46e1a629201ff4b99.5b7d47b1fd7a4888.webp",
+        "hash": "SHA256:5b7d47b1fd7a48882e80f3a077e7af33f0d23830684a398eab10f068f1480ae3"
+      },
+      "meta": {
+        "catalog_id": "d75f5499-8e89-48f1-80b1-11b8815b9fc0",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_PodiumMedalMetal_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-09e5db65a215ec02bbdc6510.56b71ea1467cc335.webp",
+        "hash": "SHA256:56b71ea1467cc335557812af66646547fb9bf05579aea325b1341add90effbcd"
+      },
+      "meta": {
+        "catalog_id": "4d7b1b72-66a9-436a-a1f7-66d95e9e4405",
+        "tags": [
+          "Physics: Metal",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_Reset_Sign_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-2a89391c1ea5a36da4375401.c241ee4cb41f038d.webp",
+        "hash": "SHA256:c241ee4cb41f038d42ebcb1451bf014b07f46038961bf3da89ef8d6b47c7c340"
+      },
+      "meta": {
+        "catalog_id": "efa07461-5d12-4af2-80d4-4ed7f7d88011",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_SlowMotion_Sign_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-8083b99c0dee951cf252c151.41f6d2658ee7d927.webp",
+        "hash": "SHA256:41f6d2658ee7d92716485edb5ef8329177b90c4d18552800318a5407cf8c17ae"
+      },
+      "meta": {
+        "catalog_id": "354585b8-04d0-4c39-9999-ad4d50b77ec8",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_SpecialSignOff_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-95261e209c93b1e9d40ebbb0.458ceb8d7a9658c0.webp",
+        "hash": "SHA256:458ceb8d7a9658c03b8d7832d18e9498b404d9bb00e9153e4f25c25cd8d3f1f3"
+      },
+      "meta": {
+        "catalog_id": "08ddeeb2-21b1-4a0b-bc64-b39995f39aa5",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_SpecialSignTurbo_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-2cb110ab4d614be857d2e63c.b92cc97c1ad2adee.webp",
+        "hash": "SHA256:b92cc97c1ad2adee98aeed5e679c13beaad3aa2a157a995e4f3327b4aab67b0a"
+      },
+      "meta": {
+        "catalog_id": "08ddeeb2-21b1-4a0b-bc64-b39995f39aa5",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_Turbo2_Sign_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0011.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-1a18fe0b8d9524de6993221c.0e6ece45e3fad3d6.webp",
+        "hash": "SHA256:0e6ece45e3fad3d648224c3a1b7ccf9953b91a8576053d61f0cee201f2c5a41c"
+      },
+      "meta": {
+        "catalog_id": "9bd83e6d-203d-413a-a012-47bc975b7882",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_OpenTechBorders_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0012.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-e0fa62c7d6176cec720a1588.d81bfaef0b1c186f.webp",
+        "hash": "SHA256:d81bfaef0b1c186ff2ee92de431d46e50b888eb1c4ad3ebac42ef40fa58d5175"
+      },
+      "meta": {
+        "catalog_id": "a3c30da4-78aa-4832-9a83-67cb8d175520",
+        "tags": [
+          "Physics: Asphalt",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_PlatformDirt_OpenTechBorders_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0012.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-a753600ca7d4602230f10c74.cb66d27c18178da4.webp",
+        "hash": "SHA256:cb66d27c18178da4188dcef79ec6b394a954be496b8228621198e3739773c82a"
+      },
+      "meta": {
+        "catalog_id": "e6a3d904-d2ba-4c54-bdbf-f106dae819fb",
+        "tags": [
+          "Physics: Dirt",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_PlatformGrass_OpenTechBorders_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0012.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-99ecef63aa2a99b8cee29e82.9bdbf72f51719e35.webp",
+        "hash": "SHA256:9bdbf72f51719e3583fa7f1585db75f5a1360356808a6f401016a5dc6abe7bb7"
+      },
+      "meta": {
+        "catalog_id": "ad3c9cee-58b2-4c43-b8b5-f9afa5bd46d0",
+        "tags": [
+          "Physics: Green",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_PlatformIce_OpenTechBorders_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0012.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-8c4307da51ce2590903f6607.79b9f28e5fc6dc77.webp",
+        "hash": "SHA256:79b9f28e5fc6dc771f26076c2f583a965a1c02d4d759fbefe51889530dcddcea"
+      },
+      "meta": {
+        "catalog_id": "db205d75-6140-445d-9450-f26dc19d8c04",
+        "tags": [
+          "Physics: RoadIce",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Vertex Color",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Source texture | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_PlatformIce_PlatformTech_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0012.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-09530893cb13d569e0eeccea.98a7436347602ecb.webp",
+        "hash": "SHA256:98a7436347602ecb799a94762b94464934b0dc8852acb7b37fd4b31e28de28f0"
+      },
+      "meta": {
+        "catalog_id": "db205d75-6140-445d-9450-f26dc19d8c04",
+        "tags": [
+          "Physics: RoadIce",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Vertex Color",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Source texture | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_RoadIce_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0012.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-65414f0ae32fe5d13300666d.5b161c6c3b8459de.webp",
+        "hash": "SHA256:5b161c6c3b8459de747517780179f4bec7c18d81c89c921aec1f00c47c1cf7b4"
+      },
+      "meta": {
+        "catalog_id": "a3c30da4-78aa-4832-9a83-67cb8d175520",
+        "tags": [
+          "Physics: RoadIce",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Vertex Color",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Source texture | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_Stadium_StructureInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0013.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-0b2bd0b880379079d2a42a56.3b3d5c02a2ea0418.webp",
+        "hash": "SHA256:3b3d5c02a2ea04186f4d8dfe3a74775a7eb29164acd72bd61b599a93a77c0635"
+      },
+      "meta": {
+        "catalog_id": "4e5fb21a-52f7-5a19-95cc-3e89edd3cf06",
+        "tags": [
+          "Trackmania2020",
+          "Stadium",
+          "Additional surfaces",
+          "Physics: Concrete",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (source textures)",
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_WarpTechnic_WithLightmap_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0014.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-0b3894d1d813efb64b53d557.0973a5e5d9672b8e.webp",
+        "hash": "SHA256:0973a5e5d9672b8eec935342c66e825e2702da28840d9b40a453007e1ba74116"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Physics: Metal",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_CustomModTrans2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-169533b1b2926e5cc7c6d28b.3e8927d00a4f60bc.webp",
+        "hash": "SHA256:3e8927d00a4f60bcf57e5eeee5c3ae1f44385d504ba3b052e4dc8fa43081d068"
+      },
+      "meta": {
+        "catalog_id": "c898c0c9-c108-480d-9c15-582f8d769eb9",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Default input texture",
+          "Export: Native binding",
+          "Usage: Customizable",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Default input texture | Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters."
+      }
+    },
+    {
+      "name": "TM_Experimental_Clouds_CloudsT3b_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-bab002673738f9013c013796.5b81cc38c541332f.webp",
+        "hash": "SHA256:5b81cc38c541332ff9618bd2c02ed1f0db8a54729230cc5c3cd85b5ada876b0c"
+      },
+      "meta": {
+        "catalog_id": "175d3500-221f-5153-8c83-3028335cb559",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Clouds",
+          "Sky and atmosphere",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Technical source view",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Technical source view | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Effects_CollisionMetal_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-0c0f12d06951501ce5adec0f.89df0d6f4e720cfd.webp",
+        "hash": "SHA256:89df0d6f4e720cfd3287ea9ba762cf6b8f9c29653f3ac2bb86fcd81874634104"
+      },
+      "meta": {
+        "catalog_id": "4bb60e62-bf7b-5b67-adb7-d8960481f982",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Effects",
+          "Effects.001",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Metal",
+          "Collision-only source",
+          "Collision: present in file",
+          "Collision-only export under review",
+          "Preview: Collision function symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Collision function symbol | Use a UV map named BaseMaterial. | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_Experimental_Effects_EditorHelpers_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-12ee440640b6cdc863a1eeaa.50a6285ded5f3314.webp",
+        "hash": "SHA256:50a6285ded5f3314a13679a3505d53fa64236ed22a3b3640e981b87d6a7fd74f"
+      },
+      "meta": {
+        "catalog_id": "4bb60e62-bf7b-5b67-adb7-d8960481f982",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Effects",
+          "Effects.001",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: NotCollidable",
+          "Collision: NotCollidable",
+          "Group load cycle captured",
+          "Preview: Runtime input symbol",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Runtime input symbol | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Menu_321Go_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-174de52829fb80c3b4df6900.c5ce193052cd74d3.webp",
+        "hash": "SHA256:c5ce193052cd74d30f1c421fd06d519c9530d8579d254766fb7a6edc0df48ab4"
+      },
+      "meta": {
+        "catalog_id": "64d8ee76-d81a-57ef-8d13-ec2ab35ad5ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Menu",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Menu_BgsPlayerCard_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-1694aa02b176ca2441acc183.9375c88444b89246.webp",
+        "hash": "SHA256:9375c88444b89246037bf9e655af451cecc5ae6e2b62e42da8ce518f20b01f9a"
+      },
+      "meta": {
+        "catalog_id": "64d8ee76-d81a-57ef-8d13-ec2ab35ad5ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Menu",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Menu_MedalsBig_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-0eb600d6ce3ace892f07aa9f.ed468019f10b41b7.webp",
+        "hash": "SHA256:ed468019f10b41b71d35104b450b785a837c32e2d24f699fbc6fa0cbc9d8b590"
+      },
+      "meta": {
+        "catalog_id": "64d8ee76-d81a-57ef-8d13-ec2ab35ad5ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Menu",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Menu_MenuBox3dGlass_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-11dd53a283b1de19616c11ca.8b16c164459b4d39.webp",
+        "hash": "SHA256:8b16c164459b4d39deae9d4132bc2e2120792e522dd3ccc4fbd1a0ce6fb8d5d6"
+      },
+      "meta": {
+        "catalog_id": "64d8ee76-d81a-57ef-8d13-ec2ab35ad5ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Menu",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Menu_MeshModelerIcons2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-10167ab653474ff6feb69c63.1536352a94d266e3.webp",
+        "hash": "SHA256:1536352a94d266e3d7232bd670345d10d877b6f54a83e303d55c50d57c03d4c3"
+      },
+      "meta": {
+        "catalog_id": "64d8ee76-d81a-57ef-8d13-ec2ab35ad5ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Menu",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Menu_ScriptEditorFocusArea_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-1a7b18a5afb193248c1db9c9.c5e519db7e3009eb.webp",
+        "hash": "SHA256:c5e519db7e3009eb414f55cf961cb7d26f2f0fb58564b5818508aea454623fef"
+      },
+      "meta": {
+        "catalog_id": "64d8ee76-d81a-57ef-8d13-ec2ab35ad5ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Menu",
+          "UI and compositing",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Effect: Invisible in game / collision in file",
+          "No surface observed",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_Ice_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-137bbf9c0ef893aab2d97f3c.9ec467a517b9a414.webp",
+        "hash": "SHA256:9ec467a517b9a414474f8e60872131eba7cbbaab9338f45ff8184a2a2ef863b0"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Visible in Stadium",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_PDiff_Spec_Norm_GrassX2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-184161f2902cef282e08f50a.a7b527c21b4b130d.webp",
+        "hash": "SHA256:a7b527c21b4b130d0dfb21e5828d8c7211134972b6d00997ce1734963dba6dd5"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Visible in Stadium",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_PxzTDiff_Spec_Norm_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-0e9fce4899e2290a897ab3db.a7b527c21b4b130d.webp",
+        "hash": "SHA256:a7b527c21b4b130d0dfb21e5828d8c7211134972b6d00997ce1734963dba6dd5"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Visible in Stadium",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Block_PyPxz_Ids_Tex_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-1216d9b42583017ce0344490.751d2d325493fc24.webp",
+        "hash": "SHA256:751d2d325493fc241a0dc2496be4f5ec72778e56677b097b5cdfbea51b2249fd"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Visible in Stadium",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_MenuBox_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-0e1d742c8de9f2d4a0c9b350.c7ab5e7fd4bb30c2.webp",
+        "hash": "SHA256:c7ab5e7fd4bb30c231b4a4ff206eb85848f0934b273c42439f9b71cda96ddcd9"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Sea_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-151bbc89ea7b1739d9f14f2d.b8710efdd4579f41.webp",
+        "hash": "SHA256:b8710efdd4579f41b96cdbd72c86442292d336f5b6f560b2574827f5169106c9"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load failure unresolved",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check",
+          "Evidence: Group load unresolved"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping. | Associated historical load failure needs individual isolation; group evidence does not identify a culprit or prove this material unsafe."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Voxel_TDSNI_CubeOut_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-1160ea6b0dbc140ee702a8cb.00797819796388b7.webp",
+        "hash": "SHA256:00797819796388b7f3e8d46f80ac84c8d3e2e6d1f3795627628dfa9f5a4c07d3"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Warp_TDiffSpecNormSI_CSpecSoft_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-16e8dccd349408e0170dfeda.a8530535ea089832.webp",
+        "hash": "SHA256:a8530535ea0898323232987efe4c0c03a140160c307a6989c5120b991fb1963b"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load failure unresolved",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check",
+          "Evidence: Group load unresolved"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping. | Associated historical load failure needs individual isolation; group evidence does not identify a culprit or prove this material unsafe."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Water_MultiH_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5a5b450b9eaec96fddc3515b.b8710efdd4579f41.webp",
+        "hash": "SHA256:b8710efdd4579f41b96cdbd72c86442292d336f5b6f560b2574827f5169106c9"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_data_only",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load failure unresolved",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: UV Reference",
+          "Evidence: Historical file check",
+          "Evidence: Group load unresolved"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | UV Reference Switch: 1 = source reference, 0 = original shader. Reference mode is not proof of native mapping. | Associated historical load failure needs individual isolation; group evidence does not identify a culprit or prove this material unsafe."
+      }
+    },
+    {
+      "name": "TM_Experimental_Techno3_VehicleGemsNoSkelDmg_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-101cedf219ee6604ce31fdc4.00797819796388b7.webp",
+        "hash": "SHA256:00797819796388b7f3e8d46f80ac84c8d3e2e6d1f3795627628dfa9f5a4c07d3"
+      },
+      "meta": {
+        "catalog_id": "db30dc3c-3db1-546c-9321-ccf0298568ac",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Techno3",
+          "Shader templates",
+          "Runtime unverified",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: NotCollidable",
+          "Collision: NotCollidable",
+          "Group load failure unresolved",
+          "Preview: Enlarged source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check",
+          "Evidence: Group load unresolved"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Enlarged source texture | Use a UV map named BaseMaterial. | Associated historical load failure needs individual isolation; group evidence does not identify a culprit or prove this material unsafe."
+      }
+    },
+    {
+      "name": "TM_Experimental_Vehicles_ExhaustBoost_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-16030909497991fbbb64a9d8.d9f2f066ddd20a5d.webp",
+        "hash": "SHA256:d9f2f066ddd20a5dc2a3ff1e8da668ea5704e94abdd89dfaae1a234df04b3992"
+      },
+      "meta": {
+        "catalog_id": "85b2bc68-dfa6-5c2a-b042-957667445f50",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Vehicles",
+          "Effects",
+          "Runtime unverified",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: NotCollidable",
+          "Collision: NotCollidable",
+          "Group load failure unresolved",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check",
+          "Evidence: Group load unresolved"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial. | Associated historical load failure needs individual isolation; group evidence does not identify a culprit or prove this material unsafe."
+      }
+    },
+    {
+      "name": "TM_Experimental_Vehicles_ParticleChunksSnow_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-1a439f52fbf6e4e557545ba0.fe9ae4de633655a8.webp",
+        "hash": "SHA256:fe9ae4de633655a8963149c2c5836785bfd4ead686e2595a562444a95fa72fe5"
+      },
+      "meta": {
+        "catalog_id": "85b2bc68-dfa6-5c2a-b042-957667445f50",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Vehicles",
+          "Effects",
+          "Runtime unverified",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Experimental_Vehicles_ParticleSmokeDirt_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-10f76b749579ace5d150f7bc.b881dd297a9ddd6e.webp",
+        "hash": "SHA256:b881dd297a9ddd6ed1efa193d362c99ed0d27c9568d2b2b0a8a6a547e61f0caa"
+      },
+      "meta": {
+        "catalog_id": "85b2bc68-dfa6-5c2a-b042-957667445f50",
+        "tags": [
+          "Trackmania2020",
+          "Experimental",
+          "Vehicles",
+          "Effects",
+          "Runtime unverified",
+          "source_texture_adapter",
+          "Collision shape present",
+          "Physics: Concrete",
+          "Collision: present in file",
+          "Group load cycle captured",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (native source)",
+        "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial."
+      }
+    },
+    {
+      "name": "TM_Invisible_TechMagnetic_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-1ac0fc59aeb033960dc9e480.918c3f0034211880.webp",
+        "hash": "SHA256:918c3f0034211880436b32297d92c99204132ef382e8fb0fb04aeaf5e7ea9965"
+      },
+      "meta": {
+        "catalog_id": "62304975-1188-4046-9b79-97d2804e1e8a",
+        "tags": [
+          "Physics: TechMagnetic",
+          "Preview: Rendered Blender procedural shader",
+          "Export: Native binding",
+          "Usage: Collision helper",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Rendered Blender procedural shader | A visible helper/checker is for editing; native invisibility and collision evidence are separate."
+      }
+    },
+    {
+      "name": "TM_ItemObstacle_ItemObstaclePusherLevel0_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-788bfdedfdcd98423ed3c068.0c6e3cc84706a2dd.webp",
+        "hash": "SHA256:0c6e3cc84706a2dd14ee6b1ffd7b10399b0bdb4eed5dbe314ce9b48fbc4a2472"
+      },
+      "meta": {
+        "catalog_id": "cd9ea286-3bab-4278-8bdf-d59859f30020",
+        "tags": [
+          "Physics: Plastic",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_ItemObstacle_ItemObstaclePusherLevel1_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-dc4cdbfd4b1c92f2680aa0d1.f9c41f16f46fb3c5.webp",
+        "hash": "SHA256:f9c41f16f46fb3c552a59669b149febeffd08ffb9c634d4b8f9262b7d6e05ec2"
+      },
+      "meta": {
+        "catalog_id": "cd9ea286-3bab-4278-8bdf-d59859f30020",
+        "tags": [
+          "Physics: Plastic",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_ItemObstacle_ItemObstaclePusherLevel2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-444fa8437acca124fbf7dc8c.dc11450f9a8b2724.webp",
+        "hash": "SHA256:dc11450f9a8b27240cfc54f07d7a480dab7f8e03201534f92cd86beaf0bb8c29"
+      },
+      "meta": {
+        "catalog_id": "cd9ea286-3bab-4278-8bdf-d59859f30020",
+        "tags": [
+          "Physics: Plastic",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_ItemObstacleDiscontinuous_ItemObstaclePusherLevel0_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5376eee416a08077f9fd6224.f09cb17931a95ad8.webp",
+        "hash": "SHA256:f09cb17931a95ad881952f0ab935f642b9443b227d66f4452746fbab367bc071"
+      },
+      "meta": {
+        "catalog_id": "cd9ea286-3bab-4278-8bdf-d59859f30020",
+        "tags": [
+          "Physics: Plastic",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_ItemObstacleDiscontinuous_ItemObstaclePusherLevel1_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-7a527ca8c6fbfd21734231e0.64f74e4799a4e873.webp",
+        "hash": "SHA256:64f74e4799a4e873e407ce3c8d7e72260dbfca28c9ab8886e0f76ff1c3ce5f32"
+      },
+      "meta": {
+        "catalog_id": "cd9ea286-3bab-4278-8bdf-d59859f30020",
+        "tags": [
+          "Physics: Plastic",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_ItemObstacleDiscontinuous_ItemObstaclePusherLevel2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-13511269f31c103ca0b2729c.c8af3b0a90a9e74b.webp",
+        "hash": "SHA256:c8af3b0a90a9e74b803b28056a51d5629c1d813c00bbbe6f3335b99b0c1e9c89"
+      },
+      "meta": {
+        "catalog_id": "cd9ea286-3bab-4278-8bdf-d59859f30020",
+        "tags": [
+          "Physics: Plastic",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_ItemObstaclePusher_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-9e5784ee3aa4ddf4a689c00d.7248520ba7999cc1.webp",
+        "hash": "SHA256:7248520ba7999cc1c9c624bec38e8fc1eb0a9481c174d77822907015052cf007"
+      },
+      "meta": {
+        "catalog_id": "cd9ea286-3bab-4278-8bdf-d59859f30020",
+        "tags": [
+          "Physics: Plastic",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_Underwater_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0015.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-0d7af80d01e2d0f900e27fc3.3deae748be80fa44.webp",
+        "hash": "SHA256:3deae748be80fa44affb6e2d30667ddae0e4d4509a401bff551afa32e76a2ffa"
+      },
+      "meta": {
+        "catalog_id": "35253e7c-8d09-4a3f-9c95-1a2cc4561be5",
+        "tags": [
+          "Physics: Plastic",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_BlueBay_DecoHill2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0016.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-148e25accfdd17bd415547ec.745d3d0f4247ff97.webp",
+        "hash": "SHA256:745d3d0f4247ff97ec3295fee12bbaf980f90be5921275fcce8a93dce9100f8f"
+      },
+      "meta": {
+        "catalog_id": "7abc5f5b-d2e3-51fd-9019-de6265a5e206",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Grass",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender."
+      }
+    },
+    {
+      "name": "TM_BlueBay_DecoHill_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0016.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-de31948b3602a6c9f5009e0e.0d066747dccb8e62.webp",
+        "hash": "SHA256:0d066747dccb8e624e1440db4f16b8c03b875f009463bfe5762f80b0e557c614"
+      },
+      "meta": {
+        "catalog_id": "7abc5f5b-d2e3-51fd-9019-de6265a5e206",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Grass",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender."
+      }
+    },
+    {
+      "name": "TM_BlueBay_TransitionToLand_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0016.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-8da978c212c94562d7083b30.eebb3100261d172c.webp",
+        "hash": "SHA256:eebb3100261d172c09658b78ee5f8d314ff7f8d2fe0a0921765374c051db38ca"
+      },
+      "meta": {
+        "catalog_id": "7abc5f5b-d2e3-51fd-9019-de6265a5e206",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Grass",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. Vertex alpha: Color alpha 0 selects the projected base; alpha 1 adds the native UV overlay through its texture alpha."
+      }
+    },
+    {
+      "name": "TM_DecoHill2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0016.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6875d6ee79d1c9a1c14f257e.6e1fbc64c6d346fb.webp",
+        "hash": "SHA256:6e1fbc64c6d346fbd809d0b8f7e81dd2124a967c9c67af83c141ebd4179dc537"
+      },
+      "meta": {
+        "catalog_id": "48183039-150a-43d0-81be-3f3a4f0213b3",
+        "tags": [
+          "Effect: World projection",
+          "Physics: Grass",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Vertex Color",
+          "Usage: Animation",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Original requested icon retained; inspect Color vertex alpha and projected layers on the mesh. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_DecoHill_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0016.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-109c7a5f6ada3d5c7626f340.3d6cff97987a70f7.webp",
+        "hash": "SHA256:3d6cff97987a70f762e23d3ed060d02fc63bdaa8f12a7d246f2775a6ba2bf695"
+      },
+      "meta": {
+        "catalog_id": "48183039-150a-43d0-81be-3f3a4f0213b3",
+        "tags": [
+          "Effect: World projection",
+          "Physics: Grass",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Vertex Color",
+          "Usage: Animation",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Original requested icon retained; inspect Color vertex alpha and projected layers on the mesh. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_CliffTransition2ToGrass_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0016.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-92756f7faf9d351a0c3631f6.cf7c20c48c7ec585.webp",
+        "hash": "SHA256:cf7c20c48c7ec585ae6e1809c82ec4eeb2b633c1a1e719ecb76e163545659c38"
+      },
+      "meta": {
+        "catalog_id": "d0364853-59a9-5b42-a346-07d6e11fd3a3",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Grass",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. Vertex alpha: Color alpha 0 selects the projected base; alpha 1 adds the native UV overlay through its texture alpha."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_CliffTransitionToGrass_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0016.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-e175b2586a2dc4191973299b.01e9bf4f0b95d38c.webp",
+        "hash": "SHA256:01e9bf4f0b95d38cb171b2262108bdfad4126b21320935ff74b9c28c52479583"
+      },
+      "meta": {
+        "catalog_id": "d0364853-59a9-5b42-a346-07d6e11fd3a3",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Grass",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. Vertex alpha: Color alpha 0 selects the projected base; alpha 1 adds the native UV overlay through its texture alpha."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_Deco_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0016.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-604f6311d8e295da06d2db67.cd5c8ab9f636acf1.webp",
+        "hash": "SHA256:cd5c8ab9f636acf1014ac698b5808db930bbad2d0b7802cc20c3acf38e9eed61"
+      },
+      "meta": {
+        "catalog_id": "d0364853-59a9-5b42-a346-07d6e11fd3a3",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Grass",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_DecoHill2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0016.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-759680b85ec62fc093eccd10.02834e56b07d1f20.webp",
+        "hash": "SHA256:02834e56b07d1f2098f64912c704a2b907a2787a1fa1745f8a5002aea515a30f"
+      },
+      "meta": {
+        "catalog_id": "d0364853-59a9-5b42-a346-07d6e11fd3a3",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Grass",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_DecoHill_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0016.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-14b29775b1e024e6a7a2210b.67e97e8ce95a6642.webp",
+        "hash": "SHA256:67e97e8ce95a6642a74b5f4cc551f01fb0f32dc05469a670535873eecb35cfc6"
+      },
+      "meta": {
+        "catalog_id": "d0364853-59a9-5b42-a346-07d6e11fd3a3",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Grass",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_Grass_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0016.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-0e61f5bfb8d502482665a691.3d229ac363814aaf.webp",
+        "hash": "SHA256:3d229ac363814aaf007a7318cb01cead9fce26a78bd06517cb42ecd8225a09d5"
+      },
+      "meta": {
+        "catalog_id": "d0364853-59a9-5b42-a346-07d6e11fd3a3",
+        "tags": [
+          "Trackmania2020",
+          "GreenCoast",
+          "Terrain",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Grass",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (source textures)",
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_LakeShoreToGrass_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0016.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-9d76b946e607dfa4cff5d21b.3d925caafb383d75.webp",
+        "hash": "SHA256:3d925caafb383d7544363b0fe21c2baf0540a175b48b961b70fc869e21917c55"
+      },
+      "meta": {
+        "catalog_id": "d0364853-59a9-5b42-a346-07d6e11fd3a3",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Grass",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. Vertex alpha: Color alpha 0 selects the projected base; alpha 1 adds the native UV overlay through its texture alpha."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_TrackWallInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0016.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-e51cbd226b8ab0bcf83ff2c6.ce0d2ed64cd40008.webp",
+        "hash": "SHA256:ce0d2ed64cd40008dee0f01342dad909e958e991f679370e097050e4f2c4eb1b"
+      },
+      "meta": {
+        "catalog_id": "d0364853-59a9-5b42-a346-07d6e11fd3a3",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Concrete",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_TransitionForestToGrass_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0016.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-8ccaaeadbf8b5fe1a9cccc7a.5c83e45674b801ac.webp",
+        "hash": "SHA256:5c83e45674b801acc39557469db29f3c0d33b8f994b74a2c7cbfeea099b0ef0e"
+      },
+      "meta": {
+        "catalog_id": "d0364853-59a9-5b42-a346-07d6e11fd3a3",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Grass",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. Vertex alpha: Color alpha 0 selects the projected base; alpha 1 adds the native UV overlay through its texture alpha."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_TrunkToGrass_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0016.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-f848d041e80822c6480934c3.ef1bbd6c6b28414e.webp",
+        "hash": "SHA256:ef1bbd6c6b28414e2d13c66057d15e8f9ee2d8fa26d498e2a8f24aeb4b741432"
+      },
+      "meta": {
+        "catalog_id": "d0364853-59a9-5b42-a346-07d6e11fd3a3",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Grass",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender."
+      }
+    },
+    {
+      "name": "TM_Stadium_TrackWallPxzInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0016.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-bcfcbfd4c66d0d0f52db9ae1.dd3ffbe2e4ea62b1.webp",
+        "hash": "SHA256:dd3ffbe2e4ea62b126ffd862e8de42f300703ecf204c733aa2aefd279d361273"
+      },
+      "meta": {
+        "catalog_id": "4e5fb21a-52f7-5a19-95cc-3e89edd3cf06",
+        "tags": [
+          "Trackmania2020",
+          "Stadium",
+          "Additional surfaces",
+          "Effect: World projection",
+          "Physics: Concrete",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (source textures)",
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer."
+      }
+    },
+    {
+      "name": "TM_ThemeRallyCastleBorders_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0017.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-0e6830e0c851093e33d06754.7dfcf305c8f00655.webp",
+        "hash": "SHA256:7dfcf305c8f00655059fd237c6bae83287e97fc8a1903aff33b05084f6afbfc1"
+      },
+      "meta": {
+        "catalog_id": "102a5d56-8bfe-4677-9e2e-397814704e5a",
+        "tags": [
+          "Physics: Concrete",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_ThemeRallyCastleBordersTransparent_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0017.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-9b19492d86552f6d15ace5c0.7dfcf305c8f00655.webp",
+        "hash": "SHA256:7dfcf305c8f00655059fd237c6bae83287e97fc8a1903aff33b05084f6afbfc1"
+      },
+      "meta": {
+        "catalog_id": "102a5d56-8bfe-4677-9e2e-397814704e5a",
+        "tags": [
+          "Physics: Concrete",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_Cliff4_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0018.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-0f293ff668ca33f4706f76ea.8c5ae7bb3796c4ec.webp",
+        "hash": "SHA256:8c5ae7bb3796c4ec8d8998f840a9eea0530f86073bbee31d2f2bee1400f36dad"
+      },
+      "meta": {
+        "catalog_id": "d0364853-59a9-5b42-a346-07d6e11fd3a3",
+        "tags": [
+          "Trackmania2020",
+          "GreenCoast",
+          "Terrain",
+          "Effect: World projection",
+          "Physics: Rock",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (source textures)",
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender."
+      }
+    },
+    {
+      "name": "TM_16x9ScreenOff_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6df59f486a4dda888ca00a9b.90271f07df1266b3.webp",
+        "hash": "SHA256:90271f07df1266b3dcdb9f2019377586e8d131f5d0eedda1730daeee604b78a5"
+      },
+      "meta": {
+        "catalog_id": "c20b9637-5eb4-4300-be59-ff8c113d9c53",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_Ad16x9Screen_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-b332afad387783aa306b9303.445a3f056ac4dd76.webp",
+        "hash": "SHA256:445a3f056ac4dd76dbd32cc3e2152f50cdd340aff27b4d8a2f5b3a31c9d5deab"
+      },
+      "meta": {
+        "catalog_id": "c20b9637-5eb4-4300-be59-ff8c113d9c53",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_Ad1x1Screen_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-b6c340c08ba6b1c9bb6504a7.ecb49239344ea789.webp",
+        "hash": "SHA256:ecb49239344ea7891fc249989ebfaab6ba665d21303296b19965ce5cacb49fb2"
+      },
+      "meta": {
+        "catalog_id": "c20b9637-5eb4-4300-be59-ff8c113d9c53",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_Ad2x1Screen_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-b4ddd3852f6b103dc9faefd3.8c8fd123f76f40d9.webp",
+        "hash": "SHA256:8c8fd123f76f40d941311c6a0bbb4af19d2ee5a78d9ebcf4216e47e3822b19ce"
+      },
+      "meta": {
+        "catalog_id": "c20b9637-5eb4-4300-be59-ff8c113d9c53",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_Ad2x3Screen_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-9891ae82947c74623f8f98e2.c0192ca68733310a.webp",
+        "hash": "SHA256:c0192ca68733310aaf4bbb12895dd500384c3cce4e0fc8ea5334b084f927a465"
+      },
+      "meta": {
+        "catalog_id": "c20b9637-5eb4-4300-be59-ff8c113d9c53",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_Ad2x3ScreenVeryBig_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-85e695bbe4791fb7b54bbffc.12b028cf882e961d.webp",
+        "hash": "SHA256:12b028cf882e961dd89bea2083292f499dd34cc511a9fa1b0275cbd6b34d5c4d"
+      },
+      "meta": {
+        "catalog_id": "c20b9637-5eb4-4300-be59-ff8c113d9c53",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_Ad4x1Screen_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6f6e608d5becb7b478a202bd.595e8edb3b0284ce.webp",
+        "hash": "SHA256:595e8edb3b0284cefa4c5bf9f372393f8926de1fc2766ef85db3da7caabe81ba"
+      },
+      "meta": {
+        "catalog_id": "c20b9637-5eb4-4300-be59-ff8c113d9c53",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_GateGameplayDesert_Screen_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-14a9f3b5521489d3817b1bfc.e31a87a32934c9b8.webp",
+        "hash": "SHA256:e31a87a32934c9b85169067fe50190a3dcff8aa45194c337a1d42f802a9765b5"
+      },
+      "meta": {
+        "catalog_id": "2abd51ba-0011-4338-be47-3a23e13a5254",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_GateGameplayRally_Screen_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5a3e46ed69c4cf14781c4701.298bd08f1a9cccff.webp",
+        "hash": "SHA256:298bd08f1a9cccffa230d097518ce80f916da6df018c9ea953a5c16b925c1b86"
+      },
+      "meta": {
+        "catalog_id": "102a5d56-8bfe-4677-9e2e-397814704e5a",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_GateGameplayScreen_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-b719e3d5b45d9c76ab67a07d.8098912fa90c1422.webp",
+        "hash": "SHA256:8098912fa90c1422192b9a8dc061cb122ee401103299c8296dd00527ccbd0ef9"
+      },
+      "meta": {
+        "catalog_id": "f8e02114-07fa-42a2-a58c-350bb6b25694",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_GateGameplaySnow_Screen_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-1b0808143f1e1b98c45293b8.3dc3632e8ef2b04d.webp",
+        "hash": "SHA256:3dc3632e8ef2b04d4143892c10627f756ad503146ecedb9819c638ce35ea6c79"
+      },
+      "meta": {
+        "catalog_id": "f8e02114-07fa-42a2-a58c-350bb6b25694",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_PodiumScreen155_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-230b9c37d23d6fe33163e0f7.1c9084a465ef2586.webp",
+        "hash": "SHA256:1c9084a465ef25861ce36ca6f3b0dab7d2e9459b071f4c8af7a4b55ea8b445a4"
+      },
+      "meta": {
+        "catalog_id": "4d7b1b72-66a9-436a-a1f7-66d95e9e4405",
+        "tags": [
+          "Effect: Screen depth / parallax",
+          "Physics: MetalTrans",
+          "Preview: Composed material",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Parallax",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed material | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale. | Orbit the view in Material Preview/Rendered to see depth; silhouette stays flat."
+      }
+    },
+    {
+      "name": "TM_PodiumScreen16x9_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-ebcd67d6a8d5bc3c046e6e5f.8595695e669ab6aa.webp",
+        "hash": "SHA256:8595695e669ab6aa51ec3716ff92719b03fbfae1493a14ddd195a13572cec8e9"
+      },
+      "meta": {
+        "catalog_id": "4d7b1b72-66a9-436a-a1f7-66d95e9e4405",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_PodiumStepScreen_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-d9ef2a03f3aa7f1524b25421.53264fd913e69ff7.webp",
+        "hash": "SHA256:53264fd913e69ff79a9dbe23d28d3ca25435b28265ce837916fb782b8decf524"
+      },
+      "meta": {
+        "catalog_id": "4d7b1b72-66a9-436a-a1f7-66d95e9e4405",
+        "tags": [
+          "Effect: Screen depth / parallax",
+          "Physics: Metal",
+          "Preview: Composed material",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Parallax",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed material | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale. | Orbit the view in Material Preview/Rendered to see depth; silhouette stays flat."
+      }
+    },
+    {
+      "name": "TM_Show4x1_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-71a9ebb0095e6ff8dc0eb92d.856270e499f351d4.webp",
+        "hash": "SHA256:856270e499f351d44dd2e75896be11224fd5277939c2b4651369c779e36e98b5"
+      },
+      "meta": {
+        "catalog_id": "4d7b1b72-66a9-436a-a1f7-66d95e9e4405",
+        "tags": [
+          "Physics: Metal",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_Stadium_Ad155Screen_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-eae6f718fa66c1076fcd8064.f96b387fb73500d7.webp",
+        "hash": "SHA256:f96b387fb73500d7d72c5d79fe30da9067ace7bc69a4eb909d80e0a7ed761d34"
+      },
+      "meta": {
+        "catalog_id": "c20b9637-5eb4-4300-be59-ff8c113d9c53",
+        "tags": [
+          "Native material variant",
+          "Effect: Screen depth / parallax",
+          "Physics: MetalTrans",
+          "Preview: Composed material",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Parallax",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed material | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale. | Orbit the view in Material Preview/Rendered to see depth; silhouette stays flat."
+      }
+    },
+    {
+      "name": "TM_Stadium_Ad155ScreenSmall_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-c9679f12f8c8c56ecfbeb433.01f519e443e9a56f.webp",
+        "hash": "SHA256:01f519e443e9a56f1d7c25aaa8e81a53700253866d027c5eab91081bdba216c3"
+      },
+      "meta": {
+        "catalog_id": "c20b9637-5eb4-4300-be59-ff8c113d9c53",
+        "tags": [
+          "Native material variant",
+          "Effect: Screen depth / parallax",
+          "Physics: MetalTrans",
+          "Preview: Composed material",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Parallax",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed material | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale. | Orbit the view in Material Preview/Rendered to see depth; silhouette stays flat."
+      }
+    },
+    {
+      "name": "TM_WarpScreen155_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-2487ef19215d3426669490d5.f96b387fb73500d7.webp",
+        "hash": "SHA256:f96b387fb73500d7d72c5d79fe30da9067ace7bc69a4eb909d80e0a7ed761d34"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Effect: Screen depth / parallax",
+          "Physics: MetalTrans",
+          "Preview: Composed material",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Parallax",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed material | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale. | Orbit the view in Material Preview/Rendered to see depth; silhouette stays flat."
+      }
+    },
+    {
+      "name": "TM_WarpScreen155B_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-9d2c19ca8ac3b7c1f86154b8.1e1542545e166a27.webp",
+        "hash": "SHA256:1e1542545e166a271cd7b6ea1304c47bd2616d198255784be0c4ec34847c4f0c"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Effect: Screen depth / parallax",
+          "Physics: MetalTrans",
+          "Preview: Composed material",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Parallax",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed material | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale. | Orbit the view in Material Preview/Rendered to see depth; silhouette stays flat."
+      }
+    },
+    {
+      "name": "TM_WarpScreen155C_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-7243b281d8a7cf3fe9336de9.1e1542545e166a27.webp",
+        "hash": "SHA256:1e1542545e166a271cd7b6ea1304c47bd2616d198255784be0c4ec34847c4f0c"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Effect: Screen depth / parallax",
+          "Physics: MetalTrans",
+          "Preview: Composed material",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Parallax",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed material | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale. | Orbit the view in Material Preview/Rendered to see depth; silhouette stays flat."
+      }
+    },
+    {
+      "name": "TM_WarpScreen16x9_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-38b25cc861b5019584f6eab0.932cae399072f8e0.webp",
+        "hash": "SHA256:932cae399072f8e09a658eb00b6bee71273296068bffd22f04331c355d02a9eb"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Effect: Screen depth / parallax",
+          "Physics: MetalTrans",
+          "Preview: Composed material",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Usage: Parallax",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed material | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale. | Orbit the view in Material Preview/Rendered to see depth; silhouette stays flat."
+      }
+    },
+    {
+      "name": "TM_WarpScreen16x9B_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-e61577f995f3b3e2611f58e2.ad04dc8e60920be8.webp",
+        "hash": "SHA256:ad04dc8e60920be8fb6c49626ae317d3869f456ab2f039e8a51583f4bda1cc31"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_WarpScreen16x9C_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-6aae26038eb1eaa7cebfaebe.ad04dc8e60920be8.webp",
+        "hash": "SHA256:ad04dc8e60920be8fb6c49626ae317d3869f456ab2f039e8a51583f4bda1cc31"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_WarpScreen1x4A_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-bcde24e7c3f9aeb157036631.8204da9d6afe4db8.webp",
+        "hash": "SHA256:8204da9d6afe4db895c064ab4f3d16e06813be65c30397557edaf24944757858"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_WarpScreen2x1A_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-29559ac00922abb1e673d410.5b553a7b0ca3ff85.webp",
+        "hash": "SHA256:5b553a7b0ca3ff85cde75d1af9a6fb0bd8c08c8b7aa68f3fef9c219e1b530cbb"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_WarpScreen2x3A_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-f0f5ea3b0a5fa8fabb4e4f5e.c0192ca68733310a.webp",
+        "hash": "SHA256:c0192ca68733310aaf4bbb12895dd500384c3cce4e0fc8ea5334b084f927a465"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_WarpScreen2x3B_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5cf14dd5cd646cc6df7e555b.7c3f80f81525ad88.webp",
+        "hash": "SHA256:7c3f80f81525ad8831bc5b5cb9b53b533f3457b8f148795ba41790644c1de3bb"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_WarpScreen4x1A_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-99fc0baae00deeb1c01aae04.787fd8e9e93fe581.webp",
+        "hash": "SHA256:787fd8e9e93fe581e9a6f137ab64b1bdf2e7a31c5fb1dce4a83103d3faef8233"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_WarpScreen4x1B_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-ce3f77eeb6616e79cb10b80e.2bbdb5d41959042c.webp",
+        "hash": "SHA256:2bbdb5d41959042c17f4a54121a42ba99153d798d4272d5d13ce4ef05929e285"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_WarpScreenBench16x1_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-1359c02a473bb1fa99c4b6d1.0e6c6c5f5f221f10.webp",
+        "hash": "SHA256:0e6c6c5f5f221f1088eb87966af69d22977b77105cb664a52813d2af4a4216d7"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_WarpScreenBench8x1_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0019.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-c39a9685be6b797641e4cb73.ed81f6af6a4e5e54.webp",
+        "hash": "SHA256:ed81f6af6a4e5e543afeac80c6cff7bd6b955a0aeda944f7efe5eb914d182e65"
+      },
+      "meta": {
+        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
+        "tags": [
+          "Physics: MetalTrans",
+          "Preview: Composed screen",
+          "Export: Native binding",
+          "Usage: BaseMaterial UV",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
+      }
+    },
+    {
+      "name": "TM_CanopyGlass_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0020.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-13ec559f653961c9c9d83204.ddb6c09d6003fd8a.webp",
+        "hash": "SHA256:ddb6c09d6003fd8ae91cf25ae17cf591f60cf69ac1cd13b59c9f596d63e8573e"
+      },
+      "meta": {
+        "catalog_id": "7a45ddc6-5b7c-4240-950f-25733c2c0e73",
+        "tags": [
+          "Physics: Plastic",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+      }
+    },
+    {
+      "name": "TM_PlatformDirt_DecoGrass_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0021.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-8895c261ae1f861fa734a568.9691e28747cf40ca.webp",
+        "hash": "SHA256:9691e28747cf40cad7493ee719f55d3534991e46a7ab13836c16c3ca9051b1be"
+      },
+      "meta": {
+        "catalog_id": "e6a3d904-d2ba-4c54-bdbf-f106dae819fb",
+        "tags": [
+          "Effect: World projection",
+          "Physics: Sand",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_PlatformDirt_DecoHill2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0021.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-76f65b322ecb848c22ed59bd.9cac5db4b8197958.webp",
+        "hash": "SHA256:9cac5db4b81979587226fb03597e1ac16218b03d2e2023a71893880a8b4914a2"
+      },
+      "meta": {
+        "catalog_id": "e6a3d904-d2ba-4c54-bdbf-f106dae819fb",
+        "tags": [
+          "Effect: World projection",
+          "Physics: Sand",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Vertex Color",
+          "Usage: Animation",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_PlatformDirt_DecoHill_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0021.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-704923591fc657297bb49939.338f404ed9d7ed57.webp",
+        "hash": "SHA256:338f404ed9d7ed577771ef8069f8e2e31a9da81476dbf9cc922b749e01f8ca68"
+      },
+      "meta": {
+        "catalog_id": "e6a3d904-d2ba-4c54-bdbf-f106dae819fb",
+        "tags": [
+          "Effect: World projection",
+          "Physics: Sand",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Vertex Color",
+          "Usage: Animation",
+          "Evidence: Export readback inconclusive"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+      }
+    },
+    {
+      "name": "TM_RedIsland_Deco_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0021.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-1f979799a5f1558c9d2791a7.e005039716896d89.webp",
+        "hash": "SHA256:e005039716896d89b53005538a2c1b7fb2c078cfd0adc8dc81044314c4569323"
+      },
+      "meta": {
+        "catalog_id": "f564fd12-ae40-52c4-a3eb-af99e4b3268a",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Sand",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender."
+      }
+    },
+    {
+      "name": "TM_RedIsland_DecoHill2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0021.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-718ef8d273ef44ebb79d0c19.14234f718ba9113b.webp",
+        "hash": "SHA256:14234f718ba9113b8304843b7177a1f59b8ac06a5dbdaee6f236953dfaa090a5"
+      },
+      "meta": {
+        "catalog_id": "f564fd12-ae40-52c4-a3eb-af99e4b3268a",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Sand",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender."
+      }
+    },
+    {
+      "name": "TM_RedIsland_DecoHill_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0021.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-78cf2c81d6e25d05088d725d.adaa0b9d7e18f801.webp",
+        "hash": "SHA256:adaa0b9d7e18f801b30adc0f922d2af918489848a79d23e06cefa9369a3b4c7a"
+      },
+      "meta": {
+        "catalog_id": "f564fd12-ae40-52c4-a3eb-af99e4b3268a",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Sand",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender."
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "materials/bundle-0011.blend",
+      "size_in_bytes": 5897511,
+      "hash": "SHA256:ca0dbfb261934a22b5ae07f87c890634007bf35df510d81ff7ba81b0dcd159db",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0011.ca0dbfb261934a22.blend"
+    },
+    {
+      "path": "materials/bundle-0012.blend",
+      "size_in_bytes": 104916338,
+      "hash": "SHA256:51c11c298dbadd29d023e1654228d8ab35d3e79a1660ec41218ac1c3b4d991e5",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0012.51c11c298dbadd29.blend"
+    },
+    {
+      "path": "materials/bundle-0013.blend",
+      "size_in_bytes": 8386631,
+      "hash": "SHA256:23aab214b33e46b0c83b7da619afb02103baff2ede4e6068a7c8996486fcf08a",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0013.23aab214b33e46b0.blend"
+    },
+    {
+      "path": "materials/bundle-0014.blend",
+      "size_in_bytes": 1387730,
+      "hash": "SHA256:183ed84143983ebd3c3d1a701663f19b790dc988f18c0fa3c3071500969372ce",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0014.183ed84143983ebd.blend"
+    },
+    {
+      "path": "materials/bundle-0015.blend",
+      "size_in_bytes": 5216783,
+      "hash": "SHA256:e3b553d579cc55aad87b295a6b17325a9668f91f7c45060e8fa26752e651c1b4",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0015.e3b553d579cc55aa.blend"
+    },
+    {
+      "path": "materials/bundle-0016.blend",
+      "size_in_bytes": 635904820,
+      "hash": "SHA256:5b9c2ed857b0c2e7d624ef86de194a29e99de229c5975de95372cf3899070a4e",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0016.5b9c2ed857b0c2e7.blend"
+    },
+    {
+      "path": "materials/bundle-0017.blend",
+      "size_in_bytes": 6355554,
+      "hash": "SHA256:d51132bd2f1783b2bc36b4218bbc051db3538cdfd447877e35ddb58c00d00a50",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0017.d51132bd2f1783b2.blend"
+    },
+    {
+      "path": "materials/bundle-0018.blend",
+      "size_in_bytes": 40087961,
+      "hash": "SHA256:08bb47c2262c2cbe50a63c1afc3a9326705b4c8377e42cdadd8b4efbbc739221",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0018.08bb47c2262c2cbe.blend"
+    },
+    {
+      "path": "materials/bundle-0019.blend",
+      "size_in_bytes": 9961926,
+      "hash": "SHA256:4c2eaa3ef5a16db4e98ec9c38bb09fb655c130aa48655a9d4d4c3b5bd045741c",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0019.4c2eaa3ef5a16db4.blend"
+    },
+    {
+      "path": "materials/bundle-0020.blend",
+      "size_in_bytes": 105813,
+      "hash": "SHA256:efc647b0a7aeb92577a19c8a2c0e35e1df326075aa47ebe401e07a93e57100ba",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0020.efc647b0a7aeb925.blend"
+    },
+    {
+      "path": "materials/bundle-0021.blend",
+      "size_in_bytes": 606398114,
+      "hash": "SHA256:13b8967bf2d4672e0085e811a204edbb48ec88f8efe551fc2e4dee5c95b735f5",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0021.13b8967bf2d4672e.blend"
+    }
+  ]
+}
