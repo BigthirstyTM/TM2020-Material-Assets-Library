@@ -6,6 +6,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parent))
 from apply_shader_fidelity import identity,graph,sha
 p=argparse.ArgumentParser()
 for k in ['library','staged','documentation','output']:p.add_argument('--'+k,type=Path,required=True)
+p.add_argument('--documentation-file',action='append',help='Limit copied documentation to these basenames.')
 a=p.parse_args(sys.argv[sys.argv.index('--')+1:]);root=a.library.resolve();stage=a.staged.resolve();out=a.output.resolve();source=root/'Trackmania2020_assets.blend'
 report=json.loads((stage/'build-report.json').read_text());proof=json.loads((stage/'verification.json').read_text());baseline=json.loads((stage/'baseline.json').read_text())
 assert proof['revision']==report['revision'] and proof['staged_sha256']==report['staged_sha256'] and proof['missing_images']==0
@@ -19,6 +20,9 @@ for im in bpy.data.images:
 portable=out/'portable';portable.mkdir(exist_ok=True,parents=True);bpy.context.preferences.filepaths.save_version=0;bpy.ops.wm.save_as_mainfile(filepath=str(portable/source.name),compress=True,relative_remap=False)
 backup=out/'backup'/datetime.datetime.now().strftime('%Y%m%d-%H%M%S');backup.mkdir(parents=True)
 docs=['THUMBNAIL-STYLES.md','CATALOG-CLARITY.md','BADGES.md','PROJECTED-SURFACES.md','SHADER-RECONCILIATION.md','SHADER-FIDELITY-REVIEW.md','CONCRETE-SHADER-CORRECTIONS.md','UPDATED-MATERIALS.md','MAINTAINING.md']
+if a.documentation_file:
+ docs=a.documentation_file
+ assert all(Path(name).name==name and name.endswith('.md') for name in docs)
 files=[(source,portable/source.name)]+[(root/'Documentation'/name,a.documentation/name) for name in docs]
 existed={str(dst):dst.exists() for dst,src in files}
 for dst,src in files:

@@ -1,6 +1,6 @@
 # Material thumbnail styles
 
-The newest local source uses `2026.11.26-terrain-uv-layers-1`: 15 terrain icons are rerendered after restoring missing UV layers; the other 22 retain the preceding terrain C artwork. See [terrain UV layers](TERRAIN-UV-LAYERS.md). The full ZIPs remain `2026.11.26-shader-followup-1`; the remote extension pilot is unchanged. The other icon styles retain the preceding aspect/family/readability refinements.
+Local thumbnail revision `2026.11.26-thumbnail-shadow-lift-1` slightly lifts the six dark icons listed below. The preceding material revision is `2026.11.26-terrain-uv-layers-1`: 15 terrain icons are rerendered after restoring missing UV layers; the other 22 retain the preceding terrain C artwork. See [terrain UV layers](TERRAIN-UV-LAYERS.md). The full ZIPs remain `2026.11.26-shader-followup-1`; the remote extension pilot is unchanged. The other icon styles retain the preceding aspect/family/readability refinements.
 
 ## Approved terrain C layout
 
@@ -68,3 +68,13 @@ Thirteen non-Mod, non-glass Custom materials remain spheres. Their temporary UV,
 Existing badge pixels are copied exactly. The turquoise grid badge retains its existing meaning; this update adds no customization badges. See BADGES.md for the short badge legend. All render-only shader copies, coordinate changes and preview fixtures are removed before saving. No additional production texture dependencies are introduced.
 
 The update is installed with a backup and a fresh-file check of all shader graphs, identities, export metadata, node groups and badge pixels. Blender previews remain approximations; no new in-game test is implied.
+
+## Selected dark icons
+
+`ItemObstacleLight`, `ItemLampLight`, `ItemLampLightB`, `ItemLampLightC`,
+`RedIsland_Water` and `WhiteShore_WaterBottom` have a small shadow lift in their
+saved thumbnail artwork. Deep black areas gain a modest floor and dark texture
+variation becomes easier to read. The lift fades towards midtones and leaves
+highlights unchanged; badge pixels are preserved exactly. This identification
+adjustment does not change the material on an object, its lighting, shader or
+export properties. Reproduce with `tools/lighten_selected_thumbnails.py`.
