@@ -1,0 +1,2390 @@
+{
+  "revision": "2026.11.26-dyna-preview-1",
+  "dyna_count": 25,
+  "equivalence": [
+    {
+      "left": "SpeedometerLight",
+      "right": "SpeedometerLight_Dyna",
+      "parsed_details_equal": true,
+      "payload_hashes_equal": false,
+      "note": "Equal parsed settings do not establish equal unparsed flags or engine routing."
+    },
+    {
+      "left": "WarpDetails_Dyna",
+      "right": "WarpDetails_WithLightmap",
+      "parsed_details_equal": true,
+      "payload_hashes_equal": false,
+      "note": "Equal parsed settings do not establish equal unparsed flags or engine routing."
+    }
+  ],
+  "materials": [
+    {
+      "name": "TM_Experimental_Techno3_Dyna0_Shield_asset",
+      "native_link": "Techno3\\Media\\MaterialInstance\\Dyna0_Shield",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/MaterialInstance/Dyna0_Shield.Material.Gbx",
+      "source_sha256": "8b9c1519022c714358cc62ca2ceec31e92789f7a58f46989faf13e8d66df076f",
+      "material_inputs": {
+        "kind": "material",
+        "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Dyna_TAddShield.Material.gbx",
+        "vertex": [],
+        "pixel": [],
+        "slots": [
+          {
+            "name": "Shield",
+            "file": "MaterialInstance\\Texture\\DefaultShield.Texture.gbx"
+          }
+        ],
+        "chunks": [
+          {
+            "id": 151232527,
+            "fields": {
+              "U01": -1,
+              "U02": -1,
+              "U03": 0,
+              "U04": []
+            }
+          },
+          {
+            "id": 151232532,
+            "fields": {
+              "U01": []
+            }
+          },
+          {
+            "id": 151232533,
+            "fields": {
+              "U01": 0,
+              "U02": "",
+              "U03": "",
+              "U04": "",
+              "U05": ""
+            }
+          }
+        ]
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/MaterialInstance/Dyna0_Shield.Material.Gbx",
+          "sha256": "8b9c1519022c714358cc62ca2ceec31e92789f7a58f46989faf13e8d66df076f",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna_TAddShield.Material.gbx",
+          "sha256": "c16e813554f9d8617a65d2414ad17f03a89fb3adc1a3a4f36e2491127c26a5f1",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna_TAddShield.Shader.Gbx",
+          "sha256": "9b3048f91b4ec937a172b1c0ab543d5dd1fab20d97370788f9714289a48ed6cc",
+          "programs": [
+            "Shaders\\Tech3\\Dyna_TAddShield_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TAddShield_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Dyna0_TDSNE_asset",
+      "native_link": "Techno3\\Media\\MaterialInstance\\Dyna0_TDSNE",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/MaterialInstance/Dyna0_TDSNE.Material.Gbx",
+      "source_sha256": "1e6cc0fc61272ab9b6a163a7fa772e7a27d62095acc782e23983c43285ed77d0",
+      "material_inputs": {
+        "kind": "material",
+        "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Dyna0_TDSNE.Material.gbx",
+        "vertex": [],
+        "pixel": [
+          {
+            "name": "UsePBR",
+            "values": [
+              [
+                0
+              ]
+            ]
+          }
+        ],
+        "slots": [
+          {
+            "name": "Diffuse",
+            "file": "MaterialInstance\\Texture\\DefaultDiffuse.Texture.gbx"
+          },
+          {
+            "name": "BaseColor",
+            "file": "MaterialInstance\\Texture\\DefaultBaseColor.Texture.gbx"
+          },
+          {
+            "name": "RoughMetal",
+            "file": "MaterialInstance\\Texture\\DefaultRoughMetal.Texture.gbx"
+          },
+          {
+            "name": "Specular",
+            "file": "MaterialInstance\\Texture\\DefaultSpecular.Texture.gbx"
+          },
+          {
+            "name": "Normal",
+            "file": "MaterialInstance\\Texture\\DefaultNormal.Texture.gbx"
+          },
+          {
+            "name": "Energy",
+            "file": "MaterialInstance\\Texture\\DefaultEnergy.Texture.gbx"
+          }
+        ],
+        "chunks": [
+          {
+            "id": 151232527,
+            "fields": {
+              "U01": -1,
+              "U02": -1,
+              "U03": 0,
+              "U04": []
+            }
+          },
+          {
+            "id": 151232532,
+            "fields": {
+              "U01": []
+            }
+          },
+          {
+            "id": 151232533,
+            "fields": {
+              "U01": 0,
+              "U02": "",
+              "U03": "",
+              "U04": "",
+              "U05": ""
+            }
+          }
+        ]
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/MaterialInstance/Dyna0_TDSNE.Material.Gbx",
+          "sha256": "1e6cc0fc61272ab9b6a163a7fa772e7a27d62095acc782e23983c43285ed77d0",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna0_TDSNE.Material.gbx",
+          "sha256": "a41b037da164aef201906d2ed9eb56388e7ced3ca7e6a22cadd7197ed8b9faf0",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TDSNE.Shader.Gbx",
+          "sha256": "09e02cd384044bd7291836be1f4424e05f75cb7bdfa0f89bf8b3f2d54a4ea33e",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TN_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSNIE_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TDSN_DefWrite.Shader.Gbx",
+          "sha256": "ede68706c4fea104c16b0674d344b5b17649775b3bf35e0794f920a1305c3c26",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TN_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSN_DefWrite_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TDSNE_DefRead.Shader.Gbx",
+          "sha256": "32739f6ee947d687aa9a56f44324e759a9593dd1c9f67f2c127f74048ce59c6d",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TNE_DefRead_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSNE_DefRead_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Dyna0_TDSNI_asset",
+      "native_link": "Techno3\\Media\\MaterialInstance\\Dyna0_TDSNI",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/MaterialInstance/Dyna0_TDSNI.Material.Gbx",
+      "source_sha256": "bc50afdc4a7c6cbfe0ba8738086ff66b41f7b6732a49e25a1ca9903e9684cca3",
+      "material_inputs": {
+        "kind": "material",
+        "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Dyna0_TDSNI.Material.gbx",
+        "vertex": [],
+        "pixel": [],
+        "slots": [
+          {
+            "name": "Diffuse",
+            "file": "MaterialInstance\\Texture\\DefaultDiffuse.Texture.gbx"
+          },
+          {
+            "name": "BaseColor",
+            "file": "Texture\\DefaultRGB.Texture.Gbx"
+          },
+          {
+            "name": "RoughMetal",
+            "file": "Texture\\DefaultRoughMetal.Texture.Gbx"
+          },
+          {
+            "name": "Specular",
+            "file": "MaterialInstance\\Texture\\DefaultSpecular.Texture.gbx"
+          },
+          {
+            "name": "Normal",
+            "file": "MaterialInstance\\Texture\\DefaultNormal.Texture.gbx"
+          },
+          {
+            "name": "SelfIllum",
+            "file": "MaterialInstance\\Texture\\DefaultSelfIllum.Texture.gbx"
+          }
+        ],
+        "chunks": [
+          {
+            "id": 151232527,
+            "fields": {
+              "U01": -1,
+              "U02": -1,
+              "U03": 0,
+              "U04": []
+            }
+          },
+          {
+            "id": 151232532,
+            "fields": {
+              "U01": []
+            }
+          },
+          {
+            "id": 151232533,
+            "fields": {
+              "U01": 0,
+              "U02": "",
+              "U03": "",
+              "U04": "",
+              "U05": ""
+            }
+          }
+        ]
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/MaterialInstance/Dyna0_TDSNI.Material.Gbx",
+          "sha256": "bc50afdc4a7c6cbfe0ba8738086ff66b41f7b6732a49e25a1ca9903e9684cca3",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna0_TDSNI.Material.gbx",
+          "sha256": "deb71652aed85c350e3d1892ae8c820fb8a9643229371ffcfa35818a10eae16d",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TDSNI.Shader.Gbx",
+          "sha256": "e2a8e2739aa61630e665accb5c848d4ad7fe16e43e60601ef5742161135f1cc9",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TN_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSNIE_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TDSN_DefWrite.Shader.Gbx",
+          "sha256": "ede68706c4fea104c16b0674d344b5b17649775b3bf35e0794f920a1305c3c26",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TN_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSN_DefWrite_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TDSNI_DefRead.Shader.Gbx",
+          "sha256": "68dbde0b8a5729d1722bcf415da1e70013d386cca2b7d131f457219312d4b0c3",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TNI_DefRead_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSNI_DefRead_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Dyna0_TE_asset",
+      "native_link": "Techno3\\Media\\MaterialInstance\\Dyna0_TE",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/MaterialInstance/Dyna0_TE.Material.Gbx",
+      "source_sha256": "7c9faa4d7d0336454519e5a5f92a7d721b63e5564762d51de936ef556224e9ab",
+      "material_inputs": {
+        "kind": "material",
+        "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Dyna0_TE.Material.gbx",
+        "vertex": [],
+        "pixel": [],
+        "slots": [
+          {
+            "name": "Diffuse",
+            "file": "Texture\\DefaultRGB.Texture.Gbx"
+          },
+          {
+            "name": "BaseColor",
+            "file": "Texture\\DefaultRGB.Texture.Gbx"
+          },
+          {
+            "name": "RoughMetal",
+            "file": "Texture\\DefaultRoughMetal.Texture.Gbx"
+          },
+          {
+            "name": "Specular",
+            "file": "Texture\\DefaultRGB.Texture.Gbx"
+          },
+          {
+            "name": "Energy",
+            "file": "MaterialInstance\\Texture\\DefaultEnergy.Texture.gbx"
+          }
+        ],
+        "chunks": [
+          {
+            "id": 151232527,
+            "fields": {
+              "U01": -1,
+              "U02": -1,
+              "U03": 0,
+              "U04": []
+            }
+          },
+          {
+            "id": 151232532,
+            "fields": {
+              "U01": []
+            }
+          },
+          {
+            "id": 151232533,
+            "fields": {
+              "U01": 0,
+              "U02": "",
+              "U03": "",
+              "U04": "",
+              "U05": ""
+            }
+          }
+        ]
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/MaterialInstance/Dyna0_TE.Material.Gbx",
+          "sha256": "7c9faa4d7d0336454519e5a5f92a7d721b63e5564762d51de936ef556224e9ab",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna0_TE.Material.gbx",
+          "sha256": "3ade1c7f7927088c0d01aecca4e28830420e5b83f6f3648839addaff3fdcfcb1",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TE.Shader.Gbx",
+          "sha256": "2385dda4f5d02a159959ceda641b5d255577b3f86187ed4761466271e502e46e",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TN_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSNIE_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TI_DefWrite.Shader.Gbx",
+          "sha256": "3b8c2ccbb56b33c8e89185a7e597ae74c36c372c2735a5cdb2a621914c6c6bdc",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TN_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSN_DefWrite_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Dyna0_TI_AddModCV_asset",
+      "native_link": "Techno3\\Media\\MaterialInstance\\Dyna0_TI_AddModCV",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/MaterialInstance/Dyna0_TI_AddModCV.Material.Gbx",
+      "source_sha256": "73c8ceea0d41ae9bfd5b5ad3eb0e370512772408ae89479b40a92737c5ebf773",
+      "material_inputs": {
+        "kind": "material",
+        "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3 Block TAddModCV.Material.gbx",
+        "vertex": [],
+        "pixel": [
+          {
+            "name": "SelfIllumScale",
+            "values": [
+              [
+                1
+              ]
+            ]
+          }
+        ],
+        "slots": [
+          {
+            "name": "SelfIllum",
+            "file": "MaterialInstance\\Texture\\DefaultSelfIllum.Texture.gbx"
+          }
+        ],
+        "chunks": [
+          {
+            "id": 151232527,
+            "fields": {
+              "U01": -1,
+              "U02": -1,
+              "U03": 0,
+              "U04": []
+            }
+          },
+          {
+            "id": 151232532,
+            "fields": {
+              "U01": []
+            }
+          },
+          {
+            "id": 151232533,
+            "fields": {
+              "U01": 0,
+              "U02": "",
+              "U03": "",
+              "U04": "",
+              "U05": ""
+            }
+          }
+        ]
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/MaterialInstance/Dyna0_TI_AddModCV.Material.Gbx",
+          "sha256": "73c8ceea0d41ae9bfd5b5ad3eb0e370512772408ae89479b40a92737c5ebf773",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Material/Tech3 Block TAddModCV.Material.gbx",
+          "sha256": "6340f5b24b51cdba1293b338e559c3218804bc550329303b4d0ba1f814ffa6e4",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 Block TAddModCV.Shader.Gbx",
+          "sha256": "b690580f30c4f1316423445e940ee578863a6f6f305a6be8419b602abd334f1c",
+          "programs": [
+            "Shaders\\Tech3\\Block_TAddModCV_v.hlsl",
+            "Shaders\\Tech3\\Block_TAddModCV_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Dyna0_TI_asset",
+      "native_link": "Techno3\\Media\\MaterialInstance\\Dyna0_TI",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/MaterialInstance/Dyna0_TI.Material.Gbx",
+      "source_sha256": "a09f010f309080b0525ca5eef8786dafe7d26275698cc4b537a5146254fcff41",
+      "material_inputs": {
+        "kind": "material",
+        "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Dyna0_TI.Material.gbx",
+        "vertex": [],
+        "pixel": [],
+        "slots": [
+          {
+            "name": "Diffuse",
+            "file": "Texture\\DefaultRGB.Texture.Gbx"
+          },
+          {
+            "name": "BaseColor",
+            "file": "Texture\\DefaultRGB.Texture.Gbx"
+          },
+          {
+            "name": "RoughMetal",
+            "file": "Texture\\DefaultRoughMetal.Texture.Gbx"
+          },
+          {
+            "name": "Specular",
+            "file": "Texture\\DefaultRGB.Texture.Gbx"
+          },
+          {
+            "name": "SelfIllum",
+            "file": "MaterialInstance\\Texture\\DefaultSelfIllum.Texture.gbx"
+          }
+        ],
+        "chunks": [
+          {
+            "id": 151232527,
+            "fields": {
+              "U01": -1,
+              "U02": -1,
+              "U03": 0,
+              "U04": []
+            }
+          },
+          {
+            "id": 151232532,
+            "fields": {
+              "U01": []
+            }
+          },
+          {
+            "id": 151232533,
+            "fields": {
+              "U01": 0,
+              "U02": "",
+              "U03": "",
+              "U04": "",
+              "U05": ""
+            }
+          }
+        ]
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/MaterialInstance/Dyna0_TI.Material.Gbx",
+          "sha256": "a09f010f309080b0525ca5eef8786dafe7d26275698cc4b537a5146254fcff41",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna0_TI.Material.gbx",
+          "sha256": "a9fc86ba8d41d1982d29258b03b0f9cd291719adf11bd7fe6e00da9728750e69",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TI.Shader.Gbx",
+          "sha256": "05e4b5835af42dcfaaeba151de11b08a9e86f2e45bfeca5b9c2f1c5d0b40e683",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TN_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSNIE_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TI_DefWrite.Shader.Gbx",
+          "sha256": "3b8c2ccbb56b33c8e89185a7e597ae74c36c372c2735a5cdb2a621914c6c6bdc",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TN_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSN_DefWrite_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Dyna0_TIce_asset",
+      "native_link": "Techno3\\Media\\MaterialInstance\\Dyna0_TIce",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/MaterialInstance/Dyna0_TIce.Material.Gbx",
+      "source_sha256": "7e3cc96d15f139ffa296d6758e81398e5594a48ba304ddd9bb011c639c6c96a8",
+      "material_inputs": {
+        "kind": "material",
+        "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Dyna0_Ice.Material.gbx",
+        "vertex": [],
+        "pixel": [],
+        "slots": [
+          {
+            "name": "Transmittance",
+            "file": null
+          },
+          {
+            "name": "RoughMetal",
+            "file": null
+          },
+          {
+            "name": "Normal",
+            "file": "MaterialInstance\\Texture\\DefaultNormal.Texture.gbx"
+          },
+          {
+            "name": "ToverBaseColor",
+            "file": null
+          }
+        ],
+        "chunks": [
+          {
+            "id": 151232527,
+            "fields": {
+              "U01": -1,
+              "U02": -1,
+              "U03": 0,
+              "U04": []
+            }
+          },
+          {
+            "id": 151232532,
+            "fields": {
+              "U01": []
+            }
+          },
+          {
+            "id": 151232533,
+            "fields": {
+              "U01": 0,
+              "U02": "",
+              "U03": "",
+              "U04": "",
+              "U05": ""
+            }
+          }
+        ]
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/MaterialInstance/Dyna0_TIce.Material.Gbx",
+          "sha256": "7e3cc96d15f139ffa296d6758e81398e5594a48ba304ddd9bb011c639c6c96a8",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna0_Ice.Material.gbx",
+          "sha256": "6ddfb777d12e1df669ec569d3cf0d2b63db6747ecfef4b27e00ceaf0a060f78e",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_Ice.Shader.Gbx",
+          "sha256": "022c996724e56bd34e95d78cf90da5e041700eec1fc2d04d69569ce02e307b45",
+          "programs": [
+            "Shaders\\Tech3\\Block_Ice_v.hlsl",
+            "Shaders\\Tech3\\Block_Ice_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Dyna0_Ice_asset",
+      "native_link": "Techno3\\Media\\Material\\Tech3_Dyna0_Ice",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/Material/Tech3_Dyna0_Ice.Material.gbx",
+      "source_sha256": "6ddfb777d12e1df669ec569d3cf0d2b63db6747ecfef4b27e00ceaf0a060f78e",
+      "material_inputs": {
+        "kind": "material",
+        "shader": "",
+        "vertex": null,
+        "pixel": null,
+        "slots": null,
+        "chunks": null
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna0_Ice.Material.gbx",
+          "sha256": "6ddfb777d12e1df669ec569d3cf0d2b63db6747ecfef4b27e00ceaf0a060f78e",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_Ice.Shader.Gbx",
+          "sha256": "022c996724e56bd34e95d78cf90da5e041700eec1fc2d04d69569ce02e307b45",
+          "programs": [
+            "Shaders\\Tech3\\Block_Ice_v.hlsl",
+            "Shaders\\Tech3\\Block_Ice_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Dyna0_LProbe_TDSN_asset",
+      "native_link": "Techno3\\Media\\Material\\Tech3_Dyna0_LProbe_TDSN",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/Material/Tech3_Dyna0_LProbe_TDSN.Material.gbx",
+      "source_sha256": "cda88c8a0ba82705f8a67fcbd773d59566b293591a690bf6ee8e686a890a3b0c",
+      "material_inputs": {
+        "kind": "material",
+        "shader": "",
+        "vertex": null,
+        "pixel": null,
+        "slots": null,
+        "chunks": null
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna0_LProbe_TDSN.Material.gbx",
+          "sha256": "cda88c8a0ba82705f8a67fcbd773d59566b293591a690bf6ee8e686a890a3b0c",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_LProbe_TDSN.Shader.Gbx",
+          "sha256": "5d535dce82ecdf9636287cad79b2c5369357f6bfed72d369ce8eb30347eb31a4",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_LProbe_TDSN_DefWrite.Shader.Gbx",
+          "sha256": "59546a1d1d7f57c185dea57957375fda80efb0db673d329cdeee2b0f0cf9525b",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_DefWrite_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 PeelDepthDiff GeomLProbe.Shader.Gbx",
+          "sha256": "28ec5ec91d3aa95eb750360c0126cf8dfafea2377cb4137b439e1738ea733d6b",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 DeferredWrite TreeSprite.Shader.Gbx",
+          "sha256": "bdbcc0d84c9b35a1df7e3e4ad0bcc8f8c8806d455737d90764e0ff8f08cca7a3",
+          "programs": [
+            "Shaders\\Tech3\\Block_TreeSprite_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Block_TreeSprite_DefWrite_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 Block DefRead TreeSprite.Shader.Gbx",
+          "sha256": "88db5ea03e92a363c54f0211126da24697d82cf3407daecccc3fefb4dc6a1f6b",
+          "programs": [
+            "Shaders\\Tech3\\Block_TreeSprite_DefRead_v.hlsl",
+            "Shaders\\Tech3\\Block_TreeSprite_DefRead_p.hlsl",
+            "Shaders\\Tech3\\Block_TreeSprite_Anim_v.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Dyna0_TDSNE_asset",
+      "native_link": "Techno3\\Media\\Material\\Tech3_Dyna0_TDSNE",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/Material/Tech3_Dyna0_TDSNE.Material.gbx",
+      "source_sha256": "a41b037da164aef201906d2ed9eb56388e7ced3ca7e6a22cadd7197ed8b9faf0",
+      "material_inputs": {
+        "kind": "material",
+        "shader": "",
+        "vertex": null,
+        "pixel": null,
+        "slots": null,
+        "chunks": null
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna0_TDSNE.Material.gbx",
+          "sha256": "a41b037da164aef201906d2ed9eb56388e7ced3ca7e6a22cadd7197ed8b9faf0",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TDSNE.Shader.Gbx",
+          "sha256": "09e02cd384044bd7291836be1f4424e05f75cb7bdfa0f89bf8b3f2d54a4ea33e",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TN_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSNIE_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TDSN_DefWrite.Shader.Gbx",
+          "sha256": "ede68706c4fea104c16b0674d344b5b17649775b3bf35e0794f920a1305c3c26",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TN_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSN_DefWrite_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TDSNE_DefRead.Shader.Gbx",
+          "sha256": "32739f6ee947d687aa9a56f44324e759a9593dd1c9f67f2c127f74048ce59c6d",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TNE_DefRead_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSNE_DefRead_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Dyna0_TDSNI_asset",
+      "native_link": "Techno3\\Media\\Material\\Tech3_Dyna0_TDSNI",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/Material/Tech3_Dyna0_TDSNI.Material.gbx",
+      "source_sha256": "deb71652aed85c350e3d1892ae8c820fb8a9643229371ffcfa35818a10eae16d",
+      "material_inputs": {
+        "kind": "material",
+        "shader": "",
+        "vertex": null,
+        "pixel": null,
+        "slots": null,
+        "chunks": null
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna0_TDSNI.Material.gbx",
+          "sha256": "deb71652aed85c350e3d1892ae8c820fb8a9643229371ffcfa35818a10eae16d",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TDSNI.Shader.Gbx",
+          "sha256": "e2a8e2739aa61630e665accb5c848d4ad7fe16e43e60601ef5742161135f1cc9",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TN_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSNIE_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TDSN_DefWrite.Shader.Gbx",
+          "sha256": "ede68706c4fea104c16b0674d344b5b17649775b3bf35e0794f920a1305c3c26",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TN_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSN_DefWrite_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TDSNI_DefRead.Shader.Gbx",
+          "sha256": "68dbde0b8a5729d1722bcf415da1e70013d386cca2b7d131f457219312d4b0c3",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TNI_DefRead_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSNI_DefRead_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Dyna0_TE_asset",
+      "native_link": "Techno3\\Media\\Material\\Tech3_Dyna0_TE",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/Material/Tech3_Dyna0_TE.Material.gbx",
+      "source_sha256": "3ade1c7f7927088c0d01aecca4e28830420e5b83f6f3648839addaff3fdcfcb1",
+      "material_inputs": {
+        "kind": "material",
+        "shader": "",
+        "vertex": null,
+        "pixel": null,
+        "slots": null,
+        "chunks": null
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna0_TE.Material.gbx",
+          "sha256": "3ade1c7f7927088c0d01aecca4e28830420e5b83f6f3648839addaff3fdcfcb1",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TE.Shader.Gbx",
+          "sha256": "2385dda4f5d02a159959ceda641b5d255577b3f86187ed4761466271e502e46e",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TN_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSNIE_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TI_DefWrite.Shader.Gbx",
+          "sha256": "3b8c2ccbb56b33c8e89185a7e597ae74c36c372c2735a5cdb2a621914c6c6bdc",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TN_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSN_DefWrite_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Dyna0_TI_asset",
+      "native_link": "Techno3\\Media\\Material\\Tech3_Dyna0_TI",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/Material/Tech3_Dyna0_TI.Material.gbx",
+      "source_sha256": "a9fc86ba8d41d1982d29258b03b0f9cd291719adf11bd7fe6e00da9728750e69",
+      "material_inputs": {
+        "kind": "material",
+        "shader": "",
+        "vertex": null,
+        "pixel": null,
+        "slots": null,
+        "chunks": null
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna0_TI.Material.gbx",
+          "sha256": "a9fc86ba8d41d1982d29258b03b0f9cd291719adf11bd7fe6e00da9728750e69",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TI.Shader.Gbx",
+          "sha256": "05e4b5835af42dcfaaeba151de11b08a9e86f2e45bfeca5b9c2f1c5d0b40e683",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TN_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSNIE_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna0_TI_DefWrite.Shader.Gbx",
+          "sha256": "3b8c2ccbb56b33c8e89185a7e597ae74c36c372c2735a5cdb2a621914c6c6bdc",
+          "programs": [
+            "Shaders\\Tech3\\Dyna0_TN_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSN_DefWrite_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Dyna1_TDSNE_asset",
+      "native_link": "Techno3\\Media\\Material\\Tech3_Dyna1_TDSNE",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/Material/Tech3_Dyna1_TDSNE.Material.gbx",
+      "source_sha256": "fb02c6f25988858403b419ec07d4dc50d886432dce99fb408acd5c316ff195ec",
+      "material_inputs": {
+        "kind": "material",
+        "shader": "",
+        "vertex": null,
+        "pixel": null,
+        "slots": null,
+        "chunks": null
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna1_TDSNE.Material.gbx",
+          "sha256": "fb02c6f25988858403b419ec07d4dc50d886432dce99fb408acd5c316ff195ec",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna1_TDSNE.Shader.Gbx",
+          "sha256": "ea1d87a585e626bc6e66722c9a43fb3b6d4908b16d4473dd09a931030bf065c5",
+          "programs": [
+            "Shaders\\Tech3\\Dyna1_TN_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSNIE_p.hlsl",
+            "Shaders\\Tech3\\Dyna1_TN_Anim_v.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna1_TDSN_DefWrite.Shader.Gbx",
+          "sha256": "efc8cdd3df424f6f7ff48f2021551f672c5958cbb277cd0e9d4e96ed4e369739",
+          "programs": [
+            "Shaders\\Tech3\\Dyna1_TN_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSN_DefWrite_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna1_TDSNE_DefRead.Shader.Gbx",
+          "sha256": "b29e3a47301650800ec25848216f2a41ff8c66beff727ef68e1bf2b80fc6f455",
+          "programs": [
+            "Shaders\\Tech3\\Dyna1_TNE_DefRead_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSNE_DefRead_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Dyna1_TDSNI_asset",
+      "native_link": "Techno3\\Media\\Material\\Tech3_Dyna1_TDSNI",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/Material/Tech3_Dyna1_TDSNI.Material.gbx",
+      "source_sha256": "319108a3e1f661e02da7ee8661ed70f8709e2b941ac9ef43c87e9bd3a9cd32ed",
+      "material_inputs": {
+        "kind": "material",
+        "shader": "",
+        "vertex": null,
+        "pixel": null,
+        "slots": null,
+        "chunks": null
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna1_TDSNI.Material.gbx",
+          "sha256": "319108a3e1f661e02da7ee8661ed70f8709e2b941ac9ef43c87e9bd3a9cd32ed",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna1_TDSNI.Shader.Gbx",
+          "sha256": "fabbb82da66b3051ad99fa8f3f7ee294d3630c5307188980923275e91b2f7e04",
+          "programs": [
+            "Shaders\\Tech3\\Dyna1_TN_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSNIE_p.hlsl",
+            "Shaders\\Tech3\\Dyna1_TN_Anim_v.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna1_TDSN_DefWrite.Shader.Gbx",
+          "sha256": "efc8cdd3df424f6f7ff48f2021551f672c5958cbb277cd0e9d4e96ed4e369739",
+          "programs": [
+            "Shaders\\Tech3\\Dyna1_TN_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSN_DefWrite_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna1_TDSNI_DefRead.Shader.Gbx",
+          "sha256": "a67e74f9d2e873b7dd22f3cb4319b1fc8ecf025513399dd6812508daa61464b7",
+          "programs": [
+            "Shaders\\Tech3\\Dyna1_TNI_DefRead_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TDSNI_DefRead_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Dyna_SphereShield_asset",
+      "native_link": "Techno3\\Media\\Material\\Tech3_Dyna_SphereShield",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/Material/Tech3_Dyna_SphereShield.Material.gbx",
+      "source_sha256": "eb68da9bd4ba10320633737d84e6cd6fb3445610aebc7ebf83a17f437ae841c8",
+      "material_inputs": {
+        "kind": "material",
+        "shader": "",
+        "vertex": null,
+        "pixel": null,
+        "slots": null,
+        "chunks": null
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna_SphereShield.Material.gbx",
+          "sha256": "eb68da9bd4ba10320633737d84e6cd6fb3445610aebc7ebf83a17f437ae841c8",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna_SphereShield.Shader.Gbx",
+          "sha256": "563c604595f4bffb260a68a0d3a9867d6fd86dfcf156becc271198a5c016e595",
+          "programs": [
+            "Shaders\\Tech3\\SphereShield_v.hlsl",
+            "Shaders\\Tech3\\SphereShield_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Dyna_TAdd_AfterDecals_asset",
+      "native_link": "Techno3\\Media\\Material\\Tech3_Dyna_TAdd_AfterDecals",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/Material/Tech3_Dyna_TAdd_AfterDecals.Material.gbx",
+      "source_sha256": "5d994302b130b5fd41de9d4e474b099c4e043310febd321ab8f198fb89acf143",
+      "material_inputs": {
+        "kind": "material",
+        "shader": "",
+        "vertex": null,
+        "pixel": null,
+        "slots": null,
+        "chunks": null
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna_TAdd_AfterDecals.Material.gbx",
+          "sha256": "5d994302b130b5fd41de9d4e474b099c4e043310febd321ab8f198fb89acf143",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna_TAdd_AfterDecals.Shader.Gbx",
+          "sha256": "73b2158b993a7c0f200f22c75a1c3cc965f8f26871ed9bf6c260294cee9f8474",
+          "programs": [
+            "Shaders\\Tech3\\Dyna_TAddModCV_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TAddModCV_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Dyna_TAdd_asset",
+      "native_link": "Techno3\\Media\\Material\\Tech3_Dyna_TAdd",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/Material/Tech3_Dyna_TAdd.Material.gbx",
+      "source_sha256": "670e220e5730aa14964168177ab7ba2c27179875142967b47053cc65474f34d4",
+      "material_inputs": {
+        "kind": "material",
+        "shader": "",
+        "vertex": null,
+        "pixel": null,
+        "slots": null,
+        "chunks": null
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna_TAdd.Material.gbx",
+          "sha256": "670e220e5730aa14964168177ab7ba2c27179875142967b47053cc65474f34d4",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna_TAdd.Shader.Gbx",
+          "sha256": "f7eb263c9b93c75defe89abb4357467b5fee61644cbee26cd0c61f3b84c1a01e",
+          "programs": [
+            "Shaders\\Tech3\\Dyna_TAddModCV_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TAddModCV_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Dyna_TAddModCV_asset",
+      "native_link": "Techno3\\Media\\Material\\Tech3_Dyna_TAddModCV",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/Material/Tech3_Dyna_TAddModCV.Material.gbx",
+      "source_sha256": "67d2d25f15f66a4e493c4dd0b5900069adbafdddc3b491f33a4afe64cceac7d8",
+      "material_inputs": {
+        "kind": "material",
+        "shader": "",
+        "vertex": null,
+        "pixel": null,
+        "slots": null,
+        "chunks": null
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna_TAddModCV.Material.gbx",
+          "sha256": "67d2d25f15f66a4e493c4dd0b5900069adbafdddc3b491f33a4afe64cceac7d8",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna_TAddModCV.Shader.Gbx",
+          "sha256": "0a617afa0d73213af820a99275f00cb13cef6a495698a10e189560938c000748",
+          "programs": [
+            "Shaders\\Tech3\\Dyna_TAddModCV_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TAddModCV_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_Dyna_TAddShield_asset",
+      "native_link": "Techno3\\Media\\Material\\Tech3_Dyna_TAddShield",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/Material/Tech3_Dyna_TAddShield.Material.gbx",
+      "source_sha256": "c16e813554f9d8617a65d2414ad17f03a89fb3adc1a3a4f36e2491127c26a5f1",
+      "material_inputs": {
+        "kind": "material",
+        "shader": "",
+        "vertex": null,
+        "pixel": null,
+        "slots": null,
+        "chunks": null
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/Material/Tech3_Dyna_TAddShield.Material.gbx",
+          "sha256": "c16e813554f9d8617a65d2414ad17f03a89fb3adc1a3a4f36e2491127c26a5f1",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Dyna_TAddShield.Shader.Gbx",
+          "sha256": "9b3048f91b4ec937a172b1c0ab543d5dd1fab20d97370788f9714289a48ed6cc",
+          "programs": [
+            "Shaders\\Tech3\\Dyna_TAddShield_v.hlsl",
+            "Shaders\\Tech3\\Dyna_TAddShield_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_Experimental_Techno3_Tech3_DynaFacing_ForceNMap_CubeOut_TestOp_asset",
+      "native_link": "Techno3\\Media\\Material\\Tech3_DynaFacing_ForceNMap_CubeOut_TestOp",
+      "classification": "Engine template: runtime inputs not reproduced",
+      "source_path": "Techno3/Media/Material/Tech3_DynaFacing_ForceNMap_CubeOut_TestOp.Material.gbx",
+      "source_sha256": "d81a8e995751a64f3c8491a4de0590af590a10f6c71e8c427584f470053302f7",
+      "material_inputs": {
+        "kind": "material",
+        "shader": "",
+        "vertex": null,
+        "pixel": null,
+        "slots": null,
+        "chunks": null
+      },
+      "chain": [
+        {
+          "path": "Techno3/Media/Material/Tech3_DynaFacing_ForceNMap_CubeOut_TestOp.Material.gbx",
+          "sha256": "d81a8e995751a64f3c8491a4de0590af590a10f6c71e8c427584f470053302f7",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_DynaFacing_ForceNMap_CubeOut_TestOp.Shader.Gbx",
+          "sha256": "0a541c557bdb5af5d7d8e7f7b546694abd69b553b0ba21134874c43f315e7b94",
+          "programs": [
+            "Shaders\\Tech3\\DynaFacing_ForceNMap_COut_v.hlsl",
+            "Shaders\\Tech3\\DynaFacing_ForceNMap_COut_p.hlsl",
+            "Shaders\\Tech3\\DynaFacing_AnimTcOp_v.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_DynaFacing_DefWrite_TestOp.Shader.Gbx",
+          "sha256": "fd5ffb58ac1d696f8dc8a43f7eacc019ee58b4977f187ac2728635ab3a02172e",
+          "programs": [
+            "Shaders\\Tech3\\DynaFacing_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\DynaFacing_DefWrite_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_DynaFacing_ForceNMap_CubeOut_TestOp_DefRead.Shader.Gbx",
+          "sha256": "269a5026800dce1d87692753af367fe503b0c1090755f8ca1ea4656b1bf78cf8",
+          "programs": [
+            "Shaders\\Tech3\\DynaFacing_ForceNMap_COut_v.hlsl",
+            "Shaders\\Tech3\\DynaFacing_ForceNMap_COut_p.hlsl",
+            "Shaders\\Tech3\\DynaFacing_AnimTcOp_v.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_SpeedometerLight_asset",
+      "native_link": "Stadium\\Media\\Material\\SpeedometerLight",
+      "classification": "Concrete texture-backed material",
+      "source_path": "Stadium/Media/Material/SpeedometerLight.Material.Gbx",
+      "source_sha256": "f9cb46b605700139b201b0f9439e84fbadab6be007a5e28169bd1cf6f92c9e5d",
+      "material_inputs": {
+        "kind": "material",
+        "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSNI_CubeOut.Material.gbx",
+        "vertex": [],
+        "pixel": [
+          {
+            "name": "SelfIllumScale",
+            "values": [
+              [
+                20
+              ]
+            ]
+          }
+        ],
+        "slots": [
+          {
+            "name": "BaseColor",
+            "file": "Stadium\\Media\\Texture\\Speedometer_D.Texture.gbx"
+          },
+          {
+            "name": "RoughMetal",
+            "file": "Stadium\\Media\\Texture\\Speedometer_R.Texture.gbx"
+          },
+          {
+            "name": "Normal",
+            "file": "Stadium\\Media\\Texture\\Speedometer_N.Texture.gbx"
+          },
+          {
+            "name": "SelfIllum",
+            "file": "Stadium\\Media\\Texture\\Speedometer_I.Texture.gbx"
+          }
+        ],
+        "chunks": [
+          {
+            "id": 151232527,
+            "fields": {
+              "U01": -1,
+              "U02": -1,
+              "U03": 0,
+              "U04": [
+                {
+                  "U01": "RefractSI",
+                  "U02": 0
+                }
+              ]
+            }
+          },
+          {
+            "id": 151232532,
+            "fields": {
+              "U01": []
+            }
+          },
+          {
+            "id": 151232533,
+            "fields": {
+              "U01": 0,
+              "U02": "",
+              "U03": "",
+              "U04": "",
+              "U05": ""
+            }
+          }
+        ]
+      },
+      "chain": [
+        {
+          "path": "Stadium/Media/Material/SpeedometerLight.Material.Gbx",
+          "sha256": "f9cb46b605700139b201b0f9439e84fbadab6be007a5e28169bd1cf6f92c9e5d",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Material/Tech3_Block_TDSNI_CubeOut.Material.gbx",
+          "sha256": "df3878a342a4e75e4b6daf1a3579988dd1363cf7d1b7ada832c0570f43aa00d0",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Block_TDSNI_CubeOut.Shader.Gbx",
+          "sha256": "b92d1afc1df2bf2829e3aa56dbc3e9d7cf2b67774d9a9b072b5719ccfb0d89b5",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_COut_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSNI_COut_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 PeelDiff TDiff.Shader.Gbx",
+          "sha256": "654b5b6860bc29ca2d4f2f67cb4f22cb2eaa72dca3a6cb0a6ee0a5c8a334bfb5",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_PeelDiff_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_PeelDiff_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 DeferredInput TNorm.Shader.Gbx",
+          "sha256": "b004ce21e8b9f72f5cbd624e178c35c73a86628df9efcda5200838fabbb15c91",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_DefWrite_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 Block DefReadP1 LM1_TgtFixed_SI_COut.Shader.Gbx",
+          "sha256": "fe125a60cc5fed701f431bf4e5dd536da13e75a83c5af87737febe3b5cf71c7f",
+          "programs": [
+            "Shaders\\Tech3\\Block_DefReadP1_LM1_TgtFixed_SI_v.hlsl",
+            "Shaders\\Tech3\\Block_DefReadP1_SI_COut_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_SpeedometerLight_Dyna_asset",
+      "native_link": "Stadium\\Media\\Material\\SpeedometerLight_Dyna",
+      "classification": "Concrete texture-backed material",
+      "source_path": "Stadium/Media/Material/SpeedometerLight_Dyna.Material.Gbx",
+      "source_sha256": "435b67aa6f0cf79d5a5105f0fcaf29d956ee6c32d961f2d9a3612345571f9d28",
+      "material_inputs": {
+        "kind": "material",
+        "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSNI_CubeOut.Material.gbx",
+        "vertex": [],
+        "pixel": [
+          {
+            "name": "SelfIllumScale",
+            "values": [
+              [
+                20
+              ]
+            ]
+          }
+        ],
+        "slots": [
+          {
+            "name": "BaseColor",
+            "file": "Stadium\\Media\\Texture\\Speedometer_D.Texture.gbx"
+          },
+          {
+            "name": "RoughMetal",
+            "file": "Stadium\\Media\\Texture\\Speedometer_R.Texture.gbx"
+          },
+          {
+            "name": "Normal",
+            "file": "Stadium\\Media\\Texture\\Speedometer_N.Texture.gbx"
+          },
+          {
+            "name": "SelfIllum",
+            "file": "Stadium\\Media\\Texture\\Speedometer_I.Texture.gbx"
+          }
+        ],
+        "chunks": [
+          {
+            "id": 151232527,
+            "fields": {
+              "U01": -1,
+              "U02": -1,
+              "U03": 0,
+              "U04": [
+                {
+                  "U01": "RefractSI",
+                  "U02": 0
+                }
+              ]
+            }
+          },
+          {
+            "id": 151232532,
+            "fields": {
+              "U01": []
+            }
+          },
+          {
+            "id": 151232533,
+            "fields": {
+              "U01": 0,
+              "U02": "",
+              "U03": "",
+              "U04": "",
+              "U05": ""
+            }
+          }
+        ]
+      },
+      "chain": [
+        {
+          "path": "Stadium/Media/Material/SpeedometerLight_Dyna.Material.Gbx",
+          "sha256": "435b67aa6f0cf79d5a5105f0fcaf29d956ee6c32d961f2d9a3612345571f9d28",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Material/Tech3_Block_TDSNI_CubeOut.Material.gbx",
+          "sha256": "df3878a342a4e75e4b6daf1a3579988dd1363cf7d1b7ada832c0570f43aa00d0",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Block_TDSNI_CubeOut.Shader.Gbx",
+          "sha256": "b92d1afc1df2bf2829e3aa56dbc3e9d7cf2b67774d9a9b072b5719ccfb0d89b5",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_COut_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSNI_COut_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 PeelDiff TDiff.Shader.Gbx",
+          "sha256": "654b5b6860bc29ca2d4f2f67cb4f22cb2eaa72dca3a6cb0a6ee0a5c8a334bfb5",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_PeelDiff_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_PeelDiff_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 DeferredInput TNorm.Shader.Gbx",
+          "sha256": "b004ce21e8b9f72f5cbd624e178c35c73a86628df9efcda5200838fabbb15c91",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_DefWrite_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 Block DefReadP1 LM1_TgtFixed_SI_COut.Shader.Gbx",
+          "sha256": "fe125a60cc5fed701f431bf4e5dd536da13e75a83c5af87737febe3b5cf71c7f",
+          "programs": [
+            "Shaders\\Tech3\\Block_DefReadP1_LM1_TgtFixed_SI_v.hlsl",
+            "Shaders\\Tech3\\Block_DefReadP1_SI_COut_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_WarpDetails_asset",
+      "native_link": "Stadium256\\Media\\Material\\WarpDetails",
+      "classification": "Concrete texture-backed material",
+      "source_path": "Stadium256/Media/Material/WarpDetails.Material.Gbx",
+      "source_sha256": "de65a8ff9557397e01ed26b04734915aebcdf86a6d444c3de521d76bd9698827",
+      "material_inputs": {
+        "kind": "material",
+        "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+        "vertex": [],
+        "pixel": [],
+        "slots": [
+          {
+            "name": "BaseColor",
+            "file": "Stadium256\\Media\\Texture\\WarpDetails_D.Texture.gbx"
+          },
+          {
+            "name": "RoughMetal",
+            "file": "Stadium256\\Media\\Texture\\WarpDetails_R.Texture.gbx"
+          },
+          {
+            "name": "Normal",
+            "file": "Stadium256\\Media\\Texture\\WarpDetails_N.Texture.gbx"
+          }
+        ],
+        "chunks": [
+          {
+            "id": 151232527,
+            "fields": {
+              "U01": -1,
+              "U02": -1,
+              "U03": 0,
+              "U04": []
+            }
+          },
+          {
+            "id": 151232532,
+            "fields": {
+              "U01": []
+            }
+          },
+          {
+            "id": 151232533,
+            "fields": {
+              "U01": 0,
+              "U02": "",
+              "U03": "",
+              "U04": "",
+              "U05": ""
+            }
+          }
+        ]
+      },
+      "chain": [
+        {
+          "path": "Stadium256/Media/Material/WarpDetails.Material.Gbx",
+          "sha256": "de65a8ff9557397e01ed26b04734915aebcdf86a6d444c3de521d76bd9698827",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Material/Tech3_Block_TDSN_CubeOut.Material.gbx",
+          "sha256": "cc11bc3df41241beba1f0220314453f35b84f392c9c8564eb763569ecec06ce3",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut.Shader.Gbx",
+          "sha256": "76d3b73bbc636b3da3ffbbf7f4a5d3f55ded2e8a3055a21743790a1716413e4d",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_COut_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_COut_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 PeelDiff TDiff.Shader.Gbx",
+          "sha256": "654b5b6860bc29ca2d4f2f67cb4f22cb2eaa72dca3a6cb0a6ee0a5c8a334bfb5",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_PeelDiff_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_PeelDiff_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 DeferredInput TNorm_BaseColorHueShift.Shader.Gbx",
+          "sha256": "f7b2358d85e1a9ace458a396dd93fae8ebe49eb364f00ebac55ffc275b3f71a3",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_DefWrite_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 Block DefReadP1 LM1_TgtFixed_CubeOut.Shader.Gbx",
+          "sha256": "8bbd6e53ea5b48fe1ce25d9a323ae8636b61fea243112ac77346961531833387",
+          "programs": [
+            "Shaders\\Tech3\\Block_DefReadP1_LM1_TgtFixed_v.hlsl",
+            "Shaders\\Tech3\\Block_DefReadP1_COut_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_WarpDetails_Dyna_asset",
+      "native_link": "Stadium256\\Media\\Material\\WarpDetails_Dyna",
+      "classification": "Concrete texture-backed material",
+      "source_path": "Stadium256/Media/Material/WarpDetails_Dyna.Material.Gbx",
+      "source_sha256": "1244e807f794e50c1a864b7add44a50c473278742cf11db3c3011b1943db914a",
+      "material_inputs": {
+        "kind": "material",
+        "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+        "vertex": [],
+        "pixel": [],
+        "slots": [
+          {
+            "name": "BaseColor",
+            "file": "Stadium256\\Media\\Texture\\WarpDetails_D.Texture.gbx"
+          },
+          {
+            "name": "RoughMetal",
+            "file": "Stadium256\\Media\\Texture\\WarpDetails_R.Texture.gbx"
+          },
+          {
+            "name": "Normal",
+            "file": "Stadium256\\Media\\Texture\\WarpDetails_N.Texture.gbx"
+          }
+        ],
+        "chunks": [
+          {
+            "id": 151232527,
+            "fields": {
+              "U01": -1,
+              "U02": -1,
+              "U03": 0,
+              "U04": []
+            }
+          },
+          {
+            "id": 151232532,
+            "fields": {
+              "U01": []
+            }
+          },
+          {
+            "id": 151232533,
+            "fields": {
+              "U01": 0,
+              "U02": "",
+              "U03": "",
+              "U04": "",
+              "U05": ""
+            }
+          }
+        ]
+      },
+      "chain": [
+        {
+          "path": "Stadium256/Media/Material/WarpDetails_Dyna.Material.Gbx",
+          "sha256": "1244e807f794e50c1a864b7add44a50c473278742cf11db3c3011b1943db914a",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Material/Tech3_Block_TDSN_CubeOut.Material.gbx",
+          "sha256": "cc11bc3df41241beba1f0220314453f35b84f392c9c8564eb763569ecec06ce3",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut.Shader.Gbx",
+          "sha256": "76d3b73bbc636b3da3ffbbf7f4a5d3f55ded2e8a3055a21743790a1716413e4d",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_COut_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_COut_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 PeelDiff TDiff.Shader.Gbx",
+          "sha256": "654b5b6860bc29ca2d4f2f67cb4f22cb2eaa72dca3a6cb0a6ee0a5c8a334bfb5",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_PeelDiff_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_PeelDiff_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 DeferredInput TNorm_BaseColorHueShift.Shader.Gbx",
+          "sha256": "f7b2358d85e1a9ace458a396dd93fae8ebe49eb364f00ebac55ffc275b3f71a3",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_DefWrite_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 Block DefReadP1 LM1_TgtFixed_CubeOut.Shader.Gbx",
+          "sha256": "8bbd6e53ea5b48fe1ce25d9a323ae8636b61fea243112ac77346961531833387",
+          "programs": [
+            "Shaders\\Tech3\\Block_DefReadP1_LM1_TgtFixed_v.hlsl",
+            "Shaders\\Tech3\\Block_DefReadP1_COut_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_WarpDetails_WithLightmap_asset",
+      "native_link": "Stadium256\\Media\\Material_BlockCustom\\WarpDetails",
+      "classification": "Concrete texture-backed material",
+      "source_path": "Stadium256/Media/Material_BlockCustom/WarpDetails.Material.Gbx",
+      "source_sha256": "38058e1ed6cea6a3457e1e0941b144e4a147bcad480fc448a9ff12f44e1bd350",
+      "material_inputs": {
+        "kind": "material",
+        "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+        "vertex": [],
+        "pixel": [],
+        "slots": [
+          {
+            "name": "BaseColor",
+            "file": "Stadium256\\Media\\Texture\\WarpDetails_D.Texture.gbx"
+          },
+          {
+            "name": "RoughMetal",
+            "file": "Stadium256\\Media\\Texture\\WarpDetails_R.Texture.gbx"
+          },
+          {
+            "name": "Normal",
+            "file": "Stadium256\\Media\\Texture\\WarpDetails_N.Texture.gbx"
+          }
+        ],
+        "chunks": [
+          {
+            "id": 151232527,
+            "fields": {
+              "U01": -1,
+              "U02": -1,
+              "U03": 0,
+              "U04": []
+            }
+          },
+          {
+            "id": 151232532,
+            "fields": {
+              "U01": []
+            }
+          },
+          {
+            "id": 151232533,
+            "fields": {
+              "U01": 0,
+              "U02": "",
+              "U03": "",
+              "U04": "",
+              "U05": ""
+            }
+          }
+        ]
+      },
+      "chain": [
+        {
+          "path": "Stadium256/Media/Material_BlockCustom/WarpDetails.Material.Gbx",
+          "sha256": "38058e1ed6cea6a3457e1e0941b144e4a147bcad480fc448a9ff12f44e1bd350",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Material/Tech3_Block_TDSN_CubeOut.Material.gbx",
+          "sha256": "cc11bc3df41241beba1f0220314453f35b84f392c9c8564eb763569ecec06ce3",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut.Shader.Gbx",
+          "sha256": "76d3b73bbc636b3da3ffbbf7f4a5d3f55ded2e8a3055a21743790a1716413e4d",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_COut_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_COut_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 PeelDiff TDiff.Shader.Gbx",
+          "sha256": "654b5b6860bc29ca2d4f2f67cb4f22cb2eaa72dca3a6cb0a6ee0a5c8a334bfb5",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_PeelDiff_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_PeelDiff_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 DeferredInput TNorm_BaseColorHueShift.Shader.Gbx",
+          "sha256": "f7b2358d85e1a9ace458a396dd93fae8ebe49eb364f00ebac55ffc275b3f71a3",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_DefWrite_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 Block DefReadP1 LM1_TgtFixed_CubeOut.Shader.Gbx",
+          "sha256": "8bbd6e53ea5b48fe1ce25d9a323ae8636b61fea243112ac77346961531833387",
+          "programs": [
+            "Shaders\\Tech3\\Block_DefReadP1_LM1_TgtFixed_v.hlsl",
+            "Shaders\\Tech3\\Block_DefReadP1_COut_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_WarpLight_asset",
+      "native_link": "Stadium256\\Media\\Material\\WarpLight",
+      "classification": "Concrete texture-backed material",
+      "source_path": "Stadium256/Media/Material/WarpLight.Material.Gbx",
+      "source_sha256": "51eeb13ef8ae51f8aad802f7fc21fe058e80a14770e019e10003ea9df0b12b68",
+      "material_inputs": {
+        "kind": "material",
+        "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut_DispIn.Material.gbx",
+        "vertex": [],
+        "pixel": [
+          {
+            "name": "Meters_UV",
+            "values": [
+              [
+                32,
+                16
+              ]
+            ]
+          },
+          {
+            "name": "SelfIllum_Scale",
+            "values": [
+              [
+                20
+              ]
+            ]
+          },
+          {
+            "name": "Rough_Scale_LOD",
+            "values": [
+              [
+                1
+              ]
+            ]
+          },
+          {
+            "name": "Meters_Depth",
+            "values": [
+              [
+                0.4
+              ]
+            ]
+          },
+          {
+            "name": "TcScale_BRNH",
+            "values": [
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          {
+            "name": "RefractIndex",
+            "values": [
+              [
+                1
+              ]
+            ]
+          },
+          {
+            "name": "DoubleRefract",
+            "values": [
+              [
+                0
+              ]
+            ]
+          }
+        ],
+        "slots": [
+          {
+            "name": "BaseColorOp",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_D.Texture.gbx"
+          },
+          {
+            "name": "RoughMetal",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_R.Texture.gbx"
+          },
+          {
+            "name": "Normal",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_N.Texture.gbx"
+          },
+          {
+            "name": "MulInside",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_L.Texture.gbx"
+          },
+          {
+            "name": "MulInsideForeground",
+            "file": "Techno3\\Media\\Texture\\Rgba0000.Texture.gbx"
+          },
+          {
+            "name": "MulInside1",
+            "file": "Techno3\\Media\\Texture\\Rgba0000.Texture.gbx"
+          },
+          {
+            "name": "MulInsideForeground1",
+            "file": "Techno3\\Media\\Texture\\Rgba0000.Texture.gbx"
+          },
+          {
+            "name": "Height",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_H.Texture.gbx"
+          },
+          {
+            "name": "SI",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_I.Texture.gbx"
+          }
+        ],
+        "chunks": [
+          {
+            "id": 151232527,
+            "fields": {
+              "U01": -1,
+              "U02": -1,
+              "U03": 0,
+              "U04": []
+            }
+          },
+          {
+            "id": 151232532,
+            "fields": {
+              "U01": []
+            }
+          },
+          {
+            "id": 151232533,
+            "fields": {
+              "U01": 0,
+              "U02": "",
+              "U03": "",
+              "U04": "",
+              "U05": ""
+            }
+          }
+        ]
+      },
+      "chain": [
+        {
+          "path": "Stadium256/Media/Material/WarpLight.Material.Gbx",
+          "sha256": "51eeb13ef8ae51f8aad802f7fc21fe058e80a14770e019e10003ea9df0b12b68",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Material/Tech3_Block_TDSN_CubeOut_DispIn.Material.gbx",
+          "sha256": "403c5e092e1231138b32ffec60964185f2cb9e73ca56e4e34eb513fd6e173b5b",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut_DispIn.Shader.Gbx",
+          "sha256": "6995093033e11ca8b5f8334de0f1b3102a59cec798ffe80c1ffc30ea0fb01834",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_COut_DispIn_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_COut_DispIn_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 PeelDiff TBOp.Shader.Gbx",
+          "sha256": "13565a938bf0ca2f59ba5208b60c85e31b241cbd83619ad444c5ac73616c42a4",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_PeelDiff_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSNOp_PeelDiff_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut_DispIn_DefWrite.Shader.Gbx",
+          "sha256": "804ca4834ca84c8ddaa1a76b111b353322aa7fd3f06117d68b223b83f1acd3be",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_COut_DispIn_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_COut_DispIn_DefWrite_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 Block DefReadP1 LM1_TgtFixed_CubeOut_DispIn.Shader.Gbx",
+          "sha256": "3bc82fec1b9502f5d9bb03d2b5ae95cea3c9c5dff9ed444dc9b199207a039b91",
+          "programs": [
+            "Shaders\\Tech3\\Block_DefReadP1_LM2_TgtFixed_COut_DispIn_v.hlsl",
+            "Shaders\\Tech3\\Block_DefReadP1_COut_DispIn_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_WarpLight_Dyna_asset",
+      "native_link": "Stadium256\\Media\\Material\\WarpLight_Dyna",
+      "classification": "Concrete texture-backed material",
+      "source_path": "Stadium256/Media/Material/WarpLight_Dyna.Material.Gbx",
+      "source_sha256": "b0751e71930fe4a7b0b57318dc9b7513ae65439bdacab389ec53fd46bc37a8bd",
+      "material_inputs": {
+        "kind": "material",
+        "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3 Block TSelfIllum.Material.gbx",
+        "vertex": [],
+        "pixel": [
+          {
+            "name": "SelfIllumScale",
+            "values": [
+              [
+                2.5
+              ]
+            ]
+          }
+        ],
+        "slots": [
+          {
+            "name": "Diffuse",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_D.Texture.gbx"
+          },
+          {
+            "name": "BaseColor",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_D.Texture.gbx"
+          },
+          {
+            "name": "Specular",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_R.Texture.gbx"
+          },
+          {
+            "name": "RoughMetal",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_R.Texture.gbx"
+          },
+          {
+            "name": "Normal",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_N.Texture.gbx"
+          },
+          {
+            "name": "SelfIllum",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_I.Texture.gbx"
+          }
+        ],
+        "chunks": [
+          {
+            "id": 151232527,
+            "fields": {
+              "U01": -1,
+              "U02": -1,
+              "U03": 0,
+              "U04": [
+                {
+                  "U01": "NightOnly_SelfIllum",
+                  "U02": 0
+                }
+              ]
+            }
+          },
+          {
+            "id": 151232532,
+            "fields": {
+              "U01": []
+            }
+          },
+          {
+            "id": 151232533,
+            "fields": {
+              "U01": 0,
+              "U02": "",
+              "U03": "",
+              "U04": "",
+              "U05": ""
+            }
+          }
+        ]
+      },
+      "chain": [
+        {
+          "path": "Stadium256/Media/Material/WarpLight_Dyna.Material.Gbx",
+          "sha256": "b0751e71930fe4a7b0b57318dc9b7513ae65439bdacab389ec53fd46bc37a8bd",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Material/Tech3 Block TSelfIllum.Material.gbx",
+          "sha256": "bc11bb23b9a4799a74dc9980c3cb993ce65ac8e985ee20281a070748db89a7f0",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 Block TSelfIllum PC3.Shader.Gbx",
+          "sha256": "89c240a89927dbb982bed7aff90f7ce986d7868e4592c6fed4470bbd57675e5e",
+          "programs": [
+            "Shaders\\Tech3\\Block_TSelfI_v.hlsl",
+            "Shaders\\Tech3\\Block_TSelfI_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 PeelDiff TDiff.Shader.Gbx",
+          "sha256": "654b5b6860bc29ca2d4f2f67cb4f22cb2eaa72dca3a6cb0a6ee0a5c8a334bfb5",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_PeelDiff_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_PeelDiff_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 DeferredInput TNorm.Shader.Gbx",
+          "sha256": "b004ce21e8b9f72f5cbd624e178c35c73a86628df9efcda5200838fabbb15c91",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_DefWrite_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 Block DefReadP1 LM1_TgtFixed_SelfIllum.Shader.Gbx",
+          "sha256": "114dca282d5356b3df4c2e62bc8de28e13e7530223453fb960c689031e10d599",
+          "programs": [
+            "Shaders\\Tech3\\Block_DefReadP1_LM1_TgtFixed_SI_v.hlsl",
+            "Shaders\\Tech3\\Block_DefReadP1_SI_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_WarpLightRay_asset",
+      "native_link": "Stadium256\\Media\\Material\\WarpLightRay",
+      "classification": "Concrete texture-backed material",
+      "source_path": "Stadium256/Media/Material/WarpLightRay.Material.Gbx",
+      "source_sha256": "d335874215da8d7e270c5cc04100ae8424fa23ee8f7a9ea86d8cd4d9ec8319ec",
+      "material_inputs": {
+        "kind": "material",
+        "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut_DispIn.Material.gbx",
+        "vertex": [],
+        "pixel": [
+          {
+            "name": "Meters_UV",
+            "values": [
+              [
+                32,
+                16
+              ]
+            ]
+          },
+          {
+            "name": "SelfIllum_Scale",
+            "values": [
+              [
+                20
+              ]
+            ]
+          },
+          {
+            "name": "Rough_Scale_LOD",
+            "values": [
+              [
+                1
+              ]
+            ]
+          },
+          {
+            "name": "Meters_Depth",
+            "values": [
+              [
+                0.2
+              ]
+            ]
+          },
+          {
+            "name": "TcScale_BRNH",
+            "values": [
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          {
+            "name": "RefractIndex",
+            "values": [
+              [
+                0.8
+              ]
+            ]
+          },
+          {
+            "name": "DoubleRefract",
+            "values": [
+              [
+                1
+              ]
+            ]
+          }
+        ],
+        "slots": [
+          {
+            "name": "BaseColorOp",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_D.Texture.gbx"
+          },
+          {
+            "name": "RoughMetal",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_R.Texture.gbx"
+          },
+          {
+            "name": "Normal",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_N.Texture.gbx"
+          },
+          {
+            "name": "MulInside",
+            "file": "Stadium256\\Media\\Texture\\WarpLightRay_L.Texture.gbx"
+          },
+          {
+            "name": "MulInsideForeground",
+            "file": "Techno3\\Media\\Texture\\Rgba0000.Texture.gbx"
+          },
+          {
+            "name": "MulInside1",
+            "file": "Techno3\\Media\\Texture\\Rgba0000.Texture.gbx"
+          },
+          {
+            "name": "MulInsideForeground1",
+            "file": "Techno3\\Media\\Texture\\Rgba0000.Texture.gbx"
+          },
+          {
+            "name": "Height",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_H.Texture.gbx"
+          },
+          {
+            "name": "SI",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_I.Texture.gbx"
+          }
+        ],
+        "chunks": [
+          {
+            "id": 151232527,
+            "fields": {
+              "U01": -1,
+              "U02": -1,
+              "U03": 0,
+              "U04": []
+            }
+          },
+          {
+            "id": 151232532,
+            "fields": {
+              "U01": []
+            }
+          },
+          {
+            "id": 151232533,
+            "fields": {
+              "U01": 0,
+              "U02": "",
+              "U03": "",
+              "U04": "",
+              "U05": ""
+            }
+          }
+        ]
+      },
+      "chain": [
+        {
+          "path": "Stadium256/Media/Material/WarpLightRay.Material.Gbx",
+          "sha256": "d335874215da8d7e270c5cc04100ae8424fa23ee8f7a9ea86d8cd4d9ec8319ec",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Material/Tech3_Block_TDSN_CubeOut_DispIn.Material.gbx",
+          "sha256": "403c5e092e1231138b32ffec60964185f2cb9e73ca56e4e34eb513fd6e173b5b",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut_DispIn.Shader.Gbx",
+          "sha256": "6995093033e11ca8b5f8334de0f1b3102a59cec798ffe80c1ffc30ea0fb01834",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_COut_DispIn_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_COut_DispIn_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 PeelDiff TBOp.Shader.Gbx",
+          "sha256": "13565a938bf0ca2f59ba5208b60c85e31b241cbd83619ad444c5ac73616c42a4",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_PeelDiff_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSNOp_PeelDiff_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut_DispIn_DefWrite.Shader.Gbx",
+          "sha256": "804ca4834ca84c8ddaa1a76b111b353322aa7fd3f06117d68b223b83f1acd3be",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_COut_DispIn_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_COut_DispIn_DefWrite_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 Block DefReadP1 LM1_TgtFixed_CubeOut_DispIn.Shader.Gbx",
+          "sha256": "3bc82fec1b9502f5d9bb03d2b5ae95cea3c9c5dff9ed444dc9b199207a039b91",
+          "programs": [
+            "Shaders\\Tech3\\Block_DefReadP1_LM2_TgtFixed_COut_DispIn_v.hlsl",
+            "Shaders\\Tech3\\Block_DefReadP1_COut_DispIn_p.hlsl"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TM_WarpLightRay_Dyna_asset",
+      "native_link": "Stadium256\\Media\\Material\\WarpLightRay_Dyna",
+      "classification": "Concrete texture-backed material",
+      "source_path": "Stadium256/Media/Material/WarpLightRay_Dyna.Material.Gbx",
+      "source_sha256": "3e118479fd68ea0e7b44301b322f91d4d471d1d442ca5ada354b66881cb305c2",
+      "material_inputs": {
+        "kind": "material",
+        "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut_DispIn.Material.gbx",
+        "vertex": [],
+        "pixel": [
+          {
+            "name": "Meters_UV",
+            "values": [
+              [
+                32,
+                16
+              ]
+            ]
+          },
+          {
+            "name": "SelfIllum_Scale",
+            "values": [
+              [
+                20
+              ]
+            ]
+          },
+          {
+            "name": "Rough_Scale_LOD",
+            "values": [
+              [
+                1
+              ]
+            ]
+          },
+          {
+            "name": "Meters_Depth",
+            "values": [
+              [
+                0.2
+              ]
+            ]
+          },
+          {
+            "name": "TcScale_BRNH",
+            "values": [
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          {
+            "name": "RefractIndex",
+            "values": [
+              [
+                0.8
+              ]
+            ]
+          },
+          {
+            "name": "DoubleRefract",
+            "values": [
+              [
+                1
+              ]
+            ]
+          }
+        ],
+        "slots": [
+          {
+            "name": "BaseColorOp",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_D.Texture.gbx"
+          },
+          {
+            "name": "RoughMetal",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_R.Texture.gbx"
+          },
+          {
+            "name": "Normal",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_N.Texture.gbx"
+          },
+          {
+            "name": "MulInside",
+            "file": "Stadium256\\Media\\Texture\\WarpLightRay_L.Texture.gbx"
+          },
+          {
+            "name": "MulInsideForeground",
+            "file": "Techno3\\Media\\Texture\\Rgba0000.Texture.gbx"
+          },
+          {
+            "name": "MulInside1",
+            "file": "Techno3\\Media\\Texture\\Rgba0000.Texture.gbx"
+          },
+          {
+            "name": "MulInsideForeground1",
+            "file": "Techno3\\Media\\Texture\\Rgba0000.Texture.gbx"
+          },
+          {
+            "name": "Height",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_H.Texture.gbx"
+          },
+          {
+            "name": "SI",
+            "file": "Stadium256\\Media\\Texture\\WarpLight_I.Texture.gbx"
+          }
+        ],
+        "chunks": [
+          {
+            "id": 151232527,
+            "fields": {
+              "U01": -1,
+              "U02": -1,
+              "U03": 0,
+              "U04": []
+            }
+          },
+          {
+            "id": 151232532,
+            "fields": {
+              "U01": []
+            }
+          },
+          {
+            "id": 151232533,
+            "fields": {
+              "U01": 0,
+              "U02": "",
+              "U03": "",
+              "U04": "",
+              "U05": ""
+            }
+          }
+        ]
+      },
+      "chain": [
+        {
+          "path": "Stadium256/Media/Material/WarpLightRay_Dyna.Material.Gbx",
+          "sha256": "3e118479fd68ea0e7b44301b322f91d4d471d1d442ca5ada354b66881cb305c2",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Material/Tech3_Block_TDSN_CubeOut_DispIn.Material.gbx",
+          "sha256": "403c5e092e1231138b32ffec60964185f2cb9e73ca56e4e34eb513fd6e173b5b",
+          "programs": []
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut_DispIn.Shader.Gbx",
+          "sha256": "6995093033e11ca8b5f8334de0f1b3102a59cec798ffe80c1ffc30ea0fb01834",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_COut_DispIn_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_COut_DispIn_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 PeelDiff TBOp.Shader.Gbx",
+          "sha256": "13565a938bf0ca2f59ba5208b60c85e31b241cbd83619ad444c5ac73616c42a4",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_PeelDiff_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSNOp_PeelDiff_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut_DispIn_DefWrite.Shader.Gbx",
+          "sha256": "804ca4834ca84c8ddaa1a76b111b353322aa7fd3f06117d68b223b83f1acd3be",
+          "programs": [
+            "Shaders\\Tech3\\Block_TDSN_COut_DispIn_DefWrite_v.hlsl",
+            "Shaders\\Tech3\\Block_TDSN_COut_DispIn_DefWrite_p.hlsl"
+          ]
+        },
+        {
+          "path": "Techno3/Media/Shader/Tech3 Block DefReadP1 LM1_TgtFixed_CubeOut_DispIn.Shader.Gbx",
+          "sha256": "3bc82fec1b9502f5d9bb03d2b5ae95cea3c9c5dff9ed444dc9b199207a039b91",
+          "programs": [
+            "Shaders\\Tech3\\Block_DefReadP1_LM2_TgtFixed_COut_DispIn_v.hlsl",
+            "Shaders\\Tech3\\Block_DefReadP1_COut_DispIn_p.hlsl"
+          ]
+        }
+      ]
+    }
+  ],
+  "compiled_programs": [
+    {
+      "program": "Block_TDSN_COut_DispIn_p.hlsl.GpuCache.Gbx.dxbc",
+      "sha256": "c32acfe1235eba212a5c4784796ac762babf3014abe670ee0f828ecb6cd5a0e7"
+    },
+    {
+      "program": "Block_TSelfI_p.hlsl.GpuCache.Gbx.dxbc",
+      "sha256": "e670c6aba14eecf040b9951a93603dd1ed87acca7e5e586a8a4701b88bc44cc7"
+    }
+  ],
+  "composition_evidence": "DispIn pixel variant03: r10=alpha-composited MulInside; SI sampled at height-traced UV; emission=r10*SI*(1-BaseColorOp.a)*SelfIllum_Scale*engine factors.",
+  "limits": [
+    "Flattened MulInside, not full texture-array room projection",
+    "Engine lightmaps/probes/display activation/exposure are not reproduced",
+    "No new game render/export validation"
+  ]
+}

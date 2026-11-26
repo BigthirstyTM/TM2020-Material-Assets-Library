@@ -10,6 +10,8 @@ The badges above show the material count in each edition and the Blender version
 
 The published full-package revision `2026.11.25-thumbnail-aspect-3` preserves image/frame proportions and fills square tiles edge to edge. It includes restored emissive sign/light previews, slightly brighter active screens, enlarged Custom sphere detail and the animation/time-step labels. Both Materials Only and Complete now publish this revision; each edition has two ZIPs with verified checksums. See [thumbnail styles](docs/THUMBNAIL-STYLES.md).
 
+The newer **local development library** includes source-backed [Dyna preview corrections](docs/DYNA-MATERIALS.md): Warp interior/SI composition, native SI depth tracing and explicit emissive/tangent UVs. These changes are not yet included in the published ZIPs or remote pilot.
+
 ## Current combined refresh
 
 Content revision **2026.11.25-thumbnail-aspect-3** combines the latest material improvements with the selected [A/B/C thumbnail styles](docs/THUMBNAIL-STYLES.md): softer top-down shader renders without visible studio-lamp reflections, vegetation standing on tiles, and Custom spheres. The [catalog clarity update](docs/CATALOG-CLARITY.md) removes duplicate example assets. AnimatedFlag is retained under Preview only after a reported item-loading crash; its animated MaterialLib alias is disabled.
