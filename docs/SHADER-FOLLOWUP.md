@@ -1,6 +1,6 @@
 # UV, grass, display depth, terrain arrays and colour masks
 
-Local development revision: `2026.11.26-shader-followup-1`.
+Published full-package revision: `2026.11.26-shader-followup-1`.
 
 This update addresses the five groups identified after the Dyna preview audit.
 Native material links, export declarations, asset identities, catalog membership,
@@ -106,8 +106,8 @@ appended into a project are not replaced automatically. Keep a UV map named
 `BaseMaterial`; preserve any other named UVs required by your object/exporter.
 
 The current thumbnail artwork remains as previously selected. The material
-changes can improve applied surfaces without changing the static icon. Full
-ZIP releases and the remote pilot are not republished by this local update.
+changes can improve applied surfaces without changing the static icon. Both full
+ZIP releases include this revision. The remote extension pilot remains unchanged.
 
 The game and Blender GUI were not used for validation. The update is checked
 with fresh-file preservation tests and bounded CPU renders; this is not a new

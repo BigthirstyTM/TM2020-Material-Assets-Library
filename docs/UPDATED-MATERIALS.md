@@ -1,10 +1,10 @@
 # Updated material previews
 
-Local development revision `2026.11.26-shader-followup-1` updates 555 unique graphs across five shader-informed groups. See [UV/grass/display depth/terrain/colour controls and limits](SHADER-FOLLOWUP.md) and the [complete per-group material list](SHADER-FOLLOWUP-MATERIALS.md). Native export identities, badges and thumbnail artwork are preserved. This local revision has not replaced the public ZIPs or remote pilot.
+Published full-package revision `2026.11.26-shader-followup-1` updates 555 unique graphs across five shader-informed groups. See [UV/grass/display depth/terrain/colour controls and limits](SHADER-FOLLOWUP.md) and the [complete per-group material list](SHADER-FOLLOWUP-MATERIALS.md). Native export identities, badges and thumbnail artwork are preserved. Both ZIP editions include these changes; the remote pilot remains unchanged.
 
-Local development revision `2026.11.26-dyna-preview-1` adds [Dyna source analysis and preview corrections](DYNA-MATERIALS.md). Six material graphs were corrected; three related WarpDetails entries received source-provenance metadata. The ZIP releases and remote pilot below have not been republished for this local revision.
+The included Dyna revision `2026.11.26-dyna-preview-1` adds [Dyna source analysis and preview corrections](DYNA-MATERIALS.md). Six material graphs were corrected; three related WarpDetails entries received source-provenance metadata. These Dyna changes are included in the current ZIPs; the remote pilot remains unchanged.
 
-Both published full-package editions now contain `2026.11.25-thumbnail-aspect-3`. Each edition has two ZIPs; release checksums and public downloads have been verified. Check `release.json` or the installed `library.json` for the revision of your package.
+Both published full-package editions now contain `2026.11.26-shader-followup-1`. Each edition has two ZIPs; release checksums and public downloads have been verified. Check `release.json` or the installed `library.json` for the revision of your package.
 
 The new packages include 843 flat/composed tiles with correct image/frame proportions: 341 rectangular images fit without stretching and 502 square tiles fill the canvas. They include restored emissive sign/light previews, slightly brighter active screens, flat CustomMod defaults, and 13 Custom spheres with enlarged texture detail. ItemObstacle last-frame icons and 21 clock time-step labels are restored. Vegetation, water/glass previews and existing feature badges are retained. See [thumbnail styles](THUMBNAIL-STYLES.md).
 

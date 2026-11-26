@@ -44,7 +44,7 @@ def main():
                 (out / rel).unlink()
         docs = out / 'docs'
         docs.mkdir(exist_ok=True)
-        for name in ('INSTALLATION.md', 'USAGE.md', 'BADGES.md', 'ASSET-TYPES.md', 'NATIVE-INPUTS.md', 'CREDITS.md', 'MAINTAINING.md', 'WATER-ANIMATION.md', 'SURFACE-PREVIEWS.md', 'SURFACE-SOURCES.md', 'SHADER-FIDELITY-PREVIEWS.md', 'SHADER-FIDELITY-REVIEW.md', 'DECO-ICE-PREVIEWS.md', 'CONCRETE-SHADER-CORRECTIONS.md', 'UPDATED-MATERIALS.md', 'PROJECTED-SURFACES.md', 'SOURCE-RESOLUTION.md', 'SHADER-RECONCILIATION.md', 'CATALOG-CLARITY.md', 'THUMBNAIL-STYLES.md'):
+        for name in ('INSTALLATION.md', 'USAGE.md', 'BADGES.md', 'ASSET-TYPES.md', 'NATIVE-INPUTS.md', 'CREDITS.md', 'MAINTAINING.md', 'WATER-ANIMATION.md', 'SURFACE-PREVIEWS.md', 'SURFACE-SOURCES.md', 'SHADER-FIDELITY-PREVIEWS.md', 'SHADER-FIDELITY-REVIEW.md', 'DECO-ICE-PREVIEWS.md', 'CONCRETE-SHADER-CORRECTIONS.md', 'UPDATED-MATERIALS.md', 'PROJECTED-SURFACES.md', 'SOURCE-RESOLUTION.md', 'SHADER-RECONCILIATION.md', 'CATALOG-CLARITY.md', 'THUMBNAIL-STYLES.md', 'DYNA-MATERIALS.md', 'SHADER-FOLLOWUP.md', 'SHADER-FOLLOWUP-MATERIALS.md'):
             shutil.copy2(ROOT / 'docs' / name, docs / name)
         if (ROOT / 'docs/images').is_dir():
             shutil.copytree(ROOT / 'docs/images', docs / 'images', dirs_exist_ok=True)

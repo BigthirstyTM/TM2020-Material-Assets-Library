@@ -45,7 +45,7 @@ Background Blender 5.3 CPU renders checked interior contribution, depth response
 UV-map independence, counterpart equivalence, and timeline stability. There was
 no new in-game visual comparison or exporter test in this revision.
 
-## Using the local update
+## Using the update
 
 Refresh the asset library or reopen Blender, then append the material again.
 Materials already appended into an existing project are local copies and are
@@ -53,8 +53,8 @@ not automatically replaced. Use a UV map named `BaseMaterial`.
 
 The local library was updated with a backup. Asset identities, native export
 links, catalogs, badges, thumbnails, `MaterialLib.txt`, and unrelated material
-graphs are preserved. The existing GitHub ZIP releases and remote pilot retain
-their previous content until a separate packaging/publication update.
+graphs are preserved. Both GitHub ZIP releases include these changes in
+`2026.11.26-shader-followup-1`. The remote extension pilot remains unchanged.
 
 ## Reproducible tools
 
