@@ -65,7 +65,12 @@ def sha(path):
 
 
 def release():
-    return optional_api(f'repos/{repo}/releases/tags/{tag}')
+    # GitHub's tag endpoint can return 404 for a newly created draft.
+    found = optional_api(f'repos/{repo}/releases/tags/{tag}')
+    if found is not None:
+        return found
+    candidates = json.loads(gh('api',f'repos/{repo}/releases?per_page=100'))
+    return next((x for x in candidates if x['tag_name']==tag),None)
 
 
 def git(*args, cwd):
