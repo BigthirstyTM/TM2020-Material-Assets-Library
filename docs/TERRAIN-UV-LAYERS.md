@@ -1,6 +1,6 @@
 # Terrain UV detail and transition layers
 
-Local source revision: `2026.11.26-terrain-uv-layers-1`.
+Terrain material revision: `2026.11.26-terrain-uv-layers-1`.
 Included in combined full-package revision `2026.11.26-thumbnail-shadow-lift-1`.
 Check the downloaded `release.json` for its content revision. The remote pilot is unchanged.
 

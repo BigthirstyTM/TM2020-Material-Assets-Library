@@ -1,6 +1,7 @@
 # UV, grass, display depth, terrain arrays and colour masks
 
-Published full-package revision: `2026.11.26-shader-followup-1`.
+Shader follow-up material revision: `2026.11.26-shader-followup-1`.
+Included in the current combined full-package revision `2026.11.26-thumbnail-shadow-lift-1`.
 
 A newer [terrain UV correction](TERRAIN-UV-LAYERS.md) restores the missing
 TBaseColorOp detail layer in 15 of the 24 terrain arrays below. It is included in

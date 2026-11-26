@@ -1,6 +1,6 @@
 # Material thumbnail styles
 
-Local thumbnail revision `2026.11.26-thumbnail-shadow-lift-1` slightly lifts the six dark icons listed below. The preceding material revision is `2026.11.26-terrain-uv-layers-1`: 15 terrain icons are rerendered after restoring missing UV layers; the other 22 retain the preceding terrain C artwork. See [terrain UV layers](TERRAIN-UV-LAYERS.md). These changes are included in combined full-package revision `2026.11.26-thumbnail-shadow-lift-1`; check the downloaded manifest for its revision. The remote extension pilot is unchanged. The other icon styles retain the preceding aspect/family/readability refinements.
+Published thumbnail revision `2026.11.26-thumbnail-shadow-lift-1` slightly lifts the six dark icons listed below. The preceding material revision is `2026.11.26-terrain-uv-layers-1`: 15 terrain icons are rerendered after restoring missing UV layers; the other 22 retain the preceding terrain C artwork. See [terrain UV layers](TERRAIN-UV-LAYERS.md). These changes are included in combined full-package revision `2026.11.26-thumbnail-shadow-lift-1`; check the downloaded manifest for its revision. The remote extension pilot is unchanged. The other icon styles retain the preceding aspect/family/readability refinements.
 
 ## Approved terrain C layout
 
