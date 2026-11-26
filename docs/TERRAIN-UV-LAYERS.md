@@ -1,7 +1,8 @@
 # Terrain UV detail and transition layers
 
 Local source revision: `2026.11.26-terrain-uv-layers-1`.
-The published full ZIPs remain `2026.11.26-shader-followup-1`; the remote pilot is unchanged.
+Included in combined full-package revision `2026.11.26-thumbnail-shadow-lift-1`.
+Check the downloaded `release.json` for its content revision. The remote pilot is unchanged.
 
 Fifteen existing environment materials were missing their UV detail layer. The
 array reconstruction retained `TBaseColorOp`, `TRoughMetal` and `TNormal` in its

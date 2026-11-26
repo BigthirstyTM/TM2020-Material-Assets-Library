@@ -2,9 +2,9 @@
 
 Published full-package revision: `2026.11.26-shader-followup-1`.
 
-A newer [local terrain UV correction](TERRAIN-UV-LAYERS.md) restores the missing
-TBaseColorOp detail layer in 15 of the 24 terrain arrays below. It is not yet in
-those ZIPs or the remote pilot.
+A newer [terrain UV correction](TERRAIN-UV-LAYERS.md) restores the missing
+TBaseColorOp detail layer in 15 of the 24 terrain arrays below. It is included in
+combined revision `2026.11.26-thumbnail-shadow-lift-1`; the remote pilot is unchanged.
 
 This update addresses the five groups identified after the Dyna preview audit.
 Native material links, export declarations, asset identities, catalog membership,
