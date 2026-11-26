@@ -18,7 +18,11 @@ Content revision **2026.11.26-thumbnail-shadow-lift-1** includes the Dyna and sh
 
 Both full packages include the improvements to 31 projected previews, two light tubes and four optional structure colour masks, plus 88 recovered exact shader references. See [projected surfaces](docs/PROJECTED-SURFACES.md) and [source resolution](docs/SOURCE-RESOLUTION.md). The [shader reconciliation](docs/SHADER-RECONCILIATION.md) clarifies 94 root/pass references and improves ten array-based terrain previews plus LakeBottom. These source references do not promote Preview only entries to confirmed game compatibility.
 
-## Blender 5.3 remote pilot
+## Blender 5.3 asset-library extension
+
+The full **Trackmania 2020 - Materials Library** extension is being prepared with all 825 Materials Only entries. It uses a separate Blender 5.3+ extension release and a GitHub-hosted repository with native drag-and-drop installation. See [installation and update details](docs/REMOTE-MATERIALS-LIBRARY.md). The full remote download is 2.97 GB in 98 shared-texture bundles; only changed bundles need downloading again. All 825 materials and original texture resolutions are retained. Offline ZIPs and the earlier pilot remain available.
+
+### Earlier remote pilot
 
 A [12-material Materials Only pilot](https://bigthirstytm.github.io/TM2020-Material-Assets-Library/) is now available as an asset-library extension. Materials download when needed; changed files can update independently. Experimental/Preview only entries are excluded, and MaterialLib is supplied separately through Blendermania. The full remote collection is not yet available. See [installation and update details](docs/REMOTE-LIBRARY-PILOT.md).
 

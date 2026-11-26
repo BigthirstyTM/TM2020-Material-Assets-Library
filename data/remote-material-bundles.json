@@ -1,0 +1,2444 @@
+{
+  "materials": 825,
+  "bundle_count": 98,
+  "max_raw_mb": 512,
+  "max_materials": 32,
+  "individual_raw_bytes": 15361215311,
+  "bundled_raw_bytes": 4039388997,
+  "bundles": [
+    {
+      "id": "bundle-0001",
+      "materials": [
+        "mat-0006292a63e74e8a8ba3c9e9",
+        "mat-00091ef98f4622dfed3ac86e",
+        "mat-000e47122e24d341da6bcaed",
+        "mat-0028795ced8e38669bee8863",
+        "mat-003eddf7b38a362afcc0ae16",
+        "mat-00caf5cb05d89243dc140823",
+        "mat-01edf1deffe9bb0cb7653cb7",
+        "mat-025632ce92c25d56355a6cc4",
+        "mat-02fb9338412b32de2e83641e",
+        "mat-046979d9a1f45bbab3e3eabb",
+        "mat-09a771dbf14191c169738da4",
+        "mat-0bc11328f6354eca16836293",
+        "mat-145aff855b56c558efe7e024",
+        "mat-1e17088ed7a645be88710f3f",
+        "mat-3205fb8a33808c0cccf9b69e",
+        "mat-32d10254a9401de204e8ec60",
+        "mat-37d682cf5053a03d94acd8aa",
+        "mat-3c9e257d1eb95157d657798a",
+        "mat-4635a3f089577478253ff83c",
+        "mat-4b1804a4537945420b7b6437",
+        "mat-5e1bc18cc27cbd98d6589961",
+        "mat-7b20e5bb364c4afe81ee8bf3",
+        "mat-7eadd3fbace716b0b36709f1",
+        "mat-8a7a9da739bcfb232a6f01ff",
+        "mat-c0dbb6e89d85ec195b5f9f59",
+        "mat-c900c47dc02a826370a2e142",
+        "mat-c9120b6961a9a73de933f834",
+        "mat-d19806bc231b91563b262d29",
+        "mat-dcb19e339d13ecb84a027bce",
+        "mat-de1edd6202454f8151a34f2f",
+        "mat-df9ad3b7b8bac09d7584d346",
+        "mat-e2cfaa5c120789996e0520f7"
+      ],
+      "names": [
+        "TM_Experimental_Editors_Asphalt_asset",
+        "TM_Experimental_Editors_Concrete_asset",
+        "TM_Experimental_Editors_DirtRoad_asset",
+        "TM_Experimental_Editors_Dirt_asset",
+        "TM_Experimental_Editors_Energy_asset",
+        "TM_Experimental_Editors_Forest_asset",
+        "TM_Experimental_Editors_Grass_asset",
+        "TM_Experimental_Editors_Gravel_asset",
+        "TM_Experimental_Editors_Green_asset",
+        "TM_Experimental_Editors_Ice_asset",
+        "TM_Experimental_Editors_MetalFence_asset",
+        "TM_Experimental_Editors_MetalTrans_asset",
+        "TM_Experimental_Editors_Metal_asset",
+        "TM_Experimental_Editors_NotCollidable_asset",
+        "TM_Experimental_Editors_Trunk_asset",
+        "TM_Experimental_Editors_WallJump_asset",
+        "TM_Experimental_Editors_Water_asset",
+        "TM_Experimental_Editors_WetAsphalt_asset",
+        "TM_Experimental_Editors_WetDirtRoad_asset",
+        "TM_Experimental_Editors_WetGrass_asset",
+        "TM_Experimental_Editors_WetPavement_asset",
+        "TM_Experimental_Editors_Wheat_asset",
+        "TM_Experimental_Editors_Wood_asset",
+        "TM_Experimental_Effects_GrassMarkFenceIntens_asset",
+        "TM_Experimental_Garage_GarageGround2_asset",
+        "TM_Experimental_Techno3_Static_TDOBSN_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDSN_CubeOut_CubeIn_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TRenderOverlay_asset",
+        "TM_Experimental_Techno3_Tech3_BodyAnimSkel_DiffNrj_asset",
+        "TM_Experimental_Techno3_Tech3_BodyAnimSkel_Shield_asset",
+        "TM_Experimental_Techno3_Tech3_Warp_PDiff_To_PDiffPGrassX2_asset",
+        "TM_Experimental_Vehicles_WheelMarksIce_asset"
+      ],
+      "raw_texture_bytes": 1321541
+    },
+    {
+      "id": "bundle-0002",
+      "materials": [
+        "mat-0084573fe445692d8e123363"
+      ],
+      "names": [
+        "TM_Pylon_asset"
+      ],
+      "raw_texture_bytes": 6991144
+    },
+    {
+      "id": "bundle-0003",
+      "materials": [
+        "mat-008741fecb7f1348cc869955",
+        "mat-668dd9cb4eacdca106d630d0",
+        "mat-6cbc77ee27545b92290857b2",
+        "mat-93dcae04368dbb181c84b449"
+      ],
+      "names": [
+        "TM_RaceArchCheckpointSmall_asset",
+        "TM_RaceArchCheckpoint_asset",
+        "TM_RaceArchFinishSmall_asset",
+        "TM_RaceArchFinish_asset"
+      ],
+      "raw_texture_bytes": 11186384
+    },
+    {
+      "id": "bundle-0004",
+      "materials": [
+        "mat-009e6e5c34c2df13c04f160c"
+      ],
+      "names": [
+        "TM_BlueBay_SeaFloor_asset"
+      ],
+      "raw_texture_bytes": 50343768
+    },
+    {
+      "id": "bundle-0005",
+      "materials": [
+        "mat-0128ec3d29ef697c5c6afca4",
+        "mat-01f80b1f1e48dc5fc5999889",
+        "mat-0278647625b00c75e96be79d",
+        "mat-06a17f9c996e291de41137f9",
+        "mat-077984991af5f641469de8e4",
+        "mat-10d93c5706c4b1d52ade475e",
+        "mat-206eac706d6202c71b362db7",
+        "mat-2aa6c3355a0128144a6e7747",
+        "mat-2ae0433a5f634ec8dbf91595",
+        "mat-3513e9b887e53190367fd660",
+        "mat-381214fafa93e166b4c6f0a2",
+        "mat-3fc82ff7dc24f6a54478ef89",
+        "mat-508fc7f2d3597183de7015db",
+        "mat-67662a872544599a75121a4a",
+        "mat-6a3272a952710f941cf5e5d5",
+        "mat-6a6a7caea325abf2b53a4f65",
+        "mat-6d70fea4a0cac54d228210c1",
+        "mat-7491aafb94373a9b3c316c26",
+        "mat-7e029791c521e1cfe9038e95",
+        "mat-821374e6b5a4ea315c58fdea",
+        "mat-8d191fd33d931dc507b1b06a",
+        "mat-9427e26fda41fe23f82d8363",
+        "mat-9b696b949e01642c716c1fd1",
+        "mat-a6d84eeafaf2ab885988f841",
+        "mat-ae0427c3dc08d05300f244f7",
+        "mat-b51cbbe1f9fcc7485c7cc639",
+        "mat-b64a0848e7ad11fdd416655b",
+        "mat-ccab71f79fcfe78d5e1e97fb",
+        "mat-d32e0e09ba5430a988050f00",
+        "mat-f455629350d33d90e43aaa2d",
+        "mat-f74c0eda75bb43d28fd17150",
+        "mat-fb00f8ee05f509a6d91cec85"
+      ],
+      "names": [
+        "TM_Experimental_Editors_PavementStair_asset",
+        "TM_Experimental_Editors_Pavement_asset",
+        "TM_Experimental_Editors_Plastic_asset",
+        "TM_Experimental_Editors_PlayerOnly_asset",
+        "TM_Experimental_Editors_ResonantMetal_asset",
+        "TM_Experimental_Editors_RoadIce_asset",
+        "TM_Experimental_Editors_RoadSynthetic_asset",
+        "TM_Experimental_Editors_Rock_asset",
+        "TM_Experimental_Editors_RubberBand_asset",
+        "TM_Experimental_Editors_Rubber_asset",
+        "TM_Experimental_Editors_Sand_asset",
+        "TM_Experimental_Editors_SlidingRubber_asset",
+        "TM_Experimental_Editors_SlidingWood_asset",
+        "TM_Experimental_Editors_Snow_asset",
+        "TM_Experimental_Editors_Stone_asset",
+        "TM_Experimental_Editors_TechArmor_asset",
+        "TM_Experimental_Editors_TechArrow_asset",
+        "TM_Experimental_Editors_TechGravityChange_asset",
+        "TM_Experimental_Editors_TechGravityReset_asset",
+        "TM_Experimental_Editors_TechGround_asset",
+        "TM_Experimental_Editors_TechHook2_asset",
+        "TM_Experimental_Editors_TechHook_asset",
+        "TM_Experimental_Editors_TechLaser_asset",
+        "TM_Experimental_Editors_TechMagneticAccel_asset",
+        "TM_Experimental_Editors_TechMagnetic_asset",
+        "TM_Experimental_Editors_TechNucleus_asset",
+        "TM_Experimental_Editors_TechSafe_asset",
+        "TM_Experimental_Editors_TechSuperMagnetic_asset",
+        "TM_Experimental_Editors_TechTarget_asset",
+        "TM_Experimental_Editors_TechTeleport_asset",
+        "TM_Experimental_Editors_TechWall_asset",
+        "TM_Experimental_Editors_Tech_asset"
+      ],
+      "raw_texture_bytes": 553616
+    },
+    {
+      "id": "bundle-0006",
+      "materials": [
+        "mat-035de32dffb4f14af926ae40",
+        "mat-051e810f8cf166c589c2d0ff",
+        "mat-06646c6293548c0f9f2e7969",
+        "mat-06b0c59aefc69e482bfa4297",
+        "mat-073d6ca31901da038cb2d4cb",
+        "mat-1475d5688a611c3c25a4b7e4",
+        "mat-18b7130af7c63fb430e3b754",
+        "mat-1cf70d5ad51fc7aaa9e1f74b",
+        "mat-23d8729679a597f1e09c55a8",
+        "mat-302d6e7e321f1f8a418c5e8f",
+        "mat-4444e5b2f7516f4a70a08e98",
+        "mat-512c997a317fcbae6a77b87d",
+        "mat-58782a846c06d35ce1a0a9bd",
+        "mat-5a737500bd350055f4c6fec9",
+        "mat-601d77cde930b02b5ea49073",
+        "mat-7195b5fec51f3b0648f518a0",
+        "mat-7877ca8f0a1288f6c0813c30",
+        "mat-79bc32bde507e360593ddf52",
+        "mat-8e1afac25e5d8fde7c069447",
+        "mat-97fcdb48691a1c2f4572435d",
+        "mat-9866fb06d8d52830f9bf03e0",
+        "mat-a67429714c609461fbd36f1a",
+        "mat-ab34e8a6258745d67bf54361",
+        "mat-adc1c8079a86bf9e9a48962d",
+        "mat-b753e6aea484d7da90f5387c",
+        "mat-dc73b1303f1299cb6e0703a8",
+        "mat-e5256679f1a9dcfb2d62eb55",
+        "mat-e92474d21e6726d875a349f9",
+        "mat-e97bbdb8ac41e77e0c919a38",
+        "mat-eac31852dd89e9f164f4b2fb",
+        "mat-eb9d29a46aef0e7637e39c7f",
+        "mat-f5777d3ca2021efaa8560808"
+      ],
+      "names": [
+        "TM_Boost2_SignOff_asset",
+        "TM_Boost2_Sign_asset",
+        "TM_ChronoCheckpoint-00-00-001_asset",
+        "TM_ChronoCheckpoint-00-00-01_asset",
+        "TM_ChronoCheckpoint-00-00-10_asset",
+        "TM_ChronoCheckpoint-00-01-00_asset",
+        "TM_ChronoCheckpoint-00-10-00_asset",
+        "TM_ChronoCheckpoint-01-00-00_asset",
+        "TM_ChronoCheckpoint-10-00-00_asset",
+        "TM_ChronoCheckpoint_asset",
+        "TM_ChronoFinish-00-00-001_asset",
+        "TM_ChronoFinish-00-00-01_asset",
+        "TM_ChronoFinish-00-00-10_asset",
+        "TM_ChronoFinish-00-01-00_asset",
+        "TM_ChronoFinish-00-10-00_asset",
+        "TM_ChronoFinish-01-00-00_asset",
+        "TM_ChronoFinish-10-00-00_asset",
+        "TM_ChronoFinish_asset",
+        "TM_Experimental_Clouds_Clouds2_asset",
+        "TM_Experimental_Effects_CollisionTechWall_asset",
+        "TM_Experimental_Menu_TitleLogos_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PTDiff_Spec_Norm_asset",
+        "TM_GateGameplayRally_Sign_asset",
+        "TM_GateGameplaySnow_Sign_asset",
+        "TM_RaceAd6x1_asset",
+        "TM_RaceScreenStartMed_asset",
+        "TM_RaceScreenStartSmall8m_asset",
+        "TM_RaceScreenStartSmall_asset",
+        "TM_RaceScreenStart_asset",
+        "TM_Turbo2_SignOff_asset",
+        "TM_TurboRoulette_SignOff_asset",
+        "TM_TurboRoulette_Sign_asset"
+      ],
+      "raw_texture_bytes": 4322061
+    },
+    {
+      "id": "bundle-0007",
+      "materials": [
+        "mat-0397097668961e66a94092d2",
+        "mat-366c7b0b67410ed42d62b47a",
+        "mat-3c9b6bff0398204368dae669",
+        "mat-60e851b839e4bb71870433ba",
+        "mat-7b55283174a42163e4cb0737",
+        "mat-7f61c4f58510a5cf074c2cd7",
+        "mat-8016bbca70270655db3ef487",
+        "mat-b50e3741cc8fdbd42015f126",
+        "mat-cdc9d6d02b30010efc13af46",
+        "mat-e9e203665ee6727b3cc80b83",
+        "mat-f50d480c1f63bcafc1629dfa",
+        "mat-fe5573f8729fcb57d7a040cb"
+      ],
+      "names": [
+        "TM_Boost2_Decal_asset",
+        "TM_Boost_Decal_asset",
+        "TM_Cruise_Decal_asset",
+        "TM_DecalSpecialTurbo_asset",
+        "TM_Fragile_Decal_asset",
+        "TM_NoBrake_Decal_asset",
+        "TM_NoEngine_Decal_asset",
+        "TM_NoSteering_Decal_asset",
+        "TM_Reset_Decal_asset",
+        "TM_SlowMotion_Decal_asset",
+        "TM_Turbo2_Decal_asset",
+        "TM_TurboRoulette_Decal_asset"
+      ],
+      "raw_texture_bytes": 95073056
+    },
+    {
+      "id": "bundle-0008",
+      "materials": [
+        "mat-03ccaf78884c1960dd436de0",
+        "mat-057b495899f94fc94c39c299",
+        "mat-195364fcc5a910d706fb5501",
+        "mat-361412743e146ce4a0d3d42e",
+        "mat-39075ac2f245ea053e175fc9",
+        "mat-51cd59c8b7398b0eb5ed4215",
+        "mat-683e05a828c8554b64f34c1b",
+        "mat-756299b14dfa38207288f009",
+        "mat-9d8c63b256c4d71c2692adc0",
+        "mat-c80957c62f1f6179f2ac3f87",
+        "mat-ef0b1f6182c1432b8d23208d"
+      ],
+      "names": [
+        "TM_PlatformIce_DecoGrass_asset",
+        "TM_PlatformIce_DecoHill2_asset",
+        "TM_PlatformIce_DecoHill_asset",
+        "TM_WhiteShore_Beach_asset",
+        "TM_WhiteShore_DecoHill2_asset",
+        "TM_WhiteShore_DecoHill_asset",
+        "TM_WhiteShore_Deco_asset",
+        "TM_WhiteShore_Land_asset",
+        "TM_WhiteShore_WaterShoreRocky_asset",
+        "TM_WhiteShore_WaterShoreToBeach_asset",
+        "TM_WhiteShore_WaterShore_asset"
+      ],
+      "raw_texture_bytes": 427835242
+    },
+    {
+      "id": "bundle-0009",
+      "materials": [
+        "mat-05d82f9ecdf55cfd176a712e"
+      ],
+      "names": [
+        "TM_RedIsland_DetailsRocks2_asset"
+      ],
+      "raw_texture_bytes": 11185248
+    },
+    {
+      "id": "bundle-0010",
+      "materials": [
+        "mat-05dc31853a5cfa18e09bf532"
+      ],
+      "names": [
+        "TM_BlueBay_RocksTop_asset"
+      ],
+      "raw_texture_bytes": 47547424
+    },
+    {
+      "id": "bundle-0011",
+      "materials": [
+        "mat-07c7d9f22cbfda8bb2b53f4a",
+        "mat-080f1e220f758b9082c626b8",
+        "mat-0923c58f68c557859f4cd530",
+        "mat-09c56e043312c8ccad44dd4f",
+        "mat-09e5db65a215ec02bbdc6510",
+        "mat-0b12cca90e33f7de44be6082",
+        "mat-0bcbfad7311b13434cc359d4",
+        "mat-0bda486f8b8182528a64012e",
+        "mat-0be4f54dbdfcbec8a4f1a8f6",
+        "mat-0bea2bdb0444c61f4cbac615",
+        "mat-0c03e35e3ace6177268dd952",
+        "mat-12e8e95d8c58db89eb577822",
+        "mat-1a18fe0b8d9524de6993221c",
+        "mat-1cbea0874652114225f6edda",
+        "mat-208e85160bfd14301e022037",
+        "mat-235002a1a5bcd9ab0772e99d",
+        "mat-2a89391c1ea5a36da4375401",
+        "mat-2cb110ab4d614be857d2e63c",
+        "mat-340ec9e0c0ed1872d9ed2b5b",
+        "mat-3c0b55c51d98078606eac4e1",
+        "mat-76270885607998a9dc1d4e51",
+        "mat-8083b99c0dee951cf252c151",
+        "mat-874aaadd954b21dbf825b5fb",
+        "mat-95261e209c93b1e9d40ebbb0",
+        "mat-abaeb9f8519cc5a69d6835f4",
+        "mat-acfdd9a77370e30f36ae2250",
+        "mat-b5d0eda46e1a629201ff4b99",
+        "mat-b7909136d0df536c158186dd",
+        "mat-c674d97d18919854a964dd0a",
+        "mat-c67f25af6b083847d41ce4d4",
+        "mat-d6ac4efadf06be57085a4a3a",
+        "mat-f4b672807398d29fba09ec67"
+      ],
+      "names": [
+        "TM_Boost_SignOff_asset",
+        "TM_Boost_Sign_asset",
+        "TM_Cruise_Sign_asset",
+        "TM_CustomModOpaque2_asset",
+        "TM_DecoTechnics_asset",
+        "TM_Experimental_Garage_GarageBackGround_asset",
+        "TM_Experimental_Menu_BgsPlayerCard2_asset",
+        "TM_Experimental_Menu_EditorButtons_asset",
+        "TM_Experimental_Menu_MenuBox3dMetal_asset",
+        "TM_Experimental_Techno3_Tech3_SpriteAddSoft_ColorRotate_asset",
+        "TM_Experimental_Techno3_Tech3_Warp_PyPxzDiff_asset",
+        "TM_Fragile_Sign_asset",
+        "TM_ItemCurveSignB_asset",
+        "TM_ItemCurveSignC_asset",
+        "TM_ItemCurveSign_asset",
+        "TM_ItemObstacleDiscontinuous_ItemObstacleLightLevel0_asset",
+        "TM_ItemObstacleDiscontinuous_ItemObstacleLightLevel1_asset",
+        "TM_ItemObstacleDiscontinuous_ItemObstacleLightLevel2_asset",
+        "TM_ItemObstacleLight_asset",
+        "TM_ItemObstacle_ItemObstacleLightLevel0_asset",
+        "TM_ItemObstacle_ItemObstacleLightLevel1_asset",
+        "TM_ItemObstacle_ItemObstacleLightLevel2_asset",
+        "TM_ItemWrongWaySign_asset",
+        "TM_NoBrake_Sign_asset",
+        "TM_NoEngine_Sign_asset",
+        "TM_NoSteering_Sign_asset",
+        "TM_PodiumMedalMetal_asset",
+        "TM_Reset_Sign_asset",
+        "TM_SlowMotion_Sign_asset",
+        "TM_SpecialSignOff_asset",
+        "TM_SpecialSignTurbo_asset",
+        "TM_Turbo2_Sign_asset"
+      ],
+      "raw_texture_bytes": 11204131
+    },
+    {
+      "id": "bundle-0012",
+      "materials": [
+        "mat-09530893cb13d569e0eeccea",
+        "mat-65414f0ae32fe5d13300666d",
+        "mat-8c4307da51ce2590903f6607",
+        "mat-99ecef63aa2a99b8cee29e82",
+        "mat-a753600ca7d4602230f10c74",
+        "mat-e0fa62c7d6176cec720a1588"
+      ],
+      "names": [
+        "TM_OpenTechBorders_asset",
+        "TM_PlatformDirt_OpenTechBorders_asset",
+        "TM_PlatformGrass_OpenTechBorders_asset",
+        "TM_PlatformIce_OpenTechBorders_asset",
+        "TM_PlatformIce_PlatformTech_asset",
+        "TM_RoadIce_asset"
+      ],
+      "raw_texture_bytes": 130026944
+    },
+    {
+      "id": "bundle-0013",
+      "materials": [
+        "mat-0b2bd0b880379079d2a42a56"
+      ],
+      "names": [
+        "TM_Stadium_StructureInWorld_asset"
+      ],
+      "raw_texture_bytes": 11185808
+    },
+    {
+      "id": "bundle-0014",
+      "materials": [
+        "mat-0b3894d1d813efb64b53d557"
+      ],
+      "names": [
+        "TM_WarpTechnic_WithLightmap_asset"
+      ],
+      "raw_texture_bytes": 13981464
+    },
+    {
+      "id": "bundle-0015",
+      "materials": [
+        "mat-0c0f12d06951501ce5adec0f",
+        "mat-0d7af80d01e2d0f900e27fc3",
+        "mat-0e1d742c8de9f2d4a0c9b350",
+        "mat-0e9fce4899e2290a897ab3db",
+        "mat-0eb600d6ce3ace892f07aa9f",
+        "mat-10167ab653474ff6feb69c63",
+        "mat-101cedf219ee6604ce31fdc4",
+        "mat-10f76b749579ace5d150f7bc",
+        "mat-1160ea6b0dbc140ee702a8cb",
+        "mat-11dd53a283b1de19616c11ca",
+        "mat-1216d9b42583017ce0344490",
+        "mat-12ee440640b6cdc863a1eeaa",
+        "mat-13511269f31c103ca0b2729c",
+        "mat-137bbf9c0ef893aab2d97f3c",
+        "mat-151bbc89ea7b1739d9f14f2d",
+        "mat-16030909497991fbbb64a9d8",
+        "mat-1694aa02b176ca2441acc183",
+        "mat-169533b1b2926e5cc7c6d28b",
+        "mat-16e8dccd349408e0170dfeda",
+        "mat-174de52829fb80c3b4df6900",
+        "mat-184161f2902cef282e08f50a",
+        "mat-1a439f52fbf6e4e557545ba0",
+        "mat-1a7b18a5afb193248c1db9c9",
+        "mat-1ac0fc59aeb033960dc9e480",
+        "mat-444fa8437acca124fbf7dc8c",
+        "mat-5376eee416a08077f9fd6224",
+        "mat-5a5b450b9eaec96fddc3515b",
+        "mat-788bfdedfdcd98423ed3c068",
+        "mat-7a527ca8c6fbfd21734231e0",
+        "mat-9e5784ee3aa4ddf4a689c00d",
+        "mat-bab002673738f9013c013796",
+        "mat-dc4cdbfd4b1c92f2680aa0d1"
+      ],
+      "names": [
+        "TM_CustomModTrans2_asset",
+        "TM_Experimental_Clouds_CloudsT3b_asset",
+        "TM_Experimental_Effects_CollisionMetal_asset",
+        "TM_Experimental_Effects_EditorHelpers_asset",
+        "TM_Experimental_Menu_321Go_asset",
+        "TM_Experimental_Menu_BgsPlayerCard_asset",
+        "TM_Experimental_Menu_MedalsBig_asset",
+        "TM_Experimental_Menu_MenuBox3dGlass_asset",
+        "TM_Experimental_Menu_MeshModelerIcons2_asset",
+        "TM_Experimental_Menu_ScriptEditorFocusArea_asset",
+        "TM_Experimental_Techno3_Tech3_Block_Ice_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PDiff_Spec_Norm_GrassX2_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PxzTDiff_Spec_Norm_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PyPxz_Ids_Tex_asset",
+        "TM_Experimental_Techno3_Tech3_MenuBox_asset",
+        "TM_Experimental_Techno3_Tech3_Sea_asset",
+        "TM_Experimental_Techno3_Tech3_Voxel_TDSNI_CubeOut_asset",
+        "TM_Experimental_Techno3_Tech3_Warp_TDiffSpecNormSI_CSpecSoft_asset",
+        "TM_Experimental_Techno3_Tech3_Water_MultiH_asset",
+        "TM_Experimental_Techno3_VehicleGemsNoSkelDmg_asset",
+        "TM_Experimental_Vehicles_ExhaustBoost_asset",
+        "TM_Experimental_Vehicles_ParticleChunksSnow_asset",
+        "TM_Experimental_Vehicles_ParticleSmokeDirt_asset",
+        "TM_Invisible_TechMagnetic_asset",
+        "TM_ItemObstacleDiscontinuous_ItemObstaclePusherLevel0_asset",
+        "TM_ItemObstacleDiscontinuous_ItemObstaclePusherLevel1_asset",
+        "TM_ItemObstacleDiscontinuous_ItemObstaclePusherLevel2_asset",
+        "TM_ItemObstaclePusher_asset",
+        "TM_ItemObstacle_ItemObstaclePusherLevel0_asset",
+        "TM_ItemObstacle_ItemObstaclePusherLevel1_asset",
+        "TM_ItemObstacle_ItemObstaclePusherLevel2_asset",
+        "TM_Underwater_asset"
+      ],
+      "raw_texture_bytes": 11271970
+    },
+    {
+      "id": "bundle-0016",
+      "materials": [
+        "mat-0e61f5bfb8d502482665a691",
+        "mat-109c7a5f6ada3d5c7626f340",
+        "mat-148e25accfdd17bd415547ec",
+        "mat-14b29775b1e024e6a7a2210b",
+        "mat-604f6311d8e295da06d2db67",
+        "mat-6875d6ee79d1c9a1c14f257e",
+        "mat-759680b85ec62fc093eccd10",
+        "mat-8ccaaeadbf8b5fe1a9cccc7a",
+        "mat-8da978c212c94562d7083b30",
+        "mat-92756f7faf9d351a0c3631f6",
+        "mat-9d76b946e607dfa4cff5d21b",
+        "mat-bcfcbfd4c66d0d0f52db9ae1",
+        "mat-de31948b3602a6c9f5009e0e",
+        "mat-e175b2586a2dc4191973299b",
+        "mat-e51cbd226b8ab0bcf83ff2c6",
+        "mat-f848d041e80822c6480934c3"
+      ],
+      "names": [
+        "TM_BlueBay_DecoHill2_asset",
+        "TM_BlueBay_DecoHill_asset",
+        "TM_BlueBay_TransitionToLand_asset",
+        "TM_DecoHill2_asset",
+        "TM_DecoHill_asset",
+        "TM_GreenCoast_CliffTransition2ToGrass_asset",
+        "TM_GreenCoast_CliffTransitionToGrass_asset",
+        "TM_GreenCoast_DecoHill2_asset",
+        "TM_GreenCoast_DecoHill_asset",
+        "TM_GreenCoast_Deco_asset",
+        "TM_GreenCoast_Grass_asset",
+        "TM_GreenCoast_LakeShoreToGrass_asset",
+        "TM_GreenCoast_TrackWallInWorld_asset",
+        "TM_GreenCoast_TransitionForestToGrass_asset",
+        "TM_GreenCoast_TrunkToGrass_asset",
+        "TM_Stadium_TrackWallPxzInWorld_asset"
+      ],
+      "raw_texture_bytes": 534803930
+    },
+    {
+      "id": "bundle-0017",
+      "materials": [
+        "mat-0e6830e0c851093e33d06754",
+        "mat-9b19492d86552f6d15ace5c0"
+      ],
+      "names": [
+        "TM_ThemeRallyCastleBordersTransparent_asset",
+        "TM_ThemeRallyCastleBorders_asset"
+      ],
+      "raw_texture_bytes": 13981544
+    },
+    {
+      "id": "bundle-0018",
+      "materials": [
+        "mat-0f293ff668ca33f4706f76ea"
+      ],
+      "names": [
+        "TM_GreenCoast_Cliff4_asset"
+      ],
+      "raw_texture_bytes": 47547424
+    },
+    {
+      "id": "bundle-0019",
+      "materials": [
+        "mat-1359c02a473bb1fa99c4b6d1",
+        "mat-14a9f3b5521489d3817b1bfc",
+        "mat-1b0808143f1e1b98c45293b8",
+        "mat-230b9c37d23d6fe33163e0f7",
+        "mat-2487ef19215d3426669490d5",
+        "mat-29559ac00922abb1e673d410",
+        "mat-38b25cc861b5019584f6eab0",
+        "mat-5a3e46ed69c4cf14781c4701",
+        "mat-5cf14dd5cd646cc6df7e555b",
+        "mat-6aae26038eb1eaa7cebfaebe",
+        "mat-6df59f486a4dda888ca00a9b",
+        "mat-6f6e608d5becb7b478a202bd",
+        "mat-71a9ebb0095e6ff8dc0eb92d",
+        "mat-7243b281d8a7cf3fe9336de9",
+        "mat-85e695bbe4791fb7b54bbffc",
+        "mat-9891ae82947c74623f8f98e2",
+        "mat-99fc0baae00deeb1c01aae04",
+        "mat-9d2c19ca8ac3b7c1f86154b8",
+        "mat-b332afad387783aa306b9303",
+        "mat-b4ddd3852f6b103dc9faefd3",
+        "mat-b6c340c08ba6b1c9bb6504a7",
+        "mat-b719e3d5b45d9c76ab67a07d",
+        "mat-bcde24e7c3f9aeb157036631",
+        "mat-c39a9685be6b797641e4cb73",
+        "mat-c9679f12f8c8c56ecfbeb433",
+        "mat-ce3f77eeb6616e79cb10b80e",
+        "mat-d9ef2a03f3aa7f1524b25421",
+        "mat-e61577f995f3b3e2611f58e2",
+        "mat-eae6f718fa66c1076fcd8064",
+        "mat-ebcd67d6a8d5bc3c046e6e5f",
+        "mat-f0f5ea3b0a5fa8fabb4e4f5e"
+      ],
+      "names": [
+        "TM_16x9ScreenOff_asset",
+        "TM_Ad16x9Screen_asset",
+        "TM_Ad1x1Screen_asset",
+        "TM_Ad2x1Screen_asset",
+        "TM_Ad2x3ScreenVeryBig_asset",
+        "TM_Ad2x3Screen_asset",
+        "TM_Ad4x1Screen_asset",
+        "TM_GateGameplayDesert_Screen_asset",
+        "TM_GateGameplayRally_Screen_asset",
+        "TM_GateGameplayScreen_asset",
+        "TM_GateGameplaySnow_Screen_asset",
+        "TM_PodiumScreen155_asset",
+        "TM_PodiumScreen16x9_asset",
+        "TM_PodiumStepScreen_asset",
+        "TM_Show4x1_asset",
+        "TM_Stadium_Ad155ScreenSmall_asset",
+        "TM_Stadium_Ad155Screen_asset",
+        "TM_WarpScreen155B_asset",
+        "TM_WarpScreen155C_asset",
+        "TM_WarpScreen155_asset",
+        "TM_WarpScreen16x9B_asset",
+        "TM_WarpScreen16x9C_asset",
+        "TM_WarpScreen16x9_asset",
+        "TM_WarpScreen1x4A_asset",
+        "TM_WarpScreen2x1A_asset",
+        "TM_WarpScreen2x3A_asset",
+        "TM_WarpScreen2x3B_asset",
+        "TM_WarpScreen4x1A_asset",
+        "TM_WarpScreen4x1B_asset",
+        "TM_WarpScreenBench16x1_asset",
+        "TM_WarpScreenBench8x1_asset"
+      ],
+      "raw_texture_bytes": 53108048
+    },
+    {
+      "id": "bundle-0020",
+      "materials": [
+        "mat-13ec559f653961c9c9d83204"
+      ],
+      "names": [
+        "TM_CanopyGlass_asset"
+      ],
+      "raw_texture_bytes": 4893960
+    },
+    {
+      "id": "bundle-0021",
+      "materials": [
+        "mat-1483d1338352428180d943fe",
+        "mat-15127e5bc13c99a89e472483",
+        "mat-1aa8713dc71b8bfe33af375d",
+        "mat-1f979799a5f1558c9d2791a7",
+        "mat-3ea9e19e62f7f16aacb0f4a1",
+        "mat-4f98a544e1962cf62586819f",
+        "mat-704923591fc657297bb49939",
+        "mat-718ef8d273ef44ebb79d0c19",
+        "mat-76f65b322ecb848c22ed59bd",
+        "mat-78cf2c81d6e25d05088d725d",
+        "mat-8895c261ae1f861fa734a568",
+        "mat-8b0d928d2bfb69045f674d00",
+        "mat-8cb03483409f75268e5e96a8",
+        "mat-9eeb08c0d24c2403fb338a94",
+        "mat-bdb535aac26907769d9217a4",
+        "mat-f7353b6fc9601b9a0faeb4f8"
+      ],
+      "names": [
+        "TM_PlatformDirt_DecoGrass_asset",
+        "TM_PlatformDirt_DecoHill2_asset",
+        "TM_PlatformDirt_DecoHill_asset",
+        "TM_RedIsland_DecoHill2_asset",
+        "TM_RedIsland_DecoHill_asset",
+        "TM_RedIsland_Deco_asset",
+        "TM_RedIsland_DetailsCliffToDirt_asset",
+        "TM_RedIsland_DetailsRocksToDirt_asset",
+        "TM_RedIsland_DetailsToDirt_asset",
+        "TM_RedIsland_DetailsVegetationToDirt_asset",
+        "TM_RedIsland_DirtRocky_asset",
+        "TM_RedIsland_Dirt_asset",
+        "TM_RedIsland_RiverShoreToRiverSide_asset",
+        "TM_RedIsland_RiverSide_asset",
+        "TM_RedIsland_RockToDirt_asset",
+        "TM_RedIsland_WaterGround_asset"
+      ],
+      "raw_texture_bytes": 472576866
+    },
+    {
+      "id": "bundle-0022",
+      "materials": [
+        "mat-1485c4a51bb3d85540b54188"
+      ],
+      "names": [
+        "TM_DecalMarksRamp_asset"
+      ],
+      "raw_texture_bytes": 6991144
+    },
+    {
+      "id": "bundle-0023",
+      "materials": [
+        "mat-152baa217e5476aa6f695ca2"
+      ],
+      "names": [
+        "TM_PlatformGrass_PlatformTech_asset"
+      ],
+      "raw_texture_bytes": 55924504
+    },
+    {
+      "id": "bundle-0024",
+      "materials": [
+        "mat-16af20040d4baa8056bc0361"
+      ],
+      "names": [
+        "TM_WaterBorders_asset"
+      ],
+      "raw_texture_bytes": 6991144
+    },
+    {
+      "id": "bundle-0025",
+      "materials": [
+        "mat-1799ca46cd410649cdbb9a97",
+        "mat-19071adf413432c5f72d1c0d",
+        "mat-20b90cdea031a9d34bcf17ac",
+        "mat-2438c0d7ec592085c4226c12",
+        "mat-26419594770e8d45161d6da8",
+        "mat-266f9690c3b07a31db056108",
+        "mat-2d37f0b113895b8d0ff346ad",
+        "mat-32f8d1153704190f32d8bac0",
+        "mat-379b129bff2b9bd01a7c1522",
+        "mat-38b15afbd036f7c09e4b6e8c",
+        "mat-3e9293837fffa5f938753c3b",
+        "mat-576f5ce827da7c3c56a15e04",
+        "mat-5b2a5505333a3cc90e65239c",
+        "mat-64b95fba2ad34cca4b709108",
+        "mat-770d8d14c201d73a6977eda3",
+        "mat-84758db5d2f2feefb03debaa",
+        "mat-84c540ae2d51c2d08c087e72",
+        "mat-8974ccc94023ef988b9b47a5",
+        "mat-9380bf5f9e7d4a364def6201",
+        "mat-97c4daacc18c1965c41d348a",
+        "mat-985cc8c705a78a83e5c64819",
+        "mat-9d6bc54780d8c5ad2ed735be",
+        "mat-a98b87d9a16683ed1f95e51f",
+        "mat-b2f6c5646f6f2621a5439db8",
+        "mat-c190ab97c3d8d92983ec8311",
+        "mat-cb1ad7d3c4776bac5154ff96",
+        "mat-d3c2c0d9ec8465c9a9be4a49",
+        "mat-ecb7ba3bb62c9eb209b1f306",
+        "mat-ee624cb75de0878a441a6370",
+        "mat-f017b57e2e48a2c2ac40d6cf",
+        "mat-f3ca6fd6a897d5d52b6a7ee3",
+        "mat-fd9b8d7fb42844cbdce19168"
+      ],
+      "names": [
+        "TM_Experimental_ShootMania_BulletRail1Small_asset",
+        "TM_Experimental_Techno3_Dyna0_Shield_asset",
+        "TM_Experimental_Techno3_Dyna0_TDSNE_asset",
+        "TM_Experimental_Techno3_Dyna0_TE_asset",
+        "TM_Experimental_Techno3_Static_TDSNE_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PoleEnergy_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TAddShield_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TAddSwitch_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TEnergySwitch_asset",
+        "TM_Experimental_Techno3_Tech3_CarDetailsSkelDmg_Decal_asset",
+        "TM_Experimental_Techno3_Tech3_CarDetailsSkelDmg_asset",
+        "TM_Experimental_Techno3_Tech3_CarSkinSkelDmg_Decal_asset",
+        "TM_Experimental_Techno3_Tech3_CarSkinSkelDmg_asset",
+        "TM_Experimental_Techno3_Tech3_Dyna0_TDSNE_asset",
+        "TM_Experimental_Techno3_Tech3_Dyna0_TE_asset",
+        "TM_Experimental_Techno3_Tech3_Dyna1_TDSNE_asset",
+        "TM_Experimental_Techno3_Tech3_Dyna_TAddShield_asset",
+        "TM_Experimental_Techno3_Tech3_Weapon_Laser_asset",
+        "TM_Experimental_Techno3_VehicleDetailsDmgDecal_asset",
+        "TM_Experimental_Techno3_VehicleDetailsDmgNormal_asset",
+        "TM_Experimental_Techno3_VehicleDetailsDmg_asset",
+        "TM_Experimental_Techno3_VehicleDetailsNoSkelDmg_asset",
+        "TM_Experimental_Techno3_VehicleDetails_asset",
+        "TM_Experimental_Techno3_VehicleGlassDmgDecal_asset",
+        "TM_Experimental_Techno3_VehicleSkinDmg_Decal_asset",
+        "TM_Experimental_Techno3_VehicleSkinDmg_asset",
+        "TM_Experimental_Techno3_VehicleSkinNoSkelDmg_asset",
+        "TM_Experimental_Techno3_VehicleSkin_asset",
+        "TM_Experimental_Vehicles_Tech3_CommonCarDetails_asset",
+        "TM_Experimental_Vehicles_Tech3_CommonCarPilot_asset",
+        "TM_Experimental_Vehicles_Tech3_CommonCarSkin_asset",
+        "TM_Experimental_Vehicles_Tech3_CommonCarWheels_asset"
+      ],
+      "raw_texture_bytes": 906216
+    },
+    {
+      "id": "bundle-0026",
+      "materials": [
+        "mat-17a7c66465655da13dd13229"
+      ],
+      "names": [
+        "TM_PodiumBorder_asset"
+      ],
+      "raw_texture_bytes": 12584136
+    },
+    {
+      "id": "bundle-0027",
+      "materials": [
+        "mat-18131a236d5cc9959e893b08",
+        "mat-31eec87ac017955c8f4f2517",
+        "mat-a86ba89c1ac0d0920a20dc1e"
+      ],
+      "names": [
+        "TM_DecoCliffBase_asset",
+        "TM_PlatformDirt_DecoCliffBase_asset",
+        "TM_PlatformIce_DecoCliffBase_asset"
+      ],
+      "raw_texture_bytes": 5593280
+    },
+    {
+      "id": "bundle-0028",
+      "materials": [
+        "mat-181340f214106b325a8ea35c",
+        "mat-3b90075a7106015598329d34",
+        "mat-3dc82eb19f2801a98372f02f",
+        "mat-cbbcbdc01aac24b264c3ebd4",
+        "mat-ff9fde5b172be43a3e875531"
+      ],
+      "names": [
+        "TM_BlueBay_Deco_asset",
+        "TM_BlueBay_Land_asset",
+        "TM_BlueBay_TransitionRocksToLand_asset",
+        "TM_BlueBay_TransitionRocks_asset",
+        "TM_BlueBay_WarpSand_asset"
+      ],
+      "raw_texture_bytes": 117453224
+    },
+    {
+      "id": "bundle-0029",
+      "materials": [
+        "mat-1ad13df7238a618af26c632c",
+        "mat-d8d29b2244de186f4f5a673e"
+      ],
+      "names": [
+        "TM_DecalObstacleTurnstileLeft_asset",
+        "TM_DecalObstacleTurnstileRight_asset"
+      ],
+      "raw_texture_bytes": 4195136
+    },
+    {
+      "id": "bundle-0030",
+      "materials": [
+        "mat-1b3db1ad374db9bb32f9df40",
+        "mat-1b82d510a9dc1934457ac4ef",
+        "mat-1bebb0b220413272045df559",
+        "mat-1d1d7b6ec9049cfdcbfd8e26",
+        "mat-1e0151ce55aa3623de21d7e9",
+        "mat-1e1c9b29514baad6678e252b",
+        "mat-1f17d331018cfeedeb565f5f",
+        "mat-1f1c0e3a5e160404b194fee2",
+        "mat-1f1cd2f678ad79a9ead6ac93",
+        "mat-1f834d577749dcb3fd70c5f9",
+        "mat-1f8c1535bd82e218f77368f2",
+        "mat-2080e3aebab1df525187f5e9",
+        "mat-2147d6de1e5c4634c9d696fc",
+        "mat-21ba54381313343288a0a453",
+        "mat-21d9695342f9965ad50d7d96",
+        "mat-2268b51765328df438c380ce",
+        "mat-22b66b9f529fd8373ac3c6bd",
+        "mat-22ea2c53fab69ce41f329a14",
+        "mat-231d8e8284295ea2a46396c4",
+        "mat-23af94dae28f0ed765dcb745",
+        "mat-23e6fdb6096c0cd287d8a3fa",
+        "mat-24f11c14ccfb069bf2ef3a70",
+        "mat-25146cfd36f018ef594db6a2",
+        "mat-25824dc531811c0e55163d34",
+        "mat-261f724daba79d27d3853310",
+        "mat-267f215901ee46ef142840b4",
+        "mat-27769ca09b023e04b855cd4a",
+        "mat-3dba958c7103a56eef2753c3",
+        "mat-411314bf5d0745ace6c15636",
+        "mat-7860b9d7d520bfa302d11520",
+        "mat-b6d5b0f78de4e28816554e42",
+        "mat-edfe8bca8f353e035d23d2eb"
+      ],
+      "names": [
+        "TM_BlueBay_Water_asset",
+        "TM_Boost2_TriggerFX_asset",
+        "TM_CustomModColorize2_asset",
+        "TM_Experimental_Effects_CollisionDirt_asset",
+        "TM_Experimental_Effects_CollisionTurboTechMagnetic_asset",
+        "TM_Experimental_Effects_InvisibleShadowCaster_asset",
+        "TM_Experimental_Garage_GarageGround_asset",
+        "TM_Experimental_Menu_Bg1InRace_asset",
+        "TM_Experimental_Menu_Bg1_asset",
+        "TM_Experimental_Menu_MeshModelerIcons1_asset",
+        "TM_Experimental_Menu_SMInterfaceColorizable_asset",
+        "TM_Experimental_Techno3_BodyAnimSkel_Shield_asset",
+        "TM_Experimental_Techno3_Tech3_Block_DecalGeom_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PoleEmblem_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PxzDiff_Spec_Norm_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PyPxzTLayered_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDiff_Spec_Norm_asset",
+        "TM_Experimental_Techno3_Tech3_CarGhost_asset",
+        "TM_Experimental_Techno3_Tech3_CarGlassRefract_asset",
+        "TM_Experimental_Techno3_Tech3_DeclSpriteMacro_asset",
+        "TM_Experimental_Vehicles_WheelMarksWet_asset",
+        "TM_GreenCoast_Water_asset",
+        "TM_Invisible_ResonantMetal_asset",
+        "TM_Invisible_RoadSynthetic_asset",
+        "TM_Invisible_Rubber_asset",
+        "TM_ItemInflatableTube_asset",
+        "TM_ItemRoadSign_asset",
+        "TM_RaceTriggerFXCheckpoint_asset",
+        "TM_RedIsland_Water_asset",
+        "TM_TurboRoulette_SpecialFX_asset",
+        "TM_Water_asset",
+        "TM_WhiteShore_Water_asset"
+      ],
+      "raw_texture_bytes": 11765847
+    },
+    {
+      "id": "bundle-0031",
+      "materials": [
+        "mat-1ca4fbe3d9710b94b0864329",
+        "mat-92a3da0ee60660fb7741fba9",
+        "mat-e6c67e8a279e2815a0398fab",
+        "mat-f96a88582a9c9b9be5183cf4"
+      ],
+      "names": [
+        "TM_ItemLampLightB_asset",
+        "TM_ItemLampLightC_asset",
+        "TM_ItemLampLight_asset",
+        "TM_ItemLamp_asset"
+      ],
+      "raw_texture_bytes": 6991848
+    },
+    {
+      "id": "bundle-0032",
+      "materials": [
+        "mat-1d75ef32d497afda2509040c",
+        "mat-4aef27f10c0a1033f4b33fb1"
+      ],
+      "names": [
+        "TM_ThemeSnowRoad_asset",
+        "TM_ThemeSnowTempleFloor_asset"
+      ],
+      "raw_texture_bytes": 19574152
+    },
+    {
+      "id": "bundle-0033",
+      "materials": [
+        "mat-1fd126bf4f721d93ec96388b",
+        "mat-2cf80333a523aa386b9aba68",
+        "mat-39c3fe2c31bb44dfcb02d5e5",
+        "mat-c87696bec8400e1abab101bd"
+      ],
+      "names": [
+        "TM_WarpLightRay_Dyna_asset",
+        "TM_WarpLightRay_asset",
+        "TM_WarpLight_Dyna_asset",
+        "TM_WarpLight_asset"
+      ],
+      "raw_texture_bytes": 12583896
+    },
+    {
+      "id": "bundle-0034",
+      "materials": [
+        "mat-2126fa3dfb2dfc53d18e205a"
+      ],
+      "names": [
+        "TM_ThemeRallyCastleRoof_asset"
+      ],
+      "raw_texture_bytes": 19574024
+    },
+    {
+      "id": "bundle-0035",
+      "materials": [
+        "mat-2143622c4984999c6f4347d6",
+        "mat-283edf67c546874860321754",
+        "mat-303ae6441c3b17bcbf6e057c",
+        "mat-33916cadd359a51f623dbb1f",
+        "mat-345b431ede0f0bad23507edf",
+        "mat-3a597d32467655974d97677c",
+        "mat-3b709308ac89b67a1bdff6f4",
+        "mat-5c90746ab119706aeff65982",
+        "mat-5fa28f1194557811283ec523",
+        "mat-6e8a816729291d12e9b94517",
+        "mat-73d42328335d062feec83288",
+        "mat-7b99c226c083e29a9144b289",
+        "mat-7cd0a9fcf8e04c9e903185d9",
+        "mat-80eb823d3a194c8dd61209e6",
+        "mat-82289ce65ab377e5acea7c0b",
+        "mat-b467bd90101c38b3058fcfc8",
+        "mat-bc91e8c3e2da3abfb6c78f4f",
+        "mat-eb8679002450450bbe2cf4c8",
+        "mat-ec1330b7ea8305dcf8f33cc5",
+        "mat-ee18b4731a2af7cb86609bf6",
+        "mat-f3cd78b0fb548f768735f545"
+      ],
+      "names": [
+        "TM_DecalPaint2Logo4x1_asset",
+        "TM_DecalPaint2Logo8x1_asset",
+        "TM_DecalPaint2Sponsor4x1A_asset",
+        "TM_DecalPaint2Sponsor4x1B_asset",
+        "TM_DecalPaint2Sponsor4x1C_asset",
+        "TM_DecalPaint2Sponsor4x1D_asset",
+        "TM_DecalPaint2Sponsor4x1NoColorizeA_asset",
+        "TM_DecalPaint2Sponsor4x1NoColorizeB_asset",
+        "TM_DecalPaint2Sponsor4x1NoColorizeC_asset",
+        "TM_DecalPaint2Sponsor4x1NoColorizeD_asset",
+        "TM_DecalPaintLogo4x1_asset",
+        "TM_DecalPaintLogo8x1Colorize_asset",
+        "TM_DecalPaintLogo8x1_asset",
+        "TM_DecalPaintSponsor4x1A_asset",
+        "TM_DecalPaintSponsor4x1B_asset",
+        "TM_DecalPaintSponsor4x1C_asset",
+        "TM_DecalPaintSponsor4x1D_asset",
+        "TM_DecalPaintSponsor4x1NoColorizeA_asset",
+        "TM_DecalPaintSponsor4x1NoColorizeB_asset",
+        "TM_DecalPaintSponsor4x1NoColorizeC_asset",
+        "TM_DecalPaintSponsor4x1NoColorizeD_asset"
+      ],
+      "raw_texture_bytes": 9440480
+    },
+    {
+      "id": "bundle-0036",
+      "materials": [
+        "mat-27b737ebdec80a06c86999cb",
+        "mat-27de1f2c4ef2814787200350",
+        "mat-2968db89148446169ccd5989",
+        "mat-2a14464295243891cc01e924",
+        "mat-2a6c2a7991d7eedec9338b09",
+        "mat-2b4fe1b94ff1c1e48bb6a180",
+        "mat-2b971b5b314d35f6b89075e5",
+        "mat-2c30d617aad1eb5949ea2298",
+        "mat-2cf9e915b998ee4243c6f9ef",
+        "mat-2d2ef3babfcf2b408ce20183",
+        "mat-2d6decdafd8682ef2c1ef21f",
+        "mat-2ddf3ba8fa538e29cbdee9d4",
+        "mat-2de2a758539923ea65e24e45",
+        "mat-2ea6c3127c7aa3f4dcc1b8f7",
+        "mat-2f47abde915a417d6a76f0f1",
+        "mat-2f744dfcedf71dc545b93513",
+        "mat-2f826c756f6d062865a23209",
+        "mat-2f9fe073c49e07e49426dc49",
+        "mat-2fd97fc0fdab1746a2253fb7",
+        "mat-3c95d44512e05ca542c13422",
+        "mat-3cf2f9fbee8df724668d356a",
+        "mat-3d27cb552d09db4aee6398ba",
+        "mat-48ff6fb1a7cda5a15c7c99b0",
+        "mat-66b448a0eb80729d2975753a",
+        "mat-9f9fe36fa076822ce30cf179",
+        "mat-bf98729dc6db624ea48c37e7",
+        "mat-ce2ad383438ace371905f9e7",
+        "mat-d1a5ba69519fcbb861dbca0a",
+        "mat-d76471d123bd50ebcc78bec7",
+        "mat-d8501245623f300315645951",
+        "mat-e2ace8a9d9c2d4e1a7d3aea3",
+        "mat-e40f43e489cc0b3a3c4ad202"
+      ],
+      "names": [
+        "TM_Chrono-00-00-001_asset",
+        "TM_Chrono-00-00-01_asset",
+        "TM_Chrono-00-00-10_asset",
+        "TM_Chrono-00-01-00_asset",
+        "TM_Chrono-00-10-00_asset",
+        "TM_Chrono-01-00-00_asset",
+        "TM_Chrono-10-00-00_asset",
+        "TM_Chrono_asset",
+        "TM_Experimental_Effects_CollisionSlidingWood_asset",
+        "TM_Experimental_Effects_CollisionTechMagnetic_asset",
+        "TM_Experimental_Effects_CollisionTech_asset",
+        "TM_Experimental_Menu_BlendTextureHueShift_asset",
+        "TM_Experimental_Menu_BlendTextureSuperSample_AddModSrcA_asset",
+        "TM_Experimental_ShootMania_Bonus_asset",
+        "TM_Experimental_Techno3_BodyAnimSkel_Diffuse_Energy_Specular_Normal_asset",
+        "TM_Experimental_Techno3_Tech3_Dyna0_TI_asset",
+        "TM_Experimental_Techno3_VehicleGems_asset",
+        "TM_Experimental_Vehicles_ParticleSmokeAsphalt_ac3e74e8_asset",
+        "TM_Experimental_Vehicles_ParticleSmokeSnow_asset",
+        "TM_GateGameplayRally_Decal_asset",
+        "TM_GlassWaterWall_asset",
+        "TM_Invisible_Metal_asset",
+        "TM_ItemBase_asset",
+        "TM_ItemObstacleDiscontinuous_ScreenPusherLevel0_asset",
+        "TM_ItemObstacleDiscontinuous_ScreenPusherLevel1_asset",
+        "TM_ItemObstacleDiscontinuous_ScreenPusherLevel2_asset",
+        "TM_ItemObstacle_ScreenPusherLevel0_asset",
+        "TM_ItemObstacle_ScreenPusherLevel1_asset",
+        "TM_ItemObstacle_ScreenPusherLevel2_asset",
+        "TM_NoEngine_SpecialFX_asset",
+        "TM_ScreenPusher_asset",
+        "TM_SpeakerSide_asset"
+      ],
+      "raw_texture_bytes": 7202324
+    },
+    {
+      "id": "bundle-0037",
+      "materials": [
+        "mat-2cdcc142fb45ef1c796e3685",
+        "mat-3138ca7ffe45af8435f89f59",
+        "mat-a0a0d2bfd41f7717c6d9d781",
+        "mat-d0a7e51841d7e88660997420"
+      ],
+      "names": [
+        "TM_PoolBorders_asset",
+        "TM_Stadium_TrackBordersInWorld_asset",
+        "TM_TrackBordersOff_asset",
+        "TM_TrackBorders_asset"
+      ],
+      "raw_texture_bytes": 45090940
+    },
+    {
+      "id": "bundle-0038",
+      "materials": [
+        "mat-2da1d024b246f32afa7117c7",
+        "mat-49d971c08f92b39124ae2ffb"
+      ],
+      "names": [
+        "TM_ThemeRallyCastleWallUV_asset",
+        "TM_ThemeRallyCastleWall_asset"
+      ],
+      "raw_texture_bytes": 44739714
+    },
+    {
+      "id": "bundle-0039",
+      "materials": [
+        "mat-308ace9ea6e4c04dbfce7fb4",
+        "mat-31218162ea89c51646e10694",
+        "mat-334f90cffcffbb77cc501d24",
+        "mat-3359934aea7c3dffe67feec2",
+        "mat-34265262c4cb657ce9e5d127",
+        "mat-343be6b0211e14475387fe91",
+        "mat-3480cddeac73e639d04c470d",
+        "mat-355c7b7f93201f1fb9ede58b",
+        "mat-36412904f089381cfaf677ed",
+        "mat-3833022a4ab3c72288d42219",
+        "mat-3874f5cf126b9cea3ff8bb62",
+        "mat-3897e7669f27642df2e1aae6",
+        "mat-38fd9306cc58ea96049e9452",
+        "mat-397d9e6c79463093d09f82fd",
+        "mat-39bc3051cb099aca45d273ce",
+        "mat-3ade15f9755c96da4392806c",
+        "mat-3b5053c81c84fd1153030cf1",
+        "mat-3b92000c0446132e4757c84e",
+        "mat-3bad592e96434e5f21e6ed54",
+        "mat-3c4d9681877c5b9304c16757",
+        "mat-3c4d9a8acf4efe88d5904b06",
+        "mat-3d7b0595864c2fe1137fee83",
+        "mat-3d9468e8df3bcbe25f91a16c",
+        "mat-3dd993e985d8a0afdbfb023a",
+        "mat-3e6f9e3510862d9b6e847f88",
+        "mat-3eb1a439c42fbd436e12d45b",
+        "mat-3f487abcbb85fda90b9d5586",
+        "mat-3f6d0a7887e0338db0eae348",
+        "mat-40135939b22192d7398bd216",
+        "mat-402c7192e64d4d6f853dec4e",
+        "mat-40389b9731a946a1ec0c5ac7",
+        "mat-40639c21c27a4111dca63581"
+      ],
+      "names": [
+        "TM_Cruise_TriggerFX_asset",
+        "TM_CustomMetalPainted_asset",
+        "TM_CustomMetal_asset",
+        "TM_CustomModColorize_asset",
+        "TM_Experimental_Effects_CollisionTurboGreen_asset",
+        "TM_Experimental_Effects_CollisionTurboRoadSynthetic_asset",
+        "TM_Experimental_Effects_CollisionTurbo_asset",
+        "TM_Experimental_Garage_GarageSocle_asset",
+        "TM_Experimental_Menu_EditorBulletButtons_asset",
+        "TM_Experimental_Menu_EntryFocusAreaFocused_asset",
+        "TM_Experimental_Menu_ManiaPlanetLogoBig_asset",
+        "TM_Experimental_Menu_SkyDome_asset",
+        "TM_Experimental_PainterTech_Paint_BlendLayer_asset",
+        "TM_Experimental_ShootMania_AttractorBeam_asset",
+        "TM_Experimental_Techno3_BodyAnimSkel_ShowEnergy_asset",
+        "TM_Experimental_Techno3_GlassBasic_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PTDiff_Spec_Norm_PGrassX2_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDSN_TI_CubeOut_asset",
+        "TM_Experimental_Techno3_Tech3_Dyna_TAddModCV_asset",
+        "TM_Experimental_Techno3_Tech3_SpriteAddSoft_asset",
+        "TM_Experimental_Techno3_Tech3_Warp_TDiffSpec_VertexTween_asset",
+        "TM_Experimental_Techno3_VehicleGlassDmgCrack_asset",
+        "TM_Experimental_Vehicles_Boost_Turbo_asset",
+        "TM_Fragile_SpecialFX_asset",
+        "TM_GlossyFloor_asset",
+        "TM_GreenCoast_LakeRocks_asset",
+        "TM_GreenCoast_TrunkA_asset",
+        "TM_Invisible_Green_asset",
+        "TM_Invisible_MetalTrans_asset",
+        "TM_RaceTriggerFXFinish_asset",
+        "TM_SpeakerFront_asset",
+        "TM_ThemeSnowTempleLamp_asset"
+      ],
+      "raw_texture_bytes": 17028358
+    },
+    {
+      "id": "bundle-0040",
+      "materials": [
+        "mat-32ac797f59be5b57c3c104ca"
+      ],
+      "names": [
+        "TM_BlueBay_CliffPxz_asset"
+      ],
+      "raw_texture_bytes": 47547424
+    },
+    {
+      "id": "bundle-0041",
+      "materials": [
+        "mat-342bcc787dfaf9fbb2757403",
+        "mat-8e2092a8d4a024da8ce5b0ea",
+        "mat-d7deabd231e74a604d335481"
+      ],
+      "names": [
+        "TM_DecoCliff_asset",
+        "TM_PlatformGrass_DecoCliff_asset",
+        "TM_PlatformGrass_TrackWall_asset"
+      ],
+      "raw_texture_bytes": 44739714
+    },
+    {
+      "id": "bundle-0042",
+      "materials": [
+        "mat-35c0873ef94078e5a37b0385"
+      ],
+      "names": [
+        "TM_WhiteShore_WaterBottom_asset"
+      ],
+      "raw_texture_bytes": 103472056
+    },
+    {
+      "id": "bundle-0043",
+      "materials": [
+        "mat-3628e92aace330fd4cce5a44"
+      ],
+      "names": [
+        "TM_ItemInflatableMat_asset"
+      ],
+      "raw_texture_bytes": 19574024
+    },
+    {
+      "id": "bundle-0044",
+      "materials": [
+        "mat-39ec243219134e35c6cad7e1"
+      ],
+      "names": [
+        "TM_DecalMarksItems_asset"
+      ],
+      "raw_texture_bytes": 4894072
+    },
+    {
+      "id": "bundle-0045",
+      "materials": [
+        "mat-3c3770b40769b94f501f7908",
+        "mat-3c587bb25c52d7d02724ea34",
+        "mat-3c793cdb1379d747e4937758",
+        "mat-7cb1d14d8bbb511a9b75b403",
+        "mat-d3cd0f67fd88762016405e5e",
+        "mat-da7b42263e27b06b6b05aa70",
+        "mat-f031a09be61d4375110b8ae1"
+      ],
+      "names": [
+        "TM_ItemObstacleDiscontinuous_ItemObstacleLevel0_asset",
+        "TM_ItemObstacleDiscontinuous_ItemObstacleLevel1_asset",
+        "TM_ItemObstacleDiscontinuous_ItemObstacleLevel2_asset",
+        "TM_ItemObstacle_ItemObstacleLevel0_asset",
+        "TM_ItemObstacle_ItemObstacleLevel1_asset",
+        "TM_ItemObstacle_ItemObstacleLevel2_asset",
+        "TM_ItemObstacle_asset"
+      ],
+      "raw_texture_bytes": 15380472
+    },
+    {
+      "id": "bundle-0046",
+      "materials": [
+        "mat-3f6768057abaea83724ce4cf"
+      ],
+      "names": [
+        "TM_WarpGlass_WithLightmap_asset"
+      ],
+      "raw_texture_bytes": 4194768
+    },
+    {
+      "id": "bundle-0047",
+      "materials": [
+        "mat-4127f297d852eef1149f2756",
+        "mat-41b90b179250123572f87dfb",
+        "mat-41cf4f2ec03c5d9075603139",
+        "mat-42685c9b5b68c6592adf85a1",
+        "mat-427272fc5118e5988b32c899",
+        "mat-431be4a03050d13664628b08",
+        "mat-439a485eb324816f180c7b33",
+        "mat-440c9a719a27ca6e4ceeef63",
+        "mat-44bf5c43e90ec9209f7357ac",
+        "mat-44ca72825c7e4124b2610570",
+        "mat-46cc2ad9121ee4c3b9d8a018",
+        "mat-484957b0b089ed71d8671f3e",
+        "mat-48c3f9e1aa52c15f9f8a774d",
+        "mat-48e75a7f149452cacd418ba5",
+        "mat-49494caf592975316dcaf283",
+        "mat-4968538eb8183443d58bcc32",
+        "mat-4a35f5bcc58985dbf6016beb",
+        "mat-4a3ab22bb27214a49fa0ec81",
+        "mat-4a6a24ba44314cfc65e26bef",
+        "mat-4bf7435d478be48ff7a1603f",
+        "mat-4c6e58d05e056ddb18acbcc8",
+        "mat-4cccf0e62380936273458dec",
+        "mat-4d7b2345cca1efefed5a2155",
+        "mat-504104576a7602caefcb5470",
+        "mat-5063ffd721b3a8031700f9d7",
+        "mat-5069c4770b34c64e577ceb4b",
+        "mat-5071be1da9838e53ae360021",
+        "mat-526bd57668416e67459be5a1",
+        "mat-53e4b5b49f2db9d28dc5e7fc",
+        "mat-7f9bc8454f99c85e78ca9148",
+        "mat-a318e5102322347410d2b7ee",
+        "mat-bbf538c62726518daaac7e39"
+      ],
+      "names": [
+        "TM_CustomIce_asset",
+        "TM_CustomModAddSelfIllum_asset",
+        "TM_CustomModDecal2_asset",
+        "TM_CustomModSelfIllumSimple2_asset",
+        "TM_CustomModTrans_asset",
+        "TM_CustomPlasticShiny_asset",
+        "TM_Experimental_Effects_CollisionIce_asset",
+        "TM_Experimental_Effects_CollisionPlayerOnly_asset",
+        "TM_Experimental_Effects_CollisionTechGround_asset",
+        "TM_Experimental_Effects_CollisionTechSafe_asset",
+        "TM_Experimental_Effects_EditorHelpersTranslucent_asset",
+        "TM_Experimental_Menu_EntryFocusArea_asset",
+        "TM_Experimental_Menu_SMInterfaceEmblem_asset",
+        "TM_Experimental_PainterTech_PaintWithAlpha_asset",
+        "TM_Experimental_Techno3_BodyAnimSkel_DiffuseOp_Energy_Specular_Normal_TMask_asset",
+        "TM_Experimental_Techno3_BodyAnimSkel_DiffuseTransp_2Sided_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PDiff_Spec_Norm_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PyPxz_Blend2_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDSN_CubeOut_DispIn_Parallax_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TSelfIllumNightOnly_asset",
+        "TM_Experimental_Techno3_Tech3_CarGlassSkelDmg_asset",
+        "TM_Experimental_Techno3_Tech3_Dyna0_LProbe_TDSN_asset",
+        "TM_Experimental_Techno3_Tech3_Dyna_TAdd_AfterDecals_asset",
+        "TM_Experimental_Techno3_Tech3_MenuBox_Transp_asset",
+        "TM_Experimental_Techno3_VehicleGlassDmg_asset",
+        "TM_Experimental_Techno3_VehicleGlassRefract_asset",
+        "TM_Experimental_Vehicles_ParticleChunksDirt_asset",
+        "TM_ItemTrackBarrier2_asset",
+        "TM_ItemTrackBarrierB_asset",
+        "TM_ItemTrackBarrierC_asset",
+        "TM_ItemTrackBarrier_asset",
+        "TM_TurboRoulette_TriggerFX_asset"
+      ],
+      "raw_texture_bytes": 10596429
+    },
+    {
+      "id": "bundle-0048",
+      "materials": [
+        "mat-4487ade51817299a0b355e76",
+        "mat-5c2a57aa804ded8556127ef2"
+      ],
+      "names": [
+        "TM_PlatformDirt_DecoCliff_asset",
+        "TM_PlatformDirt_TrackWall_asset"
+      ],
+      "raw_texture_bytes": 44739714
+    },
+    {
+      "id": "bundle-0049",
+      "materials": [
+        "mat-490ddfa9a101c1ff839f5802",
+        "mat-b40b003c52ad27bff2f9c8ef",
+        "mat-e3c336f1c1d17e24d34831d4",
+        "mat-e982e263af99d9cc212b18bb"
+      ],
+      "names": [
+        "TM_CustomDirt_asset",
+        "TM_PlatformDirt_PlatformTech_asset",
+        "TM_RoadDirtFullColorize_asset",
+        "TM_RoadDirt_asset"
+      ],
+      "raw_texture_bytes": 148200714
+    },
+    {
+      "id": "bundle-0050",
+      "materials": [
+        "mat-4a7f0ffe1f27d3403a3dd454"
+      ],
+      "names": [
+        "TM_CustomConcrete_asset"
+      ],
+      "raw_texture_bytes": 5593018
+    },
+    {
+      "id": "bundle-0051",
+      "materials": [
+        "mat-4d322fd6a62685bbd5ab1663"
+      ],
+      "names": [
+        "TM_BlueBay_HillPxz_asset"
+      ],
+      "raw_texture_bytes": 47547424
+    },
+    {
+      "id": "bundle-0052",
+      "materials": [
+        "mat-51396a384d89b5d27a66a2b0",
+        "mat-b63543ae322612172e45a167"
+      ],
+      "names": [
+        "TM_WarpWall2Bottom_asset",
+        "TM_WarpWall2_WithLightmap_asset"
+      ],
+      "raw_texture_bytes": 11185248
+    },
+    {
+      "id": "bundle-0053",
+      "materials": [
+        "mat-533ddc7ab18dc718a9e79cb9",
+        "mat-546603ab6e0c08aaabcac6a3",
+        "mat-5476c642abd83eb79319977b",
+        "mat-54bc18a98b59414c10ca1f74",
+        "mat-54f93cbb0356e12cb82f31ff",
+        "mat-5507a53def5b11e79d76f0b6",
+        "mat-555a2c6f6f8ffaba12ef8917",
+        "mat-55fedc82717a9538e4954c66",
+        "mat-56062cc3c730b8aac0491340",
+        "mat-56abf116109171f9fe1d1bef",
+        "mat-57e7cdf6f7a1c10938923419",
+        "mat-582c7e2f157138d6438ce1a3",
+        "mat-5984cd7b004f630fdc66bae9",
+        "mat-59e2496cb35e1485e2a0a936",
+        "mat-5ad425b5d0a43898a58082d0",
+        "mat-5c06e93a91cd426dca9dab95",
+        "mat-5c1eea0f23bba6151051b3af",
+        "mat-5c9fd096fd028ac2d6d4e0dc",
+        "mat-5cab43fd63495d52471c7bb2",
+        "mat-5cbfc5b59a4678e3472e2fe0",
+        "mat-5dd558f82910cb69c02b5eb3",
+        "mat-5e2a39da5e7b7837673c69e1",
+        "mat-5ed4f3bda82bdb619ba9516c",
+        "mat-5f839ad20ecd953af4788590",
+        "mat-610fc0008081166ca5bbfcfc",
+        "mat-6146bcb718c6aee800f543c6",
+        "mat-6166212e811f55f8355cd7c3",
+        "mat-62177020f7f773295699cdef",
+        "mat-744f730273579c89603c2660",
+        "mat-784c0b6369a4e52817ac0d1c",
+        "mat-8839e6259ad381c97b3d824d",
+        "mat-c462da77fc05f4c13b1b0394"
+      ],
+      "names": [
+        "TM_CustomPlastic_asset",
+        "TM_DecalCurbs_asset",
+        "TM_Experimental_Effects_LightTrail_asset",
+        "TM_Experimental_Garage_ManiaPlanetStation_asset",
+        "TM_Experimental_Garage_ManiaPlanetTitleCover_asset",
+        "TM_Experimental_Menu_BlendTextureAndBorderMask_asset",
+        "TM_Experimental_Menu_BlendTexture_asset",
+        "TM_Experimental_Menu_MenuBox3dBoxCase_asset",
+        "TM_Experimental_Menu_MenuBox3dStation_asset",
+        "TM_Experimental_Menu_MenuBox3dTransp_asset",
+        "TM_Experimental_Techno3_BodyAnimSkel_Aniso_asset",
+        "TM_Experimental_Techno3_BodyAnimSkel_Teleport_asset",
+        "TM_Experimental_Techno3_Static_TIAdd_asset",
+        "TM_Experimental_Techno3_Tech3_AddSelfIllumAtHue_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PyPxzTLayered_Decal_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDiff_Spec_Norm_Probe_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TSelfIllum_asset",
+        "TM_Experimental_Techno3_Tech3_Decal_2d_asset",
+        "TM_Experimental_Techno3_Tech3_SpriteBlendSoftLightedVtxAmbient_asset",
+        "TM_Experimental_Techno3_VehicleGlassRefractNoSkelDmg_asset",
+        "TM_Experimental_Techno3_VehicleGlass_asset",
+        "TM_Experimental_Vehicles_GrassMarkGround_asset",
+        "TM_Experimental_Vehicles_ParticleChunksSand_asset",
+        "TM_Experimental_Vehicles_ParticleSmokeSand_asset",
+        "TM_Invisible_Grass_asset",
+        "TM_Invisible_NotCollidable_asset",
+        "TM_Invisible_Rock_asset",
+        "TM_ItemFlagNoAnim_asset",
+        "TM_LightSpot_asset",
+        "TM_LightTubeBig_asset",
+        "TM_LightTubeSmall_asset",
+        "TM_Turbo2_SpecialFX_asset"
+      ],
+      "raw_texture_bytes": 9625667
+    },
+    {
+      "id": "bundle-0054",
+      "materials": [
+        "mat-5796976f7c395ede3bf23836",
+        "mat-6d16c965792126a8c0377ade"
+      ],
+      "names": [
+        "TM_WarpDetails_Dyna_asset",
+        "TM_WarpDetails_WithLightmap_asset"
+      ],
+      "raw_texture_bytes": 27962504
+    },
+    {
+      "id": "bundle-0055",
+      "materials": [
+        "mat-59f6e210dfccbe4742f107b1"
+      ],
+      "names": [
+        "TM_RoadBump_asset"
+      ],
+      "raw_texture_bytes": 45439216
+    },
+    {
+      "id": "bundle-0056",
+      "materials": [
+        "mat-5a6dd2c2ae3a076a47899fb5",
+        "mat-6e4991abefd40b229d6f368a"
+      ],
+      "names": [
+        "TM_ItemInflatableFloor_asset",
+        "TM_PlatformPlastic_PlatformTech_asset"
+      ],
+      "raw_texture_bytes": 4893960
+    },
+    {
+      "id": "bundle-0057",
+      "materials": [
+        "mat-5aaedbbd61ca2c62e6b37f11"
+      ],
+      "names": [
+        "TM_GreenCoast_Cliff2_asset"
+      ],
+      "raw_texture_bytes": 47547424
+    },
+    {
+      "id": "bundle-0058",
+      "materials": [
+        "mat-5b082056bc8c465df7de2f48"
+      ],
+      "names": [
+        "TM_WarpWall_WithLightmap_asset"
+      ],
+      "raw_texture_bytes": 11185248
+    },
+    {
+      "id": "bundle-0059",
+      "materials": [
+        "mat-5eb6cd82c26f300c77ba23a1"
+      ],
+      "names": [
+        "TM_Stadium_TrackWallClipsInWorld_asset"
+      ],
+      "raw_texture_bytes": 44740176
+    },
+    {
+      "id": "bundle-0060",
+      "materials": [
+        "mat-628cb5b9495057708bec307b",
+        "mat-62f250cc7f918d8396058b0c",
+        "mat-631c53fe14a2bf09bf6552fc",
+        "mat-634df7a88edf45749c6cf0c0",
+        "mat-63a5da2ddba6ce1c07175c25",
+        "mat-64d2bb7596280a81af40971d",
+        "mat-6539e703280503d801b7baf0",
+        "mat-675188af21e72433eb3ec03f",
+        "mat-67546917b529f53a292d0219",
+        "mat-684c555fd31c726d100b90ef",
+        "mat-684fb13db6d5b5cecbd50f7b",
+        "mat-687a3d896b7d70c1b9316c43",
+        "mat-68895a49ccc61f6152fdd86a",
+        "mat-68b87c46b9da81fb402d80b5",
+        "mat-68c02bf7f66386501fc93e18",
+        "mat-69365bbe55cf83aa5d86ec0e",
+        "mat-6972c2c9be399a8b7875e1fa",
+        "mat-6a75ebb1d9ad15ce72550a24",
+        "mat-6ad0147ad4e821cdbeb22b0a",
+        "mat-6b37ccddb0fb498c0e1ffd7b",
+        "mat-6b69003ff5a1632bd65142e4",
+        "mat-6c58c5db8c18c5a3ce2ce9dc",
+        "mat-6ce8e1bb9ae0fc7f4e1a507f",
+        "mat-6d9daa8d549f9fac4bd9462e",
+        "mat-6e0293a1428e6f9bec7596aa",
+        "mat-6e0e292c9dbe12611ae388fe",
+        "mat-7019ba31054605c274b48cc0",
+        "mat-70a2ddbe5ffbc2ff4c575667",
+        "mat-70dba873ac80cb47b4ba5dde",
+        "mat-70fcea58a12b03c804cc549e",
+        "mat-91e59d3c5556f12bdc1353cf",
+        "mat-c49eb18b06664b19ed3578d3"
+      ],
+      "names": [
+        "TM_Boost_TriggerFX_asset",
+        "TM_CustomBricks_asset",
+        "TM_CustomModOpaque_asset",
+        "TM_CustomRoughWood_asset",
+        "TM_Experimental_Effects_CollisionBumper_asset",
+        "TM_Experimental_Effects_CollisionEnergy_asset",
+        "TM_Experimental_Effects_CollisionTechLaser_asset",
+        "TM_Experimental_Effects_CollisionTurbo2_asset",
+        "TM_Experimental_Garage_Garage_TDiff_GroundReflect_asset",
+        "TM_Experimental_Menu_TranslucentSelection_asset",
+        "TM_Experimental_Menu_UICommon128_1_asset",
+        "TM_Experimental_Menu_UICommon64_1_asset",
+        "TM_Experimental_Techno3_CharAnimSkel_Body_63805ad9_asset",
+        "TM_Experimental_Techno3_CharAnimSkel_Part_03ce4c14_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TAdd_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDSN_CubeOut_DispIn_asset",
+        "TM_Experimental_Techno3_Tech3_BodyAnimSkel_Teleport_asset",
+        "TM_Experimental_Techno3_Tech3_CarGlassSkelDmg_Decal_asset",
+        "TM_Experimental_Techno3_Tech3_CarGlass_asset",
+        "TM_Experimental_Techno3_Tech3_MenuBox_Light_asset",
+        "TM_Experimental_Techno3_Tech3_Warp_PyaDiff_To_PDiffPGrassX2_asset",
+        "TM_Experimental_Vehicles_WheelMarksSand_asset",
+        "TM_Invisible_Asphalt_asset",
+        "TM_Invisible_Concrete_asset",
+        "TM_Invisible_Pavement_asset",
+        "TM_ItemTorchFlame_asset",
+        "TM_NoBrake_TriggerFX_asset",
+        "TM_NoEngine_TriggerFX_asset",
+        "TM_RaceTriggerFXMultilap_asset",
+        "TM_SpeedometerLight_Dyna_asset",
+        "TM_SpeedometerLight_asset",
+        "TM_Speedometer_asset"
+      ],
+      "raw_texture_bytes": 13588896
+    },
+    {
+      "id": "bundle-0061",
+      "materials": [
+        "mat-633a2b884c3686c9fb03cde9"
+      ],
+      "names": [
+        "TM_RedIsland_DetailsRocks3_asset"
+      ],
+      "raw_texture_bytes": 11185248
+    },
+    {
+      "id": "bundle-0062",
+      "materials": [
+        "mat-6feafb92373a2179480304bb",
+        "mat-9b0c075ce4b92e22e4deaba3",
+        "mat-c2e5d6a296a715ccce7a4e16",
+        "mat-c728388b92410da63d7de962",
+        "mat-fbf787cddcfedd59eba3114d"
+      ],
+      "names": [
+        "TM_DecalPlatform_asset",
+        "TM_PlatformDirt_DecalPlatform_asset",
+        "TM_PlatformGrass_DecalPlatform_asset",
+        "TM_PlatformIce_DecalPlatform_asset",
+        "TM_PlatformPlastic_DecalPlatform_asset"
+      ],
+      "raw_texture_bytes": 5246584
+    },
+    {
+      "id": "bundle-0063",
+      "materials": [
+        "mat-72337b5c0a19d8b6e31071c9",
+        "mat-7281c2b2c2638bbd9841c84e",
+        "mat-7322bee4f8ebe533da709f45",
+        "mat-749d574d6bec8bd55753ffdc",
+        "mat-7503db6f99454a50a1642ac5",
+        "mat-77ecb6ad44ef9677040b5092",
+        "mat-780bc41ebbe1156fe277868b",
+        "mat-784b4f64656a88d51d3307f7",
+        "mat-786bde3bbdb69f32a5bbda7d",
+        "mat-79e0e14f89ac4b0dd0211d77",
+        "mat-7b5d6bb1973c5b1b77ac5542",
+        "mat-7d40de9f7e3493f5b5683c94",
+        "mat-7d9dab49726642743bcedb27",
+        "mat-7ee1bbb85a7b31003d401720",
+        "mat-7f9a4e98376951e102f5f62b",
+        "mat-7fcc4eba566c70aad2392aee",
+        "mat-80090be6c904d8031cfdd083",
+        "mat-80c225391d8450a533c1ce21",
+        "mat-81ca146b68db9d649a08d7e0",
+        "mat-81d4b91a72af909f48da0704",
+        "mat-824ba739412fb96a2ac8ba15",
+        "mat-82b643b12017714cfbc15803",
+        "mat-837c97df0b321235a7d7898b",
+        "mat-83f33c8ee9f541492232b12e",
+        "mat-8451fd91bd7f8723ac6a0933",
+        "mat-8566767a3c76df7f01c312b5",
+        "mat-85a501e17a2e0e68b478aefe",
+        "mat-85a9577c0c2efe5e978c495b",
+        "mat-85ce92869fcf94a9e44c7228",
+        "mat-85f9fcf76a486ad3e51aac38",
+        "mat-87749b915d00066071b774e0",
+        "mat-a155e9d89492b7e0bed0a778"
+      ],
+      "names": [
+        "TM_CustomGlass_asset",
+        "TM_DecalObstaclePusher_asset",
+        "TM_Experimental_Effects_CollisionTurbo2TechMagnetic_asset",
+        "TM_Experimental_Menu_EditorButtons2_asset",
+        "TM_Experimental_Menu_Icons64x64_1_asset",
+        "TM_Experimental_Menu_UIBgCenterRace_asset",
+        "TM_Experimental_ShootMania_GoalDeathZone_asset",
+        "TM_Experimental_Techno3_CharAnimSkel_Body_asset",
+        "TM_Experimental_Techno3_Dyna0_TDSNI_asset",
+        "TM_Experimental_Techno3_Dyna0_TIce_asset",
+        "TM_Experimental_Techno3_Static_TDSNI_Night_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PoleEnergyInt_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PyDSN_PyGrassX2_TDecalMod_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PyPxz_Ids_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TAddLighted_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDSN_DecalMod_asset",
+        "TM_Experimental_Techno3_Tech3_BodyAnimSkel_Energy_asset",
+        "TM_Experimental_Techno3_Tech3_BodyAnim_ClipAlpha_asset",
+        "TM_Experimental_Techno3_Tech3_Decal_Sprite_VSampler_asset",
+        "TM_Experimental_Techno3_Tech3_Decal_Sprite_asset",
+        "TM_Experimental_Techno3_Tech3_Dyna0_Ice_asset",
+        "TM_Experimental_Techno3_ZOnly_Water_asset",
+        "TM_Experimental_Vehicles_ExhaustNitro_asset",
+        "TM_Experimental_Vehicles_ParticleSmokeAsphalt_asset",
+        "TM_Experimental_Vehicles_WheelMarksSnow_asset",
+        "TM_Invisible_Dirt_asset",
+        "TM_ItemCactus_asset",
+        "TM_ItemPillar2_asset",
+        "TM_ItemPillar_asset",
+        "TM_NoSteering_SpecialFX_asset",
+        "TM_ThemeSnowRoadBorder_asset",
+        "TM_TriggerFXTurbo_asset"
+      ],
+      "raw_texture_bytes": 15239737
+    },
+    {
+      "id": "bundle-0064",
+      "materials": [
+        "mat-731b7cef5edf784147af1047"
+      ],
+      "names": [
+        "TM_Stadium_StructureTruss_asset"
+      ],
+      "raw_texture_bytes": 22370368
+    },
+    {
+      "id": "bundle-0065",
+      "materials": [
+        "mat-75ad58880d78c73746352af9"
+      ],
+      "names": [
+        "TM_RedIsland_LakeBottom_asset"
+      ],
+      "raw_texture_bytes": 8440098
+    },
+    {
+      "id": "bundle-0066",
+      "materials": [
+        "mat-7bd37bd28c0291124392fe43"
+      ],
+      "names": [
+        "TM_GreenCoast_Cliff3_asset"
+      ],
+      "raw_texture_bytes": 47547424
+    },
+    {
+      "id": "bundle-0067",
+      "materials": [
+        "mat-7d9c2802e2cc967dbd4fb6cb"
+      ],
+      "names": [
+        "TM_DecalSponsor1x1BigA_asset"
+      ],
+      "raw_texture_bytes": 5592984
+    },
+    {
+      "id": "bundle-0068",
+      "materials": [
+        "mat-7fb8267eed75b6410e743e36"
+      ],
+      "names": [
+        "TM_CustomRock_asset"
+      ],
+      "raw_texture_bytes": 8389658
+    },
+    {
+      "id": "bundle-0069",
+      "materials": [
+        "mat-80e0b305d949879fbdd4ab6d",
+        "mat-8a79b4eec7e11361d163efca",
+        "mat-cb54dcd9244d81b119cb0067",
+        "mat-e2a95d5a896de0ff8913efe2"
+      ],
+      "names": [
+        "TM_Grass_asset",
+        "TM_Stadium_GrassFence_asset",
+        "TM_WarpGrass2_asset",
+        "TM_WarpGrass_asset"
+      ],
+      "raw_texture_bytes": 58721064
+    },
+    {
+      "id": "bundle-0070",
+      "materials": [
+        "mat-86c63b2928b5bc26fc46f99d"
+      ],
+      "names": [
+        "TM_TrackWall_asset"
+      ],
+      "raw_texture_bytes": 95073056
+    },
+    {
+      "id": "bundle-0071",
+      "materials": [
+        "mat-87f3fe10a370584eb4646c14",
+        "mat-884fee5ddfe0650901372d22",
+        "mat-8a48867b054745b925a756d8",
+        "mat-8c2ca46a73b667736256a28e",
+        "mat-8cebed1afb08952606258acb",
+        "mat-8e0a13aa5202b6174897cfdd",
+        "mat-8e93afa6ac672c1ed8e2d249",
+        "mat-8ec1eeab08d4dbb8c1e8c42d",
+        "mat-8fe3ad70d379ba0d03c6310e",
+        "mat-906d71fe6716d0d502307a9d",
+        "mat-91adcc100f3e6f48689afb78",
+        "mat-924a2adffc53be6a0e02bae6",
+        "mat-925c9075184a797f473ee877",
+        "mat-934db0e35a46f5b1a13797c4",
+        "mat-94352d5897d05a1048db8d1c",
+        "mat-955cf039d967d5c4bb060c29",
+        "mat-98fe63a124a6d0b37522d40e",
+        "mat-9a4d1065b345a7ca0c4fbd72",
+        "mat-9aeeb0c53eef1f388659b05c",
+        "mat-9af7610f2e507ec0c94747c1",
+        "mat-9b03f5879172f928af35f4ce",
+        "mat-9ea01c06a2c6fac53e4dc99c",
+        "mat-9ecb0ce9b24798c63108048f",
+        "mat-9f58d0945a284f266d990cfd",
+        "mat-9f94abcd54d465b827f38e1e",
+        "mat-9faed6a0dc52248cdc31708e",
+        "mat-a073f63c9062e479cab38fda",
+        "mat-a0ed8c80fecf32ee3a6dad33",
+        "mat-a1320162d365dcf0e4ae9857",
+        "mat-a1e6f0cb39e71188f0722207",
+        "mat-a2251fb6fd2f534f27e08a20",
+        "mat-f286b5e723cab306768e836d"
+      ],
+      "names": [
+        "TM_DecalObstacleTube_asset",
+        "TM_Experimental_Effects_CollisionConcrete_asset",
+        "TM_Experimental_Effects_CollisionPavementStair_asset",
+        "TM_Experimental_Effects_CollisionTechArrow_asset",
+        "TM_Experimental_Effects_CollisionTechHook_asset",
+        "TM_Experimental_Effects_CollisionTurboPlayer_asset",
+        "TM_Experimental_Effects_CollisionWallJump_asset",
+        "TM_Experimental_Effects_LightTrail_Particle_asset",
+        "TM_Experimental_Garage_Garage_TDiff_asset",
+        "TM_Experimental_Menu_UIBgBottomMultiRace_asset",
+        "TM_Experimental_Techno3_Dyna0_TI_AddModCV_asset",
+        "TM_Experimental_Techno3_Tech3_Block_Ice_TcTrans_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PxzDiff_Spec_Norm_X2_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PyPxz_Hue_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDSN_DecalMod_TestOp_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDiffABlend_SpecNorm_CubeOut_asset",
+        "TM_Experimental_Techno3_Tech3_CarSkelDmg_Shield_asset",
+        "TM_Experimental_Techno3_Tech3_DynaFacing_ForceNMap_CubeOut_TestOp_asset",
+        "TM_Experimental_Techno3_Tech3_Dyna_SphereShield_asset",
+        "TM_Experimental_Techno3_Tech3_EditorHelpers_asset",
+        "TM_Experimental_Techno3_Tech3_GrassFence_VDepLight_asset",
+        "TM_Experimental_Techno3_Tech3_Stars_asset",
+        "TM_Experimental_Vehicles_ParticleSmokeDirtHovering_asset",
+        "TM_Experimental_Vehicles_WheelMarksDirt_asset",
+        "TM_Invisible_Wood_asset",
+        "TM_ItemSupportConnector_asset",
+        "TM_NoSteering_TriggerFX_asset",
+        "TM_PodiumSelfIllum_asset",
+        "TM_Stadium_DecalSpecialMarks_asset",
+        "TM_Stadium_TechnicsStepLow_asset",
+        "TM_TechnicsStep_asset",
+        "TM_Turbo2_TriggerFX_asset"
+      ],
+      "raw_texture_bytes": 6881322
+    },
+    {
+      "id": "bundle-0072",
+      "materials": [
+        "mat-8af0551cdba850595a2d1630"
+      ],
+      "names": [
+        "TM_CustomSnow_asset"
+      ],
+      "raw_texture_bytes": 5593018
+    },
+    {
+      "id": "bundle-0073",
+      "materials": [
+        "mat-908f97d9d70602e25efaeb18"
+      ],
+      "names": [
+        "TM_Waterground_asset"
+      ],
+      "raw_texture_bytes": 11185282
+    },
+    {
+      "id": "bundle-0074",
+      "materials": [
+        "mat-9f0ad09a354fe449c299310d"
+      ],
+      "names": [
+        "TM_TechnicsSpecials_asset"
+      ],
+      "raw_texture_bytes": 13981464
+    },
+    {
+      "id": "bundle-0075",
+      "materials": [
+        "mat-a12aaf4fc80e5ec5bff80665"
+      ],
+      "names": [
+        "TM_Technics_asset"
+      ],
+      "raw_texture_bytes": 19574024
+    },
+    {
+      "id": "bundle-0076",
+      "materials": [
+        "mat-a29c03d9d01295935b730d34",
+        "mat-a2b19639e4821b459091a57f",
+        "mat-a30c904d117ca58cf9d348a5",
+        "mat-a48e6a77237776e9fed13bb8",
+        "mat-a4ad6580f7bb1cbc3b6fbb77",
+        "mat-a5c4594d94243225ef50192d",
+        "mat-a61a360dd97cc9808b99bad0",
+        "mat-a6d69b6a6d9979697ae7f1b5",
+        "mat-a75f3c16a1eee0cfd100ae89",
+        "mat-a83d8defe4580ca75af32032",
+        "mat-a956d6b9d721b97daba0a8a3",
+        "mat-a9aad310419f80c3fe628d9a",
+        "mat-a9d20605540a96706cb90988",
+        "mat-aa141ff294e6fe4aff23e270",
+        "mat-ab0f1cfe572dbd889f6695b2",
+        "mat-ac0cf6be2d405b9c9e0dcedc",
+        "mat-ac646f61dba54958078df2fd",
+        "mat-acd24b2a4dcf326ac0b5583c",
+        "mat-aee6f7979c100b50b732c3fd",
+        "mat-afa61e694ed48082eeb7da10",
+        "mat-b0030b526991dc42b4ad9bfc",
+        "mat-b2f191f336315916b1744291",
+        "mat-b3628d82178eb1fd4a9b9fb7",
+        "mat-b458a2d79c7cdfc883ce3942",
+        "mat-b4832f8a71189d7374a9a021",
+        "mat-b5eeed0d3e70c4ae4706f746",
+        "mat-b6acb110a9c1b0c8cafaa3cd",
+        "mat-ba954bba8ddb121535060df7",
+        "mat-baa0be4caa605489448b28a8",
+        "mat-bb6dd07eb2930fb1be663253",
+        "mat-bbeb5c81fddde654c15c0578",
+        "mat-fb73f700c8f7d1eea7014e06"
+      ],
+      "names": [
+        "TM_CustomModDecal_asset",
+        "TM_CustomModSelfIllumSimple_asset",
+        "TM_CustomModSelfIllum_asset",
+        "TM_Experimental_Effects_CollisionPavement_asset",
+        "TM_Experimental_Effects_CollisionTurboDirt_asset",
+        "TM_Experimental_Effects_CollisionTurboPlastic_asset",
+        "TM_Experimental_Effects_CollisionTurboRoadIce_asset",
+        "TM_Experimental_Menu_Icons64x64_2_asset",
+        "TM_Experimental_Menu_SMIconsColorizable_asset",
+        "TM_Experimental_Techno3_BodyAnimSkel_ActionMakerOtherFrames_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PyDiffSpecNormSwitch_PyGrassX2_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TAddModCV_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDSN_CubeOut_DispIn_Parallax_1d9cacf1_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDiff_Spec_Norm_Switch_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TSelfI_TxDiffA_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TreeSprite_asset",
+        "TM_Experimental_Techno3_Tech3_BodyAnimSkel_Aniso_asset",
+        "TM_Experimental_Techno3_Tech3_BodyAnimSkel_ShowEnergy_asset",
+        "TM_Experimental_Techno3_Tech3_BodyAnimSkel_TDOpSNEM_asset",
+        "TM_Experimental_Techno3_Tech3_BodyAnimSkel_Transp_asset",
+        "TM_Experimental_Techno3_Tech3_CarGems_asset",
+        "TM_Experimental_Techno3_Tech3_Decal_SpriteMacro_asset",
+        "TM_Experimental_Techno3_Tech3_Dyna_TAdd_asset",
+        "TM_Experimental_Techno3_Tech3_Sky_asset",
+        "TM_Experimental_Techno3_VehicleTeleport_asset",
+        "TM_Experimental_Vehicles_WheelMarksAsphalt_asset",
+        "TM_GateGameplaySnow_Decal_asset",
+        "TM_ItemSupportTube_asset",
+        "TM_LightSpot2_asset",
+        "TM_NoBrake_SpecialFX_asset",
+        "TM_Reset_SpecialFX_asset",
+        "TM_Reset_TriggerFX_asset"
+      ],
+      "raw_texture_bytes": 6165648
+    },
+    {
+      "id": "bundle-0077",
+      "materials": [
+        "mat-b9350027d68c8060e5bd1247"
+      ],
+      "names": [
+        "TM_WarpCeiling_WithLightmap_asset"
+      ],
+      "raw_texture_bytes": 11185248
+    },
+    {
+      "id": "bundle-0078",
+      "materials": [
+        "mat-b9c076da60d266b78b6bb0af"
+      ],
+      "names": [
+        "TM_LightShape_asset"
+      ],
+      "raw_texture_bytes": 5593280
+    },
+    {
+      "id": "bundle-0079",
+      "materials": [
+        "mat-bc2cd1a6ac07c3131e96e6f3",
+        "mat-bc2e2540ec080c80492b1289",
+        "mat-bc77dcab95f5918e9cacd00e",
+        "mat-bf176c213f301eaa2f35ecf0",
+        "mat-bf66cd34cb239988dd374822",
+        "mat-bf95081cc3d6f13dd6a68d81",
+        "mat-c0859bfcc171bb63b8514e11",
+        "mat-c092789df97e8cab7304a5d9",
+        "mat-c1a3afcbb5e2b1589cb6d8c9",
+        "mat-c2249d8fad6173f3ba8a9936",
+        "mat-c398b89b172d9f9b76764d4d",
+        "mat-c59646b50d29b9984a91182e",
+        "mat-c59ccbce352319922c8674d4",
+        "mat-c60cb30e6a66c64c28d8896c",
+        "mat-c621c9f1a4ec0b5828abf9b4",
+        "mat-c6586c06d3e8127119910857",
+        "mat-c751dcea6d019f81b2fa3316",
+        "mat-c78059681681b5f7309140f5",
+        "mat-c8625b910a613e1ca739bb44",
+        "mat-c8c2e14b0da041ff18a8c9fc",
+        "mat-ca713dfe822eb3a9f9a2e397",
+        "mat-cb00c9a96e64bfc6bab0633c",
+        "mat-cbe0f2e014a15364768c3240",
+        "mat-cce048f3d8733e2b137820e4",
+        "mat-cd9b0ff2686990ee673f3cdc",
+        "mat-cdcc85c1aedb017dd9164e22",
+        "mat-cdfdeb1f7ca4368b97227269",
+        "mat-ce6b70a2cece004655a6b979",
+        "mat-cea1bc5db7e62ac898b48bdc",
+        "mat-ceb2af5717ac18f02536f0ec",
+        "mat-cedf76afc33bf8711289a679",
+        "mat-cf48be13169919ab6f905360"
+      ],
+      "names": [
+        "TM_Boost2_SpecialFX_asset",
+        "TM_Boost_SpecialFX_asset",
+        "TM_Experimental_Effects_CollisionDirtRoad_asset",
+        "TM_Experimental_Effects_CollisionTechGravityChange_asset",
+        "TM_Experimental_Effects_CollisionTechHook2_asset",
+        "TM_Experimental_Effects_CollisionTechMagneticAccel_asset",
+        "TM_Experimental_Engines_FillColor_ShowInvalid_asset",
+        "TM_Experimental_Garage_Garage_TSelfI_asset",
+        "TM_Experimental_Menu_BackgroundLayerBlur_asset",
+        "TM_Experimental_Menu_BgsButtons_asset",
+        "TM_Experimental_Menu_EditorMeshButtons_asset",
+        "TM_Experimental_Menu_Hud3dEchelons_asset",
+        "TM_Experimental_Menu_IconsSystem_asset",
+        "TM_Experimental_Menu_ScriptEditorFocusAreaFocused_asset",
+        "TM_Experimental_Menu_UICommon64_2_asset",
+        "TM_Experimental_Techno3_BodyAnimSkel_DiffuseTransp_Specular_asset",
+        "TM_Experimental_Techno3_CharAnimSkel_Part_asset",
+        "TM_Experimental_Techno3_Static_TDSNI_asset",
+        "TM_Experimental_Techno3_Tech3_Block_DecalGeom_TOp_PyDNS_X2H2_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PyPxzDiff_Spec_Norm_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDSNM_CubeOut_CubeIn_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDSN_CubeOut_DispIn_43c1d96c_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDSN_CubeOut_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TSelfI_TDiffA_asset",
+        "TM_Experimental_Techno3_Tech3_DeclSprite_asset",
+        "TM_Experimental_Techno3_Tech3_Dyna0_TDSNI_asset",
+        "TM_Invisible_Plastic_asset",
+        "TM_Invisible_Snow_asset",
+        "TM_ScreenBack_asset",
+        "TM_SpecialFXGateGameplay_asset",
+        "TM_SpecialFXTurbo_asset",
+        "TM_Stadium_ThemeDesertBarrier_asset"
+      ],
+      "raw_texture_bytes": 7831277
+    },
+    {
+      "id": "bundle-0080",
+      "materials": [
+        "mat-bf04f9c62353a00ada1af9e3"
+      ],
+      "names": [
+        "TM_GreenCoast_Trees2_asset"
+      ],
+      "raw_texture_bytes": 24467224
+    },
+    {
+      "id": "bundle-0081",
+      "materials": [
+        "mat-c33b0e7f803c642286a7caab",
+        "mat-c983bc87546ba874484defe7"
+      ],
+      "names": [
+        "TM_PlatformIce_DecoCliff_asset",
+        "TM_PlatformIce_TrackWall_asset"
+      ],
+      "raw_texture_bytes": 44739714
+    },
+    {
+      "id": "bundle-0082",
+      "materials": [
+        "mat-c8e3d620b1d3896456131d0b"
+      ],
+      "names": [
+        "TM_CustomGrass_asset"
+      ],
+      "raw_texture_bytes": 5593018
+    },
+    {
+      "id": "bundle-0083",
+      "materials": [
+        "mat-c9a7388893ee2856abcedc5b"
+      ],
+      "names": [
+        "TM_PlatformTech_asset"
+      ],
+      "raw_texture_bytes": 44739680
+    },
+    {
+      "id": "bundle-0084",
+      "materials": [
+        "mat-c9e082beda504416d8fb91f2"
+      ],
+      "names": [
+        "TM_GreenCoast_Cliff_asset"
+      ],
+      "raw_texture_bytes": 47547424
+    },
+    {
+      "id": "bundle-0085",
+      "materials": [
+        "mat-cf098b92d7579ce248d23739"
+      ],
+      "names": [
+        "TM_RoadTech_asset"
+      ],
+      "raw_texture_bytes": 45439216
+    },
+    {
+      "id": "bundle-0086",
+      "materials": [
+        "mat-cf89869e4b1e22373b34fad4",
+        "mat-d1860de01b8bb91607cb247d",
+        "mat-d1c7a7a5e6365fc04dd59e0c",
+        "mat-d251548219893b26556bdfaf",
+        "mat-d29495a4ae41b2ec26c21a52",
+        "mat-d2b756948d3015ec7d9d92a2",
+        "mat-d3716e0f848b6c05efc9973f",
+        "mat-d398fb994b2d54dbb9699be3",
+        "mat-d3cb18cced013005dfc95f84",
+        "mat-d3f7dfa7bcb4bfec51e50323",
+        "mat-d40ca0d3c505992decdf1ee6",
+        "mat-d5b7195c12753633b6db189a",
+        "mat-d6160160614835bce3c96734",
+        "mat-d72dbb0b0da6709f6dc01855",
+        "mat-d7ef3e1909e5a3e9d9078b2b",
+        "mat-d7fe00f5cf128737b6de655f",
+        "mat-da66c251c5451326f18f110c",
+        "mat-db2bed9fad0ae2b39e4fee22",
+        "mat-dc6cd698ae26e5d4c7807c7b",
+        "mat-ddf77ef84a3e976da6fd2c8a",
+        "mat-df254d057772ee4256c9036a",
+        "mat-df2f6edf2bcbd55529682080",
+        "mat-e017d6d8e8fef5a6d9e7f03e",
+        "mat-e02e87ed720ccbc0a6fcaddc",
+        "mat-e23215c6dcdddcb0e56f69ca",
+        "mat-e24cec4506b0f4437b611473",
+        "mat-e2a3d8f56628b3cee711a6cc",
+        "mat-e2a54396add755581ce6eb2d",
+        "mat-e324a4ce24a48c50b6e96ee5",
+        "mat-e3bc2b73f90ef64995cf4067",
+        "mat-e518f31e972582f1246c68a6",
+        "mat-e56e0d229ec566f6af2bee79"
+      ],
+      "names": [
+        "TM_Cruise_SpecialFX_asset",
+        "TM_CustomModAddSelfIllum2_asset",
+        "TM_DecalGateGameplay_asset",
+        "TM_Experimental_Effects_CollisionFreeWheelingTechMagnetic_asset",
+        "TM_Experimental_Effects_CollisionFreeWheeling_asset",
+        "TM_Experimental_Effects_CollisionGrass_asset",
+        "TM_Experimental_Effects_CollisionStone_asset",
+        "TM_Experimental_Effects_Invisible_asset",
+        "TM_Experimental_Menu_BgMainMenuTitleHeader_asset",
+        "TM_Experimental_Menu_MeshModelerIcons_asset",
+        "TM_Experimental_Menu_UIBgCard_asset",
+        "TM_Experimental_ShootMania_Rope_asset",
+        "TM_Experimental_Techno3_Static_TDOSN_asset",
+        "TM_Experimental_Techno3_Static_TDSN_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PxzTDiff_Spec_Norm_X2_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PyPxzDiff_Spec_Norm_LM1_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDSNI_CubeOut_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDSN_CubeOut_DecalMod_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDiffA_SpecNorm_CubeOut_asset",
+        "TM_Experimental_Techno3_Tech3_Block_WaterWall_asset",
+        "TM_Experimental_Techno3_Tech3_CarSkelDmg_Teleport_asset",
+        "TM_Experimental_Techno3_Tech3_SpriteAdd_asset",
+        "TM_Experimental_Techno3_Tech3_Warp_PyaPxzDiff_asset",
+        "TM_Experimental_Vehicles_ParticleExhaustCenter_asset",
+        "TM_Fragile_TriggerFX_asset",
+        "TM_GateGameplayDesert_Decal_asset",
+        "TM_Invisible_RoadIce_asset",
+        "TM_ItemBorder_asset",
+        "TM_ItemSpectator_asset",
+        "TM_SlowMotion_TriggerFX_asset",
+        "TM_ThemeRallyBarrier_asset",
+        "TM_WarpSpotLightLogo_asset"
+      ],
+      "raw_texture_bytes": 4729488
+    },
+    {
+      "id": "bundle-0087",
+      "materials": [
+        "mat-d133ac414357036a768f9d59"
+      ],
+      "names": [
+        "TM_ThemeSnowTempleDetails_asset"
+      ],
+      "raw_texture_bytes": 4894072
+    },
+    {
+      "id": "bundle-0088",
+      "materials": [
+        "mat-d24c894b6118b11f1798f90d"
+      ],
+      "names": [
+        "TM_GreenCoast_TreeBranch_asset"
+      ],
+      "raw_texture_bytes": 13981464
+    },
+    {
+      "id": "bundle-0089",
+      "materials": [
+        "mat-d2827fc9434341f74a17d6ea"
+      ],
+      "names": [
+        "TM_GreenCoast_Lake_asset"
+      ],
+      "raw_texture_bytes": 47547424
+    },
+    {
+      "id": "bundle-0090",
+      "materials": [
+        "mat-d9c96536b6cff8535c720bad"
+      ],
+      "names": [
+        "TM_TrackWallClips_asset"
+      ],
+      "raw_texture_bytes": 57322920
+    },
+    {
+      "id": "bundle-0091",
+      "materials": [
+        "mat-e08d57b05c71fd3e728b6f05"
+      ],
+      "names": [
+        "TM_RedIsland_Cliff3_asset"
+      ],
+      "raw_texture_bytes": 78305808
+    },
+    {
+      "id": "bundle-0092",
+      "materials": [
+        "mat-e178108d05231d4bf65a207a"
+      ],
+      "names": [
+        "TM_DecalMarks_asset"
+      ],
+      "raw_texture_bytes": 13981544
+    },
+    {
+      "id": "bundle-0093",
+      "materials": [
+        "mat-e6271b3c45e2660486604aca",
+        "mat-e68f1072379ded00a098e88a",
+        "mat-e6d0e9c7aa6057743d0909a6",
+        "mat-e75547f2f30020a52c04de5d",
+        "mat-e7770bf5e01d8455b6e26817",
+        "mat-e7b92375d141d995bd9be0ac",
+        "mat-e7f0350d8e662a18e8c5257d",
+        "mat-e8168401577f2fc7a7eb65e5",
+        "mat-e846ecfc39e5e0876248c426",
+        "mat-e90e7bbd0e4ea2de9799dbef",
+        "mat-e93a1000ad56bf7149c18560",
+        "mat-ea7acf9c76db466acecb5ec2",
+        "mat-eaaa34b47e0682ea9e3bd841",
+        "mat-eb35f26b546176524829874a",
+        "mat-eb4b5805ffc05d1446f9db37",
+        "mat-eb9ced1d8fc7b83f46fe7f0b",
+        "mat-ec5b7d28f6bf50bf8f9d3b79",
+        "mat-ec9e4c89b57a92b7b4748f1a",
+        "mat-eceee48cce9bf8630c503be0",
+        "mat-ed10bca128241d0dd1ec8200",
+        "mat-ed67eb7804d3091f4ad0ffd8",
+        "mat-ef77193b4f99f483a8ef3d80",
+        "mat-f1a59f0ecc7d87bdb054f62b",
+        "mat-f1ce083f8f7912829e08e8b7",
+        "mat-f1efd9d08867869fa5017da3",
+        "mat-f246ec6e6373af2c0fc3f8e8",
+        "mat-f3b5def17c522104c707cbf5",
+        "mat-f4595de516c8ccfaea440061",
+        "mat-f534158696cc2d5edd3e4a25",
+        "mat-f5456b464a0c0b4bf23f4948",
+        "mat-f5f9d6ede23531a44fe3f9c1",
+        "mat-f64b68793a96493bb7c3d6f6"
+      ],
+      "names": [
+        "TM_CanopyStructure_asset",
+        "TM_CustomModSelfIllum2_asset",
+        "TM_DecalMarksStart_asset",
+        "TM_Experimental_Clouds_CloudsTech3_asset",
+        "TM_Experimental_Effects_CollisionTechArmor_asset",
+        "TM_Experimental_Effects_CollisionTechNucleus_asset",
+        "TM_Experimental_Effects_CollisionTechSuperMagnetic_asset",
+        "TM_Experimental_Effects_CollisionTechTeleport_asset",
+        "TM_Experimental_Effects_CollisionTurboGrass_asset",
+        "TM_Experimental_Effects_CollisionWood_asset",
+        "TM_Experimental_Menu_BackgroundLayerBlurSimple_asset",
+        "TM_Experimental_Menu_BgsChallengeMedals_asset",
+        "TM_Experimental_Menu_ManiaPlanetMainMenu_asset",
+        "TM_Experimental_Menu_MenuBox3dLight_asset",
+        "TM_Experimental_PainterTech_Paint_ModulateLayer_asset",
+        "TM_Experimental_Techno3_Block_TDSN_asset",
+        "TM_Experimental_Techno3_BodyAnimSkel_DiffuseTransp_Specular_Normal_asset",
+        "TM_Experimental_Techno3_Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2_asset",
+        "TM_Experimental_Techno3_Tech3_Block_PyPxzTDiffSpecNorm_PyX2Hx2_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDiffABlend_Spec_Norm_asset",
+        "TM_Experimental_Techno3_Tech3_FxHitShield_asset",
+        "TM_Experimental_Techno3_Tech3_TitleCover_asset",
+        "TM_Experimental_Techno3_VehicleGlassNoSkelDmg_asset",
+        "TM_Experimental_Techno3_VehicleShield_asset",
+        "TM_Experimental_Vehicles_Boost_Turbo2_asset",
+        "TM_Experimental_Vehicles_Boost_TurboRoulette2_asset",
+        "TM_Experimental_Vehicles_Boost_TurboRoulette3_asset",
+        "TM_Experimental_Vehicles_ExhaustFlame2_asset",
+        "TM_Invisible_Ice_asset",
+        "TM_ItemRamp_asset",
+        "TM_SlowMotion_SpecialFX_asset",
+        "TM_TriggerFXGateGameplay_asset"
+      ],
+      "raw_texture_bytes": 8012581
+    },
+    {
+      "id": "bundle-0094",
+      "materials": [
+        "mat-f637d0c62ca0169624b39f1c",
+        "mat-fa39462bb4c97b817edcd5d3"
+      ],
+      "names": [
+        "TM_TechnicsTrimsColorize_asset",
+        "TM_TechnicsTrims_asset"
+      ],
+      "raw_texture_bytes": 78294280
+    },
+    {
+      "id": "bundle-0095",
+      "materials": [
+        "mat-f70b3d8cc4e94a624c33d255"
+      ],
+      "names": [
+        "TM_BlueBay_Sand_asset"
+      ],
+      "raw_texture_bytes": 47547424
+    },
+    {
+      "id": "bundle-0096",
+      "materials": [
+        "mat-f726462a07dbdf274ae4bf20",
+        "mat-f74bc97d568d35d477c82ee9",
+        "mat-f80692dda15be286f321f21d",
+        "mat-f859f1fe5c97285e14ad7e08",
+        "mat-f8a1be4c73d15608a8f0d498",
+        "mat-f8cffcfb3c1d8d894f1997a4",
+        "mat-f9432878cab3f7862164ece6",
+        "mat-f9aaa4825b13b8a2c1c95801",
+        "mat-fa73feba3d3357ad7bfcce64",
+        "mat-fa95504767131ef5da552659",
+        "mat-fa992af6541b44989e852728",
+        "mat-fb68d244226687ff3d087713",
+        "mat-fbe80260733bb0f3081ddec2",
+        "mat-fbfa47855e06e613b11a99fd",
+        "mat-fcb47d6fa92d36a7675d16d8",
+        "mat-fd8b2f4785022cb14a137d4b",
+        "mat-ff06bf74f42f883f7736e955",
+        "mat-ff3aa8417fe94e61b37f3816"
+      ],
+      "names": [
+        "TM_Canopy_asset",
+        "TM_CustomSand_asset",
+        "TM_Experimental_Menu_BlendTextureSuperSample_asset",
+        "TM_Experimental_Menu_EditorButtonsSimple_asset",
+        "TM_Experimental_PainterTech_FillColor_asset",
+        "TM_Experimental_Sky_SkyDay_asset",
+        "TM_Experimental_Techno3_BodyAnimSkel_Energy_asset",
+        "TM_Experimental_Techno3_Dyna0_TI_asset",
+        "TM_Experimental_Techno3_Tech3_Block_TDiffA_Spec_Norm_asset",
+        "TM_Experimental_Techno3_Tech3_BodyParticule_asset",
+        "TM_Experimental_Techno3_Tech3_Dyna1_TDSNI_asset",
+        "TM_Experimental_Vehicles_Tech3_CommonCarGlass_asset",
+        "TM_Experimental_Vehicles_Tech3_ParticleGlass_asset",
+        "TM_Invisible_Sand_asset",
+        "TM_Invisible_TechMagneticAccel_asset",
+        "TM_Invisible_TechSuperMagnetic_asset",
+        "TM_ItemSpectatorLow_asset",
+        "TM_ThemeSnowTempleTransparent_asset"
+      ],
+      "raw_texture_bytes": 8654667
+    },
+    {
+      "id": "bundle-0097",
+      "materials": [
+        "mat-fb06ee90c06b58836fc1daee"
+      ],
+      "names": [
+        "TM_Structure_asset"
+      ],
+      "raw_texture_bytes": 11185420
+    },
+    {
+      "id": "bundle-0098",
+      "materials": [
+        "mat-fb83ca9d633a178ef344a9b5"
+      ],
+      "names": [
+        "TM_Experimental_Menu_SMVersusColorizable_asset"
+      ],
+      "raw_texture_bytes": 8388737
+    }
+  ]
+}
