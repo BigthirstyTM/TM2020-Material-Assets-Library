@@ -1,6 +1,16 @@
 # Material thumbnail styles
 
-The current source uses `2026.11.25-thumbnail-aspect-3`, incorporating `2026.11.25-thumbnail-families-2` and `2026.11.25-readable-thumbnails-1`. Both published full ZIP editions now contain `2026.11.25-thumbnail-aspect-3`, matching the current installed source.
+The newest local source uses `2026.11.26-terrain-icons-c-1` for 37 layered terrain thumbnails. The full ZIPs remain `2026.11.26-shader-followup-1`; the remote extension pilot is unchanged. The other icon styles retain the preceding aspect/family/readability refinements.
+
+## Approved terrain C layout
+
+The 37 terrain previews with native foliage dataset entries use a 24 x 24 x 22 block, a separate base-diffuse inset and a real soft shadow on a neutral ground plane. This is the approved **C proposal for terrain**, distinct from the existing **Custom sphere** category. The block's top remains at the previous world height so extending the sides does not move it closer to the lights. The original key/fill/environment setup is retained, with a weak additional front light to reveal the shaded faces.
+
+The inset identifies the recorded source diffuse/selected top texture. Square images fill it; rectangular images fit without stretching. It does not represent the final PBR stack, macro modulation or every projected side layer. The source shader still renders on the block. The foliage cards are representative preview geometry, not generated vegetation on exported objects.
+
+PNG render bytes are read without applying a second sRGB conversion. Existing badge pixels are preserved exactly. Actual shader graphs, native links, asset identities, catalogs and MaterialLib remain unchanged. The other 61 individual vegetation cutout thumbnails and all general, Custom, animation-label and symbolic icons retain their existing artwork.
+
+Reproduce with `tools/apply_terrain_c_thumbnails.py`, `data/terrain-thumbnail-sources.json`, the installed library and `--sprite-directory` pointing to the hash-checked source atlas directory. Native atlas/model/dataset/crop provenance is recorded in the input recipe. No atlas bytes or helper geometry are added to the installed material library.
 
 | Style | Materials | Preview |
 | --- | --- | --- |
@@ -51,7 +61,7 @@ Thirteen non-Mod, non-glass Custom materials remain spheres. Their temporary UV,
 
 ## Vegetation on the tile
 
-37 terrain previews use the sprite entries identified in their native foliage datasets and source atlases. Another 61 individual vegetation cutout previews use their own diffuse-alpha image on standing cards. These 98 previews are unchanged by this update. Placement, scale and density are representative thumbnail geometry; dragging a material does not generate plants or reconstruct a complete tree.
+37 terrain previews use the sprite entries identified in their native foliage datasets and source atlases. Another 61 individual vegetation cutout previews use their own diffuse-alpha image on standing cards. The 37 terrain entries receive the terrain C layout above; the 61 individual cutout previews retain their existing artwork. Placement, scale and density are representative thumbnail geometry; dragging a material does not generate plants or reconstruct a complete tree.
 
 ## Preservation and limits
 

@@ -1,5 +1,7 @@
 # Updated material previews
 
+Local thumbnail revision `2026.11.26-terrain-icons-c-1` updates 37 layered terrain icons with the approved higher-block, diffuse-inset and soft-shadow layout. Material graphs, native bindings and badge pixels are unchanged. See [thumbnail styles](THUMBNAIL-STYLES.md). This local icon update is not yet in the full ZIPs or remote pilot.
+
 Published full-package revision `2026.11.26-shader-followup-1` updates 555 unique graphs across five shader-informed groups. See [UV/grass/display depth/terrain/colour controls and limits](SHADER-FOLLOWUP.md) and the [complete per-group material list](SHADER-FOLLOWUP-MATERIALS.md). Native export identities, badges and thumbnail artwork are preserved. Both ZIP editions include these changes; the remote pilot remains unchanged.
 
 The included Dyna revision `2026.11.26-dyna-preview-1` adds [Dyna source analysis and preview corrections](DYNA-MATERIALS.md). Six material graphs were corrected; three related WarpDetails entries received source-provenance metadata. These Dyna changes are included in the current ZIPs; the remote pilot remains unchanged.

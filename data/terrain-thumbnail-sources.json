@@ -1,0 +1,2065 @@
+{
+  "revision": "2026.11.26-terrain-icons-c-1",
+  "targets": [
+    {
+      "name": "TM_BlueBay_Deco_asset",
+      "id": "mat-3dc82eb19f2801a98372f02f",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/BlueBay/Land_D.dds",
+        "role": "existing diffuse node"
+      },
+      "sprites": [
+        {
+          "path": "BlueBay-A244A2BCA7D7FD056982DC04F825C664BB.dds",
+          "atlas": "BlueBay/Media/Texture/Decals3D_D.Texture.gbx",
+          "model": "BlueBay/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "sha256": "38d7fe60de1d3c370b8d18e1197d06af1f29a40e95465bcb289cd295cb25f77f"
+        },
+        {
+          "path": "BlueBay-A244A2BCA7D7FD056982DC04F825C664BB.dds",
+          "atlas": "BlueBay/Media/Texture/Decals3D_D.Texture.gbx",
+          "model": "BlueBay/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "sha256": "38d7fe60de1d3c370b8d18e1197d06af1f29a40e95465bcb289cd295cb25f77f"
+        }
+      ]
+    },
+    {
+      "name": "TM_BlueBay_DecoHill2_asset",
+      "id": "mat-148e25accfdd17bd415547ec",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/BlueBay/Land_D.dds",
+        "role": "existing diffuse node"
+      },
+      "sprites": [
+        {
+          "path": "BlueBay-A244A2BCA7D7FD056982DC04F825C664BB.dds",
+          "atlas": "BlueBay/Media/Texture/Decals3D_D.Texture.gbx",
+          "model": "BlueBay/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "sha256": "38d7fe60de1d3c370b8d18e1197d06af1f29a40e95465bcb289cd295cb25f77f"
+        },
+        {
+          "path": "BlueBay-A244A2BCA7D7FD056982DC04F825C664BB.dds",
+          "atlas": "BlueBay/Media/Texture/Decals3D_D.Texture.gbx",
+          "model": "BlueBay/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "sha256": "38d7fe60de1d3c370b8d18e1197d06af1f29a40e95465bcb289cd295cb25f77f"
+        }
+      ]
+    },
+    {
+      "name": "TM_BlueBay_DecoHill_asset",
+      "id": "mat-de31948b3602a6c9f5009e0e",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/BlueBay/Land_D.dds",
+        "role": "existing diffuse node"
+      },
+      "sprites": [
+        {
+          "path": "BlueBay-A244A2BCA7D7FD056982DC04F825C664BB.dds",
+          "atlas": "BlueBay/Media/Texture/Decals3D_D.Texture.gbx",
+          "model": "BlueBay/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "sha256": "38d7fe60de1d3c370b8d18e1197d06af1f29a40e95465bcb289cd295cb25f77f"
+        },
+        {
+          "path": "BlueBay-A244A2BCA7D7FD056982DC04F825C664BB.dds",
+          "atlas": "BlueBay/Media/Texture/Decals3D_D.Texture.gbx",
+          "model": "BlueBay/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "sha256": "38d7fe60de1d3c370b8d18e1197d06af1f29a40e95465bcb289cd295cb25f77f"
+        }
+      ]
+    },
+    {
+      "name": "TM_BlueBay_Land_asset",
+      "id": "mat-181340f214106b325a8ea35c",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/BlueBay/Land_D.dds",
+        "role": "native top array selector",
+        "selector": "Land"
+      },
+      "sprites": [
+        {
+          "path": "BlueBay-A244A2BCA7D7FD056982DC04F825C664BB.dds",
+          "atlas": "BlueBay/Media/Texture/Decals3D_D.Texture.gbx",
+          "model": "BlueBay/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "sha256": "38d7fe60de1d3c370b8d18e1197d06af1f29a40e95465bcb289cd295cb25f77f"
+        },
+        {
+          "path": "BlueBay-A244A2BCA7D7FD056982DC04F825C664BB.dds",
+          "atlas": "BlueBay/Media/Texture/Decals3D_D.Texture.gbx",
+          "model": "BlueBay/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "sha256": "38d7fe60de1d3c370b8d18e1197d06af1f29a40e95465bcb289cd295cb25f77f"
+        }
+      ]
+    },
+    {
+      "name": "TM_BlueBay_TransitionRocksToLand_asset",
+      "id": "mat-ff9fde5b172be43a3e875531",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/BlueBay/TransitionRocks_D.dds",
+        "role": "TBaseColorOp",
+        "resource": "BlueBay\\Media\\Texture\\TransitionRocks_D.Texture.gbx"
+      },
+      "sprites": [
+        {
+          "path": "BlueBay-A244A2BCA7D7FD056982DC04F825C664BB.dds",
+          "atlas": "BlueBay/Media/Texture/Decals3D_D.Texture.gbx",
+          "model": "BlueBay/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "sha256": "38d7fe60de1d3c370b8d18e1197d06af1f29a40e95465bcb289cd295cb25f77f"
+        },
+        {
+          "path": "BlueBay-A244A2BCA7D7FD056982DC04F825C664BB.dds",
+          "atlas": "BlueBay/Media/Texture/Decals3D_D.Texture.gbx",
+          "model": "BlueBay/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "sha256": "38d7fe60de1d3c370b8d18e1197d06af1f29a40e95465bcb289cd295cb25f77f"
+        }
+      ]
+    },
+    {
+      "name": "TM_BlueBay_TransitionToLand_asset",
+      "id": "mat-8da978c212c94562d7083b30",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/BlueBay/Transition_D.dds",
+        "role": "TBaseColorOp",
+        "resource": "BlueBay\\Media\\Texture\\Transition_D.Texture.gbx"
+      },
+      "sprites": [
+        {
+          "path": "BlueBay-A244A2BCA7D7FD056982DC04F825C664BB.dds",
+          "atlas": "BlueBay/Media/Texture/Decals3D_D.Texture.gbx",
+          "model": "BlueBay/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "sha256": "38d7fe60de1d3c370b8d18e1197d06af1f29a40e95465bcb289cd295cb25f77f"
+        },
+        {
+          "path": "BlueBay-A244A2BCA7D7FD056982DC04F825C664BB.dds",
+          "atlas": "BlueBay/Media/Texture/Decals3D_D.Texture.gbx",
+          "model": "BlueBay/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "BlueBay/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "BlueBay/Media/Texture/Image/Decals3D_D.dds",
+          "sha256": "38d7fe60de1d3c370b8d18e1197d06af1f29a40e95465bcb289cd295cb25f77f"
+        }
+      ]
+    },
+    {
+      "name": "TM_GreenCoast_CliffTransition2ToGrass_asset",
+      "id": "mat-92756f7faf9d351a0c3631f6",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/GreenCoast/CliffTransition2_D.dds",
+        "role": "TBaseColorOp",
+        "resource": "GreenCoast\\Media\\Texture\\CliffTransition2_D.Texture.gbx"
+      },
+      "sprites": [
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        },
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        }
+      ]
+    },
+    {
+      "name": "TM_GreenCoast_CliffTransitionToGrass_asset",
+      "id": "mat-e175b2586a2dc4191973299b",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/GreenCoast/CliffTransition_D.dds",
+        "role": "TBaseColorOp",
+        "resource": "GreenCoast\\Media\\Texture\\CliffTransition_D.Texture.gbx"
+      },
+      "sprites": [
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        },
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        }
+      ]
+    },
+    {
+      "name": "TM_GreenCoast_Deco_asset",
+      "id": "mat-604f6311d8e295da06d2db67",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/GreenCoast/Grass_D.dds",
+        "role": "native top array selector",
+        "selector": "Grass"
+      },
+      "sprites": [
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        },
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        }
+      ]
+    },
+    {
+      "name": "TM_GreenCoast_DecoHill2_asset",
+      "id": "mat-759680b85ec62fc093eccd10",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/GreenCoast/Grass_D.dds",
+        "role": "existing diffuse node"
+      },
+      "sprites": [
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        },
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        }
+      ]
+    },
+    {
+      "name": "TM_GreenCoast_DecoHill_asset",
+      "id": "mat-14b29775b1e024e6a7a2210b",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/GreenCoast/Grass_D.dds",
+        "role": "existing diffuse node"
+      },
+      "sprites": [
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        },
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        }
+      ]
+    },
+    {
+      "name": "TM_GreenCoast_Grass_asset",
+      "id": "mat-0e61f5bfb8d502482665a691",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/GreenCoast/Grass_D.dds",
+        "role": "native top array selector",
+        "selector": "Grass"
+      },
+      "sprites": [
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        },
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        }
+      ]
+    },
+    {
+      "name": "TM_GreenCoast_LakeShoreToGrass_asset",
+      "id": "mat-9d76b946e607dfa4cff5d21b",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/GreenCoast/LakeShore_D.dds",
+        "role": "TBaseColorOp",
+        "resource": "GreenCoast\\Media\\Texture\\LakeShore_D.Texture.gbx"
+      },
+      "sprites": [
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        },
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        }
+      ]
+    },
+    {
+      "name": "TM_GreenCoast_TrackWallInWorld_asset",
+      "id": "mat-e51cbd226b8ab0bcf83ff2c6",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/GreenCoast/Grass_D.dds",
+        "role": "existing diffuse node"
+      },
+      "sprites": [
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        },
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        }
+      ]
+    },
+    {
+      "name": "TM_GreenCoast_TransitionForestToGrass_asset",
+      "id": "mat-8ccaaeadbf8b5fe1a9cccc7a",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/GreenCoast/TransitionForest_D.dds",
+        "role": "TBaseColorOp",
+        "resource": "GreenCoast\\Media\\Texture\\TransitionForest_D.Texture.gbx"
+      },
+      "sprites": [
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        },
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        }
+      ]
+    },
+    {
+      "name": "TM_GreenCoast_TrunkToGrass_asset",
+      "id": "mat-f848d041e80822c6480934c3",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/GreenCoast/VegetOakBark_D.dds",
+        "role": "TBaseColor",
+        "resource": "GreenCoast\\Media\\Texture\\VegetOakBark_D.Texture.gbx"
+      },
+      "sprites": [
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/Grass3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassMed-A",
+            "U02": "Grass",
+            "U03": "64",
+            "U04": "64",
+            "U05": "12",
+            "U06": "33",
+            "U07": "3",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        },
+        {
+          "path": "GreenCoast-3390C0983F0EC082A53C1E40285292269E.dds",
+          "atlas": "GreenCoast/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "GreenCoast/Media/Decal/GrassSmall3D.Decal.Gbx",
+          "dataset": "GreenCoast/Media/Texture/Grass_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSmall-A",
+            "U02": "GrassSmall",
+            "U03": "64",
+            "U04": "64",
+            "U05": "0",
+            "U06": "37",
+            "U07": "1",
+            "U08": "3",
+            "U09": "0.5",
+            "U10": "0.1",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "GreenCoast/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "0dfeac9dbdb49d216047ec598dc2acb766c56ee2efbd95a347ddf0381a1afd98"
+        }
+      ]
+    },
+    {
+      "name": "TM_RedIsland_Deco_asset",
+      "id": "mat-1f979799a5f1558c9d2791a7",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/RedIsland/Dirt_D.dds",
+        "role": "native top array selector",
+        "selector": "Dirt"
+      },
+      "sprites": [
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        },
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        }
+      ]
+    },
+    {
+      "name": "TM_RedIsland_DecoHill2_asset",
+      "id": "mat-718ef8d273ef44ebb79d0c19",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/RedIsland/Dirt_D.dds",
+        "role": "existing diffuse node"
+      },
+      "sprites": [
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        },
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        }
+      ]
+    },
+    {
+      "name": "TM_RedIsland_DecoHill_asset",
+      "id": "mat-78cf2c81d6e25d05088d725d",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/RedIsland/Dirt_D.dds",
+        "role": "existing diffuse node"
+      },
+      "sprites": [
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        },
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        }
+      ]
+    },
+    {
+      "name": "TM_RedIsland_DetailsCliffToDirt_asset",
+      "id": "mat-8cb03483409f75268e5e96a8",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/RedIsland/DetailsCliff_D.dds",
+        "role": "TBaseColorOp",
+        "resource": "RedIsland\\Media\\Texture\\DetailsCliff_D.Texture.gbx"
+      },
+      "sprites": [
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        },
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        }
+      ]
+    },
+    {
+      "name": "TM_RedIsland_DetailsRocksToDirt_asset",
+      "id": "mat-3ea9e19e62f7f16aacb0f4a1",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/RedIsland/DetailsRocks_D.dds",
+        "role": "TBaseColorOp",
+        "resource": "RedIsland\\Media\\Texture\\DetailsRocks_D.Texture.gbx"
+      },
+      "sprites": [
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        },
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        }
+      ]
+    },
+    {
+      "name": "TM_RedIsland_DetailsToDirt_asset",
+      "id": "mat-15127e5bc13c99a89e472483",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/RedIsland/Details_D.dds",
+        "role": "TBaseColorOp",
+        "resource": "RedIsland\\Media\\Texture\\Details_D.Texture.gbx"
+      },
+      "sprites": [
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        },
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        }
+      ]
+    },
+    {
+      "name": "TM_RedIsland_DetailsVegetationToDirt_asset",
+      "id": "mat-8b0d928d2bfb69045f674d00",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/RedIsland/DetailsVegetation_D.dds",
+        "role": "TBaseColorOp",
+        "resource": "RedIsland\\Media\\Texture\\DetailsVegetation_D.Texture.gbx"
+      },
+      "sprites": [
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        },
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        }
+      ]
+    },
+    {
+      "name": "TM_RedIsland_Dirt_asset",
+      "id": "mat-1aa8713dc71b8bfe33af375d",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/RedIsland/Dirt_D.dds",
+        "role": "native top array selector",
+        "selector": "Dirt"
+      },
+      "sprites": [
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        },
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        }
+      ]
+    },
+    {
+      "name": "TM_RedIsland_DirtRocky_asset",
+      "id": "mat-f7353b6fc9601b9a0faeb4f8",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/RedIsland/DirtRocky_D.dds",
+        "role": "native top array selector",
+        "selector": "DirtRocky"
+      },
+      "sprites": [
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        },
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        }
+      ]
+    },
+    {
+      "name": "TM_RedIsland_RiverShoreToRiverSide_asset",
+      "id": "mat-bdb535aac26907769d9217a4",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/RedIsland/RiverShore_D.dds",
+        "role": "TBaseColorOp",
+        "resource": "RedIsland\\Media\\Texture\\RiverShore_D.Texture.gbx"
+      },
+      "sprites": [
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        },
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        }
+      ]
+    },
+    {
+      "name": "TM_RedIsland_RiverSide_asset",
+      "id": "mat-1483d1338352428180d943fe",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/RedIsland/RiverSidePy_D.dds",
+        "role": "native top array selector",
+        "selector": "RiverSidePy"
+      },
+      "sprites": [
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        },
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        }
+      ]
+    },
+    {
+      "name": "TM_RedIsland_RockToDirt_asset",
+      "id": "mat-9eeb08c0d24c2403fb338a94",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/RedIsland/Rock_D.dds",
+        "role": "TBaseColorOp",
+        "resource": "RedIsland\\Media\\Texture\\Rock_D.Texture.gbx"
+      },
+      "sprites": [
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        },
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        }
+      ]
+    },
+    {
+      "name": "TM_RedIsland_WaterGround_asset",
+      "id": "mat-4f98a544e1962cf62586819f",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/RedIsland/Dirt_D.dds",
+        "role": "existing diffuse node"
+      },
+      "sprites": [
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushDark3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushDark_A",
+            "U02": "BushDark",
+            "U03": "32",
+            "U04": "32",
+            "U05": "16",
+            "U06": "12",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        },
+        {
+          "path": "RedIsland-23776AF3B75DE5041DEAA13382F5D8D5D2.dds",
+          "atlas": "RedIsland/Media/Texture Decal/Decals3D_D.Texture.gbx",
+          "model": "RedIsland/Media/Decal/BushMed3D.Decal.Gbx",
+          "dataset": "RedIsland/Media/Texture/Dirt_D.Texture.gbx",
+          "entry": {
+            "U01": "BushMed_A",
+            "U02": "BushMed",
+            "U03": "32",
+            "U04": "32",
+            "U05": "12",
+            "U06": "16",
+            "U07": "4",
+            "U08": "4",
+            "U09": "0.5",
+            "U10": "0.5",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "RedIsland/Media/Texture Decal/Image/Decals3D_D.dds",
+          "sha256": "cd4084c35531d008c222791ca7cb51e4a799220331abf303438df8c0be7ca19d"
+        }
+      ]
+    },
+    {
+      "name": "TM_WhiteShore_Beach_asset",
+      "id": "mat-9d8c63b256c4d71c2692adc0",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/WhiteShore/Beach_D.dds",
+        "role": "native top array selector",
+        "selector": "Beach"
+      },
+      "sprites": [
+        {
+          "path": "WhiteShore-F269EAE55C12D7D24AE0B1D5421AC6B5F7.dds",
+          "atlas": "WhiteShore/Media/Texture/DecalGrass_D.Texture.gbx",
+          "model": "WhiteShore/Media/Decal/GrassSolo.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSolo-A",
+            "U02": "GrassSolo",
+            "U03": "32",
+            "U04": "4",
+            "U05": "22",
+            "U06": "0",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "sha256": "d9de76c8b9f5123b30b79edc96a171233ae894242af5e7e72b91416b70331a23"
+        },
+        {
+          "path": "WhiteShore-F269EAE55C12D7D24AE0B1D5421AC6B5F7.dds",
+          "atlas": "WhiteShore/Media/Texture/DecalGrass_D.Texture.gbx",
+          "model": "WhiteShore/Media/Decal/GrassLight.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassLight-A",
+            "U02": "GrassLight",
+            "U03": "8",
+            "U04": "4",
+            "U05": "0",
+            "U06": "1",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "sha256": "d9de76c8b9f5123b30b79edc96a171233ae894242af5e7e72b91416b70331a23"
+        }
+      ]
+    },
+    {
+      "name": "TM_WhiteShore_Deco_asset",
+      "id": "mat-03ccaf78884c1960dd436de0",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/WhiteShore/Beach_D.dds",
+        "role": "existing diffuse node"
+      },
+      "sprites": [
+        {
+          "path": "WhiteShore-F269EAE55C12D7D24AE0B1D5421AC6B5F7.dds",
+          "atlas": "WhiteShore/Media/Texture/DecalGrass_D.Texture.gbx",
+          "model": "WhiteShore/Media/Decal/GrassSolo.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSolo-A",
+            "U02": "GrassSolo",
+            "U03": "32",
+            "U04": "4",
+            "U05": "22",
+            "U06": "0",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "sha256": "d9de76c8b9f5123b30b79edc96a171233ae894242af5e7e72b91416b70331a23"
+        },
+        {
+          "path": "WhiteShore-F269EAE55C12D7D24AE0B1D5421AC6B5F7.dds",
+          "atlas": "WhiteShore/Media/Texture/DecalGrass_D.Texture.gbx",
+          "model": "WhiteShore/Media/Decal/GrassLight.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassLight-A",
+            "U02": "GrassLight",
+            "U03": "8",
+            "U04": "4",
+            "U05": "0",
+            "U06": "1",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "sha256": "d9de76c8b9f5123b30b79edc96a171233ae894242af5e7e72b91416b70331a23"
+        }
+      ]
+    },
+    {
+      "name": "TM_WhiteShore_DecoHill2_asset",
+      "id": "mat-361412743e146ce4a0d3d42e",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/WhiteShore/Beach_D.dds",
+        "role": "existing diffuse node"
+      },
+      "sprites": [
+        {
+          "path": "WhiteShore-F269EAE55C12D7D24AE0B1D5421AC6B5F7.dds",
+          "atlas": "WhiteShore/Media/Texture/DecalGrass_D.Texture.gbx",
+          "model": "WhiteShore/Media/Decal/GrassSolo.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSolo-A",
+            "U02": "GrassSolo",
+            "U03": "32",
+            "U04": "4",
+            "U05": "22",
+            "U06": "0",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "sha256": "d9de76c8b9f5123b30b79edc96a171233ae894242af5e7e72b91416b70331a23"
+        },
+        {
+          "path": "WhiteShore-F269EAE55C12D7D24AE0B1D5421AC6B5F7.dds",
+          "atlas": "WhiteShore/Media/Texture/DecalGrass_D.Texture.gbx",
+          "model": "WhiteShore/Media/Decal/GrassLight.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassLight-A",
+            "U02": "GrassLight",
+            "U03": "8",
+            "U04": "4",
+            "U05": "0",
+            "U06": "1",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "sha256": "d9de76c8b9f5123b30b79edc96a171233ae894242af5e7e72b91416b70331a23"
+        }
+      ]
+    },
+    {
+      "name": "TM_WhiteShore_DecoHill_asset",
+      "id": "mat-195364fcc5a910d706fb5501",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/WhiteShore/Beach_D.dds",
+        "role": "existing diffuse node"
+      },
+      "sprites": [
+        {
+          "path": "WhiteShore-F269EAE55C12D7D24AE0B1D5421AC6B5F7.dds",
+          "atlas": "WhiteShore/Media/Texture/DecalGrass_D.Texture.gbx",
+          "model": "WhiteShore/Media/Decal/GrassSolo.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSolo-A",
+            "U02": "GrassSolo",
+            "U03": "32",
+            "U04": "4",
+            "U05": "22",
+            "U06": "0",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "sha256": "d9de76c8b9f5123b30b79edc96a171233ae894242af5e7e72b91416b70331a23"
+        },
+        {
+          "path": "WhiteShore-F269EAE55C12D7D24AE0B1D5421AC6B5F7.dds",
+          "atlas": "WhiteShore/Media/Texture/DecalGrass_D.Texture.gbx",
+          "model": "WhiteShore/Media/Decal/GrassLight.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassLight-A",
+            "U02": "GrassLight",
+            "U03": "8",
+            "U04": "4",
+            "U05": "0",
+            "U06": "1",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "sha256": "d9de76c8b9f5123b30b79edc96a171233ae894242af5e7e72b91416b70331a23"
+        }
+      ]
+    },
+    {
+      "name": "TM_WhiteShore_Land_asset",
+      "id": "mat-39075ac2f245ea053e175fc9",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/WhiteShore/Land_D.dds",
+        "role": "native top array selector",
+        "selector": "Land"
+      },
+      "sprites": [
+        {
+          "path": "WhiteShore-F269EAE55C12D7D24AE0B1D5421AC6B5F7.dds",
+          "atlas": "WhiteShore/Media/Texture/DecalGrass_D.Texture.gbx",
+          "model": "WhiteShore/Media/Decal/GrassSolo.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSolo-A",
+            "U02": "GrassSolo",
+            "U03": "32",
+            "U04": "4",
+            "U05": "22",
+            "U06": "0",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "sha256": "d9de76c8b9f5123b30b79edc96a171233ae894242af5e7e72b91416b70331a23"
+        },
+        {
+          "path": "WhiteShore-F269EAE55C12D7D24AE0B1D5421AC6B5F7.dds",
+          "atlas": "WhiteShore/Media/Texture/DecalGrass_D.Texture.gbx",
+          "model": "WhiteShore/Media/Decal/GrassLight.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassLight-A",
+            "U02": "GrassLight",
+            "U03": "8",
+            "U04": "4",
+            "U05": "0",
+            "U06": "1",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "sha256": "d9de76c8b9f5123b30b79edc96a171233ae894242af5e7e72b91416b70331a23"
+        }
+      ]
+    },
+    {
+      "name": "TM_WhiteShore_WaterShore_asset",
+      "id": "mat-057b495899f94fc94c39c299",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/WhiteShore/WaterShore_D.dds",
+        "role": "TBaseColorOp",
+        "resource": "WhiteShore\\Media\\Texture\\WaterShore_D.Texture.gbx"
+      },
+      "sprites": [
+        {
+          "path": "WhiteShore-F269EAE55C12D7D24AE0B1D5421AC6B5F7.dds",
+          "atlas": "WhiteShore/Media/Texture/DecalGrass_D.Texture.gbx",
+          "model": "WhiteShore/Media/Decal/GrassSolo.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSolo-A",
+            "U02": "GrassSolo",
+            "U03": "32",
+            "U04": "4",
+            "U05": "22",
+            "U06": "0",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "sha256": "d9de76c8b9f5123b30b79edc96a171233ae894242af5e7e72b91416b70331a23"
+        },
+        {
+          "path": "WhiteShore-F269EAE55C12D7D24AE0B1D5421AC6B5F7.dds",
+          "atlas": "WhiteShore/Media/Texture/DecalGrass_D.Texture.gbx",
+          "model": "WhiteShore/Media/Decal/GrassLight.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassLight-A",
+            "U02": "GrassLight",
+            "U03": "8",
+            "U04": "4",
+            "U05": "0",
+            "U06": "1",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "sha256": "d9de76c8b9f5123b30b79edc96a171233ae894242af5e7e72b91416b70331a23"
+        }
+      ]
+    },
+    {
+      "name": "TM_WhiteShore_WaterShoreRocky_asset",
+      "id": "mat-51cd59c8b7398b0eb5ed4215",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/WhiteShore/WaterShoreRocky_D.dds",
+        "role": "TBaseColorOp",
+        "resource": "WhiteShore\\Media\\Texture\\WaterShoreRocky_D.Texture.gbx"
+      },
+      "sprites": [
+        {
+          "path": "WhiteShore-F269EAE55C12D7D24AE0B1D5421AC6B5F7.dds",
+          "atlas": "WhiteShore/Media/Texture/DecalGrass_D.Texture.gbx",
+          "model": "WhiteShore/Media/Decal/GrassSolo.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSolo-A",
+            "U02": "GrassSolo",
+            "U03": "32",
+            "U04": "4",
+            "U05": "22",
+            "U06": "0",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "sha256": "d9de76c8b9f5123b30b79edc96a171233ae894242af5e7e72b91416b70331a23"
+        },
+        {
+          "path": "WhiteShore-F269EAE55C12D7D24AE0B1D5421AC6B5F7.dds",
+          "atlas": "WhiteShore/Media/Texture/DecalGrass_D.Texture.gbx",
+          "model": "WhiteShore/Media/Decal/GrassLight.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassLight-A",
+            "U02": "GrassLight",
+            "U03": "8",
+            "U04": "4",
+            "U05": "0",
+            "U06": "1",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "sha256": "d9de76c8b9f5123b30b79edc96a171233ae894242af5e7e72b91416b70331a23"
+        }
+      ]
+    },
+    {
+      "name": "TM_WhiteShore_WaterShoreToBeach_asset",
+      "id": "mat-ef0b1f6182c1432b8d23208d",
+      "style": "diffuse-with-native-sprites",
+      "diffuse": {
+        "path": "Textures/WhiteShore/WaterShore_D.dds",
+        "role": "TBaseColorOp",
+        "resource": "WhiteShore\\Media\\Texture\\WaterShore_D.Texture.gbx"
+      },
+      "sprites": [
+        {
+          "path": "WhiteShore-F269EAE55C12D7D24AE0B1D5421AC6B5F7.dds",
+          "atlas": "WhiteShore/Media/Texture/DecalGrass_D.Texture.gbx",
+          "model": "WhiteShore/Media/Decal/GrassSolo.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassSolo-A",
+            "U02": "GrassSolo",
+            "U03": "32",
+            "U04": "4",
+            "U05": "22",
+            "U06": "0",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "sha256": "d9de76c8b9f5123b30b79edc96a171233ae894242af5e7e72b91416b70331a23"
+        },
+        {
+          "path": "WhiteShore-F269EAE55C12D7D24AE0B1D5421AC6B5F7.dds",
+          "atlas": "WhiteShore/Media/Texture/DecalGrass_D.Texture.gbx",
+          "model": "WhiteShore/Media/Decal/GrassLight.Decal.Gbx",
+          "dataset": "WhiteShore/Media/Texture/Land_D.Texture.gbx",
+          "entry": {
+            "U01": "GrassLight-A",
+            "U02": "GrassLight",
+            "U03": "8",
+            "U04": "4",
+            "U05": "0",
+            "U06": "1",
+            "U07": "1",
+            "U08": "1",
+            "U09": "0.5",
+            "U10": "0.05",
+            "U11": "1",
+            "U12": "True"
+          },
+          "atlas_source": "WhiteShore/Media/Texture/Image/DecalGrass_D.dds",
+          "sha256": "d9de76c8b9f5123b30b79edc96a171233ae894242af5e7e72b91416b70331a23"
+        }
+      ]
+    }
+  ]
+}
