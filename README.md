@@ -10,7 +10,7 @@ The badges above show the material count in each edition and the Blender version
 
 Both full ZIP editions now publish **2026.11.26-thumbnail-shadow-lift-1**. This combined revision restores missing UV detail/transition colour, roughness/metal and normal layers in 15 environment materials, including six RedIsland variants. It also includes 37 clearer terrain C thumbnails with active-source diffuse insets and a gentle lift for six dark light/water icons. See [terrain layers and controls](docs/TERRAIN-UV-LAYERS.md) and [thumbnail styles](docs/THUMBNAIL-STYLES.md).
 
-The preceding [Dyna corrections](docs/DYNA-MATERIALS.md), [555 shader follow-up updates](docs/SHADER-FOLLOWUP.md) and thumbnail proportion/frame improvements are included. Existing badges and native export links are preserved. Both editions have two ZIPs with verified checksums; download both or use the installer. The remote extension pilot is unchanged.
+The preceding [Dyna corrections](docs/DYNA-MATERIALS.md), [555 shader follow-up updates](docs/SHADER-FOLLOWUP.md) and thumbnail proportion/frame improvements are included. Existing badges and native export links are preserved. Both editions have two ZIPs with verified checksums; download both or use the installer.
 
 ## Current combined refresh
 
@@ -20,11 +20,7 @@ Both full packages include the improvements to 31 projected previews, two light 
 
 ## Blender 5.3 asset-library extension
 
-The full **Trackmania 2020 - Materials Library** extension is published with all 825 Materials Only entries. Install it from the [drag-and-drop installation page](https://bigthirstytm.github.io/TM2020-Material-Assets-Library/) or the [separate Blender 5.3+ asset-library extension release](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/materials-library-extension-v1.0.0). It uses our GitHub-hosted extension repository. See [installation and update details](docs/REMOTE-MATERIALS-LIBRARY.md). The full remote download is 2.97 GB in 98 shared-texture bundles; only changed bundles need downloading again. All 825 materials and original texture resolutions are retained. Offline ZIPs and the earlier pilot remain available.
-
-### Earlier remote pilot
-
-A [12-material Materials Only pilot](https://bigthirstytm.github.io/TM2020-Material-Assets-Library/pilot/) is now available as an asset-library extension. Materials download when needed; changed files can update independently. Experimental/Preview only entries are excluded, and MaterialLib is supplied separately through Blendermania. The full 825-material extension is available above; this earlier pilot is retained separately. See [installation and update details](docs/REMOTE-LIBRARY-PILOT.md).
+The full **Trackmania 2020 - Materials Library** extension is published with all 825 Materials Only entries and 20 HDRI Worlds. Install it from the [drag-and-drop installation page](https://bigthirstytm.github.io/TM2020-Material-Assets-Library/) or the [separate Blender 5.3+ asset-library extension release](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/materials-library-extension-v1.0.0). It uses our GitHub-hosted extension repository. See [installation and update details](docs/REMOTE-MATERIALS-LIBRARY.md). The full remote download is 3.35 GB in 118 files (98 material bundles and 20 HDRI Worlds); only changed bundles need downloading again. All 825 materials and original texture resolutions are retained. Offline ZIPs remain available.
 
 ## Choose your edition
 

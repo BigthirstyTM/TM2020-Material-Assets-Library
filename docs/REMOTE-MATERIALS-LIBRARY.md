@@ -2,10 +2,10 @@
 
 Asset library extension for **Blender 5.3 and newer**.
 
-The full **825-material remote collection is published and verified**.
+The full **remote collection contains 825 materials and 20 HDRI Worlds**.
 The extension installs from our GitHub-hosted repository; the complete material
-download is **2.97 GB**, shared across **98 bundles**.
-The existing offline ZIPs and the earlier pilot remain available.
+download is **3.35 GB**, shared across **98 material bundles and 20 HDRI World files**.
+The existing offline ZIPs remain available.
 
 - Installation page: https://bigthirstytm.github.io/TM2020-Material-Assets-Library/
 - Separate extension release: https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/materials-library-extension-v1.0.0
@@ -35,14 +35,16 @@ repository URL above through Get Extensions and install the library from its lis
 
 The collection matches the **825 material entries in the current Materials Only
 offline release** (`2026.11.26-thumbnail-shadow-lift-1`). Complete-only / Preview
-only assets, HDRI Worlds and source node-group assets are not offered. The native
+only assets and source node-group assets are not offered. The 20 HDRI Worlds
+from Materials Only are included under **06 HDRI World Moods**, grouped by
+BlueBay, GreenCoast, RedIsland, Stadium and WhiteShore, each with day, night,
+sunrise and sunset presets. The native
 names, IDs, catalogs, shader graphs, animation drivers, export properties, current
 thumbnails and existing feature badges are retained. See the [badge legend](BADGES.md).
 
 This includes the latest terrain UV layers, water/ice previews, terrain C icons,
 active-source diffuse insets and the six lighter identification thumbnails.
-The earlier pilot's yellow/black CustomBricks update trial is not part of this
-collection; CustomBricks uses the current production material and icon.
+CustomBricks uses the current production material and icon.
 
 Blendermania and its MaterialLib configuration are separate. This extension does
 not include `MaterialLib.txt`; use the setup provided by Blendermania.
@@ -65,8 +67,8 @@ Refreshing or downloading a library asset does not replace a material already
 appended into an open project. Replace or append the newer material when wanted.
 
 To download everything, clear search and catalog filters, select all assets and
-choose **Download Assets**. The compact collection totals **2,972,557,344 bytes (2.97 GB)** in **98
-shared-texture bundles**, compared with approximately 2.75 GB for the offline ZIPs.
+choose **Download Assets**. The compact collection totals **3,351,098,791 bytes (3.35 GB)** in **98
+shared-texture material bundles and 20 HDRI World files**, compared with approximately 2.75 GB for the offline ZIPs.
 Some texture-heavy bundles are larger than others (up to about 636 MB). The rejected per-material
 layout required 10.37 GB because textures were repeated across many separate files.
 Bundling and stronger lossless native Zstandard compression reduce duplication
@@ -74,8 +76,7 @@ without reducing texture resolution or changing material appearance.
 Normal use only downloads the assets you need. Previously downloaded assets can
 be used from the cache without downloading them again.
 
-Disable the earlier pilot library if installed to avoid confusing duplicate
-entries. Existing offline libraries and the pilot are retained as fallbacks.
+Existing offline libraries remain available as a fallback.
 
 ## Limits
 
@@ -99,6 +100,9 @@ streams before adopting stronger native compression.
 `tools/verify_remote_bundles.py` reopens all bundles in Blender and checks every
 saved material independently of its original texture paths.
 
+The preparation tools require Python with Pillow and zstandard; these are
+maintainer dependencies and are not required to install the Blender extension.
+
 Generate the listing with Blender's `asset_listing generate` command, then use
 `tools/prepare_remote_materials.py` to prepare the production site, extension and
 content-addressed downloads. Build the extension and extension-repository index
@@ -112,12 +116,21 @@ hosting releases before reaching GitHub's per-release asset limit.
 
 All 825 materials were reopened and compared with the verified Materials Only
 source, including shader graphs, drivers, native metadata, packed texture hashes
-and thumbnail artwork. All 100 release files were independently checked against
+and thumbnail artwork. All current release files were independently checked against
 GitHub SHA-256 digests. Public listing and extension bytes were checked, and the
 extension was installed and enabled from its public repository in an isolated
-Blender 5.3 profile. Four representative public material downloads were appended
-and assigned to test meshes. The existing installed library was unchanged.
+Blender 5.3 profile. Representative public material downloads are appended and assigned to test
+meshes. All 20 HDRI Worlds are reopened with packed environment textures and
+assigned to a scene; public World downloads are checked separately. The existing installed library was unchanged.
 
 Blender's native drag URL parser and installation path were verified; an
 interactive browser-to-Blender drag was not automated. No new game export or
 runtime tests were performed for this hosting conversion.
+
+## HDRI Worlds
+
+Existing extension users can use **Refresh Remote Listing** to discover the
+**06 HDRI World Moods** catalog. Download or apply a World to use its lighting
+and background in the scene. In the viewport, enable **Scene World** in rendered
+shading to see the assigned environment. Refreshing the listing does not replace
+a World already assigned to an open scene.

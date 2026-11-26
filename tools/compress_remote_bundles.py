@@ -25,7 +25,7 @@ for i,row in enumerate(report['bundles']):
   checks[row['id']]=dict(format_version=3,original_bytes=existing['original_bytes'] if existing else before,bytes=path.stat().st_size,sha256=sha(path),decoded_sha256=original_hash)
   receipt.write_text(json.dumps(checks,indent=2))
  info=checks[row['id']];row.update(bytes=info['bytes'],sha256=info['sha256'])
- for material in report['materials']:
+ for material in report['materials']+report.get('worlds',[]):
   if material['path']==row['path']:material.update(bytes=row['bytes'],sha256=row['sha256'])
  report_path.write_text(json.dumps(report))
  print('BUNDLE_LOSSLESSLY_COMPRESSED',i+1,len(report['bundles']),row['id'],info['original_bytes'],info['bytes'],flush=True)

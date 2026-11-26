@@ -35,13 +35,13 @@ def animation(block):
   variables=[dict(settings=rna(v),targets=[rna(t) for t in v.targets]) for v in fc.driver.variables],
   keyframes=[rna(k) for k in fc.keyframe_points],modifiers=[rna(m) for m in fc.modifiers]) for fc in ad.drivers])
 
-def contract(material,image_hashes):
+def contract(material,image_hashes,image_node_types=('TEX_IMAGE',)):
  groups={}
  for tree in sorted(trees(material.node_tree),key=lambda x:x.name):
   groups[tree.name]=dict(nodes=[dict(properties=rna(n),inputs=[rna(s) for s in n.inputs],outputs=[rna(s) for s in n.outputs]) for n in tree.nodes],
    links=sorted((l.from_node.name,l.from_socket.identifier,l.to_node.name,l.to_socket.identifier) for l in tree.links),
    interface=[rna(x) for x in tree.interface.items_tree],properties=value(dict(tree.items())),animation=animation(tree))
- images={n.image for t in trees(material.node_tree) for n in t.nodes if n.type=='TEX_IMAGE' and n.image}
+ images={n.image for t in trees(material.node_tree) for n in t.nodes if n.type in image_node_types and n.image}
  return dict(identity=identity(material),properties=rna(material),animation=animation(material),groups=groups,
   images={im.name:dict(hash=image_hashes[im.name],source=im.source,colour_space=im.colorspace_settings.name,
     alpha_mode=im.alpha_mode,generated_type=im.generated_type,generated_color=list(im.generated_color),size=list(im.size)) for im in sorted(images,key=lambda x:x.name)})

@@ -63,7 +63,7 @@ try:
  # Retain older content-addressed binaries for clients with a cached listing.
  # Later material updates append just new binaries and reuse matching files.
  for extra in set(existing)-set(files):
-  assert re.fullmatch(r'(?:mat-[0-9a-f]{24}|bundle-[0-9]{4})\.[0-9a-f]{16}\.blend',extra),('Unrelated file on production release',extra)
+  assert re.fullmatch(r'(?:(?:mat-[0-9a-f]{24}|bundle-[0-9]{4})\.[0-9a-f]{16}\.blend|trackmania_2020_materials_library-[0-9]+\.[0-9]+\.[0-9]+\.zip)',extra),('Unrelated file on production release',extra)
  jobs=[(name,path) for name,path in files.items() if not (name in existing and existing[name]['state']=='uploaded' and existing[name].get('digest')=='sha256:'+digests[name] and existing[name]['size']==path.stat().st_size)]
  save(phase='uploading',pending_files=len(jobs),total_files=len(files),total_bytes=sum(p.stat().st_size for _,p in jobs),release_id=release_id)
  def upload(job):
@@ -88,11 +88,13 @@ try:
  if not (checkout/'.git').exists():git('clone','--single-branch','--branch',plan['pages_branch'],'https://github.com/'+repo+'.git',checkout,cwd=out)
  else:git('pull','--ff-only','origin',plan['pages_branch'],cwd=checkout)
  for key in ['user.name','user.email']:git('config',key,git('config',key,cwd=base/'TM2020-Material-Assets-Library').strip(),cwd=checkout)
- # Preserve the original pilot site and endpoint; the root page now offers the
- # production extension. New production files live under a separate URL.
- pilot=checkout/'pilot/index.html'
- if not pilot.exists():
-  pilot.parent.mkdir(exist_ok=True);pilot_html=(checkout/'index.html').read_text(encoding='utf-8');pilot.write_text(pilot_html.replace('<head>','<head><base href="'+plan['pages_url']+'">',1),encoding='utf-8')
+ # Retire the public pilot requested by the owner, within this Pages checkout.
+ for relative in ['pilot','remote/materials-only']:
+  retired=checkout/relative
+  if retired.exists():
+   assert retired.resolve().is_relative_to(checkout.resolve()),retired
+   git('rm','-r','--ignore-unmatch','--',relative,cwd=checkout)
+ # Publish the production site; retired pilot content must not be recreated.
  shutil.copytree(out/'site',checkout,dirs_exist_ok=True);git('add','.',cwd=checkout)
  if git('status','--porcelain',cwd=checkout).strip():git('commit','-m','Publish full Materials Library extension for Blender 5.3',cwd=checkout)
  allowed();save(phase='publishing-pages');git('push','origin',plan['pages_branch'],cwd=checkout)
@@ -116,16 +118,21 @@ try:
  blender('public-extension-install',['--command','extension','install','--sync','--enable',plan['extension_id']])
  blender('public-registration',['--python-exit-code','1','--python',out/'verify_registration.py'])
  blender('public-native-listing',['--command','asset_listing','download',plan['library_url']])
- cache=out/'public-verification-profile/_asset_download_location/_v1';index=json.loads((cache/'asset-index.json').read_text());assert index['asset_count']==825 and index['file_count']==plan['file_count']
+ cache=out/'public-verification-profile/_asset_download_location/_v1';index=json.loads((cache/'asset-index.json').read_text());assert index['asset_count']==plan.get('asset_count',825) and index['file_count']==plan['file_count']
  listing=[]
  for entry in index['pages']:
   rel=entry['url'];page_path=out/'public-verification-profile/_asset_download_location'/rel;page=json.loads(page_path.read_text());listing.extend(page['assets']);assert page_path.read_bytes()==(out/'site/remote/tm2020-materials'/rel).read_bytes()
- assert len(listing)==825 and {x['name'] for x in listing}==set(plan['materials']);assert not any('Preview only' in c['path'] for c in index['catalogs'])
+ assert len(listing)==plan.get('asset_count',825) and {x['name'] for x in listing}==set(plan['materials']+plan.get('worlds',[]));assert not any('Preview only' in c['path'] for c in index['catalogs'])
  selected=[]
  for name in ['TM_CustomBricks_asset','TM_Water_asset','TM_PlatformDirt_DecoHill_asset','TM_RedIsland_DetailsToDirt_asset']:
   row=next(x for x in build['materials'] if x['name']==name);payload=next(x for x in plan['assets'] if x['path']==row['path']);asset=assets[payload['name']];data=get(asset['browser_download_url']);assert hashlib.sha256(data).hexdigest()==row['sha256'];dest=out/'public-verification-profile'/Path(row['path']).name;dest.write_bytes(data);selected.append(dict(name=name,path=str(dest),id=row['id']))
  (out/'selected-public-materials.json').write_text(json.dumps(selected));blender('public-material-append',['--python-exit-code','1','--python',out/'verify_downloaded_materials.py'],factory=True)
+ if plan.get('worlds'):
+  worlds=[]
+  for row in [build['worlds'][0],build['worlds'][-1]]:
+   payload=next(x for x in plan['assets'] if x['path']==row['path']);data=get(assets[payload['name']]['browser_download_url']);assert hashlib.sha256(data).hexdigest()==row['sha256'];dest=out/'public-verification-profile'/Path(row['path']).name;dest.write_bytes(data);worlds.append(dict(name=row['name'],path=str(dest),id=row['id']))
+  (out/'selected-public-worlds.json').write_text(json.dumps(worlds));blender('public-world-append',['--python-exit-code','1','--python',out/'verify_downloaded_worlds.py'],factory=True)
  assert sha(Path(build['source']))==plan['source_sha256']
- proof=dict(phase='complete',revision=plan['source_revision'],release_url=release()['html_url'],pages_url=plan['pages_url'],library_url=plan['library_url'],extension_url=assets[plan['extension_name']]['browser_download_url'],repository_url=plan['repository_url'],drag_url=plan['drag_url'],materials=825,preview_only=0,materiallib_included=False,all_server_assets_verified=digests,site_files=site_hashes,isolated_repository_install_verified=True,native_listing_825_verified=True,selected_public_materials_appended=4,interactive_drag_drop_tested=False,completed_utc=datetime.datetime.now(datetime.timezone.utc).isoformat())
+ proof=dict(phase='complete',revision=plan['source_revision'],release_url=release()['html_url'],pages_url=plan['pages_url'],library_url=plan['library_url'],extension_url=assets[plan['extension_name']]['browser_download_url'],repository_url=plan['repository_url'],drag_url=plan['drag_url'],materials=825,worlds=len(plan.get('worlds',[])),asset_count=plan.get('asset_count',825),preview_only=0,materiallib_included=False,all_server_assets_verified=digests,site_files=site_hashes,isolated_repository_install_verified=True,native_listing_verified=True,native_listing_asset_count=plan.get('asset_count',825),selected_public_worlds_appended=2 if plan.get('worlds') else 0,selected_public_materials_appended=4,interactive_drag_drop_tested=False,completed_utc=datetime.datetime.now(datetime.timezone.utc).isoformat())
  (out/'public-verification.json').write_text(json.dumps(proof,indent=2));(out/'completion.json').write_text(json.dumps(proof,indent=2));save(phase='complete');print('FULL_REMOTE_MATERIALS_EXTENSION_PUBLICLY_VERIFIED',flush=True)
 except Exception as error:save(phase='failed',error=repr(error));raise
