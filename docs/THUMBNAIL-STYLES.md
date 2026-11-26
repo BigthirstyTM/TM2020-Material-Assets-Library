@@ -1,14 +1,14 @@
 # Material thumbnail styles
 
-The newest local source uses `2026.11.26-terrain-icons-c-1` for 37 layered terrain thumbnails. The full ZIPs remain `2026.11.26-shader-followup-1`; the remote extension pilot is unchanged. The other icon styles retain the preceding aspect/family/readability refinements.
+The newest local source uses `2026.11.26-terrain-insets-2` for 37 layered terrain thumbnails. The full ZIPs remain `2026.11.26-shader-followup-1`; the remote extension pilot is unchanged. The other icon styles retain the preceding aspect/family/readability refinements.
 
 ## Approved terrain C layout
 
 The 37 terrain previews with native foliage dataset entries use a 24 x 24 x 22 block, a separate base-diffuse inset and a real soft shadow on a neutral ground plane. This is the approved **C proposal for terrain**, distinct from the existing **Custom sphere** category. The block's top remains at the previous world height so extending the sides does not move it closer to the lights. The original key/fill/environment setup is retained, with a weak additional front light to reveal the shaded faces.
 
-The inset identifies the recorded source diffuse/selected top texture. Square images fill it; rectangular images fit without stretching. It does not represent the final PBR stack, macro modulation or every projected side layer. The source shader still renders on the block. The foliage cards are representative preview geometry, not generated vegetation on exported objects.
+The inset is resolved from the material's current active Base Color graph. An enabled UV-decoration TBaseColor input takes priority; otherwise the current projected-top PyBaseColor is used. Legacy projected inputs are accepted only if connected to the active colour graph. For example, BlueBay_DecoHill2 shows DecoHill2_D, not the older generic Land_D fallback. Twenty-five of the 37 source paths were corrected; all 37 insets were rebuilt with encoded RGB preserved. Square images fill it; rectangular images fit without stretching. It does not represent the final PBR stack, macro modulation or every projected side layer. The source shader still renders on the block. The foliage cards are representative preview geometry, not generated vegetation on exported objects.
 
-PNG render bytes are read without applying a second sRGB conversion. Existing badge pixels are preserved exactly. Actual shader graphs, native links, asset identities, catalogs and MaterialLib remain unchanged. The other 61 individual vegetation cutout thumbnails and all general, Custom, animation-label and symbolic icons retain their existing artwork.
+PNG render bytes and source RGB are read without applying a second sRGB conversion. Source alpha is a blend mask, so it does not erase RGB from the identification inset. Repairing the inset leaves every pixel outside its 84 x 84 region unchanged. Existing badge pixels are preserved exactly. Actual shader graphs, native links, asset identities, catalogs and MaterialLib remain unchanged. The other 61 individual vegetation cutout thumbnails and all general, Custom, animation-label and symbolic icons retain their existing artwork.
 
 Reproduce with `tools/apply_terrain_c_thumbnails.py`, `data/terrain-thumbnail-sources.json`, the installed library and `--sprite-directory` pointing to the hash-checked source atlas directory. Native atlas/model/dataset/crop provenance is recorded in the input recipe. No atlas bytes or helper geometry are added to the installed material library.
 

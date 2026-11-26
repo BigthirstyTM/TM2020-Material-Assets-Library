@@ -12,7 +12,7 @@ The published full-package revision `2026.11.25-thumbnail-aspect-3` preserves im
 
 Both full ZIP editions now publish **2026.11.26-shader-followup-1**, including [Dyna preview corrections](docs/DYNA-MATERIALS.md) and 555 source-derived material graph updates across explicit UV/normal inputs, GrassX2 modulation, screen/sign SI depth, 24 terrain arrays and 14 optional colour-mask adapters. See [controls and limits](docs/SHADER-FOLLOWUP.md) and the [material list](docs/SHADER-FOLLOWUP-MATERIALS.md). Existing badges, thumbnails and native export links are preserved. Each edition has two ZIPs; download both or use the installer. The remote extension pilot is unchanged.
 
-The newer local thumbnail revision **2026.11.26-terrain-icons-c-1** updates 37 terrain icons with a higher block, separate diffuse inset and soft ground shadow. It preserves the current material graphs and badges. This icon-only update is not yet in the full ZIPs or remote pilot. See [thumbnail styles](docs/THUMBNAIL-STYLES.md).
+The newer local thumbnail revision **2026.11.26-terrain-insets-2** updates 37 terrain icons with a higher block, separate diffuse inset and soft ground shadow. Insets follow the active UV-decoration or projected-top shader source, correcting 25 stale texture selections. It preserves the current material graphs and badges. This icon-only update is not yet in the full ZIPs or remote pilot. See [thumbnail styles](docs/THUMBNAIL-STYLES.md).
 
 ## Current combined refresh
 

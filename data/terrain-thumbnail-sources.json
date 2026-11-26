@@ -1,5 +1,5 @@
 {
-  "revision": "2026.11.26-terrain-icons-c-1",
+  "revision": "2026.11.26-terrain-insets-2",
   "targets": [
     {
       "name": "TM_BlueBay_Deco_asset",
@@ -7,7 +7,9 @@
       "style": "diffuse-with-native-sprites",
       "diffuse": {
         "path": "Textures/BlueBay/Land_D.dds",
-        "role": "existing diffuse node"
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -61,8 +63,10 @@
       "id": "mat-148e25accfdd17bd415547ec",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/BlueBay/Land_D.dds",
-        "role": "existing diffuse node"
+        "path": "Textures/Stadium/DecoHill2_D.dds",
+        "role": "TBaseColor: active UV decoration",
+        "node": "Native TBaseColor - mesh UV only",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -116,8 +120,10 @@
       "id": "mat-de31948b3602a6c9f5009e0e",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/BlueBay/Land_D.dds",
-        "role": "existing diffuse node"
+        "path": "Textures/Stadium/DecoHill_D.dds",
+        "role": "TBaseColor: active UV decoration",
+        "node": "Native TBaseColor - mesh UV only",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -172,8 +178,9 @@
       "style": "diffuse-with-native-sprites",
       "diffuse": {
         "path": "Textures/BlueBay/Land_D.dds",
-        "role": "native top array selector",
-        "selector": "Land"
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -227,9 +234,10 @@
       "id": "mat-ff9fde5b172be43a3e875531",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/BlueBay/TransitionRocks_D.dds",
-        "role": "TBaseColorOp",
-        "resource": "BlueBay\\Media\\Texture\\TransitionRocks_D.Texture.gbx"
+        "path": "Textures/BlueBay/Land_D.dds",
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -283,9 +291,10 @@
       "id": "mat-8da978c212c94562d7083b30",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/BlueBay/Transition_D.dds",
-        "role": "TBaseColorOp",
-        "resource": "BlueBay\\Media\\Texture\\Transition_D.Texture.gbx"
+        "path": "Textures/BlueBay/Land_D.dds",
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -339,9 +348,10 @@
       "id": "mat-92756f7faf9d351a0c3631f6",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/GreenCoast/CliffTransition2_D.dds",
-        "role": "TBaseColorOp",
-        "resource": "GreenCoast\\Media\\Texture\\CliffTransition2_D.Texture.gbx"
+        "path": "Textures/GreenCoast/Grass_D.dds",
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -395,9 +405,10 @@
       "id": "mat-e175b2586a2dc4191973299b",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/GreenCoast/CliffTransition_D.dds",
-        "role": "TBaseColorOp",
-        "resource": "GreenCoast\\Media\\Texture\\CliffTransition_D.Texture.gbx"
+        "path": "Textures/GreenCoast/Grass_D.dds",
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -452,8 +463,9 @@
       "style": "diffuse-with-native-sprites",
       "diffuse": {
         "path": "Textures/GreenCoast/Grass_D.dds",
-        "role": "native top array selector",
-        "selector": "Grass"
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -507,8 +519,10 @@
       "id": "mat-759680b85ec62fc093eccd10",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/GreenCoast/Grass_D.dds",
-        "role": "existing diffuse node"
+        "path": "Textures/Stadium/DecoHill2_D.dds",
+        "role": "TBaseColor: active UV decoration",
+        "node": "Native TBaseColor - mesh UV only",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -562,8 +576,10 @@
       "id": "mat-14b29775b1e024e6a7a2210b",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/GreenCoast/Grass_D.dds",
-        "role": "existing diffuse node"
+        "path": "Textures/Stadium/DecoHill_D.dds",
+        "role": "TBaseColor: active UV decoration",
+        "node": "Native TBaseColor - mesh UV only",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -618,8 +634,9 @@
       "style": "diffuse-with-native-sprites",
       "diffuse": {
         "path": "Textures/GreenCoast/Grass_D.dds",
-        "role": "native top array selector",
-        "selector": "Grass"
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -673,9 +690,10 @@
       "id": "mat-9d76b946e607dfa4cff5d21b",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/GreenCoast/LakeShore_D.dds",
-        "role": "TBaseColorOp",
-        "resource": "GreenCoast\\Media\\Texture\\LakeShore_D.Texture.gbx"
+        "path": "Textures/GreenCoast/Grass_D.dds",
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -729,8 +747,10 @@
       "id": "mat-e51cbd226b8ab0bcf83ff2c6",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/GreenCoast/Grass_D.dds",
-        "role": "existing diffuse node"
+        "path": "Textures/Stadium/_Additional/Stadium/Stadium/Media/Texture/Image/TrackWallPxzInWorld_D.dds",
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -784,9 +804,10 @@
       "id": "mat-8ccaaeadbf8b5fe1a9cccc7a",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/GreenCoast/TransitionForest_D.dds",
-        "role": "TBaseColorOp",
-        "resource": "GreenCoast\\Media\\Texture\\TransitionForest_D.Texture.gbx"
+        "path": "Textures/GreenCoast/Grass_D.dds",
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -841,8 +862,9 @@
       "style": "diffuse-with-native-sprites",
       "diffuse": {
         "path": "Textures/GreenCoast/VegetOakBark_D.dds",
-        "role": "TBaseColor",
-        "resource": "GreenCoast\\Media\\Texture\\VegetOakBark_D.Texture.gbx"
+        "role": "TBaseColor: active UV decoration",
+        "node": "Native TBaseColor - mesh UV only",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -897,8 +919,9 @@
       "style": "diffuse-with-native-sprites",
       "diffuse": {
         "path": "Textures/RedIsland/Dirt_D.dds",
-        "role": "native top array selector",
-        "selector": "Dirt"
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -952,8 +975,10 @@
       "id": "mat-718ef8d273ef44ebb79d0c19",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/RedIsland/Dirt_D.dds",
-        "role": "existing diffuse node"
+        "path": "Textures/Stadium/DecoHillDirt2_D.dds",
+        "role": "TBaseColor: active UV decoration",
+        "node": "Native TBaseColor - mesh UV only",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -1007,8 +1032,10 @@
       "id": "mat-78cf2c81d6e25d05088d725d",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/RedIsland/Dirt_D.dds",
-        "role": "existing diffuse node"
+        "path": "Textures/Stadium/DecoHillDirt_D.dds",
+        "role": "TBaseColor: active UV decoration",
+        "node": "Native TBaseColor - mesh UV only",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -1062,9 +1089,10 @@
       "id": "mat-8cb03483409f75268e5e96a8",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/RedIsland/DetailsCliff_D.dds",
-        "role": "TBaseColorOp",
-        "resource": "RedIsland\\Media\\Texture\\DetailsCliff_D.Texture.gbx"
+        "path": "Textures/RedIsland/Dirt_D.dds",
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -1118,9 +1146,10 @@
       "id": "mat-3ea9e19e62f7f16aacb0f4a1",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/RedIsland/DetailsRocks_D.dds",
-        "role": "TBaseColorOp",
-        "resource": "RedIsland\\Media\\Texture\\DetailsRocks_D.Texture.gbx"
+        "path": "Textures/RedIsland/Dirt_D.dds",
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -1174,9 +1203,10 @@
       "id": "mat-15127e5bc13c99a89e472483",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/RedIsland/Details_D.dds",
-        "role": "TBaseColorOp",
-        "resource": "RedIsland\\Media\\Texture\\Details_D.Texture.gbx"
+        "path": "Textures/RedIsland/Dirt_D.dds",
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls.001"
       },
       "sprites": [
         {
@@ -1230,9 +1260,10 @@
       "id": "mat-8b0d928d2bfb69045f674d00",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/RedIsland/DetailsVegetation_D.dds",
-        "role": "TBaseColorOp",
-        "resource": "RedIsland\\Media\\Texture\\DetailsVegetation_D.Texture.gbx"
+        "path": "Textures/RedIsland/Dirt_D.dds",
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -1287,8 +1318,9 @@
       "style": "diffuse-with-native-sprites",
       "diffuse": {
         "path": "Textures/RedIsland/Dirt_D.dds",
-        "role": "native top array selector",
-        "selector": "Dirt"
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -1343,8 +1375,9 @@
       "style": "diffuse-with-native-sprites",
       "diffuse": {
         "path": "Textures/RedIsland/DirtRocky_D.dds",
-        "role": "native top array selector",
-        "selector": "DirtRocky"
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -1398,9 +1431,10 @@
       "id": "mat-bdb535aac26907769d9217a4",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/RedIsland/RiverShore_D.dds",
-        "role": "TBaseColorOp",
-        "resource": "RedIsland\\Media\\Texture\\RiverShore_D.Texture.gbx"
+        "path": "Textures/RedIsland/Dirt_D.dds",
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -1455,8 +1489,9 @@
       "style": "diffuse-with-native-sprites",
       "diffuse": {
         "path": "Textures/RedIsland/RiverSidePy_D.dds",
-        "role": "native top array selector",
-        "selector": "RiverSidePy"
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -1510,9 +1545,10 @@
       "id": "mat-9eeb08c0d24c2403fb338a94",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/RedIsland/Rock_D.dds",
-        "role": "TBaseColorOp",
-        "resource": "RedIsland\\Media\\Texture\\Rock_D.Texture.gbx"
+        "path": "Textures/RedIsland/Dirt_D.dds",
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -1567,7 +1603,9 @@
       "style": "diffuse-with-native-sprites",
       "diffuse": {
         "path": "Textures/RedIsland/Dirt_D.dds",
-        "role": "existing diffuse node"
+        "role": "BaseColor: active legacy projected top",
+        "node": "tex_D",
+        "group": null
       },
       "sprites": [
         {
@@ -1622,8 +1660,9 @@
       "style": "diffuse-with-native-sprites",
       "diffuse": {
         "path": "Textures/WhiteShore/Beach_D.dds",
-        "role": "native top array selector",
-        "selector": "Beach"
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -1677,8 +1716,10 @@
       "id": "mat-03ccaf78884c1960dd436de0",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/WhiteShore/Beach_D.dds",
-        "role": "existing diffuse node"
+        "path": "Textures/WhiteShore/Land_D.dds",
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -1732,8 +1773,10 @@
       "id": "mat-361412743e146ce4a0d3d42e",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/WhiteShore/Beach_D.dds",
-        "role": "existing diffuse node"
+        "path": "Textures/Stadium/DecoHillIce2_D.dds",
+        "role": "TBaseColor: active UV decoration",
+        "node": "Native TBaseColor - mesh UV only",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -1787,8 +1830,10 @@
       "id": "mat-195364fcc5a910d706fb5501",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/WhiteShore/Beach_D.dds",
-        "role": "existing diffuse node"
+        "path": "Textures/Stadium/DecoHillIce_D.dds",
+        "role": "TBaseColor: active UV decoration",
+        "node": "Native TBaseColor - mesh UV only",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -1843,8 +1888,9 @@
       "style": "diffuse-with-native-sprites",
       "diffuse": {
         "path": "Textures/WhiteShore/Land_D.dds",
-        "role": "native top array selector",
-        "selector": "Land"
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -1898,9 +1944,10 @@
       "id": "mat-057b495899f94fc94c39c299",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/WhiteShore/WaterShore_D.dds",
-        "role": "TBaseColorOp",
-        "resource": "WhiteShore\\Media\\Texture\\WaterShore_D.Texture.gbx"
+        "path": "Textures/WhiteShore/Land_D.dds",
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -1954,9 +2001,10 @@
       "id": "mat-51cd59c8b7398b0eb5ed4215",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/WhiteShore/WaterShoreRocky_D.dds",
-        "role": "TBaseColorOp",
-        "resource": "WhiteShore\\Media\\Texture\\WaterShoreRocky_D.Texture.gbx"
+        "path": "Textures/WhiteShore/Land_D.dds",
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {
@@ -2010,9 +2058,10 @@
       "id": "mat-ef0b1f6182c1432b8d23208d",
       "style": "diffuse-with-native-sprites",
       "diffuse": {
-        "path": "Textures/WhiteShore/WaterShore_D.dds",
-        "role": "TBaseColorOp",
-        "resource": "WhiteShore\\Media\\Texture\\WaterShore_D.Texture.gbx"
+        "path": "Textures/WhiteShore/Beach_D.dds",
+        "role": "PyBaseColor: active projected top",
+        "node": "Native PyBaseColor",
+        "group": "Deco native layer controls"
       },
       "sprites": [
         {

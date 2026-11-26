@@ -5,11 +5,12 @@ from mathutils import Vector
 parser=argparse.ArgumentParser()
 for key in ['library','inputs','output']:parser.add_argument('--'+key,type=Path,required=True)
 parser.add_argument('--sprite-directory',type=Path,help='Directory containing the hash-checked source atlas files in the input recipe.')
-a=parser.parse_args(sys.argv[sys.argv.index('--')+1:]);repo=Path(__file__).resolve().parents[1];root=a.library.resolve();out=a.output.resolve();out.mkdir(exist_ok=True,parents=True);source=root/'Trackmania2020_assets.blend';REVISION='2026.11.26-terrain-icons-c-1'
+a=parser.parse_args(sys.argv[sys.argv.index('--')+1:]);repo=Path(__file__).resolve().parents[1];root=a.library.resolve();out=a.output.resolve();out.mkdir(exist_ok=True,parents=True);source=root/'Trackmania2020_assets.blend';REVISION='2026.11.26-terrain-insets-2'
 sys.path.insert(0,str(repo/'tools'))
 from apply_concrete_shaders import pixels,png,badge_mask
 from thumbnail_preview_pixels import read_saved_preview
 from apply_shader_fidelity import identity,graph,sha
+from terrain_thumbnail_inset import active_diffuse,source_pixels,place_inset
 before=hashlib.file_digest(source.open('rb'),'sha256').hexdigest();bpy.ops.wm.open_mainfile(filepath=str(source),load_ui=False)
 assets={x.bl_rna.identifier+':'+x.name:x for c in [bpy.data.materials,bpy.data.worlds,bpy.data.node_groups] for x in c if x.asset_data}
 baseline={k:dict(identity=identity(x),graph=graph(x),badges=x.get('tm_asset_effect_badges','')) for k,x in assets.items()};(out/'baseline.json').write_text(json.dumps(baseline))
@@ -53,8 +54,7 @@ for i,row in enumerate(targets):
  m=bpy.data.materials[row['name']];saved=pixels(m);mask=badge_mask(m);tile.data.materials.clear();tile.data.materials.append(m)
  ob,mesh,materials=add_cards(m,row['sprites'],None)
  path=previews/(m['tm_asset_id']+'.png');scene.render.filepath=str(out/'render-current.png');bpy.ops.render.render(write_still=True);rgba=read_png(out/'render-current.png')
- im=bpy.data.images.load(row['diffuse']['path'],check_existing=False);raw=np.array(im.pixels[:],dtype=np.float32).reshape(im.size[1],im.size[0],4)[::-1];rgb=np.clip(raw[:,:,:3],0,1);rgb=np.where(rgb<=.0031308,12.92*rgb,1.055*rgb**(1/2.4)-.055);flat=np.concatenate([(np.clip(rgb,0,1)*255).astype(np.uint8),np.full((*rgb.shape[:2],1),255,dtype=np.uint8)],axis=2);bpy.data.images.remove(im)
- rgba[6:90,6:90,:3]=(170,177,177);box=rgba[9:87,9:87];box[:,:,:3]=(54,61,65);h,w=flat.shape[:2];scale=min(78/w,78/h);fw,fh=max(1,round(w*scale)),max(1,round(h*scale));left,top=(78-fw)//2,(78-fh)//2;box[top:top+fh,left:left+fw]=resize(flat,fw,fh)
+ im,evidence=active_diffuse(m);place_inset(rgba,source_pixels(im));row['diffuse']=dict(path=Path(bpy.path.abspath(im.filepath)).resolve().relative_to(root).as_posix(),**evidence)
  rgba[mask]=saved[mask];png(path,rgba)
  # Set exact preview bytes: importing PNGs through Blender can introduce rounding.
  m.preview.image_pixels=np.ascontiguousarray(rgba[::-1]).view(np.uint32).reshape(-1).view(np.int32).tolist()

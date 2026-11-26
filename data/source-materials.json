@@ -765,8 +765,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-148e25accfdd17bd415547ec",
@@ -832,8 +832,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-de31948b3602a6c9f5009e0e",
@@ -899,8 +899,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-4d322fd6a62685bbd5ab1663",
@@ -1064,8 +1064,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-5006dbfc9de23134dfa88216",
@@ -1363,8 +1363,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-8da978c212c94562d7083b30",
@@ -1431,8 +1431,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-b5a77a69b2b0fc19ab3d5562",
@@ -18937,8 +18937,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-d53b6539d2ed128ffcb32a20",
@@ -19036,8 +19036,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-d653289cf6c94e6400e8031c",
@@ -19134,8 +19134,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-759680b85ec62fc093eccd10",
@@ -19201,8 +19201,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-14b29775b1e024e6a7a2210b",
@@ -19268,8 +19268,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-0e61f5bfb8d502482665a691",
@@ -19335,8 +19335,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-4496aa4a75fa5daf606aff31",
@@ -19624,8 +19624,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-19468547bfdd1f38d556da8a",
@@ -19722,8 +19722,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-803c16b546668eeba4517259",
@@ -19821,8 +19821,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-d24c894b6118b11f1798f90d",
@@ -19972,8 +19972,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-467e022f200c6dc5e3894960",
@@ -26333,8 +26333,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-718ef8d273ef44ebb79d0c19",
@@ -26400,8 +26400,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-78cf2c81d6e25d05088d725d",
@@ -26467,8 +26467,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-1e3dcefce41cb580266fe24d",
@@ -26597,8 +26597,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-05d82f9ecdf55cfd176a712e",
@@ -26756,8 +26756,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-15127e5bc13c99a89e472483",
@@ -26824,8 +26824,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-af90f57a66a00eda602b62c9",
@@ -26916,8 +26916,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-1aa8713dc71b8bfe33af375d",
@@ -26983,8 +26983,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-97d3e2dd8a18c0e70ae27368",
@@ -27112,8 +27112,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-6ee3e707cb5bdcf79cd2de76",
@@ -27426,8 +27426,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-1483d1338352428180d943fe",
@@ -27493,8 +27493,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-fabe499569bd4059baae990b",
@@ -27623,8 +27623,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-0008b09172adb4ef32d3a8ea",
@@ -28378,8 +28378,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-e9e203665ee6727b3cc80b83",
@@ -34477,8 +34477,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-5e5d37c78f19071482edaea0",
@@ -34785,8 +34785,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-361412743e146ce4a0d3d42e",
@@ -34852,8 +34852,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-195364fcc5a910d706fb5501",
@@ -34919,8 +34919,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-566c81b5fde295261070219d",
@@ -35048,8 +35048,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-113783214330a1158b6bdd3b",
@@ -35518,8 +35518,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-51cd59c8b7398b0eb5ed4215",
@@ -35586,8 +35586,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-ef0b1f6182c1432b8d23208d",
@@ -35654,8 +35654,8 @@
           }
         }
       ],
-      "thumbnail_revision": "2026.11.26-terrain-icons-c-1",
-      "thumbnail_geometry": "Representative source sprites on a higher block with base-diffuse inset and physical ground shadow; no vegetation is added to objects or exports."
+      "thumbnail_revision": "2026.11.26-terrain-insets-2",
+      "thumbnail_geometry": "Representative higher block and source sprites with ground shadow. Inset follows active UV decoration when enabled, otherwise projected-top colour; not the entire material stack."
     },
     {
       "id": "mat-81e416a1c4ae94d401fdd4f1",
