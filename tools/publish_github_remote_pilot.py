@@ -152,6 +152,8 @@ try:
     save(phase='publishing-pilot-release')
     if release()['draft']:
         gh('release','edit',tag,'--repo',repo,'--draft=false','--prerelease','--latest=false')
+    # Draft asset URLs can contain an untagged placeholder; refresh after publishing.
+    assets = {x['name']:x for x in release()['assets']}
     checkout = out / 'pages-checkout'
     branch = plan['pages_branch']
     if not (checkout / '.git').exists():
