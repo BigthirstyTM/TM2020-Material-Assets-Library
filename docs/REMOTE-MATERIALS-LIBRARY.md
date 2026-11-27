@@ -27,14 +27,14 @@ is small; the material files are hosted separately and downloaded when used.
 This is our GitHub-hosted extension repository. Adding it makes the extension
 available through Get Extensions; it is not a listing on Blender's official directory.
 
-For manual installation, download `trackmania_2020_materials_library-1.0.3.zip`
+For manual installation, download `trackmania_2020_materials_library-1.0.4.zip`
 and use Preferences Ã¢â€ â€™ Get Extensions Ã¢â€ â€™ Install from Disk. You can also add the
 repository URL above through Get Extensions and install the library from its list.
 
 ## Included assets
 
 The collection matches the **873 Materials Only entries in the verified installed
-source** (`2026.11.27-vista-native-1`). Offline ZIPs are being rebuilt separately;
+source** (`2026.11.27-vista-catalogs-1`). Offline ZIPs are being rebuilt separately;
 the preceding public ZIPs do not yet contain the 53 new vista materials. Complete-only / Preview
 only assets and source node-group assets are not offered. The 20 HDRI Worlds
 from Materials Only are included under **06 HDRI World Moods**, grouped by
@@ -67,7 +67,7 @@ Refreshing or downloading a library asset does not replace a material already
 appended into an open project. Replace or append the newer material when wanted.
 
 To download everything, clear search and catalog filters, select all assets and
-choose **Download Assets**. The compact collection totals **4,235,536,582 bytes (4.24 GB)** in **102
+choose **Download Assets**. The compact collection totals **4,235,536,703 bytes (4.24 GB)** in **102
 shared-texture material bundles and 20 HDRI World files**, compared with approximately 2.75 GB for the offline ZIPs.
 Some texture-heavy bundles are larger than others (up to about 636 MB). The rejected per-material
 layout required 10.37 GB because textures were repeated across many separate files.
@@ -151,4 +151,4 @@ thumbnail. Blender Asset Browser thumbnails remain static. In Blender, press
 
 Listing refresh updates metadata, not already-downloaded bundles. A warning triangle can indicate that the cached bundle differs from the current listing. Select an affected asset and use right-click ? Download Assets, then refresh the Asset Browser. Updating a shared bundle also updates the other assets stored in that bundle. Existing scene copies and exported items remain unchanged.
 
-Catalog correction: the 53 additions in extension 1.0.3 were incorrectly placed below HDRI World Moods. Exact environment material paths are corrected locally; extension 1.0.4 is being prepared. See [catalog correction](VISTA-CATALOGS.md).
+Catalog correction: the 53 additions in extension 1.0.3 were incorrectly placed below HDRI World Moods. The correct environment material paths are published in extension 1.0.4 and all 893 public catalog assignments passed independent verification. Use Refresh Remote Listing and Download Assets to replace cached vista bundles. See [catalog correction](VISTA-CATALOGS.md).

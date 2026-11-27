@@ -1,6 +1,6 @@
 # Vista materials: 53 native-linked additions
 
-Revision `2026.11.27-vista-native-1` promotes **53 source-backed vista materials** into Materials Only and their existing environment catalogs. Complete now contains **1,172 materials**, including **299 Preview only**; Materials Only contains **873 materials**. All 20 HDRI Worlds are preserved. The remote update is published as extension **1.0.3** and independently verified. New offline packages are being prepared; old public offline ZIPs have not yet been replaced for this revision.
+Revision `2026.11.27-vista-native-1` promotes **53 source-backed vista materials** into Materials Only and their existing environment catalogs. Complete now contains **1,172 materials**, including **299 Preview only**; Materials Only contains **873 materials**. All 20 HDRI Worlds are preserved. The remote update is published as extension **1.0.4** and independently verified. New offline packages are being prepared; old public offline ZIPs have not yet been replaced for this revision.
 
 All 53 exact native resources loaded successfully in Trackmania and all 53 embedded test items loaded their models. The user watched the fixture and visually confirmed that the materials worked, then authorized promotion. This is a linked-item load and user visual check, not a driving/physics test or proof of identical Blender/native rendering. No substitute textures or replacement links were selected. MaterialLib already contains the 53 aliases and remains byte-for-byte unchanged.
 
@@ -98,4 +98,4 @@ The 17 texture-array materials use their explicit named source selections. The t
 
 The staged and installed master were independently reopened. All 53 actual add-on export links, serialized aliases, IDs, saved icons and classification were checked. All unrelated assets remain unchanged, all images resolve, and installation has a recoverable backup. The five separately quarantined screen materials and AnimatedFlag remain Preview only. Remote publication checks verify all 873 materials, 20 HDRI Worlds, packed payloads and the native Blender 5.3 extension/listing; remote-first publication status is recorded separately.
 
-Catalog correction: the 53 additions in extension 1.0.3 were incorrectly placed below HDRI World Moods. Exact environment material paths are corrected locally; extension 1.0.4 is being prepared. See [catalog correction](VISTA-CATALOGS.md).
+Catalog correction: the 53 additions in extension 1.0.3 were incorrectly placed below HDRI World Moods. The correct environment material paths are published in extension 1.0.4 and all 893 public catalog assignments passed independent verification. Use Refresh Remote Listing and Download Assets to replace cached vista bundles. See [catalog correction](VISTA-CATALOGS.md).

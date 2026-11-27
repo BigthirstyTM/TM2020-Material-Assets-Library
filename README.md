@@ -18,9 +18,9 @@ Content revision **2026.11.26-thumbnail-shadow-lift-1** includes the Dyna and sh
 
 Both full packages include the improvements to 31 projected previews, two light tubes and four optional structure colour masks, plus 88 recovered exact shader references. See [projected surfaces](docs/PROJECTED-SURFACES.md) and [source resolution](docs/SOURCE-RESOLUTION.md). The [shader reconciliation](docs/SHADER-RECONCILIATION.md) clarifies 94 root/pass references and improves ten array-based terrain previews plus LakeBottom. These source references do not promote Preview only entries to confirmed game compatibility.
 
-## Vista catalog correction in preparation
+## Vista update and catalog correction: remote published
 
-The local library now includes [53 additional vista materials](docs/VISTA-CANDIDATES.md) after a Trackmania linked-item load check and user visual confirmation. Six projected previews/icons use corrected separate top/side dimensions. Local totals are 873 Materials Only / 1,172 Complete (299 Preview only), plus 20 HDRI Worlds. The remote library is now published as extension **1.0.3**, content revision **2026.11.27-vista-native-1**. A reported catalog error affected the 53 additions in version 1.0.3: they appeared below HDRI World Moods. Their corrected environment/material catalogs are installed locally and a remote correction is being prepared. Offline publication is held until that correction verifies; public offline ZIPs below still describe the preceding release.
+The local library now includes [53 additional vista materials](docs/VISTA-CANDIDATES.md) after a Trackmania linked-item load check and user visual confirmation. Six projected previews/icons use corrected separate top/side dimensions. Local totals are 873 Materials Only / 1,172 Complete (299 Preview only), plus 20 HDRI Worlds. The remote library is now published as extension **1.0.4**, content revision **2026.11.27-vista-catalogs-1**. The 53 additions are correctly placed below their own environment material categories; HDRI World Moods contains only World assets. All 893 public catalog assignments, current release digests and native installation checks passed independent verification. New offline packages are being prepared; public offline ZIPs below still describe the preceding release.
 
 ## Blender 5.3 asset-library extension
 
@@ -77,4 +77,4 @@ Game assets remain the property of their respective owners. This is an independe
 
 For rebuilding and publishing the project, see [Maintaining](docs/MAINTAINING.md). The original installer and build tooling are covered by [LICENSE-CODE](LICENSE-CODE); this licence does not apply to game assets.
 
-> The remote library excludes the five quarantined screens and includes the 53 new vista materials. The new offline revision `2026.11.27-vista-native-1` is in preparation and will apply the same classification after both installers pass verification. No replacement materials are substituted.
+> The remote library excludes the five quarantined screens and includes the 53 new vista materials. The new offline revision `2026.11.27-vista-catalogs-1` is in preparation and will apply the same classification after both installers pass verification. No replacement materials are substituted.
