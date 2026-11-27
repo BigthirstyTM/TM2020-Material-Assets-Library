@@ -114,3 +114,10 @@ entries. Both keep 20 HDRI Worlds. Remote Materials Only excludes the same five
 entries. No alternative texture or material is substituted. Local installation
 is verified; full packages and the remote update are being prepared. Existing
 scene copies and previously exported items are not automatically rewritten.
+
+
+## Follow-up: cached bundles and runtime evidence
+
+After publication, the user reported warning triangles on both removed screens and retained screen materials. Read-only comparison of the user's cache proved it still held the previous bundle-0019 (SHA-256 4c2eaa3ef5a16db4e98ec9c38bb09fb655c130aa48655a9d4d4c3b5bd045741c). The current bundle has SHA-256 4dad7e2d892786471565386e9c52f5d0bd0eb1e1752414e27ca2b0da058b3410. Reopening both bundle inventories confirms exactly five removals, with the other 26 materials preserved. The current online listing has 840 assets including all 26 retained screens. Blender draws its warning when an on-disk remote asset no longer matches its listing; listing refresh alone does not replace the downloaded file. Use Download Assets on an affected asset to fetch the current shared bundle, then refresh the browser.
+
+The user also recalls some removed materials working in-game, without identifying which ones. Archive-path absence is file-level evidence, not proof of runtime failure for all four untested screens. Offline publication is held pending this report; no additional materials are removed or substitutes introduced. The historical alternative suggestions above are superseded by the user's explicit no-substitutions requirement. The only directly user-reported failing example remains 16x9ScreenOff.

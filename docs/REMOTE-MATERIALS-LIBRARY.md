@@ -13,13 +13,13 @@ The existing offline ZIPs remain available.
 
 ## Drag-and-drop installation
 
-1. Open Blender 5.3 or newer. Enable **Online Access** in Preferences â†’ System.
+1. Open Blender 5.3 or newer. Enable **Online Access** in Preferences Ã¢â€ â€™ System.
 2. Open the installation page and drag its green **Drag into Blender to install**
    button into Blender.
 3. Confirm adding our extension repository if Blender asks, then confirm installing
    the asset library extension. Blender may ask you to drag the button again after
    adding a new repository; this is part of Blender's native installation flow.
-4. Enable **Trackmania 2020 - Materials Library** under Preferences â†’ Asset Libraries
+4. Enable **Trackmania 2020 - Materials Library** under Preferences Ã¢â€ â€™ Asset Libraries
    if needed. Select it in an Asset Browser.
 
 No terminal, PowerShell launcher or local server is needed. The installation ZIP
@@ -28,7 +28,7 @@ This is our GitHub-hosted extension repository. Adding it makes the extension
 available through Get Extensions; it is not a listing on Blender's official directory.
 
 For manual installation, download `trackmania_2020_materials_library-1.0.0.zip`
-and use Preferences â†’ Get Extensions â†’ Install from Disk. You can also add the
+and use Preferences Ã¢â€ â€™ Get Extensions Ã¢â€ â€™ Install from Disk. You can also add the
 repository URL above through Get Extensions and install the library from its list.
 
 ## Included assets
@@ -46,8 +46,7 @@ This includes the latest terrain UV layers, water/ice previews, terrain C icons,
 active-source diffuse insets and the six lighter identification thumbnails.
 CustomBricks uses the current production material and icon.
 
-Blendermania and its MaterialLib configuration are separate. This extension does
-not include `MaterialLib.txt`; use the setup provided by Blendermania.
+Blendermania and its MaterialLib configuration are separate. The installation page offers a separate `MaterialLib.txt` download. Save it in a permanent folder and select it in Blendermania Settings ? Material Lib, then save the add-on settings. The asset-library extension does not configure Blendermania automatically.
 
 ## Downloads and updates
 
@@ -146,3 +145,6 @@ Stadium Ad155Screen example fills its square with a centre crop; a gentle
 camera movement reveals its existing parallax depth layers. Visitors who prefer reduced motion see the original static
 thumbnail. Blender Asset Browser thumbnails remain static. In Blender, press
 **Spacebar** (default) to start or stop timeline playback for animated materials.
+
+
+Listing refresh updates metadata, not already-downloaded bundles. A warning triangle can indicate that the cached bundle differs from the current listing. Select an affected asset and use right-click ? Download Assets, then refresh the Asset Browser. Updating a shared bundle also updates the other assets stored in that bundle. Existing scene copies and exported items remain unchanged.
