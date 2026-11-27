@@ -1,6 +1,6 @@
 # Ingame colorpicker materials
 
-The **brush badge** identifies an explicit native `CPlugMaterialColorTargetTable` binding. The audit found **86 current library materials**: Stadium62 and six in each vista. All86 are in Materials Only; Complete retains the same native-linked entries. Counts and export classification are unchanged.
+The **red paintbrush badge** identifies an explicit native `CPlugMaterialColorTargetTable` binding. The audit found **86 current library materials**: Stadium 62 and six in each vista. All 86 are in Materials Only; Complete retains the same native-linked entries. Counts and export classification are unchanged.
 
 The item/block colorpicker selects a color index. The native table maps that index to a material-specific palette, and the shader/masks determine which parts change. This does not promise arbitrary RGB replacement, a complete surface recolor, or that changing a Blender color node changes the exported game palette. NoColorize names, fixed Hue targets and vertex colors are not used as evidence.
 
@@ -8,7 +8,9 @@ Evidence: all985 decoded native materials and all1172 library entries were check
 
 ## Publication status
 
-Remote extension **1.0.6** is published and independently verified with all86 brush badges. Both offline editions now publish revision `2026.11.27-colorpicker-badges-1` with the same86 badges after isolated installer and independent public-file verification.
+The red brush redesign is prepared locally; publication is pending.
+
+Remote extension **1.0.6** is published and independently verified with all 86 brush badges. Both offline editions now publish revision `2026.11.27-colorpicker-badges-1` with the same86 badges after isolated installer and independent public-file verification.
 
 ## Full list of current library materials
 

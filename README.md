@@ -16,6 +16,10 @@ The preceding [Dyna corrections](docs/DYNA-MATERIALS.md), [555 shader follow-up 
 
 Remote extension **1.0.5** now publishes **2026.11.27-vista-logo-masks-1** with the sixteen corrected vista sponsor decals and thumbnails. All public files, native listing, catalog assignments, isolated installation and sampled public appends passed independent verification. Both offline editions now publish the sixteen sponsor corrections and86 colorpicker badges after isolated installer and independent public-file verification. See [the exact shader/channel correction](docs/VISTA-LOGO-MASKS.md).
 
+## Clearer red colorpicker badge
+
+The red brush redesign is prepared locally; publication is pending. The 86 colorpicker materials now use a red badge with a larger, recognisable paintbrush, distinct from the purple parallax marker. Shader graphs and the material selection are unchanged.
+
 ## Ingame colorpicker badges
 
 Published remote extension **1.0.6**, revision **2026.11.27-colorpicker-badges-1**, marks **86 native-linked materials** with a brush badge, based on explicit native color-table references. Material graphs, export identities and existing badges are preserved. All current remote files, native listing, isolated installation and sampled public appends passed independent verification. Both offline editions now publish the same badges and sixteen corrected vista sponsor logos; both isolated installers and all public files passed independent verification. [Full material list and evidence](docs/COLORPICKER-MATERIALS.md).

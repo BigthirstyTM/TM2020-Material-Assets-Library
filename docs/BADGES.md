@@ -12,7 +12,7 @@ The small symbols on saved material thumbnails identify features.
 | Amber play symbol | Animation, animated UVs or an image atlas. |
 | Teal grid / arrow | World-projected material or projection adapter. |
 | Blue arrow / dashed wall | Invisible in game, with collision information recorded in the item files. |
-| Magenta brush | Native ingame colorpicker palette binding. Only authored regions may change. See [all86 materials and source evidence](COLORPICKER-MATERIALS.md). |
+| Red paintbrush | Native ingame colorpicker palette binding. Only authored regions may change. See [all 86 materials and source evidence](COLORPICKER-MATERIALS.md). |
 | Gold World mood | HDRI World asset and its lighting mood. |
 
 A feature badge is an identification aid, not a guarantee that Blender and the game render the effect identically or that every gameplay behaviour has been confirmed.

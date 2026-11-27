@@ -45,6 +45,6 @@
     "badge": "color_picker",
     "name": "TM_DecalPaintSponsor4x1D_asset",
     "title": "Ingame colorpicker",
-    "description": "The brush marks materials that support Trackmania's ingame item/block colorpicker. It colours the designated parts; available colours depend on the material. NoColorize variants are excluded."
+    "description": "The red paintbrush marks materials that support Trackmania's ingame item/block colorpicker. It colours the designated parts; available colours depend on the material. NoColorize variants are excluded."
   }
 ]
