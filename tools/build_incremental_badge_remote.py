@@ -36,13 +36,14 @@ for bundle in report['bundles']:
         # save. Preserve published spelling only when both resolve identically.
         if m.name not in targets:
             previous=json.loads((ref/row['contract_path']).read_text())
-            old_path=previous['properties']['custom_properties'].get('tm_asset_preview_source')
-            current=m.get('tm_asset_preview_source')
-            if old_path and current and old_path!=current:
-                def resolved(value):
-                    return ((source.parent/value[2:]) if value.startswith('//') else Path(value)).resolve()
-                assert resolved(old_path)==resolved(current) and resolved(current).is_file(),('Preview source changed',m.name)
-                m['tm_asset_preview_source']=old_path
+            for prop,old_path in previous['properties']['custom_properties'].items():
+                if not prop.endswith('preview_source'):continue
+                current=m.get(prop)
+                if isinstance(old_path,str) and isinstance(current,str) and old_path and current and old_path!=current:
+                    def resolved(value):
+                        return ((source.parent/value[2:]) if value.startswith('//') else Path(value)).resolve()
+                    assert resolved(old_path)==resolved(current) and resolved(current).is_file(),('Preview source changed',m.name,prop)
+                    m[prop]=old_path
         image_hashes={}
         for tree in trees(m.node_tree):
             for node in tree.nodes:
