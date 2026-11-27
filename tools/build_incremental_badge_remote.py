@@ -1,5 +1,5 @@
 """Rebuild only bundles containing reviewed badge changes; retain stable memberships."""
-import argparse,json,os,shutil,sys,hashlib
+import argparse,json,os,shutil,sys,hashlib,copy
 from pathlib import Path
 import bpy
 sys.path.insert(0,str(Path(__file__).resolve().parent))
@@ -13,7 +13,7 @@ receipt=json.loads(a.installation.read_text());source=Path(receipt['installed'])
 report=json.loads((ref/'build-report.json').read_text());assert len(report['materials'])==873 and len(report['worlds'])==20 and len(report['bundles'])==122
 allowed={r['name'] for r in json.loads(a.inventory.read_text())['materials'] if not r['preview_only']};assert {r['name'] for r in report['materials']}==allowed
 targets={r['name'] for r in json.loads(a.audit.read_text())['materials']};assert len(targets)==86 and targets<=allowed
-changed_paths={r['path'] for r in report['materials'] if r['name'] in targets};changed=[];reused=[]
+changed_paths={r['path'] for r in report['materials'] if r['name'] in targets};changed=[];reused=[];provenance_changes=[]
 for row in report['materials']+report['worlds']:
     dest=out/row['contract_path'];dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(ref/row['contract_path'],dest)
 if (ref/'compression.json').exists():shutil.copy2(ref/'compression.json',out/'compression.json')
@@ -59,16 +59,26 @@ for bundle in report['bundles']:
         data=contract(m,image_hashes);sig=fingerprint(data)
         # Bundled neighbours must retain exactly their published material contract.
         if m.name not in targets and sig!=row['fingerprint']:
-            (out/'neighbour-actual.json').write_text(json.dumps(data,indent=2))
-            (out/'neighbour-expected.json').write_text((ref/row['contract_path']).read_text())
-            raise AssertionError(('Unexpected bundled neighbour change',m.name))
+            # A locally appended datablock may acquire Blender's read-only
+            # append provenance. It cannot affect rendering/export identity.
+            comparable=copy.deepcopy(data)
+            weak=data['properties'].get('library_weak_reference')
+            old_weak=previous['properties'].get('library_weak_reference')
+            if weak!=old_weak:
+                assert old_weak is None and weak['id_name']=='MA'+m.name and Path(weak['filepath']).is_file(),('Unexpected append provenance',m.name,weak)
+                comparable['properties']['library_weak_reference']=old_weak
+            if fingerprint(comparable)!=row['fingerprint']:
+                (out/'neighbour-actual.json').write_text(json.dumps(data,indent=2))
+                (out/'neighbour-expected.json').write_text((ref/row['contract_path']).read_text())
+                raise AssertionError(('Unexpected bundled neighbour change',m.name))
+            provenance_changes.append(dict(name=m.name,previous=old_weak,current=weak))
         (out/row['contract_path']).write_text(json.dumps(data));row['fingerprint']=sig;contracts[row['id']]=sig
     pending=dest.with_suffix('.pending.blend');bpy.data.libraries.write(str(pending),{bpy.data.materials[r['name']] for r in members},path_remap='NONE',fake_user=True,compress=True);pending.replace(dest)
     digest=sha(dest);size=dest.stat().st_size;bundle.update(sha256=digest,bytes=size,fingerprint=fingerprint(contracts))
     for row in members:row.update(sha256=digest,bytes=size)
     changed.append(bundle['id']);print('BADGE_BUNDLE_REBUILT',len(changed),len(changed_paths),bundle['id'],len(members),size,flush=True)
 report.update(source=str(source),source_sha256=receipt['sha256'],revision=receipt['revision'],asset_count=893,total_bytes=sum(b['bytes'] for b in report['bundles']),source_unchanged=True,
-              badge_update=dict(materials=sorted(targets),rebuilt_bundles=changed,reused_bundles=reused))
+              badge_update=dict(materials=sorted(targets),rebuilt_bundles=changed,reused_bundles=reused,append_provenance_changes=provenance_changes))
 shutil.copy2(source.parent/'blender_assets.cats.txt',host/'blender_assets.cats.txt')
 (out/'build-report.json').write_text(json.dumps(report));assert sha(source)==receipt['sha256']
 print('INCREMENTAL_BADGE_REMOTE_READY',len(changed),len(reused),flush=True)
