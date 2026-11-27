@@ -27,7 +27,7 @@ is small; the material files are hosted separately and downloaded when used.
 This is our GitHub-hosted extension repository. Adding it makes the extension
 available through Get Extensions; it is not a listing on Blender's official directory.
 
-For manual installation, download `trackmania_2020_materials_library-1.0.5.zip`
+For manual installation, download `trackmania_2020_materials_library-1.0.6.zip`
 and use Preferences Ã¢â€ â€™ Get Extensions Ã¢â€ â€™ Install from Disk. You can also add the
 repository URL above through Get Extensions and install the library from its list.
 
@@ -157,3 +157,7 @@ Catalog correction: the 53 additions in extension 1.0.3 were incorrectly placed 
 ## Sponsor logo correction: extension 1.0.5
 
 Published content revision `2026.11.27-vista-logo-masks-1` corrects sixteen vista sponsor materials and icons using the native red-channel mask. All current public digests, catalog assignments, isolated native installation and sampled appends passed independent verification. Refresh Remote Listing, then Download Assets for the vista entries to replace cached bundles. Existing scene materials are not rewritten. Both offline editions are being updated. See [exact shader/channel correction](VISTA-LOGO-MASKS.md).
+
+## Ingame colorpicker badges: extension 1.0.6
+
+Published revision `2026.11.27-colorpicker-badges-1` adds brush badges to86 materials with explicit native color-table bindings. All124 current public files,893 catalog assignments, isolated native installation, sampled material appends and World appends passed independent verification. Existing shader graphs and native export links are preserved. Refresh Remote Listing, then Download Assets to replace changed cached bundles. Existing scene materials are not rewritten. Both offline editions are being prepared. See [full material list and evidence](COLORPICKER-MATERIALS.md).

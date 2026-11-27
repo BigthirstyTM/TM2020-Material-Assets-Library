@@ -8,7 +8,7 @@ Evidence: all985 decoded native materials and all1172 library entries were check
 
 ## Publication status
 
-Local badge preparation and fresh independent verification are complete. Remote 1.0.6 is being prepared first, followed by both offline editions. The public 1.0.5 extension and earlier offline ZIPs do not yet include the brush badge.
+Remote extension **1.0.6** is published and independently verified with all86 brush badges. Both offline editions are being prepared; their previous public versions do not yet include these badges.
 
 ## Full list of current library materials
 

@@ -18,7 +18,7 @@ Remote extension **1.0.5** now publishes **2026.11.27-vista-logo-masks-1** with 
 
 ## Ingame colorpicker badges
 
-The local **2026.11.27-colorpicker-badges-1** update marks **86 native-linked materials** with a brush badge, based on explicit native color-table references. Material graphs, export identities and existing badges are preserved. Remote **1.0.6** and both offline ZIP editions are in preparation; the offline update also includes the sixteen corrected vista sponsor logos. [Full material list and evidence](docs/COLORPICKER-MATERIALS.md).
+Published remote extension **1.0.6**, revision **2026.11.27-colorpicker-badges-1**, marks **86 native-linked materials** with a brush badge, based on explicit native color-table references. Material graphs, export identities and existing badges are preserved. All current remote files, native listing, isolated installation and sampled public appends passed independent verification. Both offline editions are being prepared with the same badges and sixteen corrected vista sponsor logos. [Full material list and evidence](docs/COLORPICKER-MATERIALS.md).
 
 ## Current combined refresh
 
