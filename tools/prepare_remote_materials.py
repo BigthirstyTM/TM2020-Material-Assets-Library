@@ -6,9 +6,10 @@ from native_link_validation import validate
 
 p=argparse.ArgumentParser()
 for k in ['export','output']:p.add_argument('--'+k,type=Path,required=True)
+p.add_argument('--version', default='1.0.2')
 a=p.parse_args();root=a.export.resolve();host=root/'host';out=a.output.resolve();site=out/'site';assets=out/'assets';extension=out/'extension'
 repo='BigthirstyTM/TM2020-Material-Assets-Library';tag='materials-library-extension-v1.0.0';base='https://bigthirstytm.github.io/TM2020-Material-Assets-Library/'
-remote_url=base+'remote/tm2020-materials/';library=site/'remote/tm2020-materials';name='Trackmania 2020 - Materials Library';extension_id='trackmania_2020_materials_library';version='1.0.2';zip_name=extension_id+'-'+version+'.zip'
+remote_url=base+'remote/tm2020-materials/';library=site/'remote/tm2020-materials';name='Trackmania 2020 - Materials Library';extension_id='trackmania_2020_materials_library';version=a.version;zip_name=extension_id+'-'+version+'.zip'
 for d in [library/'_v1',assets,extension,site/'extensions']:d.mkdir(parents=True,exist_ok=True)
 def sha(path):
  with path.open('rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()

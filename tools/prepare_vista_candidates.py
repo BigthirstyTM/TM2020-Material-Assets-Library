@@ -4,6 +4,7 @@ import collections
 import hashlib
 import json
 from pathlib import Path
+from vista_array_mapping import descriptor_transform
 
 
 def canonical(value):
@@ -92,10 +93,10 @@ def main():
                     env = native['path'].split('/')[0]
                     path = a.library / 'Textures' / env / filename
                     assert path.is_file(), path
-                    # Retain all matrix fields. Nontrivial fields are explicitly
-                    # recorded as preview limitations rather than silently dropped.
+                    # Retain authoring fields and use separate native top/side
+                    # transforms, corroborated by reflected game layer values.
                     slots[prefix + role] = dict(resource=desc['resource'], path=str(path.resolve()), image=filename,
-                        usage=desc['usage'], scale=[1 / layer['U02'], 1 / layer['U03']], translation=[0, 0], rotation=0,
+                        usage=desc['usage'], **descriptor_transform(layer, side=prefix == 'Pxz'),
                         array_selector=selector, array_fields=layer)
             for role, field in [('PyX2', 'U04'), ('PyH2', 'U05')]:
                 selector = selectors.get(field)
@@ -106,7 +107,7 @@ def main():
                     path = a.library / 'Textures' / native['path'].split('/')[0] / filename
                     assert path.is_file(), path
                     slots[role] = dict(resource=source['descriptor']['resource'], path=str(path.resolve()), image=filename,
-                        usage=source['descriptor']['usage'], scale=[1 / layer['U02'], 1 / layer['U03']], translation=[0, 0], rotation=0,
+                        usage=source['descriptor']['usage'], **descriptor_transform(layer),
                         array_selector=selector, array_fields=layer)
                 else:
                     slots.pop(role, None)

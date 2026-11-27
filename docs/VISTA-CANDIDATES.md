@@ -1,8 +1,10 @@
-# Vista candidates added locally
+# Vista materials: 53 native-linked additions
 
-Revision `2026.11.27-vista-candidates-1` adds **53 source-backed materials** with saved 256?256 icons. They are installed in Complete under `Trackmania2020/08 Preview only/Vista candidates`, grouped by vista. They are not added to Materials Only or the remote extension and have no enabled export links. Each material retains its real source alias/path and decoded shader information for later testing. No similar-looking textures or replacement materials were selected.
+Revision `2026.11.27-vista-native-1` promotes **53 source-backed vista materials** into Materials Only and their existing environment catalogs. Complete now contains **1,172 materials**, including **299 Preview only**; Materials Only contains **873 materials**. All 20 HDRI Worlds are preserved. The remote update is being prepared first; old public offline ZIPs have not yet been rebuilt for this revision.
 
-Complete now has 1,172 materials (352 Preview only). Materials Only remains 820 materials. The 20 HDRI Worlds and all 1,181 preceding asset identities, graphs and icons are preserved. No game session was started.
+All 53 exact native resources loaded successfully in Trackmania and all 53 embedded test items loaded their models. The user watched the fixture and visually confirmed that the materials worked, then authorized promotion. This is a linked-item load and user visual check, not a driving/physics test or proof of identical Blender/native rendering. No substitute textures or replacement links were selected. MaterialLib already contains the 53 aliases and remains byte-for-byte unchanged.
+
+The preceding 1,181 assets retain their graphs, identities, export data, badges and icons. All 53 new asset IDs are preserved; six candidate projection graphs/icons were corrected before promotion.
 
 ## New materials
 
@@ -73,13 +75,13 @@ Names below omit the common `TM_` prefix and `_asset` suffix. The CSV has full n
 - `WhiteShore_TrackWallClipsInWorld`
 - `WhiteShore_TrackWallInWorld`
 
-## Preview limits and later game review
+## Projection correction and preview limits
 
-All 53 materials remain untested in Trackmania. File existence and Blender rendering are not runtime clearance. The candidate aliases are recorded as provenance and are disabled in actual add-on RNA and serialized export properties.
+The source image-array format exposes separate **Py (top)** and **Pxz (side)** dimensions/offsets, plus a Py rotation. Native reflected values were read in the game and compared with the decoded array fields and compiled projection shader. The earlier preview incorrectly reused Py dimensions for Pxz.
 
-17 materials select texture-array layers. Their named source selectors were recovered, including distinct top/side selections where authored. The source records store `cIndexPerVertex=0`; the earlier coverage report must not be read as proving that all 17 require an unknown per-vertex index. These previews use the explicit named material selections. Whether a particular runtime mesh overrides them remains a later test.
+For `WhiteShore_WaterShoreToWaterBottom` and its Rocky variant, `WaterBottomPxz` uses **80 by 7 metres**, with a 2-metre horizontal offset; its top dimensions are 1 by 1 metre and must not be used for the side. The selected `WaterBottom` top texture uses 32 by 32 metres and a 7-degree rotation. The visible every-metre repeated bands were a Blender mapping bug. Native tiling over the authored dimensions remains intentional; mesh-UV transition layers still follow the object's BaseMaterial UV and Color alpha.
 
-Six materials retain nontrivial native array matrix fields that are not fully reconstructed. Their previews use the recorded primary dimensions and show an explicit limitation in material metadata:
+Six graphs and matched thumbnails were corrected:
 
 - `TM_RedIsland_Cliff_asset`
 - `TM_RedIsland_Cliff2_asset`
@@ -88,10 +90,10 @@ Six materials retain nontrivial native array matrix fields that are not fully re
 - `TM_WhiteShore_WaterShoreRockyToWaterBottom_asset`
 - `TM_WhiteShore_WaterShoreToWaterBottom_asset`
 
-The three WarpGround candidates show static source projection; native view/horizon warp remains incomplete. The CubeOut/DispIn candidates reproduce the source surface, color mask and available SI depth branch; some native interior/foreground activation remains approximate. Sponsor decals use their own opacity mask and preserve that mask's aspect in the icon. No foliage was added without a source sprite binding.
+The 17 texture-array materials use their explicit named source selections. The three WarpGround previews retain static source projection; native view/horizon warping remains incomplete. CubeOut/DispIn reproduces the surface, color mask and available SI depth branch; some native interior/foreground activation remains approximate. Sponsor decals use their own opacity masks. No foliage was invented without a source sprite binding.
 
-`Vista-Candidates-Review.blend` in the installed Documentation folder applies all 53 candidates to test meshes with BaseMaterial UV and Color attributes. The scene has no asset marks, so it does not duplicate Asset Browser entries. Open it manually and use Material Preview or Rendered shading. This is a Blender review scene, not an export-ready or game-verified item set. Export aliases must be deliberately enabled in a separate test copy when the full game audit is authorized.
+`Documentation/Vista-Candidates-Review.blend` is a disposable Blender review scene with BaseMaterial UV and Color attributes. It has no asset marks and does not duplicate browser entries. The production materials now have enabled Blendermania RNA and serialized export aliases; the separate old candidate backup retains the prior disabled links.
 
 ## Validation
 
-All 53 graph builds and icons were reopened and checked. All images resolve. The preceding 1,181 assets retained their identities, graphs, export data, badges and saved icons. Source MaterialLib is unchanged. Installation has a recoverable backup. The production remote listing, shared public packages, user Blender GUI and local pilot server were not changed.
+The staged and installed master were independently reopened. All 53 actual add-on export links, serialized aliases, IDs, saved icons and classification were checked. All unrelated assets remain unchanged, all images resolve, and installation has a recoverable backup. The five separately quarantined screen materials and AnimatedFlag remain Preview only. Remote publication checks verify all 873 materials, 20 HDRI Worlds, packed payloads and the native Blender 5.3 extension/listing; remote-first publication status is recorded separately.

@@ -35696,27 +35696,25 @@
     {
       "id": "mat-143e1b9fcd2a787a03da3443",
       "name": "TM_BlueBay_TransitionRocksToCliffPxz_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Material/TransitionRocksToCliffPxz",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/BlueBay",
+      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
       "effective": {
-        "link": ""
+        "link": "BlueBay_TransitionRocksToCliffPxz"
       },
       "collision": {
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "BlueBay_TransitionRocksToCliffPxz",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxz_Ids_Tex.Shader.Gbx",
       "thumbnail_style": "Terrain C",
@@ -35728,34 +35726,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-1fc435c9aea1488d93cec0a1",
       "name": "TM_BlueBay_TransitionRocksToRocksTop_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Material/TransitionRocksToRocksTop",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/BlueBay",
+      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
       "effective": {
-        "link": ""
+        "link": "BlueBay_TransitionRocksToRocksTop"
       },
       "collision": {
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "BlueBay_TransitionRocksToRocksTop",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxz_Ids_Tex.Shader.Gbx",
       "thumbnail_style": "Terrain C",
@@ -35767,34 +35764,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-c45534758832a24eb5c13f81",
       "name": "TM_BlueBay_TransitionRocksToSand_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Material/TransitionRocksToSand",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/BlueBay",
+      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
       "effective": {
-        "link": ""
+        "link": "BlueBay_TransitionRocksToSand"
       },
       "collision": {
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "BlueBay_TransitionRocksToSand",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxz_Ids_Tex.Shader.Gbx",
       "thumbnail_style": "Terrain C",
@@ -35806,34 +35802,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-e7ec2fcf3df64e35e3e610d8",
       "name": "TM_BlueBay_TransitionRocksToSeaFloor_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Material/TransitionRocksToSeaFloor",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/BlueBay",
+      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
       "effective": {
-        "link": ""
+        "link": "BlueBay_TransitionRocksToSeaFloor"
       },
       "collision": {
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "BlueBay_TransitionRocksToSeaFloor",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxz_Ids_Tex.Shader.Gbx",
       "thumbnail_style": "Terrain C",
@@ -35845,34 +35840,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-ecbb5488132af117c48186f0",
       "name": "TM_BlueBay_TransitionToCliffPxz_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Material/TransitionToCliffPxz",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/BlueBay",
+      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
       "effective": {
-        "link": ""
+        "link": "BlueBay_TransitionToCliffPxz"
       },
       "collision": {
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "BlueBay_TransitionToCliffPxz",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxz_Ids_Tex.Shader.Gbx",
       "thumbnail_style": "Terrain C",
@@ -35884,34 +35878,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-571f05aff81524e14e97c6c0",
       "name": "TM_BlueBay_TransitionToSand_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Material/TransitionToSand",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/BlueBay",
+      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
       "effective": {
-        "link": ""
+        "link": "BlueBay_TransitionToSand"
       },
       "collision": {
         "physics": "DirtRoad",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "BlueBay_TransitionToSand",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxz_Ids_Tex.Shader.Gbx",
       "thumbnail_style": "Terrain C",
@@ -35923,34 +35916,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-83b512d8dd83496afb1af63b",
       "name": "TM_BlueBay_TransitionToSeaFloor_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Material/TransitionToSeaFloor",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/BlueBay",
+      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
       "effective": {
-        "link": ""
+        "link": "BlueBay_TransitionToSeaFloor"
       },
       "collision": {
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "BlueBay_TransitionToSeaFloor",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxz_Ids_Tex.Shader.Gbx",
       "thumbnail_style": "Terrain C",
@@ -35962,34 +35954,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-e601d594453f2d29345da07e",
       "name": "TM_BlueBay_DecalPaint2Sponsor4x1D_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/BlueBay",
+      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
       "effective": {
-        "link": ""
+        "link": "BlueBay_DecalPaint2Sponsor4x1D"
       },
       "collision": {
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "BlueBay_DecalPaint2Sponsor4x1D",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Shader.Gbx",
       "thumbnail_style": "A",
@@ -36001,34 +35992,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-a6c335f3c4649877d5242c5e",
       "name": "TM_BlueBay_DecalPaint2Sponsor4x1NoColorizeD_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1NoColorizeD",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/BlueBay",
+      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
       "effective": {
-        "link": ""
+        "link": "BlueBay_DecalPaint2Sponsor4x1NoColorizeD"
       },
       "collision": {
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "BlueBay_DecalPaint2Sponsor4x1NoColorizeD",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Shader.Gbx",
       "thumbnail_style": "A",
@@ -36040,34 +36030,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-529bf115b6d666f74c0ec048",
       "name": "TM_BlueBay_DecalPaintSponsor4x1D_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/BlueBay",
+      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
       "effective": {
-        "link": ""
+        "link": "BlueBay_DecalPaintSponsor4x1D"
       },
       "collision": {
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "BlueBay_DecalPaintSponsor4x1D",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Shader.Gbx",
       "thumbnail_style": "A",
@@ -36079,34 +36068,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-baf08dd121ab2735092aeac5",
       "name": "TM_BlueBay_DecalPaintSponsor4x1NoColorizeD_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1NoColorizeD",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/BlueBay",
+      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
       "effective": {
-        "link": ""
+        "link": "BlueBay_DecalPaintSponsor4x1NoColorizeD"
       },
       "collision": {
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "BlueBay_DecalPaintSponsor4x1NoColorizeD",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Shader.Gbx",
       "thumbnail_style": "A",
@@ -36118,34 +36106,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-fb6c90d52ac6498490fcea83",
       "name": "TM_BlueBay_TrackBordersOffInWorld_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/BlueBay",
+      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
       "effective": {
-        "link": ""
+        "link": "BlueBay_TrackBordersOffInWorld"
       },
       "collision": {
         "physics": "Rubber",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "BlueBay_TrackBordersOffInWorld",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut_DispIn.Shader.Gbx",
       "thumbnail_style": "A",
@@ -36157,34 +36144,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-34871bc26303a75246d91a25",
       "name": "TM_GreenCoast_CliffTransition2ToCliff3_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Material/CliffTransition2ToCliff3",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/GreenCoast",
+      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
       "effective": {
-        "link": ""
+        "link": "GreenCoast_CliffTransition2ToCliff3"
       },
       "collision": {
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "GreenCoast_CliffTransition2ToCliff3",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxz_Ids_Tex.Shader.Gbx",
       "thumbnail_style": "Terrain C",
@@ -36196,34 +36182,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-f8f20b5f539364fbe8cd83ac",
       "name": "TM_GreenCoast_CliffTransitionToCliff2_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Material/CliffTransitionToCliff2",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/GreenCoast",
+      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
       "effective": {
-        "link": ""
+        "link": "GreenCoast_CliffTransitionToCliff2"
       },
       "collision": {
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "GreenCoast_CliffTransitionToCliff2",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxz_Ids_Tex.Shader.Gbx",
       "thumbnail_style": "Terrain C",
@@ -36235,34 +36220,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-cfebac2c992acb7dc3b53d18",
       "name": "TM_GreenCoast_LakeShoreToLake_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Material/LakeShoreToLake",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/GreenCoast",
+      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
       "effective": {
-        "link": ""
+        "link": "GreenCoast_LakeShoreToLake"
       },
       "collision": {
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "GreenCoast_LakeShoreToLake",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxz_Ids_Tex.Shader.Gbx",
       "thumbnail_style": "Terrain C",
@@ -36274,34 +36258,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-4efff2f795dcaa22711749ae",
       "name": "TM_GreenCoast_TransitionForestToTrunkA_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Material/TransitionForestToTrunkA",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/GreenCoast",
+      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
       "effective": {
-        "link": ""
+        "link": "GreenCoast_TransitionForestToTrunkA"
       },
       "collision": {
         "physics": "Grass",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "GreenCoast_TransitionForestToTrunkA",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PxzTDiff_Spec_Norm PC3.Shader.Gbx",
       "thumbnail_style": "Terrain C",
@@ -36313,34 +36296,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Side-projection shader: neutral top preview reuses its own side texture; native top/slope behavior still requires the vista mesh."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-b934e5c56100369cbebbac3d",
       "name": "TM_GreenCoast_WarpGround_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Material/WarpGround",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/GreenCoast",
+      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
       "effective": {
-        "link": ""
+        "link": "GreenCoast_WarpGround"
       },
       "collision": {
         "physics": "DirtRoad",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "GreenCoast_WarpGround",
       "source_shader": "Techno3/Media/Shader/Tech3 Warp PyPxzDiff.Shader.Gbx",
       "thumbnail_style": "Terrain C",
@@ -36352,34 +36334,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Warp ground: static source diffuse projection with recorded PxzScaleTrans. Native horizon/view warping and tangent normals remain unimplemented; this is not a working Warp replacement."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-d8e8e292ff8677c349de3603",
       "name": "TM_GreenCoast_DecalPaint2Sponsor4x1D_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/GreenCoast",
+      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
       "effective": {
-        "link": ""
+        "link": "GreenCoast_DecalPaint2Sponsor4x1D"
       },
       "collision": {
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "GreenCoast_DecalPaint2Sponsor4x1D",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Shader.Gbx",
       "thumbnail_style": "A",
@@ -36391,34 +36372,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-111f3fa806b0f147cc1024b0",
       "name": "TM_GreenCoast_DecalPaint2Sponsor4x1NoColorizeD_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1NoColorizeD",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/GreenCoast",
+      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
       "effective": {
-        "link": ""
+        "link": "GreenCoast_DecalPaint2Sponsor4x1NoColorizeD"
       },
       "collision": {
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "GreenCoast_DecalPaint2Sponsor4x1NoColorizeD",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Shader.Gbx",
       "thumbnail_style": "A",
@@ -36430,34 +36410,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-20d91f08aeb562ce5161715e",
       "name": "TM_GreenCoast_DecalPaintSponsor4x1D_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/GreenCoast",
+      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
       "effective": {
-        "link": ""
+        "link": "GreenCoast_DecalPaintSponsor4x1D"
       },
       "collision": {
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "GreenCoast_DecalPaintSponsor4x1D",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Shader.Gbx",
       "thumbnail_style": "A",
@@ -36469,34 +36448,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-b2e8a8e1dedcb41df8797634",
       "name": "TM_GreenCoast_DecalPaintSponsor4x1NoColorizeD_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1NoColorizeD",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/GreenCoast",
+      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
       "effective": {
-        "link": ""
+        "link": "GreenCoast_DecalPaintSponsor4x1NoColorizeD"
       },
       "collision": {
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "GreenCoast_DecalPaintSponsor4x1NoColorizeD",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Shader.Gbx",
       "thumbnail_style": "A",
@@ -36508,34 +36486,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-31dffd742a8276d12285cd7e",
       "name": "TM_GreenCoast_StructureInWorld_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/StructureInWorld",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/GreenCoast",
+      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
       "effective": {
-        "link": ""
+        "link": "GreenCoast_StructureInWorld"
       },
       "collision": {
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "GreenCoast_StructureInWorld",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut.Shader.Gbx",
       "thumbnail_style": "A",
@@ -36547,33 +36524,32 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters."
-      ]
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-e301b5140079b000c6044a9b",
       "name": "TM_GreenCoast_TrackBordersInWorld_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/GreenCoast",
+      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
       "effective": {
-        "link": ""
+        "link": "GreenCoast_TrackBordersInWorld"
       },
       "collision": {
         "physics": "Rubber",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "GreenCoast_TrackBordersInWorld",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut_DispIn.Shader.Gbx",
       "thumbnail_style": "A",
@@ -36585,34 +36561,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-a4f4b1c1ebef8ae8f5461ce0",
       "name": "TM_GreenCoast_TrackBordersOffInWorld_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/GreenCoast",
+      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
       "effective": {
-        "link": ""
+        "link": "GreenCoast_TrackBordersOffInWorld"
       },
       "collision": {
         "physics": "Rubber",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "GreenCoast_TrackBordersOffInWorld",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut_DispIn.Shader.Gbx",
       "thumbnail_style": "A",
@@ -36624,34 +36599,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-8aa139015ce62ee4cfa84d11",
       "name": "TM_GreenCoast_TrackWallClipsInWorld_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/GreenCoast",
+      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
       "effective": {
-        "link": ""
+        "link": "GreenCoast_TrackWallClipsInWorld"
       },
       "collision": {
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "GreenCoast_TrackWallClipsInWorld",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut.Shader.Gbx",
       "thumbnail_style": "A",
@@ -36663,37 +36637,36 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters."
-      ]
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-615f2fe61c38e6bfcd0222e3",
       "name": "TM_RedIsland_Cliff_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Material/Cliff",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/RedIsland",
+      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
       "effective": {
-        "link": ""
+        "link": "RedIsland_Cliff"
       },
       "collision": {
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "RedIsland_Cliff",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxz_Ids.Shader.Gbx",
       "thumbnail_style": "Terrain C",
-      "thumbnail_revision": "2026.11.27-vista-candidates-1",
+      "thumbnail_revision": "2026.11.27-vista-native-1",
       "thumbnail_lighting": "Neutral soft block studio with physical shadow, or flat composed color for UV/decal designs.",
       "thumbnail_aspect": {
         "image": "CliffPxz_D.dds",
@@ -36701,39 +36674,36 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
-        "Py: array matrix fields are retained; preview uses the recorded U02/U03 dimensions. Full native matrix reconstruction is pending.",
-        "Pxz: array matrix fields are retained; preview uses the recorded U02/U03 dimensions. Full native matrix reconstruction is pending."
-      ]
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-fbd9755c7029fc6538beb0cc",
       "name": "TM_RedIsland_Cliff2_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Material/Cliff2",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/RedIsland",
+      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
       "effective": {
-        "link": ""
+        "link": "RedIsland_Cliff2"
       },
       "collision": {
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "RedIsland_Cliff2",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxz_Ids.Shader.Gbx",
       "thumbnail_style": "Terrain C",
-      "thumbnail_revision": "2026.11.27-vista-candidates-1",
+      "thumbnail_revision": "2026.11.27-vista-native-1",
       "thumbnail_lighting": "Neutral soft block studio with physical shadow, or flat composed color for UV/decal designs.",
       "thumbnail_aspect": {
         "image": "CliffPxz2_D.dds",
@@ -36741,35 +36711,32 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
-        "Py: array matrix fields are retained; preview uses the recorded U02/U03 dimensions. Full native matrix reconstruction is pending.",
-        "Pxz: array matrix fields are retained; preview uses the recorded U02/U03 dimensions. Full native matrix reconstruction is pending."
-      ]
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-81e32d847198f7f87af5c66e",
       "name": "TM_RedIsland_Cliff4_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Material/Cliff4",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/RedIsland",
+      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
       "effective": {
-        "link": ""
+        "link": "RedIsland_Cliff4"
       },
       "collision": {
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "RedIsland_Cliff4",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxz_Ids.Shader.Gbx",
       "thumbnail_style": "Terrain C",
@@ -36781,37 +36748,36 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters."
-      ]
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-35b867e53324045adc0e3d51",
       "name": "TM_RedIsland_CliffEnds_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Material/CliffEnds",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/RedIsland",
+      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
       "effective": {
-        "link": ""
+        "link": "RedIsland_CliffEnds"
       },
       "collision": {
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "RedIsland_CliffEnds",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxz_Ids.Shader.Gbx",
       "thumbnail_style": "Terrain C",
-      "thumbnail_revision": "2026.11.27-vista-candidates-1",
+      "thumbnail_revision": "2026.11.27-vista-native-1",
       "thumbnail_lighting": "Neutral soft block studio with physical shadow, or flat composed color for UV/decal designs.",
       "thumbnail_aspect": {
         "image": "CliffEndsPy_D.dds",
@@ -36819,39 +36785,36 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
-        "Py: array matrix fields are retained; preview uses the recorded U02/U03 dimensions. Full native matrix reconstruction is pending.",
-        "Pxz: array matrix fields are retained; preview uses the recorded U02/U03 dimensions. Full native matrix reconstruction is pending."
-      ]
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-89a47257852869826315ce4c",
       "name": "TM_RedIsland_DetailsRocksToCliff2_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Material/DetailsRocksToCliff2",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/RedIsland",
+      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
       "effective": {
-        "link": ""
+        "link": "RedIsland_DetailsRocksToCliff2"
       },
       "collision": {
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "RedIsland_DetailsRocksToCliff2",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxz_Ids_Tex.Shader.Gbx",
       "thumbnail_style": "Terrain C",
-      "thumbnail_revision": "2026.11.27-vista-candidates-1",
+      "thumbnail_revision": "2026.11.27-vista-native-1",
       "thumbnail_lighting": "Neutral soft block studio with physical shadow, or flat composed color for UV/decal designs.",
       "thumbnail_aspect": {
         "image": "DetailsRocks_D.dds",
@@ -36859,36 +36822,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
-        "Py: array matrix fields are retained; preview uses the recorded U02/U03 dimensions. Full native matrix reconstruction is pending.",
-        "Pxz: array matrix fields are retained; preview uses the recorded U02/U03 dimensions. Full native matrix reconstruction is pending.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-163a920673af43976ae1e2a3",
       "name": "TM_RedIsland_RiverSideToLakeBottom_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Material/RiverSideToLakeBottom",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/RedIsland",
+      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
       "effective": {
-        "link": ""
+        "link": "RedIsland_RiverSideToLakeBottom"
       },
       "collision": {
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "RedIsland_RiverSideToLakeBottom",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxzTDiffSpecNorm_PyX2Hx2.Shader.Gbx",
       "thumbnail_style": "Terrain C",
@@ -36900,34 +36860,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-2d27d8ca82795e88cb634570",
       "name": "TM_RedIsland_WarpGround_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Material/WarpGround",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/RedIsland",
+      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
       "effective": {
-        "link": ""
+        "link": "RedIsland_WarpGround"
       },
       "collision": {
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "RedIsland_WarpGround",
       "source_shader": "Techno3/Media/Shader/Tech3 Warp PyPxzDiff.Shader.Gbx",
       "thumbnail_style": "Terrain C",
@@ -36939,34 +36898,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Warp ground: static source diffuse projection with recorded PxzScaleTrans. Native horizon/view warping and tangent normals remain unimplemented; this is not a working Warp replacement."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-83a500d40a97f0e850a7910e",
       "name": "TM_RedIsland_DecalPaint2Sponsor4x1D_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/RedIsland",
+      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
       "effective": {
-        "link": ""
+        "link": "RedIsland_DecalPaint2Sponsor4x1D"
       },
       "collision": {
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "RedIsland_DecalPaint2Sponsor4x1D",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Shader.Gbx",
       "thumbnail_style": "A",
@@ -36978,34 +36936,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-f1908396c24eea6fd5368bfe",
       "name": "TM_RedIsland_DecalPaint2Sponsor4x1NoColorizeD_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1NoColorizeD",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/RedIsland",
+      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
       "effective": {
-        "link": ""
+        "link": "RedIsland_DecalPaint2Sponsor4x1NoColorizeD"
       },
       "collision": {
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "RedIsland_DecalPaint2Sponsor4x1NoColorizeD",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Shader.Gbx",
       "thumbnail_style": "A",
@@ -37017,34 +36974,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-f15e7b09783eea03fddad97b",
       "name": "TM_RedIsland_DecalPaintSponsor4x1D_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/RedIsland",
+      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
       "effective": {
-        "link": ""
+        "link": "RedIsland_DecalPaintSponsor4x1D"
       },
       "collision": {
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "RedIsland_DecalPaintSponsor4x1D",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Shader.Gbx",
       "thumbnail_style": "A",
@@ -37056,34 +37012,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-31f9484a0296ed86a2e33db8",
       "name": "TM_RedIsland_DecalPaintSponsor4x1NoColorizeD_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1NoColorizeD",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/RedIsland",
+      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
       "effective": {
-        "link": ""
+        "link": "RedIsland_DecalPaintSponsor4x1NoColorizeD"
       },
       "collision": {
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "RedIsland_DecalPaintSponsor4x1NoColorizeD",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Shader.Gbx",
       "thumbnail_style": "A",
@@ -37095,34 +37050,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-87a90623cd0e2e5efc2e52d1",
       "name": "TM_RedIsland_StructureInWorld_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/StructureInWorld",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/RedIsland",
+      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
       "effective": {
-        "link": ""
+        "link": "RedIsland_StructureInWorld"
       },
       "collision": {
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "RedIsland_StructureInWorld",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut.Shader.Gbx",
       "thumbnail_style": "A",
@@ -37134,33 +37088,32 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters."
-      ]
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-4bc119ae249d8bbe40ed5361",
       "name": "TM_RedIsland_TrackBordersInWorld_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/RedIsland",
+      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
       "effective": {
-        "link": ""
+        "link": "RedIsland_TrackBordersInWorld"
       },
       "collision": {
         "physics": "Rubber",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "RedIsland_TrackBordersInWorld",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut_DispIn.Shader.Gbx",
       "thumbnail_style": "A",
@@ -37172,34 +37125,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-74ce475dd3a34b88f279a928",
       "name": "TM_RedIsland_TrackBordersOffInWorld_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/RedIsland",
+      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
       "effective": {
-        "link": ""
+        "link": "RedIsland_TrackBordersOffInWorld"
       },
       "collision": {
         "physics": "Rubber",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "RedIsland_TrackBordersOffInWorld",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut_DispIn.Shader.Gbx",
       "thumbnail_style": "A",
@@ -37211,34 +37163,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-dcf4ff08ab752b253343fb05",
       "name": "TM_RedIsland_TrackWallClipsInWorld_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/RedIsland",
+      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
       "effective": {
-        "link": ""
+        "link": "RedIsland_TrackWallClipsInWorld"
       },
       "collision": {
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "RedIsland_TrackWallClipsInWorld",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut.Shader.Gbx",
       "thumbnail_style": "A",
@@ -37250,33 +37201,32 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters."
-      ]
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-5dd5a3310d9ad3b281ea2c68",
       "name": "TM_RedIsland_TrackWallInWorld_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackWallInWorld",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/RedIsland",
+      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
       "effective": {
-        "link": ""
+        "link": "RedIsland_TrackWallInWorld"
       },
       "collision": {
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "RedIsland_TrackWallInWorld",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxzDiff_Spec_Norm_LM1.Shader.Gbx",
       "thumbnail_style": "Terrain C",
@@ -37288,33 +37238,32 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters."
-      ]
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-c524ecceafb20febff56ae5a",
       "name": "TM_WhiteShore_WarpGround_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Material/WarpGround",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/WhiteShore",
+      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
       "effective": {
-        "link": ""
+        "link": "WhiteShore_WarpGround"
       },
       "collision": {
         "physics": "WetDirtRoad",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "WhiteShore_WarpGround",
       "source_shader": "Techno3/Media/Shader/Tech3 Warp PyPxzDiff.Shader.Gbx",
       "thumbnail_style": "Terrain C",
@@ -37326,38 +37275,37 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Warp ground: static source diffuse projection with recorded PxzScaleTrans. Native horizon/view warping and tangent normals remain unimplemented; this is not a working Warp replacement."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-1653573528a9395ce699514b",
       "name": "TM_WhiteShore_WaterShoreRockyToWaterBottom_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Material/WaterShoreRockyToWaterBottom",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/WhiteShore",
+      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
       "effective": {
-        "link": ""
+        "link": "WhiteShore_WaterShoreRockyToWaterBottom"
       },
       "collision": {
         "physics": "Rock",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "WhiteShore_WaterShoreRockyToWaterBottom",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxz_Ids_Tex.Shader.Gbx",
       "thumbnail_style": "Terrain C",
-      "thumbnail_revision": "2026.11.27-vista-candidates-1",
+      "thumbnail_revision": "2026.11.27-vista-native-1",
       "thumbnail_lighting": "Neutral soft block studio with physical shadow, or flat composed color for UV/decal designs.",
       "thumbnail_aspect": {
         "image": "WaterShoreRocky_D.dds",
@@ -37365,40 +37313,37 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
-        "Py: array matrix fields are retained; preview uses the recorded U02/U03 dimensions. Full native matrix reconstruction is pending.",
-        "Pxz: array matrix fields are retained; preview uses the recorded U02/U03 dimensions. Full native matrix reconstruction is pending.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-5b2ead6ea0318328a7f20923",
       "name": "TM_WhiteShore_WaterShoreToWaterBottom_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Material/WaterShoreToWaterBottom",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/WhiteShore",
+      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
       "effective": {
-        "link": ""
+        "link": "WhiteShore_WaterShoreToWaterBottom"
       },
       "collision": {
         "physics": "Sand",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "WhiteShore_WaterShoreToWaterBottom",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxz_Ids_Tex.Shader.Gbx",
       "thumbnail_style": "Terrain C",
-      "thumbnail_revision": "2026.11.27-vista-candidates-1",
+      "thumbnail_revision": "2026.11.27-vista-native-1",
       "thumbnail_lighting": "Neutral soft block studio with physical shadow, or flat composed color for UV/decal designs.",
       "thumbnail_aspect": {
         "image": "WaterShore_D.dds",
@@ -37406,36 +37351,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
-        "Py: array matrix fields are retained; preview uses the recorded U02/U03 dimensions. Full native matrix reconstruction is pending.",
-        "Pxz: array matrix fields are retained; preview uses the recorded U02/U03 dimensions. Full native matrix reconstruction is pending.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-46551617907b29e04cea8873",
       "name": "TM_WhiteShore_DecalPaint2Sponsor4x1D_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/WhiteShore",
+      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
       "effective": {
-        "link": ""
+        "link": "WhiteShore_DecalPaint2Sponsor4x1D"
       },
       "collision": {
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "WhiteShore_DecalPaint2Sponsor4x1D",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Shader.Gbx",
       "thumbnail_style": "A",
@@ -37447,34 +37389,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-fdb4933e1a7f076adcdc8a5f",
       "name": "TM_WhiteShore_DecalPaint2Sponsor4x1NoColorizeD_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1NoColorizeD",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/WhiteShore",
+      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
       "effective": {
-        "link": ""
+        "link": "WhiteShore_DecalPaint2Sponsor4x1NoColorizeD"
       },
       "collision": {
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "WhiteShore_DecalPaint2Sponsor4x1NoColorizeD",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Shader.Gbx",
       "thumbnail_style": "A",
@@ -37486,34 +37427,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-64aea0028dc164311d8a5577",
       "name": "TM_WhiteShore_DecalPaintSponsor4x1D_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/WhiteShore",
+      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
       "effective": {
-        "link": ""
+        "link": "WhiteShore_DecalPaintSponsor4x1D"
       },
       "collision": {
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "WhiteShore_DecalPaintSponsor4x1D",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Shader.Gbx",
       "thumbnail_style": "A",
@@ -37525,34 +37465,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-1defd6cdc3e43abb3abc225c",
       "name": "TM_WhiteShore_DecalPaintSponsor4x1NoColorizeD_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1NoColorizeD",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/WhiteShore",
+      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
       "effective": {
-        "link": ""
+        "link": "WhiteShore_DecalPaintSponsor4x1NoColorizeD"
       },
       "collision": {
         "physics": "NotCollidable",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "WhiteShore_DecalPaintSponsor4x1NoColorizeD",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Shader.Gbx",
       "thumbnail_style": "A",
@@ -37564,34 +37503,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-91b4e28e128acfad819f3a7b",
       "name": "TM_WhiteShore_StructureInWorld_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/StructureInWorld",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/WhiteShore",
+      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
       "effective": {
-        "link": ""
+        "link": "WhiteShore_StructureInWorld"
       },
       "collision": {
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "WhiteShore_StructureInWorld",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut.Shader.Gbx",
       "thumbnail_style": "A",
@@ -37603,33 +37541,32 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters."
-      ]
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-7377fccaf14e380bf3e32593",
       "name": "TM_WhiteShore_TrackBordersInWorld_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/WhiteShore",
+      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
       "effective": {
-        "link": ""
+        "link": "WhiteShore_TrackBordersInWorld"
       },
       "collision": {
         "physics": "Rubber",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "WhiteShore_TrackBordersInWorld",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut_DispIn.Shader.Gbx",
       "thumbnail_style": "A",
@@ -37641,34 +37578,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-b488f3aae2b47b76dc662b41",
       "name": "TM_WhiteShore_TrackBordersOffInWorld_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/WhiteShore",
+      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
       "effective": {
-        "link": ""
+        "link": "WhiteShore_TrackBordersOffInWorld"
       },
       "collision": {
         "physics": "Rubber",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "WhiteShore_TrackBordersOffInWorld",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut_DispIn.Shader.Gbx",
       "thumbnail_style": "A",
@@ -37680,34 +37616,33 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters.",
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
-      ]
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-9a71e30a48004a8a75574280",
       "name": "TM_WhiteShore_TrackWallClipsInWorld_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/WhiteShore",
+      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
       "effective": {
-        "link": ""
+        "link": "WhiteShore_TrackWallClipsInWorld"
       },
       "collision": {
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "WhiteShore_TrackWallClipsInWorld",
       "source_shader": "Techno3/Media/Shader/Tech3_Block_TDSN_CubeOut.Shader.Gbx",
       "thumbnail_style": "A",
@@ -37719,33 +37654,32 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters."
-      ]
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     },
     {
       "id": "mat-00d021ae4b24b03874606685",
       "name": "TM_WhiteShore_TrackWallInWorld_asset",
-      "preview_type": "Source-backed vista candidate",
+      "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified.",
-        "Preview only; native source alias is retained for later game testing."
+        "Color vertex alpha controls authored transition layers where specified."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Vista candidate"
+        "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackWallInWorld",
-      "catalog": "Trackmania2020/08 Preview only/Vista candidates/WhiteShore",
+      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
       "effective": {
-        "link": ""
+        "link": "WhiteShore_TrackWallInWorld"
       },
       "collision": {
         "physics": "Concrete",
         "gameplay": "None"
       },
-      "preview_only": true,
-      "preview_only_reason": "Source-backed vista candidate; not tested in game. No substitute selected.",
+      "preview_only": false,
       "candidate_alias": "WhiteShore_TrackWallInWorld",
       "source_shader": "Techno3/Media/Shader/Tech3 Block PyPxzDiff_Spec_Norm_LM1.Shader.Gbx",
       "thumbnail_style": "Terrain C",
@@ -37757,8 +37691,9 @@
       },
       "thumbnail_layout": "Tall source-composed terrain block and active layer inset; flat source-aspect panel for UV and sponsor decals.",
       "preview_limitations": [
-        "Untested in Trackmania; candidate source alias is disabled for export. Blender projection, normals and lighting are preview adapters."
-      ]
+        "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      ],
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
     }
   ]
 }

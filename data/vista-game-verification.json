@@ -1,0 +1,333 @@
+{
+  "build_identity": "vista-audit-20261127-2",
+  "source_sha256": "dbce345267667082f6e94ec6b1e63acc05dc850e51ee54dc4e3109b93aaa40f0",
+  "source_path": "build/vista-runtime/Main.as",
+  "sources_loaded": 53,
+  "item_models_loaded": 53,
+  "native_array_values_captured": true,
+  "user_visual_confirmation": "User watched the fixture and reported all materials appeared to work; explicitly requested adding all.",
+  "driving_tested": false,
+  "individual_pixel_comparison": false,
+  "original_helper_source_restored": true,
+  "game_process_already_closed": true,
+  "materials": [
+    {
+      "index": 0,
+      "name": "TM_BlueBay_TransitionRocksToCliffPxz_asset",
+      "source": "BlueBay/Media/Material/TransitionRocksToCliffPxz.Material.Gbx",
+      "link": "BlueBay\\Media\\Material\\TransitionRocksToCliffPxz"
+    },
+    {
+      "index": 1,
+      "name": "TM_BlueBay_TransitionRocksToRocksTop_asset",
+      "source": "BlueBay/Media/Material/TransitionRocksToRocksTop.Material.Gbx",
+      "link": "BlueBay\\Media\\Material\\TransitionRocksToRocksTop"
+    },
+    {
+      "index": 2,
+      "name": "TM_BlueBay_TransitionRocksToSand_asset",
+      "source": "BlueBay/Media/Material/TransitionRocksToSand.Material.Gbx",
+      "link": "BlueBay\\Media\\Material\\TransitionRocksToSand"
+    },
+    {
+      "index": 3,
+      "name": "TM_BlueBay_TransitionRocksToSeaFloor_asset",
+      "source": "BlueBay/Media/Material/TransitionRocksToSeaFloor.Material.Gbx",
+      "link": "BlueBay\\Media\\Material\\TransitionRocksToSeaFloor"
+    },
+    {
+      "index": 4,
+      "name": "TM_BlueBay_TransitionToCliffPxz_asset",
+      "source": "BlueBay/Media/Material/TransitionToCliffPxz.Material.Gbx",
+      "link": "BlueBay\\Media\\Material\\TransitionToCliffPxz"
+    },
+    {
+      "index": 5,
+      "name": "TM_BlueBay_TransitionToSand_asset",
+      "source": "BlueBay/Media/Material/TransitionToSand.Material.Gbx",
+      "link": "BlueBay\\Media\\Material\\TransitionToSand"
+    },
+    {
+      "index": 6,
+      "name": "TM_BlueBay_TransitionToSeaFloor_asset",
+      "source": "BlueBay/Media/Material/TransitionToSeaFloor.Material.Gbx",
+      "link": "BlueBay\\Media\\Material\\TransitionToSeaFloor"
+    },
+    {
+      "index": 7,
+      "name": "TM_BlueBay_DecalPaint2Sponsor4x1D_asset",
+      "source": "BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx",
+      "link": "BlueBay\\Media\\Modifier\\StadiumOnTerrain\\DecalPaint2Sponsor4x1D"
+    },
+    {
+      "index": 8,
+      "name": "TM_BlueBay_DecalPaint2Sponsor4x1NoColorizeD_asset",
+      "source": "BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1NoColorizeD.Material.Gbx",
+      "link": "BlueBay\\Media\\Modifier\\StadiumOnTerrain\\DecalPaint2Sponsor4x1NoColorizeD"
+    },
+    {
+      "index": 9,
+      "name": "TM_BlueBay_DecalPaintSponsor4x1D_asset",
+      "source": "BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx",
+      "link": "BlueBay\\Media\\Modifier\\StadiumOnTerrain\\DecalPaintSponsor4x1D"
+    },
+    {
+      "index": 10,
+      "name": "TM_BlueBay_DecalPaintSponsor4x1NoColorizeD_asset",
+      "source": "BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1NoColorizeD.Material.Gbx",
+      "link": "BlueBay\\Media\\Modifier\\StadiumOnTerrain\\DecalPaintSponsor4x1NoColorizeD"
+    },
+    {
+      "index": 11,
+      "name": "TM_BlueBay_TrackBordersOffInWorld_asset",
+      "source": "BlueBay/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx",
+      "link": "BlueBay\\Media\\Modifier\\StadiumOnTerrain\\TrackBordersOffInWorld"
+    },
+    {
+      "index": 12,
+      "name": "TM_GreenCoast_CliffTransition2ToCliff3_asset",
+      "source": "GreenCoast/Media/Material/CliffTransition2ToCliff3.Material.Gbx",
+      "link": "GreenCoast\\Media\\Material\\CliffTransition2ToCliff3"
+    },
+    {
+      "index": 13,
+      "name": "TM_GreenCoast_CliffTransitionToCliff2_asset",
+      "source": "GreenCoast/Media/Material/CliffTransitionToCliff2.Material.Gbx",
+      "link": "GreenCoast\\Media\\Material\\CliffTransitionToCliff2"
+    },
+    {
+      "index": 14,
+      "name": "TM_GreenCoast_LakeShoreToLake_asset",
+      "source": "GreenCoast/Media/Material/LakeShoreToLake.Material.Gbx",
+      "link": "GreenCoast\\Media\\Material\\LakeShoreToLake"
+    },
+    {
+      "index": 15,
+      "name": "TM_GreenCoast_TransitionForestToTrunkA_asset",
+      "source": "GreenCoast/Media/Material/TransitionForestToTrunkA.Material.Gbx",
+      "link": "GreenCoast\\Media\\Material\\TransitionForestToTrunkA"
+    },
+    {
+      "index": 16,
+      "name": "TM_GreenCoast_WarpGround_asset",
+      "source": "GreenCoast/Media/Material/WarpGround.Material.Gbx",
+      "link": "GreenCoast\\Media\\Material\\WarpGround"
+    },
+    {
+      "index": 17,
+      "name": "TM_GreenCoast_DecalPaint2Sponsor4x1D_asset",
+      "source": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx",
+      "link": "GreenCoast\\Media\\Modifier\\StadiumOnTerrain\\DecalPaint2Sponsor4x1D"
+    },
+    {
+      "index": 18,
+      "name": "TM_GreenCoast_DecalPaint2Sponsor4x1NoColorizeD_asset",
+      "source": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1NoColorizeD.Material.Gbx",
+      "link": "GreenCoast\\Media\\Modifier\\StadiumOnTerrain\\DecalPaint2Sponsor4x1NoColorizeD"
+    },
+    {
+      "index": 19,
+      "name": "TM_GreenCoast_DecalPaintSponsor4x1D_asset",
+      "source": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx",
+      "link": "GreenCoast\\Media\\Modifier\\StadiumOnTerrain\\DecalPaintSponsor4x1D"
+    },
+    {
+      "index": 20,
+      "name": "TM_GreenCoast_DecalPaintSponsor4x1NoColorizeD_asset",
+      "source": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1NoColorizeD.Material.Gbx",
+      "link": "GreenCoast\\Media\\Modifier\\StadiumOnTerrain\\DecalPaintSponsor4x1NoColorizeD"
+    },
+    {
+      "index": 21,
+      "name": "TM_GreenCoast_StructureInWorld_asset",
+      "source": "GreenCoast/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx",
+      "link": "GreenCoast\\Media\\Modifier\\StadiumOnTerrain\\StructureInWorld"
+    },
+    {
+      "index": 22,
+      "name": "TM_GreenCoast_TrackBordersInWorld_asset",
+      "source": "GreenCoast/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld.Material.Gbx",
+      "link": "GreenCoast\\Media\\Modifier\\StadiumOnTerrain\\TrackBordersInWorld"
+    },
+    {
+      "index": 23,
+      "name": "TM_GreenCoast_TrackBordersOffInWorld_asset",
+      "source": "GreenCoast/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx",
+      "link": "GreenCoast\\Media\\Modifier\\StadiumOnTerrain\\TrackBordersOffInWorld"
+    },
+    {
+      "index": 24,
+      "name": "TM_GreenCoast_TrackWallClipsInWorld_asset",
+      "source": "GreenCoast/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx",
+      "link": "GreenCoast\\Media\\Modifier\\StadiumOnTerrain\\TrackWallClipsInWorld"
+    },
+    {
+      "index": 25,
+      "name": "TM_RedIsland_Cliff_asset",
+      "source": "RedIsland/Media/Material/Cliff.Material.Gbx",
+      "link": "RedIsland\\Media\\Material\\Cliff"
+    },
+    {
+      "index": 26,
+      "name": "TM_RedIsland_Cliff2_asset",
+      "source": "RedIsland/Media/Material/Cliff2.Material.Gbx",
+      "link": "RedIsland\\Media\\Material\\Cliff2"
+    },
+    {
+      "index": 27,
+      "name": "TM_RedIsland_Cliff4_asset",
+      "source": "RedIsland/Media/Material/Cliff4.Material.Gbx",
+      "link": "RedIsland\\Media\\Material\\Cliff4"
+    },
+    {
+      "index": 28,
+      "name": "TM_RedIsland_CliffEnds_asset",
+      "source": "RedIsland/Media/Material/CliffEnds.Material.Gbx",
+      "link": "RedIsland\\Media\\Material\\CliffEnds"
+    },
+    {
+      "index": 29,
+      "name": "TM_RedIsland_DetailsRocksToCliff2_asset",
+      "source": "RedIsland/Media/Material/DetailsRocksToCliff2.Material.Gbx",
+      "link": "RedIsland\\Media\\Material\\DetailsRocksToCliff2"
+    },
+    {
+      "index": 30,
+      "name": "TM_RedIsland_RiverSideToLakeBottom_asset",
+      "source": "RedIsland/Media/Material/RiverSideToLakeBottom.Material.Gbx",
+      "link": "RedIsland\\Media\\Material\\RiverSideToLakeBottom"
+    },
+    {
+      "index": 31,
+      "name": "TM_RedIsland_WarpGround_asset",
+      "source": "RedIsland/Media/Material/WarpGround.Material.Gbx",
+      "link": "RedIsland\\Media\\Material\\WarpGround"
+    },
+    {
+      "index": 32,
+      "name": "TM_RedIsland_DecalPaint2Sponsor4x1D_asset",
+      "source": "RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx",
+      "link": "RedIsland\\Media\\Modifier\\StadiumOnTerrain\\DecalPaint2Sponsor4x1D"
+    },
+    {
+      "index": 33,
+      "name": "TM_RedIsland_DecalPaint2Sponsor4x1NoColorizeD_asset",
+      "source": "RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1NoColorizeD.Material.Gbx",
+      "link": "RedIsland\\Media\\Modifier\\StadiumOnTerrain\\DecalPaint2Sponsor4x1NoColorizeD"
+    },
+    {
+      "index": 34,
+      "name": "TM_RedIsland_DecalPaintSponsor4x1D_asset",
+      "source": "RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx",
+      "link": "RedIsland\\Media\\Modifier\\StadiumOnTerrain\\DecalPaintSponsor4x1D"
+    },
+    {
+      "index": 35,
+      "name": "TM_RedIsland_DecalPaintSponsor4x1NoColorizeD_asset",
+      "source": "RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1NoColorizeD.Material.Gbx",
+      "link": "RedIsland\\Media\\Modifier\\StadiumOnTerrain\\DecalPaintSponsor4x1NoColorizeD"
+    },
+    {
+      "index": 36,
+      "name": "TM_RedIsland_StructureInWorld_asset",
+      "source": "RedIsland/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx",
+      "link": "RedIsland\\Media\\Modifier\\StadiumOnTerrain\\StructureInWorld"
+    },
+    {
+      "index": 37,
+      "name": "TM_RedIsland_TrackBordersInWorld_asset",
+      "source": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld.Material.Gbx",
+      "link": "RedIsland\\Media\\Modifier\\StadiumOnTerrain\\TrackBordersInWorld"
+    },
+    {
+      "index": 38,
+      "name": "TM_RedIsland_TrackBordersOffInWorld_asset",
+      "source": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx",
+      "link": "RedIsland\\Media\\Modifier\\StadiumOnTerrain\\TrackBordersOffInWorld"
+    },
+    {
+      "index": 39,
+      "name": "TM_RedIsland_TrackWallClipsInWorld_asset",
+      "source": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx",
+      "link": "RedIsland\\Media\\Modifier\\StadiumOnTerrain\\TrackWallClipsInWorld"
+    },
+    {
+      "index": 40,
+      "name": "TM_RedIsland_TrackWallInWorld_asset",
+      "source": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackWallInWorld.Material.Gbx",
+      "link": "RedIsland\\Media\\Modifier\\StadiumOnTerrain\\TrackWallInWorld"
+    },
+    {
+      "index": 41,
+      "name": "TM_WhiteShore_WarpGround_asset",
+      "source": "WhiteShore/Media/Material/WarpGround.Material.Gbx",
+      "link": "WhiteShore\\Media\\Material\\WarpGround"
+    },
+    {
+      "index": 42,
+      "name": "TM_WhiteShore_WaterShoreRockyToWaterBottom_asset",
+      "source": "WhiteShore/Media/Material/WaterShoreRockyToWaterBottom.Material.Gbx",
+      "link": "WhiteShore\\Media\\Material\\WaterShoreRockyToWaterBottom"
+    },
+    {
+      "index": 43,
+      "name": "TM_WhiteShore_WaterShoreToWaterBottom_asset",
+      "source": "WhiteShore/Media/Material/WaterShoreToWaterBottom.Material.Gbx",
+      "link": "WhiteShore\\Media\\Material\\WaterShoreToWaterBottom"
+    },
+    {
+      "index": 44,
+      "name": "TM_WhiteShore_DecalPaint2Sponsor4x1D_asset",
+      "source": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx",
+      "link": "WhiteShore\\Media\\Modifier\\StadiumOnTerrain\\DecalPaint2Sponsor4x1D"
+    },
+    {
+      "index": 45,
+      "name": "TM_WhiteShore_DecalPaint2Sponsor4x1NoColorizeD_asset",
+      "source": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1NoColorizeD.Material.Gbx",
+      "link": "WhiteShore\\Media\\Modifier\\StadiumOnTerrain\\DecalPaint2Sponsor4x1NoColorizeD"
+    },
+    {
+      "index": 46,
+      "name": "TM_WhiteShore_DecalPaintSponsor4x1D_asset",
+      "source": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx",
+      "link": "WhiteShore\\Media\\Modifier\\StadiumOnTerrain\\DecalPaintSponsor4x1D"
+    },
+    {
+      "index": 47,
+      "name": "TM_WhiteShore_DecalPaintSponsor4x1NoColorizeD_asset",
+      "source": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1NoColorizeD.Material.Gbx",
+      "link": "WhiteShore\\Media\\Modifier\\StadiumOnTerrain\\DecalPaintSponsor4x1NoColorizeD"
+    },
+    {
+      "index": 48,
+      "name": "TM_WhiteShore_StructureInWorld_asset",
+      "source": "WhiteShore/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx",
+      "link": "WhiteShore\\Media\\Modifier\\StadiumOnTerrain\\StructureInWorld"
+    },
+    {
+      "index": 49,
+      "name": "TM_WhiteShore_TrackBordersInWorld_asset",
+      "source": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld.Material.Gbx",
+      "link": "WhiteShore\\Media\\Modifier\\StadiumOnTerrain\\TrackBordersInWorld"
+    },
+    {
+      "index": 50,
+      "name": "TM_WhiteShore_TrackBordersOffInWorld_asset",
+      "source": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx",
+      "link": "WhiteShore\\Media\\Modifier\\StadiumOnTerrain\\TrackBordersOffInWorld"
+    },
+    {
+      "index": 51,
+      "name": "TM_WhiteShore_TrackWallClipsInWorld_asset",
+      "source": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx",
+      "link": "WhiteShore\\Media\\Modifier\\StadiumOnTerrain\\TrackWallClipsInWorld"
+    },
+    {
+      "index": 52,
+      "name": "TM_WhiteShore_TrackWallInWorld_asset",
+      "source": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackWallInWorld.Material.Gbx",
+      "link": "WhiteShore\\Media\\Modifier\\StadiumOnTerrain\\TrackWallInWorld"
+    }
+  ]
+}

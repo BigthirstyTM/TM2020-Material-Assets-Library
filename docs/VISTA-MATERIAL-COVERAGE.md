@@ -1,6 +1,6 @@
 # Vista material coverage audit
 
-Research date: 2026-11-27. This report records the read-only baseline before the authorized local build. The subsequent 53 Preview only additions are documented in VISTA-CANDIDATES.md; no public release or game session was changed.
+Research date: 2026-11-27. This report records the read-only baseline before the authorized local build. The 53 subsequent source-backed additions and their later game check/promotion are documented in [VISTA-CANDIDATES.md](VISTA-CANDIDATES.md). The counts below are the historical pre-build baseline, not the current library coverage. All 119 standalone vista paths are now represented by assets.
 
 ## Findings
 

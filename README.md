@@ -18,6 +18,10 @@ Content revision **2026.11.26-thumbnail-shadow-lift-1** includes the Dyna and sh
 
 Both full packages include the improvements to 31 projected previews, two light tubes and four optional structure colour masks, plus 88 recovered exact shader references. See [projected surfaces](docs/PROJECTED-SURFACES.md) and [source resolution](docs/SOURCE-RESOLUTION.md). The [shader reconciliation](docs/SHADER-RECONCILIATION.md) clarifies 94 root/pass references and improves ten array-based terrain previews plus LakeBottom. These source references do not promote Preview only entries to confirmed game compatibility.
 
+## Vista update in preparation
+
+The local library now includes [53 additional vista materials](docs/VISTA-CANDIDATES.md) after a Trackmania linked-item load check and user visual confirmation. Six projected previews/icons use corrected separate top/side dimensions. Local totals are 873 Materials Only / 1,172 Complete (299 Preview only), plus 20 HDRI Worlds. The remote library is being updated first; public offline ZIPs below still describe the preceding release.
+
 ## Blender 5.3 asset-library extension
 
 The full **Trackmania 2020 - Materials Library** extension is published with all 820 Materials Only entries and 20 HDRI Worlds. Install it from the [drag-and-drop installation page](https://bigthirstytm.github.io/TM2020-Material-Assets-Library/) or the [separate Blender 5.3+ asset-library extension release](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/materials-library-extension-v1.0.0). It uses our GitHub-hosted extension repository. See [installation and update details](docs/REMOTE-MATERIALS-LIBRARY.md). The full remote download is 3.35 GB in 118 files (98 material bundles and 20 HDRI Worlds); only changed bundles need downloading again. Five legacy screen materials with missing game targets are retained only under Preview only in Complete. Original texture resolutions are retained. Offline ZIPs remain available.
@@ -45,7 +49,7 @@ The combined `2026.11.23-native-surfaces-1` refresh includes the DecoHill UV ove
 
 It also includes the preceding 32-material Deco/PlatformIce update and another 183 corrected previews: remaining RoadDirt/ice layers, Custom Hue colour and macrodetail, native top/side texture families, GrassFence cutout, Warp screen normals and RoughMetal/specular connections. Matching thumbnails retain the existing feature badges. See [Native surface corrections](docs/CONCRETE-SHADER-CORRECTIONS.md) and [Deco and ice previews](docs/DECO-ICE-PREVIEWS.md). Check `release.json` or the installed `library.json` for the package's content revision.
 
-Native-linked means an export link is available. It is not a blanket guarantee of in-game visibility, identical appearance, physics or crash-free behaviour. Preview only assets are reference assets with unconfirmed, conditional or unsupported export behaviour and are kept under **Trackmania2020 → 08 Preview only**. This includes vegetation previews that are not currently exportable through this library.
+Native-linked means an export link is available. It is not a blanket guarantee of in-game visibility, identical appearance, physics or crash-free behaviour. Preview only assets are reference assets with unconfirmed, conditional or unsupported export behaviour and are kept under **Trackmania2020 â†’ 08 Preview only**. This includes vegetation previews that are not currently exportable through this library.
 
 ## Install on Windows
 
