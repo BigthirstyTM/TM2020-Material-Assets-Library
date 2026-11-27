@@ -4,6 +4,7 @@ from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from apply_shader_fidelity import identity,graph,sha
 from vista_array_mapping import descriptor_transform
+from vista_catalogs import material_catalog
 from vista_thumbnails import render_previews
 import deco_ice_adapters
 from projection_refresh_adapters import projected
@@ -55,11 +56,12 @@ for r in recipes['materials']:
  m['tm_vista_runtime_status']='Loaded native source and linked item; user visually confirmed fixture'
  m['tm_current_export_status']='Native link enabled after vista fixture game check';m['tm_vista_candidate_revision']=REVISION
  m.link=r['alias'];m['MAT_PROPS_AS_JSON']=json.dumps(dict(name=m.name,link=r['alias']))
- path='Trackmania2020/04 Environments/'+r['environment']
- # Use the existing native environment catalog, preserving its established UUID.
- matches=[(k,v) for k,v in cat_by_path.items() if k.endswith('/'+r['environment']) and 'Preview only' not in k]
- assert len(matches)==1,(r['environment'],matches)
- path,cid=matches[0];m.asset_data.catalog_id=cid
+ path=material_catalog(m.name,r['environment'])
+ if path not in cat_by_path:
+  import uuid
+  cid=str(uuid.uuid5(uuid.NAMESPACE_URL,'https://bigthirstytm.github.io/TM2020-Material-Assets-Library/catalog/'+path))
+  cat_by_path[path]=cid;catalogs+='\n'+cid+':'+path+':'+path.replace('/','-')+'\n'
+ cid=cat_by_path[path];m.asset_data.catalog_id=cid
  m.asset_data.description=('Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: '+r['source']+'. '+' '.join(limitations))[:1023]
  for tag in list(m.asset_data.tags):
   if tag.name in ['Preview only','Vista candidate','Not tested in game']:m.asset_data.tags.remove(tag)

@@ -20,6 +20,11 @@ proof={}
 for edition,count,groupcount in [('materials-only',sum(not r['preview_only'] for r in inventory),0),('complete',len(inventory),42)]:
     root=stage/edition;bpy.ops.wm.open_mainfile(filepath=str(root/'Trackmania2020_assets.blend'),load_ui=False)
     mats=[m for m in bpy.data.materials if m.asset_data];assert len(mats)==count
+    catalogs={p[0]:p[1] for line in (root/'blender_assets.cats.txt').read_text(encoding='utf-8').splitlines() if len(p:=line.split(':',2))==3 and not line.startswith('#')}
+    for m in mats:
+        assert catalogs[m.asset_data.catalog_id]==expected[m.name]['catalog'] and '/06 HDRI World Moods' not in catalogs[m.asset_data.catalog_id],m.name
+    for w in bpy.data.worlds:
+        if w.asset_data:assert catalogs[w.asset_data.catalog_id].startswith('Trackmania2020/06 HDRI World Moods/'),w.name
     assert sum(bool(g.asset_data) for g in bpy.data.node_groups)==groupcount
     materiallib=(root/'MaterialLib.txt').read_bytes()
     assert b'DMaterial(Stadium_ItemFlag)' not in materiallib

@@ -97,3 +97,5 @@ The 17 texture-array materials use their explicit named source selections. The t
 ## Validation
 
 The staged and installed master were independently reopened. All 53 actual add-on export links, serialized aliases, IDs, saved icons and classification were checked. All unrelated assets remain unchanged, all images resolve, and installation has a recoverable backup. The five separately quarantined screen materials and AnimatedFlag remain Preview only. Remote publication checks verify all 873 materials, 20 HDRI Worlds, packed payloads and the native Blender 5.3 extension/listing; remote-first publication status is recorded separately.
+
+Catalog correction: the 53 additions in extension 1.0.3 were incorrectly placed below HDRI World Moods. Exact environment material paths are corrected locally; extension 1.0.4 is being prepared. See [catalog correction](VISTA-CATALOGS.md).

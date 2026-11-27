@@ -150,3 +150,5 @@ thumbnail. Blender Asset Browser thumbnails remain static. In Blender, press
 
 
 Listing refresh updates metadata, not already-downloaded bundles. A warning triangle can indicate that the cached bundle differs from the current listing. Select an affected asset and use right-click ? Download Assets, then refresh the Asset Browser. Updating a shared bundle also updates the other assets stored in that bundle. Existing scene copies and exported items remain unchanged.
+
+Catalog correction: the 53 additions in extension 1.0.3 were incorrectly placed below HDRI World Moods. Exact environment material paths are corrected locally; extension 1.0.4 is being prepared. See [catalog correction](VISTA-CATALOGS.md).

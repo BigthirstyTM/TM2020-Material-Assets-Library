@@ -3,6 +3,7 @@ import argparse,hashlib,html,json,os,shutil,subprocess,urllib.parse
 from PIL import Image
 from pathlib import Path
 from native_link_validation import validate
+from vista_catalogs import validate_listing_catalogs
 
 p=argparse.ArgumentParser()
 for k in ['export','output']:p.add_argument('--'+k,type=Path,required=True)
@@ -38,6 +39,7 @@ for entry in index['pages']:
   shutil.copy2(source,dest);thumb['url']=relative
  path=library/entry['url'];path.parent.mkdir(exist_ok=True);write(path,page);pages.append(dict(url=entry['url'],hash='SHA256:'+sha(path)))
 assert len(all_assets)==asset_count and len(payloads)==len(rows) and {m['name'] for m in all_assets}==set(materials_by_name)
+write(out/'catalog-verification.json',validate_listing_catalogs(index,all_assets,inventory))
 used={m['meta']['catalog_id'] for m in all_assets};paths={c['path'] for c in index['catalogs'] if set(c['uuids'])&used}
 index['catalogs']=[c for c in index['catalogs'] if any(path==c['path'] or path.startswith(c['path']+'/') for path in paths)]
 assert not any('Preview only' in c['path'] for c in index['catalogs'])

@@ -35706,7 +35706,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Material/TransitionRocksToCliffPxz",
-      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
+      "catalog": "Trackmania2020/02 BlueBay/Materials/Terrain",
       "effective": {
         "link": "BlueBay_TransitionRocksToCliffPxz"
       },
@@ -35744,7 +35744,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Material/TransitionRocksToRocksTop",
-      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
+      "catalog": "Trackmania2020/02 BlueBay/Materials/Terrain",
       "effective": {
         "link": "BlueBay_TransitionRocksToRocksTop"
       },
@@ -35782,7 +35782,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Material/TransitionRocksToSand",
-      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
+      "catalog": "Trackmania2020/02 BlueBay/Materials/Terrain",
       "effective": {
         "link": "BlueBay_TransitionRocksToSand"
       },
@@ -35820,7 +35820,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Material/TransitionRocksToSeaFloor",
-      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
+      "catalog": "Trackmania2020/02 BlueBay/Materials/Terrain",
       "effective": {
         "link": "BlueBay_TransitionRocksToSeaFloor"
       },
@@ -35858,7 +35858,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Material/TransitionToCliffPxz",
-      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
+      "catalog": "Trackmania2020/02 BlueBay/Materials/Terrain",
       "effective": {
         "link": "BlueBay_TransitionToCliffPxz"
       },
@@ -35896,7 +35896,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Material/TransitionToSand",
-      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
+      "catalog": "Trackmania2020/02 BlueBay/Materials/Terrain",
       "effective": {
         "link": "BlueBay_TransitionToSand"
       },
@@ -35934,7 +35934,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Material/TransitionToSeaFloor",
-      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
+      "catalog": "Trackmania2020/02 BlueBay/Materials/Terrain",
       "effective": {
         "link": "BlueBay_TransitionToSeaFloor"
       },
@@ -35972,7 +35972,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D",
-      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
+      "catalog": "Trackmania2020/02 BlueBay/Materials/Decals and signs",
       "effective": {
         "link": "BlueBay_DecalPaint2Sponsor4x1D"
       },
@@ -36010,7 +36010,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1NoColorizeD",
-      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
+      "catalog": "Trackmania2020/02 BlueBay/Materials/Decals and signs",
       "effective": {
         "link": "BlueBay_DecalPaint2Sponsor4x1NoColorizeD"
       },
@@ -36048,7 +36048,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D",
-      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
+      "catalog": "Trackmania2020/02 BlueBay/Materials/Decals and signs",
       "effective": {
         "link": "BlueBay_DecalPaintSponsor4x1D"
       },
@@ -36086,7 +36086,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1NoColorizeD",
-      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
+      "catalog": "Trackmania2020/02 BlueBay/Materials/Decals and signs",
       "effective": {
         "link": "BlueBay_DecalPaintSponsor4x1NoColorizeD"
       },
@@ -36124,7 +36124,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "BlueBay/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld",
-      "catalog": "Trackmania2020/06 HDRI World Moods/BlueBay",
+      "catalog": "Trackmania2020/02 BlueBay/Materials/Other materials",
       "effective": {
         "link": "BlueBay_TrackBordersOffInWorld"
       },
@@ -36162,7 +36162,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Material/CliffTransition2ToCliff3",
-      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Terrain",
       "effective": {
         "link": "GreenCoast_CliffTransition2ToCliff3"
       },
@@ -36200,7 +36200,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Material/CliffTransitionToCliff2",
-      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Terrain",
       "effective": {
         "link": "GreenCoast_CliffTransitionToCliff2"
       },
@@ -36238,7 +36238,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Material/LakeShoreToLake",
-      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Terrain",
       "effective": {
         "link": "GreenCoast_LakeShoreToLake"
       },
@@ -36276,7 +36276,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Material/TransitionForestToTrunkA",
-      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Terrain",
       "effective": {
         "link": "GreenCoast_TransitionForestToTrunkA"
       },
@@ -36314,7 +36314,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Material/WarpGround",
-      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Terrain",
       "effective": {
         "link": "GreenCoast_WarpGround"
       },
@@ -36352,7 +36352,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D",
-      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Decals and signs",
       "effective": {
         "link": "GreenCoast_DecalPaint2Sponsor4x1D"
       },
@@ -36390,7 +36390,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1NoColorizeD",
-      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Decals and signs",
       "effective": {
         "link": "GreenCoast_DecalPaint2Sponsor4x1NoColorizeD"
       },
@@ -36428,7 +36428,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D",
-      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Decals and signs",
       "effective": {
         "link": "GreenCoast_DecalPaintSponsor4x1D"
       },
@@ -36466,7 +36466,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1NoColorizeD",
-      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Decals and signs",
       "effective": {
         "link": "GreenCoast_DecalPaintSponsor4x1NoColorizeD"
       },
@@ -36504,7 +36504,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/StructureInWorld",
-      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Other materials",
       "effective": {
         "link": "GreenCoast_StructureInWorld"
       },
@@ -36541,7 +36541,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld",
-      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Other materials",
       "effective": {
         "link": "GreenCoast_TrackBordersInWorld"
       },
@@ -36579,7 +36579,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld",
-      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Other materials",
       "effective": {
         "link": "GreenCoast_TrackBordersOffInWorld"
       },
@@ -36617,7 +36617,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld",
-      "catalog": "Trackmania2020/06 HDRI World Moods/GreenCoast",
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Other materials",
       "effective": {
         "link": "GreenCoast_TrackWallClipsInWorld"
       },
@@ -36654,7 +36654,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Material/Cliff",
-      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Terrain",
       "effective": {
         "link": "RedIsland_Cliff"
       },
@@ -36691,7 +36691,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Material/Cliff2",
-      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Terrain",
       "effective": {
         "link": "RedIsland_Cliff2"
       },
@@ -36728,7 +36728,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Material/Cliff4",
-      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Terrain",
       "effective": {
         "link": "RedIsland_Cliff4"
       },
@@ -36765,7 +36765,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Material/CliffEnds",
-      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Terrain",
       "effective": {
         "link": "RedIsland_CliffEnds"
       },
@@ -36802,7 +36802,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Material/DetailsRocksToCliff2",
-      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Terrain",
       "effective": {
         "link": "RedIsland_DetailsRocksToCliff2"
       },
@@ -36840,7 +36840,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Material/RiverSideToLakeBottom",
-      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Terrain",
       "effective": {
         "link": "RedIsland_RiverSideToLakeBottom"
       },
@@ -36878,7 +36878,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Material/WarpGround",
-      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Terrain",
       "effective": {
         "link": "RedIsland_WarpGround"
       },
@@ -36916,7 +36916,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D",
-      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Decals and signs",
       "effective": {
         "link": "RedIsland_DecalPaint2Sponsor4x1D"
       },
@@ -36954,7 +36954,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1NoColorizeD",
-      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Decals and signs",
       "effective": {
         "link": "RedIsland_DecalPaint2Sponsor4x1NoColorizeD"
       },
@@ -36992,7 +36992,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D",
-      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Decals and signs",
       "effective": {
         "link": "RedIsland_DecalPaintSponsor4x1D"
       },
@@ -37030,7 +37030,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1NoColorizeD",
-      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Decals and signs",
       "effective": {
         "link": "RedIsland_DecalPaintSponsor4x1NoColorizeD"
       },
@@ -37068,7 +37068,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/StructureInWorld",
-      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Other materials",
       "effective": {
         "link": "RedIsland_StructureInWorld"
       },
@@ -37105,7 +37105,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld",
-      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Other materials",
       "effective": {
         "link": "RedIsland_TrackBordersInWorld"
       },
@@ -37143,7 +37143,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld",
-      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Other materials",
       "effective": {
         "link": "RedIsland_TrackBordersOffInWorld"
       },
@@ -37181,7 +37181,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld",
-      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Other materials",
       "effective": {
         "link": "RedIsland_TrackWallClipsInWorld"
       },
@@ -37218,7 +37218,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackWallInWorld",
-      "catalog": "Trackmania2020/06 HDRI World Moods/RedIsland",
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Other materials",
       "effective": {
         "link": "RedIsland_TrackWallInWorld"
       },
@@ -37255,7 +37255,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Material/WarpGround",
-      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
+      "catalog": "Trackmania2020/05 WhiteShore/Materials/Terrain",
       "effective": {
         "link": "WhiteShore_WarpGround"
       },
@@ -37293,7 +37293,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Material/WaterShoreRockyToWaterBottom",
-      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
+      "catalog": "Trackmania2020/05 WhiteShore/Materials/Terrain",
       "effective": {
         "link": "WhiteShore_WaterShoreRockyToWaterBottom"
       },
@@ -37331,7 +37331,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Material/WaterShoreToWaterBottom",
-      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
+      "catalog": "Trackmania2020/05 WhiteShore/Materials/Terrain",
       "effective": {
         "link": "WhiteShore_WaterShoreToWaterBottom"
       },
@@ -37369,7 +37369,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D",
-      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
+      "catalog": "Trackmania2020/05 WhiteShore/Materials/Decals and signs",
       "effective": {
         "link": "WhiteShore_DecalPaint2Sponsor4x1D"
       },
@@ -37407,7 +37407,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1NoColorizeD",
-      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
+      "catalog": "Trackmania2020/05 WhiteShore/Materials/Decals and signs",
       "effective": {
         "link": "WhiteShore_DecalPaint2Sponsor4x1NoColorizeD"
       },
@@ -37445,7 +37445,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D",
-      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
+      "catalog": "Trackmania2020/05 WhiteShore/Materials/Decals and signs",
       "effective": {
         "link": "WhiteShore_DecalPaintSponsor4x1D"
       },
@@ -37483,7 +37483,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1NoColorizeD",
-      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
+      "catalog": "Trackmania2020/05 WhiteShore/Materials/Decals and signs",
       "effective": {
         "link": "WhiteShore_DecalPaintSponsor4x1NoColorizeD"
       },
@@ -37521,7 +37521,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/StructureInWorld",
-      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
+      "catalog": "Trackmania2020/05 WhiteShore/Materials/Other materials",
       "effective": {
         "link": "WhiteShore_StructureInWorld"
       },
@@ -37558,7 +37558,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld",
-      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
+      "catalog": "Trackmania2020/05 WhiteShore/Materials/Other materials",
       "effective": {
         "link": "WhiteShore_TrackBordersInWorld"
       },
@@ -37596,7 +37596,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld",
-      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
+      "catalog": "Trackmania2020/05 WhiteShore/Materials/Other materials",
       "effective": {
         "link": "WhiteShore_TrackBordersOffInWorld"
       },
@@ -37634,7 +37634,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld",
-      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
+      "catalog": "Trackmania2020/05 WhiteShore/Materials/Other materials",
       "effective": {
         "link": "WhiteShore_TrackWallClipsInWorld"
       },
@@ -37671,7 +37671,7 @@
         "Game checked: vista fixture"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackWallInWorld",
-      "catalog": "Trackmania2020/06 HDRI World Moods/WhiteShore",
+      "catalog": "Trackmania2020/05 WhiteShore/Materials/Other materials",
       "effective": {
         "link": "WhiteShore_TrackWallInWorld"
       },
