@@ -590,8 +590,8 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-3138ca7ffe45af8435f89f59.c09984c3fed7372d.webp",
-        "hash": "SHA256:c09984c3fed7372d25cac630b147b83f434e9000d7f760ca33438167aed9b66f"
+        "url": "thumbnails/mat-3138ca7ffe45af8435f89f59.f6a7c3906c35b71f.webp",
+        "hash": "SHA256:f6a7c3906c35b71f7d3c95f1b9875269bd562ad5ec217670f2a1165758879210"
       },
       "meta": {
         "catalog_id": "4e5fb21a-52f7-5a19-95cc-3e89edd3cf06",
@@ -603,7 +603,8 @@
           "Preview: Source texture",
           "Export: Native binding",
           "Usage: BaseMaterial UV",
-          "Evidence: Historical file check"
+          "Evidence: Historical file check",
+          "Game colorpicker"
         ],
         "author": "Ubisoft Nadeo (source textures)",
         "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial."
@@ -619,8 +620,8 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-a0a0d2bfd41f7717c6d9d781.858c1f0cf70342ea.webp",
-        "hash": "SHA256:858c1f0cf70342ea423fe5b9daad865548956aade1b75715f2c694a33a80ceda"
+        "url": "thumbnails/mat-a0a0d2bfd41f7717c6d9d781.dd35a33b5eb0f28b.webp",
+        "hash": "SHA256:dd35a33b5eb0f28b9b0d7a4d122819cfe6eb7595cc5032914bdc81b8dc35bab5"
       },
       "meta": {
         "catalog_id": "35253e7c-8d09-4a3f-9c95-1a2cc4561be5",
@@ -629,7 +630,8 @@
           "Preview: Source texture",
           "Export: Native binding",
           "Usage: BaseMaterial UV",
-          "Evidence: Historical file check"
+          "Evidence: Historical file check",
+          "Game colorpicker"
         ],
         "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial."
       }
@@ -644,8 +646,8 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-d0a7e51841d7e88660997420.df8b78846339cdd7.webp",
-        "hash": "SHA256:df8b78846339cdd788b79298dbc8ec2b0f019ccdf36324b5876f8779af69469e"
+        "url": "thumbnails/mat-d0a7e51841d7e88660997420.ad8119e0bf3096ef.webp",
+        "hash": "SHA256:ad8119e0bf3096efe061aa1e0b4fa70e05d836a7f569de29b9084f20212a9375"
       },
       "meta": {
         "catalog_id": "35253e7c-8d09-4a3f-9c95-1a2cc4561be5",
@@ -654,7 +656,8 @@
           "Preview: Source texture",
           "Export: Native binding",
           "Usage: BaseMaterial UV",
-          "Evidence: Historical file check"
+          "Evidence: Historical file check",
+          "Game colorpicker"
         ],
         "description": "Native binding established | Preview: Source texture | Use a UV map named BaseMaterial."
       }
@@ -804,8 +807,8 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-355c7b7f93201f1fb9ede58b.f3c6c52728f56164.webp",
-        "hash": "SHA256:f3c6c52728f56164604fc84f81ccff89b2c689b50f3f21721223692b2bbbe034"
+        "url": "thumbnails/mat-355c7b7f93201f1fb9ede58b.d362e88bf4dbfc0d.webp",
+        "hash": "SHA256:d362e88bf4dbfc0d8882fd1e9da0cab52d239a12d0416dee6e8cd6cbce54ed82"
       },
       "meta": {
         "catalog_id": "c898c0c9-c108-480d-9c15-582f8d769eb9",
@@ -814,7 +817,8 @@
           "Preview: Default input texture",
           "Export: Native binding",
           "Usage: Customizable",
-          "Evidence: Historical file check"
+          "Evidence: Historical file check",
+          "Game colorpicker"
         ],
         "description": "Native binding established | Preview: Default input texture | Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters."
       }
@@ -1893,8 +1897,8 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-3628e92aace330fd4cce5a44.9fae1696230590c3.webp",
-        "hash": "SHA256:9fae1696230590c32b4a8ff2b4f81aff99008b707120037dfef56acc3acfdb59"
+        "url": "thumbnails/mat-3628e92aace330fd4cce5a44.511157eea622f43b.webp",
+        "hash": "SHA256:511157eea622f43b3abbd9ccc4c5669bf03b6b2cd5f9071301757dbb1210187d"
       },
       "meta": {
         "catalog_id": "b3363c3c-bbe9-4ca1-8c69-4f5a5c8d77ed",
@@ -1902,7 +1906,8 @@
           "Physics: Plastic",
           "Preview: Source texture",
           "Export: Native binding",
-          "Evidence: Historical file check"
+          "Evidence: Historical file check",
+          "Game colorpicker"
         ],
         "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
       }
@@ -1917,8 +1922,8 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-39ec243219134e35c6cad7e1.10cbc747169318bc.webp",
-        "hash": "SHA256:10cbc747169318bcf66b6eb4ce7b25ab8f17f1e42aece527c1ba9e0c485ab73d"
+        "url": "thumbnails/mat-39ec243219134e35c6cad7e1.759454d1729f85ec.webp",
+        "hash": "SHA256:759454d1729f85ec348936a2b6cb7c840727385e94ccb3c12e3690aafd3e2ed2"
       },
       "meta": {
         "catalog_id": "2734ee5a-296e-460a-beb0-e32dacbe520c",
@@ -1927,7 +1932,8 @@
           "Preview: Decal contrast preview",
           "Export: Native binding",
           "Usage: Vertex Color",
-          "Evidence: Export readback inconclusive"
+          "Evidence: Export readback inconclusive",
+          "Game colorpicker"
         ],
         "description": "Native binding established | Preview: Decal contrast preview | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
       }
@@ -3047,8 +3053,8 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-5069c4770b34c64e577ceb4b.6da72134de397fba.webp",
-        "hash": "SHA256:6da72134de397fba5449ad00cecad94a08608cda45dee446e79883cf9fda5cc5"
+        "url": "thumbnails/mat-5069c4770b34c64e577ceb4b.a98129e6274b66c1.webp",
+        "hash": "SHA256:a98129e6274b66c18732a02e70b23342738160442707173c71e8a5577aa3bc91"
       },
       "meta": {
         "catalog_id": "b3363c3c-bbe9-4ca1-8c69-4f5a5c8d77ed",
@@ -3056,7 +3062,8 @@
           "Physics: Metal",
           "Preview: Source texture",
           "Export: Native binding",
-          "Evidence: Historical file check"
+          "Evidence: Historical file check",
+          "Game colorpicker"
         ],
         "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
       }
@@ -3071,8 +3078,8 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-a318e5102322347410d2b7ee.65408e8a7436838d.webp",
-        "hash": "SHA256:65408e8a7436838d06e851468c3bf6d489d9c16b90a75152fcf9bc068de61b46"
+        "url": "thumbnails/mat-a318e5102322347410d2b7ee.b7fd3d6fd59e8a95.webp",
+        "hash": "SHA256:b7fd3d6fd59e8a959955145beb2029241b2c7c5e62fa9725ed4230bc3ddd0726"
       },
       "meta": {
         "catalog_id": "b3363c3c-bbe9-4ca1-8c69-4f5a5c8d77ed",
@@ -3080,7 +3087,8 @@
           "Physics: Metal",
           "Preview: Source texture",
           "Export: Native binding",
-          "Evidence: Historical file check"
+          "Evidence: Historical file check",
+          "Game colorpicker"
         ],
         "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
       }
@@ -3095,8 +3103,8 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-bbf538c62726518daaac7e39.972317ed64015f16.webp",
-        "hash": "SHA256:972317ed64015f1666d858b32459a600b7d052273b4d5760b3abe7aa34e70c40"
+        "url": "thumbnails/mat-bbf538c62726518daaac7e39.a90e15b988156be6.webp",
+        "hash": "SHA256:a90e15b988156be6bc0b8df0bb8c5018056d677c3e931a2c8ce8c25f881fc922"
       },
       "meta": {
         "catalog_id": "b3363c3c-bbe9-4ca1-8c69-4f5a5c8d77ed",
@@ -3104,7 +3112,8 @@
           "Physics: Metal",
           "Preview: Source texture",
           "Export: Native binding",
-          "Evidence: Historical file check"
+          "Evidence: Historical file check",
+          "Game colorpicker"
         ],
         "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
       }
@@ -3119,8 +3128,8 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-7f9bc8454f99c85e78ca9148.d58011b33f8e1e35.webp",
-        "hash": "SHA256:d58011b33f8e1e35d71e38d5d3d46c96591aa3f5dd3d82c23f51af8d897bd32a"
+        "url": "thumbnails/mat-7f9bc8454f99c85e78ca9148.5fca03372ca4d981.webp",
+        "hash": "SHA256:5fca03372ca4d981c4d1a867c91de4800aef7d05274ea2084e35318b90325f45"
       },
       "meta": {
         "catalog_id": "b3363c3c-bbe9-4ca1-8c69-4f5a5c8d77ed",
@@ -3128,7 +3137,8 @@
           "Physics: Metal",
           "Preview: Source texture",
           "Export: Native binding",
-          "Evidence: Historical file check"
+          "Evidence: Historical file check",
+          "Game colorpicker"
         ],
         "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
       }
@@ -3280,8 +3290,8 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-e3c336f1c1d17e24d34831d4.d0bc8ea5744601f2.webp",
-        "hash": "SHA256:d0bc8ea5744601f21e0019447e4bec0fbd11e4457983d6232765e91dfccb02db"
+        "url": "thumbnails/mat-e3c336f1c1d17e24d34831d4.c77feae7644433eb.webp",
+        "hash": "SHA256:c77feae7644433eb36088b17ccffa4b7584b8f23b27db6eda8b3bd33a821fcfe"
       },
       "meta": {
         "catalog_id": "a3c30da4-78aa-4832-9a83-67cb8d175520",
@@ -3293,7 +3303,8 @@
           "Usage: Projection",
           "Usage: Vertex Color",
           "Usage: Animation",
-          "Evidence: Export readback inconclusive"
+          "Evidence: Export readback inconclusive",
+          "Game colorpicker"
         ],
         "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
       }
@@ -3308,8 +3319,8 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-e982e263af99d9cc212b18bb.d0bc8ea5744601f2.webp",
-        "hash": "SHA256:d0bc8ea5744601f21e0019447e4bec0fbd11e4457983d6232765e91dfccb02db"
+        "url": "thumbnails/mat-e982e263af99d9cc212b18bb.c77feae7644433eb.webp",
+        "hash": "SHA256:c77feae7644433eb36088b17ccffa4b7584b8f23b27db6eda8b3bd33a821fcfe"
       },
       "meta": {
         "catalog_id": "a3c30da4-78aa-4832-9a83-67cb8d175520",
@@ -3321,7 +3332,8 @@
           "Usage: Projection",
           "Usage: Vertex Color",
           "Usage: Animation",
-          "Evidence: Export readback inconclusive"
+          "Evidence: Export readback inconclusive",
+          "Game colorpicker"
         ],
         "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
       }
@@ -3471,8 +3483,8 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-5ed4f3bda82bdb619ba9516c.767bfb3cfb0eac89.webp",
-        "hash": "SHA256:767bfb3cfb0eac8969e240b1b39e029f6cf64adad475f94b8db287e540bafe8d"
+        "url": "thumbnails/mat-5ed4f3bda82bdb619ba9516c.2bd9179213605006.webp",
+        "hash": "SHA256:2bd9179213605006b6b9222ac9c77500bef6f694d86421502a8008a580c2a30d"
       },
       "meta": {
         "catalog_id": "2734ee5a-296e-460a-beb0-e32dacbe520c",
@@ -3481,7 +3493,8 @@
           "Preview: Decal contrast preview",
           "Export: Native binding",
           "Usage: Vertex Color",
-          "Evidence: Export readback inconclusive"
+          "Evidence: Export readback inconclusive",
+          "Game colorpicker"
         ],
         "description": "Native binding established | Preview: Decal contrast preview | Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
       }
@@ -3928,10 +3941,10 @@
     },
     {
       "path": "materials/bundle-0037.blend",
-      "size_in_bytes": 3269892,
-      "hash": "SHA256:e96f476b00437325e952c3cc1ae35885c7152841f6d70800c18689bd6a5aec2d",
+      "size_in_bytes": 3270750,
+      "hash": "SHA256:043e4de5820cf0d513f303f04d8cd33f1a392c32fc52464e3361545bb76208f5",
       "blender_version": "5.3.31",
-      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0037.e96f476b00437325.blend"
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0037.043e4de5820cf0d5.blend"
     },
     {
       "path": "materials/bundle-0038.blend",
@@ -3942,10 +3955,10 @@
     },
     {
       "path": "materials/bundle-0039.blend",
-      "size_in_bytes": 8858319,
-      "hash": "SHA256:1f5f3079d714da9d19a2dcdac59e6e324b4eeaa244c2e17e636ac2fb2e72345b",
+      "size_in_bytes": 8860376,
+      "hash": "SHA256:08ae69656cc9a1e3163a3b1842b4cce3dff9e59439a808681134475f1804d6e6",
       "blender_version": "5.3.31",
-      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0039.1f5f3079d714da9d.blend"
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0039.08ae69656cc9a1e3.blend"
     },
     {
       "path": "materials/bundle-0040.blend",
@@ -3970,17 +3983,17 @@
     },
     {
       "path": "materials/bundle-0043.blend",
-      "size_in_bytes": 5774567,
-      "hash": "SHA256:35b0537a5437abdcdc4be81cbd1a79b56cb86649c2a7b65bf1d34bb9cd49e12e",
+      "size_in_bytes": 5778093,
+      "hash": "SHA256:ab9996d1b4315e1294b4e056fc2d42f8242003c0725586e0e27bda9dc8dab05a",
       "blender_version": "5.3.31",
-      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0043.35b0537a5437abdc.blend"
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0043.ab9996d1b4315e12.blend"
     },
     {
       "path": "materials/bundle-0044.blend",
-      "size_in_bytes": 276344,
-      "hash": "SHA256:e099e9acea70be61eaacf5861739a04553c78b027044349d4c44582e998c4d51",
+      "size_in_bytes": 277412,
+      "hash": "SHA256:9230531397a307edf407b2c0bfc36f5ee61159eb4bb2452b7ea3cb689d7a9b0f",
       "blender_version": "5.3.31",
-      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0044.e099e9acea70be61.blend"
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0044.9230531397a307ed.blend"
     },
     {
       "path": "materials/bundle-0045.blend",
@@ -3998,10 +4011,10 @@
     },
     {
       "path": "materials/bundle-0047.blend",
-      "size_in_bytes": 4719276,
-      "hash": "SHA256:77ab9e7c171c6c9d9803c3369f76be26945ee8955d76aa860860804348e1ace6",
+      "size_in_bytes": 4723566,
+      "hash": "SHA256:02e351999b09f19160299109ee36d2f0c1da53ed537f8396e2a2ba47893c1527",
       "blender_version": "5.3.31",
-      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0047.77ab9e7c171c6c9d.blend"
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0047.02e351999b09f191.blend"
     },
     {
       "path": "materials/bundle-0048.blend",
@@ -4012,10 +4025,10 @@
     },
     {
       "path": "materials/bundle-0049.blend",
-      "size_in_bytes": 178509025,
-      "hash": "SHA256:8d377e354d5f7c774259d6be03e863c5c535253788448408691e139cc73c5494",
+      "size_in_bytes": 178499574,
+      "hash": "SHA256:173d337fe51708012641bfb18edc066247caa3883a6c55f9ee31bc2732c12f53",
       "blender_version": "5.3.31",
-      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0049.8d377e354d5f7c77.blend"
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0049.173d337fe5170801.blend"
     },
     {
       "path": "materials/bundle-0050.blend",
@@ -4040,10 +4053,10 @@
     },
     {
       "path": "materials/bundle-0053.blend",
-      "size_in_bytes": 3963523,
-      "hash": "SHA256:324a08c6d56137bf4f5838123ed1d78c93c15dba11206eb6864e3ab6855de61d",
+      "size_in_bytes": 3967303,
+      "hash": "SHA256:5c617d490f2cc4b84e39d5431ff38df252cd53c1ee67426fa7bfc5e68c4f6dea",
       "blender_version": "5.3.31",
-      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0053.324a08c6d56137bf.blend"
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0053.5c617d490f2cc4b8.blend"
     }
   ]
 }

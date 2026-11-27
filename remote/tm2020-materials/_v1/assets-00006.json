@@ -942,8 +942,8 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-e6d0e9c7aa6057743d0909a6.401f6e2a2d15d0d8.webp",
-        "hash": "SHA256:401f6e2a2d15d0d8b259addb81f62d404a26fbc90afdfb3efe6ef4c896df8cb2"
+        "url": "thumbnails/mat-e6d0e9c7aa6057743d0909a6.87533cf3d2a1d4ad.webp",
+        "hash": "SHA256:87533cf3d2a1d4adc1b936045471123eabdc53d2fa2a774e33600fc4fd3c03ab"
       },
       "meta": {
         "catalog_id": "b3363c3c-bbe9-4ca1-8c69-4f5a5c8d77ed",
@@ -951,7 +951,8 @@
           "Physics: Metal",
           "Preview: Source texture",
           "Export: Native binding",
-          "Evidence: Historical file check"
+          "Evidence: Historical file check",
+          "Game colorpicker"
         ],
         "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
       }
@@ -1045,8 +1046,8 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-fa39462bb4c97b817edcd5d3.64c6aa6e6bfa4ad6.webp",
-        "hash": "SHA256:64c6aa6e6bfa4ad6be7e61ca5e7424bbd2ee234ed9633185ff89bd897c34731f"
+        "url": "thumbnails/mat-fa39462bb4c97b817edcd5d3.e795f9b105714f10.webp",
+        "hash": "SHA256:e795f9b105714f1065337e7e379203e4b54f84c8fd7579f8fca6cae06f14bbdb"
       },
       "meta": {
         "catalog_id": "35253e7c-8d09-4a3f-9c95-1a2cc4561be5",
@@ -1054,7 +1055,8 @@
           "Physics: Metal",
           "Preview: Source texture",
           "Export: Native binding",
-          "Evidence: Historical file check"
+          "Evidence: Historical file check",
+          "Game colorpicker"
         ],
         "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
       }
@@ -1100,8 +1102,8 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-f80692dda15be286f321f21d.40ff48368be7d965.webp",
-        "hash": "SHA256:40ff48368be7d965b9262cf26e2e977e5213c5ba7b6ee82c0d3e3ef2cba3c622"
+        "url": "thumbnails/mat-f80692dda15be286f321f21d.4f3ee2ddeb5c2916.webp",
+        "hash": "SHA256:4f3ee2ddeb5c29164367b6ef41553f0f8425d26be65820f69517786b986d601d"
       },
       "meta": {
         "catalog_id": "7a45ddc6-5b7c-4240-950f-25733c2c0e73",
@@ -1112,7 +1114,8 @@
           "Export: Native binding",
           "Usage: Projection",
           "Usage: Animation",
-          "Evidence: Export readback inconclusive"
+          "Evidence: Export readback inconclusive",
+          "Game colorpicker"
         ],
         "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. | Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
       }
@@ -1671,8 +1674,8 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-fb06ee90c06b58836fc1daee.5412b1c1081dc3dd.webp",
-        "hash": "SHA256:5412b1c1081dc3dd215150ba859de42b128f0f9d45ce86189f1ee037a1b25b42"
+        "url": "thumbnails/mat-fb06ee90c06b58836fc1daee.53cae425dbd386b6.webp",
+        "hash": "SHA256:53cae425dbd386b65e2e7895016eaefe3742287c61b3eebae8b2cfd6878ecf24"
       },
       "meta": {
         "catalog_id": "35253e7c-8d09-4a3f-9c95-1a2cc4561be5",
@@ -1680,7 +1683,8 @@
           "Physics: ResonantMetal",
           "Preview: Source texture",
           "Export: Native binding",
-          "Evidence: Historical file check"
+          "Evidence: Historical file check",
+          "Game colorpicker"
         ],
         "description": "Native binding established | Preview: Source texture | Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
       }
@@ -2211,15 +2215,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-e601d594453f2d29345da07e.8b06806497cda854.webp",
-        "hash": "SHA256:8b06806497cda854c8335fd552b239d3c5ceb6b5a334c85357eab938bc913b15"
+        "url": "thumbnails/mat-e601d594453f2d29345da07e.2d73b6a95a89cfce.webp",
+        "hash": "SHA256:2d73b6a95a89cfce906bf92b6549dca41f0c33de90074b92259d75f3a5a76c0b"
       },
       "meta": {
         "catalog_id": "32ca3d83-4077-59f7-b8ca-baa9fc040134",
         "tags": [
           "BlueBay",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
       }
@@ -2257,15 +2262,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-529bf115b6d666f74c0ec048.10017b1488d0b817.webp",
-        "hash": "SHA256:10017b1488d0b817ee9205c1dd5b7db8e67d850506ee6a6133de80955c0b29a8"
+        "url": "thumbnails/mat-529bf115b6d666f74c0ec048.0968c94317d0ad50.webp",
+        "hash": "SHA256:0968c94317d0ad50e420d458842e2d88bb5b2b3f5041a498bad8d384ee23c142"
       },
       "meta": {
         "catalog_id": "32ca3d83-4077-59f7-b8ca-baa9fc040134",
         "tags": [
           "BlueBay",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
       }
@@ -2303,15 +2309,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-fb6c90d52ac6498490fcea83.6607a2f4ba331372.webp",
-        "hash": "SHA256:6607a2f4ba331372a46e776c1bcf2d7792ad2a04e4f86312e63abd64ec28244c"
+        "url": "thumbnails/mat-fb6c90d52ac6498490fcea83.0953666def0810ee.webp",
+        "hash": "SHA256:0953666def0810eeca7fa59c80d23504797885121dd9a9034de1df8f82e8756f"
       },
       "meta": {
         "catalog_id": "d359cafd-790f-5367-8b2d-a625f984d623",
         "tags": [
           "BlueBay",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: BlueBay/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
       }
@@ -2533,15 +2540,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-d8e8e292ff8677c349de3603.8cadbfbb541e78d5.webp",
-        "hash": "SHA256:8cadbfbb541e78d5df4cc6bdf29b8712140f36c5249dec5451b9ba44c0ad9af6"
+        "url": "thumbnails/mat-d8e8e292ff8677c349de3603.2e62f085b8547713.webp",
+        "hash": "SHA256:2e62f085b85477134ac94f1f08fd638b0ee3264ad6796b3205288cff59357621"
       },
       "meta": {
         "catalog_id": "be2c5894-66c4-5ec6-abc1-d1f202df3c25",
         "tags": [
           "GreenCoast",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
       }
@@ -2579,15 +2587,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-20d91f08aeb562ce5161715e.fda218ed49307bd0.webp",
-        "hash": "SHA256:fda218ed49307bd08ad12518f07063c60f6bd5bb95fc0f0915cfb02af895d69f"
+        "url": "thumbnails/mat-20d91f08aeb562ce5161715e.5cc97ec38db96008.webp",
+        "hash": "SHA256:5cc97ec38db96008298e21f3df50a524ca4656071c8b0f99c158625e331ff5df"
       },
       "meta": {
         "catalog_id": "be2c5894-66c4-5ec6-abc1-d1f202df3c25",
         "tags": [
           "GreenCoast",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
       }
@@ -2648,15 +2657,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-31dffd742a8276d12285cd7e.34e8ac65d655c7af.webp",
-        "hash": "SHA256:34e8ac65d655c7af8ab065dcfd1c1f94f947ce9b71cdb088d0b39f7dcfe71a25"
+        "url": "thumbnails/mat-31dffd742a8276d12285cd7e.2b88334b470ee3a4.webp",
+        "hash": "SHA256:2b88334b470ee3a4a556b6c4549937c435639e7e250bd1fe507a92fd0ee43a69"
       },
       "meta": {
         "catalog_id": "1b35be5a-e4fc-5f8d-92b8-755b7ca2f3e6",
         "tags": [
           "GreenCoast",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
       }
@@ -2671,15 +2681,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-e301b5140079b000c6044a9b.6607a2f4ba331372.webp",
-        "hash": "SHA256:6607a2f4ba331372a46e776c1bcf2d7792ad2a04e4f86312e63abd64ec28244c"
+        "url": "thumbnails/mat-e301b5140079b000c6044a9b.0953666def0810ee.webp",
+        "hash": "SHA256:0953666def0810eeca7fa59c80d23504797885121dd9a9034de1df8f82e8756f"
       },
       "meta": {
         "catalog_id": "1b35be5a-e4fc-5f8d-92b8-755b7ca2f3e6",
         "tags": [
           "GreenCoast",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
       }
@@ -2694,15 +2705,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-a4f4b1c1ebef8ae8f5461ce0.6607a2f4ba331372.webp",
-        "hash": "SHA256:6607a2f4ba331372a46e776c1bcf2d7792ad2a04e4f86312e63abd64ec28244c"
+        "url": "thumbnails/mat-a4f4b1c1ebef8ae8f5461ce0.0953666def0810ee.webp",
+        "hash": "SHA256:0953666def0810eeca7fa59c80d23504797885121dd9a9034de1df8f82e8756f"
       },
       "meta": {
         "catalog_id": "1b35be5a-e4fc-5f8d-92b8-755b7ca2f3e6",
         "tags": [
           "GreenCoast",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
       }
@@ -2717,15 +2729,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-8aa139015ce62ee4cfa84d11.ae882a623d4c1e3a.webp",
-        "hash": "SHA256:ae882a623d4c1e3a8961af6e96477da1a2273d0e73650921043734e44a091707"
+        "url": "thumbnails/mat-8aa139015ce62ee4cfa84d11.d823d340d8fcf947.webp",
+        "hash": "SHA256:d823d340d8fcf9472c4e39a8f12402c2f0a936ebcb112d4e6c123ddfabdfb3ce"
       },
       "meta": {
         "catalog_id": "1b35be5a-e4fc-5f8d-92b8-755b7ca2f3e6",
         "tags": [
           "GreenCoast",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
       }
@@ -2878,15 +2891,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-83a500d40a97f0e850a7910e.dc7ecc3d38a3da32.webp",
-        "hash": "SHA256:dc7ecc3d38a3da32f099ec1f149aa90ceb3153ae51ff7cf905c15e8eb2d66ce3"
+        "url": "thumbnails/mat-83a500d40a97f0e850a7910e.a4f46484de63c9ed.webp",
+        "hash": "SHA256:a4f46484de63c9ed5b2ca36845bf96f3265b6cc94d06c8f7e339dab0e0b00acc"
       },
       "meta": {
         "catalog_id": "a35a50b5-b9d0-58c7-aeaa-c0f1b4c35361",
         "tags": [
           "RedIsland",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
       }
@@ -2924,15 +2938,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-f15e7b09783eea03fddad97b.3f23d56ec987d367.webp",
-        "hash": "SHA256:3f23d56ec987d36771aab706108fcd3224c32074ac491f0cdc4f0cd85aaaad32"
+        "url": "thumbnails/mat-f15e7b09783eea03fddad97b.fd8d2f233067e4b3.webp",
+        "hash": "SHA256:fd8d2f233067e4b30fcb912c4d4b5a72dfcbf833797c32640667c1bd97a1e203"
       },
       "meta": {
         "catalog_id": "a35a50b5-b9d0-58c7-aeaa-c0f1b4c35361",
         "tags": [
           "RedIsland",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
       }
@@ -3016,15 +3031,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-87a90623cd0e2e5efc2e52d1.34e8ac65d655c7af.webp",
-        "hash": "SHA256:34e8ac65d655c7af8ab065dcfd1c1f94f947ce9b71cdb088d0b39f7dcfe71a25"
+        "url": "thumbnails/mat-87a90623cd0e2e5efc2e52d1.2b88334b470ee3a4.webp",
+        "hash": "SHA256:2b88334b470ee3a4a556b6c4549937c435639e7e250bd1fe507a92fd0ee43a69"
       },
       "meta": {
         "catalog_id": "6151d7c0-228d-5c26-8c7f-eec72e8b8554",
         "tags": [
           "RedIsland",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
       }
@@ -3039,15 +3055,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-4bc119ae249d8bbe40ed5361.6607a2f4ba331372.webp",
-        "hash": "SHA256:6607a2f4ba331372a46e776c1bcf2d7792ad2a04e4f86312e63abd64ec28244c"
+        "url": "thumbnails/mat-4bc119ae249d8bbe40ed5361.0953666def0810ee.webp",
+        "hash": "SHA256:0953666def0810eeca7fa59c80d23504797885121dd9a9034de1df8f82e8756f"
       },
       "meta": {
         "catalog_id": "6151d7c0-228d-5c26-8c7f-eec72e8b8554",
         "tags": [
           "RedIsland",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
       }
@@ -3062,15 +3079,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-74ce475dd3a34b88f279a928.6607a2f4ba331372.webp",
-        "hash": "SHA256:6607a2f4ba331372a46e776c1bcf2d7792ad2a04e4f86312e63abd64ec28244c"
+        "url": "thumbnails/mat-74ce475dd3a34b88f279a928.0953666def0810ee.webp",
+        "hash": "SHA256:0953666def0810eeca7fa59c80d23504797885121dd9a9034de1df8f82e8756f"
       },
       "meta": {
         "catalog_id": "6151d7c0-228d-5c26-8c7f-eec72e8b8554",
         "tags": [
           "RedIsland",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
       }
@@ -3085,15 +3103,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-dcf4ff08ab752b253343fb05.ae882a623d4c1e3a.webp",
-        "hash": "SHA256:ae882a623d4c1e3a8961af6e96477da1a2273d0e73650921043734e44a091707"
+        "url": "thumbnails/mat-dcf4ff08ab752b253343fb05.d823d340d8fcf947.webp",
+        "hash": "SHA256:d823d340d8fcf9472c4e39a8f12402c2f0a936ebcb112d4e6c123ddfabdfb3ce"
       },
       "meta": {
         "catalog_id": "6151d7c0-228d-5c26-8c7f-eec72e8b8554",
         "tags": [
           "RedIsland",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
       }
@@ -3154,15 +3173,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-46551617907b29e04cea8873.5f5ab4f9198e7bc1.webp",
-        "hash": "SHA256:5f5ab4f9198e7bc1c30c95c89b461b418adeb3ce0b6c79e928977f71243e310a"
+        "url": "thumbnails/mat-46551617907b29e04cea8873.d16e862219dda024.webp",
+        "hash": "SHA256:d16e862219dda0249dcd888fc925ac3c228edb1aa1d9720f3c4973f694c7fd2e"
       },
       "meta": {
         "catalog_id": "f23346cf-1649-5dea-b885-a06a5493bb3d",
         "tags": [
           "WhiteShore",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
       }
@@ -3200,15 +3220,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-64aea0028dc164311d8a5577.055cfc631aece4aa.webp",
-        "hash": "SHA256:055cfc631aece4aa19945c06e899bfd9c2b29392d89897b6768a5f7697b1ee16"
+        "url": "thumbnails/mat-64aea0028dc164311d8a5577.1e62662cf074b412.webp",
+        "hash": "SHA256:1e62662cf074b412eb3e21569f5356ca2f73e8b0f8feb462aa2c0d5967ca4284"
       },
       "meta": {
         "catalog_id": "f23346cf-1649-5dea-b885-a06a5493bb3d",
         "tags": [
           "WhiteShore",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
       }
@@ -3246,15 +3267,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-91b4e28e128acfad819f3a7b.34e8ac65d655c7af.webp",
-        "hash": "SHA256:34e8ac65d655c7af8ab065dcfd1c1f94f947ce9b71cdb088d0b39f7dcfe71a25"
+        "url": "thumbnails/mat-91b4e28e128acfad819f3a7b.2b88334b470ee3a4.webp",
+        "hash": "SHA256:2b88334b470ee3a4a556b6c4549937c435639e7e250bd1fe507a92fd0ee43a69"
       },
       "meta": {
         "catalog_id": "886267fc-3c5a-5a9e-a769-cf28a12c71af",
         "tags": [
           "WhiteShore",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: WhiteShore/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
       }
@@ -3269,15 +3291,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-7377fccaf14e380bf3e32593.6607a2f4ba331372.webp",
-        "hash": "SHA256:6607a2f4ba331372a46e776c1bcf2d7792ad2a04e4f86312e63abd64ec28244c"
+        "url": "thumbnails/mat-7377fccaf14e380bf3e32593.0953666def0810ee.webp",
+        "hash": "SHA256:0953666def0810eeca7fa59c80d23504797885121dd9a9034de1df8f82e8756f"
       },
       "meta": {
         "catalog_id": "886267fc-3c5a-5a9e-a769-cf28a12c71af",
         "tags": [
           "WhiteShore",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: WhiteShore/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
       }
@@ -3292,15 +3315,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-b488f3aae2b47b76dc662b41.6607a2f4ba331372.webp",
-        "hash": "SHA256:6607a2f4ba331372a46e776c1bcf2d7792ad2a04e4f86312e63abd64ec28244c"
+        "url": "thumbnails/mat-b488f3aae2b47b76dc662b41.0953666def0810ee.webp",
+        "hash": "SHA256:0953666def0810eeca7fa59c80d23504797885121dd9a9034de1df8f82e8756f"
       },
       "meta": {
         "catalog_id": "886267fc-3c5a-5a9e-a769-cf28a12c71af",
         "tags": [
           "WhiteShore",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: WhiteShore/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
       }
@@ -3315,15 +3339,16 @@
         "min": "5.3"
       },
       "thumbnail": {
-        "url": "thumbnails/mat-9a71e30a48004a8a75574280.ae882a623d4c1e3a.webp",
-        "hash": "SHA256:ae882a623d4c1e3a8961af6e96477da1a2273d0e73650921043734e44a091707"
+        "url": "thumbnails/mat-9a71e30a48004a8a75574280.d823d340d8fcf947.webp",
+        "hash": "SHA256:d823d340d8fcf9472c4e39a8f12402c2f0a936ebcb112d4e6c123ddfabdfb3ce"
       },
       "meta": {
         "catalog_id": "886267fc-3c5a-5a9e-a769-cf28a12c71af",
         "tags": [
           "WhiteShore",
           "Evidence: decoded shader",
-          "Game checked: vista fixture"
+          "Game checked: vista fixture",
+          "Game colorpicker"
         ],
         "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: WhiteShore/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
       }
@@ -3424,17 +3449,17 @@
   "files": [
     {
       "path": "materials/bundle-0093.blend",
-      "size_in_bytes": 2937448,
-      "hash": "SHA256:321de3210d7f09b85f3826a18cb29537cc3ad8f9c62817e43a1708a40d2a4161",
+      "size_in_bytes": 2936398,
+      "hash": "SHA256:a50765dbd2b693f50ece36ce6b1b81860da15d4703c9f7c7aee9315493402921",
       "blender_version": "5.3.31",
-      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0093.321de3210d7f09b8.blend"
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0093.a50765dbd2b693f5.blend"
     },
     {
       "path": "materials/bundle-0094.blend",
-      "size_in_bytes": 2639658,
-      "hash": "SHA256:63ef3114e2d72450ddf8fb20e4b5db76d740bac3286458c0ffa8417fbeb7aa45",
+      "size_in_bytes": 2643309,
+      "hash": "SHA256:180331b072a4cf43a86ae15883a0681d4fb7f98a6316f7e4b2eba9a61c28f895",
       "blender_version": "5.3.31",
-      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0094.63ef3114e2d72450.blend"
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0094.180331b072a4cf43.blend"
     },
     {
       "path": "materials/bundle-0095.blend",
@@ -3445,17 +3470,17 @@
     },
     {
       "path": "materials/bundle-0096.blend",
-      "size_in_bytes": 4279724,
-      "hash": "SHA256:543d4d6d10922ac7a15da6ff0c4cbb1094f944e3596d969eaa69b99c92ae68b8",
+      "size_in_bytes": 4280662,
+      "hash": "SHA256:35acecb34327363507a9f79ada39bd5d9bb514411da7c6bf73d2b58d20c4b150",
       "blender_version": "5.3.31",
-      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0096.543d4d6d10922ac7.blend"
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0096.35acecb343273635.blend"
     },
     {
       "path": "materials/bundle-0097.blend",
-      "size_in_bytes": 620939,
-      "hash": "SHA256:e106e1ec44884fddb974ffea65a12fe6e36f549af8cfe32f1d20301dec038849",
+      "size_in_bytes": 624363,
+      "hash": "SHA256:20ad8f8d32a63aa05408dc3227ea0ea63ba2345ad7d06734ec7ba6f65ed64497",
       "blender_version": "5.3.31",
-      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0097.e106e1ec44884fdd.blend"
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0097.20ad8f8d32a63aa0.blend"
     },
     {
       "path": "materials/bundle-0098.blend",
@@ -3606,31 +3631,31 @@
     },
     {
       "path": "materials/bundle-0119.blend",
-      "size_in_bytes": 206665102,
-      "hash": "SHA256:75c3bf892256e72e9ed227ded684bd67a57ea1e33418033947968d3f0d3bcd8f",
+      "size_in_bytes": 206679470,
+      "hash": "SHA256:3048eea851a71c5b636e7a7449ab5f94ea9955415148de5b63be3801a35e5230",
       "blender_version": "5.3.31",
-      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0119.75c3bf892256e72e.blend"
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0119.3048eea851a71c5b.blend"
     },
     {
       "path": "materials/bundle-0120.blend",
-      "size_in_bytes": 213439843,
-      "hash": "SHA256:1a71a3830b4db580c16c408f07403a3c60bba332047816e21f21bc5ee6986c2d",
+      "size_in_bytes": 213437481,
+      "hash": "SHA256:050f293f0f2bce9337c6a6b89500a422d74099f082c961ebbf9eb27f1786faf7",
       "blender_version": "5.3.31",
-      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0120.1a71a3830b4db580.blend"
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0120.050f293f0f2bce93.blend"
     },
     {
       "path": "materials/bundle-0121.blend",
-      "size_in_bytes": 320998126,
-      "hash": "SHA256:e56c371adbf6f0912c991060fec88bb289e0fe1cbcbaa98a0a229f7bfc5ebe0a",
+      "size_in_bytes": 320989437,
+      "hash": "SHA256:74a6c73a1e73db6179b809a0085209829e4cf0b6ce44d1121a75a128f6446633",
       "blender_version": "5.3.31",
-      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0121.e56c371adbf6f091.blend"
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0121.74a6c73a1e73db61.blend"
     },
     {
       "path": "materials/bundle-0122.blend",
-      "size_in_bytes": 143673270,
-      "hash": "SHA256:e3835b217d45de009a10fd889c9b3c302991f7a597fec8cdb43ae8c7215646b5",
+      "size_in_bytes": 143680282,
+      "hash": "SHA256:c78aa91d33cfdd12ea917d7f776e1f9fa8a4f51d3b226779dda1ca72ad44aeb2",
       "blender_version": "5.3.31",
-      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0122.e3835b217d45de00.blend"
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0122.c78aa91d33cfdd12.blend"
     }
   ]
 }

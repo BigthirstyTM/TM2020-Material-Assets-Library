@@ -8,7 +8,7 @@
       "id": "trackmania_2020_materials_library",
       "name": "Trackmania 2020 - Materials Library",
       "tagline": "Trackmania materials with efficient remote downloads",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "type": "asset-library",
       "maintainer": "BigthirstyTM",
       "license": [
@@ -19,9 +19,9 @@
       "permissions": {
         "scripts": "Material previews use timeline driver expressions"
       },
-      "archive_url": "./trackmania_2020_materials_library-1.0.5.zip",
-      "archive_size": 1329,
-      "archive_hash": "sha256:bc740dde3d2496143ab56d4a57a2d80297fd316a338fca31540d80059aff0910"
+      "archive_url": "./trackmania_2020_materials_library-1.0.6.zip",
+      "archive_size": 1330,
+      "archive_hash": "sha256:e7996e72cc18afe26c5fa76bf2a5b5ee15485a36f9f6439667260aa6eff0a768"
     }
   ]
 }
