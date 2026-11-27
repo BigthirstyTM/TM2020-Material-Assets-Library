@@ -27,7 +27,7 @@ is small; the material files are hosted separately and downloaded when used.
 This is our GitHub-hosted extension repository. Adding it makes the extension
 available through Get Extensions; it is not a listing on Blender's official directory.
 
-For manual installation, download `trackmania_2020_materials_library-1.0.4.zip`
+For manual installation, download `trackmania_2020_materials_library-1.0.5.zip`
 and use Preferences Ã¢â€ â€™ Get Extensions Ã¢â€ â€™ Install from Disk. You can also add the
 repository URL above through Get Extensions and install the library from its list.
 
@@ -68,7 +68,7 @@ Refreshing or downloading a library asset does not replace a material already
 appended into an open project. Replace or append the newer material when wanted.
 
 To download everything, clear search and catalog filters, select all assets and
-choose **Download Assets**. The compact collection totals **4,235,536,703 bytes (4.24 GB)** in **102
+choose **Download Assets**. The compact collection totals **4,235,505,173 bytes (4.24 GB)** in **102
 shared-texture material bundles and 20 HDRI World files**, compared with 2.96 GB for the two offline Materials Only ZIPs.
 Some texture-heavy bundles are larger than others (up to about 636 MB). The rejected per-material
 layout required 10.37 GB because textures were repeated across many separate files.
@@ -153,3 +153,7 @@ thumbnail. Blender Asset Browser thumbnails remain static. In Blender, press
 Listing refresh updates metadata, not already-downloaded bundles. A warning triangle can indicate that the cached bundle differs from the current listing. Select an affected asset and use right-click ? Download Assets, then refresh the Asset Browser. Updating a shared bundle also updates the other assets stored in that bundle. Existing scene copies and exported items remain unchanged.
 
 Catalog correction: the 53 additions in extension 1.0.3 were incorrectly placed below HDRI World Moods. The correct environment material paths are published in extension 1.0.4 and all 893 public catalog assignments passed independent verification. Use Refresh Remote Listing and Download Assets to replace cached vista bundles. See [catalog correction](VISTA-CATALOGS.md).
+
+## Sponsor logo correction: extension 1.0.5
+
+Published content revision `2026.11.27-vista-logo-masks-1` corrects sixteen vista sponsor materials and icons using the native red-channel mask. All current public digests, catalog assignments, isolated native installation and sampled appends passed independent verification. Refresh Remote Listing, then Download Assets for the vista entries to replace cached bundles. Existing scene materials are not rewritten. Both offline editions are being updated. See [exact shader/channel correction](VISTA-LOGO-MASKS.md).

@@ -1,6 +1,6 @@
 # Vista sponsor logo masks
 
-Local revision `2026.11.27-vista-logo-masks-1` corrects the materials and icons of sixteen sponsor decals: four variants each in BlueBay, GreenCoast, RedIsland and WhiteShore. The remote extension and published offline ZIPs still contain `2026.11.27-vista-catalogs-1`; this correction has not been published as a binary update.
+Revision `2026.11.27-vista-logo-masks-1` corrects the materials and icons of sixteen sponsor decals: four variants each in BlueBay, GreenCoast, RedIsland and WhiteShore. Remote extension **1.0.5** is published and independently verified with this correction. Both offline ZIP editions are being prepared; until their publication completes, their public version remains `2026.11.27-vista-catalogs-1`.
 
 The native `DecalSponsor4x1D_M.dds` files contain different masks in different channels. Red contains the named vista logo; alpha contains a legacy Stadium logo. The compiled `Block_DecalGeom_TOp_PyPxzDSN_X2` pixel shader samples `TMapTOpacity` red (`t12.x`) and multiplies it by vertex alpha (`v1.w`). The previous Blender adapter used bitmap alpha and therefore revealed the wrong logo. No source texture or export link was replaced.
 

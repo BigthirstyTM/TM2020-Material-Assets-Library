@@ -14,7 +14,7 @@ The preceding [Dyna corrections](docs/DYNA-MATERIALS.md), [555 shader follow-up 
 
 ## Sponsor logo correction in publication
 
-The sixteen vista sponsor decals and their thumbnails are corrected locally in **2026.11.27-vista-logo-masks-1**. Remote extension **1.0.5** will publish first, followed by both offline editions. Existing public downloads remain available while these updates are verified. See [the exact shader/channel correction](docs/VISTA-LOGO-MASKS.md).
+Remote extension **1.0.5** now publishes **2026.11.27-vista-logo-masks-1** with the sixteen corrected vista sponsor decals and thumbnails. All public files, native listing, catalog assignments, isolated installation and sampled public appends passed independent verification. Both offline editions are being prepared; their previous verified downloads remain available. See [the exact shader/channel correction](docs/VISTA-LOGO-MASKS.md).
 
 ## Current combined refresh
 
