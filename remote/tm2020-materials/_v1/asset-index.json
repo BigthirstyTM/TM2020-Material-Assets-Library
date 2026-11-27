@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "asset_size_bytes": 4235536582,
+  "asset_size_bytes": 4235536703,
   "asset_count": 893,
   "file_count": 122,
   "pages": [
@@ -30,7 +30,7 @@
     },
     {
       "url": "_v1/assets-00006.json",
-      "hash": "SHA256:94ab6c2c566033f25ff7155b0c04b52775f79d57285f85a91625d960547b40de"
+      "hash": "SHA256:96f4784c0a230234029e6f9f7ea0320be12951eb5cc3a7ba8b6d00b01568e524"
     }
   ],
   "catalogs": [
@@ -343,6 +343,20 @@
       "simple_name": "Trackmania2020-02 BlueBay-Materials"
     },
     {
+      "path": "Trackmania2020/02 BlueBay/Materials/Decals and signs",
+      "uuids": [
+        "32ca3d83-4077-59f7-b8ca-baa9fc040134"
+      ],
+      "simple_name": "Trackmania2020-02 BlueBay-Materials-Decals and signs"
+    },
+    {
+      "path": "Trackmania2020/02 BlueBay/Materials/Other materials",
+      "uuids": [
+        "d359cafd-790f-5367-8b2d-a625f984d623"
+      ],
+      "simple_name": "Trackmania2020-02 BlueBay-Materials-Other materials"
+    },
+    {
       "path": "Trackmania2020/02 BlueBay/Materials/Terrain",
       "uuids": [
         "7abc5f5b-d2e3-51fd-9019-de6265a5e206"
@@ -362,6 +376,13 @@
         "1af6a4c8-188d-5505-adc8-b1f88016f550"
       ],
       "simple_name": "Trackmania2020-03 GreenCoast-Materials"
+    },
+    {
+      "path": "Trackmania2020/03 GreenCoast/Materials/Decals and signs",
+      "uuids": [
+        "be2c5894-66c4-5ec6-abc1-d1f202df3c25"
+      ],
+      "simple_name": "Trackmania2020-03 GreenCoast-Materials-Decals and signs"
     },
     {
       "path": "Trackmania2020/03 GreenCoast/Materials/Other materials",
@@ -392,6 +413,13 @@
       "simple_name": "Trackmania2020-04 RedIsland-Materials"
     },
     {
+      "path": "Trackmania2020/04 RedIsland/Materials/Decals and signs",
+      "uuids": [
+        "a35a50b5-b9d0-58c7-aeaa-c0f1b4c35361"
+      ],
+      "simple_name": "Trackmania2020-04 RedIsland-Materials-Decals and signs"
+    },
+    {
       "path": "Trackmania2020/04 RedIsland/Materials/Other materials",
       "uuids": [
         "6151d7c0-228d-5c26-8c7f-eec72e8b8554"
@@ -418,6 +446,13 @@
         "e81f17dc-c28d-534b-b3ea-11530185f788"
       ],
       "simple_name": "Trackmania2020-05 WhiteShore-Materials"
+    },
+    {
+      "path": "Trackmania2020/05 WhiteShore/Materials/Decals and signs",
+      "uuids": [
+        "f23346cf-1649-5dea-b885-a06a5493bb3d"
+      ],
+      "simple_name": "Trackmania2020-05 WhiteShore-Materials-Decals and signs"
     },
     {
       "path": "Trackmania2020/05 WhiteShore/Materials/Other materials",
