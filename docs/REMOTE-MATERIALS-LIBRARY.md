@@ -34,8 +34,9 @@ repository URL above through Get Extensions and install the library from its lis
 ## Included assets
 
 The collection matches the **873 Materials Only entries in the verified installed
-source** (`2026.11.27-vista-catalogs-1`). Offline ZIPs are being rebuilt separately;
-the preceding public ZIPs do not yet contain the 53 new vista materials. Complete-only / Preview
+source** (`2026.11.27-vista-catalogs-1`) and the published offline Materials Only
+ZIPs. Both offline editions include the 53 vista additions and corrected catalogs;
+both installers and all six public files per edition passed independent verification. Complete-only / Preview
 only assets and source node-group assets are not offered. The 20 HDRI Worlds
 from Materials Only are included under **06 HDRI World Moods**, grouped by
 BlueBay, GreenCoast, RedIsland, Stadium and WhiteShore, each with day, night,
@@ -68,7 +69,7 @@ appended into an open project. Replace or append the newer material when wanted.
 
 To download everything, clear search and catalog filters, select all assets and
 choose **Download Assets**. The compact collection totals **4,235,536,703 bytes (4.24 GB)** in **102
-shared-texture material bundles and 20 HDRI World files**, compared with approximately 2.75 GB for the offline ZIPs.
+shared-texture material bundles and 20 HDRI World files**, compared with 2.96 GB for the two offline Materials Only ZIPs.
 Some texture-heavy bundles are larger than others (up to about 636 MB). The rejected per-material
 layout required 10.37 GB because textures were repeated across many separate files.
 Bundling and stronger lossless native Zstandard compression reduce duplication

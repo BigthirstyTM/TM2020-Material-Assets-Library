@@ -2,25 +2,25 @@
 
 A material asset library for **Trackmania 2020**, designed for the **Blendermania V2 export workflow**. Browse materials in Blender's Asset Browser, apply them to your mesh, and export using their native game material links.
 
-[![Materials Only](https://img.shields.io/badge/Materials_Only-820_materials-287a48)](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-materials-only)
-[![Complete Library](https://img.shields.io/badge/Complete_Library-1119_materials-3779b6)](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-complete)
-[![Blender](https://img.shields.io/badge/Blender-5.2.3_LTS-e87d0d)](docs/INSTALLATION.md)
+[![Materials Only](https://img.shields.io/badge/Materials_Only-873_materials-287a48)](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-materials-only)
+[![Complete Library](https://img.shields.io/badge/Complete_Library-1172_materials-3779b6)](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-complete)
+[![Blender](https://img.shields.io/badge/Blender-5.3.0-e87d0d)](docs/INSTALLATION.md)
 
 The badges above show the material count in each edition and the Blender version used to prepare the library. The small symbols on material thumbnails describe material features; see the [short badge legend](docs/BADGES.md).
 
-Both full ZIP editions now publish **2026.11.26-thumbnail-shadow-lift-1**. This combined revision restores missing UV detail/transition colour, roughness/metal and normal layers in 15 environment materials, including six RedIsland variants. It also includes 37 clearer terrain C thumbnails with active-source diffuse insets and a gentle lift for six dark light/water icons. See [terrain layers and controls](docs/TERRAIN-UV-LAYERS.md) and [thumbnail styles](docs/THUMBNAIL-STYLES.md).
+Both full ZIP editions now publish **2026.11.27-vista-catalogs-1**, including the 53 additional native-linked vista materials and their corrected environment catalog placement. Both isolated installers and all twelve public release files passed independent verification. The combined packages retain the preceding material and thumbnail improvements: the terrain update restores missing UV detail/transition colour, roughness/metal and normal layers in 15 environment materials, including six RedIsland variants. It also includes 37 clearer terrain C thumbnails with active-source diffuse insets and a gentle lift for six dark light/water icons. See [terrain layers and controls](docs/TERRAIN-UV-LAYERS.md) and [thumbnail styles](docs/THUMBNAIL-STYLES.md).
 
 The preceding [Dyna corrections](docs/DYNA-MATERIALS.md), [555 shader follow-up updates](docs/SHADER-FOLLOWUP.md) and thumbnail proportion/frame improvements are included. Existing badges and native export links are preserved. Both editions have two ZIPs with verified checksums; download both or use the installer.
 
 ## Current combined refresh
 
-Content revision **2026.11.26-thumbnail-shadow-lift-1** includes the Dyna and shader follow-up updates above and combines the latest material improvements with the selected [A/B/C thumbnail styles](docs/THUMBNAIL-STYLES.md): softer top-down shader renders without visible studio-lamp reflections, vegetation standing on tiles, and Custom spheres. The [catalog clarity update](docs/CATALOG-CLARITY.md) removes duplicate example assets. AnimatedFlag is retained under Preview only after a reported item-loading crash; its animated MaterialLib alias is disabled.
+Content revision **2026.11.27-vista-catalogs-1** includes the Dyna and shader follow-up updates above and combines the latest material improvements with the selected [A/B/C thumbnail styles](docs/THUMBNAIL-STYLES.md): softer top-down shader renders without visible studio-lamp reflections, vegetation standing on tiles, and Custom spheres. The [catalog clarity update](docs/CATALOG-CLARITY.md) removes duplicate example assets. AnimatedFlag is retained under Preview only after a reported item-loading crash; its animated MaterialLib alias is disabled.
 
 Both full packages include the improvements to 31 projected previews, two light tubes and four optional structure colour masks, plus 88 recovered exact shader references. See [projected surfaces](docs/PROJECTED-SURFACES.md) and [source resolution](docs/SOURCE-RESOLUTION.md). The [shader reconciliation](docs/SHADER-RECONCILIATION.md) clarifies 94 root/pass references and improves ten array-based terrain previews plus LakeBottom. These source references do not promote Preview only entries to confirmed game compatibility.
 
-## Vista update and catalog correction: remote published
+## Vista update and catalog correction: remote and offline published
 
-The local library now includes [53 additional vista materials](docs/VISTA-CANDIDATES.md) after a Trackmania linked-item load check and user visual confirmation. Six projected previews/icons use corrected separate top/side dimensions. Local totals are 873 Materials Only / 1,172 Complete (299 Preview only), plus 20 HDRI Worlds. The remote library is now published as extension **1.0.4**, content revision **2026.11.27-vista-catalogs-1**. The 53 additions are correctly placed below their own environment material categories; HDRI World Moods contains only World assets. All 893 public catalog assignments, current release digests and native installation checks passed independent verification. New offline packages are being prepared; public offline ZIPs below still describe the preceding release.
+The local library now includes [53 additional vista materials](docs/VISTA-CANDIDATES.md) after a Trackmania linked-item load check and user visual confirmation. Six projected previews/icons use corrected separate top/side dimensions. Local totals are 873 Materials Only / 1,172 Complete (299 Preview only), plus 20 HDRI Worlds. The remote library is now published as extension **1.0.4**, content revision **2026.11.27-vista-catalogs-1**. The 53 additions are correctly placed below their own environment material categories; HDRI World Moods contains only World assets. All 893 public catalog assignments, current release digests and native installation checks passed independent verification. Both offline editions are also published with content revision **2026.11.27-vista-catalogs-1**. All six public files per edition match the independently verified local packages, and both isolated installers passed.
 
 ## Blender 5.3 asset-library extension
 
@@ -30,12 +30,12 @@ The full **Trackmania 2020 - Materials Library** extension is published with all
 
 | Edition | Included | Recommended for |
 | --- | --- | --- |
-| [Materials Only](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-materials-only) | 820 native-linked materials | Building and exporting items |
-| [Complete Library](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-complete) | All 1,119 materials, including 299 Preview only assets | Browsing the full material and texture collection |
+| [Materials Only](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-materials-only) | 873 native-linked materials | Building and exporting items |
+| [Complete Library](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-complete) | All 1,172 materials, including 299 Preview only assets | Browsing the full material and texture collection |
 
 Both editions include 20 HDRI World assets, required textures, `MaterialLib.txt`, and an offline material catalogue. Complete retains 42 source texture node groups under **Preview only / Source resources**; Materials Only omits these node-group assets. They are shader inputs, not materials to drag onto a mesh. **Choose one edition**; Complete already includes everything in Materials Only.
 
-Each edition has **two ZIP downloads**. Extract both into the same folder for manual installation, or use the installer to download and combine them automatically.
+Each edition has **two ZIP downloads**. Materials Only totals **2.96 GB** (1,479,414,626 and 1,479,410,327 bytes); Complete totals **3.41 GB** (1,706,252,675 and 1,706,252,932 bytes). Sizes use decimal GB. Extract both parts of your chosen edition into the same folder for manual installation, or use the installer to download and combine them automatically.
 
 Both editions include **animated water previews** for Stadium, BlueBay, GreenCoast, RedIsland and WhiteShore. The two-layer motion follows recovered game shader instructions, with adjustable preview speed, direction and ripple strength. Cubic height-texture filtering keeps close-up ripples smooth. See [Water animation](docs/WATER-ANIMATION.md).
 
@@ -77,4 +77,4 @@ Game assets remain the property of their respective owners. This is an independe
 
 For rebuilding and publishing the project, see [Maintaining](docs/MAINTAINING.md). The original installer and build tooling are covered by [LICENSE-CODE](LICENSE-CODE); this licence does not apply to game assets.
 
-> The remote library excludes the five quarantined screens and includes the 53 new vista materials. The new offline revision `2026.11.27-vista-catalogs-1` is in preparation and will apply the same classification after both installers pass verification. No replacement materials are substituted.
+> The published remote library and both offline ZIP editions include the 53 new vista materials with corrected catalogs. The five quarantined screens remain only under Preview only in Complete; no replacement materials are substituted.
