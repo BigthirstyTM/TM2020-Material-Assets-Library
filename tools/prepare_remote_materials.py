@@ -72,7 +72,8 @@ samples=[]
 media_dir=Path(__file__).resolve().parents[1]/'docs/images/remote-gallery'
 media=json.loads((media_dir/'manifest.json').read_text(encoding='utf-8'))
 for entry in media.values():
- dest=site/'badge-examples'/entry['file'];dest.parent.mkdir(exist_ok=True);shutil.copy2(media_dir/entry['file'],dest)
+ for filename in [entry['file']]+([entry['poster']] if entry.get('poster') else []):
+  dest=site/'badge-examples'/filename;dest.parent.mkdir(exist_ok=True);shutil.copy2(media_dir/filename,dest)
 specs=json.loads((Path(__file__).resolve().parents[1]/'data/remote-badge-examples.json').read_text(encoding='utf-8'))
 for spec in specs:
  m=next(x for x in all_assets if x['name']==spec['name']);row=materials_by_name[m['name']]
@@ -88,7 +89,7 @@ for spec in specs:
    scale=image.width/256;left=218-slot*36;image.crop(tuple(round(x*scale) for x in (left,6,left+32,38))).save(dest)
   symbol_markup=f'<img class="badge-symbol" src="{symbol}" alt="{html.escape(spec["title"])} badge">'
  label=m['name'].removeprefix('TM_').removesuffix('_asset').replace('_',' ')
- poster='remote/tm2020-materials/'+m['thumbnail']['url']
+ poster='badge-examples/'+media[m['name']]['poster'] if media.get(m['name'],{}).get('poster') else 'remote/tm2020-materials/'+m['thumbnail']['url']
  image_markup=f'<img class="material-example" loading="lazy" src="{html.escape(poster)}" alt="{html.escape(label)}">'
  if m['name'] in media:
   animated='badge-examples/'+media[m['name']]['file']
@@ -102,7 +103,7 @@ total=sum(r['bytes'] for r in rows.values())
 <body><main><p class="kicker">Asset library extension · Blender 5.3+</p><h1>{name}</h1><p class="lede">825 Trackmania materials and 20 HDRI Worlds in Blender's Asset Browser. Browse first, download what you need, and download updated material bundles when updates arrive.</p>
 <div class="actions"><a id="install" class="button" draggable="true" href="{html.escape(drag_url)}">Drag into Blender to install ↗</a><a href="https://github.com/{repo}/releases/tag/{tag}">View extension release</a></div>
 <p class="meta">First installation is a small extension ZIP. Materials download in small bundles that share packed textures. Windows, macOS and Linux · Blender 5.3 or newer.</p>
-<section aria-labelledby="badges-heading"><h2 id="badges-heading">Recognise the thumbnail badges</h2><p class="meta">Feature markers used in this library, plus an HDRI World example. Each symbol matches a badge in the material preview. Water and the animated sign show moving Blender previews; Asset Browser thumbnails remain static.</p><div class="gallery">{''.join(samples)}</div><p class="meta">Badges identify a feature family; they do not guarantee identical Blender and game rendering. <a href="https://github.com/{repo}/blob/main/docs/BADGES.md">Read the full badge legend</a>.</p></section>
+<section aria-labelledby="badges-heading"><h2 id="badges-heading">Recognise the thumbnail badges</h2><p class="meta">Feature markers used in this library, plus an HDRI World example. Each symbol matches a badge in the material preview. Water and the animated sign show moving Blender previews; the blue screen demonstrates parallax with a moving camera. Asset Browser thumbnails remain static.</p><div class="gallery">{''.join(samples)}</div><p class="meta">Badges identify a feature family; they do not guarantee identical Blender and game rendering. <a href="https://github.com/{repo}/blob/main/docs/BADGES.md">Read the full badge legend</a>.</p></section>
 <section class="panel"><h2>Install in Blender</h2><ol><li>Open Blender <strong>5.3 or newer</strong> and enable <strong>Online Access</strong> in Preferences → System.</li><li>Drag the green install button from this page into Blender. If prompted, confirm adding the extension repository and installing the library. Blender may ask you to drag the button again after adding the repository.</li><li>Under Preferences → Asset Libraries, enable <strong>{name}</strong> if needed. Select it in an Asset Browser.</li></ol><p>No PowerShell, local server or full-library download is required.</p></section>
 <section><h2>Download and refresh</h2><p>Apply an asset to download its small material bundle and shared packed textures. A bundle may contain several related materials, reducing duplicate downloads. For the whole collection, clear the Asset Browser's search and catalog filters, select all assets and choose <strong>Download Assets</strong>. All material files currently total approximately <strong>{total/1e9:.2f} GB</strong>; Blender's local cache also needs space.</p><p>Use <strong>Refresh Remote Listing</strong> to discover updates, then download changed assets. Only changed bundles need downloading again; unchanged bundles remain reusable. Materials already appended to an open project keep their current version until you replace them.</p></section>
 <details><summary>Manual installation and repository URL</summary><p><a href="{base}extensions/{zip_name}">Download the extension ZIP</a>, then use Preferences → Get Extensions → Install from Disk.</p><p>To browse this extension from Get Extensions, add our repository:</p><p><code id="repo">{base}extensions/index.json</code> <button type="button" onclick="navigator.clipboard.writeText(document.getElementById('repo').textContent).then(()=>this.textContent='Copied')">Copy URL</button></p></details>

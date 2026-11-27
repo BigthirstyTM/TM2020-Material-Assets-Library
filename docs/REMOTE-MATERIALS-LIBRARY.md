@@ -13,13 +13,13 @@ The existing offline ZIPs remain available.
 
 ## Drag-and-drop installation
 
-1. Open Blender 5.3 or newer. Enable **Online Access** in Preferences → System.
+1. Open Blender 5.3 or newer. Enable **Online Access** in Preferences â†’ System.
 2. Open the installation page and drag its green **Drag into Blender to install**
    button into Blender.
 3. Confirm adding our extension repository if Blender asks, then confirm installing
    the asset library extension. Blender may ask you to drag the button again after
    adding a new repository; this is part of Blender's native installation flow.
-4. Enable **Trackmania 2020 - Materials Library** under Preferences → Asset Libraries
+4. Enable **Trackmania 2020 - Materials Library** under Preferences â†’ Asset Libraries
    if needed. Select it in an Asset Browser.
 
 No terminal, PowerShell launcher or local server is needed. The installation ZIP
@@ -28,7 +28,7 @@ This is our GitHub-hosted extension repository. Adding it makes the extension
 available through Get Extensions; it is not a listing on Blender's official directory.
 
 For manual installation, download `trackmania_2020_materials_library-1.0.0.zip`
-and use Preferences → Get Extensions → Install from Disk. You can also add the
+and use Preferences â†’ Get Extensions â†’ Install from Disk. You can also add the
 repository URL above through Get Extensions and install the library from its list.
 
 ## Included assets
@@ -141,6 +141,8 @@ a World already assigned to an open scene.
 The installation page shows seven compact badge examples on one row on wide
 screens, wrapping to four or two columns on smaller screens. Water and
 TurboRoulette Sign use looping WebP previews rendered from their actual Blender
-timeline shaders. Visitors who prefer reduced motion see the original static
+timeline shaders. TurboRoulette plays at a calmer presentation speed. A blue
+Stadium Ad155Screen example fills its square with a centre crop; a gentle
+camera movement reveals its existing parallax depth layers. Visitors who prefer reduced motion see the original static
 thumbnail. Blender Asset Browser thumbnails remain static. In Blender, press
 **Spacebar** (default) to start or stop timeline playback for animated materials.

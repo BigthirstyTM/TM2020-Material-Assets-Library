@@ -5,8 +5,16 @@
     "source": "Blender 5.3 timeline render; website only"
   },
   "TM_TurboRoulette_Sign_asset": {
-    "file": "animation.e77e901585e7.webp",
-    "sha256": "e77e901585e7dfef9b87798d34375a4ec49d3c1729f39121590de56694ae7dff",
-    "source": "Blender 5.3 timeline render; website only"
+    "file": "animation.3da648d86b17.webp",
+    "sha256": "3da648d86b173e05251df40efdad866f34cc197bb8e0dfd355a50b4c1e5d7654",
+    "source": "Blender 5.3 timeline render; website only",
+    "playback_speed": 0.4
+  },
+  "TM_Stadium_Ad155Screen_asset": {
+    "file": "parallax.237a80452f66.webp",
+    "sha256": "237a80452f66a1883bb3801661185b8a213ffa5597ef1be0dc472a08b006368e",
+    "poster": "parallax-still.fec21e8497a8.webp",
+    "poster_sha256": "fec21e8497a80a0ffd647106169b61d667bc74e302b1b787d4ad322bf85547d5",
+    "source": "Blender 5.3 source-informed parallax material; camera oscillates +/-32 degrees over 4 seconds; square centre crop; website only"
   }
 }

@@ -19,9 +19,9 @@
   },
   {
     "badge": "parallax",
-    "name": "TM_PodiumScreen155_asset",
+    "name": "TM_Stadium_Ad155Screen_asset",
     "title": "Parallax / depth",
-    "description": "Layered screen depth changes with the viewing angle."
+    "description": "The blue ad screen has depth layers that shift with the viewing angle. This preview gently moves the camera to reveal the parallax."
   },
   {
     "badge": "animation",
