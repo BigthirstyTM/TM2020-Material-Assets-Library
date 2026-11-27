@@ -49,7 +49,7 @@ try:
   step(edition+'-installer-verification',blend('verify_library.py','--library',dest/'Trackmania2020_assets.blend','--report',OUT/(edition+'-installer-verification.json')))
   metadata=json.loads((dest/'library.json').read_text());assert metadata['content_revision']==REV
   assert sha(dest/'Trackmania2020_assets.blend')==sha(STAGE/edition/'Trackmania2020_assets.blend')
-  manifest=json.loads((DIST/edition/'release.json').read_text());assert len(manifest['archives'])==2 and len(list((DIST/edition).iterdir()))==6
+  manifest=json.loads((DIST/edition/'release.json').read_text());assert manifest['archives'] and {p.name for p in (DIST/edition).iterdir()}=={x['name'] for x in manifest['archives']}|{'release.json','SHA256SUMS.txt','Install-Library.ps1','INSTALLATION.md'}
  assert signature()==sig and sha(SOURCE/'Trackmania2020_assets.blend')==receipt['sha256'],'Source changed during packaging.'
  save(phase='complete',dist=str(DIST),staging=str(STAGE));print('BOTH_CURRENT_PACKAGES_AND_INSTALLERS_VERIFIED',flush=True)
 except Exception as error:save(phase='failed',error=repr(error));raise

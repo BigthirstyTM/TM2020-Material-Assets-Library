@@ -18,13 +18,13 @@ Content revision **2026.11.26-thumbnail-shadow-lift-1** includes the Dyna and sh
 
 Both full packages include the improvements to 31 projected previews, two light tubes and four optional structure colour masks, plus 88 recovered exact shader references. See [projected surfaces](docs/PROJECTED-SURFACES.md) and [source resolution](docs/SOURCE-RESOLUTION.md). The [shader reconciliation](docs/SHADER-RECONCILIATION.md) clarifies 94 root/pass references and improves ten array-based terrain previews plus LakeBottom. These source references do not promote Preview only entries to confirmed game compatibility.
 
-## Vista update in preparation
+## Vista update: remote published, offline packages in preparation
 
-The local library now includes [53 additional vista materials](docs/VISTA-CANDIDATES.md) after a Trackmania linked-item load check and user visual confirmation. Six projected previews/icons use corrected separate top/side dimensions. Local totals are 873 Materials Only / 1,172 Complete (299 Preview only), plus 20 HDRI Worlds. The remote library is being updated first; public offline ZIPs below still describe the preceding release.
+The local library now includes [53 additional vista materials](docs/VISTA-CANDIDATES.md) after a Trackmania linked-item load check and user visual confirmation. Six projected previews/icons use corrected separate top/side dimensions. Local totals are 873 Materials Only / 1,172 Complete (299 Preview only), plus 20 HDRI Worlds. The remote library is now published as extension **1.0.3**, content revision **2026.11.27-vista-native-1**. Its public files, native listing and isolated Blender installation have been independently verified. New offline packages are being prepared; public offline ZIPs below still describe the preceding release.
 
 ## Blender 5.3 asset-library extension
 
-The full **Trackmania 2020 - Materials Library** extension is published with all 820 Materials Only entries and 20 HDRI Worlds. Install it from the [drag-and-drop installation page](https://bigthirstytm.github.io/TM2020-Material-Assets-Library/) or the [separate Blender 5.3+ asset-library extension release](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/materials-library-extension-v1.0.0). It uses our GitHub-hosted extension repository. See [installation and update details](docs/REMOTE-MATERIALS-LIBRARY.md). The full remote download is 3.35 GB in 118 files (98 material bundles and 20 HDRI Worlds); only changed bundles need downloading again. Five legacy screen materials with missing game targets are retained only under Preview only in Complete. Original texture resolutions are retained. Offline ZIPs remain available.
+The full **Trackmania 2020 - Materials Library** extension is published with all 873 Materials Only entries and 20 HDRI Worlds. Install it from the [drag-and-drop installation page](https://bigthirstytm.github.io/TM2020-Material-Assets-Library/) or the [separate Blender 5.3+ asset-library extension release](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/materials-library-extension-v1.0.0). It uses our GitHub-hosted extension repository. See [installation and update details](docs/REMOTE-MATERIALS-LIBRARY.md). The full remote download is 4.24 GB in 122 files (102 material bundles and 20 HDRI Worlds); only changed bundles need downloading again. Five legacy screen materials with missing game targets are retained only under Preview only in Complete. Original texture resolutions are retained. Offline ZIPs remain available.
 
 ## Choose your edition
 
@@ -77,4 +77,4 @@ Game assets remain the property of their respective owners. This is an independe
 
 For rebuilding and publishing the project, see [Maintaining](docs/MAINTAINING.md). The original installer and build tooling are covered by [LICENSE-CODE](LICENSE-CODE); this licence does not apply to game assets.
 
-> Update in preparation: revision `2026.11.27-missing-material-quarantine-1` removes five missing-target screens from Materials Only and the remote library, retaining their previews in Complete. Public packages will be promoted after verification.
+> The remote library excludes the five quarantined screens and includes the 53 new vista materials. The new offline revision `2026.11.27-vista-native-1` is in preparation and will apply the same classification after both installers pass verification. No replacement materials are substituted.

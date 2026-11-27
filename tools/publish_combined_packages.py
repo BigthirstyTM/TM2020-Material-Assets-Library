@@ -8,7 +8,10 @@ parser=argparse.ArgumentParser()
 parser.add_argument('--revision',default='2026.11.24-thumbnail-styles-2',help='Only publish files with this verified content revision.')
 parser.add_argument('--temporary-suffix',default='.thumbnail-styles-refresh',help='Revision-owned suffix for temporary uploads.')
 for key in ['workspace','dist','state']:parser.add_argument('--'+key,type=Path,required=True)
+parser.add_argument('--obsolete-temporary-asset',action='append',default=[],help='Exact obsolete temporary manifest name, removed only after all new final files verify.')
 args=parser.parse_args()
+for name in args.obsolete_temporary_asset:
+    assert any(name.startswith(prefix+'.') and name.endswith('-refresh') for prefix in ['release.json','SHA256SUMS.txt']) and all(c.isalnum() or c in '.-' for c in name),name
 BASE=args.workspace.resolve();DIST=args.dist.resolve();OUT=args.state.resolve();OUT.mkdir(parents=True,exist_ok=True)
 GH=BASE/'.tools/gh/bin/gh.exe';REPO='BigthirstyTM/TM2020-Material-Assets-Library';REV=args.revision;SUFFIX=args.temporary_suffix
 assert SUFFIX.startswith('.') and SUFFIX.endswith('-refresh') and all(c.isalnum() or c in '.-' for c in SUFFIX)
@@ -47,7 +50,8 @@ try:
             assert pack['phase']!='failed',('Packaging failed',pack)
             status(phase='waiting-for-complete-packages',edition=edition);time.sleep(5)
         allowed();folder=DIST/edition;files={p.name:p for p in folder.iterdir() if p.is_file()}
-        manifest=json.loads(files['release.json'].read_text());assert manifest['content_revision']==REV and len(manifest['archives'])==2 and len(files)==6
+        manifest=json.loads(files['release.json'].read_text());assert manifest['content_revision']==REV and manifest['archives']
+        assert set(files)=={x['name'] for x in manifest['archives']}|{'release.json','SHA256SUMS.txt','Install-Library.ps1','INSTALLATION.md'}
         digests={name:'sha256:'+sha(p) for name,p in files.items()}
         for digest,name in (line.split('  ',1) for line in files['SHA256SUMS.txt'].read_text().splitlines()):assert digests[name]=='sha256:'+digest
         original=release(edition);snapshot=OUT/(edition+'-before.json')
@@ -85,12 +89,12 @@ try:
         for asset in final['assets']:
             name=asset['name']
             if name in files:continue
-            assert '.previous-thumbnail-styles-' in name or name.endswith(SUFFIX),('Unexpected public asset',name)
+            assert '.previous-thumbnail-styles-' in name or name.endswith(SUFFIX) or name in args.obsolete_temporary_asset,('Unexpected public asset',name)
             allowed();gh('api',f'repos/{REPO}/releases/assets/{asset["id"]}','--method','DELETE')
         gh('release','edit','v1.0.0-'+edition,'--repo',REPO,'--notes-file',OUT/(edition+'-notes.md'))
         final=release(edition);assert {a['name'] for a in final['assets']}==set(files)
         (OUT/(edition+'-after.json')).write_text(json.dumps(final,indent=2))
-        state['editions'][edition]=dict(url=final['html_url'],verified=True,archives=2,sizes=[a['bytes'] for a in manifest['archives']]);status(phase='edition-complete',edition=edition)
+        state['editions'][edition]=dict(url=final['html_url'],verified=True,archives=len(manifest['archives']),sizes=[a['bytes'] for a in manifest['archives']]);status(phase='edition-complete',edition=edition)
     gh('release','edit','v1.0.0-materials-only','--repo',REPO,'--latest')
     status(phase='verifying-public-downloads');proof={}
     for edition in ['materials-only','complete']:
@@ -103,7 +107,7 @@ try:
             with urllib.request.urlopen(req,timeout=60) as response:data=response.read()
             assert data==files[name].read_bytes();(OUT/(edition+'-public-'+name)).write_bytes(data);downloads[name]=hashlib.sha256(data).hexdigest()
         metadata=json.loads(files['release.json'].read_text());assert metadata['content_revision']==REV
-        proof[edition]=dict(url=remote['html_url'],revision=REV,all_six_digests_verified=True,public_downloads=downloads,archives=metadata['archives'])
+        proof[edition]=dict(url=remote['html_url'],revision=REV,all_digests_verified=True,verified_file_count=len(files),public_downloads=downloads,archives=metadata['archives'])
     (OUT/'public-verification.json').write_text(json.dumps(proof,indent=2));status(phase='complete')
     (OUT/'completion.json').write_text(json.dumps(dict(revision=REV,phase='complete',public_verification=proof),indent=2))
     print('BOTH_CURRENT_RELEASES_PUBLICLY_VERIFIED',flush=True)

@@ -2,9 +2,9 @@
 
 Asset library extension for **Blender 5.3 and newer**.
 
-The full **remote collection contains 820 materials and 20 HDRI Worlds**.
+The full **remote collection contains 873 materials and 20 HDRI Worlds**.
 The extension installs from our GitHub-hosted repository; the complete material
-download is **3.35 GB**, shared across **98 material bundles and 20 HDRI World files**.
+download is **4.24 GB**, shared across **102 material bundles and 20 HDRI World files**.
 The existing offline ZIPs remain available.
 
 - Installation page: https://bigthirstytm.github.io/TM2020-Material-Assets-Library/
@@ -27,14 +27,15 @@ is small; the material files are hosted separately and downloaded when used.
 This is our GitHub-hosted extension repository. Adding it makes the extension
 available through Get Extensions; it is not a listing on Blender's official directory.
 
-For manual installation, download `trackmania_2020_materials_library-1.0.0.zip`
+For manual installation, download `trackmania_2020_materials_library-1.0.3.zip`
 and use Preferences Ã¢â€ â€™ Get Extensions Ã¢â€ â€™ Install from Disk. You can also add the
 repository URL above through Get Extensions and install the library from its list.
 
 ## Included assets
 
-The collection matches the **820 material entries in the current Materials Only
-offline release** (`2026.11.26-thumbnail-shadow-lift-1`). Complete-only / Preview
+The collection matches the **873 Materials Only entries in the verified installed
+source** (`2026.11.27-vista-native-1`). Offline ZIPs are being rebuilt separately;
+the preceding public ZIPs do not yet contain the 53 new vista materials. Complete-only / Preview
 only assets and source node-group assets are not offered. The 20 HDRI Worlds
 from Materials Only are included under **06 HDRI World Moods**, grouped by
 BlueBay, GreenCoast, RedIsland, Stadium and WhiteShore, each with day, night,
@@ -66,7 +67,7 @@ Refreshing or downloading a library asset does not replace a material already
 appended into an open project. Replace or append the newer material when wanted.
 
 To download everything, clear search and catalog filters, select all assets and
-choose **Download Assets**. The compact collection totals **3,351,098,791 bytes (3.35 GB)** in **98
+choose **Download Assets**. The compact collection totals **4,235,536,582 bytes (4.24 GB)** in **102
 shared-texture material bundles and 20 HDRI World files**, compared with approximately 2.75 GB for the offline ZIPs.
 Some texture-heavy bundles are larger than others (up to about 636 MB). The rejected per-material
 layout required 10.37 GB because textures were repeated across many separate files.
@@ -113,19 +114,20 @@ hosting releases before reaching GitHub's per-release asset limit.
 
 ## Verification
 
-All 820 materials were reopened and compared with the verified Materials Only
+All 873 materials were reopened and compared with the verified Materials Only
 source, including shader graphs, drivers, native metadata, packed texture hashes
 and thumbnail artwork. All current release files were independently checked against
 GitHub SHA-256 digests. Public listing and extension bytes were checked, and the
 extension was installed and enabled from its public repository in an isolated
-Blender 5.3 profile. Four representative public material downloads were appended and assigned to test
+Blender 5.3 profile. Eight representative public material downloads (four existing and one from each vista) were appended and assigned to test
 meshes. All 20 HDRI Worlds were reopened with packed environment textures and
 assigned to a scene; two public World downloads were independently appended
 and assigned as the scene World. The existing installed library was unchanged.
 
 Blender's native drag URL parser and installation path were verified; an
-interactive browser-to-Blender drag was not automated. No new game export or
-runtime tests were performed for this hosting conversion.
+interactive browser-to-Blender drag was not automated. The 53 added vista links were preloaded and their linked test ItemModels loaded
+in Trackmania; the user watched the visual check and confirmed they worked. This
+does not establish driving/physics behaviour or exact Blender/game rendering.
 
 ## HDRI Worlds
 
