@@ -40,5 +40,11 @@
     "name": "TM_Stadium_Day_world",
     "title": "HDRI World / mood",
     "description": "Scene lighting and background. Find day, night, sunrise and sunset presets under 06 HDRI World Moods."
+  },
+  {
+    "badge": "color_picker",
+    "name": "TM_DecalPaintSponsor4x1D_asset",
+    "title": "Ingame colorpicker",
+    "description": "The brush marks an explicit native color-table binding. The ingame item/block color index changes authored parts using the source palette; NoColorize variants are excluded."
   }
 ]

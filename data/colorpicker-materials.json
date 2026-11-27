@@ -1,0 +1,4859 @@
+{
+  "revision": "2026.11.27-colorpicker-badges-1",
+  "materials": [
+    {
+      "id": "mat-f80692dda15be286f321f21d",
+      "name": "TM_Canopy_asset",
+      "source": "Stadium/Media/Material/Canopy.Material.Gbx",
+      "source_sha256": "0e164448cbd47b802572813ecafa5ca2fe047ef73aee33e3e946a405756b056d",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Canopy.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/Canopy.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "0e164448cbd47b802572813ecafa5ca2fe047ef73aee33e3e946a405756b056d",
+          "sha256": "90155d8b35be4ad3c6712978c03811758cd13dc14ff0bac16e017741d29986da",
+          "classic": [
+            "#e1e1e100",
+            "#4fa46400",
+            "#3e82b900",
+            "#ca3a2600",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        },
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\TrackWall.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/Canopy.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "0e164448cbd47b802572813ecafa5ca2fe047ef73aee33e3e946a405756b056d",
+          "sha256": "90155d8b35be4ad3c6712978c03811758cd13dc14ff0bac16e017741d29986da",
+          "classic": [
+            "#e1e1e100",
+            "#4fa46400",
+            "#3e82b900",
+            "#ca3a2600",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/CANOPY",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3 Block PyPxzDiff_Spec_Norm.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-13ec559f653961c9c9d83204",
+      "name": "TM_CanopyGlass_asset",
+      "source": "Stadium/Media/Material/CanopyGlass.Material.Gbx",
+      "source_sha256": "acee7fb3e680c1e9a3faaa6cb74b0758f713d1b480b9ce4154f89f35411a96f0",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Canopy.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/CanopyGlass.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "acee7fb3e680c1e9a3faaa6cb74b0758f713d1b480b9ce4154f89f35411a96f0",
+          "sha256": "90155d8b35be4ad3c6712978c03811758cd13dc14ff0bac16e017741d29986da",
+          "classic": [
+            "#e1e1e100",
+            "#4fa46400",
+            "#3e82b900",
+            "#ca3a2600",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/CANOPY",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDiffABlend_SpecNorm_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-f246ec6e6373af2c0fc3f8e8",
+      "name": "TM_CanopyStructure_asset",
+      "source": "Stadium/Media/Material/CanopyStructure.Material.Gbx",
+      "source_sha256": "d0c7b098fdcf83cb17f5706ffc10400d127b806f43603ced612367a73c15e095",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\CanopyStructure.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/CanopyStructure.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "d0c7b098fdcf83cb17f5706ffc10400d127b806f43603ced612367a73c15e095",
+          "sha256": "5818146a0a267c5b2c76c54de4843f5948f34d536e2c21f6405b7f42f1202044",
+          "classic": [
+            "#e1e1e100",
+            "#4fa46400",
+            "#3e82b900",
+            "#ca3a2600",
+            "#66520000"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        },
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\TrackWall.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/CanopyStructure.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "d0c7b098fdcf83cb17f5706ffc10400d127b806f43603ced612367a73c15e095",
+          "sha256": "90155d8b35be4ad3c6712978c03811758cd13dc14ff0bac16e017741d29986da",
+          "classic": [
+            "#e1e1e100",
+            "#4fa46400",
+            "#3e82b900",
+            "#ca3a2600",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/CANOPY",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut_DispIn.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTarget_SI",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTargetId",
+          "values": [
+            [
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-1f834d577749dcb3fd70c5f9",
+      "name": "TM_CustomModColorize2_asset",
+      "source": "Stadium/Media/Material_BlockCustom/CustomModColorize2.Material.Gbx",
+      "source_sha256": "cedcaa81eb7835ecc5f4372022367e7da3b190feed7894d00d5da7ffbcb65148",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material_BlockCustom/CustomModColorize2.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "cedcaa81eb7835ecc5f4372022367e7da3b190feed7894d00d5da7ffbcb65148",
+          "sha256": "7c31c770627d0e70939cbe08fe40b01556666f8a36a9c17767f88bcaf40ce400",
+          "classic": [
+            "#f7f7f700",
+            "#34985700",
+            "#3a85cf00",
+            "#c5181800",
+            "#22222200"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/MODABLE MATERIALS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-355c7b7f93201f1fb9ede58b",
+      "name": "TM_CustomModColorize_asset",
+      "source": "Stadium/Media/Material_BlockCustom/CustomModColorize.Material.Gbx",
+      "source_sha256": "a3cb635bf32dda7ef85395fac88e811be9a928abc235ccf10519841b534b8c3b",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material_BlockCustom/CustomModColorize.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "a3cb635bf32dda7ef85395fac88e811be9a928abc235ccf10519841b534b8c3b",
+          "sha256": "7c31c770627d0e70939cbe08fe40b01556666f8a36a9c17767f88bcaf40ce400",
+          "classic": [
+            "#f7f7f700",
+            "#34985700",
+            "#3a85cf00",
+            "#c5181800",
+            "#22222200"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/MODABLE MATERIALS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-5ed4f3bda82bdb619ba9516c",
+      "name": "TM_DecalCurbs_asset",
+      "source": "Stadium/Media/Material/DecalCurbs.Material.Gbx",
+      "source_sha256": "96e0865bb50ff30b37b65b694869c0c923df4b3493f3af866c1f23c9be408b03",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/DecalCurbs.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "96e0865bb50ff30b37b65b694869c0c923df4b3493f3af866c1f23c9be408b03",
+          "sha256": "1c4fcffdaa246c8aa81e59d04073d9eeac1b0258b957d853e8ec48dd1fdf229e",
+          "classic": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "colorblind": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "stunt": [
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000"
+          ],
+          "palette_count": 30
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR MARKINGS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3 Block DecalGeom.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-39ec243219134e35c6cad7e1",
+      "name": "TM_DecalMarksItems_asset",
+      "source": "Stadium/Media/Material/DecalMarksItems.Material.Gbx",
+      "source_sha256": "61ba276e305fdeaea1856bfb40c37544032819c07f284cbc6f43b12306d2824c",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/DecalMarksItems.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "61ba276e305fdeaea1856bfb40c37544032819c07f284cbc6f43b12306d2824c",
+          "sha256": "1c4fcffdaa246c8aa81e59d04073d9eeac1b0258b957d853e8ec48dd1fdf229e",
+          "classic": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "colorblind": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "stunt": [
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000"
+          ],
+          "palette_count": 30
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR MARKINGS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3 Block DecalGeom.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-ed67eb7804d3091f4ad0ffd8",
+      "name": "TM_DecalMarksStart_asset",
+      "source": "Stadium/Media/Material/DecalMarksStart.Material.Gbx",
+      "source_sha256": "7fe76241ccbc6b806174e9fa50d5ccce42ec058ce7712fbff0eed5cf76f0a472",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/DecalMarksStart.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "7fe76241ccbc6b806174e9fa50d5ccce42ec058ce7712fbff0eed5cf76f0a472",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR MARKINGS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3 Block DecalGeom.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-5c90746ab119706aeff65982",
+      "name": "TM_DecalPaint2Sponsor4x1A_asset",
+      "source": "Stadium/Media/Material/DecalPaint2Sponsor4x1A.Material.Gbx",
+      "source_sha256": "7d10e07b171ef31bf6ee3877efc86719a0a71f0eb2e9a1d4012beb1d71346ccc",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals2.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/DecalPaint2Sponsor4x1A.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "7d10e07b171ef31bf6ee3877efc86719a0a71f0eb2e9a1d4012beb1d71346ccc",
+          "sha256": "a59a8535f7b25f7621dc78b4cb4cbbcae9f25ded9b372c1c91a8120b9174cf04",
+          "classic": [
+            "#81818100",
+            "#43be6f00",
+            "#5394d500",
+            "#d2333300",
+            "#dcbd6100"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-7b99c226c083e29a9144b289",
+      "name": "TM_DecalPaint2Sponsor4x1B_asset",
+      "source": "Stadium/Media/Material/DecalPaint2Sponsor4x1B.Material.Gbx",
+      "source_sha256": "0435c0651c410e62ce773490d844c16dde1ea5c149179a6790ad202769c8b591",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals2.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/DecalPaint2Sponsor4x1B.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "0435c0651c410e62ce773490d844c16dde1ea5c149179a6790ad202769c8b591",
+          "sha256": "a59a8535f7b25f7621dc78b4cb4cbbcae9f25ded9b372c1c91a8120b9174cf04",
+          "classic": [
+            "#81818100",
+            "#43be6f00",
+            "#5394d500",
+            "#d2333300",
+            "#dcbd6100"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-eb8679002450450bbe2cf4c8",
+      "name": "TM_DecalPaint2Sponsor4x1C_asset",
+      "source": "Stadium/Media/Material/DecalPaint2Sponsor4x1C.Material.Gbx",
+      "source_sha256": "286c3e3c52cc7f379f198267df7ceb590832d21553685722c0b2f118c8e8a347",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals2.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/DecalPaint2Sponsor4x1C.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "286c3e3c52cc7f379f198267df7ceb590832d21553685722c0b2f118c8e8a347",
+          "sha256": "a59a8535f7b25f7621dc78b4cb4cbbcae9f25ded9b372c1c91a8120b9174cf04",
+          "classic": [
+            "#81818100",
+            "#43be6f00",
+            "#5394d500",
+            "#d2333300",
+            "#dcbd6100"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-b467bd90101c38b3058fcfc8",
+      "name": "TM_DecalPaint2Sponsor4x1D_asset",
+      "source": "Stadium/Media/Material/DecalPaint2Sponsor4x1D.Material.Gbx",
+      "source_sha256": "d9bb601eaaca0a51ad98bc3e271a28191b9e9b2acebfbbae378c0e1e2236b736",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals2.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/DecalPaint2Sponsor4x1D.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "d9bb601eaaca0a51ad98bc3e271a28191b9e9b2acebfbbae378c0e1e2236b736",
+          "sha256": "a59a8535f7b25f7621dc78b4cb4cbbcae9f25ded9b372c1c91a8120b9174cf04",
+          "classic": [
+            "#81818100",
+            "#43be6f00",
+            "#5394d500",
+            "#d2333300",
+            "#dcbd6100"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-bc91e8c3e2da3abfb6c78f4f",
+      "name": "TM_DecalPaintLogo8x1Colorize_asset",
+      "source": "Stadium/Media/Material/DecalPaintLogo8x1Colorize.Material.Gbx",
+      "source_sha256": "b0148aceb428ef656d678162ea94970096295fc52a0071dd87de3749161c7218",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/DecalPaintLogo8x1Colorize.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "b0148aceb428ef656d678162ea94970096295fc52a0071dd87de3749161c7218",
+          "sha256": "1c4fcffdaa246c8aa81e59d04073d9eeac1b0258b957d853e8ec48dd1fdf229e",
+          "classic": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "colorblind": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "stunt": [
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000"
+          ],
+          "palette_count": 30
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-3b709308ac89b67a1bdff6f4",
+      "name": "TM_DecalPaintSponsor4x1A_asset",
+      "source": "Stadium/Media/Material/DecalPaintSponsor4x1A.Material.Gbx",
+      "source_sha256": "5684edb13bfb117d35e4cab12175d6da4a0e5dbac172a62104271d6d9453e9c2",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/DecalPaintSponsor4x1A.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "5684edb13bfb117d35e4cab12175d6da4a0e5dbac172a62104271d6d9453e9c2",
+          "sha256": "1c4fcffdaa246c8aa81e59d04073d9eeac1b0258b957d853e8ec48dd1fdf229e",
+          "classic": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "colorblind": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "stunt": [
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000"
+          ],
+          "palette_count": 30
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-ec1330b7ea8305dcf8f33cc5",
+      "name": "TM_DecalPaintSponsor4x1B_asset",
+      "source": "Stadium/Media/Material/DecalPaintSponsor4x1B.Material.Gbx",
+      "source_sha256": "3ead76ff4b1533dcc597bb598e326670d9d321667ea91149709b07adb7b7f3a1",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/DecalPaintSponsor4x1B.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "3ead76ff4b1533dcc597bb598e326670d9d321667ea91149709b07adb7b7f3a1",
+          "sha256": "1c4fcffdaa246c8aa81e59d04073d9eeac1b0258b957d853e8ec48dd1fdf229e",
+          "classic": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "colorblind": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "stunt": [
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000"
+          ],
+          "palette_count": 30
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-5fa28f1194557811283ec523",
+      "name": "TM_DecalPaintSponsor4x1C_asset",
+      "source": "Stadium/Media/Material/DecalPaintSponsor4x1C.Material.Gbx",
+      "source_sha256": "a4d080342d82257acdcedb1f069c9317a3a81bdeac768815e0ee6e27ecb241e8",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/DecalPaintSponsor4x1C.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "a4d080342d82257acdcedb1f069c9317a3a81bdeac768815e0ee6e27ecb241e8",
+          "sha256": "1c4fcffdaa246c8aa81e59d04073d9eeac1b0258b957d853e8ec48dd1fdf229e",
+          "classic": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "colorblind": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "stunt": [
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000"
+          ],
+          "palette_count": 30
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-303ae6441c3b17bcbf6e057c",
+      "name": "TM_DecalPaintSponsor4x1D_asset",
+      "source": "Stadium/Media/Material/DecalPaintSponsor4x1D.Material.Gbx",
+      "source_sha256": "bec77ad7ce4040f37ae615914d24c777eede3704bd607dd228d8c1e6beabdd91",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/DecalPaintSponsor4x1D.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "bec77ad7ce4040f37ae615914d24c777eede3704bd607dd228d8c1e6beabdd91",
+          "sha256": "1c4fcffdaa246c8aa81e59d04073d9eeac1b0258b957d853e8ec48dd1fdf229e",
+          "classic": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "colorblind": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "stunt": [
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000"
+          ],
+          "palette_count": 30
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-fbf787cddcfedd59eba3114d",
+      "name": "TM_DecalPlatform_asset",
+      "source": "Stadium/Media/Material/DecalPlatform.Material.Gbx",
+      "source_sha256": "9f0fbbca7d6d2bd9e76987e15909dbe5656245811bb832701205afa02e7b2f6a",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/DecalPlatform.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "9f0fbbca7d6d2bd9e76987e15909dbe5656245811bb832701205afa02e7b2f6a",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR MARKINGS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3 Block DecalGeom.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-31eec87ac017955c8f4f2517",
+      "name": "TM_DecoCliffBase_asset",
+      "source": "Stadium/Media/Material/DecoCliffBase.Material.Gbx",
+      "source_sha256": "d166d43ad5b239bb193a9f7a2d5e84b9d42f76e08d57e58b90327ba2c8762525",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\TrackWall.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/DecoCliffBase.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "d166d43ad5b239bb193a9f7a2d5e84b9d42f76e08d57e58b90327ba2c8762525",
+          "sha256": "90155d8b35be4ad3c6712978c03811758cd13dc14ff0bac16e017741d29986da",
+          "classic": [
+            "#e1e1e100",
+            "#4fa46400",
+            "#3e82b900",
+            "#ca3a2600",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ROADS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-55fedc82717a9538e4954c66",
+      "name": "TM_ItemFlagNoAnim_asset",
+      "source": "Stadium/Media/Material/ItemFlagNoAnim.Material.Gbx",
+      "source_sha256": "cd0907ffc6b9a6241c1fc34f709405dc854156563d58d9a26fb418a006fa3c59",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/ItemFlagNoAnim.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "cd0907ffc6b9a6241c1fc34f709405dc854156563d58d9a26fb418a006fa3c59",
+          "sha256": "7c31c770627d0e70939cbe08fe40b01556666f8a36a9c17767f88bcaf40ce400",
+          "classic": [
+            "#f7f7f700",
+            "#34985700",
+            "#3a85cf00",
+            "#c5181800",
+            "#22222200"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-6e4991abefd40b229d6f368a",
+      "name": "TM_ItemInflatableFloor_asset",
+      "source": "Stadium/Media/Material/ItemInflatableFloor.Material.Gbx",
+      "source_sha256": "32e27ac320e04fa0f8bee905f14587785684f01a0fe16886efec2708c0f886ff",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Fun.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/ItemInflatableFloor.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "32e27ac320e04fa0f8bee905f14587785684f01a0fe16886efec2708c0f886ff",
+          "sha256": "4a275d907470af5e98f1de2bdfd53d25d2f6bd7b34df882a908fb4c4b4a809e2",
+          "classic": [
+            "#e0d7cd00",
+            "#4ace8000",
+            "#3198bf00",
+            "#db464600",
+            "#24242400"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-3628e92aace330fd4cce5a44",
+      "name": "TM_ItemInflatableMat_asset",
+      "source": "Stadium/Media/Material/ItemInflatableMat.Material.Gbx",
+      "source_sha256": "c9823982fb5d9af8d17c0f508526b77a031ebd4e686bb3260e7b6d1f91429607",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Fun.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/ItemInflatableMat.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "c9823982fb5d9af8d17c0f508526b77a031ebd4e686bb3260e7b6d1f91429607",
+          "sha256": "4a275d907470af5e98f1de2bdfd53d25d2f6bd7b34df882a908fb4c4b4a809e2",
+          "classic": [
+            "#e0d7cd00",
+            "#4ace8000",
+            "#3198bf00",
+            "#db464600",
+            "#24242400"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-2268b51765328df438c380ce",
+      "name": "TM_ItemInflatableTube_asset",
+      "source": "Stadium/Media/Material/ItemInflatableTube.Material.Gbx",
+      "source_sha256": "7a1825d197d6585f6a5309c4540fa7a148b1e249b5f1fbdfc166a736e1758d0a",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Fun.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/ItemInflatableTube.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "7a1825d197d6585f6a5309c4540fa7a148b1e249b5f1fbdfc166a736e1758d0a",
+          "sha256": "4a275d907470af5e98f1de2bdfd53d25d2f6bd7b34df882a908fb4c4b4a809e2",
+          "classic": [
+            "#e0d7cd00",
+            "#4ace8000",
+            "#3198bf00",
+            "#db464600",
+            "#24242400"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-7f9a4e98376951e102f5f62b",
+      "name": "TM_ItemPillar2_asset",
+      "source": "Stadium/Media/Material/ItemPillar2.Material.Gbx",
+      "source_sha256": "df9a1f3e119283210c190e98405d6f0a4d478f96d1b78d492669ee057c85bbb6",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/ItemPillar2.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "df9a1f3e119283210c190e98405d6f0a4d478f96d1b78d492669ee057c85bbb6",
+          "sha256": "7c31c770627d0e70939cbe08fe40b01556666f8a36a9c17767f88bcaf40ce400",
+          "classic": [
+            "#f7f7f700",
+            "#34985700",
+            "#3a85cf00",
+            "#c5181800",
+            "#22222200"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-a155e9d89492b7e0bed0a778",
+      "name": "TM_ItemPillar_asset",
+      "source": "Stadium/Media/Material/ItemPillar.Material.Gbx",
+      "source_sha256": "36b62ac44a20b3f3d35d253183de05b7f86ad2eac9c3d3357e18f32167a4d46d",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/ItemPillar.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "36b62ac44a20b3f3d35d253183de05b7f86ad2eac9c3d3357e18f32167a4d46d",
+          "sha256": "7c31c770627d0e70939cbe08fe40b01556666f8a36a9c17767f88bcaf40ce400",
+          "classic": [
+            "#f7f7f700",
+            "#34985700",
+            "#3a85cf00",
+            "#c5181800",
+            "#22222200"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-e6d0e9c7aa6057743d0909a6",
+      "name": "TM_ItemRamp_asset",
+      "source": "Stadium/Media/Material/ItemRamp.Material.Gbx",
+      "source_sha256": "2eca0e96970ff37637a76e33a12646fadae22f3d46c2f0434ab072848fe06994",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/ItemRamp.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "2eca0e96970ff37637a76e33a12646fadae22f3d46c2f0434ab072848fe06994",
+          "sha256": "7c31c770627d0e70939cbe08fe40b01556666f8a36a9c17767f88bcaf40ce400",
+          "classic": [
+            "#f7f7f700",
+            "#34985700",
+            "#3a85cf00",
+            "#c5181800",
+            "#22222200"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-b458a2d79c7cdfc883ce3942",
+      "name": "TM_ItemSupportTube_asset",
+      "source": "Stadium/Media/Material/ItemSupportTube.Material.Gbx",
+      "source_sha256": "8badb3bf858ac814c7e1d5f042db110989fece67f35be20fb9bf12a3ac3af156",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/ItemSupportTube.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "8badb3bf858ac814c7e1d5f042db110989fece67f35be20fb9bf12a3ac3af156",
+          "sha256": "7c31c770627d0e70939cbe08fe40b01556666f8a36a9c17767f88bcaf40ce400",
+          "classic": [
+            "#f7f7f700",
+            "#34985700",
+            "#3a85cf00",
+            "#c5181800",
+            "#22222200"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-5069c4770b34c64e577ceb4b",
+      "name": "TM_ItemTrackBarrier2_asset",
+      "source": "Stadium/Media/Material/ItemTrackBarrier2.Material.Gbx",
+      "source_sha256": "85c57f1ddc01e823cf21aca235ea26aa42d6cfb872676bafcce77173161afce4",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/ItemTrackBarrier2.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "85c57f1ddc01e823cf21aca235ea26aa42d6cfb872676bafcce77173161afce4",
+          "sha256": "7c31c770627d0e70939cbe08fe40b01556666f8a36a9c17767f88bcaf40ce400",
+          "classic": [
+            "#f7f7f700",
+            "#34985700",
+            "#3a85cf00",
+            "#c5181800",
+            "#22222200"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-a318e5102322347410d2b7ee",
+      "name": "TM_ItemTrackBarrier_asset",
+      "source": "Stadium/Media/Material/ItemTrackBarrier.Material.Gbx",
+      "source_sha256": "1992f63038033b738dd12033e46fea7f37a079b84c1b3474647241775c7447d2",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/ItemTrackBarrier.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "1992f63038033b738dd12033e46fea7f37a079b84c1b3474647241775c7447d2",
+          "sha256": "7c31c770627d0e70939cbe08fe40b01556666f8a36a9c17767f88bcaf40ce400",
+          "classic": [
+            "#f7f7f700",
+            "#34985700",
+            "#3a85cf00",
+            "#c5181800",
+            "#22222200"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-bbf538c62726518daaac7e39",
+      "name": "TM_ItemTrackBarrierB_asset",
+      "source": "Stadium/Media/Material/ItemTrackBarrierB.Material.Gbx",
+      "source_sha256": "d30aadce51bf8c0c36736005a80093971cd8ce428f0e14351881ec467caeaba0",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/ItemTrackBarrierB.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "d30aadce51bf8c0c36736005a80093971cd8ce428f0e14351881ec467caeaba0",
+          "sha256": "7c31c770627d0e70939cbe08fe40b01556666f8a36a9c17767f88bcaf40ce400",
+          "classic": [
+            "#f7f7f700",
+            "#34985700",
+            "#3a85cf00",
+            "#c5181800",
+            "#22222200"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-7f9bc8454f99c85e78ca9148",
+      "name": "TM_ItemTrackBarrierC_asset",
+      "source": "Stadium/Media/Material/ItemTrackBarrierC.Material.Gbx",
+      "source_sha256": "d98258841cdeb0f94b4215821fc5bf452af6073379ab87ec739b6e91b8ae9719",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/ItemTrackBarrierC.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "d98258841cdeb0f94b4215821fc5bf452af6073379ab87ec739b6e91b8ae9719",
+          "sha256": "7c31c770627d0e70939cbe08fe40b01556666f8a36a9c17767f88bcaf40ce400",
+          "classic": [
+            "#f7f7f700",
+            "#34985700",
+            "#3a85cf00",
+            "#c5181800",
+            "#22222200"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-e0fa62c7d6176cec720a1588",
+      "name": "TM_OpenTechBorders_asset",
+      "source": "Stadium/Media/Material/OpenTechBorders.Material.Gbx",
+      "source_sha256": "9cd06edae05ebbdf91bfda4de224a47d19d980e204e1ece0f26cc8d5412bcb61",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/OpenTechBorders.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "9cd06edae05ebbdf91bfda4de224a47d19d980e204e1ece0f26cc8d5412bcb61",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ROADS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-6feafb92373a2179480304bb",
+      "name": "TM_PlatformDirt_DecalPlatform_asset",
+      "source": "Stadium/Media/Modifier/PlatformDirt/DecalPlatform.Material.Gbx",
+      "source_sha256": "c421ebd5888bd3f689924e77bfb7efb2e14f6cd4e2d674ebe76e1a8e91afa693",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Modifier/PlatformDirt/DecalPlatform.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "c421ebd5888bd3f689924e77bfb7efb2e14f6cd4e2d674ebe76e1a8e91afa693",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM DIRT",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3 Block DecalGeom.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-a86ba89c1ac0d0920a20dc1e",
+      "name": "TM_PlatformDirt_DecoCliffBase_asset",
+      "source": "Stadium/Media/Modifier/PlatformDirt/DecoCliffBase.Material.Gbx",
+      "source_sha256": "246f8e1863b15bb841d8053017da2f82b828899e17d29105f049176d8686a2b9",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\TrackWall.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Modifier/PlatformDirt/DecoCliffBase.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "246f8e1863b15bb841d8053017da2f82b828899e17d29105f049176d8686a2b9",
+          "sha256": "90155d8b35be4ad3c6712978c03811758cd13dc14ff0bac16e017741d29986da",
+          "classic": [
+            "#e1e1e100",
+            "#4fa46400",
+            "#3e82b900",
+            "#ca3a2600",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM DIRT",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-a753600ca7d4602230f10c74",
+      "name": "TM_PlatformDirt_OpenTechBorders_asset",
+      "source": "Stadium/Media/Modifier/PlatformDirt/OpenTechBorders.Material.Gbx",
+      "source_sha256": "fbdb3a06d06544da2e49dbcb19d1660c7be697d8e4a31da3415b7d5df8e7efb3",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Modifier/PlatformDirt/OpenTechBorders.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "fbdb3a06d06544da2e49dbcb19d1660c7be697d8e4a31da3415b7d5df8e7efb3",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM DIRT",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-c728388b92410da63d7de962",
+      "name": "TM_PlatformGrass_DecalPlatform_asset",
+      "source": "Stadium/Media/Modifier/PlatformGrass/DecalPlatform.Material.Gbx",
+      "source_sha256": "eee922c78163c2177dce13e25c2c319d3bb293a4494a47f8474af9b4cb71e73d",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Modifier/PlatformGrass/DecalPlatform.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "eee922c78163c2177dce13e25c2c319d3bb293a4494a47f8474af9b4cb71e73d",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM GRASS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3 Block DecalGeom.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-99ecef63aa2a99b8cee29e82",
+      "name": "TM_PlatformGrass_OpenTechBorders_asset",
+      "source": "Stadium/Media/Modifier/PlatformGrass/OpenTechBorders.Material.Gbx",
+      "source_sha256": "44da38087109d401c5e1e0a8d6a52ce01db7161bc00c6e1c8c5fb634772f0ca4",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Modifier/PlatformGrass/OpenTechBorders.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "44da38087109d401c5e1e0a8d6a52ce01db7161bc00c6e1c8c5fb634772f0ca4",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM GRASS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-c2e5d6a296a715ccce7a4e16",
+      "name": "TM_PlatformIce_DecalPlatform_asset",
+      "source": "Stadium/Media/Modifier/PlatformIce/DecalPlatform.Material.Gbx",
+      "source_sha256": "7f9e37d0a6b108de90b6dfc49e3cb17bf605f6238e90cf3cb4ede500933ec7a3",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Modifier/PlatformIce/DecalPlatform.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "7f9e37d0a6b108de90b6dfc49e3cb17bf605f6238e90cf3cb4ede500933ec7a3",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM ICE",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3 Block DecalGeom.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-18131a236d5cc9959e893b08",
+      "name": "TM_PlatformIce_DecoCliffBase_asset",
+      "source": "Stadium/Media/Modifier/PlatformIce/DecoCliffBase.Material.Gbx",
+      "source_sha256": "346ede632f7ccd045e511fa39559dce544f4a060bbc05e1e4e102873c89ab8c7",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\TrackWall.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Modifier/PlatformIce/DecoCliffBase.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "346ede632f7ccd045e511fa39559dce544f4a060bbc05e1e4e102873c89ab8c7",
+          "sha256": "90155d8b35be4ad3c6712978c03811758cd13dc14ff0bac16e017741d29986da",
+          "classic": [
+            "#e1e1e100",
+            "#4fa46400",
+            "#3e82b900",
+            "#ca3a2600",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM ICE",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-8c4307da51ce2590903f6607",
+      "name": "TM_PlatformIce_OpenTechBorders_asset",
+      "source": "Stadium/Media/Modifier/PlatformIce/OpenTechBorders.Material.Gbx",
+      "source_sha256": "895771eb2f7da54f1b84c721c4f43104770543fba19d9b3338ad6cbdaffc917f",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Modifier/PlatformIce/OpenTechBorders.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "895771eb2f7da54f1b84c721c4f43104770543fba19d9b3338ad6cbdaffc917f",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM ICE",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3 Block PyPxzTLayered.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_Subsurface",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "SurfaceColor",
+          "values": [
+            [
+              0.9,
+              0.92,
+              0.99
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTargetId",
+          "values": [
+            [
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-9b0c075ce4b92e22e4deaba3",
+      "name": "TM_PlatformPlastic_DecalPlatform_asset",
+      "source": "Stadium/Media/Modifier/PlatformPlastic/DecalPlatform.Material.Gbx",
+      "source_sha256": "c17cb5b2cb93326b264a75a9d27775171118fe506208070ad941ec76bf8023f7",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Fun.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Modifier/PlatformPlastic/DecalPlatform.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "c17cb5b2cb93326b264a75a9d27775171118fe506208070ad941ec76bf8023f7",
+          "sha256": "4a275d907470af5e98f1de2bdfd53d25d2f6bd7b34df882a908fb4c4b4a809e2",
+          "classic": [
+            "#e0d7cd00",
+            "#4ace8000",
+            "#3198bf00",
+            "#db464600",
+            "#24242400"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM PLASTIC",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3 Block DecalGeom.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-5a6dd2c2ae3a076a47899fb5",
+      "name": "TM_PlatformPlastic_PlatformTech_asset",
+      "source": "Stadium/Media/Modifier/PlatformPlastic/PlatformTech.Material.Gbx",
+      "source_sha256": "3d7dcfb504ec2b97b1ce3eb1f5e078f2bde6df02f620405a17ead009474b170b",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Fun.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Modifier/PlatformPlastic/PlatformTech.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "3d7dcfb504ec2b97b1ce3eb1f5e078f2bde6df02f620405a17ead009474b170b",
+          "sha256": "4a275d907470af5e98f1de2bdfd53d25d2f6bd7b34df882a908fb4c4b4a809e2",
+          "classic": [
+            "#e0d7cd00",
+            "#4ace8000",
+            "#3198bf00",
+            "#db464600",
+            "#24242400"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM PLASTIC",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3 Block PyPxzDiff_Spec_Norm_LM1.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-59f6e210dfccbe4742f107b1",
+      "name": "TM_RoadBump_asset",
+      "source": "Stadium/Media/Material/RoadBump.Material.Gbx",
+      "source_sha256": "167ebb5684a43dd4d4efe43d12fc2bda8cfea3b2cc6ff76580e87d89286c2cb1",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/RoadBump.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "167ebb5684a43dd4d4efe43d12fc2bda8cfea3b2cc6ff76580e87d89286c2cb1",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ROADS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-e3c336f1c1d17e24d34831d4",
+      "name": "TM_RoadDirt_asset",
+      "source": "Stadium/Media/Material/RoadDirt.Material.Gbx",
+      "source_sha256": "2a561e5ccd57498cc49c0eb6d3ee5518ce8fc08205e7facccf196da9b126e9ee",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/RoadDirt.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "2a561e5ccd57498cc49c0eb6d3ee5518ce8fc08205e7facccf196da9b126e9ee",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ROADS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3 Block PyPxzTDiffSpecNorm_PyX2Hx2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_T",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTarget_PyPxz",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTargetId",
+          "values": [
+            [
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-e982e263af99d9cc212b18bb",
+      "name": "TM_RoadDirtFullColorize_asset",
+      "source": "Stadium/Media/Material/RoadDirtFullColorize.Material.Gbx",
+      "source_sha256": "dad49ab509f8f833794ffc591df41541617791de97bdb99d88140f34ac2c32e4",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/RoadDirtFullColorize.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "dad49ab509f8f833794ffc591df41541617791de97bdb99d88140f34ac2c32e4",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ROADS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3 Block PyPxzTDiffSpecNorm_PyX2Hx2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_T",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTarget_PyPxz",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTargetId",
+          "values": [
+            [
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-65414f0ae32fe5d13300666d",
+      "name": "TM_RoadIce_asset",
+      "source": "Stadium/Media/Material/RoadIce.Material.Gbx",
+      "source_sha256": "ee3db0b0511ce69f81a16f57530ffef6c7b38b0ec5b7f87e1b63222c04604592",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/RoadIce.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "ee3db0b0511ce69f81a16f57530ffef6c7b38b0ec5b7f87e1b63222c04604592",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ROADS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3 Block PyPxzTLayered.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_Subsurface",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "SurfaceColor",
+          "values": [
+            [
+              0.9,
+              0.92,
+              0.99
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTargetId",
+          "values": [
+            [
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-cf098b92d7579ce248d23739",
+      "name": "TM_RoadTech_asset",
+      "source": "Stadium/Media/Material/RoadTech.Material.Gbx",
+      "source_sha256": "d759502189737947b3c1357e60389b4515848fb2ce814bfad04f04c0d4465c09",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/RoadTech.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "d759502189737947b3c1357e60389b4515848fb2ce814bfad04f04c0d4465c09",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/ROADS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-0b2bd0b880379079d2a42a56",
+      "name": "TM_Stadium_StructureInWorld_asset",
+      "source": "BlueBay/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx",
+      "source_sha256": "c791516e42f721ea213deaaded943e23ae3135a5749b87067861922e31a7de68",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "BlueBay/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "c791516e42f721ea213deaaded943e23ae3135a5749b87067861922e31a7de68",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/Additional surfaces",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-731b7cef5edf784147af1047",
+      "name": "TM_Stadium_StructureTruss_asset",
+      "source": "Stadium/Media/Material/StructureTruss.Material.Gbx",
+      "source_sha256": "444e712269009b423140658dd26a7882b7d3bbc2426e0ba22f2cce3e8ae669b6",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/StructureTruss.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "444e712269009b423140658dd26a7882b7d3bbc2426e0ba22f2cce3e8ae669b6",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/Additional surfaces",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-f286b5e723cab306768e836d",
+      "name": "TM_Stadium_TechnicsStepLow_asset",
+      "source": "Stadium/Media/Material/TechnicsStepLow.Material.Gbx",
+      "source_sha256": "e058cdabe88f774906955874b9bac18ff15543fa80df8a576f4d25057925e443",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/TechnicsStepLow.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "e058cdabe88f774906955874b9bac18ff15543fa80df8a576f4d25057925e443",
+          "sha256": "7c31c770627d0e70939cbe08fe40b01556666f8a36a9c17767f88bcaf40ce400",
+          "classic": [
+            "#f7f7f700",
+            "#34985700",
+            "#3a85cf00",
+            "#c5181800",
+            "#22222200"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/Additional structures",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-cce048f3d8733e2b137820e4",
+      "name": "TM_Stadium_ThemeDesertBarrier_asset",
+      "source": "Stadium/Media/Material/ThemeDesertBarrier.Material.Gbx",
+      "source_sha256": "b1b255fc59ecb92cf0cb6aee317bf32615bddb8bcb167c83dad55f0487624f55",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/ThemeDesertBarrier.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "b1b255fc59ecb92cf0cb6aee317bf32615bddb8bcb167c83dad55f0487624f55",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/Additional surfaces",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-3138ca7ffe45af8435f89f59",
+      "name": "TM_Stadium_TrackBordersInWorld_asset",
+      "source": "BlueBay/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld.Material.Gbx",
+      "source_sha256": "feaeb481dd6d78873faa9b24a3b0dba295d86b245d473174100dc559b9d1c0b4",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportIllum.ColorTable.gbx.json",
+          "owner": "BlueBay/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "feaeb481dd6d78873faa9b24a3b0dba295d86b245d473174100dc559b9d1c0b4",
+          "sha256": "084a08f42c48f88bd288770ea478145d27de410cdb5990aeab2c49ef59ca8b24",
+          "classic": [
+            "#e2e0d300",
+            "#69e48e00",
+            "#55a9e800",
+            "#e4554900",
+            "#e9cca000"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/Additional surfaces",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut_DispIn.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTarget_SI",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTargetId",
+          "values": [
+            [
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-5eb6cd82c26f300c77ba23a1",
+      "name": "TM_Stadium_TrackWallClipsInWorld_asset",
+      "source": "BlueBay/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx",
+      "source_sha256": "ebd3f570cbd8892d6029aaf7cea17f9361a197058695a145427d731ba293f9c3",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "BlueBay/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "ebd3f570cbd8892d6029aaf7cea17f9361a197058695a145427d731ba293f9c3",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/Additional surfaces",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-fb06ee90c06b58836fc1daee",
+      "name": "TM_Structure_asset",
+      "source": "Stadium/Media/Material/Structure.Material.Gbx",
+      "source_sha256": "dfff4854312a9ba579804a0a27949667404812b79b13fafbf41e4399b07b8f54",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/Structure.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "dfff4854312a9ba579804a0a27949667404812b79b13fafbf41e4399b07b8f54",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/TECHNICS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-a12aaf4fc80e5ec5bff80665",
+      "name": "TM_Technics_asset",
+      "source": "Stadium/Media/Material/Technics.Material.Gbx",
+      "source_sha256": "e7f24ad3874b410e099bd1196747666f257bc67714488606142d58417f27c907",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/Technics.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "e7f24ad3874b410e099bd1196747666f257bc67714488606142d58417f27c907",
+          "sha256": "7c31c770627d0e70939cbe08fe40b01556666f8a36a9c17767f88bcaf40ce400",
+          "classic": [
+            "#f7f7f700",
+            "#34985700",
+            "#3a85cf00",
+            "#c5181800",
+            "#22222200"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/TECHNICS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-9f58d0945a284f266d990cfd",
+      "name": "TM_TechnicsStep_asset",
+      "source": "Stadium/Media/Material/TechnicsStep.Material.Gbx",
+      "source_sha256": "0ecbe7d29b7a91115d29b53a401758ad0d60415e5d9e7353e0bb665e1e5094b8",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/TechnicsStep.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "0ecbe7d29b7a91115d29b53a401758ad0d60415e5d9e7353e0bb665e1e5094b8",
+          "sha256": "7c31c770627d0e70939cbe08fe40b01556666f8a36a9c17767f88bcaf40ce400",
+          "classic": [
+            "#f7f7f700",
+            "#34985700",
+            "#3a85cf00",
+            "#c5181800",
+            "#22222200"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/TECHNICS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-fa39462bb4c97b817edcd5d3",
+      "name": "TM_TechnicsTrimsColorize_asset",
+      "source": "Stadium/Media/Material/TechnicsTrimsColorize.Material.Gbx",
+      "source_sha256": "ef50096967c8cafdb3a0ac9c8d32c7f45cfaf8bd064746382e3d10f344942a7c",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/TechnicsTrimsColorize.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "ef50096967c8cafdb3a0ac9c8d32c7f45cfaf8bd064746382e3d10f344942a7c",
+          "sha256": "7c31c770627d0e70939cbe08fe40b01556666f8a36a9c17767f88bcaf40ce400",
+          "classic": [
+            "#f7f7f700",
+            "#34985700",
+            "#3a85cf00",
+            "#c5181800",
+            "#22222200"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/TECHNICS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-2126fa3dfb2dfc53d18e205a",
+      "name": "TM_ThemeRallyCastleRoof_asset",
+      "source": "Stadium/Media/Material/ThemeRallyCastleRoof.Material.Gbx",
+      "source_sha256": "bd12d2abbbfebca2ca005fdf9c5a282a68955710c034a89b0499200d3c14579b",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/ThemeRallyCastleRoof.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "bd12d2abbbfebca2ca005fdf9c5a282a68955710c034a89b0499200d3c14579b",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/THEME RALLY",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-85a9577c0c2efe5e978c495b",
+      "name": "TM_ThemeSnowRoadBorder_asset",
+      "source": "Stadium/Media/Material/ThemeSnowRoadBorder.Material.Gbx",
+      "source_sha256": "9d2d7a4bd2102f415a5181528db14f15ee396f52d5277f35e48017518e45aa40",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/ThemeSnowRoadBorder.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "9d2d7a4bd2102f415a5181528db14f15ee396f52d5277f35e48017518e45aa40",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/THEME SNOW",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-d133ac414357036a768f9d59",
+      "name": "TM_ThemeSnowTempleDetails_asset",
+      "source": "Stadium/Media/Material/ThemeSnowTempleDetails.Material.Gbx",
+      "source_sha256": "768fb8aaa05c79519c31e9cb397f631052e5c2e0bee216729abab06e504287d0",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/ThemeSnowTempleDetails.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "768fb8aaa05c79519c31e9cb397f631052e5c2e0bee216729abab06e504287d0",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/THEME SNOW",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-1d75ef32d497afda2509040c",
+      "name": "TM_ThemeSnowTempleFloor_asset",
+      "source": "Stadium/Media/Material/ThemeSnowTempleFloor.Material.Gbx",
+      "source_sha256": "fdfa9dae999a715f90e4af3b5245559ac8cdf9d7fd7c1296580a09c3e1d33bd5",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\TrackWall.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/ThemeSnowTempleFloor.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "fdfa9dae999a715f90e4af3b5245559ac8cdf9d7fd7c1296580a09c3e1d33bd5",
+          "sha256": "90155d8b35be4ad3c6712978c03811758cd13dc14ff0bac16e017741d29986da",
+          "classic": [
+            "#e1e1e100",
+            "#4fa46400",
+            "#3e82b900",
+            "#ca3a2600",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/THEME SNOW",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-a0a0d2bfd41f7717c6d9d781",
+      "name": "TM_TrackBorders_asset",
+      "source": "Stadium/Media/Material/TrackBorders.Material.Gbx",
+      "source_sha256": "351d95acc9bb8da9e9918b7cdef62e4ace4f687484604844fb81002df0cfd097",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportIllum.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/TrackBorders.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "351d95acc9bb8da9e9918b7cdef62e4ace4f687484604844fb81002df0cfd097",
+          "sha256": "084a08f42c48f88bd288770ea478145d27de410cdb5990aeab2c49ef59ca8b24",
+          "classic": [
+            "#e2e0d300",
+            "#69e48e00",
+            "#55a9e800",
+            "#e4554900",
+            "#e9cca000"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/TECHNICS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut_DispIn.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTarget_SI",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTargetId",
+          "values": [
+            [
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-d0a7e51841d7e88660997420",
+      "name": "TM_TrackBordersOff_asset",
+      "source": "Stadium/Media/Material/TrackBordersOff.Material.Gbx",
+      "source_sha256": "2533f245a818d182a960bfc668edfa79e13dec0ca10d5a56ed79a9c03540b912",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/TrackBordersOff.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "2533f245a818d182a960bfc668edfa79e13dec0ca10d5a56ed79a9c03540b912",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/TECHNICS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut_DispIn.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-86c63b2928b5bc26fc46f99d",
+      "name": "TM_TrackWall_asset",
+      "source": "Stadium/Media/Material/TrackWall.Material.Gbx",
+      "source_sha256": "bccee8f75f228e6606aa334a632eb5fa50a0604d53cc639ee3e9be936fdf89af",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\TrackWall.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/TrackWall.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "bccee8f75f228e6606aa334a632eb5fa50a0604d53cc639ee3e9be936fdf89af",
+          "sha256": "90155d8b35be4ad3c6712978c03811758cd13dc14ff0bac16e017741d29986da",
+          "classic": [
+            "#e1e1e100",
+            "#4fa46400",
+            "#3e82b900",
+            "#ca3a2600",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/TECHNICS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3 Block PyPxzTDiffSpecNorm_PyX2Hx2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_T",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTarget_PyPxz",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTargetId",
+          "values": [
+            [
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-d9c96536b6cff8535c720bad",
+      "name": "TM_TrackWallClips_asset",
+      "source": "Stadium/Media/Material/TrackWallClips.Material.Gbx",
+      "source_sha256": "12e4af10f76fc5de1e7c99c3824c3183d1ee0a526de79ebd4961283d6cb626d0",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "Stadium/Media/Material/TrackWallClips.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "12e4af10f76fc5de1e7c99c3824c3183d1ee0a526de79ebd4961283d6cb626d0",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/01 Stadium/Materials/TECHNICS",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-e601d594453f2d29345da07e",
+      "name": "TM_BlueBay_DecalPaint2Sponsor4x1D_asset",
+      "source": "BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx",
+      "source_sha256": "893c1cab158ddae869abbd8d9225f4c8643be769e8919b57b0546a212d2aaf1c",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals2.ColorTable.gbx.json",
+          "owner": "BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "893c1cab158ddae869abbd8d9225f4c8643be769e8919b57b0546a212d2aaf1c",
+          "sha256": "a59a8535f7b25f7621dc78b4cb4cbbcae9f25ded9b372c1c91a8120b9174cf04",
+          "classic": [
+            "#81818100",
+            "#43be6f00",
+            "#5394d500",
+            "#d2333300",
+            "#dcbd6100"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/02 BlueBay/Materials/Decals and signs",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-529bf115b6d666f74c0ec048",
+      "name": "TM_BlueBay_DecalPaintSponsor4x1D_asset",
+      "source": "BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx",
+      "source_sha256": "9ac9083c901b7d9b996b036e132d0fdee78e9342b3a55da2ebf7889d83d9ab3c",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json",
+          "owner": "BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "9ac9083c901b7d9b996b036e132d0fdee78e9342b3a55da2ebf7889d83d9ab3c",
+          "sha256": "1c4fcffdaa246c8aa81e59d04073d9eeac1b0258b957d853e8ec48dd1fdf229e",
+          "classic": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "colorblind": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "stunt": [
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000"
+          ],
+          "palette_count": 30
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/02 BlueBay/Materials/Decals and signs",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-fb6c90d52ac6498490fcea83",
+      "name": "TM_BlueBay_TrackBordersOffInWorld_asset",
+      "source": "BlueBay/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx",
+      "source_sha256": "f16f5f56fa720d37e42cc320d54c06c7af2139cd413b02ab6db67edfb739c19a",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "BlueBay/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "f16f5f56fa720d37e42cc320d54c06c7af2139cd413b02ab6db67edfb739c19a",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/02 BlueBay/Materials/Other materials",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut_DispIn.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-d8e8e292ff8677c349de3603",
+      "name": "TM_GreenCoast_DecalPaint2Sponsor4x1D_asset",
+      "source": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx",
+      "source_sha256": "2479e7a93ca75777d1f49841d0c15d1acb17364bd9915017e6dab47c73891288",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals2.ColorTable.gbx.json",
+          "owner": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "2479e7a93ca75777d1f49841d0c15d1acb17364bd9915017e6dab47c73891288",
+          "sha256": "a59a8535f7b25f7621dc78b4cb4cbbcae9f25ded9b372c1c91a8120b9174cf04",
+          "classic": [
+            "#81818100",
+            "#43be6f00",
+            "#5394d500",
+            "#d2333300",
+            "#dcbd6100"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Decals and signs",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-20d91f08aeb562ce5161715e",
+      "name": "TM_GreenCoast_DecalPaintSponsor4x1D_asset",
+      "source": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx",
+      "source_sha256": "60bb91fe67573ad3be10ccddbf3f89644da4b4543afed4bf89adcf7b11f852c5",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json",
+          "owner": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "60bb91fe67573ad3be10ccddbf3f89644da4b4543afed4bf89adcf7b11f852c5",
+          "sha256": "1c4fcffdaa246c8aa81e59d04073d9eeac1b0258b957d853e8ec48dd1fdf229e",
+          "classic": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "colorblind": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "stunt": [
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000"
+          ],
+          "palette_count": 30
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Decals and signs",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-31dffd742a8276d12285cd7e",
+      "name": "TM_GreenCoast_StructureInWorld_asset",
+      "source": "GreenCoast/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx",
+      "source_sha256": "6eea00d231cf4283e49ce59055318610c6b079539fe40a25f1f47892c8dc1dc3",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "GreenCoast/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "6eea00d231cf4283e49ce59055318610c6b079539fe40a25f1f47892c8dc1dc3",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Other materials",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-e301b5140079b000c6044a9b",
+      "name": "TM_GreenCoast_TrackBordersInWorld_asset",
+      "source": "GreenCoast/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld.Material.Gbx",
+      "source_sha256": "39ce76ad8ced761ce3018f832fd9bd76e7778544529d1a5311048bf10d51cf4a",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportIllum.ColorTable.gbx.json",
+          "owner": "GreenCoast/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "39ce76ad8ced761ce3018f832fd9bd76e7778544529d1a5311048bf10d51cf4a",
+          "sha256": "084a08f42c48f88bd288770ea478145d27de410cdb5990aeab2c49ef59ca8b24",
+          "classic": [
+            "#e2e0d300",
+            "#69e48e00",
+            "#55a9e800",
+            "#e4554900",
+            "#e9cca000"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Other materials",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut_DispIn.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTarget_SI",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTargetId",
+          "values": [
+            [
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-a4f4b1c1ebef8ae8f5461ce0",
+      "name": "TM_GreenCoast_TrackBordersOffInWorld_asset",
+      "source": "GreenCoast/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx",
+      "source_sha256": "2adac1f21139cb89e3597dfba34a409200ce6127e16cde29cd118b93ba9c0403",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "GreenCoast/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "2adac1f21139cb89e3597dfba34a409200ce6127e16cde29cd118b93ba9c0403",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Other materials",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut_DispIn.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-8aa139015ce62ee4cfa84d11",
+      "name": "TM_GreenCoast_TrackWallClipsInWorld_asset",
+      "source": "GreenCoast/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx",
+      "source_sha256": "cdd3b1922a096f64180f40ace2c3fdd7656120c30208e502770ca0f58ac79ffe",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "GreenCoast/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "cdd3b1922a096f64180f40ace2c3fdd7656120c30208e502770ca0f58ac79ffe",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/03 GreenCoast/Materials/Other materials",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-83a500d40a97f0e850a7910e",
+      "name": "TM_RedIsland_DecalPaint2Sponsor4x1D_asset",
+      "source": "RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx",
+      "source_sha256": "8531758143fb702bf9afd89567c876becb52c279c1dd00e0868ad61c71b2b4fb",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals2.ColorTable.gbx.json",
+          "owner": "RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "8531758143fb702bf9afd89567c876becb52c279c1dd00e0868ad61c71b2b4fb",
+          "sha256": "a59a8535f7b25f7621dc78b4cb4cbbcae9f25ded9b372c1c91a8120b9174cf04",
+          "classic": [
+            "#81818100",
+            "#43be6f00",
+            "#5394d500",
+            "#d2333300",
+            "#dcbd6100"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Decals and signs",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-f15e7b09783eea03fddad97b",
+      "name": "TM_RedIsland_DecalPaintSponsor4x1D_asset",
+      "source": "RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx",
+      "source_sha256": "b75152a876ddb2aa668b12b482fe4defbfdd3c0f158e426bb633af068a17e7a1",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json",
+          "owner": "RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "b75152a876ddb2aa668b12b482fe4defbfdd3c0f158e426bb633af068a17e7a1",
+          "sha256": "1c4fcffdaa246c8aa81e59d04073d9eeac1b0258b957d853e8ec48dd1fdf229e",
+          "classic": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "colorblind": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "stunt": [
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000"
+          ],
+          "palette_count": 30
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Decals and signs",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-87a90623cd0e2e5efc2e52d1",
+      "name": "TM_RedIsland_StructureInWorld_asset",
+      "source": "RedIsland/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx",
+      "source_sha256": "798b3155d245adf87cab0206114ca96175b0193a24d6f0284c7356cc1f60e52c",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "RedIsland/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "798b3155d245adf87cab0206114ca96175b0193a24d6f0284c7356cc1f60e52c",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Other materials",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-4bc119ae249d8bbe40ed5361",
+      "name": "TM_RedIsland_TrackBordersInWorld_asset",
+      "source": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld.Material.Gbx",
+      "source_sha256": "b0733f3f6be1225108a7707e7e56e28bf710ef378f92a2f323d856d4c0714e9c",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportIllum.ColorTable.gbx.json",
+          "owner": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "b0733f3f6be1225108a7707e7e56e28bf710ef378f92a2f323d856d4c0714e9c",
+          "sha256": "084a08f42c48f88bd288770ea478145d27de410cdb5990aeab2c49ef59ca8b24",
+          "classic": [
+            "#e2e0d300",
+            "#69e48e00",
+            "#55a9e800",
+            "#e4554900",
+            "#e9cca000"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Other materials",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut_DispIn.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTarget_SI",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTargetId",
+          "values": [
+            [
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-74ce475dd3a34b88f279a928",
+      "name": "TM_RedIsland_TrackBordersOffInWorld_asset",
+      "source": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx",
+      "source_sha256": "f3323a1ce10c8887ce9878e8e87300a7ae4b6fe5dee04ebbe3ed306320d7c2da",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "f3323a1ce10c8887ce9878e8e87300a7ae4b6fe5dee04ebbe3ed306320d7c2da",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Other materials",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut_DispIn.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-dcf4ff08ab752b253343fb05",
+      "name": "TM_RedIsland_TrackWallClipsInWorld_asset",
+      "source": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx",
+      "source_sha256": "4c2df9c409f626b1e94f917d65679ccd5ffa6b4acea701b4cd7289c6d9d28f94",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "4c2df9c409f626b1e94f917d65679ccd5ffa6b4acea701b4cd7289c6d9d28f94",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/04 RedIsland/Materials/Other materials",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-46551617907b29e04cea8873",
+      "name": "TM_WhiteShore_DecalPaint2Sponsor4x1D_asset",
+      "source": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx",
+      "source_sha256": "015c463a21bf0b201c608f0aed1f8720737f445143f52c96a614f2b0a11a1514",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals2.ColorTable.gbx.json",
+          "owner": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "015c463a21bf0b201c608f0aed1f8720737f445143f52c96a614f2b0a11a1514",
+          "sha256": "a59a8535f7b25f7621dc78b4cb4cbbcae9f25ded9b372c1c91a8120b9174cf04",
+          "classic": [
+            "#81818100",
+            "#43be6f00",
+            "#5394d500",
+            "#d2333300",
+            "#dcbd6100"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/05 WhiteShore/Materials/Decals and signs",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-64aea0028dc164311d8a5577",
+      "name": "TM_WhiteShore_DecalPaintSponsor4x1D_asset",
+      "source": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx",
+      "source_sha256": "2cc94b7009be5f6cda034448afa4c67e9c6c5c9f0d422ca90bf0e82b02fb0b5c",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json",
+          "owner": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "2cc94b7009be5f6cda034448afa4c67e9c6c5c9f0d422ca90bf0e82b02fb0b5c",
+          "sha256": "1c4fcffdaa246c8aa81e59d04073d9eeac1b0258b957d853e8ec48dd1fdf229e",
+          "classic": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "colorblind": [
+            "#00000000",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#f9f9f900",
+            "#eeeeee00"
+          ],
+          "stunt": [
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000",
+            "#00000000"
+          ],
+          "palette_count": 30
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/05 WhiteShore/Materials/Decals and signs",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_DecalGeom_TOp_PyPxzDSN_X2.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget_sRGB",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-91b4e28e128acfad819f3a7b",
+      "name": "TM_WhiteShore_StructureInWorld_asset",
+      "source": "WhiteShore/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx",
+      "source_sha256": "3da175ec3c821832b33d25032f713a1fb5b11f3ea9af545594ab045f958b98ee",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "WhiteShore/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "3da175ec3c821832b33d25032f713a1fb5b11f3ea9af545594ab045f958b98ee",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/05 WhiteShore/Materials/Other materials",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-7377fccaf14e380bf3e32593",
+      "name": "TM_WhiteShore_TrackBordersInWorld_asset",
+      "source": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld.Material.Gbx",
+      "source_sha256": "3efb3426540ecfaaf0852974c345028b3699bc7e92a18fb5c9baf275fbeceba5",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\SportIllum.ColorTable.gbx.json",
+          "owner": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "3efb3426540ecfaaf0852974c345028b3699bc7e92a18fb5c9baf275fbeceba5",
+          "sha256": "084a08f42c48f88bd288770ea478145d27de410cdb5990aeab2c49ef59ca8b24",
+          "classic": [
+            "#e2e0d300",
+            "#69e48e00",
+            "#55a9e800",
+            "#e4554900",
+            "#e9cca000"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/05 WhiteShore/Materials/Other materials",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut_DispIn.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTarget_SI",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "name": "BaseColorTargetId",
+          "values": [
+            [
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-b488f3aae2b47b76dc662b41",
+      "name": "TM_WhiteShore_TrackBordersOffInWorld_asset",
+      "source": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx",
+      "source_sha256": "34bb1bdd80e34b1b5fe738801be9a2c2f07c3f8a688e7055f97da0c1d0b1b7bf",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "34bb1bdd80e34b1b5fe738801be9a2c2f07c3f8a688e7055f97da0c1d0b1b7bf",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/05 WhiteShore/Materials/Other materials",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut_DispIn.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mat-9a71e30a48004a8a75574280",
+      "name": "TM_WhiteShore_TrackWallClipsInWorld_asset",
+      "source": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx",
+      "source_sha256": "55bc3a67d23c48057146659a64f44515ea5f5c00f971f19fb16f9af9a07b9652",
+      "evidence_file": "logs/v6/native-structures/resources.json",
+      "tables": [
+        {
+          "path": "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json",
+          "owner": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx",
+          "evidence_file": "logs/v6/native-structures/resources.json",
+          "source_sha256": "55bc3a67d23c48057146659a64f44515ea5f5c00f971f19fb16f9af9a07b9652",
+          "sha256": "7b7380d8e2302752c54fc48e137da4151fea8a85405ba00b7ea519b05ae1f07c",
+          "classic": [
+            "#e1e1e100",
+            "#43725600",
+            "#37608800",
+            "#8f291b00",
+            "#25252500"
+          ],
+          "colorblind": [
+            "#ffffff",
+            "#9cd91900",
+            "#446ec900",
+            "#cf6f0000",
+            "#25252500"
+          ],
+          "stunt": [
+            "#6df1dd00",
+            "#cef16d00",
+            "#f1a66d00",
+            "#f48dea00",
+            "#6da2f100"
+          ],
+          "palette_count": 8
+        }
+      ],
+      "preview_only": false,
+      "catalog": "Trackmania2020/05 WhiteShore/Materials/Other materials",
+      "shader": ":data:\\Projects\\Techno3\\Media\\Material\\Tech3_Block_TDSN_CubeOut.Material.gbx",
+      "color_parameters": [
+        {
+          "name": "BaseColorTarget",
+          "values": [
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": 86,
+  "materials_only": 86,
+  "preview_only": 0,
+  "total_library_materials": 1172,
+  "native_sources_checked": 985,
+  "source_table_bindings": 109,
+  "unrepresented_native_sources": [
+    "Stadium/Media/Modifier/Reset/DecalOnRoadIce.Material.Gbx",
+    "Stadium/Media/Material/DecalSponsor4x1DOnRoadIce.Material.Gbx",
+    "Stadium/Media/Modifier/SlowMotion/DecalOnRoadIce.Material.Gbx",
+    "Stadium/Media/Modifier/Cruise/DecalOnRoadIce.Material.Gbx",
+    "Stadium/Media/Modifier/Fragile/DecalOnRoadIce.Material.Gbx",
+    "Stadium/Media/Modifier/TurboRoulette/DecalOnRoadIce.Material.Gbx",
+    "Stadium/Media/Modifier/Turbo2/DecalOnRoadIce.Material.Gbx",
+    "Stadium/Media/Material/DecalMarksStartOnRoadIce.Material.Gbx",
+    "Stadium/Media/Modifier/NoSteering/DecalOnRoadIce.Material.Gbx",
+    "Stadium/Media/Material/DecalSponsor4x1AOnRoadIce.Material.Gbx",
+    "Stadium/Media/Material/StructureNoSkin.Material.Gbx",
+    "Stadium/Media/Modifier/NoEngine/DecalOnRoadIce.Material.Gbx",
+    "Stadium/Media/Material/ItemFlag.Material.Gbx",
+    "Stadium/Media/Material/DecalSponsor4x1COnRoadIce.Material.Gbx",
+    "Stadium/Media/Material/StructureTrussTransparent.Material.Gbx",
+    "Stadium/Media/Material/RoadTechSubIce.Material.Gbx",
+    "Stadium/Media/Material/DecalMarksOnRoadIce.Material.Gbx",
+    "Stadium/Media/Material/DecalSponsor4x1BOnRoadIce.Material.Gbx",
+    "Stadium/Media/Modifier/Boost2/DecalOnRoadIce.Material.Gbx",
+    "Stadium/Media/Modifier/Boost/DecalOnRoadIce.Material.Gbx",
+    "Stadium/Media/Modifier/Turbo/DecalOnRoadIce.Material.Gbx",
+    "Stadium/Media/Modifier/NoBrake/DecalOnRoadIce.Material.Gbx",
+    "Stadium/Media/Material/TrackWallClipsNoSkin.Material.Gbx"
+  ],
+  "counts_by_source_environment": {
+    "Stadium": 62,
+    "BlueBay": 6,
+    "GreenCoast": 6,
+    "RedIsland": 6,
+    "WhiteShore": 6
+  },
+  "new_game_tests": false,
+  "criterion": "Explicit CPlugMaterialColorTargetTable reference in the native material or inherited material chain, with a valid 5-slot palette; not inferred from shader/name/Blender node color."
+}

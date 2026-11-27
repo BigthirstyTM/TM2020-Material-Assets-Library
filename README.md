@@ -16,6 +16,10 @@ The preceding [Dyna corrections](docs/DYNA-MATERIALS.md), [555 shader follow-up 
 
 Remote extension **1.0.5** now publishes **2026.11.27-vista-logo-masks-1** with the sixteen corrected vista sponsor decals and thumbnails. All public files, native listing, catalog assignments, isolated installation and sampled public appends passed independent verification. Both offline editions are being prepared; their previous verified downloads remain available. See [the exact shader/channel correction](docs/VISTA-LOGO-MASKS.md).
 
+## Ingame colorpicker badges
+
+The local **2026.11.27-colorpicker-badges-1** update marks **86 native-linked materials** with a brush badge, based on explicit native color-table references. Material graphs, export identities and existing badges are preserved. Remote **1.0.6** and both offline ZIP editions are in preparation; the offline update also includes the sixteen corrected vista sponsor logos. [Full material list and evidence](docs/COLORPICKER-MATERIALS.md).
+
 ## Current combined refresh
 
 Content revision **2026.11.27-vista-catalogs-1** includes the Dyna and shader follow-up updates above and combines the latest material improvements with the selected [A/B/C thumbnail styles](docs/THUMBNAIL-STYLES.md): softer top-down shader renders without visible studio-lamp reflections, vegetation standing on tiles, and Custom spheres. The [catalog clarity update](docs/CATALOG-CLARITY.md) removes duplicate example assets. AnimatedFlag is retained under Preview only after a reported item-loading crash; its animated MaterialLib alias is disabled.

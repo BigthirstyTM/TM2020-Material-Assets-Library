@@ -3121,11 +3121,13 @@
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
-        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "Projection",
-        "Animation"
+        "Animation",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\Canopy",
       "catalog": "Trackmania2020/01 Stadium/Materials/CANOPY",
@@ -3147,16 +3149,29 @@
         "image": "TM COLOR Canopy_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Canopy.ColorTable.gbx.json",
+          "Stadium\\Media\\ColorTargetTables\\TrackWall.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-13ec559f653961c9c9d83204",
       "name": "TM_CanopyGlass_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\CanopyGlass",
       "catalog": "Trackmania2020/01 Stadium/Materials/CANOPY",
       "effective": {
@@ -3177,17 +3192,28 @@
         "image": "TM COLOR CanopyGlass_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Canopy.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-f246ec6e6373af2c0fc3f8e8",
       "name": "TM_CanopyStructure_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Use a UV map named BaseMaterial."
+        "Use a UV map named BaseMaterial.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "BaseMaterial UV"
+        "BaseMaterial UV",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\CanopyStructure",
       "catalog": "Trackmania2020/01 Stadium/Materials/CANOPY",
@@ -3209,7 +3235,17 @@
         "image": "TM COLOR CanopyStructure_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\CanopyStructure.ColorTable.gbx.json",
+          "Stadium\\Media\\ColorTargetTables\\TrackWall.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-27b737ebdec80a06c86999cb",
@@ -4576,10 +4612,12 @@
       "name": "TM_CustomModColorize2_asset",
       "preview_type": "Default input texture",
       "usage": [
-        "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters."
+        "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Customizable"
+        "Customizable",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material_BlockCustom\\CustomModColorize2",
       "catalog": "Trackmania2020/01 Stadium/Materials/MODABLE MATERIALS",
@@ -4601,17 +4639,28 @@
         "image": "TM COLOR CustomModColorize2_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-355c7b7f93201f1fb9ede58b",
       "name": "TM_CustomModColorize_asset",
       "preview_type": "Default input texture",
       "usage": [
-        "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters."
+        "Template inputs can need an assigned source texture; Blender controls do not automatically become native game parameters.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Customizable"
+        "Customizable",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material_BlockCustom\\CustomModColorize",
       "catalog": "Trackmania2020/01 Stadium/Materials/MODABLE MATERIALS",
@@ -4633,7 +4682,16 @@
         "image": "TM COLOR CustomModColorize_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-4bf7435d478be48ff7a1603f",
@@ -5157,10 +5215,12 @@
       "preview_type": "Decal contrast preview",
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\DecalCurbs",
       "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR MARKINGS",
@@ -5182,7 +5242,16 @@
         "image": "TM COLOR DecalCurbs_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-d5b7195c12753633b6db189a",
@@ -5256,10 +5325,12 @@
       "preview_type": "Decal contrast preview",
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\DecalMarksItems",
       "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR MARKINGS",
@@ -5281,7 +5352,16 @@
         "image": "TM COLOR DecalMarksItems_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-1485c4a51bb3d85540b54188",
@@ -5322,10 +5402,12 @@
       "preview_type": "Decal contrast preview",
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\DecalMarksStart",
       "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR MARKINGS",
@@ -5347,7 +5429,16 @@
         "image": "TM COLOR DecalMarksStart_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-85a501e17a2e0e68b478aefe",
@@ -5553,10 +5644,12 @@
       "preview_type": "Decal contrast preview",
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\DecalPaint2Sponsor4x1A",
       "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
@@ -5578,7 +5671,16 @@
         "image": "TM COLOR DecalPaint2_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals2.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-7b99c226c083e29a9144b289",
@@ -5586,10 +5688,12 @@
       "preview_type": "Decal contrast preview",
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\DecalPaint2Sponsor4x1B",
       "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
@@ -5611,7 +5715,16 @@
         "image": "TM COLOR DecalPaint2_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals2.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-eb8679002450450bbe2cf4c8",
@@ -5619,10 +5732,12 @@
       "preview_type": "Decal contrast preview",
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\DecalPaint2Sponsor4x1C",
       "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
@@ -5644,7 +5759,16 @@
         "image": "TM COLOR DecalPaint2_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals2.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-b467bd90101c38b3058fcfc8",
@@ -5652,10 +5776,12 @@
       "preview_type": "Decal contrast preview",
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\DecalPaint2Sponsor4x1D",
       "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
@@ -5677,7 +5803,16 @@
         "image": "TM COLOR DecalPaint2_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals2.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-ee18b4731a2af7cb86609bf6",
@@ -5883,10 +6018,12 @@
       "preview_type": "Decal contrast preview",
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\DecalPaintLogo8x1Colorize",
       "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
@@ -5908,7 +6045,16 @@
         "image": "TM COLOR DecalPaint_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-3b709308ac89b67a1bdff6f4",
@@ -5916,10 +6062,12 @@
       "preview_type": "Decal contrast preview",
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\DecalPaintSponsor4x1A",
       "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
@@ -5941,7 +6089,16 @@
         "image": "TM COLOR DecalPaint_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-ec1330b7ea8305dcf8f33cc5",
@@ -5949,10 +6106,12 @@
       "preview_type": "Decal contrast preview",
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\DecalPaintSponsor4x1B",
       "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
@@ -5974,7 +6133,16 @@
         "image": "TM COLOR DecalPaint_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-5fa28f1194557811283ec523",
@@ -5982,10 +6150,12 @@
       "preview_type": "Decal contrast preview",
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\DecalPaintSponsor4x1C",
       "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
@@ -6007,7 +6177,16 @@
         "image": "TM COLOR DecalPaint_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-303ae6441c3b17bcbf6e057c",
@@ -6015,10 +6194,12 @@
       "preview_type": "Decal contrast preview",
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\DecalPaintSponsor4x1D",
       "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR SPONSORS AND BRANDING",
@@ -6040,7 +6221,16 @@
         "image": "TM COLOR DecalPaint_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-6e8a816729291d12e9b94517",
@@ -6180,10 +6370,12 @@
       "preview_type": "Decal contrast preview",
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\DecalPlatform",
       "catalog": "Trackmania2020/01 Stadium/Materials/DECALS FOR MARKINGS",
@@ -6205,7 +6397,16 @@
         "image": "TM COLOR DecalPlatform_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-7b55283174a42163e4cb0737",
@@ -6315,9 +6516,12 @@
       "name": "TM_DecoCliffBase_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\DecoCliffBase",
       "catalog": "Trackmania2020/01 Stadium/Materials/ROADS",
       "effective": {
@@ -6338,7 +6542,16 @@
         "image": "DecoCliffBase_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\TrackWall.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-6875d6ee79d1c9a1c14f257e",
@@ -21813,9 +22026,12 @@
       "preview_type": "Source texture",
       "usage": [
         "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\ItemFlagNoAnim",
       "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
       "effective": {
@@ -21836,16 +22052,28 @@
         "image": "ItemFlag_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-6e4991abefd40b229d6f368a",
       "name": "TM_ItemInflatableFloor_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\ItemInflatableFloor",
       "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
       "effective": {
@@ -21866,16 +22094,28 @@
         "image": "TM COLOR ItemInflatableFloor_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Fun.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-3628e92aace330fd4cce5a44",
       "name": "TM_ItemInflatableMat_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\ItemInflatableMat",
       "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
       "effective": {
@@ -21896,16 +22136,28 @@
         "image": "TM COLOR ItemInflatableMat_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Fun.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-2268b51765328df438c380ce",
       "name": "TM_ItemInflatableTube_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\ItemInflatableTube",
       "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
       "effective": {
@@ -21926,7 +22178,16 @@
         "image": "TM COLOR ItemInflatableTube_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Fun.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-1ca4fbe3d9710b94b0864329",
@@ -22931,9 +23192,12 @@
       "name": "TM_ItemPillar2_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\ItemPillar2",
       "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
       "effective": {
@@ -22954,16 +23218,28 @@
         "image": "TM COLOR ItemPillar2_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-a155e9d89492b7e0bed0a778",
       "name": "TM_ItemPillar_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\ItemPillar",
       "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
       "effective": {
@@ -22984,16 +23260,28 @@
         "image": "TM COLOR ItemPillar_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-e6d0e9c7aa6057743d0909a6",
       "name": "TM_ItemRamp_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\ItemRamp",
       "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
       "effective": {
@@ -23014,7 +23302,16 @@
         "image": "TM COLOR ItemRamp_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-22ea2c53fab69ce41f329a14",
@@ -23141,9 +23438,12 @@
       "name": "TM_ItemSupportTube_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\ItemSupportTube",
       "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
       "effective": {
@@ -23164,7 +23464,16 @@
         "image": "TM COLOR ItemSupportTube_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-68895a49ccc61f6152fdd86a",
@@ -23195,9 +23504,12 @@
       "name": "TM_ItemTrackBarrier2_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\ItemTrackBarrier2",
       "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
       "effective": {
@@ -23218,16 +23530,28 @@
         "image": "TM COLOR ItemTrackBarrier2_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-a318e5102322347410d2b7ee",
       "name": "TM_ItemTrackBarrier_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\ItemTrackBarrier",
       "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
       "effective": {
@@ -23248,16 +23572,28 @@
         "image": "TM COLOR ItemTrackBarrier_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-bbf538c62726518daaac7e39",
       "name": "TM_ItemTrackBarrierB_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\ItemTrackBarrierB",
       "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
       "effective": {
@@ -23278,16 +23614,28 @@
         "image": "TM COLOR ItemTrackBarrierB_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-7f9bc8454f99c85e78ca9148",
       "name": "TM_ItemTrackBarrierC_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\ItemTrackBarrierC",
       "catalog": "Trackmania2020/01 Stadium/Materials/ITEMS",
       "effective": {
@@ -23308,7 +23656,16 @@
         "image": "TM COLOR ItemTrackBarrierC_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-acfdd9a77370e30f36ae2250",
@@ -24054,9 +24411,12 @@
       "name": "TM_OpenTechBorders_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\OpenTechBorders",
       "catalog": "Trackmania2020/01 Stadium/Materials/ROADS",
       "effective": {
@@ -24077,7 +24437,16 @@
         "image": "TM COLOR OpenTechBorders_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-6feafb92373a2179480304bb",
@@ -24085,10 +24454,12 @@
       "preview_type": "Decal contrast preview",
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Modifier\\PlatformDirt\\DecalPlatform",
       "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM DIRT",
@@ -24110,7 +24481,16 @@
         "image": "TM COLOR DecalPlatformDirt_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-4487ade51817299a0b355e76",
@@ -24154,9 +24534,12 @@
       "name": "TM_PlatformDirt_DecoCliffBase_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Modifier\\PlatformDirt\\DecoCliffBase",
       "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM DIRT",
       "effective": {
@@ -24177,7 +24560,16 @@
         "image": "DecoCliffBaseDirt_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\TrackWall.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-8895c261ae1f861fa734a568",
@@ -24299,9 +24691,12 @@
       "name": "TM_PlatformDirt_OpenTechBorders_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Modifier\\PlatformDirt\\OpenTechBorders",
       "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM DIRT",
       "effective": {
@@ -24322,7 +24717,16 @@
         "image": "TM COLOR OpenDirtBorders_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-b40b003c52ad27bff2f9c8ef",
@@ -24402,10 +24806,12 @@
       "preview_type": "Decal contrast preview",
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Modifier\\PlatformGrass\\DecalPlatform",
       "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM GRASS",
@@ -24427,7 +24833,16 @@
         "image": "TM COLOR DecalPlatformGrass_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-342bcc787dfaf9fbb2757403",
@@ -24471,9 +24886,12 @@
       "name": "TM_PlatformGrass_OpenTechBorders_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Modifier\\PlatformGrass\\OpenTechBorders",
       "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM GRASS",
       "effective": {
@@ -24494,7 +24912,16 @@
         "image": "TM COLOR OpenGrassBorders_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-152baa217e5476aa6f695ca2",
@@ -24568,10 +24995,12 @@
       "preview_type": "Decal contrast preview",
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Modifier\\PlatformIce\\DecalPlatform",
       "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM ICE",
@@ -24593,7 +25022,16 @@
         "image": "DecalPlatformIce_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-c33b0e7f803c642286a7caab",
@@ -24637,9 +25075,12 @@
       "name": "TM_PlatformIce_DecoCliffBase_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Modifier\\PlatformIce\\DecoCliffBase",
       "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM ICE",
       "effective": {
@@ -24660,7 +25101,16 @@
         "image": "DecoCliffBaseIce_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\TrackWall.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-c80957c62f1f6179f2ac3f87",
@@ -24784,10 +25234,12 @@
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Internal ice depth and tint preview with corrected BC5 normals and reflective coat; opaque native layered family. See docs/SURFACE-PREVIEWS.md."
+        "Internal ice depth and tint preview with corrected BC5 normals and reflective coat; opaque native layered family. See docs/SURFACE-PREVIEWS.md.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Modifier\\PlatformIce\\OpenTechBorders",
       "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM ICE",
@@ -24809,7 +25261,16 @@
         "image": "OpenIceBorders_D.dds.001",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-09530893cb13d569e0eeccea",
@@ -24887,10 +25348,12 @@
       "preview_type": "Decal contrast preview",
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
-        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass."
+        "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Modifier\\PlatformPlastic\\DecalPlatform",
       "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM PLASTIC",
@@ -24912,7 +25375,16 @@
         "image": "TM COLOR DecalPlatformPlastic_D.dds",
         "reason": "primary color image"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Fun.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-5a6dd2c2ae3a076a47899fb5",
@@ -24922,11 +25394,13 @@
         "Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer.",
         "Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md."
+        "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "Projection",
-        "Animation"
+        "Animation",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Modifier\\PlatformPlastic\\PlatformTech",
       "catalog": "Trackmania2020/01 Stadium/Materials/PLATFORM PLASTIC",
@@ -24948,7 +25422,16 @@
         "image": "TM COLOR ItemInflatableFloor_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Fun.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-c9a7388893ee2856abcedc5b",
@@ -28536,9 +29019,12 @@
       "name": "TM_RoadBump_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\RoadBump",
       "catalog": "Trackmania2020/01 Stadium/Materials/ROADS",
       "effective": {
@@ -28559,7 +29045,16 @@
         "image": "TM COLOR RoadBump_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-e3c336f1c1d17e24d34831d4",
@@ -28572,12 +29067,14 @@
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
         "Native decoration uses BaseMaterial UV. For Color alpha painting, enable Use painted vertex alpha in Deco native layer controls; fallback alpha 1 is the default preview. Export uses the actual vertex data.",
-        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "Projection",
         "Vertex Color",
-        "Animation"
+        "Animation",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\RoadDirt",
       "catalog": "Trackmania2020/01 Stadium/Materials/ROADS",
@@ -28599,7 +29096,16 @@
         "image": "TM COLOR RoadDirt_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-e982e263af99d9cc212b18bb",
@@ -28612,12 +29118,14 @@
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
         "Native decoration uses BaseMaterial UV. For Color alpha painting, enable Use painted vertex alpha in Deco native layer controls; fallback alpha 1 is the default preview. Export uses the actual vertex data.",
-        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "Projection",
         "Vertex Color",
-        "Animation"
+        "Animation",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\RoadDirtFullColorize",
       "catalog": "Trackmania2020/01 Stadium/Materials/ROADS",
@@ -28639,7 +29147,16 @@
         "image": "TM COLOR RoadDirt_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-65414f0ae32fe5d13300666d",
@@ -28648,10 +29165,12 @@
       "usage": [
         "Contains a Color attribute input; inspect its connected RGB/alpha branch. Missing attributes can change the preview.",
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
-        "Internal ice depth and tint preview with corrected BC5 normals and reflective coat; opaque native layered family. See docs/SURFACE-PREVIEWS.md."
+        "Internal ice depth and tint preview with corrected BC5 normals and reflective coat; opaque native layered family. See docs/SURFACE-PREVIEWS.md.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "Vertex Color"
+        "Vertex Color",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\RoadIce",
       "catalog": "Trackmania2020/01 Stadium/Materials/ROADS",
@@ -28673,16 +29192,28 @@
         "image": "RoadIce_D.dds.001",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-cf098b92d7579ce248d23739",
       "name": "TM_RoadTech_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\RoadTech",
       "catalog": "Trackmania2020/01 Stadium/Materials/ROADS",
       "effective": {
@@ -28703,7 +29234,16 @@
         "image": "TM COLOR RoadTech_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-c60cb30e6a66c64c28d8896c",
@@ -31665,9 +32205,12 @@
       "preview_type": "Source texture",
       "usage": [
         "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
-        "Source-local light emission or optional masked Hue preview updated; runtime scene/palette selection remains explicit. See PROJECTED-SURFACES.md."
+        "Source-local light emission or optional masked Hue preview updated; runtime scene/palette selection remains explicit. See PROJECTED-SURFACES.md.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "BlueBay\\Media\\Modifier\\StadiumOnTerrain\\StructureInWorld",
       "catalog": "Trackmania2020/01 Stadium/Materials/Additional surfaces",
       "effective": {
@@ -31688,7 +32231,16 @@
         "image": "TM COLOR StructureInWorld_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-731b7cef5edf784147af1047",
@@ -31696,9 +32248,12 @@
       "preview_type": "Source texture",
       "usage": [
         "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
-        "Source-local light emission or optional masked Hue preview updated; runtime scene/palette selection remains explicit. See PROJECTED-SURFACES.md."
+        "Source-local light emission or optional masked Hue preview updated; runtime scene/palette selection remains explicit. See PROJECTED-SURFACES.md.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\StructureTruss",
       "catalog": "Trackmania2020/01 Stadium/Materials/Additional surfaces",
       "effective": {
@@ -31719,7 +32274,16 @@
         "image": "TM COLOR StructureTruss_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-f286b5e723cab306768e836d",
@@ -31727,9 +32291,12 @@
       "preview_type": "Source texture",
       "usage": [
         "Exact TechnicsStepLow native binding; its low-detail normal image replaces the ordinary TechnicsStep normal.",
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\TechnicsStepLow",
       "catalog": "Trackmania2020/01 Stadium/Materials/Additional structures",
       "effective": {
@@ -31750,7 +32317,16 @@
         "image": "TM COLOR TechnicsStep_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-cce048f3d8733e2b137820e4",
@@ -31758,9 +32334,12 @@
       "preview_type": "Source texture",
       "usage": [
         "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
-        "Source-local light emission or optional masked Hue preview updated; runtime scene/palette selection remains explicit. See PROJECTED-SURFACES.md."
+        "Source-local light emission or optional masked Hue preview updated; runtime scene/palette selection remains explicit. See PROJECTED-SURFACES.md.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\ThemeDesertBarrier",
       "catalog": "Trackmania2020/01 Stadium/Materials/Additional surfaces",
       "effective": {
@@ -31781,17 +32360,28 @@
         "image": "TM COLOR ThemeDesertBarrier_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-3138ca7ffe45af8435f89f59",
       "name": "TM_Stadium_TrackBordersInWorld_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Use a UV map named BaseMaterial."
+        "Use a UV map named BaseMaterial.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "BaseMaterial UV"
+        "BaseMaterial UV",
+        "Game colorpicker"
       ],
       "native_link": "BlueBay\\Media\\Modifier\\StadiumOnTerrain\\TrackBordersInWorld",
       "catalog": "Trackmania2020/01 Stadium/Materials/Additional surfaces",
@@ -31813,7 +32403,16 @@
         "image": "TM COLOR TrackBordersInWorld_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportIllum.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-5eb6cd82c26f300c77ba23a1",
@@ -31821,9 +32420,12 @@
       "preview_type": "Source texture",
       "usage": [
         "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
-        "Source-local light emission or optional masked Hue preview updated; runtime scene/palette selection remains explicit. See PROJECTED-SURFACES.md."
+        "Source-local light emission or optional masked Hue preview updated; runtime scene/palette selection remains explicit. See PROJECTED-SURFACES.md.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "BlueBay\\Media\\Modifier\\StadiumOnTerrain\\TrackWallClipsInWorld",
       "catalog": "Trackmania2020/01 Stadium/Materials/Additional surfaces",
       "effective": {
@@ -31844,7 +32446,16 @@
         "image": "TM COLOR TrackWallClipsInWorld_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-bcfcbfd4c66d0d0f52db9ae1",
@@ -31884,9 +32495,12 @@
       "name": "TM_Structure_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\Structure",
       "catalog": "Trackmania2020/01 Stadium/Materials/TECHNICS",
       "effective": {
@@ -31907,16 +32521,28 @@
         "image": "TM COLOR Structure_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-a12aaf4fc80e5ec5bff80665",
       "name": "TM_Technics_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\Technics",
       "catalog": "Trackmania2020/01 Stadium/Materials/TECHNICS",
       "effective": {
@@ -31937,7 +32563,16 @@
         "image": "TM COLOR Technics_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-9f0ad09a354fe449c299310d",
@@ -31974,9 +32609,12 @@
       "name": "TM_TechnicsStep_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\TechnicsStep",
       "catalog": "Trackmania2020/01 Stadium/Materials/TECHNICS",
       "effective": {
@@ -31997,7 +32635,16 @@
         "image": "TM COLOR TechnicsStep_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-f637d0c62ca0169624b39f1c",
@@ -32034,9 +32681,12 @@
       "name": "TM_TechnicsTrimsColorize_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\TechnicsTrimsColorize",
       "catalog": "Trackmania2020/01 Stadium/Materials/TECHNICS",
       "effective": {
@@ -32057,7 +32707,16 @@
         "image": "TM COLOR TechnicsTrims_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportObstacles.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-cf89869e4b1e22373b34fad4",
@@ -32154,9 +32813,12 @@
       "name": "TM_ThemeRallyCastleRoof_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\ThemeRallyCastleRoof",
       "catalog": "Trackmania2020/01 Stadium/Materials/THEME RALLY",
       "effective": {
@@ -32177,7 +32839,16 @@
         "image": "TM COLOR ThemeRallyCastleRoof_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-49d971c08f92b39124ae2ffb",
@@ -32281,9 +32952,12 @@
       "name": "TM_ThemeSnowRoadBorder_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\ThemeSnowRoadBorder",
       "catalog": "Trackmania2020/01 Stadium/Materials/THEME SNOW",
       "effective": {
@@ -32304,16 +32978,28 @@
         "image": "TM COLOR ThemeSnowRoadBorder_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-d133ac414357036a768f9d59",
       "name": "TM_ThemeSnowTempleDetails_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\ThemeSnowTempleDetails",
       "catalog": "Trackmania2020/01 Stadium/Materials/THEME SNOW",
       "effective": {
@@ -32334,16 +33020,28 @@
         "image": "TM COLOR ThemeSnowTempleDetails_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-1d75ef32d497afda2509040c",
       "name": "TM_ThemeSnowTempleFloor_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\ThemeSnowTempleFloor",
       "catalog": "Trackmania2020/01 Stadium/Materials/THEME SNOW",
       "effective": {
@@ -32364,7 +33062,16 @@
         "image": "TM COLOR ThemeSnowTempleFloor_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\TrackWall.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-3dd993e985d8a0afdbfb023a",
@@ -32433,10 +33140,12 @@
       "name": "TM_TrackBorders_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Use a UV map named BaseMaterial."
+        "Use a UV map named BaseMaterial.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "BaseMaterial UV"
+        "BaseMaterial UV",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\TrackBorders",
       "catalog": "Trackmania2020/01 Stadium/Materials/TECHNICS",
@@ -32458,17 +33167,28 @@
         "image": "TM COLOR TrackBorders_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportIllum.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-d0a7e51841d7e88660997420",
       "name": "TM_TrackBordersOff_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Use a UV map named BaseMaterial."
+        "Use a UV map named BaseMaterial.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
-        "BaseMaterial UV"
+        "BaseMaterial UV",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\TrackBordersOff",
       "catalog": "Trackmania2020/01 Stadium/Materials/TECHNICS",
@@ -32490,7 +33210,16 @@
         "image": "TM COLOR TrackBorders_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-86c63b2928b5bc26fc46f99d",
@@ -32503,12 +33232,14 @@
         "Historical export readback is inconclusive at a shared vertex declaration parser limit; not an individual runtime pass.",
         "Separate top/side angular transition controls informed by native ACosSmoothInRange descriptors. See docs/SURFACE-PREVIEWS.md.",
         "Native decoration uses BaseMaterial UV. For Color alpha painting, enable Use painted vertex alpha in Deco native layer controls; fallback alpha 1 is the default preview. Export uses the actual vertex data.",
-        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md."
+        "Projected preview uses independent native bitmap transforms and packed side-normal blending in surface-tangent frames. Angular lookup interpolation remains approximate. See PROJECTED-SURFACES.md.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "Projection",
         "Vertex Color",
-        "Animation"
+        "Animation",
+        "Game colorpicker"
       ],
       "native_link": "Stadium\\Media\\Material\\TrackWall",
       "catalog": "Trackmania2020/01 Stadium/Materials/TECHNICS",
@@ -32530,16 +33261,28 @@
         "image": "TM COLOR TrackWall_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\TrackWall.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-d9c96536b6cff8535c720bad",
       "name": "TM_TrackWallClips_asset",
       "preview_type": "Source texture",
       "usage": [
-        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game."
+        "Material Preview or Rendered shows the Blender adapter; mesh/runtime inputs can differ in the game.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
-      "usage_tags": [],
+      "usage_tags": [
+        "Game colorpicker"
+      ],
       "native_link": "Stadium\\Media\\Material\\TrackWallClips",
       "catalog": "Trackmania2020/01 Stadium/Materials/TECHNICS",
       "effective": {
@@ -32560,7 +33303,16 @@
         "image": "TM COLOR TrackWallClips_D.dds",
         "reason": "recorded source texture"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-f64b68793a96493bb7c3d6f6",
@@ -35965,11 +36717,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D",
       "catalog": "Trackmania2020/02 BlueBay/Materials/Decals and signs",
@@ -35995,7 +36749,16 @@
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals2.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-a6c335f3c4649877d5242c5e",
@@ -36041,11 +36804,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D",
       "catalog": "Trackmania2020/02 BlueBay/Materials/Decals and signs",
@@ -36071,7 +36836,16 @@
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-baf08dd121ab2735092aeac5",
@@ -36117,11 +36891,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "BlueBay/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld",
       "catalog": "Trackmania2020/02 BlueBay/Materials/Other materials",
@@ -36147,7 +36923,16 @@
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-34871bc26303a75246d91a25",
@@ -36345,11 +37130,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D",
       "catalog": "Trackmania2020/03 GreenCoast/Materials/Decals and signs",
@@ -36375,7 +37162,16 @@
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals2.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-111f3fa806b0f147cc1024b0",
@@ -36421,11 +37217,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D",
       "catalog": "Trackmania2020/03 GreenCoast/Materials/Decals and signs",
@@ -36451,7 +37249,16 @@
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-b2e8a8e1dedcb41df8797634",
@@ -36497,11 +37304,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/StructureInWorld",
       "catalog": "Trackmania2020/03 GreenCoast/Materials/Other materials",
@@ -36526,7 +37335,16 @@
       "preview_limitations": [
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-e301b5140079b000c6044a9b",
@@ -36534,11 +37352,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld",
       "catalog": "Trackmania2020/03 GreenCoast/Materials/Other materials",
@@ -36564,7 +37384,16 @@
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportIllum.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-a4f4b1c1ebef8ae8f5461ce0",
@@ -36572,11 +37401,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld",
       "catalog": "Trackmania2020/03 GreenCoast/Materials/Other materials",
@@ -36602,7 +37433,16 @@
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-8aa139015ce62ee4cfa84d11",
@@ -36610,11 +37450,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "GreenCoast/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld",
       "catalog": "Trackmania2020/03 GreenCoast/Materials/Other materials",
@@ -36639,7 +37481,16 @@
       "preview_limitations": [
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-615f2fe61c38e6bfcd0222e3",
@@ -36909,11 +37760,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D",
       "catalog": "Trackmania2020/04 RedIsland/Materials/Decals and signs",
@@ -36939,7 +37792,16 @@
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals2.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-f1908396c24eea6fd5368bfe",
@@ -36985,11 +37847,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D",
       "catalog": "Trackmania2020/04 RedIsland/Materials/Decals and signs",
@@ -37015,7 +37879,16 @@
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-31f9484a0296ed86a2e33db8",
@@ -37061,11 +37934,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/StructureInWorld",
       "catalog": "Trackmania2020/04 RedIsland/Materials/Other materials",
@@ -37090,7 +37965,16 @@
       "preview_limitations": [
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-4bc119ae249d8bbe40ed5361",
@@ -37098,11 +37982,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld",
       "catalog": "Trackmania2020/04 RedIsland/Materials/Other materials",
@@ -37128,7 +38014,16 @@
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportIllum.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-74ce475dd3a34b88f279a928",
@@ -37136,11 +38031,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld",
       "catalog": "Trackmania2020/04 RedIsland/Materials/Other materials",
@@ -37166,7 +38063,16 @@
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-dcf4ff08ab752b253343fb05",
@@ -37174,11 +38080,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "RedIsland/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld",
       "catalog": "Trackmania2020/04 RedIsland/Materials/Other materials",
@@ -37203,7 +38111,16 @@
       "preview_limitations": [
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-5dd5a3310d9ad3b281ea2c68",
@@ -37362,11 +38279,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D",
       "catalog": "Trackmania2020/05 WhiteShore/Materials/Decals and signs",
@@ -37392,7 +38311,16 @@
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals2.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-fdb4933e1a7f076adcdc8a5f",
@@ -37438,11 +38366,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D",
       "catalog": "Trackmania2020/05 WhiteShore/Materials/Decals and signs",
@@ -37468,7 +38398,16 @@
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportDecals.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-1defd6cdc3e43abb3abc225c",
@@ -37514,11 +38453,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/StructureInWorld",
       "catalog": "Trackmania2020/05 WhiteShore/Materials/Other materials",
@@ -37543,7 +38484,16 @@
       "preview_limitations": [
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-7377fccaf14e380bf3e32593",
@@ -37551,11 +38501,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld",
       "catalog": "Trackmania2020/05 WhiteShore/Materials/Other materials",
@@ -37581,7 +38533,16 @@
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\SportIllum.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-b488f3aae2b47b76dc662b41",
@@ -37589,11 +38550,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld",
       "catalog": "Trackmania2020/05 WhiteShore/Materials/Other materials",
@@ -37619,7 +38582,16 @@
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters.",
         "CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-9a71e30a48004a8a75574280",
@@ -37627,11 +38599,13 @@
       "preview_type": "Native-linked vista material",
       "usage": [
         "Use a UV map named BaseMaterial.",
-        "Color vertex alpha controls authored transition layers where specified."
+        "Color vertex alpha controls authored transition layers where specified.",
+        "Native item/block color index uses the material color table; masks determine which parts change. Blender color nodes do not automatically export as a game palette."
       ],
       "usage_tags": [
         "BaseMaterial UV",
-        "Game checked: vista fixture"
+        "Game checked: vista fixture",
+        "Game colorpicker"
       ],
       "native_link": "WhiteShore/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld",
       "catalog": "Trackmania2020/05 WhiteShore/Materials/Other materials",
@@ -37656,7 +38630,16 @@
       "preview_limitations": [
         "Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
       ],
-      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict."
+      "runtime_check": "53 FID preloads + 53 embedded linked item models; user visually confirmed all worked. No driving/physics verdict.",
+      "game_colorpicker": {
+        "supported": true,
+        "table_paths": [
+          "Stadium\\Media\\ColorTargetTables\\Sport.ColorTable.gbx.json"
+        ],
+        "evidence": "Explicit native CPlugMaterialColorTargetTable reference",
+        "visual_tested": false,
+        "badge": "color_picker"
+      }
     },
     {
       "id": "mat-00d021ae4b24b03874606685",
