@@ -12,6 +12,10 @@ Both full ZIP editions now publish **2026.11.27-vista-catalogs-1**, including th
 
 The preceding [Dyna corrections](docs/DYNA-MATERIALS.md), [555 shader follow-up updates](docs/SHADER-FOLLOWUP.md) and thumbnail proportion/frame improvements are included. Existing badges and native export links are preserved. Both editions have two ZIPs with verified checksums; download both or use the installer.
 
+## Sponsor logo correction in publication
+
+The sixteen vista sponsor decals and their thumbnails are corrected locally in **2026.11.27-vista-logo-masks-1**. Remote extension **1.0.5** will publish first, followed by both offline editions. Existing public downloads remain available while these updates are verified. See [the exact shader/channel correction](docs/VISTA-LOGO-MASKS.md).
+
 ## Current combined refresh
 
 Content revision **2026.11.27-vista-catalogs-1** includes the Dyna and shader follow-up updates above and combines the latest material improvements with the selected [A/B/C thumbnail styles](docs/THUMBNAIL-STYLES.md): softer top-down shader renders without visible studio-lamp reflections, vegetation standing on tiles, and Custom spheres. The [catalog clarity update](docs/CATALOG-CLARITY.md) removes duplicate example assets. AnimatedFlag is retained under Preview only after a reported item-loading crash; its animated MaterialLib alias is disabled.
