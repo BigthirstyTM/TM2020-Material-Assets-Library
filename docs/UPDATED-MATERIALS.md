@@ -1,3 +1,17 @@
+# Missing native material quarantine
+
+Revision `2026.11.27-missing-material-quarantine-1` moves `16x9ScreenOff`,
+`Ad16x9Screen`, `PodiumScreen16x9`, `WarpScreen16x9B` and `WarpScreen16x9C`
+to **Preview only / Missing native materials** in Complete. They are excluded
+from offline and remote Materials Only. Their export links are cleared; original
+shader graphs, thumbnails and badges are retained. No substitute texture or
+material is selected. Materials Only: 820 materials. Complete: 1,119 materials,
+including 299 Preview only entries. Both include 20 HDRI Worlds.
+
+See [missing game material investigation](MISSING-GAME-MATERIALS.md).
+
+---
+
 # Updated material previews
 
 Local thumbnail revision `2026.11.26-terrain-insets-2` updates 37 layered terrain icons with the approved higher-block, diffuse-inset and soft-shadow layout. The inset source now follows the active UV decoration or projected-top shader input; 25 stale source paths are corrected. Material graphs, native bindings and badge pixels are unchanged. See [thumbnail styles](THUMBNAIL-STYLES.md). This local icon update is not yet in the full ZIPs or remote pilot.

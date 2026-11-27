@@ -28,6 +28,7 @@ def step(name,cmd):
  state['completed'].append(name);save();print('PACKAGE_STEP_COMPLETE',name,flush=True)
 def blend(script,*args):return [a.blender,'-b','--factory-startup','-t','2','--python-exit-code','1','--python',REPO/'tools'/script,'--',*args]
 try:
+ step('native-link-verification',[sys.executable,REPO/'tools/native_link_validation.py','--inventory',REPO/'data/source-materials.json','--materiallib',SOURCE/'MaterialLib.txt','--report',OUT/'native-link-verification.json'])
  step('export-previews',blend('export_asset_previews.py','--source',SOURCE/'Trackmania2020_assets.blend','--output',OUT/'release-previews'))
  step('portable-build',blend('build_library.py','--source',SOURCE/'Trackmania2020_assets.blend','--inventory',REPO/'data/source-materials.json','--output',STAGE))
  step('prepare-payloads',[sys.executable,REPO/'tools/prepare_payloads.py','--staging',STAGE,'--source',SOURCE,'--previews',OUT/'release-previews','--blender',a.blender,'--content-revision',REV])

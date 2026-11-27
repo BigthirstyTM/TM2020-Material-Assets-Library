@@ -50,7 +50,7 @@ def blender(name,args,factory=False):
 try:
  save();files={p.name:p for p in (out/'assets').iterdir() if p.is_file()};assert len(files)==plan['file_count']+2,len(files)
  build=json.loads((Path(plan['source_export'])/'build-report.json').read_text());assert sha(Path(build['source']))==plan['source_sha256']
- local=json.loads((out/'local-verification.json').read_text());assert local['materials']==825 and local['native_drop_url_verified']
+ local=json.loads((out/'local-verification.json').read_text());assert local['materials']==len(plan['materials']) and local['native_drop_url_verified']
  digests={name:sha(path) for name,path in files.items()}
  remote=release()
  if remote is None:
@@ -118,11 +118,11 @@ try:
  blender('public-extension-install',['--command','extension','install','--sync','--enable',plan['extension_id']])
  blender('public-registration',['--python-exit-code','1','--python',out/'verify_registration.py'])
  blender('public-native-listing',['--command','asset_listing','download',plan['library_url']])
- cache=out/'public-verification-profile/_asset_download_location/_v1';index=json.loads((cache/'asset-index.json').read_text());assert index['asset_count']==plan.get('asset_count',825) and index['file_count']==plan['file_count']
+ cache=out/'public-verification-profile/_asset_download_location/_v1';index=json.loads((cache/'asset-index.json').read_text());assert index['asset_count']==plan.get('asset_count',len(plan['materials'])) and index['file_count']==plan['file_count']
  listing=[]
  for entry in index['pages']:
   rel=entry['url'];page_path=out/'public-verification-profile/_asset_download_location'/rel;page=json.loads(page_path.read_text());listing.extend(page['assets']);assert page_path.read_bytes()==(out/'site/remote/tm2020-materials'/rel).read_bytes()
- assert len(listing)==plan.get('asset_count',825) and {x['name'] for x in listing}==set(plan['materials']+plan.get('worlds',[]));assert not any('Preview only' in c['path'] for c in index['catalogs'])
+ assert len(listing)==plan.get('asset_count',len(plan['materials'])) and {x['name'] for x in listing}==set(plan['materials']+plan.get('worlds',[]));assert not any('Preview only' in c['path'] for c in index['catalogs'])
  selected=[]
  for name in ['TM_CustomBricks_asset','TM_Water_asset','TM_PlatformDirt_DecoHill_asset','TM_RedIsland_DetailsToDirt_asset']:
   row=next(x for x in build['materials'] if x['name']==name);payload=next(x for x in plan['assets'] if x['path']==row['path']);asset=assets[payload['name']];data=get(asset['browser_download_url']);assert hashlib.sha256(data).hexdigest()==row['sha256'];dest=out/'public-verification-profile'/Path(row['path']).name;dest.write_bytes(data);selected.append(dict(name=name,path=str(dest),id=row['id']))
@@ -133,6 +133,6 @@ try:
    payload=next(x for x in plan['assets'] if x['path']==row['path']);data=get(assets[payload['name']]['browser_download_url']);assert hashlib.sha256(data).hexdigest()==row['sha256'];dest=out/'public-verification-profile'/Path(row['path']).name;dest.write_bytes(data);worlds.append(dict(name=row['name'],path=str(dest),id=row['id']))
   (out/'selected-public-worlds.json').write_text(json.dumps(worlds));blender('public-world-append',['--python-exit-code','1','--python',out/'verify_downloaded_worlds.py'],factory=True)
  assert sha(Path(build['source']))==plan['source_sha256']
- proof=dict(phase='complete',revision=plan['source_revision'],release_url=release()['html_url'],pages_url=plan['pages_url'],library_url=plan['library_url'],extension_url=assets[plan['extension_name']]['browser_download_url'],repository_url=plan['repository_url'],drag_url=plan['drag_url'],materials=825,worlds=len(plan.get('worlds',[])),asset_count=plan.get('asset_count',825),preview_only=0,materiallib_included=False,all_server_assets_verified=digests,site_files=site_hashes,isolated_repository_install_verified=True,native_listing_verified=True,native_listing_asset_count=plan.get('asset_count',825),selected_public_worlds_appended=2 if plan.get('worlds') else 0,selected_public_materials_appended=4,interactive_drag_drop_tested=False,completed_utc=datetime.datetime.now(datetime.timezone.utc).isoformat())
+ proof=dict(phase='complete',revision=plan['source_revision'],release_url=release()['html_url'],pages_url=plan['pages_url'],library_url=plan['library_url'],extension_url=assets[plan['extension_name']]['browser_download_url'],repository_url=plan['repository_url'],drag_url=plan['drag_url'],materials=len(plan['materials']),worlds=len(plan.get('worlds',[])),asset_count=plan.get('asset_count',len(plan['materials'])),preview_only=0,materiallib_included=False,all_server_assets_verified=digests,site_files=site_hashes,isolated_repository_install_verified=True,native_listing_verified=True,native_listing_asset_count=plan.get('asset_count',len(plan['materials'])),selected_public_worlds_appended=2 if plan.get('worlds') else 0,selected_public_materials_appended=4,interactive_drag_drop_tested=False,completed_utc=datetime.datetime.now(datetime.timezone.utc).isoformat())
  (out/'public-verification.json').write_text(json.dumps(proof,indent=2));(out/'completion.json').write_text(json.dumps(proof,indent=2));save(phase='complete');print('FULL_REMOTE_MATERIALS_EXTENSION_PUBLICLY_VERIFIED',flush=True)
 except Exception as error:save(phase='failed',error=repr(error));raise

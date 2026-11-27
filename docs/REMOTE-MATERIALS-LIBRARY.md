@@ -2,7 +2,7 @@
 
 Asset library extension for **Blender 5.3 and newer**.
 
-The full **remote collection contains 825 materials and 20 HDRI Worlds**.
+The full **remote collection contains 820 materials and 20 HDRI Worlds**.
 The extension installs from our GitHub-hosted repository; the complete material
 download is **3.35 GB**, shared across **98 material bundles and 20 HDRI World files**.
 The existing offline ZIPs remain available.
@@ -33,7 +33,7 @@ repository URL above through Get Extensions and install the library from its lis
 
 ## Included assets
 
-The collection matches the **825 material entries in the current Materials Only
+The collection matches the **820 material entries in the current Materials Only
 offline release** (`2026.11.26-thumbnail-shadow-lift-1`). Complete-only / Preview
 only assets and source node-group assets are not offered. The 20 HDRI Worlds
 from Materials Only are included under **06 HDRI World Moods**, grouped by
@@ -114,7 +114,7 @@ hosting releases before reaching GitHub's per-release asset limit.
 
 ## Verification
 
-All 825 materials were reopened and compared with the verified Materials Only
+All 820 materials were reopened and compared with the verified Materials Only
 source, including shader graphs, drivers, native metadata, packed texture hashes
 and thumbnail artwork. All current release files were independently checked against
 GitHub SHA-256 digests. Public listing and extension bytes were checked, and the

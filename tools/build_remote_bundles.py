@@ -13,7 +13,7 @@ a=p.parse_args(sys.argv[sys.argv.index('--')+1:])
 out=a.output.resolve();host=out/'host';(host/'materials').mkdir(parents=True,exist_ok=True);(out/'contracts').mkdir(exist_ok=True)
 reference=json.loads((a.reference/'build-report.json').read_text());plan=json.loads(a.plan.read_text())
 source=Path(reference['source']);assert sha(source)==reference['source_sha256']
-assert len(reference['materials'])==plan['materials']==825
+assert len(reference['materials'])==plan['materials']
 bpy.ops.wm.open_mainfile(filepath=str(source),load_ui=False)
 materials={m['tm_asset_id']:m for m in bpy.data.materials if m.asset_data}
 rows={r['id']:r for r in reference['materials']}
@@ -54,5 +54,5 @@ for i,bundle in enumerate(plan['bundles']):
 shutil.copy2(a.reference/'host/blender_assets.cats.txt',host/'blender_assets.cats.txt')
 assert sha(source)==reference['source_sha256']
 report.update(total_bytes=sum(r['bytes'] for r in report['bundles']),source_unchanged=True)
-(out/'build-report.json').write_text(json.dumps(report));(out/'build-status.json').write_text(json.dumps(dict(phase='complete',materials=825,bundles=len(plan['bundles']),bytes=report['total_bytes'])))
+(out/'build-report.json').write_text(json.dumps(report));(out/'build-status.json').write_text(json.dumps(dict(phase='complete',materials=len(report['materials']),bundles=len(plan['bundles']),bytes=report['total_bytes'])))
 print('ALL_BUNDLES_EXPORTED',report['total_bytes'],flush=True)

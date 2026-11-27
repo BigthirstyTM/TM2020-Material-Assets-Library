@@ -14,7 +14,7 @@ a=p.parse_args(sys.argv[sys.argv.index('--')+1:]);source=a.source.resolve();out=
 source_hash=sha(source);inventory={r['name']:r for r in json.loads(a.inventory.read_text())['materials']}
 bpy.ops.wm.open_mainfile(filepath=str(source),load_ui=False)
 targets=sorted((m for m in bpy.data.materials if m.asset_data and not inventory[m.name]['preview_only']),key=lambda x:x.name)
-assert len(targets)==825
+assert len(targets)==sum(not r['preview_only'] for r in inventory.values())
 if a.only:
  targets=[m for m in targets if m.name in a.only];assert len(targets)==len(a.only)
 for g in bpy.data.node_groups:

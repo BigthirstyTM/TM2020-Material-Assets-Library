@@ -12,15 +12,15 @@
         "BaseMaterial UV"
       ],
       "native_link": "Stadium\\Media\\Material\\16x9ScreenOff",
-      "catalog": "Trackmania2020/01 Stadium/Materials/AD SCREENS",
+      "catalog": "Trackmania2020/08 Preview only/Missing native materials",
       "effective": {
-        "link": "16x9ScreenOff"
+        "link": ""
       },
       "collision": {
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false,
+      "preview_only": true,
       "thumbnail_style": "A",
       "thumbnail_revision": "2026.11.25-thumbnail-aspect-3",
       "thumbnail_lighting": "Flat layered color/emission without studio shadows; normal and specular response excluded from icon only.",
@@ -31,7 +31,8 @@
         "image": "TM COLOR AdScreenOff.dds",
         "reason": "screen image layer (not the square LED/detail layer)"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "preview_only_reason": "Native game material target is absent from the current game archives. Original preview retained; no replacement material or texture selected."
     },
     {
       "id": "mat-b332afad387783aa306b9303",
@@ -45,15 +46,15 @@
         "BaseMaterial UV"
       ],
       "native_link": "Stadium\\Media\\Material\\Ad16x9Screen",
-      "catalog": "Trackmania2020/01 Stadium/Materials/AD SCREENS",
+      "catalog": "Trackmania2020/08 Preview only/Missing native materials",
       "effective": {
-        "link": "Ad16x9Screen"
+        "link": ""
       },
       "collision": {
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false,
+      "preview_only": true,
       "thumbnail_style": "A",
       "thumbnail_revision": "2026.11.25-thumbnail-aspect-3",
       "thumbnail_lighting": "Flat screen preview lifted by 0.25 exposure stop.",
@@ -64,7 +65,8 @@
         "image": "TM COLOR WarpRace16x9C.dds",
         "reason": "screen image layer (not the square LED/detail layer)"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "preview_only_reason": "Native game material target is absent from the current game archives. Original preview retained; no replacement material or texture selected."
     },
     {
       "id": "mat-b6c340c08ba6b1c9bb6504a7",
@@ -25088,15 +25090,15 @@
         "BaseMaterial UV"
       ],
       "native_link": "Stadium\\Media\\Material\\PodiumScreen16x9",
-      "catalog": "Trackmania2020/01 Stadium/Materials/PODIUM",
+      "catalog": "Trackmania2020/08 Preview only/Missing native materials",
       "effective": {
-        "link": "PodiumScreen16x9"
+        "link": ""
       },
       "collision": {
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false,
+      "preview_only": true,
       "thumbnail_style": "A",
       "thumbnail_revision": "2026.11.25-thumbnail-aspect-3",
       "thumbnail_lighting": "Flat screen preview lifted by 0.25 exposure stop.",
@@ -25107,7 +25109,8 @@
         "image": "TM COLOR PodiumScreen16x9_I.dds",
         "reason": "screen image layer (not the square LED/detail layer)"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "preview_only_reason": "Native game material target is absent from the current game archives. Original preview retained; no replacement material or texture selected."
     },
     {
       "id": "mat-a1320162d365dcf0e4ae9857",
@@ -33600,15 +33603,15 @@
         "BaseMaterial UV"
       ],
       "native_link": "Stadium256\\Media\\Material\\WarpScreen16x9B",
-      "catalog": "Trackmania2020/01 Stadium/Materials/WARP",
+      "catalog": "Trackmania2020/08 Preview only/Missing native materials",
       "effective": {
-        "link": "WarpScreen16x9B"
+        "link": ""
       },
       "collision": {
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false,
+      "preview_only": true,
       "thumbnail_style": "A",
       "thumbnail_revision": "2026.11.25-thumbnail-aspect-3",
       "thumbnail_lighting": "Flat screen preview lifted by 0.25 exposure stop.",
@@ -33619,7 +33622,8 @@
         "image": "TM COLOR WarpRace16x9B.dds",
         "reason": "screen image layer (not the square LED/detail layer)"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "preview_only_reason": "Native game material target is absent from the current game archives. Original preview retained; no replacement material or texture selected."
     },
     {
       "id": "mat-6aae26038eb1eaa7cebfaebe",
@@ -33633,15 +33637,15 @@
         "BaseMaterial UV"
       ],
       "native_link": "Stadium256\\Media\\Material\\WarpScreen16x9C",
-      "catalog": "Trackmania2020/01 Stadium/Materials/WARP",
+      "catalog": "Trackmania2020/08 Preview only/Missing native materials",
       "effective": {
-        "link": "WarpScreen16x9C"
+        "link": ""
       },
       "collision": {
         "physics": "MetalTrans",
         "gameplay": "None"
       },
-      "preview_only": false,
+      "preview_only": true,
       "thumbnail_style": "A",
       "thumbnail_revision": "2026.11.25-thumbnail-aspect-3",
       "thumbnail_lighting": "Flat screen preview lifted by 0.25 exposure stop.",
@@ -33652,7 +33656,8 @@
         "image": "TM COLOR WarpRace16x9C.dds",
         "reason": "screen image layer (not the square LED/detail layer)"
       },
-      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip."
+      "thumbnail_layout": "Preserve displayed source/frame proportions; square fills canvas. Clock/animation footers reserve a separate strip.",
+      "preview_only_reason": "Native game material target is absent from the current game archives. Original preview retained; no replacement material or texture selected."
     },
     {
       "id": "mat-bcde24e7c3f9aeb157036631",

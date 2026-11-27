@@ -1,5 +1,5 @@
 {
-  "materials": 825,
+  "materials": 820,
   "bundle_count": 98,
   "max_raw_mb": 512,
   "max_materials": 32,
@@ -598,8 +598,6 @@
         "mat-38b25cc861b5019584f6eab0",
         "mat-5a3e46ed69c4cf14781c4701",
         "mat-5cf14dd5cd646cc6df7e555b",
-        "mat-6aae26038eb1eaa7cebfaebe",
-        "mat-6df59f486a4dda888ca00a9b",
         "mat-6f6e608d5becb7b478a202bd",
         "mat-71a9ebb0095e6ff8dc0eb92d",
         "mat-7243b281d8a7cf3fe9336de9",
@@ -607,7 +605,6 @@
         "mat-9891ae82947c74623f8f98e2",
         "mat-99fc0baae00deeb1c01aae04",
         "mat-9d2c19ca8ac3b7c1f86154b8",
-        "mat-b332afad387783aa306b9303",
         "mat-b4ddd3852f6b103dc9faefd3",
         "mat-b6c340c08ba6b1c9bb6504a7",
         "mat-b719e3d5b45d9c76ab67a07d",
@@ -616,14 +613,10 @@
         "mat-c9679f12f8c8c56ecfbeb433",
         "mat-ce3f77eeb6616e79cb10b80e",
         "mat-d9ef2a03f3aa7f1524b25421",
-        "mat-e61577f995f3b3e2611f58e2",
         "mat-eae6f718fa66c1076fcd8064",
-        "mat-ebcd67d6a8d5bc3c046e6e5f",
         "mat-f0f5ea3b0a5fa8fabb4e4f5e"
       ],
       "names": [
-        "TM_16x9ScreenOff_asset",
-        "TM_Ad16x9Screen_asset",
         "TM_Ad1x1Screen_asset",
         "TM_Ad2x1Screen_asset",
         "TM_Ad2x3ScreenVeryBig_asset",
@@ -634,7 +627,6 @@
         "TM_GateGameplayScreen_asset",
         "TM_GateGameplaySnow_Screen_asset",
         "TM_PodiumScreen155_asset",
-        "TM_PodiumScreen16x9_asset",
         "TM_PodiumStepScreen_asset",
         "TM_Show4x1_asset",
         "TM_Stadium_Ad155ScreenSmall_asset",
@@ -642,8 +634,6 @@
         "TM_WarpScreen155B_asset",
         "TM_WarpScreen155C_asset",
         "TM_WarpScreen155_asset",
-        "TM_WarpScreen16x9B_asset",
-        "TM_WarpScreen16x9C_asset",
         "TM_WarpScreen16x9_asset",
         "TM_WarpScreen1x4A_asset",
         "TM_WarpScreen2x1A_asset",
@@ -2440,5 +2430,7 @@
       ],
       "raw_texture_bytes": 8388737
     }
-  ]
+  ],
+  "quarantine_revision": "2026.11.27-missing-material-quarantine-1",
+  "raw_size_estimates_note": "Raw texture estimates retained from the original clustering; current payload sizes are measured in the export report."
 }

@@ -9,6 +9,8 @@ p=argparse.ArgumentParser()
 for key in ['staging','source','inputs']:p.add_argument('--'+key,type=Path,required=True)
 a=p.parse_args(sys.argv[sys.argv.index('--')+1:]);stage=a.staging.resolve();source=a.source.resolve();inputs=json.loads(a.inputs.read_text())
 inventory=json.loads((Path(__file__).resolve().parents[1]/'data/source-materials.json').read_text())['materials'];expected={r['name']:r for r in inventory}
+quarantined={'TM_16x9ScreenOff_asset','TM_Ad16x9Screen_asset','TM_PodiumScreen16x9_asset','TM_WarpScreen16x9B_asset','TM_WarpScreen16x9C_asset'}
+assert all(expected[name]['preview_only'] and not expected[name]['effective']['link'] for name in quarantined)
 addon_utils.enable('blendermania-addon',default_set=False)
 for handler in list(bpy.app.handlers.load_post):
     if handler.__module__.startswith('blendermania-addon'):bpy.app.handlers.load_post.remove(handler)
@@ -22,6 +24,12 @@ for edition,count,groupcount in [('materials-only',sum(not r['preview_only'] for
     materiallib=(root/'MaterialLib.txt').read_bytes()
     assert b'DMaterial(Stadium_ItemFlag)' not in materiallib
     assert b'DMaterial(ItemFlagNoAnim)' in materiallib and b'DMaterial(Stadium_ItemFlagNoAnim)' in materiallib
+    for name in quarantined:assert ('DMaterial('+name.removeprefix('TM_').removesuffix('_asset')+')').encode() not in materiallib
+    if edition=='materials-only':assert not ({m.name for m in mats}&quarantined)
+    else:
+        for name in quarantined:
+            m=bpy.data.materials[name];assert not m.link and not json.loads(m['MAT_PROPS_AS_JSON'])['link'] and not m['tm_game_material_exportable']
+            assert m.get('tm_export_binding_status')=='preview_only_missing_native_material' and 'Preview only' in m.asset_data.description
     changed=0
     for m in mats:
         assert m.link==expected[m.name]['effective']['link'],m.name

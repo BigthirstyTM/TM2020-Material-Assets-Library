@@ -2,7 +2,7 @@
 
 A material asset library for **Trackmania 2020**, designed for the **Blendermania V2 export workflow**. Browse materials in Blender's Asset Browser, apply them to your mesh, and export using their native game material links.
 
-[![Materials Only](https://img.shields.io/badge/Materials_Only-825_materials-287a48)](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-materials-only)
+[![Materials Only](https://img.shields.io/badge/Materials_Only-820_materials-287a48)](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-materials-only)
 [![Complete Library](https://img.shields.io/badge/Complete_Library-1119_materials-3779b6)](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-complete)
 [![Blender](https://img.shields.io/badge/Blender-5.2.3_LTS-e87d0d)](docs/INSTALLATION.md)
 
@@ -20,14 +20,14 @@ Both full packages include the improvements to 31 projected previews, two light 
 
 ## Blender 5.3 asset-library extension
 
-The full **Trackmania 2020 - Materials Library** extension is published with all 825 Materials Only entries and 20 HDRI Worlds. Install it from the [drag-and-drop installation page](https://bigthirstytm.github.io/TM2020-Material-Assets-Library/) or the [separate Blender 5.3+ asset-library extension release](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/materials-library-extension-v1.0.0). It uses our GitHub-hosted extension repository. See [installation and update details](docs/REMOTE-MATERIALS-LIBRARY.md). The full remote download is 3.35 GB in 118 files (98 material bundles and 20 HDRI Worlds); only changed bundles need downloading again. All 825 materials and original texture resolutions are retained. Offline ZIPs remain available.
+The full **Trackmania 2020 - Materials Library** extension is published with all 820 Materials Only entries and 20 HDRI Worlds. Install it from the [drag-and-drop installation page](https://bigthirstytm.github.io/TM2020-Material-Assets-Library/) or the [separate Blender 5.3+ asset-library extension release](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/materials-library-extension-v1.0.0). It uses our GitHub-hosted extension repository. See [installation and update details](docs/REMOTE-MATERIALS-LIBRARY.md). The full remote download is 3.35 GB in 118 files (98 material bundles and 20 HDRI Worlds); only changed bundles need downloading again. Five legacy screen materials with missing game targets are retained only under Preview only in Complete. Original texture resolutions are retained. Offline ZIPs remain available.
 
 ## Choose your edition
 
 | Edition | Included | Recommended for |
 | --- | --- | --- |
-| [Materials Only](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-materials-only) | 825 native-linked materials | Building and exporting items |
-| [Complete Library](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-complete) | All 1,119 materials, including 294 Preview only assets | Browsing the full material and texture collection |
+| [Materials Only](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-materials-only) | 820 native-linked materials | Building and exporting items |
+| [Complete Library](https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/tag/v1.0.0-complete) | All 1,119 materials, including 299 Preview only assets | Browsing the full material and texture collection |
 
 Both editions include 20 HDRI World assets, required textures, `MaterialLib.txt`, and an offline material catalogue. Complete retains 42 source texture node groups under **Preview only / Source resources**; Materials Only omits these node-group assets. They are shader inputs, not materials to drag onto a mesh. **Choose one edition**; Complete already includes everything in Materials Only.
 
@@ -72,3 +72,6 @@ For manual installation, custom locations, updating or uninstalling, see [Instal
 Game assets remain the property of their respective owners. This is an independent community project. See [Credits and asset rights](docs/CREDITS.md).
 
 For rebuilding and publishing the project, see [Maintaining](docs/MAINTAINING.md). The original installer and build tooling are covered by [LICENSE-CODE](LICENSE-CODE); this licence does not apply to game assets.
+
+> Update in preparation: revision `2026.11.27-missing-material-quarantine-1` removes five missing-target screens from Materials Only and the remote library, retaining their previews in Complete. Public packages will be promoted after verification.
+

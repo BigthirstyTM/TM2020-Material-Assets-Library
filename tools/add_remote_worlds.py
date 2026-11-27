@@ -27,11 +27,11 @@ if a.verify:
   checks.append(dict(name=w.name,id=row['id'],catalog=w.asset_data.catalog_id,packed_images=len(hashes),assigned_to_scene=True))
   print('REMOTE_WORLD_VERIFIED',w.name,flush=True)
  assert len(checks)==20 and sha(Path(report['source']))==report['source_sha256']
- proof=json.loads((ref/'verification.json').read_text());proof.update(worlds=20,world_checks=checks,files=len(report['bundles']),asset_count=845)
+ proof=json.loads((ref/'verification.json').read_text());proof.update(worlds=20,world_checks=checks,files=len(report['bundles']),asset_count=len(report['materials'])+20)
  (out/'verification.json').write_text(json.dumps(proof,indent=2));print('ALL_REMOTE_WORLDS_VERIFIED',flush=True)
 else:
  (out/'host/materials').mkdir(parents=True,exist_ok=True);(out/'contracts').mkdir(exist_ok=True)
- report=json.loads((ref/'build-report.json').read_text());assert len(report['materials'])==825 and len(report['bundles'])==98
+ report=json.loads((ref/'build-report.json').read_text());assert len(report['materials'])==820 and len(report['bundles'])==98
  for row in report['bundles']:
   source=ref/'host'/row['path'];dest=out/'host'/row['path']
   if not dest.exists():os.link(source,dest)
@@ -57,6 +57,6 @@ else:
   row=dict(name=w.name,id=ident,path=relative,sha256=sha(dest),bytes=dest.stat().st_size,contract_path=contract_path,fingerprint=fingerprint(data),bundle_id=bundle)
   report['worlds'].append(row);report['bundles'].append(dict(id=bundle,path=relative,sha256=row['sha256'],bytes=row['bytes'],worlds=[ident],fingerprint=row['fingerprint']))
   print('REMOTE_WORLD_EXPORTED',w.name,row['bytes'],flush=True)
- report.update(total_bytes=sum(r['bytes'] for r in report['bundles']),asset_count=845)
+ report.update(total_bytes=sum(r['bytes'] for r in report['bundles']),asset_count=len(report['materials'])+20)
  (out/'build-report.json').write_text(json.dumps(report));assert sha(Path(report['source']))==report['source_sha256']
  print('REMOTE_WORLDS_ADDED',len(worlds),report['total_bytes'],flush=True)

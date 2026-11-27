@@ -33,6 +33,6 @@ for key in small:
 groups=list(clusters.values())+bins;groups.sort(key=lambda g:sorted(g['ids']))
 names={r['id']:r['name'] for r in rows};bundles=[]
 for i,g in enumerate(groups):bundles.append(dict(id=f'bundle-{i+1:04d}',materials=sorted(g['ids']),names=sorted(names[x] for x in g['ids']),raw_texture_bytes=size(g['paths'])))
-assert len({m for b in bundles for m in b['materials']})==825
-report=dict(materials=825,bundle_count=len(bundles),max_raw_mb=a.max_mb,max_materials=a.max_materials,individual_raw_bytes=audit['per_material_total_bytes'],bundled_raw_bytes=sum(x['raw_texture_bytes'] for x in bundles),bundles=bundles)
+assert len({m for b in bundles for m in b['materials']})==len(rows)
+report=dict(materials=len(rows),bundle_count=len(bundles),max_raw_mb=a.max_mb,max_materials=a.max_materials,individual_raw_bytes=audit['per_material_total_bytes'],bundled_raw_bytes=sum(x['raw_texture_bytes'] for x in bundles),bundles=bundles)
 a.output.parent.mkdir(parents=True,exist_ok=True);a.output.write_text(json.dumps(report,indent=2));print('BUNDLE_PLAN',a.max_mb,'MB',len(bundles),'bundles',round(report['bundled_raw_bytes']/1e9,3),'GB raw vs',round(report['individual_raw_bytes']/1e9,3),flush=True)
