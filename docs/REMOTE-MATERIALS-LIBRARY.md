@@ -164,4 +164,4 @@ Published revision `2026.11.27-colorpicker-badges-1` adds brush badges to86 mate
 
 ## Clearer red paintbrush: extension 1.0.7
 
-Remote extension **1.0.7** now publishes the red paintbrush redesign after independent verification. Both offline editions are being updated. The same86 native colorpicker materials now use a red background and a larger brush, distinct from the purple parallax marker. Shader graphs and all other thumbnail regions are unchanged. Refresh Remote Listing, then Download Assets for changed cached bundles. Existing scene materials are not rewritten.
+Remote extension **1.0.7** and both offline editions publish the red paintbrush redesign after independent installation and public-file verification. The same86 native colorpicker materials now use a red background and a larger brush, distinct from the purple parallax marker. Shader graphs and all other thumbnail regions are unchanged. Refresh Remote Listing, then Download Assets for changed cached bundles. Existing scene materials are not rewritten.
