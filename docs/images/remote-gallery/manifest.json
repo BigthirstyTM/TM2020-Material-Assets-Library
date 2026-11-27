@@ -11,10 +11,12 @@
     "playback_speed": 0.4
   },
   "TM_Stadium_Ad155Screen_asset": {
-    "file": "parallax.237a80452f66.webp",
-    "sha256": "237a80452f66a1883bb3801661185b8a213ffa5597ef1be0dc472a08b006368e",
-    "poster": "parallax-still.fec21e8497a8.webp",
-    "poster_sha256": "fec21e8497a80a0ffd647106169b61d667bc74e302b1b787d4ad322bf85547d5",
-    "source": "Blender 5.3 source-informed parallax material; camera oscillates +/-32 degrees over 4 seconds; square centre crop; website only"
+    "file": "parallax.b584ad9fb16e.webp",
+    "sha256": "b584ad9fb16e2cbaec62018efd289b5859cd27e921901e06bdeeff52c02115d2",
+    "poster": "parallax-still.214f644cc692.webp",
+    "poster_sha256": "214f644cc692536b40bc6b0cc7876109d81f5003586db0ce8607241a69789e76",
+    "source": "Blender 5.3 source-informed parallax material; camera oscillates +/-32 degrees over 8 seconds; square centre crop; +0.65 stop presentation exposure; website only",
+    "exposure_stops": 0.65,
+    "frame_duration_ms": 222
   }
 }

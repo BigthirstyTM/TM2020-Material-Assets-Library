@@ -31,6 +31,7 @@ size=32 if kind=='water' else 2
 bpy.ops.mesh.primitive_plane_add(size=size);obj=bpy.context.object;obj.data.uv_layers[0].name='BaseMaterial';obj.data.materials.append(material)
 cam.data.ortho_scale=size
 if kind=='parallax':
+ scene.view_settings.exposure=.65
  # Centre-crop the 1.55:1 screen for a square, edge-to-edge website example.
  for loop in obj.data.uv_layers[0].data:
   loop.uv.x=.5+(loop.uv.x-.5)/1.55

@@ -10,7 +10,7 @@ The TurboRoulette website loop is played at 40% of its previous speed (three
 840 ms states; 2.52 s total). This presentation timing does not alter the asset.
 
 The blue Stadium Ad155Screen parallax example uses 36 rendered viewing angles
-over a four-second loop. The camera oscillates by 32 degrees to either side,
+over an eight-second loop, with +0.65 stop presentation exposure. The camera oscillates by 32 degrees to either side,
 without changing the graph depth values. The original 1.55:1 composition is
 centre-cropped to fill the square without stretching, and an equally cropped
 static poster is used for reduced motion. Generate with `--kind parallax`.
