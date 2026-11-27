@@ -90,8 +90,9 @@ def main():
                 control.inputs['Use painted vertex alpha'].default_value = 0
             if 'TOpacity' in slots:
                 opacity = sample(t, 'Native TOpacity mesh mask', load('TOpacity'), uv.outputs[0])
-                wire(t, opacity.outputs['Alpha'], bsdf.inputs['Alpha']); setup_transparency(m)
-                limitations.append('Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced.')
+                from vista_decal_opacity import connect_opacity
+                connect_opacity(m, opacity, t.nodes['Deco Color alpha'].outputs['Alpha']); setup_transparency(m)
+                limitations.append('Projected decal masked by its own TOpacity red channel times Color vertex alpha; native decal depth/offset is not reproduced.')
             primary = load('TBaseColorOp') or load('TBaseColor') or load('PyBaseColor')
             # Decal silhouettes are clearer on a flat panel at the mask's
             # authored aspect ratio, rather than wrapped around a cube.
