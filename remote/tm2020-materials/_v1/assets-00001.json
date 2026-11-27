@@ -2627,56 +2627,6 @@
       }
     },
     {
-      "name": "TM_16x9ScreenOff_asset",
-      "id_type": "MATERIAL",
-      "files": [
-        "materials/bundle-0019.blend"
-      ],
-      "bl_versions": {
-        "min": "5.3"
-      },
-      "thumbnail": {
-        "url": "thumbnails/mat-6df59f486a4dda888ca00a9b.90271f07df1266b3.webp",
-        "hash": "SHA256:90271f07df1266b3dcdb9f2019377586e8d131f5d0eedda1730daeee604b78a5"
-      },
-      "meta": {
-        "catalog_id": "c20b9637-5eb4-4300-be59-ff8c113d9c53",
-        "tags": [
-          "Physics: MetalTrans",
-          "Preview: Composed screen",
-          "Export: Native binding",
-          "Usage: BaseMaterial UV",
-          "Evidence: Historical file check"
-        ],
-        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
-      }
-    },
-    {
-      "name": "TM_Ad16x9Screen_asset",
-      "id_type": "MATERIAL",
-      "files": [
-        "materials/bundle-0019.blend"
-      ],
-      "bl_versions": {
-        "min": "5.3"
-      },
-      "thumbnail": {
-        "url": "thumbnails/mat-b332afad387783aa306b9303.445a3f056ac4dd76.webp",
-        "hash": "SHA256:445a3f056ac4dd76dbd32cc3e2152f50cdd340aff27b4d8a2f5b3a31c9d5deab"
-      },
-      "meta": {
-        "catalog_id": "c20b9637-5eb4-4300-be59-ff8c113d9c53",
-        "tags": [
-          "Physics: MetalTrans",
-          "Preview: Composed screen",
-          "Export: Native binding",
-          "Usage: BaseMaterial UV",
-          "Evidence: Historical file check"
-        ],
-        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
-      }
-    },
-    {
       "name": "TM_Ad1x1Screen_asset",
       "id_type": "MATERIAL",
       "files": [
@@ -2929,31 +2879,6 @@
       }
     },
     {
-      "name": "TM_PodiumScreen16x9_asset",
-      "id_type": "MATERIAL",
-      "files": [
-        "materials/bundle-0019.blend"
-      ],
-      "bl_versions": {
-        "min": "5.3"
-      },
-      "thumbnail": {
-        "url": "thumbnails/mat-ebcd67d6a8d5bc3c046e6e5f.8595695e669ab6aa.webp",
-        "hash": "SHA256:8595695e669ab6aa51ec3716ff92719b03fbfae1493a14ddd195a13572cec8e9"
-      },
-      "meta": {
-        "catalog_id": "4d7b1b72-66a9-436a-a1f7-66d95e9e4405",
-        "tags": [
-          "Physics: MetalTrans",
-          "Preview: Composed screen",
-          "Export: Native binding",
-          "Usage: BaseMaterial UV",
-          "Evidence: Historical file check"
-        ],
-        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
-      }
-    },
-    {
       "name": "TM_PodiumStepScreen_asset",
       "id_type": "MATERIAL",
       "files": [
@@ -3167,56 +3092,6 @@
           "Evidence: Historical file check"
         ],
         "description": "Native binding established | Preview: Composed material | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale. | Orbit the view in Material Preview/Rendered to see depth; silhouette stays flat."
-      }
-    },
-    {
-      "name": "TM_WarpScreen16x9B_asset",
-      "id_type": "MATERIAL",
-      "files": [
-        "materials/bundle-0019.blend"
-      ],
-      "bl_versions": {
-        "min": "5.3"
-      },
-      "thumbnail": {
-        "url": "thumbnails/mat-e61577f995f3b3e2611f58e2.ad04dc8e60920be8.webp",
-        "hash": "SHA256:ad04dc8e60920be8fb6c49626ae317d3869f456ab2f039e8a51583f4bda1cc31"
-      },
-      "meta": {
-        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
-        "tags": [
-          "Physics: MetalTrans",
-          "Preview: Composed screen",
-          "Export: Native binding",
-          "Usage: BaseMaterial UV",
-          "Evidence: Historical file check"
-        ],
-        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
-      }
-    },
-    {
-      "name": "TM_WarpScreen16x9C_asset",
-      "id_type": "MATERIAL",
-      "files": [
-        "materials/bundle-0019.blend"
-      ],
-      "bl_versions": {
-        "min": "5.3"
-      },
-      "thumbnail": {
-        "url": "thumbnails/mat-6aae26038eb1eaa7cebfaebe.ad04dc8e60920be8.webp",
-        "hash": "SHA256:ad04dc8e60920be8fb6c49626ae317d3869f456ab2f039e8a51583f4bda1cc31"
-      },
-      "meta": {
-        "catalog_id": "9b5c4bbf-1819-4a6c-9720-7259a115772f",
-        "tags": [
-          "Physics: MetalTrans",
-          "Preview: Composed screen",
-          "Export: Native binding",
-          "Usage: BaseMaterial UV",
-          "Evidence: Historical file check"
-        ],
-        "description": "Native binding established | Preview: Composed screen | Use a UV map named BaseMaterial. | Screen image: UV 0-1 spans one image; match panel aspect ratio. LED detail retains its own scale."
       }
     },
     {
@@ -3612,6 +3487,154 @@
         ],
         "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender."
       }
+    },
+    {
+      "name": "TM_RedIsland_DetailsCliffToDirt_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0021.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-8cb03483409f75268e5e96a8.bab1910df2f16cc9.webp",
+        "hash": "SHA256:bab1910df2f16cc946ea5939dd30dad745b9104cf6e21babca6a5c204c2fde12"
+      },
+      "meta": {
+        "catalog_id": "f564fd12-ae40-52c4-a3eb-af99e4b3268a",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Sand",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. Vertex alpha: Color alpha 0 selects the projected base; alpha 1 adds the native UV overlay through its texture alpha."
+      }
+    },
+    {
+      "name": "TM_RedIsland_DetailsRocksToDirt_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0021.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-3ea9e19e62f7f16aacb0f4a1.8a721dde6c8b4541.webp",
+        "hash": "SHA256:8a721dde6c8b4541c7c3ad03040463cc78bfe43791cd387c16c76beb7df835b5"
+      },
+      "meta": {
+        "catalog_id": "f564fd12-ae40-52c4-a3eb-af99e4b3268a",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Sand",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. Vertex alpha: Color alpha 0 selects the projected base; alpha 1 adds the native UV overlay through its texture alpha."
+      }
+    },
+    {
+      "name": "TM_RedIsland_DetailsToDirt_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0021.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-15127e5bc13c99a89e472483.463c35faa4b5f69f.webp",
+        "hash": "SHA256:463c35faa4b5f69fc933fdae572e998e9b6efb11b09fec3407abfa37683fc9bb"
+      },
+      "meta": {
+        "catalog_id": "f564fd12-ae40-52c4-a3eb-af99e4b3268a",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Sand",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender."
+      }
+    },
+    {
+      "name": "TM_RedIsland_DetailsVegetationToDirt_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0021.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-8b0d928d2bfb69045f674d00.96ffd0a71c267a66.webp",
+        "hash": "SHA256:96ffd0a71c267a661e50b52b333328243a2b530130f354da9fee275552a8cbaa"
+      },
+      "meta": {
+        "catalog_id": "f564fd12-ae40-52c4-a3eb-af99e4b3268a",
+        "tags": [
+          "Native material variant",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Sand",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender. Vertex alpha: Color alpha 0 selects the projected base; alpha 1 adds the native UV overlay through its texture alpha."
+      }
+    },
+    {
+      "name": "TM_RedIsland_Dirt_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0021.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-1aa8713dc71b8bfe33af375d.9351e0f0434ab70f.webp",
+        "hash": "SHA256:9351e0f0434ab70f1f61b1ae8dfe95b79610d4dd10f0489259f6a07ccd6da269"
+      },
+      "meta": {
+        "catalog_id": "f564fd12-ae40-52c4-a3eb-af99e4b3268a",
+        "tags": [
+          "Trackmania2020",
+          "RedIsland",
+          "Terrain",
+          "Effect: Foliage / sprite growth",
+          "Effect: World projection",
+          "Physics: Sand",
+          "Preview: Source texture",
+          "Export: Native binding",
+          "Usage: Projection",
+          "Usage: Animation",
+          "Evidence: Historical file check"
+        ],
+        "author": "Ubisoft Nadeo (source textures)",
+        "description": "Native binding established | Preview: Source texture | Position/normal-based layers may change with mesh orientation and position; UV edits do not control every layer. | Use the timeline or manual frame controls; race/game-state inputs are approximated in Blender."
+      }
     }
   ],
   "files": [
@@ -3673,10 +3696,10 @@
     },
     {
       "path": "materials/bundle-0019.blend",
-      "size_in_bytes": 9961926,
-      "hash": "SHA256:4c2eaa3ef5a16db4e98ec9c38bb09fb655c130aa48655a9d4d4c3b5bd045741c",
+      "size_in_bytes": 9591967,
+      "hash": "SHA256:4dad7e2d892786471565386e9c52f5d0bd0eb1e1752414e27ca2b0da058b3410",
       "blender_version": "5.3.31",
-      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0019.4c2eaa3ef5a16db4.blend"
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0019.4dad7e2d89278647.blend"
     },
     {
       "path": "materials/bundle-0020.blend",
