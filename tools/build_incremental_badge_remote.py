@@ -1,5 +1,5 @@
 """Rebuild only bundles containing reviewed badge changes; retain stable memberships."""
-import argparse,json,os,shutil,sys,hashlib,copy
+import argparse,json,os,shutil,sys,hashlib
 from pathlib import Path
 import bpy
 sys.path.insert(0,str(Path(__file__).resolve().parent))
@@ -56,23 +56,21 @@ for bundle in report['bundles']:
                         hashes[im.name]=hashlib.sha256(im.packed_file.data).hexdigest()
                     else:assert im.source=='GENERATED';hashes[im.name]=None
                 image_hashes[im.name]=hashes[im.name]
-        data=contract(m,image_hashes);sig=fingerprint(data)
+        data=contract(m,image_hashes)
+        # libraries.write intentionally drops append provenance. Contracts
+        # describe the saved bundle, rather than the master's append history.
+        weak=data['properties'].get('library_weak_reference')
+        if weak is not None:
+            weak_path=Path(weak['filepath'])
+            assert weak['id_name']=='MA'+m.name and weak_path.parent==source.parent and weak_path.name.startswith('Trackmania2020_') and weak_path.suffix=='.blend',('Unexpected append provenance',m.name,weak)
+            provenance_changes.append(dict(name=m.name,source=weak,saved=None))
+            data['properties']['library_weak_reference']=None
+        sig=fingerprint(data)
         # Bundled neighbours must retain exactly their published material contract.
         if m.name not in targets and sig!=row['fingerprint']:
-            # A locally appended datablock may acquire Blender's read-only
-            # append provenance. It cannot affect rendering/export identity.
-            comparable=copy.deepcopy(data)
-            weak=data['properties'].get('library_weak_reference')
-            old_weak=previous['properties'].get('library_weak_reference')
-            if weak!=old_weak:
-                weak_path=Path(weak['filepath'])
-                assert old_weak is None and weak['id_name']=='MA'+m.name and weak_path.parent==source.parent and weak_path.name.startswith('Trackmania2020_') and weak_path.suffix=='.blend',('Unexpected append provenance',m.name,weak)
-                comparable['properties']['library_weak_reference']=old_weak
-            if fingerprint(comparable)!=row['fingerprint']:
-                (out/'neighbour-actual.json').write_text(json.dumps(data,indent=2))
-                (out/'neighbour-expected.json').write_text((ref/row['contract_path']).read_text())
-                raise AssertionError(('Unexpected bundled neighbour change',m.name))
-            provenance_changes.append(dict(name=m.name,previous=old_weak,current=weak))
+            (out/'neighbour-actual.json').write_text(json.dumps(data,indent=2))
+            (out/'neighbour-expected.json').write_text((ref/row['contract_path']).read_text())
+            raise AssertionError(('Unexpected bundled neighbour change',m.name))
         (out/row['contract_path']).write_text(json.dumps(data));row['fingerprint']=sig;contracts[row['id']]=sig
     pending=dest.with_suffix('.pending.blend');bpy.data.libraries.write(str(pending),{bpy.data.materials[r['name']] for r in members},path_remap='NONE',fake_user=True,compress=True);pending.replace(dest)
     digest=sha(dest);size=dest.stat().st_size;bundle.update(sha256=digest,bytes=size,fingerprint=fingerprint(contracts))
