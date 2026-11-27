@@ -74,4 +74,3 @@ Game assets remain the property of their respective owners. This is an independe
 For rebuilding and publishing the project, see [Maintaining](docs/MAINTAINING.md). The original installer and build tooling are covered by [LICENSE-CODE](LICENSE-CODE); this licence does not apply to game assets.
 
 > Update in preparation: revision `2026.11.27-missing-material-quarantine-1` removes five missing-target screens from Materials Only and the remote library, retaining their previews in Complete. Public packages will be promoted after verification.
-
