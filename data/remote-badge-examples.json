@@ -27,7 +27,7 @@
     "badge": "animation",
     "name": "TM_TurboRoulette_Sign_asset",
     "title": "Animation",
-    "description": "Animated UVs, an image atlas or a time-driven material. Saved thumbnails are static."
+    "description": "Animated UVs, an image atlas or a time-driven material. In Blender, press Spacebar (default) to start or stop timeline playback. Saved thumbnails are static."
   },
   {
     "badge": "invisible_collision",

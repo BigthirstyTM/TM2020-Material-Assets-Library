@@ -135,3 +135,12 @@ Existing extension users can use **Refresh Remote Listing** to discover the
 and background in the scene. In Material Preview viewport shading, enable **Scene World**
 to see the assigned environment. Refreshing the listing does not replace
 a World already assigned to an open scene.
+
+## Website badge examples
+
+The installation page shows seven compact badge examples on one row on wide
+screens, wrapping to four or two columns on smaller screens. Water and
+TurboRoulette Sign use looping WebP previews rendered from their actual Blender
+timeline shaders. Visitors who prefer reduced motion see the original static
+thumbnail. Blender Asset Browser thumbnails remain static. In Blender, press
+**Spacebar** (default) to start or stop timeline playback for animated materials.
