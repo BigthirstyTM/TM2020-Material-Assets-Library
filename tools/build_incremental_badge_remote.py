@@ -65,7 +65,8 @@ for bundle in report['bundles']:
             weak=data['properties'].get('library_weak_reference')
             old_weak=previous['properties'].get('library_weak_reference')
             if weak!=old_weak:
-                assert old_weak is None and weak['id_name']=='MA'+m.name and Path(weak['filepath']).is_file(),('Unexpected append provenance',m.name,weak)
+                weak_path=Path(weak['filepath'])
+                assert old_weak is None and weak['id_name']=='MA'+m.name and weak_path.parent==source.parent and weak_path.name.startswith('Trackmania2020_') and weak_path.suffix=='.blend',('Unexpected append provenance',m.name,weak)
                 comparable['properties']['library_weak_reference']=old_weak
             if fingerprint(comparable)!=row['fingerprint']:
                 (out/'neighbour-actual.json').write_text(json.dumps(data,indent=2))
