@@ -32,6 +32,17 @@ for bundle in report['bundles']:
     for row in members:
         m=bpy.data.materials[row['name']];assert m['tm_asset_id']==row['id']
         if m.name in targets:assert m['tm_game_colorpicker'] and 'color_picker' in json.loads(m['tm_asset_effect_badges'])
+        # Blender has remapped this informational source path during a master
+        # save. Preserve published spelling only when both resolve identically.
+        if m.name not in targets:
+            previous=json.loads((ref/row['contract_path']).read_text())
+            old_path=previous['properties']['custom_properties'].get('tm_asset_preview_source')
+            current=m.get('tm_asset_preview_source')
+            if old_path and current and old_path!=current:
+                def resolved(value):
+                    return ((source.parent/value[2:]) if value.startswith('//') else Path(value)).resolve()
+                assert resolved(old_path)==resolved(current) and resolved(current).is_file(),('Preview source changed',m.name)
+                m['tm_asset_preview_source']=old_path
         image_hashes={}
         for tree in trees(m.node_tree):
             for node in tree.nodes:
@@ -46,7 +57,10 @@ for bundle in report['bundles']:
                 image_hashes[im.name]=hashes[im.name]
         data=contract(m,image_hashes);sig=fingerprint(data)
         # Bundled neighbours must retain exactly their published material contract.
-        if m.name not in targets:assert sig==row['fingerprint'],('Unexpected bundled neighbour change',m.name)
+        if m.name not in targets and sig!=row['fingerprint']:
+            (out/'neighbour-actual.json').write_text(json.dumps(data,indent=2))
+            (out/'neighbour-expected.json').write_text((ref/row['contract_path']).read_text())
+            raise AssertionError(('Unexpected bundled neighbour change',m.name))
         (out/row['contract_path']).write_text(json.dumps(data));row['fingerprint']=sig;contracts[row['id']]=sig
     pending=dest.with_suffix('.pending.blend');bpy.data.libraries.write(str(pending),{bpy.data.materials[r['name']] for r in members},path_remap='NONE',fake_user=True,compress=True);pending.replace(dest)
     digest=sha(dest);size=dest.stat().st_size;bundle.update(sha256=digest,bytes=size,fingerprint=fingerprint(contracts))
