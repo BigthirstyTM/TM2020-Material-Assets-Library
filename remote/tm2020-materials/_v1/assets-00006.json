@@ -1,6 +1,6 @@
 {
-  "asset_count": 72,
-  "file_count": 26,
+  "asset_count": 125,
+  "file_count": 30,
   "assets": [
     {
       "name": "TM_Experimental_Clouds_CloudsTech3_asset",
@@ -2200,6 +2200,1225 @@
         ],
         "description": "Native WhiteShore Sunset HDR reflection environment. Unit radiance scale; no invented sun/fog or color grade. Not a full game mood port."
       }
+    },
+    {
+      "name": "TM_BlueBay_DecalPaint2Sponsor4x1D_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0119.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-e601d594453f2d29345da07e.3f733f8ac6726faa.webp",
+        "hash": "SHA256:3f733f8ac6726faa071743db7dc6cc141873d5d3e5fbfbed06eb153b3162cb79"
+      },
+      "meta": {
+        "catalog_id": "61f7672d-ab21-5ff7-b990-a184f1b1f041",
+        "tags": [
+          "BlueBay",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
+      }
+    },
+    {
+      "name": "TM_BlueBay_DecalPaint2Sponsor4x1NoColorizeD_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0119.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-a6c335f3c4649877d5242c5e.3f733f8ac6726faa.webp",
+        "hash": "SHA256:3f733f8ac6726faa071743db7dc6cc141873d5d3e5fbfbed06eb153b3162cb79"
+      },
+      "meta": {
+        "catalog_id": "61f7672d-ab21-5ff7-b990-a184f1b1f041",
+        "tags": [
+          "BlueBay",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1NoColorizeD.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
+      }
+    },
+    {
+      "name": "TM_BlueBay_DecalPaintSponsor4x1D_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0119.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-529bf115b6d666f74c0ec048.7578e61eed5dbeed.webp",
+        "hash": "SHA256:7578e61eed5dbeed104993d0d287683e6aa4432e521a1e9e231da066174b75ea"
+      },
+      "meta": {
+        "catalog_id": "61f7672d-ab21-5ff7-b990-a184f1b1f041",
+        "tags": [
+          "BlueBay",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
+      }
+    },
+    {
+      "name": "TM_BlueBay_DecalPaintSponsor4x1NoColorizeD_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0119.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-baf08dd121ab2735092aeac5.7578e61eed5dbeed.webp",
+        "hash": "SHA256:7578e61eed5dbeed104993d0d287683e6aa4432e521a1e9e231da066174b75ea"
+      },
+      "meta": {
+        "catalog_id": "61f7672d-ab21-5ff7-b990-a184f1b1f041",
+        "tags": [
+          "BlueBay",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: BlueBay/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1NoColorizeD.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
+      }
+    },
+    {
+      "name": "TM_BlueBay_TrackBordersOffInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0119.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-fb6c90d52ac6498490fcea83.6607a2f4ba331372.webp",
+        "hash": "SHA256:6607a2f4ba331372a46e776c1bcf2d7792ad2a04e4f86312e63abd64ec28244c"
+      },
+      "meta": {
+        "catalog_id": "61f7672d-ab21-5ff7-b990-a184f1b1f041",
+        "tags": [
+          "BlueBay",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: BlueBay/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
+      }
+    },
+    {
+      "name": "TM_BlueBay_TransitionRocksToCliffPxz_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0119.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-143e1b9fcd2a787a03da3443.b4350eb5fc1467aa.webp",
+        "hash": "SHA256:b4350eb5fc1467aa5ddd1b12f7c130bc224052189d6b088a599e9144eafae4e5"
+      },
+      "meta": {
+        "catalog_id": "61f7672d-ab21-5ff7-b990-a184f1b1f041",
+        "tags": [
+          "BlueBay",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: BlueBay/Media/Material/TransitionRocksToCliffPxz.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
+      }
+    },
+    {
+      "name": "TM_BlueBay_TransitionRocksToRocksTop_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0119.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-1fc435c9aea1488d93cec0a1.6dd09773e0b5f097.webp",
+        "hash": "SHA256:6dd09773e0b5f097870e938dd2d69db20457a39096a6991b8313893cfbacb7ff"
+      },
+      "meta": {
+        "catalog_id": "61f7672d-ab21-5ff7-b990-a184f1b1f041",
+        "tags": [
+          "BlueBay",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: BlueBay/Media/Material/TransitionRocksToRocksTop.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
+      }
+    },
+    {
+      "name": "TM_BlueBay_TransitionRocksToSand_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0119.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-c45534758832a24eb5c13f81.0b9ad835e1410e8e.webp",
+        "hash": "SHA256:0b9ad835e1410e8eac4e4090027df2ed8cdbbd961c85c6040f674d7c4fedabfd"
+      },
+      "meta": {
+        "catalog_id": "61f7672d-ab21-5ff7-b990-a184f1b1f041",
+        "tags": [
+          "BlueBay",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: BlueBay/Media/Material/TransitionRocksToSand.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
+      }
+    },
+    {
+      "name": "TM_BlueBay_TransitionRocksToSeaFloor_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0119.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-e7ec2fcf3df64e35e3e610d8.c1f1f9a0ff603cc8.webp",
+        "hash": "SHA256:c1f1f9a0ff603cc8f42fe925553a56de83e6a9e95df3c2dfae613da903d7beca"
+      },
+      "meta": {
+        "catalog_id": "61f7672d-ab21-5ff7-b990-a184f1b1f041",
+        "tags": [
+          "BlueBay",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: BlueBay/Media/Material/TransitionRocksToSeaFloor.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
+      }
+    },
+    {
+      "name": "TM_BlueBay_TransitionToCliffPxz_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0119.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-ecbb5488132af117c48186f0.24ab18befa9cdf5a.webp",
+        "hash": "SHA256:24ab18befa9cdf5aa9dfbc621e3da274f3fa4aff28c628b427e58e0b9ad1a989"
+      },
+      "meta": {
+        "catalog_id": "61f7672d-ab21-5ff7-b990-a184f1b1f041",
+        "tags": [
+          "BlueBay",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: BlueBay/Media/Material/TransitionToCliffPxz.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
+      }
+    },
+    {
+      "name": "TM_BlueBay_TransitionToSand_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0119.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-571f05aff81524e14e97c6c0.cdad5983be7c85b3.webp",
+        "hash": "SHA256:cdad5983be7c85b3aed1f5ccb399a8c26fcacb76c0cc83180af5a5c945065b18"
+      },
+      "meta": {
+        "catalog_id": "61f7672d-ab21-5ff7-b990-a184f1b1f041",
+        "tags": [
+          "BlueBay",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: BlueBay/Media/Material/TransitionToSand.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
+      }
+    },
+    {
+      "name": "TM_BlueBay_TransitionToSeaFloor_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0119.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-83b512d8dd83496afb1af63b.b1298d2cda9eefe5.webp",
+        "hash": "SHA256:b1298d2cda9eefe5d07ced6e86dcfad6170ce47f2469ed1a555e123a9f1da4ed"
+      },
+      "meta": {
+        "catalog_id": "61f7672d-ab21-5ff7-b990-a184f1b1f041",
+        "tags": [
+          "BlueBay",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: BlueBay/Media/Material/TransitionToSeaFloor.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_CliffTransition2ToCliff3_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0120.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-34871bc26303a75246d91a25.0c9439c80efd3704.webp",
+        "hash": "SHA256:0c9439c80efd3704f9cb670419465543faa3f750c9a95e540db7d9793f6c6cb2"
+      },
+      "meta": {
+        "catalog_id": "699c720a-864f-5a09-8962-2260f877a770",
+        "tags": [
+          "GreenCoast",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Material/CliffTransition2ToCliff3.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_CliffTransitionToCliff2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0120.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-f8f20b5f539364fbe8cd83ac.062c6b878730dd27.webp",
+        "hash": "SHA256:062c6b878730dd279307d1faa60109f0bbd5bd358410c571452461f12153bb70"
+      },
+      "meta": {
+        "catalog_id": "699c720a-864f-5a09-8962-2260f877a770",
+        "tags": [
+          "GreenCoast",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Material/CliffTransitionToCliff2.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_DecalPaint2Sponsor4x1D_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0120.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-d8e8e292ff8677c349de3603.3f733f8ac6726faa.webp",
+        "hash": "SHA256:3f733f8ac6726faa071743db7dc6cc141873d5d3e5fbfbed06eb153b3162cb79"
+      },
+      "meta": {
+        "catalog_id": "699c720a-864f-5a09-8962-2260f877a770",
+        "tags": [
+          "GreenCoast",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_DecalPaint2Sponsor4x1NoColorizeD_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0120.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-111f3fa806b0f147cc1024b0.3f733f8ac6726faa.webp",
+        "hash": "SHA256:3f733f8ac6726faa071743db7dc6cc141873d5d3e5fbfbed06eb153b3162cb79"
+      },
+      "meta": {
+        "catalog_id": "699c720a-864f-5a09-8962-2260f877a770",
+        "tags": [
+          "GreenCoast",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1NoColorizeD.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_DecalPaintSponsor4x1D_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0120.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-20d91f08aeb562ce5161715e.7578e61eed5dbeed.webp",
+        "hash": "SHA256:7578e61eed5dbeed104993d0d287683e6aa4432e521a1e9e231da066174b75ea"
+      },
+      "meta": {
+        "catalog_id": "699c720a-864f-5a09-8962-2260f877a770",
+        "tags": [
+          "GreenCoast",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_DecalPaintSponsor4x1NoColorizeD_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0120.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-b2e8a8e1dedcb41df8797634.7578e61eed5dbeed.webp",
+        "hash": "SHA256:7578e61eed5dbeed104993d0d287683e6aa4432e521a1e9e231da066174b75ea"
+      },
+      "meta": {
+        "catalog_id": "699c720a-864f-5a09-8962-2260f877a770",
+        "tags": [
+          "GreenCoast",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1NoColorizeD.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_LakeShoreToLake_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0120.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-cfebac2c992acb7dc3b53d18.4ef32e531a33402e.webp",
+        "hash": "SHA256:4ef32e531a33402e37c3a63fcaf0605c82d74e27f59397a21394d309126bd2be"
+      },
+      "meta": {
+        "catalog_id": "699c720a-864f-5a09-8962-2260f877a770",
+        "tags": [
+          "GreenCoast",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Material/LakeShoreToLake.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_StructureInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0120.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-31dffd742a8276d12285cd7e.34e8ac65d655c7af.webp",
+        "hash": "SHA256:34e8ac65d655c7af8ab065dcfd1c1f94f947ce9b71cdb088d0b39f7dcfe71a25"
+      },
+      "meta": {
+        "catalog_id": "699c720a-864f-5a09-8962-2260f877a770",
+        "tags": [
+          "GreenCoast",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_TrackBordersInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0120.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-e301b5140079b000c6044a9b.6607a2f4ba331372.webp",
+        "hash": "SHA256:6607a2f4ba331372a46e776c1bcf2d7792ad2a04e4f86312e63abd64ec28244c"
+      },
+      "meta": {
+        "catalog_id": "699c720a-864f-5a09-8962-2260f877a770",
+        "tags": [
+          "GreenCoast",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_TrackBordersOffInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0120.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-a4f4b1c1ebef8ae8f5461ce0.6607a2f4ba331372.webp",
+        "hash": "SHA256:6607a2f4ba331372a46e776c1bcf2d7792ad2a04e4f86312e63abd64ec28244c"
+      },
+      "meta": {
+        "catalog_id": "699c720a-864f-5a09-8962-2260f877a770",
+        "tags": [
+          "GreenCoast",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_TrackWallClipsInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0120.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-8aa139015ce62ee4cfa84d11.ae882a623d4c1e3a.webp",
+        "hash": "SHA256:ae882a623d4c1e3a8961af6e96477da1a2273d0e73650921043734e44a091707"
+      },
+      "meta": {
+        "catalog_id": "699c720a-864f-5a09-8962-2260f877a770",
+        "tags": [
+          "GreenCoast",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_TransitionForestToTrunkA_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0120.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-4efff2f795dcaa22711749ae.46878bbad8231c38.webp",
+        "hash": "SHA256:46878bbad8231c38fb9dcebc10522d8d5240ba67ba4d5426b6e53e5f722ea60e"
+      },
+      "meta": {
+        "catalog_id": "699c720a-864f-5a09-8962-2260f877a770",
+        "tags": [
+          "GreenCoast",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Material/TransitionForestToTrunkA.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Side-projection shader: neutral top preview reuses its own side texture; native top/slope behavior still requires the vista mesh."
+      }
+    },
+    {
+      "name": "TM_GreenCoast_WarpGround_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0120.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-b934e5c56100369cbebbac3d.ebd87f63b69d03c1.webp",
+        "hash": "SHA256:ebd87f63b69d03c189a2fa9d7d5250f86c8a8f48b2eab513fc3c5b505c9d53d1"
+      },
+      "meta": {
+        "catalog_id": "699c720a-864f-5a09-8962-2260f877a770",
+        "tags": [
+          "GreenCoast",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: GreenCoast/Media/Material/WarpGround.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Warp ground: static source diffuse projection with recorded PxzScaleTrans. Native horizon/view warping and tangent normals remain unimplemented; this is not a working Warp replacement."
+      }
+    },
+    {
+      "name": "TM_RedIsland_Cliff2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0121.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-fbd9755c7029fc6538beb0cc.1d1a0548c51b55ee.webp",
+        "hash": "SHA256:1d1a0548c51b55eec66876f5c0d7ae1327d7af0862d892b99f6ba0a9076cbf2f"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "RedIsland",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Material/Cliff2.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      }
+    },
+    {
+      "name": "TM_RedIsland_Cliff4_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0121.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-81e32d847198f7f87af5c66e.6760040e11aece18.webp",
+        "hash": "SHA256:6760040e11aece1836e30a6ba9725474a2ab40a2910bafebcc0217a7466a8f9c"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "RedIsland",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Material/Cliff4.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      }
+    },
+    {
+      "name": "TM_RedIsland_Cliff_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0121.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-615f2fe61c38e6bfcd0222e3.0cd57dd5c675832c.webp",
+        "hash": "SHA256:0cd57dd5c675832c9fc1774e1ff1adb50ed713eec9cab9a9f393a3bf605ae3c4"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "RedIsland",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Material/Cliff.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      }
+    },
+    {
+      "name": "TM_RedIsland_CliffEnds_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0121.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-35b867e53324045adc0e3d51.af83f05192e721db.webp",
+        "hash": "SHA256:af83f05192e721dbed0d0e71b019516bc27cc6987ba630392d9094c362dcca64"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "RedIsland",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Material/CliffEnds.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      }
+    },
+    {
+      "name": "TM_RedIsland_DecalPaint2Sponsor4x1D_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0121.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-83a500d40a97f0e850a7910e.3f733f8ac6726faa.webp",
+        "hash": "SHA256:3f733f8ac6726faa071743db7dc6cc141873d5d3e5fbfbed06eb153b3162cb79"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "RedIsland",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
+      }
+    },
+    {
+      "name": "TM_RedIsland_DecalPaint2Sponsor4x1NoColorizeD_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0121.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-f1908396c24eea6fd5368bfe.3f733f8ac6726faa.webp",
+        "hash": "SHA256:3f733f8ac6726faa071743db7dc6cc141873d5d3e5fbfbed06eb153b3162cb79"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "RedIsland",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1NoColorizeD.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
+      }
+    },
+    {
+      "name": "TM_RedIsland_DecalPaintSponsor4x1D_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0121.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-f15e7b09783eea03fddad97b.7578e61eed5dbeed.webp",
+        "hash": "SHA256:7578e61eed5dbeed104993d0d287683e6aa4432e521a1e9e231da066174b75ea"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "RedIsland",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
+      }
+    },
+    {
+      "name": "TM_RedIsland_DecalPaintSponsor4x1NoColorizeD_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0121.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-31f9484a0296ed86a2e33db8.7578e61eed5dbeed.webp",
+        "hash": "SHA256:7578e61eed5dbeed104993d0d287683e6aa4432e521a1e9e231da066174b75ea"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "RedIsland",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1NoColorizeD.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
+      }
+    },
+    {
+      "name": "TM_RedIsland_DetailsRocksToCliff2_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0121.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-89a47257852869826315ce4c.5247cf5e3da3e21b.webp",
+        "hash": "SHA256:5247cf5e3da3e21bfae19cc2aecf557b8730a1de5f9150d37b51ed76c109d801"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "RedIsland",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Material/DetailsRocksToCliff2.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
+      }
+    },
+    {
+      "name": "TM_RedIsland_RiverSideToLakeBottom_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0121.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-163a920673af43976ae1e2a3.61ee7e4fba633aa9.webp",
+        "hash": "SHA256:61ee7e4fba633aa90ac786d201f40f7a358a9effbb520b4ef50d797752ce7c1d"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "RedIsland",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Material/RiverSideToLakeBottom.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
+      }
+    },
+    {
+      "name": "TM_RedIsland_StructureInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0121.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-87a90623cd0e2e5efc2e52d1.34e8ac65d655c7af.webp",
+        "hash": "SHA256:34e8ac65d655c7af8ab065dcfd1c1f94f947ce9b71cdb088d0b39f7dcfe71a25"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "RedIsland",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      }
+    },
+    {
+      "name": "TM_RedIsland_TrackBordersInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0121.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-4bc119ae249d8bbe40ed5361.6607a2f4ba331372.webp",
+        "hash": "SHA256:6607a2f4ba331372a46e776c1bcf2d7792ad2a04e4f86312e63abd64ec28244c"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "RedIsland",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
+      }
+    },
+    {
+      "name": "TM_RedIsland_TrackBordersOffInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0121.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-74ce475dd3a34b88f279a928.6607a2f4ba331372.webp",
+        "hash": "SHA256:6607a2f4ba331372a46e776c1bcf2d7792ad2a04e4f86312e63abd64ec28244c"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "RedIsland",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
+      }
+    },
+    {
+      "name": "TM_RedIsland_TrackWallClipsInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0121.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-dcf4ff08ab752b253343fb05.ae882a623d4c1e3a.webp",
+        "hash": "SHA256:ae882a623d4c1e3a8961af6e96477da1a2273d0e73650921043734e44a091707"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "RedIsland",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      }
+    },
+    {
+      "name": "TM_RedIsland_TrackWallInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0121.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5dd5a3310d9ad3b281ea2c68.10bcf07acb528b55.webp",
+        "hash": "SHA256:10bcf07acb528b550e1a8089a463d5cd43c60c1bd88359be793f346fcda9d308"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "RedIsland",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Modifier/StadiumOnTerrain/TrackWallInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      }
+    },
+    {
+      "name": "TM_RedIsland_WarpGround_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0121.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-2d27d8ca82795e88cb634570.0571a899d0125bd8.webp",
+        "hash": "SHA256:0571a899d0125bd8424645669d45b5f4dda4d1b7d1890bb1ba79dd65f2cb41e2"
+      },
+      "meta": {
+        "catalog_id": "7555c4c5-2588-59c9-9b88-9d2a12fd6485",
+        "tags": [
+          "RedIsland",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: RedIsland/Media/Material/WarpGround.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Warp ground: static source diffuse projection with recorded PxzScaleTrans. Native horizon/view warping and tangent normals remain unimplemented; this is not a working Warp replacement."
+      }
+    },
+    {
+      "name": "TM_WhiteShore_DecalPaint2Sponsor4x1D_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0122.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-46551617907b29e04cea8873.3f733f8ac6726faa.webp",
+        "hash": "SHA256:3f733f8ac6726faa071743db7dc6cc141873d5d3e5fbfbed06eb153b3162cb79"
+      },
+      "meta": {
+        "catalog_id": "cdc8319b-cc1b-52bd-8aaa-d2ebb8163132",
+        "tags": [
+          "WhiteShore",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1D.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
+      }
+    },
+    {
+      "name": "TM_WhiteShore_DecalPaint2Sponsor4x1NoColorizeD_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0122.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-fdb4933e1a7f076adcdc8a5f.3f733f8ac6726faa.webp",
+        "hash": "SHA256:3f733f8ac6726faa071743db7dc6cc141873d5d3e5fbfbed06eb153b3162cb79"
+      },
+      "meta": {
+        "catalog_id": "cdc8319b-cc1b-52bd-8aaa-d2ebb8163132",
+        "tags": [
+          "WhiteShore",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaint2Sponsor4x1NoColorizeD.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
+      }
+    },
+    {
+      "name": "TM_WhiteShore_DecalPaintSponsor4x1D_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0122.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-64aea0028dc164311d8a5577.7578e61eed5dbeed.webp",
+        "hash": "SHA256:7578e61eed5dbeed104993d0d287683e6aa4432e521a1e9e231da066174b75ea"
+      },
+      "meta": {
+        "catalog_id": "cdc8319b-cc1b-52bd-8aaa-d2ebb8163132",
+        "tags": [
+          "WhiteShore",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1D.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
+      }
+    },
+    {
+      "name": "TM_WhiteShore_DecalPaintSponsor4x1NoColorizeD_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0122.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-1defd6cdc3e43abb3abc225c.7578e61eed5dbeed.webp",
+        "hash": "SHA256:7578e61eed5dbeed104993d0d287683e6aa4432e521a1e9e231da066174b75ea"
+      },
+      "meta": {
+        "catalog_id": "cdc8319b-cc1b-52bd-8aaa-d2ebb8163132",
+        "tags": [
+          "WhiteShore",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: WhiteShore/Media/Modifier/StadiumOnTerrain/DecalPaintSponsor4x1NoColorizeD.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Projected decal masked by its own TOpacity alpha; native decal depth/offset is not reproduced."
+      }
+    },
+    {
+      "name": "TM_WhiteShore_StructureInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0122.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-91b4e28e128acfad819f3a7b.34e8ac65d655c7af.webp",
+        "hash": "SHA256:34e8ac65d655c7af8ab065dcfd1c1f94f947ce9b71cdb088d0b39f7dcfe71a25"
+      },
+      "meta": {
+        "catalog_id": "cdc8319b-cc1b-52bd-8aaa-d2ebb8163132",
+        "tags": [
+          "WhiteShore",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: WhiteShore/Media/Modifier/StadiumOnTerrain/StructureInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      }
+    },
+    {
+      "name": "TM_WhiteShore_TrackBordersInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0122.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-7377fccaf14e380bf3e32593.6607a2f4ba331372.webp",
+        "hash": "SHA256:6607a2f4ba331372a46e776c1bcf2d7792ad2a04e4f86312e63abd64ec28244c"
+      },
+      "meta": {
+        "catalog_id": "cdc8319b-cc1b-52bd-8aaa-d2ebb8163132",
+        "tags": [
+          "WhiteShore",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: WhiteShore/Media/Modifier/StadiumOnTerrain/TrackBordersInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
+      }
+    },
+    {
+      "name": "TM_WhiteShore_TrackBordersOffInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0122.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-b488f3aae2b47b76dc662b41.6607a2f4ba331372.webp",
+        "hash": "SHA256:6607a2f4ba331372a46e776c1bcf2d7792ad2a04e4f86312e63abd64ec28244c"
+      },
+      "meta": {
+        "catalog_id": "cdc8319b-cc1b-52bd-8aaa-d2ebb8163132",
+        "tags": [
+          "WhiteShore",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: WhiteShore/Media/Modifier/StadiumOnTerrain/TrackBordersOffInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. CubeOut/DispIn: source surface, Hue and SI depth branch. Native foreground/secondary interior activation and view-dependent cubemap behavior are not fully reconstructed."
+      }
+    },
+    {
+      "name": "TM_WhiteShore_TrackWallClipsInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0122.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-9a71e30a48004a8a75574280.ae882a623d4c1e3a.webp",
+        "hash": "SHA256:ae882a623d4c1e3a8961af6e96477da1a2273d0e73650921043734e44a091707"
+      },
+      "meta": {
+        "catalog_id": "cdc8319b-cc1b-52bd-8aaa-d2ebb8163132",
+        "tags": [
+          "WhiteShore",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: WhiteShore/Media/Modifier/StadiumOnTerrain/TrackWallClipsInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      }
+    },
+    {
+      "name": "TM_WhiteShore_TrackWallInWorld_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0122.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-00d021ae4b24b03874606685.10bcf07acb528b55.webp",
+        "hash": "SHA256:10bcf07acb528b550e1a8089a463d5cd43c60c1bd88359be793f346fcda9d308"
+      },
+      "meta": {
+        "catalog_id": "cdc8319b-cc1b-52bd-8aaa-d2ebb8163132",
+        "tags": [
+          "WhiteShore",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: WhiteShore/Media/Modifier/StadiumOnTerrain/TrackWallInWorld.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters."
+      }
+    },
+    {
+      "name": "TM_WhiteShore_WarpGround_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0122.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-c524ecceafb20febff56ae5a.09673dbca708b195.webp",
+        "hash": "SHA256:09673dbca708b195948528779887d32d952b4193515eb5da6dc06b5c5016e6d7"
+      },
+      "meta": {
+        "catalog_id": "cdc8319b-cc1b-52bd-8aaa-d2ebb8163132",
+        "tags": [
+          "WhiteShore",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: WhiteShore/Media/Material/WarpGround.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. Warp ground: static source diffuse projection with recorded PxzScaleTrans. Native horizon/view warping and tangent normals remain unimplemented; this is not a working Warp replacement."
+      }
+    },
+    {
+      "name": "TM_WhiteShore_WaterShoreRockyToWaterBottom_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0122.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-1653573528a9395ce699514b.1e3faf69d71bfb0f.webp",
+        "hash": "SHA256:1e3faf69d71bfb0fb9f19c8af73b4b4df82b2caf276b889c26a0dc279c3abd26"
+      },
+      "meta": {
+        "catalog_id": "cdc8319b-cc1b-52bd-8aaa-d2ebb8163132",
+        "tags": [
+          "WhiteShore",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: WhiteShore/Media/Material/WaterShoreRockyToWaterBottom.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
+      }
+    },
+    {
+      "name": "TM_WhiteShore_WaterShoreToWaterBottom_asset",
+      "id_type": "MATERIAL",
+      "files": [
+        "materials/bundle-0122.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "thumbnails/mat-5b2ead6ea0318328a7f20923.836077c30512fa8f.webp",
+        "hash": "SHA256:836077c30512fa8f8cf5c25fd02ff344e2a040868e263e51995499e3b11606d2"
+      },
+      "meta": {
+        "catalog_id": "cdc8319b-cc1b-52bd-8aaa-d2ebb8163132",
+        "tags": [
+          "WhiteShore",
+          "Evidence: decoded shader",
+          "Game checked: vista fixture"
+        ],
+        "description": "Native-linked vista material. Tested source + embedded item; visually confirmed by user. Source: WhiteShore/Media/Material/WaterShoreToWaterBottom.Material.Gbx. Native source and linked test item loaded in Trackmania; user visually confirmed the 53-material fixture. Blender lighting and projection remain preview adapters. UV transition uses source texture alpha multiplied by Color vertex alpha. Missing Color attributes use Blender defaults."
+      }
     }
   ],
   "files": [
@@ -2384,6 +3603,34 @@
       "hash": "SHA256:46f9166c0d8f66bb34a3829610dcf4f2f058ec4c43a9a5aa183a1fb03acf69e7",
       "blender_version": "5.3.31",
       "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0118.46f9166c0d8f66bb.blend"
+    },
+    {
+      "path": "materials/bundle-0119.blend",
+      "size_in_bytes": 206682040,
+      "hash": "SHA256:3a5022c85b2b66a6da3d0107623e41da895bd85e4db256cf93cbb8cd0a6e4167",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0119.3a5022c85b2b66a6.blend"
+    },
+    {
+      "path": "materials/bundle-0120.blend",
+      "size_in_bytes": 213439027,
+      "hash": "SHA256:015fd71977240b5e665ae2b158fb35eb5c14b60940e5735d534d7e8b2d3989a0",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0120.015fd71977240b5e.blend"
+    },
+    {
+      "path": "materials/bundle-0121.blend",
+      "size_in_bytes": 321022593,
+      "hash": "SHA256:4afc6daf5f79ae77c1880b6033dc217735746510815935fe4129f09790f279f5",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0121.4afc6daf5f79ae77.blend"
+    },
+    {
+      "path": "materials/bundle-0122.blend",
+      "size_in_bytes": 143664090,
+      "hash": "SHA256:b39108b527a726446a4a07f29698b1800c5d3fa4c8c4eb1d186900c5b88b8b7f",
+      "blender_version": "5.3.31",
+      "url": "https://github.com/BigthirstyTM/TM2020-Material-Assets-Library/releases/download/materials-library-extension-v1.0.0/bundle-0122.b39108b527a72644.blend"
     }
   ]
 }
