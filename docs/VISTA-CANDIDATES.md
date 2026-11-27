@@ -1,6 +1,6 @@
 # Vista materials: 53 native-linked additions
 
-Local follow-up: sixteen vista sponsor decals now use the native red-channel logo mask instead of the legacy Stadium mask in bitmap alpha. Their Blender materials and icons are corrected in published remote extension 1.0.5; the offline ZIP update is being prepared. See [logo mask correction](VISTA-LOGO-MASKS.md).
+Local follow-up: sixteen vista sponsor decals now use the native red-channel logo mask instead of the legacy Stadium mask in bitmap alpha. Their Blender materials and icons are corrected in published remote extension 1.0.5; both offline editions now include this correction and the colorpicker badges. See [logo mask correction](VISTA-LOGO-MASKS.md).
 
 Revision `2026.11.27-vista-native-1` promotes **53 source-backed vista materials** into Materials Only and their existing environment catalogs. Complete now contains **1,172 materials**, including **299 Preview only**; Materials Only contains **873 materials**. All 20 HDRI Worlds are preserved. The remote update is published as extension **1.0.4** and independently verified. Both offline editions are also published as `2026.11.27-vista-catalogs-1`, including the corrected environment catalogs. Their isolated installers passed, all twelve public file digests match the local packages, and both public revision manifests were independently checked.
 
