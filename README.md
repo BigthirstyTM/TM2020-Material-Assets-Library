@@ -18,7 +18,7 @@ Remote extension **1.0.5** now publishes **2026.11.27-vista-logo-masks-1** with 
 
 ## Clearer red colorpicker badge
 
-The red brush redesign is prepared locally; publication is pending. The 86 colorpicker materials now use a red badge with a larger, recognisable paintbrush, distinct from the purple parallax marker. Shader graphs and the material selection are unchanged.
+Remote extension **1.0.7** now publishes the red paintbrush redesign after independent verification. Both offline editions are being updated. The 86 colorpicker materials now use a red badge with a larger, recognisable paintbrush, distinct from the purple parallax marker. Shader graphs and the material selection are unchanged.
 
 ## Ingame colorpicker badges
 

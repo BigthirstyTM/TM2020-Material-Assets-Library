@@ -8,7 +8,7 @@ Evidence: all985 decoded native materials and all1172 library entries were check
 
 ## Publication status
 
-The red brush redesign is prepared locally; publication is pending.
+Remote extension **1.0.7** now publishes the red paintbrush redesign after independent verification. Both offline editions are being updated.
 
 Remote extension **1.0.6** is published and independently verified with all 86 brush badges. Both offline editions now publish revision `2026.11.27-colorpicker-badges-1` with the same86 badges after isolated installer and independent public-file verification.
 

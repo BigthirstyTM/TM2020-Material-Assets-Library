@@ -27,7 +27,7 @@ is small; the material files are hosted separately and downloaded when used.
 This is our GitHub-hosted extension repository. Adding it makes the extension
 available through Get Extensions; it is not a listing on Blender's official directory.
 
-For manual installation, download `trackmania_2020_materials_library-1.0.6.zip`
+For manual installation, download `trackmania_2020_materials_library-1.0.7.zip`
 and use Preferences Ã¢â€ â€™ Get Extensions Ã¢â€ â€™ Install from Disk. You can also add the
 repository URL above through Get Extensions and install the library from its list.
 
@@ -68,7 +68,7 @@ Refreshing or downloading a library asset does not replace a material already
 appended into an open project. Replace or append the newer material when wanted.
 
 To download everything, clear search and catalog filters, select all assets and
-choose **Download Assets**. The compact collection totals **4,235,505,173 bytes (4.24 GB)** in **102
+choose **Download Assets**. The compact collection totals **4,238,434,233 bytes (4.24 GB)** in **102
 shared-texture material bundles and 20 HDRI World files**, compared with 2.96 GB for the two offline Materials Only ZIPs.
 Some texture-heavy bundles are larger than others (up to about 636 MB). The rejected per-material
 layout required 10.37 GB because textures were repeated across many separate files.
@@ -161,3 +161,7 @@ Published content revision `2026.11.27-vista-logo-masks-1` corrects sixteen vist
 ## Ingame colorpicker badges: extension 1.0.6
 
 Published revision `2026.11.27-colorpicker-badges-1` adds brush badges to86 materials with explicit native color-table bindings. All124 current public files,893 catalog assignments, isolated native installation, sampled material appends and World appends passed independent verification. Existing shader graphs and native export links are preserved. Refresh Remote Listing, then Download Assets to replace changed cached bundles. Existing scene materials are not rewritten. Both offline editions now publish the same colorpicker revision after isolated installer and independent public-file verification. See [full material list and evidence](COLORPICKER-MATERIALS.md).
+
+## Clearer red paintbrush: extension 1.0.7
+
+Remote extension **1.0.7** now publishes the red paintbrush redesign after independent verification. Both offline editions are being updated. The same86 native colorpicker materials now use a red background and a larger brush, distinct from the purple parallax marker. Shader graphs and all other thumbnail regions are unchanged. Refresh Remote Listing, then Download Assets for changed cached bundles. Existing scene materials are not rewritten.
