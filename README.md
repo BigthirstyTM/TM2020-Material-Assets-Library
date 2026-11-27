@@ -14,7 +14,7 @@ The preceding [Dyna corrections](docs/DYNA-MATERIALS.md), [555 shader follow-up 
 
 ## Sponsor logo correction published
 
-Remote extension **1.0.5** now publishes **2026.11.27-vista-logo-masks-1** with the sixteen corrected vista sponsor decals and thumbnails. All public files, native listing, catalog assignments, isolated installation and sampled public appends passed independent verification. Both offline editions now publish the sixteen sponsor corrections and86 colorpicker badges after isolated installer and independent public-file verification. See [the exact shader/channel correction](docs/VISTA-LOGO-MASKS.md).
+The sixteen corrected vista sponsor decals and thumbnails, first published in remote extension **1.0.5**, are included in current extension **1.0.7** and both offline editions. All public files, native listing, catalog assignments, isolated installation and sampled public appends passed independent verification. Both offline editions now publish the sixteen sponsor corrections and 86 colorpicker badges after isolated installer and independent public-file verification. See [the exact shader/channel correction](docs/VISTA-LOGO-MASKS.md).
 
 ## Clearer red colorpicker badge
 

@@ -4,13 +4,13 @@ The **red paintbrush badge** identifies an explicit native `CPlugMaterialColorTa
 
 The item/block colorpicker selects a color index. The native table maps that index to a material-specific palette, and the shader/masks determine which parts change. This does not promise arbitrary RGB replacement, a complete surface recolor, or that changing a Blender color node changes the exported game palette. NoColorize names, fixed Hue targets and vertex colors are not used as evidence.
 
-Evidence: all985 decoded native materials and all1172 library entries were checked, including material-parent chains. Nine referenced table files were opened and verified as valid five-slot native palettes. There are109 native material resources with a table reference;23 have no standalone corresponding library entry and are listed separately below. No new per-material game colorpicker test was performed.
+Evidence: all 985 decoded native materials and all 1172 library entries were checked, including material-parent chains. Nine referenced table files were opened and verified as valid five-slot native palettes. There are 109 native material resources with a table reference; 23 have no standalone corresponding library entry and are listed separately below. No new per-material game colorpicker test was performed.
 
 ## Publication status
 
 Remote extension **1.0.7** and both offline editions publish the red paintbrush redesign after independent installation and public-file verification.
 
-Remote extension **1.0.7** is published and independently verified with all 86 brush badges. Both offline editions now publish revision `2026.11.27-colorpicker-red-brush-1` with the same86 badges after isolated installer and independent public-file verification.
+Remote extension **1.0.7** is published and independently verified with all 86 brush badges. Both offline editions now publish revision `2026.11.27-colorpicker-red-brush-1` with the same 86 badges after isolated installer and independent public-file verification.
 
 ## Full list of current library materials
 
